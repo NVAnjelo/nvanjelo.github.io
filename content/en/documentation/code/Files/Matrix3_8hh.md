@@ -1,0 +1,89 @@
+---
+
+title: "/home/anarendran/Documents/temp/rivet/include/Rivet/Math/Matrix3.hh"
+
+---
+
+# /home/anarendran/Documents/temp/rivet/include/Rivet/Math/Matrix3.hh
+
+
+
+## Namespaces
+
+| Name           |
+| -------------- |
+| **[Rivet](http://example.org/namespaces/namespacerivet/)** <br>-*- C++ -*-  |
+
+## Classes
+
+|                | Name           |
+| -------------- | -------------- |
+| class | **[Rivet::Matrix3](http://example.org/classes/classrivet_1_1matrix3/)** <br>Specialisation of MatrixN to aid 3 dimensional rotations.  |
+
+
+
+
+## Source code
+
+```cpp
+#ifndef RIVET_MATH_MATRIX3
+#define RIVET_MATH_MATRIX3
+
+#include "Rivet/Math/MathConstants.hh"
+#include "Rivet/Math/MathUtils.hh"
+#include "Rivet/Math/MatrixN.hh"
+#include "Rivet/Math/Vector3.hh"
+
+namespace Rivet {
+
+
+  class Matrix3 : public Matrix<3> {
+  public:
+    Matrix3() = default;
+
+    Matrix3(const Matrix<3>& m3) :  Matrix<3>::Matrix(m3) { }
+
+    Matrix3(const Vector3& axis, const double angle) {
+      const Vector3 normaxis = axis.unit();
+      _matrix = Eigen::AngleAxis<double>(angle, normaxis._vec);
+    }
+
+    Matrix3(const Vector3& from, const Vector3& to) {
+      setAsRotation(from, to);
+    }
+
+    static Matrix3 mkXRotation(const double angle) {
+      return Matrix3(Vector3(1,0,0), angle);
+    }
+
+    static Matrix3 mkYRotation(const double angle) {
+      return Matrix3(Vector3(0,1,0), angle);
+    }
+
+    static Matrix3 mkZRotation(const double angle) {
+      return Matrix3(Vector3(0,0,1), angle);
+    }
+
+    Matrix3& setAsRotation(const Vector3& from, const Vector3& to) {
+      const double theta = angle(from, to);
+      if (Rivet::isZero(theta)) {
+        _matrix = EMatrix::Identity();
+      } else {
+        const Vector3 normaxis = cross(from, to).unit();
+        _matrix = Eigen::AngleAxis<double>(theta, normaxis._vec);
+      }
+      return *this;
+    }
+
+  };
+
+
+}
+
+#endif
+```
+
+
+-------------------------------
+
+Updated on 2022-07-27 at 19:10:16 +0100

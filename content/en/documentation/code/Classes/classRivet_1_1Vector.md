@@ -1,0 +1,223 @@
+---
+
+title: "Rivet::Vector"
+summary: "A minimal base class for $ N $-dimensional vectors. "
+
+---
+
+# Rivet::Vector
+
+
+
+<a href="http://example.org/classes/classrivet_1_1a/">A</a> minimal base class for \( N \)-dimensional vectors.  [More...](#detailed-description)
+
+
+`#include <VectorN.hh>`
+
+## Public Types
+
+|                | Name           |
+| -------------- | -------------- |
+| using <a href="http://example.org/classes/classeigen_1_1matrix/">Eigen::Matrix</a>< double, N, 1 > | **[EVector](http://example.org/classes/classrivet_1_1vector/#using-evector)** <br><a href="http://example.org/classes/classrivet_1_1vector/">Vector</a>.  |
+
+## Public Functions
+
+|                | Name           |
+| -------------- | -------------- |
+| | **[Vector](http://example.org/classes/classrivet_1_1vector/#function-vector)**() |
+| | **[Vector](http://example.org/classes/classrivet_1_1vector/#function-vector)**(const <a href="http://example.org/classes/classrivet_1_1vector/">Vector</a>< N > & other) |
+| const double & | **[get](http://example.org/classes/classrivet_1_1vector/#function-get)**(const size_t index) const |
+| double & | **[get](http://example.org/classes/classrivet_1_1vector/#function-get)**(const size_t index) |
+| const double & | **[operator[]](http://example.org/classes/classrivet_1_1vector/#function-operator[])**(const size_t index) const<br>Direct access to vector elements by index.  |
+| double & | **[operator[]](http://example.org/classes/classrivet_1_1vector/#function-operator[])**(const size_t index)<br>Direct access to vector elements by index.  |
+| <a href="http://example.org/classes/classrivet_1_1vector/">Vector</a>< N > & | **[set](http://example.org/classes/classrivet_1_1vector/#function-set)**(const size_t index, const double value)<br>Set indexed value.  |
+| constexpr size_t | **[size](http://example.org/classes/classrivet_1_1vector/#function-size)**() const<br><a href="http://example.org/classes/classrivet_1_1vector/">Vector</a> dimensionality.  |
+| bool | **[isZero](http://example.org/classes/classrivet_1_1vector/#function-iszero)**(double tolerance =1E-5) const<br>Check for nullness, allowing for numerical precision.  |
+| double | **[mod2](http://example.org/classes/classrivet_1_1vector/#function-mod2)**() const<br>Calculate the modulus-squared of a vector. \( \sum_{i=1}^N x_i^2 \).  |
+| double | **[mod](http://example.org/classes/classrivet_1_1vector/#function-mod)**() const<br>Calculate the modulus of a vector. \( \sqrt{\sum_{i=1}^N x_i^2} \).  |
+| <a href="http://example.org/classes/classrivet_1_1vector/">Vector</a>< N > | **[operator-](http://example.org/classes/classrivet_1_1vector/#function-operator-)**() const<br>Invert the vector.  |
+| bool | **[operator==](http://example.org/classes/classrivet_1_1vector/#function-operator==)**(const <a href="http://example.org/classes/classrivet_1_1vector/">Vector</a>< N > & a) const |
+| bool | **[operator!=](http://example.org/classes/classrivet_1_1vector/#function-operator!=)**(const <a href="http://example.org/classes/classrivet_1_1vector/">Vector</a>< N > & a) const |
+
+## Public Attributes
+
+|                | Name           |
+| -------------- | -------------- |
+| <a href="http://example.org/classes/classrivet_1_1vector/#using-evector">EVector</a> | **[_vec](http://example.org/classes/classrivet_1_1vector/#variable--vec)**  |
+
+## Friends
+
+|                | Name           |
+| -------------- | -------------- |
+| <a href="http://example.org/classes/classrivet_1_1vector/">Vector</a>< M > | **[multiply](http://example.org/classes/classrivet_1_1vector/#friend-multiply)**(const <a href="http://example.org/classes/classrivet_1_1matrix/">Matrix</a>< M > & a, const <a href="http://example.org/classes/classrivet_1_1vector/">Vector</a>< M > & b)  |
+
+## Detailed Description
+
+```cpp
+template <size_t N>
+class Rivet::Vector;
+```
+
+<a href="http://example.org/classes/classrivet_1_1a/">A</a> minimal base class for \( N \)-dimensional vectors. 
+## Public Types Documentation
+
+### using EVector
+
+```cpp
+using Rivet::Vector< N >::EVector =  Eigen::Matrix<double,N,1>;
+```
+
+<a href="http://example.org/classes/classrivet_1_1vector/">Vector</a>. 
+
+## Public Functions Documentation
+
+### function Vector
+
+```cpp
+inline Vector()
+```
+
+
+### function Vector
+
+```cpp
+inline Vector(
+    const Vector< N > & other
+)
+```
+
+
+### function get
+
+```cpp
+inline const double & get(
+    const size_t index
+) const
+```
+
+
+### function get
+
+```cpp
+inline double & get(
+    const size_t index
+)
+```
+
+
+### function operator[]
+
+```cpp
+inline const double & operator[](
+    const size_t index
+) const
+```
+
+Direct access to vector elements by index. 
+
+### function operator[]
+
+```cpp
+inline double & operator[](
+    const size_t index
+)
+```
+
+Direct access to vector elements by index. 
+
+### function set
+
+```cpp
+inline Vector< N > & set(
+    const size_t index,
+    const double value
+)
+```
+
+Set indexed value. 
+
+### function size
+
+```cpp
+inline constexpr size_t size() const
+```
+
+<a href="http://example.org/classes/classrivet_1_1vector/">Vector</a> dimensionality. 
+
+### function isZero
+
+```cpp
+inline bool isZero(
+    double tolerance =1E-5
+) const
+```
+
+Check for nullness, allowing for numerical precision. 
+
+### function mod2
+
+```cpp
+inline double mod2() const
+```
+
+Calculate the modulus-squared of a vector. \( \sum_{i=1}^N x_i^2 \). 
+
+### function mod
+
+```cpp
+inline double mod() const
+```
+
+Calculate the modulus of a vector. \( \sqrt{\sum_{i=1}^N x_i^2} \). 
+
+### function operator-
+
+```cpp
+inline Vector< N > operator-() const
+```
+
+Invert the vector. 
+
+### function operator==
+
+```cpp
+inline bool operator==(
+    const Vector< N > & a
+) const
+```
+
+
+### function operator!=
+
+```cpp
+inline bool operator!=(
+    const Vector< N > & a
+) const
+```
+
+
+## Public Attributes Documentation
+
+### variable _vec
+
+```cpp
+EVector _vec;
+```
+
+
+## Friends
+
+### friend multiply
+
+```cpp
+friend Vector< M > multiply(
+    const Matrix< M > & a,
+
+    const Vector< M > & b
+);
+```
+
+
+-------------------------------
+
+Updated on 2022-07-27 at 19:10:11 +0100

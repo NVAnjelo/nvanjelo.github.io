@@ -1,0 +1,99 @@
+---
+
+title: "Eigen::internal::blas_traits< CwiseBinaryOp< scalar_product_op< Scalar >, NestedXpr, const CwiseNullaryOp< scalar_constant_op< Scalar >, Plain > > >"
+
+---
+
+# Eigen::internal::blas_traits< CwiseBinaryOp< scalar_product_op< Scalar >, NestedXpr, const CwiseNullaryOp< scalar_constant_op< Scalar >, Plain > > >
+
+
+
+ [More...](#detailed-description)
+
+
+`#include <BlasUtil.h>`
+
+Inherits from [Eigen::internal::blas_traits< NestedXpr >](http://example.org/classes/structeigen_1_1internal_1_1blas__traits/)
+
+## Public Types
+
+|                | Name           |
+| -------------- | -------------- |
+| typedef <a href="http://example.org/classes/structeigen_1_1internal_1_1blas__traits/">blas_traits</a>< NestedXpr > | **[Base](http://example.org/classes/structeigen_1_1internal_1_1blas__traits_3_01cwisebinaryop_3_01scalar__product__op_3_01scalar_01_aa87993799f77f4576f6aa8372930803/#typedef-base)**  |
+| typedef <a href="http://example.org/classes/classeigen_1_1cwisebinaryop/">CwiseBinaryOp</a>< <a href="http://example.org/classes/structeigen_1_1internal_1_1scalar__product__op/">scalar_product_op</a>< <a href="http://example.org/classes/structeigen_1_1internal_1_1blas__traits/#typedef-scalar">Scalar</a> >, NestedXpr, const <a href="http://example.org/classes/classeigen_1_1cwisenullaryop/">CwiseNullaryOp</a>< <a href="http://example.org/classes/structeigen_1_1internal_1_1scalar__constant__op/">scalar_constant_op</a>< <a href="http://example.org/classes/structeigen_1_1internal_1_1blas__traits/#typedef-scalar">Scalar</a> >, Plain > > | **[XprType](http://example.org/classes/structeigen_1_1internal_1_1blas__traits_3_01cwisebinaryop_3_01scalar__product__op_3_01scalar_01_aa87993799f77f4576f6aa8372930803/#typedef-xprtype)**  |
+| typedef <a href="http://example.org/classes/structeigen_1_1internal_1_1blas__traits/#typedef-extracttype">Base::ExtractType</a> | **[ExtractType](http://example.org/classes/structeigen_1_1internal_1_1blas__traits_3_01cwisebinaryop_3_01scalar__product__op_3_01scalar_01_aa87993799f77f4576f6aa8372930803/#typedef-extracttype)**  |
+
+## Public Functions
+
+|                | Name           |
+| -------------- | -------------- |
+| <a href="http://example.org/classes/structeigen_1_1internal_1_1blas__traits_3_01cwisebinaryop_3_01scalar__product__op_3_01scalar_01_aa87993799f77f4576f6aa8372930803/#typedef-extracttype">ExtractType</a> | **[extract](http://example.org/classes/structeigen_1_1internal_1_1blas__traits_3_01cwisebinaryop_3_01scalar__product__op_3_01scalar_01_aa87993799f77f4576f6aa8372930803/#function-extract)**(const <a href="http://example.org/classes/structeigen_1_1internal_1_1blas__traits_3_01cwisebinaryop_3_01scalar__product__op_3_01scalar_01_aa87993799f77f4576f6aa8372930803/#typedef-xprtype">XprType</a> & x) |
+| <a href="http://example.org/classes/structeigen_1_1internal_1_1blas__traits/#typedef-scalar">Scalar</a> | **[extractScalarFactor](http://example.org/classes/structeigen_1_1internal_1_1blas__traits_3_01cwisebinaryop_3_01scalar__product__op_3_01scalar_01_aa87993799f77f4576f6aa8372930803/#function-extractscalarfactor)**(const <a href="http://example.org/classes/structeigen_1_1internal_1_1blas__traits_3_01cwisebinaryop_3_01scalar__product__op_3_01scalar_01_aa87993799f77f4576f6aa8372930803/#typedef-xprtype">XprType</a> & x) |
+
+## Additional inherited members
+
+**Public Types inherited from [Eigen::internal::blas_traits< NestedXpr >](http://example.org/classes/structeigen_1_1internal_1_1blas__traits/)**
+
+|                | Name           |
+| -------------- | -------------- |
+| enum| **[@357](http://example.org/classes/structeigen_1_1internal_1_1blas__traits/#enum-@357)** { IsComplex, IsTransposed, NeedToConjugate, HasUsableDirectAccess} |
+| typedef <a href="http://example.org/classes/structeigen_1_1internal_1_1traits/">traits</a>< XprType >::Scalar | **[Scalar](http://example.org/classes/structeigen_1_1internal_1_1blas__traits/#typedef-scalar)**  |
+| typedef XprType | **[_ExtractType](http://example.org/classes/structeigen_1_1internal_1_1blas__traits/#typedef--extracttype)**  |
+| typedef <a href="http://example.org/classes/structeigen_1_1internal_1_1conditional/">conditional</a>< bool(<a href="http://example.org/classes/structeigen_1_1internal_1_1blas__traits/#enumvalue-hasusabledirectaccess">HasUsableDirectAccess</a>), <a href="http://example.org/classes/structeigen_1_1internal_1_1blas__traits/#typedef-extracttype">ExtractType</a>, typename_ExtractType::PlainObject >::type | **[DirectLinearAccessType](http://example.org/classes/structeigen_1_1internal_1_1blas__traits/#typedef-directlinearaccesstype)**  |
+
+
+## Detailed Description
+
+```cpp
+template <typename Scalar ,
+typename NestedXpr ,
+typename Plain >
+struct Eigen::internal::blas_traits< CwiseBinaryOp< scalar_product_op< Scalar >, NestedXpr, const CwiseNullaryOp< scalar_constant_op< Scalar >, Plain > > >;
+```
+
+## Public Types Documentation
+
+### typedef Base
+
+```cpp
+typedef blas_traits<NestedXpr> Eigen::internal::blas_traits< CwiseBinaryOp< scalar_product_op< Scalar >, NestedXpr, const CwiseNullaryOp< scalar_constant_op< Scalar >, Plain > > >::Base;
+```
+
+
+### typedef XprType
+
+```cpp
+typedef CwiseBinaryOp<scalar_product_op<Scalar>, NestedXpr, const CwiseNullaryOp<scalar_constant_op<Scalar>,Plain> > Eigen::internal::blas_traits< CwiseBinaryOp< scalar_product_op< Scalar >, NestedXpr, const CwiseNullaryOp< scalar_constant_op< Scalar >, Plain > > >::XprType;
+```
+
+
+### typedef ExtractType
+
+```cpp
+typedef Base::ExtractType Eigen::internal::blas_traits< CwiseBinaryOp< scalar_product_op< Scalar >, NestedXpr, const CwiseNullaryOp< scalar_constant_op< Scalar >, Plain > > >::ExtractType;
+```
+
+
+## Public Functions Documentation
+
+### function extract
+
+```cpp
+static inline ExtractType extract(
+    const XprType & x
+)
+```
+
+
+### function extractScalarFactor
+
+```cpp
+static inline Scalar extractScalarFactor(
+    const XprType & x
+)
+```
+
+
+-------------------------------
+
+Updated on 2022-07-27 at 19:10:13 +0100

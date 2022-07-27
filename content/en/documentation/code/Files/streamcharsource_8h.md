@@ -1,0 +1,82 @@
+---
+
+title: "/home/anarendran/Documents/temp/rivet/src/Core/yamlcpp/streamcharsource.h"
+
+---
+
+# /home/anarendran/Documents/temp/rivet/src/Core/yamlcpp/streamcharsource.h
+
+
+
+## Namespaces
+
+| Name           |
+| -------------- |
+| **[RIVET_YAML](http://example.org/namespaces/namespacerivet__yaml/)**  |
+
+## Classes
+
+|                | Name           |
+| -------------- | -------------- |
+| class | **[RIVET_YAML::StreamCharSource](http://example.org/classes/classrivet__yaml_1_1streamcharsource/)**  |
+
+
+
+
+## Source code
+
+```cpp
+#ifndef STREAMCHARSOURCE_H_62B23520_7C8E_11DE_8A39_0800200C9A66
+#define STREAMCHARSOURCE_H_62B23520_7C8E_11DE_8A39_0800200C9A66
+
+#if defined(_MSC_VER) ||                                            \
+    (defined(__GNUC__) && (__GNUC__ == 3 && __GNUC_MINOR__ >= 4) || \
+     (__GNUC__ >= 4))  // GCC supports "pragma once" correctly since 3.4
+#pragma once
+#endif
+
+#include <cstddef>
+
+namespace RIVET_YAML {
+class StreamCharSource {
+ public:
+  StreamCharSource(const Stream& stream) : m_offset(0), m_stream(stream) {}
+  StreamCharSource(const StreamCharSource& source)
+      : m_offset(source.m_offset), m_stream(source.m_stream) {}
+  StreamCharSource(StreamCharSource&&) = default;
+  StreamCharSource& operator=(const StreamCharSource&) = delete;
+  StreamCharSource& operator=(StreamCharSource&&) = delete;
+  ~StreamCharSource() {}
+
+  operator bool() const;
+  char operator[](std::size_t i) const { return m_stream.CharAt(m_offset + i); }
+  bool operator!() const { return !static_cast<bool>(*this); }
+
+  const StreamCharSource operator+(int i) const;
+
+ private:
+  std::size_t m_offset;
+  const Stream& m_stream;
+};
+
+inline StreamCharSource::operator bool() const {
+  return m_stream.ReadAheadTo(m_offset);
+}
+
+inline const StreamCharSource StreamCharSource::operator+(int i) const {
+  StreamCharSource source(*this);
+  if (static_cast<int>(source.m_offset) + i >= 0)
+    source.m_offset += i;
+  else
+    source.m_offset = 0;
+  return source;
+}
+}  // namespace RIVET_YAML
+
+#endif  // STREAMCHARSOURCE_H_62B23520_7C8E_11DE_8A39_0800200C9A66
+```
+
+
+-------------------------------
+
+Updated on 2022-07-27 at 19:10:16 +0100
