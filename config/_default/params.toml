@@ -80,7 +80,7 @@ alertText = "Introducing the Doks child theme, several DX + UX updates, and more
 # repoHost [Github | Gitea | GitLab | Bitbucket | BitbucketServer ] is used for building the edit link based on git hoster
 repoHost = "GitHub"
 #repoHost = "Gitea"
-docsRepo = "https://github.com/NVAnjelo/rivet-website-build1"
+docsRepo = "https://github.com/NVAnjelo/NVAnjelo.github.io"
 docsRepoBranch = "master"
 docsRepoSubPath = ""
 editPage = false
