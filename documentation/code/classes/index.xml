@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Classes on</title><link>https://nvanjelo.github.io/documentation/code/classes/</link><description>Recent content in Classes on</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://nvanjelo.github.io/documentation/code/classes/index.xml" rel="self" type="application/rss+xml"/><item><title>class Rivet::ALICE::CLMultiplicity</title><link>https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1alice_1_1clmultiplicity/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1alice_1_1clmultiplicity/</guid><description>Rivet::ALICE::CLMultiplicity # More&amp;hellip;
+#include &amp;lt;AliceCommon.hh&amp;gt;
+Inherits from Rivet::SingleValueProjection, Rivet::Projection, Rivet::ProjectionApplier
+Public Functions # Name virtual std::string name() const
+Get the name of the projection. bool valid() const
+Get the state of the projetion. bool failed() const
+Get the state of the projetion. bool before(const Projection &amp;amp; p) const virtual const std::set&amp;lt; PdgIdPair &amp;gt; beamPairs() const Projection &amp;amp; addPdgIdPair(PdgId beam1, PdgId beam2) std::set&amp;lt; ConstProjectionPtr &amp;gt; getProjections() const
+Get the contained projections, including recursion.</description></item><item><title>class Rivet::ALICE::PrimaryParticles</title><link>https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1alice_1_1primaryparticles/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1alice_1_1primaryparticles/</guid><description>Rivet::ALICE::PrimaryParticles # Standard ALICE primary particle definition. More&amp;hellip;
+#include &amp;lt;AliceCommon.hh&amp;gt;
+Inherits from Rivet::PrimaryParticles, Rivet::ParticleFinder, Rivet::Projection, Rivet::ProjectionApplier
+Public Types # Name typedef Particle entity_type typedef Particles collection_type Public Functions # Name size_t size() const
+Count the final-state particles. size_t size(const Cut &amp;amp; c) const
+Count the final-state particles after a Cut is applied. size_t size(const ParticleSelector &amp;amp; s) const
+Count the final-state particles after a selection functor is applied. bool empty() const</description></item><item><title>class Rivet::ALICE::V0AndTrigger</title><link>https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1alice_1_1v0andtrigger/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1alice_1_1v0andtrigger/</guid><description>Rivet::ALICE::V0AndTrigger # Trigger projection for the ALICE V0-AND (a.k.a. CINT7) requirement.
+#include &amp;lt;AliceCommon.hh&amp;gt;
+Inherits from Rivet::TriggerProjection, Rivet::Projection, Rivet::ProjectionApplier
+Public Functions # Name virtual std::string name() const
+Get the name of the projection. bool valid() const
+Get the state of the projetion. bool failed() const
+Get the state of the projetion. bool before(const Projection &amp;amp; p) const virtual const std::set&amp;lt; PdgIdPair &amp;gt; beamPairs() const Projection &amp;amp; addPdgIdPair(PdgId beam1, PdgId beam2) std::set&amp;lt; ConstProjectionPtr &amp;gt; getProjections() const</description></item><item><title>class Rivet::ALICE::V0Multiplicity</title><link>https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1alice_1_1v0multiplicity/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1alice_1_1v0multiplicity/</guid><description>Rivet::ALICE::V0Multiplicity # More&amp;hellip;
+#include &amp;lt;AliceCommon.hh&amp;gt;
+Inherits from Rivet::SingleValueProjection, Rivet::Projection, Rivet::ProjectionApplier
+Public Functions # Name virtual std::string name() const
+Get the name of the projection. bool valid() const
+Get the state of the projetion. bool failed() const
+Get the state of the projetion. bool before(const Projection &amp;amp; p) const virtual const std::set&amp;lt; PdgIdPair &amp;gt; beamPairs() const Projection &amp;amp; addPdgIdPair(PdgId beam1, PdgId beam2) std::set&amp;lt; ConstProjectionPtr &amp;gt; getProjections() const
+Get the contained projections, including recursion.</description></item><item><title>class Rivet::ALICE::V0Trigger</title><link>https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1alice_1_1v0trigger/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1alice_1_1v0trigger/</guid><description>Rivet::ALICE::V0Trigger # More&amp;hellip;
+#include &amp;lt;AliceCommon.hh&amp;gt;
+Inherits from Rivet::TriggerProjection, Rivet::Projection, Rivet::ProjectionApplier
+Public Functions # Name virtual std::string name() const
+Get the name of the projection. bool valid() const
+Get the state of the projetion. bool failed() const
+Get the state of the projetion. bool before(const Projection &amp;amp; p) const virtual const std::set&amp;lt; PdgIdPair &amp;gt; beamPairs() const Projection &amp;amp; addPdgIdPair(PdgId beam1, PdgId beam2) std::set&amp;lt; ConstProjectionPtr &amp;gt; getProjections() const
+Get the contained projections, including recursion.</description></item><item><title>class Rivet::Analysis</title><link>https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1analysis/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1analysis/</guid><description>Rivet::Analysis # This is the base class of all analysis classes in Rivet. More&amp;hellip;
+#include &amp;lt;Analysis.hh&amp;gt;
+Inherits from Rivet::ProjectionApplier
+Inherited by Rivet::CumulantAnalysis, Rivet::MC_JetAnalysis, Rivet::MC_JetSplittings, Rivet::MC_ParticleAnalysis
+Public Functions # Name virtual void rawHookIn(YODA::AnalysisObjectPtr yao) virtual void rawHookOut(vector&amp;lt; MultiweightAOPtr &amp;gt; raos, size_t iW) const std::map&amp;lt; std::string, std::string &amp;gt; &amp;amp; options() const
+Return the map of all options given to this analysis. std::string getOption(std::string optname, string def =&amp;quot;&amp;quot;) const
+Get an option for this analysis instance as a string.</description></item><item><title>class Rivet::Analysis::CounterAdapter</title><link>https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1analysis_1_1counteradapter/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1analysis_1_1counteradapter/</guid><description>Rivet::Analysis::CounterAdapter # To be used in finalize context only.
+Public Functions # Name CounterAdapter(double x) CounterAdapter(const YODA::Counter &amp;amp; c) CounterAdapter(const YODA::Scatter1D &amp;amp; s) operator double() const Public Functions Documentation # function CounterAdapter # inline CounterAdapter( double x ) function CounterAdapter # inline CounterAdapter( const YODA::Counter &amp;amp; c ) function CounterAdapter # inline CounterAdapter( const YODA::Scatter1D &amp;amp; s ) function operator double # inline operator double() const Updated on 2022-07-28 at 18:36:45 +0100</description></item><item><title>class Rivet::AnalysisHandler</title><link>https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1analysishandler/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1analysishandler/</guid><description>Rivet::AnalysisHandler # The key class for coordination of Analysis objects and the event loop. More&amp;hellip;
+#include &amp;lt;AnalysisHandler.hh&amp;gt;
+Public Types # Name enum class Stage { OTHER, INIT, FINALIZE} Public Functions # Name Stage stage() const
+Return the current processing stage. string runName() const
+Get the name of this run. size_t numEvents() const double sumW() const
+Access the sum of the event weights seen. double sumW2() const
+Access to the sum of squared-weights.</description></item><item><title>class Rivet::AnalysisInfo</title><link>https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1analysisinfo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1analysisinfo/</guid><description>Rivet::AnalysisInfo # Holder of analysis metadata.
+#include &amp;lt;AnalysisInfo.hh&amp;gt;
+Public Functions # Name unique_ptr&amp;lt; AnalysisInfo &amp;gt; make(const std::string &amp;amp; name)
+Static factory method: returns null pointer if no metadata found. AnalysisInfo()
+Default constructor. ~AnalysisInfo() std::string name() const void setName(const std::string &amp;amp; name)
+Set the name of the analysis. std::string getRefDataName() const
+Get the reference data name of the analysis (if different from plugin name). void setRefDataName(const std::string &amp;amp; name)
+Set the reference data name of the analysis (if different from plugin name).</description></item><item><title>class Rivet::AnalysisLoader</title><link>https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1analysisloader/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1analysisloader/</guid><description>Rivet::AnalysisLoader # Internal class which loads and registers analyses from plugin libs.
+#include &amp;lt;AnalysisLoader.hh&amp;gt;
+Public Functions # Name vector&amp;lt; string &amp;gt; analysisNames()
+Get the available analyses&amp;rsquo; canonical names. vector&amp;lt; string &amp;gt; allAnalysisNames()
+Get all the available analyses&amp;rsquo; names, including aliases. vector&amp;lt; string &amp;gt; getAllAnalysisNames() vector&amp;lt; string &amp;gt; stdAnalysisNames()
+Get the standard analyses&amp;rsquo; names (from a release-specific list file) map&amp;lt; string, string &amp;gt; analysisNameAliases()
+Get the map of analysis alias-names to their canonical equivalents.</description></item></channel></rss>

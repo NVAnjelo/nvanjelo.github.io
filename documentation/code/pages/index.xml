@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pages on</title><link>https://nvanjelo.github.io/documentation/code/pages/</link><description>Recent content in Pages on</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://nvanjelo.github.io/documentation/code/pages/index.xml" rel="self" type="application/rss+xml"/><item><title>page Deprecated List</title><link>https://nvanjelo.github.io/documentation/code/pages/deprecated/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nvanjelo.github.io/documentation/code/pages/deprecated/</guid><description>Deprecated List # Member DECLARE_ALIASED_RIVET_PLUGIN (clsname, alias)
+Prefer the RIVET_DECLARE_ALIASED_PLUGIN version with predictable RIVET_ prefix Member DECLARE_RIVET_PLUGIN (clsname)
+Prefer the RIVET_DECLARE_PLUGIN version with predictable RIVET_ prefix Member DEFAULT_RIVET_ANALYSIS_CONSTRUCTOR (clsname)
+Prefer the &amp;ldquo;CTOR&amp;rdquo; version Member DEFAULT_RIVET_ANALYSIS_CTOR (clsname)
+Prefer the RIVET_DEFAULT_ANALYSIS_CTOR version with predictable RIVET_ prefix Member Rivet::AnalysisHandler::beamIds () const
+Use standalone beamIds(ah.beams()), to clean AH interface Member Rivet::AnalysisHandler::dump (const string &amp;amp;dumpfile, int period)
+Prefer setAODump() Member Rivet::AnalysisHandler::setIgnoreBeams (bool ignore=true)
+Use checkBeams() Member Rivet::AnalysisHandler::sqrtS () const</description></item><item><title>page Todo List</title><link>https://nvanjelo.github.io/documentation/code/pages/todo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nvanjelo.github.io/documentation/code/pages/todo/</guid><description>Todo List # Module analysis_beamcompat
+Replace with beamsCompatible() with no args (calling beams() function internally) Add beamsMatch() methods with same (shared-code?) tolerance as in beamsCompatible() Module analysis_cbook
+Add &amp;ldquo;tmp&amp;rdquo; flags to book in standard temporary paths Module analysis_histopaths
+Add &amp;ldquo;tmp&amp;rdquo; flags to return /ANA/TMP/foo/bar paths Module analysis_manip
+Should really be protected: only public to keep BinnedHistogram happy for now&amp;hellip; Module analysis_s2book
+REINSTATE Module particlebasetutils_pb2bool
+Move to FourMomentum functions Module particlebaseutils_kin</description></item></channel></rss>

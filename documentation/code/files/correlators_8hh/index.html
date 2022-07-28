@@ -1,0 +1,1039 @@
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="ie=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><link rel=preload as=font href=https://nvanjelo.github.io/fonts/vendor/jost/jost-v4-latin-regular.woff2 type=font/woff2 crossorigin><link rel=preload as=font href=https://nvanjelo.github.io/fonts/vendor/jost/jost-v4-latin-500.woff2 type=font/woff2 crossorigin><link rel=preload as=font href=https://nvanjelo.github.io/fonts/vendor/jost/jost-v4-latin-700.woff2 type=font/woff2 crossorigin><script>(()=>{var t=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches,e=localStorage.getItem("theme");t&&e===null&&(localStorage.setItem("theme","dark"),document.documentElement.setAttribute("data-dark-mode","")),t&&e==="dark"&&document.documentElement.setAttribute("data-dark-mode",""),e==="dark"&&document.documentElement.setAttribute("data-dark-mode","")})()</script><link rel=stylesheet href=https://nvanjelo.github.io/main.7169dae723a2b8b65933dc980be71a93966b3e262ffe73d2497fd2b80f1b844d8d3595731520dba5ae9c066f25aa0e62467e573297fc2990b9dd3c8d732be387.css integrity="sha512-cWna5yOiuLZZM9yYC+cak5ZrPiYv/nPSSX/SuA8bhE2NNZVzFSDbpa6cBm8lqg5iRn5XMpf8KZC53TyNcyvjhw==" crossorigin=anonymous><noscript><style>img.lazyload{display:none}</style></noscript><meta name=robots content="index, follow"><meta name=googlebot content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"><meta name=bingbot content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"><title>file /home/anarendran/Documents/temp/rivet/include/Rivet/Tools/Correlators.hh - Rivet</title><meta name=description content="[Documentation update required.]"><link rel=canonical href=https://nvanjelo.github.io/documentation/code/files/correlators_8hh/><meta property="og:locale" content="en_US"><meta property="og:type" content="article"><meta property="og:title" content="file /home/anarendran/Documents/temp/rivet/include/Rivet/Tools/Correlators.hh"><meta property="og:description" content="[Documentation update required.]"><meta property="og:url" content="https://nvanjelo.github.io/documentation/code/files/correlators_8hh/"><meta property="og:site_name" content="Rivet"><meta property="og:image" content="https://nvanjelo.github.io/rivet.jpg"><meta property="og:image:alt" content="Rivet"><meta name=twitter:card content="summary_large_image"><meta name=twitter:site content><meta name=twitter:creator content><meta name=twitter:title content="file /home/anarendran/Documents/temp/rivet/include/Rivet/Tools/Correlators.hh"><meta name=twitter:description content="[Documentation update required.]"><meta name=twitter:image content="https://nvanjelo.github.io/rivet.jpg"><meta name=twitter:image:alt content="file /home/anarendran/Documents/temp/rivet/include/Rivet/Tools/Correlators.hh"><script type=application/ld+json>{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://nvanjelo.github.io/#/schema/organization/1","name":"Doks","url":"https://nvanjelo.github.io/","sameAs":["https://twitter.com/getdoks","https://github.com/NVAnjelo/NVAnjelo.github.io"],"logo":{"@type":"ImageObject","@id":"https://nvanjelo.github.io/#/schema/image/1","url":"https://nvanjelo.github.io/logo-doks.png","width":512,"height":512,"caption":"Doks"},"image":{"@id":"https://nvanjelo.github.io/#/schema/image/1"}},{"@type":"WebSite","@id":"https://nvanjelo.github.io/#/schema/website/1","url":"https://nvanjelo.github.io/","name":"Rivet","description":"The Rivet toolkit (Robust Independent Validation of Experiment and Theory) is a system for validation of Monte Carlo event generators. It provides a large (and ever growing) set of experimental analyses useful for MC generator development, validation, and tuning, as well as a convenient infrastructure for adding your own analyses. ","publisher":{"@id":"https://nvanjelo.github.io/#/schema/organization/1"}},{"@type":"WebPage","@id":"https://nvanjelo.github.io/documentation/code/files/correlators_8hh/","url":"https://nvanjelo.github.io/documentation/code/files/correlators_8hh/","name":"file \/home\/anarendran\/Documents\/temp\/rivet\/include\/Rivet\/Tools\/Correlators.hh","description":"[Documentation update required.]","isPartOf":{"@id":"https://nvanjelo.github.io/#/schema/website/1"},"about":{"@id":"https://nvanjelo.github.io/#/schema/organization/1"},"datePublished":"0001-01-01T00:00:00CET","dateModified":"0001-01-01T00:00:00CET","breadcrumb":{"@id":"https://nvanjelo.github.io/documentation/code/files/correlators_8hh/#/schema/breadcrumb/1"},"primaryImageOfPage":{"@id":"https://nvanjelo.github.io/documentation/code/files/correlators_8hh/#/schema/image/2"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://nvanjelo.github.io/documentation/code/files/correlators_8hh/"]}]},{"@type":"BreadcrumbList","@id":"https://nvanjelo.github.io/documentation/code/files/correlators_8hh/#/schema/breadcrumb/1","name":"Breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"WebPage","@id":"https://nvanjelo.github.io/","url":"https://nvanjelo.github.io/","name":"Home"}},{"@type":"ListItem","position":2,"item":{"@type":"WebPage","@id":"https://nvanjelo.github.io/documentation/","url":"https://nvanjelo.github.io/documentation/","name":"Documentation"}},{"@type":"ListItem","position":3,"item":{"@type":"WebPage","@id":"https://nvanjelo.github.io/documentation/code/","url":"https://nvanjelo.github.io/documentation/code/","name":"Code"}},{"@type":"ListItem","position":4,"item":{"@type":"WebPage","@id":"https://nvanjelo.github.io/documentation/code/files/","url":"https://nvanjelo.github.io/documentation/code/files/","name":"Files"}},{"@type":"ListItem","position":5,"item":{"@id":"https://nvanjelo.github.io/documentation/code/files/correlators_8hh/"}}]},{"@context":"https://schema.org","@graph":[{"@type":"ImageObject","@id":"https://nvanjelo.github.io/documentation/code/files/correlators_8hh/#/schema/image/2","url":"https://nvanjelo.github.io/rivet.jpg","contentUrl":"https://nvanjelo.github.io/rivet.jpg","caption":"file \/home\/anarendran\/Documents\/temp\/rivet\/include\/Rivet\/Tools\/Correlators.hh"}]}]}</script><meta name=theme-color content="#fff"><link rel=icon href=https://nvanjelo.github.io/favicon.ico sizes=any><link rel=icon type=image/svg+xml href=https://nvanjelo.github.io/favicon.svg><link rel=apple-touch-icon sizes=180x180 href=https://nvanjelo.github.io/apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=https://nvanjelo.github.io/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=https://nvanjelo.github.io/favicon-16x16.png><link rel=manifest crossorigin=use-credentials href=https://nvanjelo.github.io/site.webmanifest></head><body class="documentation single"><div class=sticky-top><div class=header-bar></div><header class="navbar navbar-expand-lg navbar-light doks-navbar"><nav class="container-xxl flex-wrap flex-lg-nowrap" aria-label="Main navigation"><a class="navbar-brand order-0" href=/ aria-label=Rivet>Rivet</a>
+<button class="btn btn-menu order-2 d-block d-lg-none" type=button data-bs-toggle=offcanvas data-bs-target=#offcanvasDoks aria-controls=offcanvasDoks aria-label="Open main menu"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg></button><div class="offcanvas offcanvas-end border-0 py-lg-1" tabindex=-1 id=offcanvasDoks data-bs-backdrop=true aria-labelledby=offcanvasDoksLabel><div class="header-bar d-lg-none"></div><div class="offcanvas-header d-lg-none"><h2 class="h5 offcanvas-title ps-2" id=offcanvasDoksLabel><a class=text-dark href=/>Rivet</a></h2><button type=button class="btn-close text-reset me-2" data-bs-dismiss=offcanvas aria-label="Close main menu"></button></div><div class="offcanvas-body p-4 p-lg-0"><ul class="nav flex-column flex-lg-row align-items-lg-center mt-2 mt-lg-0 ms-lg-2 me-lg-auto"><li class="nav-item dropdown"><a class="nav-link dropdown-toggle ps-0 py-1" href=# id=navbarDropdownMenuLink role=button data-bs-toggle=dropdown aria-expanded=false>Documentation
+<span class=dropdown-caret><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"/></svg></span></a><ul class="dropdown-menu dropdown-menu-main shadow rounded border-0" aria-labelledby=navbarDropdownMenuLink><li><a class=dropdown-item href=/documentation/code/index_mainpage>Main Page</a></li></ul></li></ul><hr class="text-black-50 my-4 d-lg-none"><form class="doks-search position-relative flex-grow-1 ms-lg-auto me-lg-2"><input id=search class="form-control is-search" type=search placeholder="Search docs..." aria-label="Search docs..." autocomplete=off><div id=suggestions class="shadow bg-white rounded d-none"></div></form><hr class="text-black-50 my-4 d-lg-none"><ul class="nav flex-column flex-lg-row"><li class=nav-item><a class="nav-link social-link" href=https://gitlab.com/hepcedar/rivet/><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37.0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44.0 0020 4.77 5.07 5.07.0 0019.91 1S18.73.65 16 2.48a13.38 13.38.0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07.0 005 4.77 5.44 5.44.0 003.5 8.55c0 5.42 3.3 6.61 6.44 7A3.37 3.37.0 009 18.13V22"/></svg><small class="ms-2 d-lg-none">GitHub</small></a></li></ul><hr class="text-black-50 my-4 d-lg-none"><button id=mode class="btn btn-link" type=button aria-label="Toggle user interface mode">
+<span class=toggle-dark><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg></span><span class=toggle-light><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></span></button></div></div></nav></header></div><div class=container-xxl><aside class=doks-sidebar><nav id=doks-docs-nav class="collapse d-lg-none" aria-label="Tertiary navigation"><ul class="list-unstyled collapsible-sidebar"><li class=mb-1><button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle=collapse data-bs-target=#section-7c826509538a5ea003ec26774a3adffb aria-expanded=true>
+page The Rivet MC analysis framework</button><div class="collapse show" id=section-7c826509538a5ea003ec26774a3adffb><ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small"><li class="my-1 ms-3"><button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle=collapse data-bs-target=#section-bf17ac149e2e7a530c677e9bd51d3fd2 aria-expanded=false>
+Modules</button><div class=collapse id=section-bf17ac149e2e7a530c677e9bd51d3fd2><ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small"><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__analysis__h1book/>group 1D histogram booking</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__analysis__p1book/>group 1D profile histogram booking</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__analysis__h2book/>group 2D histogram booking</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__analysis__p2book/>group 2D profile histogram booking</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__analysis__s2book/>group 2D scatter booking</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__analysis__s3book/>group 3D scatter booking</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__momutils__cmp/>group 4-vector comparison functions (for sorting)</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__momutils__str/>group 4-vector string representations</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__alice/>group ALICE specifics</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__analysis__beamcompat/>group Analysis / beam compatibility testing</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__anamacros/>group Analysis macros</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__analysis__manip/>group Analysis object manipulation</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__aomanip/>group Analysis object manipulation functions</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__anainfo__options/>group Analysis-options support</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__mcutils__angmom/>group Angular momentum functions</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__momutils__vec3__deta/>group avoidf$ |avoidDelta eta|avoidf$ calculations from 3-vectors</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__momutils__vec3__dphi/>group avoidf$avoidDelta phiavoidf$ calculations from 3-vectors</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__momutils__vec3__dr/>group avoidf$avoidDelta Ravoidf$ calculations from 3-vectors</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__analysis__bookhi/>group Booking heavy ion features</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__mcutils__charge/>group Charge functions</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__contutils/>group Container utils</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__jetutils__conv/>group Converting between Jets, Particles and PseudoJets</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__analysis__cbook/>group Counter booking</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__analysis__xsecvars/>group Cross-section variables</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__analysis__aoaccess/>group Data object registration, retrieval, and removal</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__smearing/>group Detector smearing & efficiency functions</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__smearing__elec/>group Experiment-specific electron efficiency and smearing functions</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__smearing__jet/>group Experiment-specific jet efficiency and smearing functions</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__smearing__met/>group Experiment-specific missing-ET smearing functions</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__smearing__muon/>group Experiment-specific muon efficiency and smearing functions</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__smearing__photon/>group Experiment-specific photon efficiency and smearing functions</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__smearing__tau/>group Experiment-specific tau efficiency and smearing functions</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__smearing__trk/>group Experiment-specific tracking efficiency and smearing functions</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__momutils/>group Functions for 4-momenta</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__jetutils/>group Functions for Jets</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__particleutils/>group Functions for Particles</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__particlebaseutils/>group Functions for Particles and Jets</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__mcutils__fundamental/>group Fundamental particles</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__mcutils__charge__classes/>group General PID-based classifier functions</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__smearing__mom/>group Generic 4-momentum filtering, efficiency and smearing utils</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__smearing__particle/>group Generic jet filtering, efficiency and smearing utils</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__analysis__histopaths/>group Histogram paths</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__analysis__refdata/>group Histogram reference data</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__mcutils__interactions/>group Interaction classifiers</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__particlebaseutils__iso/>group Isolation helpers</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__jetutils__j2bool/>group Jet classifier -> bool functors</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__logmacros/>group Logging macros</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__analysis__main/>group Main analysis methods</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__mathutils/>group Maths utilities</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__anainfo__metadata/>group Metadata</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__analysis__meta/>group Metadata</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__aotuples/>group Minimal objects representing AO fills, to be buffered before pushToPersistent().</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__mcutils__idclasses/>group More general particle class identification functions</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__momutils__mt/>group MT calculation</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__momutils__vec3__mt/>group MT calculation</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__particlebaseutils__uberfilt/>group Next-level filtering</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__particleutils__nonpid/>group Non-PID particle properties, via unbound functions</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__mcutils__nucleus__ion/>group Nucleus/ion functions</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__jetutils__coll/>group Operations on collections of Jet</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__particleutils__kin/>group Operations on collections of Particle</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__mcutils__other/>group Other classifiers</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__utils/>group Other utilities</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__particleutils__charge/>group Particle charge/sign comparison functions</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__particleutils__p2bool/>group Particle classifier -> bool functors</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__particleutils__class/>group Particle classifier functions</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__particleutils__pairclass/>group Particle pair classifiers</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__ppair__class/>group Particle pair classifiers</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__particleutils__pair/>group Particle pair functions</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__particlebasetutils__pb2bool/>group ParticleBase classifier -> bool functors</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__particlebaseutils__pb2dbl/>group ParticleBase comparison -> double functors</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__mcutils__parton__classes/>group Parton content classification</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__mcutils__partoncontent/>group Parton content functions</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__pathutils/>group Path utils</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__mcutils__qcomp/>group Quark composite functions</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__rivetpaths/>group Rivet file searching utils</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__analysis__run/>group Run conditions</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__anainfo__status/>group Status info and categories</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__strutils/>group String utils</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__jetutils__filt/>group Unbound functions for filtering jets</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__particleutils__filt/>group Unbound functions for filtering particles</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__particlebaseutils__kin/>group Unbound functions for kinematic properties</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__useraos/>group User-facing analysis object wrappers</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/modules/group__mcutils__utils/>group Utility functions</a></li></ul></div></li><li class="my-1 ms-3"><button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle=collapse data-bs-target=#section-e9878b4854d29907146149f695cb1cfb aria-expanded=false>
+Classes</button><div class=collapse id=section-e9878b4854d29907146149f695cb1cfb><ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small"><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1alice_1_1clmultiplicity/>class Rivet::ALICE::CLMultiplicity</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1alice_1_1primaryparticles/>class Rivet::ALICE::PrimaryParticles</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1alice_1_1v0andtrigger/>class Rivet::ALICE::V0AndTrigger</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1alice_1_1v0multiplicity/>class Rivet::ALICE::V0Multiplicity</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1alice_1_1v0trigger/>class Rivet::ALICE::V0Trigger</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1analysis/>class Rivet::Analysis</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1analysis_1_1counteradapter/>class Rivet::Analysis::CounterAdapter</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1analysishandler/>class Rivet::AnalysisHandler</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1analysisinfo/>class Rivet::AnalysisInfo</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1analysisloader/>class Rivet::AnalysisLoader</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1atlas_1_1minbiastrigger/>class Rivet::ATLAS::MinBiasTrigger</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1atlas_1_1sumet__pb__centrality/>class Rivet::ATLAS::SumET_PB_Centrality</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1atlas_1_1sumet__pbpb__centrality/>class Rivet::ATLAS::SumET_PBPB_Centrality</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1axesdefinition/>class Rivet::AxesDefinition</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1beam/>class Rivet::Beam</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1beamthrust/>class Rivet::BeamThrust</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1binnedhistogram/>class Rivet::BinnedHistogram</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1brahmscentrality/>class Rivet::BRAHMSCentrality</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1centralethcm/>class Rivet::CentralEtHCM</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1centralitybinner/>class Rivet::CentralityBinner</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1centralityestimator/>class Rivet::CentralityEstimator</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1centralityprojection/>class Rivet::CentralityProjection</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1chargedfinalstate/>class Rivet::ChargedFinalState</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1chargedleptons/>class Rivet::ChargedLeptons</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1constlossyfinalstate/>class Rivet::ConstLossyFinalState</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1constrandomfilter/>class Rivet::ConstRandomFilter</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1correlators/>class Rivet::Correlators</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1cumulantanalysis/>class Rivet::CumulantAnalysis</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1cumulantanalysis_1_1corbin/>class Rivet::CumulantAnalysis::CorBin</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1cumulantanalysis_1_1corbinbase/>class Rivet::CumulantAnalysis::CorBinBase</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1cumulantanalysis_1_1corsinglebin/>class Rivet::CumulantAnalysis::CorSingleBin</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1cumulantanalysis_1_1ecorrelator/>class Rivet::CumulantAnalysis::ECorrelator</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1disdiffhadron/>class Rivet::DISDiffHadron</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1disfinalstate/>class Rivet::DISFinalState</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1diskinematics/>class Rivet::DISKinematics</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1dislepton/>class Rivet::DISLepton</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1disrapiditygap/>class Rivet::DISRapidityGap</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1dressedlepton/>class Rivet::DressedLepton</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1dressedleptons/>class Rivet::DressedLeptons</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1event/>class Rivet::Event</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1eventmixingbase/>class Rivet::EventMixingBase</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1eventmixingcentrality/>class Rivet::EventMixingCentrality</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1eventmixingfinalstate/>class Rivet::EventMixingFinalState</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1fastjets/>class Rivet::FastJets</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1finalpartons/>class Rivet::FinalPartons</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1finalstate/>class Rivet::FinalState</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1fourmomentum/>class Rivet::FourMomentum</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1fourvector/>class Rivet::FourVector</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1fparameter/>class Rivet::FParameter</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1gammagammafinalstate/>class Rivet::GammaGammaFinalState</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1gammagammakinematics/>class Rivet::GammaGammaKinematics</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1gammagammaleptons/>class Rivet::GammaGammaLeptons</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1generatedcentrality/>class Rivet::GeneratedCentrality</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1generatedpercentileprojection/>class Rivet::GeneratedPercentileProjection</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1hadronicfinalstate/>class Rivet::HadronicFinalState</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1heavyhadrons/>class Rivet::HeavyHadrons</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1hemispheres/>class Rivet::Hemispheres</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1hepmcheavyion/>class Rivet::HepMCHeavyIon</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1identifiedfinalstate/>class Rivet::IdentifiedFinalState</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1impactparameterprojection/>class Rivet::ImpactParameterProjection</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1initialquarks/>class Rivet::InitialQuarks</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1invisiblefinalstate/>class Rivet::InvisibleFinalState</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1invmassfinalstate/>class Rivet::InvMassFinalState</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1jet/>class Rivet::Jet</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1jetfinder/>class Rivet::JetFinder</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1jets/>class Rivet::Jets</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1jetshape/>class Rivet::JetShape</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1leadingparticlesfinalstate/>class Rivet::LeadingParticlesFinalState</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1log/>class Rivet::Log</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1lorentztransform/>class Rivet::LorentzTransform</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1lossyfinalstate/>class Rivet::LossyFinalState</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1matrix/>class Rivet::Matrix</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1matrix3/>class Rivet::Matrix3</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1mc__jetanalysis/>class Rivet::MC_JetAnalysis</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1mc__jetsplittings/>class Rivet::MC_JetSplittings</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1mc__particleanalysis/>class Rivet::MC_ParticleAnalysis</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1mc__ppbminbiastrigger/>class Rivet::MC_pPbMinBiasTrigger</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1mc__sumetfwdpbcentrality/>class Rivet::MC_SumETFwdPbCentrality</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1mendelmin/>class Rivet::MendelMin</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1mergedfinalstate/>class Rivet::MergedFinalState</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1metfinder/>class Rivet::METFinder</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1missingmomentum/>class Rivet::MissingMomentum</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1neutralfinalstate/>class Rivet::NeutralFinalState</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1nonhadronicfinalstate/>class Rivet::NonHadronicFinalState</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1nonpromptfinalstate/>class Rivet::NonPromptFinalState</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1parisitensor/>class Rivet::ParisiTensor</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1particle/>class Rivet::Particle</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1particlebase/>class Rivet::ParticleBase</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1particlefinder/>class Rivet::ParticleFinder</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1particles/>class Rivet::Particles</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1partonictops/>class Rivet::PartonicTops</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1percentile/>class Rivet::Percentile</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1percentilebase/>class Rivet::PercentileBase</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1percentileprojection/>class Rivet::PercentileProjection</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1percentiletbase/>class Rivet::PercentileTBase</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1percentilexaxis/>class Rivet::PercentileXaxis</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1primaryhadrons/>class Rivet::PrimaryHadrons</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1primaryparticles/>class Rivet::PrimaryParticles</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1projection/>class Rivet::Projection</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1projectionapplier/>class Rivet::ProjectionApplier</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1projectionhandler/>class Rivet::ProjectionHandler</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1promptfinalstate/>class Rivet::PromptFinalState</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1run/>class Rivet::Run</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1singlevalueprojection/>class Rivet::SingleValueProjection</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1smearedjets/>class Rivet::SmearedJets</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1smearedmet/>class Rivet::SmearedMET</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1smearedparticles/>class Rivet::SmearedParticles</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1sphericity/>class Rivet::Sphericity</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1spherocity/>class Rivet::Spherocity</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1star__bes__centrality/>class Rivet::STAR_BES_Centrality</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1taufinder/>class Rivet::TauFinder</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1threemomentum/>class Rivet::ThreeMomentum</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1thrust/>class Rivet::Thrust</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1triggercdfrun0run1/>class Rivet::TriggerCDFRun0Run1</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1triggercdfrun2/>class Rivet::TriggerCDFRun2</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1triggerprojection/>class Rivet::TriggerProjection</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1triggerua5/>class Rivet::TriggerUA5</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1undressbeamleptons/>class Rivet::UndressBeamLeptons</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1unstableparticles/>class Rivet::UnstableParticles</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1usercentestimate/>class Rivet::UserCentEstimate</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1vector/>class Rivet::Vector</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1vector2/>class Rivet::Vector2</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1vector3/>class Rivet::Vector3</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1vetoedfinalstate/>class Rivet::VetoedFinalState</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1visiblefinalstate/>class Rivet::VisibleFinalState</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1wfinder/>class Rivet::WFinder</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/classrivet_1_1zfinder/>class Rivet::ZFinder</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1absdeltaetawrt/>struct Rivet::AbsDeltaEtaWRT</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1absdeltarapwrt/>struct Rivet::AbsDeltaRapWRT</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1absetagtr/>struct Rivet::AbsEtaGtr</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1absetainrange/>struct Rivet::AbsEtaInRange</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1absetaless/>struct Rivet::AbsEtaLess</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1absrapgtr/>struct Rivet::AbsRapGtr</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1absrapinrange/>struct Rivet::AbsRapInRange</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1absrapless/>struct Rivet::AbsRapLess</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1bad__lexical__cast/>struct Rivet::bad_lexical_cast</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1booljetand/>struct Rivet::BoolJetAND</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1booljetfunctor/>struct Rivet::BoolJetFunctor</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1booljetnot/>struct Rivet::BoolJetNOT</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1booljetor/>struct Rivet::BoolJetOR</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1boolparticleand/>struct Rivet::BoolParticleAND</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1boolparticlebasefunctor/>struct Rivet::BoolParticleBaseFunctor</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1boolparticlefunctor/>struct Rivet::BoolParticleFunctor</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1boolparticlenot/>struct Rivet::BoolParticleNOT</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1boolparticleor/>struct Rivet::BoolParticleOR</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1centralitybinner_1_1bin/>struct Rivet::CentralityBinner::Bin</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1centralitybinner_1_1flexibin/>struct Rivet::CentralityBinner::FlexiBin</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1cutflow/>struct Rivet::Cutflow</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1cutflows/>struct Rivet::Cutflows</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1deltaetagtr/>struct Rivet::DeltaEtaGtr</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1deltaetainrange/>struct Rivet::DeltaEtaInRange</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1deltaetaless/>struct Rivet::DeltaEtaLess</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1deltaetawrt/>struct Rivet::DeltaEtaWRT</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1deltaphigtr/>struct Rivet::DeltaPhiGtr</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1deltaphiinrange/>struct Rivet::DeltaPhiInRange</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1deltaphiless/>struct Rivet::DeltaPhiLess</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1deltaphiwrt/>struct Rivet::DeltaPhiWRT</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1deltarapgtr/>struct Rivet::DeltaRapGtr</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1deltarapinrange/>struct Rivet::DeltaRapInRange</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1deltarapless/>struct Rivet::DeltaRapLess</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1deltarapwrt/>struct Rivet::DeltaRapWRT</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1deltargtr/>struct Rivet::DeltaRGtr</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1deltarinrange/>struct Rivet::DeltaRInRange</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1deltarless/>struct Rivet::DeltaRLess</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1deltarwrt/>struct Rivet::DeltaRWRT</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1doubleparticlebasefunctor/>struct Rivet::DoubleParticleBaseFunctor</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1error/>struct Rivet::Error</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1etagtr/>struct Rivet::EtaGtr</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1etainrange/>struct Rivet::EtaInRange</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1etaless/>struct Rivet::EtaLess</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1firstparticlewith/>struct Rivet::FirstParticleWith</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1firstparticlewithout/>struct Rivet::FirstParticleWithout</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1hasabspid/>struct Rivet::HasAbsPID</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1hasbtag/>struct Rivet::HasBTag</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1hasctag/>struct Rivet::HasCTag</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1hasnotag/>struct Rivet::HasNoTag</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1hasparticleancestorwith/>struct Rivet::HasParticleAncestorWith</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1hasparticleancestorwithout/>struct Rivet::HasParticleAncestorWithout</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1hasparticlechildwith/>struct Rivet::HasParticleChildWith</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1hasparticlechildwithout/>struct Rivet::HasParticleChildWithout</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1hasparticledescendantwith/>struct Rivet::HasParticleDescendantWith</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1hasparticledescendantwithout/>struct Rivet::HasParticleDescendantWithout</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1hasparticleparentwith/>struct Rivet::HasParticleParentWith</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1hasparticleparentwithout/>struct Rivet::HasParticleParentWithout</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1haspid/>struct Rivet::HasPID</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1hastautag/>struct Rivet::HasTauTag</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1infoerror/>struct Rivet::InfoError</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1ioerror/>struct Rivet::IOError</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1jet__btag__effs/>struct Rivet::JET_BTAG_EFFS</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1jet__eff__const/>struct Rivet::JET_EFF_CONST</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1jetefffilter/>struct Rivet::JetEffFilter</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1jeteffsmearfn/>struct Rivet::JetEffSmearFn</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1lastparticlewith/>struct Rivet::LastParticleWith</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1lastparticlewithout/>struct Rivet::LastParticleWithout</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1logicerror/>struct Rivet::LogicError</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1lookuperror/>struct Rivet::LookupError</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1p3__eff__const/>struct Rivet::P3_EFF_CONST</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1p4__eff__const/>struct Rivet::P4_EFF_CONST</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1particle__eff__const/>struct Rivet::PARTICLE_EFF_CONST</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1particleefffilter/>struct Rivet::ParticleEffFilter</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1particleeffsmearfn/>struct Rivet::ParticleEffSmearFn</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1piderror/>struct Rivet::PidError</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1ptgtr/>struct Rivet::PtGtr</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1ptinrange/>struct Rivet::PtInRange</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1ptless/>struct Rivet::PtLess</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1rangeerror/>struct Rivet::RangeError</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1rapgtr/>struct Rivet::RapGtr</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1rapinrange/>struct Rivet::RapInRange</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1rapless/>struct Rivet::RapLess</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1readerror/>struct Rivet::ReadError</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1usererror/>struct Rivet::UserError</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1weighterror/>struct Rivet::WeightError</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/classes/structrivet_1_1writeerror/>struct Rivet::WriteError</a></li></ul></div></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/index_mainpage/>The Rivet MC analysis framework</a></li><li class="my-1 ms-3"><button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle=collapse data-bs-target=#section-91f3a2c0e4424c87689525da44c4db11 aria-expanded=true>
+Files</button><div class="collapse show" id=section-91f3a2c0e4424c87689525da44c4db11><ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small"><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/dir_d44c64559bbebec7f509842c48db8b23/>dir /home/anarendran/Documents/temp/rivet/include</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/dir_635acd474cd522299605c34ffcdf8e38/>dir /home/anarendran/Documents/temp/rivet/include/Rivet</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/dir_e4992b7042f40b668a9d67b4ab38c2e6/>dir /home/anarendran/Documents/temp/rivet/include/Rivet/Analyses</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/dir_02a729ba1906eac53da6d0bafe0c1a8a/>dir /home/anarendran/Documents/temp/rivet/include/Rivet/Config</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/dir_081b9375fc550f5550f19102f2703d46/>dir /home/anarendran/Documents/temp/rivet/include/Rivet/Math</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/dir_bfc6ea12015452171752e2d5fd69ba9a/>dir /home/anarendran/Documents/temp/rivet/include/Rivet/Projections</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/dir_2c0fcb9b057e3c2dd1a26b6f5e9e5df2/>dir /home/anarendran/Documents/temp/rivet/include/Rivet/Tools</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/mc__cent__ppb_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Analyses/MC_Cent_pPb.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/mc__jetanalysis_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Analyses/MC_JetAnalysis.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/mc__jetsplittings_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Analyses/MC_JetSplittings.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/mc__particleanalysis_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Analyses/MC_ParticleAnalysis.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/analysis_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Analysis.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/analysisbuilder_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/AnalysisBuilder.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/analysishandler_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/AnalysisHandler.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/analysisinfo_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/AnalysisInfo.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/analysisloader_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/AnalysisLoader.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/dummyconfig_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Config/DummyConfig.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/rivetcommon_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Config/RivetCommon.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/rivetconfig_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Config/RivetConfig.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/event_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Event.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/jet_8fhh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Jet.fhh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/jet_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Jet.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/constants_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Math/Constants.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/lorentztrans_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Math/LorentzTrans.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/math_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Math/Math.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/mathconstants_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Math/MathConstants.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/mathutils_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Math/MathUtils.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/matrices_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Math/Matrices.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/matrix3_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Math/Matrix3.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/matrixdiag_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Math/MatrixDiag.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/matrixn_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Math/MatrixN.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/stdheader_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Math/StdHeader.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/units_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Math/Units.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/vector2_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Math/Vector2.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/vector3_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Math/Vector3.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/vector4_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Math/Vector4.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/vectorn_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Math/VectorN.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/vectors_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Math/Vectors.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/particle_8fhh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Particle.fhh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/particle_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Particle.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/particlebase_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/ParticleBase.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/projection_8fhh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projection.fhh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/projection_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projection.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/projectionapplier_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/ProjectionApplier.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/projectionhandler_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/ProjectionHandler.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/projections_2alicecommon_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/AliceCommon.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/axesdefinition_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/AxesDefinition.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/beam_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/Beam.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/beamthrust_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/BeamThrust.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/centralethcm_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/CentralEtHCM.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/centralityprojection_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/CentralityProjection.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/chargedfinalstate_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/ChargedFinalState.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/chargedleptons_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/ChargedLeptons.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/constlossyfinalstate_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/ConstLossyFinalState.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/directfinalstate_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/DirectFinalState.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/disdiffhadron_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/DISDiffHadron.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/disfinalstate_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/DISFinalState.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/diskinematics_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/DISKinematics.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/dislepton_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/DISLepton.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/disrapiditygap_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/DISRapidityGap.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/dressedleptons_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/DressedLeptons.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/eventmixingfinalstate_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/EventMixingFinalState.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/fastjets_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/FastJets.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/finalpartons_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/FinalPartons.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/finalstate_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/FinalState.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/finalstates_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/FinalStates.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/fparameter_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/FParameter.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/gammagammafinalstate_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/GammaGammaFinalState.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/gammagammakinematics_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/GammaGammaKinematics.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/gammagammaleptons_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/GammaGammaLeptons.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/generatedpercentileprojection_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/GeneratedPercentileProjection.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/hadronicfinalstate_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/HadronicFinalState.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/heavyhadrons_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/HeavyHadrons.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/hemispheres_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/Hemispheres.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/hepmcheavyion_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/HepMCHeavyIon.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/identifiedfinalstate_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/IdentifiedFinalState.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/impactparameterprojection_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/ImpactParameterProjection.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/indirectfinalstate_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/IndirectFinalState.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/initialquarks_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/InitialQuarks.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/invisiblefinalstate_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/InvisibleFinalState.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/invmassfinalstate_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/InvMassFinalState.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/jetalg_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/JetAlg.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/jetfinder_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/JetFinder.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/jetshape_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/JetShape.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/leadingparticlesfinalstate_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/LeadingParticlesFinalState.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/lossyfinalstate_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/LossyFinalState.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/mergedfinalstate_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/MergedFinalState.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/metfinder_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/METFinder.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/missingmomentum_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/MissingMomentum.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/neutralfinalstate_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/NeutralFinalState.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/nonhadronicfinalstate_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/NonHadronicFinalState.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/nonpromptfinalstate_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/NonPromptFinalState.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/parisitensor_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/ParisiTensor.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/particlefinder_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/ParticleFinder.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/partonictops_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/PartonicTops.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/percentileprojection_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/PercentileProjection.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/primaryhadrons_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/PrimaryHadrons.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/primaryparticles_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/PrimaryParticles.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/promptfinalstate_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/PromptFinalState.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/pxconeplugin_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/PxConePlugin.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/singlevalueprojection_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/SingleValueProjection.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/smearedjets_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/SmearedJets.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/smearedmet_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/SmearedMET.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/smearedparticles_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/SmearedParticles.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/smearing_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/Smearing.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/sphericity_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/Sphericity.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/spherocity_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/Spherocity.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/taufinder_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/TauFinder.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/thrust_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/Thrust.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/triggercdfrun0run1_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/TriggerCDFRun0Run1.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/triggercdfrun2_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/TriggerCDFRun2.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/triggerprojection_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/TriggerProjection.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/triggerua5_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/TriggerUA5.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/undressbeamleptons_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/UndressBeamLeptons.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/unstablefinalstate_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/UnstableFinalState.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/unstableparticles_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/UnstableParticles.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/usercentestimate_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/UserCentEstimate.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/vetoedfinalstate_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/VetoedFinalState.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/visiblefinalstate_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/VisibleFinalState.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/wfinder_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/WFinder.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/zfinder_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Projections/ZFinder.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/rivet_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Rivet.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/run_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Run.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/tools_2alicecommon_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Tools/AliceCommon.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/atlascommon_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Tools/AtlasCommon.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/beamconstraint_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Tools/BeamConstraint.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/binnedhistogram_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Tools/BinnedHistogram.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/centralitybinner_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Tools/CentralityBinner.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/cmp_8fhh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Tools/Cmp.fhh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/cmp_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Tools/Cmp.hh</a></li><li><a class="docs-link rounded active" href=https://nvanjelo.github.io/documentation/code/files/correlators_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Tools/Correlators.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/cutflow_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Tools/Cutflow.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/cuts_8fhh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Tools/Cuts.fhh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/cuts_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Tools/Cuts.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/exceptions_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Tools/Exceptions.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/exptsmearingfunctions_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Tools/ExptSmearingFunctions.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/jetsmearingfunctions_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Tools/JetSmearingFunctions.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/jetutils_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Tools/JetUtils.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/logging_8fhh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Tools/Logging.fhh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/logging_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Tools/Logging.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/mendelmin_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Tools/MendelMin.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/momentumsmearingfunctions_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Tools/MomentumSmearingFunctions.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/osdir_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Tools/osdir.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/particlebaseutils_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Tools/ParticleBaseUtils.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/particleidutils_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Tools/ParticleIdUtils.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/particlename_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Tools/ParticleName.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/particlesmearingfunctions_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Tools/ParticleSmearingFunctions.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/particleutils_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Tools/ParticleUtils.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/percentile_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Tools/Percentile.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/prettyprint_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Tools/PrettyPrint.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/random_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Tools/Random.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/readercompressedascii_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Tools/ReaderCompressedAscii.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/rhiccommon_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Tools/RHICCommon.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/rivetfastjet_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Tools/RivetFastJet.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/rivethepmc_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Tools/RivetHepMC.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/rivetmt2_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Tools/RivetMT2.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/rivetpaths_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Tools/RivetPaths.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/rivetstl_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Tools/RivetSTL.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/rivetyoda_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Tools/RivetYODA.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/smearingfunctions_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Tools/SmearingFunctions.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/typetraits_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Tools/TypeTraits.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/utils_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Tools/Utils.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/writercompressedascii_8hh/>file /home/anarendran/Documents/temp/rivet/include/Rivet/Tools/WriterCompressedAscii.hh</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/files/index_8dox/>file index.dox</a></li></ul></div></li><li class="my-1 ms-3"><button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle=collapse data-bs-target=#section-453aceb005ceaf54a47da15fee8b2a26 aria-expanded=false>
+Pages</button><div class=collapse id=section-453aceb005ceaf54a47da15fee8b2a26><ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small"><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/pages/deprecated/>page Deprecated List</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/pages/todo/>page Todo List</a></li></ul></div></li><li class="my-1 ms-3"><button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle=collapse data-bs-target=#section-13d28e8dfc702e3456e0767dff9a128a aria-expanded=false>
+Namespaces</button><div class=collapse id=section-13d28e8dfc702e3456e0767dff9a128a><ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small"><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/namespaces/namespacefastjet/>namespace fastjet</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/namespaces/namespacefastjet_1_1contrib/>namespace fastjet::contrib</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/namespaces/namespacefastjet_1_1jetdefinition/>namespace fastjet::JetDefinition</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/namespaces/namespacehepmc3/>namespace HepMC3</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/namespaces/namespacerivet/>namespace Rivet</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/namespaces/namespacerivet_1_1_0d93/>namespace Rivet::@93</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/namespaces/namespacerivet_1_1alice/>namespace Rivet::ALICE</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/namespaces/namespacerivet_1_1atlas/>namespace Rivet::ATLAS</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/namespaces/namespacerivet_1_1cuts/>namespace Rivet::Cuts</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/namespaces/namespacerivet_1_1hepmcutils/>namespace Rivet::HepMCUtils</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/namespaces/namespacerivet_1_1kin/>namespace Rivet::Kin</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/namespaces/namespacerivet_1_1pid/>namespace Rivet::PID</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/namespaces/namespacestd/>namespace std</a></li><li><a class="docs-link rounded" href=https://nvanjelo.github.io/documentation/code/namespaces/namespaceyoda/>namespace YODA</a></li></ul></div></li><li class="my-1 ms-3"><button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle=collapse data-bs-target=#section-ff7c0fcd6a31e735a61c001f75426961 aria-expanded=false>
+Examples</button><div class=collapse id=section-ff7c0fcd6a31e735a61c001f75426961><ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small"></ul></div></li></ul></div></li></ul></nav></aside></div><div class="wrap container-xxl" role=document><div class=content><div class="row flex-xl-nowrap"><div class="col-lg-5 col-xl-4 docs-sidebar"><nav class=docs-links aria-label="Main navigation"><ul class="list-unstyled collapsible-sidebar"><li class=mb-1><button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle=collapse data-bs-target=#section-main aria-expanded=false>
+Important References</button><div class=collapse id=section-main><ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small"><li><a class="docs-link rounded" href=/documentation/code/index_mainpage/>The Rivet MC analysis framework</a></li></ul></div></li><li class=mb-1><button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle=collapse data-bs-target=#section- aria-expanded=true>
+code</button><div class="collapse show" id=section-><ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small"><li><a class="docs-link rounded" href=/documentation/code/modules/>Modules</a></li><li><a class="docs-link rounded" href=/documentation/code/classes/>Classes</a></li><li><a class="docs-link rounded active" href=/documentation/code/files/>Files</a></li><li><a class="docs-link rounded" href=/documentation/code/pages/>Pages</a></li><li><a class="docs-link rounded" href=/documentation/code/namespaces/>Namespaces</a></li><li><a class="docs-link rounded" href=/documentation/code/examples/>Examples</a></li></ul></div></li></ul></nav></div><nav class="docs-toc d-none d-xl-block col-xl-3" aria-label="Secondary navigation"><div class=d-xl-none><button class="btn btn-outline-primary btn-sm doks-toc-toggle collapsed" type=button data-bs-toggle=collapse data-bs-target=#onThisPage aria-controls=doks-docs-nav aria-expanded=false aria-label="Toggle On this page navigation">
+<span>On this page</span>
+<span><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" class="doks doks-expand" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>Expand</title><polyline points="7 13 12 18 17 13"/><polyline points="7 6 12 11 17 6"/></svg><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" class="doks doks-collapse" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>Collapse</title><polyline points="17 11 12 6 7 11"/><polyline points="17 18 12 13 7 18"/></svg></span></button><div class=collapse id=onThisPage><div class="card card-body mt-3 py-1"><div class=page-links><nav id=TableOfContents><ul><li><a href=#homeanarendrandocumentstemprivetincluderivettoolscorrelatorshh>/home/anarendran/Documents/temp/rivet/include/Rivet/Tools/Correlators.hh</a><ul><li><a href=#namespaces>Namespaces</a></li><li><a href=#classes>Classes</a></li><li><a href=#source-code>Source code</a></li></ul></li></ul></nav></div></div></div></div><div class="page-links d-none d-xl-block"><h3>On this page</h3><nav id=TableOfContents><ul><li><a href=#homeanarendrandocumentstemprivetincluderivettoolscorrelatorshh>/home/anarendran/Documents/temp/rivet/include/Rivet/Tools/Correlators.hh</a><ul><li><a href=#namespaces>Namespaces</a></li><li><a href=#classes>Classes</a></li><li><a href=#source-code>Source code</a></li></ul></li></ul></nav></div></nav><main class="docs-content col-lg-11 col-xl-9 mx-xl-auto"><h1>file /home/anarendran/Documents/temp/rivet/include/Rivet/Tools/Correlators.hh</h1><p class=lead></p><h1 id=homeanarendrandocumentstemprivetincluderivettoolscorrelatorshh>/home/anarendran/Documents/temp/rivet/include/Rivet/Tools/Correlators.hh <a href=#homeanarendrandocumentstemprivetincluderivettoolscorrelatorshh class=anchor aria-hidden=true>#</a></h1><h2 id=namespaces>Namespaces <a href=#namespaces class=anchor aria-hidden=true>#</a><a href=#namespaces class=anchor aria-hidden=true>#</a></h2><table><thead><tr><th>Name</th></tr></thead><tbody><tr><td><strong><a href=/documentation/code/namespaces/namespacerivet/>Rivet</a></strong></td></tr></tbody></table><h2 id=classes>Classes <a href=#classes class=anchor aria-hidden=true>#</a><a href=#classes class=anchor aria-hidden=true>#</a></h2><table><thead><tr><th></th><th>Name</th></tr></thead><tbody><tr><td>class</td><td><strong><a href=/documentation/code/classes/classrivet_1_1correlators/>Rivet::Correlators</a></strong><br>Projection for calculating correlators for flow measurements.</td></tr><tr><td>class</td><td><strong><a href=/documentation/code/classes/classrivet_1_1cumulantanalysis/>Rivet::CumulantAnalysis</a></strong><br>Tools for flow analyses.</td></tr><tr><td>class</td><td><strong><a href=/documentation/code/classes/classrivet_1_1cumulantanalysis_1_1ecorrelator/>Rivet::CumulantAnalysis::ECorrelator</a></strong><br>A helper class to calculate all event averages of correlators.</td></tr></tbody></table><h2 id=source-code>Source code <a href=#source-code class=anchor aria-hidden=true>#</a><a href=#source-code class=anchor aria-hidden=true>#</a></h2><pre><code class=language-cpp>// -*- C++ -*-
+#ifndef RIVET_Correlators_HH
+#define RIVET_Correlators_HH
+
+// Tools for calculating flow coefficients using correlators.
+// Classes:
+//   Correlators: Calculates single event correlators of a given harmonic.
+//   Cumulants: An additional base class for flow analyses
+//     Use as: class MyAnalysis : public Analysis, Cumulants {};
+//     Includes a framework for calculating cumulants and flow coefficients
+//     from single event correlators, including automatic handling of
+//     statistical errors. Contains multiple internal sub-classes:
+//       CorBinBase: Base class for correlators binned in event or particle observables.
+//       CorSingleBin: A simple bin for correlators.
+//       CorBin: Has the interface of a simple bin, but does automatic calculation
+//         of statistical errors by a bootstrap method.
+//       ECorrelator: Data type for event averaged correlators.
+//
+// Authors: Vytautas Vislavicius, Christine O. Rasmussen, Christian Bierlich.
+
+#include &quot;Rivet/Analysis.hh&quot;
+#include &quot;Rivet/Projection.hh&quot;
+#include &quot;Rivet/Projections/ParticleFinder.hh&quot;
+#include &quot;YODA/Scatter2D.h&quot;
+#include &lt;complex&gt;
+
+namespace Rivet {
+  using std::complex;
+
+
+  class Correlators : public Projection {
+  public:
+
+    Correlators(const ParticleFinder&amp; fsp, int nMaxIn = 2,
+                int pMaxIn = 0, vector&lt;double&gt; pTbinEdgesIn = {});
+
+    // Constructor which takes a Scatter2D to estimate bin edges.
+    Correlators(const ParticleFinder&amp; fsp, int nMaxIn,
+                int pMaxIn, const YODA::Scatter2D hIn);
+
+    const pair&lt;double,double&gt; intCorrelator(vector&lt;int&gt; n) const;
+
+    const vector&lt;pair&lt;double,double&gt;&gt; pTBinnedCorrelators(vector&lt;int&gt; n,
+                                                          bool overflow = false) const;
+
+    const pair&lt;double,double&gt; intCorrelatorGap(const Correlators&amp; other,
+                                               vector&lt;int&gt; n1, vector&lt;int&gt; n2) const;
+
+    const vector&lt;pair&lt;double,double&gt;&gt;
+    pTBinnedCorrelatorsGap(const Correlators&amp; other, vector&lt;int&gt; n1, vector&lt;int&gt; n2, bool overflow=false) const;
+
+    static vector&lt;int&gt; hVec(int n, int m) {
+      if (m % 2 != 0) {
+        cout &lt;&lt; &quot;Harmonic Vector: Number of particles must be an even number.&quot; &lt;&lt; endl;
+        return {};
+      }
+      vector&lt;int&gt; ret = {};
+      for (int i = 0; i &lt; m; ++i) {
+        if (i &lt; m/2) ret.push_back(n);
+        else ret.push_back(-n);
+      }
+      return ret;
+    }
+
+    static pair&lt;int,int&gt; getMaxValues(vector&lt; vector&lt;int&gt; &gt;&amp; hList){
+      int nMax = 0, pMax = 0;
+      for (vector&lt;int&gt; h : hList) {
+        int tmpN = 0, tmpP = 0;
+        for ( int i = 0; i &lt; int(h.size()); ++i) {
+          tmpN += abs(h[i]);
+          ++tmpP;
+        }
+        if (tmpN &gt; nMax) nMax = tmpN;
+        if (tmpP &gt; pMax) pMax = tmpP;
+      }
+      return make_pair(nMax,pMax);
+    }
+
+    // Clone on the heap.
+    DEFAULT_RIVET_PROJ_CLONE(Correlators);
+
+
+  protected:
+
+    // @brief Loop over array and calculates Q and P vectors if needed
+    void project(const Event&amp; e);
+
+    // @brief Compare to other projection, testing harmonics, pT bins and underlying final state similarity
+    CmpState compare(const Projection&amp; p) const {
+      const Correlators* other = dynamic_cast&lt;const Correlators*&gt;(&amp;p);
+      if (nMax != other-&gt;nMax) return CmpState::NEQ;
+      if (pMax != other-&gt;pMax) return CmpState::NEQ;
+      if (pTbinEdges != other-&gt;pTbinEdges) return CmpState::NEQ;
+      return mkPCmp(p, &quot;FS&quot;);
+    }
+
+    // @brief Calculate correlators from one particle
+    void fillCorrelators(const Particle&amp; p, const double&amp; weight);
+
+    // @brief Return a Q-vector.
+    const complex&lt;double&gt; getQ(int n, int p) const {
+      bool isNeg = (n &lt; 0);
+      if (isNeg) return conj( qVec[abs(n)][p] );
+      else       return qVec[n][p];
+    }
+
+    // @brief Return a P-vector
+    const complex&lt;double&gt; getP(int n, int p, double pT = 0.) const {
+      bool isNeg = (n &lt; 0);
+      map&lt;double, Vec2D&gt;::const_iterator pTitr = pVec.lower_bound(pT);
+      if (pTitr == pVec.end()) return DBL_NAN;
+      if (isNeg) return conj( pTitr-&gt;second[abs(n)][p] );
+      else       return pTitr-&gt;second[n][p];
+    }
+
+
+  private:
+
+    // @brief Find correlators by recursion
+    //
+    // Order = M (# of particles), n's are harmonics, p's are the powers of the weights
+    const complex&lt;double&gt; recCorr(int order, vector&lt;int&gt; n,
+                                  vector&lt;int&gt; p, bool useP, double pT = 0.) const;
+
+    // @brief Two-particle correlator
+    //
+    // Cf. eq. (19) p6. Flag if p-vectors or q-vectors should be used to
+    // calculate the correlator.
+    const complex&lt;double&gt; twoPartCorr(int n1, int n2, int p1 = 1,
+                                      int p2 = 1, double pT = 0., bool useP = false) const;
+
+    // Set elements in vectors to zero
+    void setToZero();
+
+    // Shorthands for setting and comparing to zero
+    const complex&lt;double&gt; _ZERO = {0., 0.};
+    const double _TINY = 1e-10;
+
+    // Shorthand typedefs for vec&lt;vec&lt;complex&gt;&gt;.
+    typedef vector&lt; vector&lt;complex&lt;double&gt;&gt; &gt; Vec2D;
+
+    // Define Q-vectors and P-vectors
+    Vec2D qVec; // Q[n][p]
+    map&lt;double, Vec2D&gt; pVec; // p[pT][n][p]
+
+    // The max values of n and p to be calculated.
+    int nMax, pMax;
+
+    // pT bin-edges
+    vector&lt;double&gt; pTbinEdges;
+
+    bool isPtDiff;
+
+  };
+
+
+
+  class CumulantAnalysis : public Analysis {
+  private:
+
+    // Number of bins used for bootstrap calculation of statistical
+    // uncertainties. It is hard coded, and shout NOT be changed unless there
+    // are good reasons to do so.
+    static const int BOOT_BINS = 9;
+
+    // Enum for choosing the method of error calculation.
+    enum Error {
+      VARIANCE,
+      ENVELOPE
+    };
+
+    // The desired error method. Can be changed in the analysis constructor
+    // by setting it appropriately.
+    Error errorMethod;
+
+
+    class CorBinBase {
+    public:
+      CorBinBase() {}
+      virtual ~CorBinBase() {};
+      // Derived class should have fill and mean defined.
+      virtual void fill(const pair&lt;double, double&gt;&amp; cor, const double&amp; weight = 1.0) = 0;
+      virtual double mean() const = 0;
+    };
+
+
+    class CorSingleBin : public CorBinBase {
+    public:
+
+      CorSingleBin()
+        : _sumWX(0.), _sumW(0.), _sumW2(0.), _numEntries(0.)
+      {  }
+
+      // Destructor does nothing but must be implemented (?)
+      ~CorSingleBin() {}
+
+      void fill(const pair&lt;double, double&gt;&amp; cor, const double&amp; weight = 1.0) {
+        // Test if denominator for the single event average is zero.
+        if (cor.second &lt; 1e-10) return;
+        // The single event average &lt;M&gt; is then cor.first / cor.second.
+        // With weights this becomes just:
+        _sumWX += cor.first * weight;
+        _sumW += weight * cor.second;
+        _sumW2 += weight * weight * cor.second * cor.second;
+        _numEntries += 1.;
+      }
+
+      double mean() const {
+        if (_sumW &lt; 1e-10) return 0;
+        return _sumWX / _sumW;
+      }
+
+      double sumW() const {
+        return _sumW;
+      }
+
+      double sumW2() const {
+        return _sumW2;
+      }
+
+      double sumWX() const {
+        return _sumWX;
+      }
+
+      double numEntries() const {
+        return _numEntries;
+      }
+
+      void addContent(double ne, double sw, double sw2, double swx) {
+        _numEntries += ne;
+        _sumW += sw;
+        _sumW2 += sw2;
+        _sumWX += swx;
+      }
+
+
+    private:
+
+      double _sumWX, _sumW, _sumW2, _numEntries;
+
+    };
+
+
+    class CorBin : public CorBinBase {
+    public:
+
+      CorBin() : binIndex(0), nBins(BOOT_BINS) {
+        for(size_t i = 0; i &lt; nBins; ++i) bins.push_back(CorSingleBin());
+      }
+
+      // Destructor does nothing but must be implemented (?)
+      ~CorBin() {}
+
+      void fill(const pair&lt;double, double&gt;&amp; cor, const double&amp; weight = 1.0) {
+        // Test if denominator for the single event average is zero.
+        if (cor.second &lt; 1e-10) return;
+        // Fill the correct bin.
+        bins[binIndex].fill(cor, weight);
+        if (binIndex == nBins - 1) binIndex = 0;
+        else ++binIndex;
+      }
+
+      double mean() const {
+        double sow = 0;
+        double sowx = 0;
+        for (auto b : bins) {
+          if (b.sumW() &lt; 1e-10) continue;
+          sow += b.sumW();
+          sowx += b.sumWX();
+        }
+        return sowx / sow;
+      }
+
+      vector&lt;CorSingleBin&gt; getBins() const {
+        return bins;
+      }
+
+      template&lt;class T=CorBinBase&gt;
+      vector&lt;T*&gt; getBinPtrs() {
+        vector&lt;T*&gt; ret(bins.size());
+        transform(bins.begin(), bins.end(), ret.begin(), [](CorSingleBin&amp; b) {return &amp;b;});
+        return ret;
+      }
+
+    private:
+
+      vector&lt;CorSingleBin&gt; bins;
+      size_t binIndex;
+      size_t nBins;
+
+    };
+
+
+  public:
+
+    class ECorrelator {
+    public:
+
+      //ECorrelator(vector&lt;int&gt; h)  : h1(h), h2({}),
+      //  binX(0), binContent(0), reference() {
+      //};
+
+      ECorrelator(vector&lt;int&gt; h, vector&lt;double&gt; binIn)
+        : h1(h), h2({}), binX(binIn), binContent(binIn.size() - 1), reference()
+      {  }
+
+      ECorrelator(vector&lt;int&gt; h1In, vector&lt;int&gt; h2In, vector&lt;double&gt; binIn)
+        : h1(h1In), h2(h2In), binX(binIn), binContent(binIn.size() - 1), reference()
+      {  }
+
+      void fill(const double&amp; obs, const Correlators&amp; c, double weight=1.0) {
+        int index = getBinIndex(obs);
+        if (index &lt; 0) return;
+        binContent[index].fill(c.intCorrelator(h1), weight);
+      }
+
+      void fill(const double&amp; obs, const Correlators&amp; c1, const Correlators&amp; c2, double weight=1.0) {
+        if (!h2.size()) {
+          cout &lt;&lt; &quot;Trying to fill gapped correlator, but harmonics behind the gap (h2) are not given!&quot; &lt;&lt; endl;
+          return;
+        }
+        int index = getBinIndex(obs);
+        if (index &lt; 0) return;
+        binContent[index].fill(c1.intCorrelatorGap(c2, h1, h2), weight);
+      }
+
+      void fill(const Correlators&amp; c, const double&amp; weight=1.0) {
+        vector&lt; pair&lt;double, double&gt; &gt; diffCorr = c.pTBinnedCorrelators(h1);
+        // We always skip overflow when calculating the all-event average.
+        if (diffCorr.size() != binX.size() - 1)
+          cout &lt;&lt; &quot;Tried to fill event with wrong binning (ungapped)&quot; &lt;&lt; endl;
+        for (size_t i = 0; i &lt; diffCorr.size(); ++i) {
+          int index = getBinIndex(binX[i]);
+          if (index &lt; 0) return;
+          binContent[index].fill(diffCorr[i], weight);
+        }
+        reference.fill(c.intCorrelator(h1), weight);
+      }
+
+      void fill(const Correlators&amp; c1, const Correlators&amp; c2, const double&amp; weight = 1.0) {
+        if (!h2.size()) {
+          cout &lt;&lt; &quot;Trying to fill gapped correlator, but harmonics behind &quot;
+            &quot;the gap (h2) are not given!&quot; &lt;&lt; endl;
+          return;
+        }
+        vector&lt; pair&lt;double, double&gt; &gt; diffCorr = c1.pTBinnedCorrelatorsGap(c2, h1, h2);
+        // We always skip overflow when calculating the all event average.
+        if (diffCorr.size() != binX.size() - 1)
+          cout &lt;&lt; &quot;Tried to fill event with wrong binning (gapped)&quot; &lt;&lt; endl;
+        for (size_t i = 0; i &lt; diffCorr.size(); ++i) {
+          int index = getBinIndex(binX[i]);
+          if (index &lt; 0) return;
+          binContent[index].fill(diffCorr[i], weight);
+        }
+        reference.fill(c1.intCorrelatorGap(c2, h1, h2), weight);
+      }
+
+      vector&lt;CorBin&gt; getBins() const {
+        return binContent;
+      }
+
+      vector&lt;CorBinBase*&gt; getBinPtrs() {
+        vector&lt;CorBinBase*&gt; ret(binContent.size());
+        transform(binContent.begin(), binContent.end(), ret.begin(), [](CorBin&amp; b) {return &amp;b;});
+        return ret;
+      }
+
+      vector&lt;double&gt; getBinX() const {
+        return binX;
+      }
+
+      vector&lt;int&gt; getH1() const {
+        return h1;
+      }
+
+      vector&lt;int&gt; getH2() const {
+        return h2;
+      }
+
+      void setReference(CorBin refIn) {
+        reference = refIn;
+      }
+
+      CorBin getReference() const {
+        if (reference.mean() &lt; 1e-10)
+          cout &lt;&lt; &quot;Warning: ECorrelator, reference bin is zero.&quot; &lt;&lt; endl;
+        return reference;
+      }
+
+      void setProfs(vector&lt;string&gt; prIn) {
+        profs = prIn;
+      }
+
+      bool fillFromProfile(YODA::AnalysisObjectPtr yao, string name) {
+        auto refs = reference.getBinPtrs&lt;CorSingleBin&gt;();
+        for (size_t i = 0; i &lt; profs.size(); ++i) {
+          if (yao-&gt;path() == &quot;/RAW/&quot;+name+&quot;/TMP/&quot;+profs[i]) {
+            YODA::Profile1DPtr pPtr = dynamic_pointer_cast&lt;YODA::Profile1D&gt;(yao);
+            for (size_t j = 0; j &lt; binX.size() - 1; ++j) {
+              const YODA::ProfileBin1D&amp; pBin = pPtr-&gt;binAt(binX[j]);
+              auto tmp  = binContent[j].getBinPtrs&lt;CorSingleBin&gt;();
+              tmp[i]-&gt;addContent(pBin.numEntries(), pBin.sumW(), pBin.sumW2(),
+                                 pBin.sumWY());
+            }
+            // Get the reference flow from the underflow bin of the histogram.
+            const YODA::Dbn2D&amp; uBin = pPtr-&gt;underflow();
+            refs[i]-&gt;addContent(uBin.numEntries(), uBin.sumW(), uBin.sumW2(),
+                                uBin.sumWY());
+            return true;
+          }
+        } // End loop of bootstrapped correlators.
+        return false;
+      }
+
+    private:
+
+      // Get correct bin index for a given @param obs value
+      int getBinIndex(const double&amp; obs) const {
+        // Find the correct index of binContent.
+        // If we are in overflow, just skip.
+        if (obs &gt;= binX.back()) return -1;
+        // If we are in underflow, ditto.
+        if (obs &lt; binX[0]) return -1;
+        int index = 0;
+        for (int i = 0, N = binX.size() - 1; i &lt; N; ++i, ++index)
+          if (obs &gt;= binX[i] &amp;&amp; obs &lt; binX[i + 1]) break;
+        return index;
+      }
+
+      // The harmonics vectors.
+      vector&lt;int&gt; h1;
+      vector&lt;int&gt; h2;
+
+      // The bins.
+      vector&lt;double&gt; binX;
+      vector&lt;CorBin&gt; binContent;
+      // The reference flow.
+      CorBin reference;
+    public:
+      // The profile histograms associated with the CorBins for streaming.
+      vector &lt;string&gt; profs;
+
+    };
+
+
+    const pair&lt;int, int&gt; getMaxValues() const {
+      vector&lt; vector&lt;int&gt;&gt; harmVecs;
+      for ( auto eItr = eCorrPtrs.begin(); eItr != eCorrPtrs.end(); ++eItr) {
+        vector&lt;int&gt; h1 = (*eItr)-&gt;getH1();
+        vector&lt;int&gt; h2 = (*eItr)-&gt;getH2();
+        if (h1.size() &gt; 0) harmVecs.push_back(h1);
+        if (h2.size() &gt; 0) harmVecs.push_back(h2);
+      }
+      if (harmVecs.size() == 0) {
+        cout &lt;&lt; &quot;Warning: You tried to extract max values from harmonic &quot;
+          &quot;vectors, but have not booked any.&quot; &lt;&lt; endl;
+        return pair&lt;int,int&gt;();
+      }
+      return Correlators::getMaxValues(harmVecs);
+    }
+
+    typedef shared_ptr&lt;ECorrelator&gt; ECorrPtr;
+
+    ECorrPtr bookECorrelator(const string name, const vector&lt;int&gt;&amp; h, const YODA::Scatter2D&amp; hIn) {
+      vector&lt;double&gt; binIn;
+      for (auto b : hIn.points()) binIn.push_back(b.xMin());
+      binIn.push_back(hIn.points().back().xMax());
+      return bookECorrelator(name, h, binIn);
+    }
+
+    ECorrPtr bookECorrelator(const string name, const vector&lt;int&gt;&amp; h, vector&lt;double&gt;&amp; binIn) {
+      ECorrPtr ecPtr = ECorrPtr(new ECorrelator(h, binIn));
+      vector&lt;string&gt; eCorrProfs;
+      for (int i = 0; i &lt; BOOT_BINS; ++i) {
+        Profile1DPtr tmp;
+        book(tmp,&quot;TMP/&quot;+name+&quot;-&quot;+to_string(i),binIn);
+        eCorrProfs.push_back(name+&quot;-&quot;+to_string(i));
+      }
+      ecPtr-&gt;setProfs(eCorrProfs);
+      eCorrPtrs.push_back(ecPtr);
+      return ecPtr;
+    }
+
+    ECorrPtr bookECorrelator(const string name, const vector&lt;int&gt;&amp; h1,
+                             const vector&lt;int&gt;&amp; h2, vector&lt;double&gt;&amp; binIn) {
+      ECorrPtr ecPtr = ECorrPtr(new ECorrelator(h1, h2, binIn));
+      vector&lt;string&gt; eCorrProfs;
+      for (int i = 0; i &lt; BOOT_BINS; ++i) {
+        Profile1DPtr tmp;
+        book(tmp,&quot;TMP/&quot;+name+&quot;-&quot;+to_string(i),binIn);
+        eCorrProfs.push_back(name+&quot;-&quot;+to_string(i));
+      }
+      ecPtr-&gt;setProfs(eCorrProfs);
+      eCorrPtrs.push_back(ecPtr);
+      return ecPtr;
+    }
+
+    ECorrPtr bookECorrelator(const string name, const vector&lt;int&gt;&amp; h1,
+                             const vector&lt;int&gt;&amp; h2, const YODA::Scatter2D&amp; hIn ) {
+      vector&lt;double&gt; binIn;
+      for (auto b : hIn.points()) binIn.push_back(b.xMin());
+      binIn.push_back(hIn.points().back().xMax());
+      return bookECorrelator(name, h1, h2, binIn);
+    }
+
+    ECorrPtr bookECorrelatorGap(const string name, const vector&lt;int&gt;&amp; h,
+                                const YODA::Scatter2D&amp; hIn) {
+      const vector&lt;int&gt; h1(h.begin(), h.begin() + h.size() / 2);
+      const vector&lt;int&gt; h2(h.begin() + h.size() / 2, h.end());
+      return bookECorrelator(name, h1, h2, hIn);
+    }
+
+    template&lt;unsigned int N, unsigned int M&gt;
+    ECorrPtr bookECorrelator(const string name, vector&lt;double&gt; binIn) {
+      return bookECorrelator(name, Correlators::hVec(N, M), binIn);
+    }
+
+    template&lt;unsigned int N, unsigned int M&gt;
+    ECorrPtr bookECorrelator(const string name, const YODA::Scatter2D&amp; hIn) {
+      return bookECorrelator(name, Correlators::hVec(N, M), hIn);
+    }
+
+    template&lt;unsigned int N, unsigned int M&gt;
+    ECorrPtr bookECorrelatorGap(const string name, const YODA::Scatter2D&amp; hIn) {
+      const vector&lt;int&gt; h = Correlators::hVec(N,M);
+      const vector&lt;int&gt; h1(h.begin(), h.begin() + h.size() / 2);
+      const vector&lt;int&gt; h2(h.begin() + h.size() / 2, h.end());
+      return bookECorrelator(name, h1, h2, hIn);
+
+    }
+
+  protected:
+
+    // Bookkeeping of the event averaged correlators.
+    list&lt;ECorrPtr&gt; eCorrPtrs;
+
+
+  public:
+
+    CumulantAnalysis(const string&amp; n)
+      : Analysis(n), errorMethod(VARIANCE)
+    {  }
+
+    template&lt;typename T&gt;
+    static void fillScatter(Scatter2DPtr h, vector&lt;double&gt;&amp; binx, T func) {
+      vector&lt;YODA::Point2D&gt; points;
+      // Test if we have proper bins from a booked histogram.
+      bool hasBins = (h-&gt;points().size() &gt; 0);
+      for (int i = 0, N = binx.size() - 1; i &lt; N; ++i) {
+        double xMid = (binx[i] + binx[i + 1]) / 2.0;
+        double xeMin = fabs(xMid - binx[i]);
+        double xeMax = fabs(xMid - binx[i + 1]);
+        if (hasBins) {
+          xMid = h-&gt;points()[i].x();
+          xeMin = h-&gt;points()[i].xErrMinus();
+          xeMax = h-&gt;points()[i].xErrPlus();
+        }
+        double yVal = func(i);
+        if (std::isnan(yVal)) yVal = 0.;
+        double yErr = 0;
+        points.push_back(YODA::Point2D(xMid, yVal, xeMin, xeMax, yErr, yErr));
+      }
+      h-&gt;reset();
+      h-&gt;points().clear();
+      for (int i = 0, N = points.size(); i &lt; N; ++i) h-&gt;addPoint(points[i]);
+    }
+
+    template&lt;typename F&gt;
+    void fillScatter(Scatter2DPtr h, vector&lt;double&gt;&amp; binx, F func,
+                     vector&lt;pair&lt;double, double&gt; &gt;&amp; yErr) const {
+      vector&lt;YODA::Point2D&gt; points;
+      // Test if we have proper bins from a booked histogram.
+      bool hasBins = (h-&gt;points().size() &gt; 0);
+      for (int i = 0, N = binx.size() - 1; i &lt; N; ++i) {
+        double xMid = (binx[i] + binx[i + 1]) / 2.0;
+        double xeMin = fabs(xMid - binx[i]);
+        double xeMax = fabs(xMid - binx[i + 1]);
+        if (hasBins) {
+          xMid = h-&gt;points()[i].x();
+          xeMin = h-&gt;points()[i].xErrMinus();
+          xeMax = h-&gt;points()[i].xErrPlus();
+        }
+        double yVal = func(i);
+        if (std::isnan(yVal))
+          points.push_back(YODA::Point2D(xMid, 0., xeMin, xeMax,0., 0.));
+        else
+          points.push_back(YODA::Point2D(xMid, yVal, xeMin, xeMax,
+                                         yErr[i].first, yErr[i].second));
+      }
+      h-&gt;reset();
+      h-&gt;points().clear();
+
+      for (int i = 0, N = points.size(); i &lt; N; ++i)
+        h-&gt;addPoint(points[i]);
+    }
+
+
+    static void nthPow(Scatter2DPtr hOut, const Scatter2DPtr hIn, const double&amp; n, const double&amp; k = 1.0) {
+      if (n == 0 || n == 1) {
+        cout &lt;&lt; &quot;Error: Do not take the 0th or 1st power of a Scatter2D,&quot;
+          &quot; use scale instead.&quot; &lt;&lt; endl;
+        return;
+      }
+      if (hIn-&gt;points().size() != hOut-&gt;points().size()) {
+        cout &lt;&lt; &quot;nthRoot: Scatterplots: &quot; &lt;&lt; hIn-&gt;name() &lt;&lt; &quot; and &quot; &lt;&lt;
+          hOut-&gt;name() &lt;&lt; &quot; not initialized with same length.&quot; &lt;&lt; endl;
+        return;
+      }
+      vector&lt;YODA::Point2D&gt; points;
+      // The error pre-factor is k^(1/n) / n by Taylors formula.
+      double eFac = pow(k,1./n)/n;
+      for (auto b : hIn-&gt;points()) {
+        double yVal = pow(k * b.y(),n);
+        if (std::isnan(yVal))
+          points.push_back(YODA::Point2D(b.x(), 0., b.xErrMinus(),
+                                         b.xErrPlus(), 0, 0 ));
+        else {
+          double yemin = abs(eFac * pow(yVal,1./(n - 1.))) * b.yErrMinus();
+          if (std::isnan(yemin)) yemin = b.yErrMinus();
+          double yemax = abs(eFac * pow(yVal,1./(n - 1.))) * b.yErrPlus();
+          if (std::isnan(yemax)) yemax = b.yErrPlus();
+          points.push_back(YODA::Point2D(b.x(), yVal, b.xErrMinus(),
+                                         b.xErrPlus(), yemin, yemax ));
+        }
+      }
+      hOut-&gt;reset();
+      hOut-&gt;points().clear();
+      for (int i = 0, N = points.size(); i &lt; N; ++i)
+        hOut-&gt;addPoint(points[i]);
+    }
+
+
+    static void nthPow(Scatter2DPtr h, const double&amp; n, const double&amp; k = 1.0) {
+      if (n == 0 || n == 1) {
+        cout &lt;&lt; &quot;Error: Do not take the 0th or 1st power of a Scatter2D,&quot;
+          &quot; use scale instead.&quot; &lt;&lt; endl;
+        return;
+      }
+      vector&lt;YODA::Point2D&gt; points;
+      vector&lt;YODA::Point2D&gt; pIn = h-&gt;points();
+      // The error pre-factor is k^(1/n) / n by Taylors formula.
+      double eFac = pow(k,1./n)/n;
+      for (auto b : pIn) {
+        double yVal =  pow(k * b.y(),n);
+        if (std::isnan(yVal))
+          points.push_back(YODA::Point2D(b.x(), 0., b.xErrMinus(),
+                                         b.xErrPlus(), 0, 0 ));
+        else {
+          double yemin = abs(eFac * pow(yVal,1./(n - 1.))) * b.yErrMinus();
+          if (std::isnan(yemin)) yemin = b.yErrMinus();
+          double yemax = abs(eFac * pow(yVal,1./(n - 1.))) * b.yErrPlus();
+          if (std::isnan(yemax)) yemax = b.yErrPlus();
+          points.push_back(YODA::Point2D(b.x(), yVal, b.xErrMinus(),
+                                         b.xErrPlus(), yemin, yemax ));
+        }
+      }
+      h-&gt;reset();
+      h-&gt;points().clear();
+      for (int i = 0, N = points.size(); i &lt; N; ++i) h-&gt;addPoint(points[i]);
+    }
+
+
+    template&lt;typename T&gt;
+    static pair&lt;double, double&gt; sampleVariance(T func) {
+      // First we calculate the mean (two pass calculation).
+      double avg = 0.;
+      for (int i = 0; i &lt; BOOT_BINS; ++i) avg += func(i);
+      avg /= double(BOOT_BINS);
+      // Then we find the variance.
+      double var = 0.;
+      for (int i = 0; i &lt; BOOT_BINS; ++i) var += pow(func(i) - avg, 2.);
+      var /= (double(BOOT_BINS) - 1);
+      return pair&lt;double, double&gt;(var, var);
+    }
+
+
+    template&lt;typename T&gt;
+    static pair&lt;double, double&gt; sampleEnvelope(T func) {
+      // First we calculate the mean.
+      double avg = 0.;
+      for (int i = 0; i &lt; BOOT_BINS; ++i) avg += func(i);
+      avg /= double(BOOT_BINS);
+      double yMax = avg;
+      double yMin = avg;
+      // Then we find the envelope using the mean as initial value.
+      for (int i = 0; i &lt; BOOT_BINS; ++i) {
+        double yVal = func(i);
+        if (yMin &gt; yVal) yMin = yVal;
+        else if (yMax &lt; yVal) yMax = yVal;
+      }
+      return pair&lt;double, double&gt;(fabs(avg - yMin), fabs(yMax - avg));
+    }
+
+
+    template&lt;typename T&gt;
+    const pair&lt;double, double&gt; sampleError(T func) const {
+      if (errorMethod == VARIANCE) return sampleVariance(func);
+      else if (errorMethod == ENVELOPE) return sampleEnvelope(func);
+      else
+        cout &lt;&lt; &quot;Error: Error method not found!&quot; &lt;&lt; endl;
+      return pair&lt;double, double&gt;(0.,0.);
+    }
+
+
+    void cnTwoInt(Scatter2DPtr h, ECorrPtr e2) const {
+      vector&lt;CorBin&gt; bins = e2-&gt;getBins();
+      vector&lt;double&gt; binx = e2-&gt;getBinX();
+      // Assert bin size.
+      if (binx.size() - 1 != bins.size()){
+        cout &lt;&lt; &quot;cnTwoInt: Bin size (x,y) differs!&quot; &lt;&lt; endl;
+        return;
+      }
+      vector&lt;CorBinBase*&gt; binPtrs;
+      // The mean value of the cumulant.
+      auto cn = [&amp;] (int i) { return binPtrs[i]-&gt;mean(); };
+      // Error calculation.
+      vector&lt;pair&lt;double, double&gt; &gt; yErr;
+      for (int j = 0, N = bins.size(); j &lt; N; ++j) {
+        binPtrs = bins[j].getBinPtrs();
+        yErr.push_back(sampleError(cn));
+      }
+      binPtrs = e2-&gt;getBinPtrs();
+      fillScatter(h, binx, cn, yErr);
+    }
+
+
+    void vnTwoInt(Scatter2DPtr h, ECorrPtr e2) const {
+      cnTwoInt(h, e2);
+      nthPow(h, 0.5);
+    }
+
+
+    void corrPlot(Scatter2DPtr h, ECorrPtr e) const {
+      cnTwoInt(h, e);
+    }
+
+
+
+
+    // TODO Use full path for lookup, change to single AU in output, rename.
+    void rawHookIn(YODA::AnalysisObjectPtr yao) final {
+      // Fill the corresponding ECorrelator.
+      for (auto ec : eCorrPtrs) if(ec-&gt;fillFromProfile(yao, name())) break;;
+    }
+
+    void rawHookOut(vector&lt;MultiweightAOPtr&gt; raos, size_t iW) final {
+      // Loop over the correlators and extract the numbers.
+      for (auto ec : eCorrPtrs) {
+        vector&lt;CorBin&gt; corBins = ec-&gt;getBins();
+        vector&lt;double&gt; binx = ec-&gt;getBinX();
+        auto ref = ec-&gt;getReference();
+        auto refBins = ref.getBinPtrs&lt;CorSingleBin&gt;();
+        // Assert bin size.
+        if (binx.size() - 1 != corBins.size()){
+          cout &lt;&lt; &quot;corrPlot: Bin size (x,y) differs!&quot; &lt;&lt; endl;
+          return;
+        }
+        // Loop over the booked histograms using their names.
+        for (int i = 0, N = ec-&gt;profs.size(); i &lt; N; ++i) {
+          for (auto rao : raos) {
+            if (rao-&gt;path() == &quot;/&quot;+name()+&quot;/TMP/&quot;+ec-&gt;profs[i]) {
+              // Get a pointer to the active profile.
+              rao.get()-&gt;setActiveWeightIdx(iW);
+              YODA::Profile1DPtr pPtr = dynamic_pointer_cast&lt;YODA::Profile1D&gt;(
+                                                                              rao.get()-&gt;activeYODAPtr());
+              // New bins.
+              vector&lt;YODA::ProfileBin1D&gt; profBins;
+              // Numbers for the summary distribution
+              double ne = 0., sow = 0., sow2 = 0.;
+              for (size_t j = 0, N = binx.size() - 1; j &lt; N; ++j) {
+                vector&lt;CorSingleBin*&gt; binPtrs =
+                  corBins[j].getBinPtrs&lt;CorSingleBin&gt;();
+                // Construct bin of the profiled quantities. We have no information
+                // (and no desire to add it) of sumWX of the profile, so really
+                // we should use a Dbn1D - but that does not work for Profile1D's.
+                profBins.push_back( YODA::ProfileBin1D(pPtr-&gt;bin(j).xEdges(),
+                                                       YODA::Dbn2D( binPtrs[i]-&gt;numEntries(), binPtrs[i]-&gt;sumW(),
+                                                                    binPtrs[i]-&gt;sumW2(), 0., 0., binPtrs[i]-&gt;sumWX(), 0, 0)));
+                ne += binPtrs[i]-&gt;numEntries();
+                sow += binPtrs[i]-&gt;sumW();
+                sow2 += binPtrs[i]-&gt;sumW2();
+              }
+              // Put the ECorrelator into the raw histogram.
+              pPtr-&gt;reset();
+              pPtr-&gt;bins().clear();
+              // Add the bins.
+              pPtr-&gt;addBins(profBins);
+              // Set the total distribution.
+              pPtr-&gt;setTotalDbn(YODA::Dbn2D(ne,sow,sow2,0.,0.,0.,0.,0.));
+              // And reference flow in the underflow bin.
+              pPtr-&gt;setUnderflow(YODA::Dbn2D(refBins[i]-&gt;numEntries(),
+                                             refBins[i]-&gt;sumW(), refBins[i]-&gt;sumW2(), 0., 0.,
+                                             refBins[i]-&gt;sumWX(), 0., 0.));
+            }
+          }
+        }
+      }
+    }
+
+    // @brief Four particle integrated cn.
+    void cnFourInt(Scatter2DPtr h, ECorrPtr e2, ECorrPtr e4) const {
+      auto e2bins = e2-&gt;getBins();
+      auto e4bins = e4-&gt;getBins();
+      auto binx = e2-&gt;getBinX();
+      if (binx.size() - 1 != e2bins.size()){
+        cout &lt;&lt; &quot;cnFourInt: Bin size (x,y) differs!&quot; &lt;&lt; endl;
+        return;
+      }
+      if (binx != e4-&gt;getBinX()) {
+        cout &lt;&lt; &quot;Error in cnFourInt: Correlator x-binning differs!&quot; &lt;&lt; endl;
+        return;
+      }
+      vector&lt;CorBinBase*&gt; e2binPtrs;
+      vector&lt;CorBinBase*&gt; e4binPtrs;
+      auto cn = [&amp;] (int i) {
+        double e22 = e2binPtrs[i]-&gt;mean() * e2binPtrs[i]-&gt;mean();
+        return e4binPtrs[i]-&gt;mean() - 2. * e22;
+      };
+      // Error calculation.
+      vector&lt;pair&lt;double, double&gt; &gt; yErr;
+      for (int j = 0, N = e2bins.size(); j &lt; N; ++j) {
+        e2binPtrs = e2bins[j].getBinPtrs();
+        e4binPtrs = e4bins[j].getBinPtrs();
+        yErr.push_back(sampleError(cn));
+      }
+      // Put the bin ptrs back in place.
+      e2binPtrs = e2-&gt;getBinPtrs();
+      e4binPtrs = e4-&gt;getBinPtrs();
+      fillScatter(h, binx, cn, yErr);
+    }
+
+
+    void vnFourInt(Scatter2DPtr h, ECorrPtr e2, ECorrPtr e4) const {
+      cnFourInt(h, e2, e4);
+      nthPow(h, 0.25, -1.0);
+    }
+
+
+    void cnSixInt(Scatter2DPtr h, ECorrPtr e2, ECorrPtr e4,
+                  ECorrPtr e6) const {
+      auto e2bins = e2-&gt;getBins();
+      auto e4bins = e4-&gt;getBins();
+      auto e6bins = e6-&gt;getBins();
+      auto binx = e2-&gt;getBinX();
+      if (binx.size() - 1 != e2bins.size()){
+        cout &lt;&lt; &quot;cnSixInt: Bin size (x,y) differs!&quot; &lt;&lt; endl;
+        return;
+      }
+      if (binx != e4-&gt;getBinX() || binx != e6-&gt;getBinX()) {
+        cout &lt;&lt; &quot;Error in cnSixInt: Correlator x-binning differs!&quot; &lt;&lt; endl;
+        return;
+      }
+      vector&lt;CorBinBase*&gt; e2binPtrs;
+      vector&lt;CorBinBase*&gt; e4binPtrs;
+      vector&lt;CorBinBase*&gt; e6binPtrs;
+      auto cn = [&amp;] (int i) {
+        double e23 = pow(e2binPtrs[i]-&gt;mean(), 3.0);
+        return e6binPtrs[i]-&gt;mean() - 9.*e2binPtrs[i]-&gt;mean()*e4binPtrs[i]-&gt;mean() +
+        12.*e23;
+      };
+      // Error calculation.
+      vector&lt;pair&lt;double, double&gt; &gt; yErr;
+      for (int j = 0, N = e2bins.size(); j &lt; N; ++j) {
+        e2binPtrs = e2bins[j].getBinPtrs();
+        e4binPtrs = e4bins[j].getBinPtrs();
+        e6binPtrs = e6bins[j].getBinPtrs();
+        yErr.push_back(sampleError(cn));
+      }
+      // Put the bin ptrs back in place.
+      e2binPtrs = e2-&gt;getBinPtrs();
+      e4binPtrs = e4-&gt;getBinPtrs();
+      e6binPtrs = e6-&gt;getBinPtrs();
+      fillScatter(h, binx, cn, yErr);
+    }
+
+
+    void vnSixInt(Scatter2DPtr h, ECorrPtr e2, ECorrPtr e4,
+                  ECorrPtr e6) const {
+      cnSixInt(h, e2, e4, e6);
+      nthPow(h, 1./6., 0.25);
+    }
+
+
+    void cnEightInt(Scatter2DPtr h, ECorrPtr e2, ECorrPtr e4,
+                    ECorrPtr e6, ECorrPtr e8) const {
+      auto e2bins = e2-&gt;getBins();
+      auto e4bins = e4-&gt;getBins();
+      auto e6bins = e6-&gt;getBins();
+      auto e8bins = e8-&gt;getBins();
+      auto binx = e2-&gt;getBinX();
+      if (binx.size() - 1 != e2bins.size()){
+        cout &lt;&lt; &quot;cnEightInt: Bin size (x,y) differs!&quot; &lt;&lt; endl;
+        return;
+      }
+      if (binx != e4-&gt;getBinX() || binx != e6-&gt;getBinX() ||
+          binx != e8-&gt;getBinX()) {
+        cout &lt;&lt; &quot;Error in cnEightInt: Correlator x-binning differs!&quot; &lt;&lt; endl;
+        return;
+      }
+      vector&lt;CorBinBase*&gt; e2binPtrs;
+      vector&lt;CorBinBase*&gt; e4binPtrs;
+      vector&lt;CorBinBase*&gt; e6binPtrs;
+      vector&lt;CorBinBase*&gt; e8binPtrs;
+      auto cn = [&amp;] (int i ) {
+        double e22 = e2binPtrs[i]-&gt;mean() * e2binPtrs[i]-&gt;mean();
+        double e24 = e22 * e22;
+        double e42 = e4binPtrs[i]-&gt;mean() * e4binPtrs[i]-&gt;mean();
+        return e8binPtrs[i]-&gt;mean() - 16. * e6binPtrs[i]-&gt;mean() *
+        e2binPtrs[i]-&gt;mean() - 18. * e42 + 144. * e4binPtrs[i]-&gt;mean()*e22 - 144. * e24;
+      };
+      // Error calculation.
+      vector&lt;pair&lt;double, double&gt; &gt; yErr;
+      for (int j = 0, N = e2bins.size(); j &lt; N; ++j) {
+        e2binPtrs = e2bins[j].getBinPtrs();
+        e4binPtrs = e4bins[j].getBinPtrs();
+        e6binPtrs = e6bins[j].getBinPtrs();
+        e8binPtrs = e8bins[j].getBinPtrs();
+        yErr.push_back(sampleError(cn));
+      }
+      // Put the bin ptrs back in place.
+      e2binPtrs = e2-&gt;getBinPtrs();
+      e4binPtrs = e4-&gt;getBinPtrs();
+      e6binPtrs = e6-&gt;getBinPtrs();
+      e8binPtrs = e8-&gt;getBinPtrs();
+      fillScatter(h, binx, cn, yErr);
+    }
+
+
+    void vnEightInt(Scatter2DPtr h, ECorrPtr e2, ECorrPtr e4, ECorrPtr e6, ECorrPtr e8) const {
+      cnEightInt(h, e2, e4, e6, e8);
+      nthPow(h, 1./8., -1./33.);
+    }
+
+
+    void vnTwoDiff(Scatter2DPtr h, ECorrPtr e2Dif) const {
+      auto e2bins = e2Dif-&gt;getBins();
+      auto ref = e2Dif-&gt;getReference();
+      auto binx = e2Dif-&gt;getBinX();
+      if (binx.size() -1 != e2bins.size()) {
+        cout &lt;&lt; &quot;vnTwoDif: Bin size (x,y) differs!&quot; &lt;&lt; endl;
+        return;
+      }
+      vector&lt;CorBinBase*&gt; e2binPtrs;
+      vector&lt;CorBinBase*&gt; refPtrs;
+      auto vn = [&amp;] (int i) {
+        // Test reference flow.
+        if (ref.mean() &lt;= 0) return 0.;
+        return e2binPtrs[i]-&gt;mean() / sqrt(ref.mean());
+      };
+      // We need here a separate error function, as we don't iterate over the reference flow.
+      auto vnerr = [&amp;] (int i) {
+        // Test reference flow.
+        if (refPtrs[i]-&gt;mean() &lt;=0) return 0.;
+        return e2binPtrs[i]-&gt;mean() / sqrt(refPtrs[i]-&gt;mean());
+      };
+      // Error calculation.
+      vector&lt;pair&lt;double, double&gt; &gt; yErr;
+      refPtrs = ref.getBinPtrs();
+      for (int j = 0, N = e2bins.size(); j &lt; N; ++j) {
+        e2binPtrs = e2bins[j].getBinPtrs();
+        yErr.push_back(sampleError(vnerr));
+      }
+      // Put the e2binPtrs back in place.
+      e2binPtrs = e2Dif-&gt;getBinPtrs();
+      fillScatter(h, binx, vn);
+    }
+
+
+    void vnFourDiff(Scatter2DPtr h, ECorrPtr e2Dif, ECorrPtr e4Dif) const {
+      auto e2bins = e2Dif-&gt;getBins();
+      auto e4bins = e4Dif-&gt;getBins();
+      auto ref2 = e2Dif-&gt;getReference();
+      auto ref4 = e4Dif-&gt;getReference();
+      auto binx = e2Dif-&gt;getBinX();
+      if (binx.size() - 1 != e2bins.size()){
+        cout &lt;&lt; &quot;vnFourDif: Bin size (x,y) differs!&quot; &lt;&lt; endl;
+        return;
+      }
+      if (binx != e4Dif-&gt;getBinX()) {
+        cout &lt;&lt; &quot;Error in vnFourDif: Correlator x-binning differs!&quot; &lt;&lt; endl;
+        return;
+      }
+      vector&lt;CorBinBase*&gt; e2binPtrs;
+      vector&lt;CorBinBase*&gt; e4binPtrs;
+      vector&lt;CorBinBase*&gt; ref2Ptrs;
+      vector&lt;CorBinBase*&gt; ref4Ptrs;
+      double denom = 2 * ref2.mean() * ref2.mean() - ref4.mean();
+      auto vn = [&amp;] (int i) {
+        // Test denominator.
+        if (denom &lt;= 0 ) return 0.;
+        return ((2 * ref2.mean() * e2bins[i].mean() - e4bins[i].mean()) / pow(denom, 0.75));
+      };
+      // We need here a separate error function, as we don't iterate over the reference flow.
+      auto vnerr = [&amp;] (int i) {
+        double denom2 = 2 * ref2Ptrs[i]-&gt;mean() * ref2Ptrs[i]-&gt;mean() -
+        ref4Ptrs[i]-&gt;mean();
+        // Test denominator.
+        if (denom2 &lt;= 0) return 0.;
+        return ((2 * ref2Ptrs[i]-&gt;mean() * e2binPtrs[i]-&gt;mean() - e4binPtrs[i]-&gt;mean()) / pow(denom2, 0.75));
+      };
+      // Error calculation.
+      vector&lt;pair&lt;double, double&gt; &gt; yErr;
+      ref2Ptrs = ref2.getBinPtrs();
+      ref4Ptrs = ref4.getBinPtrs();
+      for (int j = 0, N = e2bins.size(); j &lt; N; ++j) {
+        e2binPtrs = e2bins[j].getBinPtrs();
+        e4binPtrs = e4bins[j].getBinPtrs();
+        yErr.push_back(sampleError(vnerr));
+      }
+      // Put the binPtrs back in place.
+      e2binPtrs = e2Dif-&gt;getBinPtrs();
+      e4binPtrs = e4Dif-&gt;getBinPtrs();
+      fillScatter(h, binx, vn, yErr);
+    }
+
+  };
+
+
+}
+
+#endif
+</code></pre><hr><p>Updated on 2022-07-28 at 18:36:47 +0100</p><div class=edit-page><a href=https://github.com/NVAnjelo/NVAnjelo.github.io/blob/master/content/en/documentation/code/Files/Correlators_8hh.md><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-edit-2"><path d="M17 3a2.828 2.828.0 114 4L7.5 20.5 2 22l1.5-5.5L17 3z"/></svg>Edit this page on GitHub</a></div></main></div></div></div><footer class="footer text-muted"><div class=container-xxl><div class=row><div class="col-lg-8 order-last order-lg-first"><ul class=list-inline><li class=list-inline-item>Powered by <a class=text-muted href=https://www.netlify.com/>Netlify</a>, <a class=text-muted href=https://gohugo.io/>Hugo</a>, and <a class=text-muted href=https://getdoks.org/>Doks</a></li></ul></div><div class="col-lg-8 order-first order-lg-last text-lg-end"><ul class=list-inline></ul></div></div></div></footer><script src=/js/bootstrap.min.54bf0932b8a36d0e152b1635b099a6ef1394d35327e2437550a075c9c8ed1bd8aed5847c21b36fc02ed24014c031d9ca24017b0c78b1639d7e2fa8329898b842.js integrity="sha512-VL8JMrijbQ4VKxY1sJmm7xOU01Mn4kN1UKB1ycjtG9iu1YR8IbNvwC7SQBTAMdnKJAF7DHixY51+L6gymJi4Qg==" crossorigin=anonymous defer></script>
+<script src=/js/highlight.min.56a414730f1135fe77b5ea30bf74a2cc4101a6f386e85e5b789c800570cc33d33054000f45932c053a59b41018f72687867254a80e1b9710671852492533162f.js integrity="sha512-VqQUcw8RNf53teowv3SizEEBpvOG6F5beJyABXDMM9MwVAAPRZMsBTpZtBAY9yaHhnJUqA4blxBnGFJJJTMWLw==" crossorigin=anonymous defer></script>
+<script src=/main.min.162c56a0426544de0d010e66c56e321579655c400c9aae06a6823e7682de379adadf2165bd416fea191e4e7e410fbf1fd2c35a759aa43ff2e3787067669bf81b.js integrity="sha512-FixWoEJlRN4NAQ5mxW4yFXllXEAMmq4GpoI+doLeN5ra3yFlvUFv6hkeTn5BD78f0sNadZqkP/LjeHBnZpv4Gw==" crossorigin=anonymous defer></script>
+<script src=https://nvanjelo.github.io/index.min.415f69f94c924f13e51aa79021b2dbcc823492ae07d575d8374e99fadc702b494cfb9572b9b80e83197e6f78ec66ae3c37df4429616c6630e23f6dd347a0cde5.js integrity="sha512-QV9p+UySTxPlGqeQIbLbzII0kq4H1XXYN06Z+txwK0lM+5VyubgOgxl+b3jsZq48N99EKWFsZjDiP23TR6DN5Q==" crossorigin=anonymous defer></script></body></html>
