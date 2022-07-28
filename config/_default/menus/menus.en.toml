@@ -1,88 +1,22 @@
-[[docs]]
-  name = "Classes"
-  weight = 10
-  identifier = "classes"
-  url = "/documentation/code/Classes"
-
-[[docs]]
-  name = "Modules"
+[[main]]
+  name = "Documentation"
+  identifier = "documentation"
+  url = "/documentation/"
   weight = 20
-  identifier = "modules"
-  url = "/documentation/code/Modules"
 
-[[docs]]
-  name = "Namespaces"
-  weight = 30
-  identifier = "namespaces"
-  url = "/documentation/code/Namespaces"
 
-[[docs]]
-  name = "Pages"
+[[main]]
+  name = "Main Page"
+  identifier = "main"
+  url = "/documentation/code/index_mainpage"
+  parent = "documentation"
   weight = 40
-  identifier = "pages"
-  url = "/documentation/code/Pages"
 
-[[docs]]
-  name = "Files"
-  weight = 50
-  identifier = "files"
-  url = "/documentation/code/Files"
-
-[[docs]]
-  name = "Examples"
-  weight = 60
-  identifier = "examples"
-  url = "/documentation/code/Examples"
-
-# [[docs]]
-#   name = "Lorem"
-#   weight = 70
-#   identifier = "lorem"
-#   url = "/docs/lorem/"
-
-[[guide]]
-  name = "Lorem"
-  weight = 10
-  identifier = "lorem"
-  url = "/guide/lorem/"
-
-[[tutorial]]
-  name = "Lorem"
-  weight = 10
-  identifier = "lorem"
-  url = "/tutorial/lorem/"
-
-[[main]]
-  name = "Docs"
-  url = "/docs/prologue/introduction/"
-# url = "/docs/1.0/prologue/introduction/"
-  weight = 10
-
-# [[main]]
-#   name = "Tutorial"
-#   url = "/tutorial/lorem/ipsum/"
-#   weight = 15
-
-
-[[main]]
-  name = "Get Started"
-  weight = 30
-  identifier = "get-started"
-  url = "/docs/prologue/introduction/"
-
-[[main]]
-  name = "Quick Start"
+[[documentation]]
+  name = "Code Reference"
+  identifier = "main"
+  url = "/documentation/code/index_mainpage"
   weight = 40
-  identifier = "quick-start"
-  url = "/docs/prologue/quick-start/"
-  parent = "get-started"
-
-[[main]]
-  name = "Tutorial"
-  weight = 50
-  identifier = "tutorial"
-  url = "https://getdoks.org/tutorial/introduction/"
-  parent = "get-started"
 
 [[social]]
   name = "GitHub"
