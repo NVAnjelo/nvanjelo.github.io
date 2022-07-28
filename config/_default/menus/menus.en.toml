@@ -13,10 +13,12 @@
   weight = 40
 
 [[documentation]]
-  name = "Code Reference"
+  name = "Important References"
   identifier = "main"
   url = "/documentation/code/index_mainpage"
   weight = 40
+
+
 
 [[social]]
   name = "GitHub"
