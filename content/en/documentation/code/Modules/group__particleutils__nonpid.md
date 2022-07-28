@@ -27,9 +27,9 @@ title: "Non-PID particle properties, via unbound functions"
 | bool | **[hasStableDescendantWith](http://example.org/modules/group__particleutils__nonpid/#function-hasstabledescendantwith)**(const Particle & p, const ParticleSelector & f)<br>Determine whether a particle has a stable descendant which meets the function requirement.  |
 | bool | **[hasStableDescendantWithout](http://example.org/modules/group__particleutils__nonpid/#function-hasstabledescendantwithout)**(const Particle & p, const ParticleSelector & f)<br>Determine whether a particle has a stable descendant which doesn't meet the function requirement.  |
 | bool | **[isVisible](http://example.org/modules/group__particleutils__nonpid/#function-isvisible)**(const Particle & p)<br>Is this particle potentially visible in a detector?  |
-| bool | **[isDirect](http://example.org/modules/group__particleutils__nonpid/#function-isdirect)**(const Particle & p, bool allow_from_direct_tau =false, bool allow_from_direct_mu =false)<br>Decide if a given particle is direct, via <a href="http://example.org/classes/classrivet_1_1particle/#function-isdirect">Particle::isDirect()</a> |
-| bool | **[isPrompt](http://example.org/modules/group__particleutils__nonpid/#function-isprompt)**(const Particle & p, bool allow_from_prompt_tau =false, bool allow_from_prompt_mu =false)<br>Decide if a given particle is prompt, via <a href="http://example.org/classes/classrivet_1_1particle/#function-isprompt">Particle::isPrompt()</a> |
-| bool | **[isStable](http://example.org/modules/group__particleutils__nonpid/#function-isstable)**(const Particle & p)<br>Decide if a given particle is stable, via <a href="http://example.org/classes/classrivet_1_1particle/#function-isstable">Particle::isStable()</a> |
+| bool | **[isDirect](http://example.org/modules/group__particleutils__nonpid/#function-isdirect)**(const Particle & p, bool allow_from_direct_tau =false, bool allow_from_direct_mu =false)<br>Decide if a given particle is direct, via <a href="http://example.org/classes/classrivet_1_1dressedlepton/#function-isdirect">Particle::isDirect()</a> |
+| bool | **[isPrompt](http://example.org/modules/group__particleutils__nonpid/#function-isprompt)**(const Particle & p, bool allow_from_prompt_tau =false, bool allow_from_prompt_mu =false)<br>Decide if a given particle is prompt, via <a href="http://example.org/classes/classrivet_1_1dressedlepton/#function-isprompt">Particle::isPrompt()</a> |
+| bool | **[isStable](http://example.org/modules/group__particleutils__nonpid/#function-isstable)**(const Particle & p)<br>Decide if a given particle is stable, via <a href="http://example.org/classes/classrivet_1_1dressedlepton/#function-isstable">Particle::isStable()</a> |
 | bool | **[hasHadronicDecay](http://example.org/modules/group__particleutils__nonpid/#function-hashadronicdecay)**(const Particle & p)<br>Decide if a given particle decays hadronically.  |
 | bool | **[hasLeptonicDecay](http://example.org/modules/group__particleutils__nonpid/#function-hasleptonicdecay)**(const Particle & p)<br>Decide if a given particle decays leptonically (decays, and no hadrons)  |
 | bool | **[hasAncestor](http://example.org/modules/group__particleutils__nonpid/#function-hasancestor)**(const Particle & p, PdgId pid) |
@@ -220,9 +220,9 @@ inline bool isDirect(
 )
 ```
 
-Decide if a given particle is direct, via <a href="http://example.org/classes/classrivet_1_1particle/#function-isdirect">Particle::isDirect()</a>
+Decide if a given particle is direct, via <a href="http://example.org/classes/classrivet_1_1dressedlepton/#function-isdirect">Particle::isDirect()</a>
 
-<a href="http://example.org/classes/classrivet_1_1a/">A</a> "direct" particle is one directly connected to the hard process. It is a preferred alias for "prompt", since it has no confusing implications about distinguishability by timing information.
+A "direct" particle is one directly connected to the hard process. It is a preferred alias for "prompt", since it has no confusing implications about distinguishability by timing information.
 
 The boolean arguments allow a decay lepton to be considered direct if its parent was a "real" direct lepton. 
 
@@ -237,7 +237,7 @@ inline bool isPrompt(
 )
 ```
 
-Decide if a given particle is prompt, via <a href="http://example.org/classes/classrivet_1_1particle/#function-isprompt">Particle::isPrompt()</a>
+Decide if a given particle is prompt, via <a href="http://example.org/classes/classrivet_1_1dressedlepton/#function-isprompt">Particle::isPrompt()</a>
 
 The boolean arguments allow a decay lepton to be considered prompt if its parent was a "real" prompt lepton. 
 
@@ -250,7 +250,7 @@ inline bool isStable(
 )
 ```
 
-Decide if a given particle is stable, via <a href="http://example.org/classes/classrivet_1_1particle/#function-isstable">Particle::isStable()</a>
+Decide if a given particle is stable, via <a href="http://example.org/classes/classrivet_1_1dressedlepton/#function-isstable">Particle::isStable()</a>
 
 ### function hasHadronicDecay
 
@@ -286,7 +286,7 @@ inline bool hasAncestor(
 
 Prefer hasAncestorWith 
 
-Check whether a given <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is found in the particle's ancestor list 
+Check whether a given PID is found in the particle's ancestor list 
 
 
 ### function fromBottom
@@ -346,4 +346,4 @@ Determine whether the particle is from a prompt tau decay.
 
 -------------------------------
 
-Updated on 2022-07-27 at 19:10:13 +0100
+Updated on 2022-07-28 at 11:25:43 +0100

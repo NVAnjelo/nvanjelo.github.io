@@ -12,7 +12,7 @@ title: "/home/anarendran/Documents/temp/rivet/include/Rivet/Tools/Correlators.hh
 
 | Name           |
 | -------------- |
-| **[Rivet](http://example.org/namespaces/namespacerivet/)** <br>-*- C++ -*-  |
+| **[Rivet](http://example.org/namespaces/namespacerivet/)**  |
 
 ## Classes
 
@@ -20,7 +20,7 @@ title: "/home/anarendran/Documents/temp/rivet/include/Rivet/Tools/Correlators.hh
 | -------------- | -------------- |
 | class | **[Rivet::Correlators](http://example.org/classes/classrivet_1_1correlators/)** <br>Projection for calculating correlators for flow measurements.  |
 | class | **[Rivet::CumulantAnalysis](http://example.org/classes/classrivet_1_1cumulantanalysis/)** <br>Tools for flow analyses.  |
-| class | **[Rivet::CumulantAnalysis::ECorrelator](http://example.org/classes/classrivet_1_1cumulantanalysis_1_1ecorrelator/)** <br><a href="http://example.org/classes/classrivet_1_1a/">A</a> helper class to calculate all event averages of correlators.  |
+| class | **[Rivet::CumulantAnalysis::ECorrelator](http://example.org/classes/classrivet_1_1cumulantanalysis_1_1ecorrelator/)** <br>A helper class to calculate all event averages of correlators.  |
 
 
 
@@ -1054,4 +1054,4 @@ namespace Rivet {
 
 -------------------------------
 
-Updated on 2022-07-27 at 19:10:16 +0100
+Updated on 2022-07-28 at 11:25:43 +0100

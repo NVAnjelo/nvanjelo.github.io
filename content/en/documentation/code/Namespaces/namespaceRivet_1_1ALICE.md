@@ -78,7 +78,7 @@ typedef V0Multiplicity<0> Rivet::ALICE::V0MMultiplicity;
 ```
 
 
-Convenience typedef for <a href="http://example.org/classes/classrivet_1_1a/">A</a> & C multiplicity 
+Convenience typedef for A & C multiplicity 
 
 
 ### typedef CL0Multiplicity
@@ -108,7 +108,7 @@ using Rivet::ALICE::V0ATrigger = typedef V0Trigger<-1>;
 ```
 
 
-Convenience typedef for V0 <a href="http://example.org/classes/classrivet_1_1a/">A</a> trigger 
+Convenience typedef for V0 A trigger 
 
 
 ### using V0CTrigger
@@ -200,4 +200,4 @@ The acceptance cut for SPD FASTOR
 
 -------------------------------
 
-Updated on 2022-07-27 at 19:10:13 +0100
+Updated on 2022-07-28 at 11:25:43 +0100

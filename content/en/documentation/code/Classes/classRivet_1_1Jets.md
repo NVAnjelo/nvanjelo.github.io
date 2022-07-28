@@ -26,14 +26,14 @@ Inherits from std::vector< Jet >
 
 |                | Name           |
 | -------------- | -------------- |
-| | **[Jets](http://example.org/classes/classrivet_1_1jets/#function-jets)**()<br><a href="http://example.org/classes/classrivet_1_1jets/">Jets</a> default constructor.  |
-| | **[Jets](http://example.org/classes/classrivet_1_1jets/#function-jets)**(const std::vector< <a href="http://example.org/classes/classrivet_1_1jet/">Jet</a> > & vjs)<br><a href="http://example.org/classes/classrivet_1_1jets/">Jets</a> copy constructor from vector<Jet>  |
-| <a href="http://example.org/modules/group__momutils__cmp/#typedef-fourmomenta">FourMomenta</a> | **[moms](http://example.org/classes/classrivet_1_1jets/#function-moms)**() const<br><a href="http://example.org/classes/classrivet_1_1jets/">Jets</a> -> FourMomenta cast/conversion operator.  |
-| <a href="http://example.org/namespaces/namespacerivet/#typedef-pseudojets">PseudoJets</a> | **[pseudojets](http://example.org/classes/classrivet_1_1jets/#function-pseudojets)**() const<br><a href="http://example.org/classes/classrivet_1_1jets/">Jets</a> -> PseudoJets cast/conversion operator.  |
+| | **[Jets](http://example.org/classes/classrivet_1_1jets/#function-jets)**() |
+| | **[Jets](http://example.org/classes/classrivet_1_1jets/#function-jets)**(const std::vector< <a href="http://example.org/classes/classrivet_1_1jet/">Jet</a> > & vjs) |
+| FourMomenta | **[moms](http://example.org/classes/classrivet_1_1jets/#function-moms)**() const |
+| <a href="http://example.org/namespaces/namespacerivet/#typedef-pseudojets">PseudoJets</a> | **[pseudojets](http://example.org/classes/classrivet_1_1jets/#function-pseudojets)**() const |
 | | **[operator FourMomenta](http://example.org/classes/classrivet_1_1jets/#function-operator-fourmomenta)**() const |
 | | **[operator PseudoJets](http://example.org/classes/classrivet_1_1jets/#function-operator-pseudojets)**() const |
-| <a href="http://example.org/classes/classrivet_1_1jets/">Jets</a> & | **[operator+=](http://example.org/classes/classrivet_1_1jets/#function-operator+=)**(const <a href="http://example.org/classes/classrivet_1_1jet/">Jet</a> & j)<br><a href="http://example.org/classes/classrivet_1_1jet/">Jet</a> appending operator.  |
-| <a href="http://example.org/classes/classrivet_1_1jets/">Jets</a> & | **[operator+=](http://example.org/classes/classrivet_1_1jets/#function-operator+=)**(const <a href="http://example.org/classes/classrivet_1_1jets/">Jets</a> & js)<br><a href="http://example.org/classes/classrivet_1_1jets/">Jets</a> in-place concatenation operator.  |
+| <a href="http://example.org/classes/classrivet_1_1jets/">Jets</a> & | **[operator+=](http://example.org/classes/classrivet_1_1jets/#function-operator+=)**(const <a href="http://example.org/classes/classrivet_1_1jet/">Jet</a> & j) |
+| <a href="http://example.org/classes/classrivet_1_1jets/">Jets</a> & | **[operator+=](http://example.org/classes/classrivet_1_1jets/#function-operator+=)**(const <a href="http://example.org/classes/classrivet_1_1jets/">Jets</a> & js) |
 
 ## Detailed Description
 
@@ -43,7 +43,7 @@ class Rivet::Jets;
 
 Specialised vector of <a href="http://example.org/classes/classrivet_1_1jet/">Jet</a> objects. 
 
-<a href="http://example.org/classes/classrivet_1_1a/">A</a> specialised version of vector<Jet> which is able to implicitly and explicitly convert to a vector of <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a> or PseudoJet.
+A specialised version of vector<Jet> which is able to implicitly and explicitly convert to a vector of <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a> or PseudoJet.
 
 typedef std::vector<Jet> <a href="http://example.org/classes/classrivet_1_1jets/">Jets</a>; 
 
@@ -64,7 +64,6 @@ using Rivet::Jets::base =  std::vector<Jet>;
 Jets()
 ```
 
-<a href="http://example.org/classes/classrivet_1_1jets/">Jets</a> default constructor. 
 
 ### function Jets
 
@@ -74,7 +73,6 @@ Jets(
 )
 ```
 
-<a href="http://example.org/classes/classrivet_1_1jets/">Jets</a> copy constructor from vector<Jet> 
 
 ### function moms
 
@@ -82,7 +80,6 @@ Jets(
 FourMomenta moms() const
 ```
 
-<a href="http://example.org/classes/classrivet_1_1jets/">Jets</a> -> FourMomenta cast/conversion operator. 
 
 ### function pseudojets
 
@@ -90,7 +87,6 @@ FourMomenta moms() const
 PseudoJets pseudojets() const
 ```
 
-<a href="http://example.org/classes/classrivet_1_1jets/">Jets</a> -> PseudoJets cast/conversion operator. 
 
 ### function operator FourMomenta
 
@@ -114,7 +110,6 @@ Jets & operator+=(
 )
 ```
 
-<a href="http://example.org/classes/classrivet_1_1jet/">Jet</a> appending operator. 
 
 ### function operator+=
 
@@ -124,8 +119,7 @@ Jets & operator+=(
 )
 ```
 
-<a href="http://example.org/classes/classrivet_1_1jets/">Jets</a> in-place concatenation operator. 
 
 -------------------------------
 
-Updated on 2022-07-27 at 19:10:01 +0100
+Updated on 2022-07-28 at 11:25:42 +0100

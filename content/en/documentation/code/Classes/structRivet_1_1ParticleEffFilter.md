@@ -11,7 +11,7 @@ summary: "A functor to return true if Particlep survives a random efficiency sel
 
 
 
-<a href="http://example.org/classes/classrivet_1_1a/">A</a> functor to return true if <a href="http://example.org/classes/classrivet_1_1particle/">Particle</a>_p_ survives a random efficiency selection.  [More...](#detailed-description)
+A functor to return true if <a href="http://example.org/classes/classrivet_1_1particle/">Particle</a>_p_ survives a random efficiency selection.  [More...](#detailed-description)
 
 
 `#include <ParticleSmearingFunctions.hh>`
@@ -30,7 +30,7 @@ summary: "A functor to return true if Particlep survives a random efficiency sel
 struct Rivet::ParticleEffFilter;
 ```
 
-<a href="http://example.org/classes/classrivet_1_1a/">A</a> functor to return true if <a href="http://example.org/classes/classrivet_1_1particle/">Particle</a>_p_ survives a random efficiency selection. 
+A functor to return true if <a href="http://example.org/classes/classrivet_1_1particle/">Particle</a>_p_ survives a random efficiency selection. 
 
 **Deprecated**: 
 
@@ -67,4 +67,4 @@ inline bool operator()(
 
 -------------------------------
 
-Updated on 2022-07-27 at 19:10:13 +0100
+Updated on 2022-07-28 at 11:25:43 +0100

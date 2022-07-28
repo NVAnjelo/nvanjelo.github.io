@@ -27,11 +27,6 @@ Logging system for controlled & formatted writing to stdout.
 
 |                | Name           |
 | -------------- | -------------- |
-| void | **[trace](http://example.org/classes/classrivet_1_1log/#function-trace)**(const std::string & message) |
-| void | **[debug](http://example.org/classes/classrivet_1_1log/#function-debug)**(const std::string & message) |
-| void | **[info](http://example.org/classes/classrivet_1_1log/#function-info)**(const std::string & message) |
-| void | **[warn](http://example.org/classes/classrivet_1_1log/#function-warn)**(const std::string & message) |
-| void | **[error](http://example.org/classes/classrivet_1_1log/#function-error)**(const std::string & message) |
 | <a href="http://example.org/classes/classrivet_1_1log/">Log</a> & | **[getLog](http://example.org/classes/classrivet_1_1log/#function-getlog)**(const std::string & name) |
 | <a href="http://example.org/classes/classrivet_1_1log/#enum-level">Level</a> | **[getLevelFromName](http://example.org/classes/classrivet_1_1log/#function-getlevelfromname)**(const std::string & level)<br>Get a log level enum from a string.  |
 | std::string | **[getLevelName](http://example.org/classes/classrivet_1_1log/#function-getlevelname)**(int level)<br>Get the std::string representation of a log level.  |
@@ -40,6 +35,11 @@ Logging system for controlled & formatted writing to stdout.
 | std::string | **[getName](http://example.org/classes/classrivet_1_1log/#function-getname)**() const<br>Get the name of this logger.  |
 | <a href="http://example.org/classes/classrivet_1_1log/">Log</a> & | **[setName](http://example.org/classes/classrivet_1_1log/#function-setname)**(const std::string & name)<br>Set the name of this logger.  |
 | bool | **[isActive](http://example.org/classes/classrivet_1_1log/#function-isactive)**(int level) const<br>Will this log level produce output on this logger at the moment?  |
+| void | **[trace](http://example.org/classes/classrivet_1_1log/#function-trace)**(const std::string & message) |
+| void | **[debug](http://example.org/classes/classrivet_1_1log/#function-debug)**(const std::string & message) |
+| void | **[info](http://example.org/classes/classrivet_1_1log/#function-info)**(const std::string & message) |
+| void | **[warn](http://example.org/classes/classrivet_1_1log/#function-warn)**(const std::string & message) |
+| void | **[error](http://example.org/classes/classrivet_1_1log/#function-error)**(const std::string & message) |
 | void | **[setLevel](http://example.org/classes/classrivet_1_1log/#function-setlevel)**(const std::string & name, int level)<br>Set the log levels.  |
 | void | **[setLevels](http://example.org/classes/classrivet_1_1log/#function-setlevels)**(const <a href="http://example.org/classes/classrivet_1_1log/#typedef-levelmap">LevelMap</a> & logLevels) |
 | void | **[setShowTimestamp](http://example.org/classes/classrivet_1_1log/#function-setshowtimestamp)**(bool showTime =true) |
@@ -51,11 +51,11 @@ Logging system for controlled & formatted writing to stdout.
 
 |                | Name           |
 | -------------- | -------------- |
-| void | **[log](http://example.org/classes/classrivet_1_1log/#function-log)**(int level, const std::string & message)<br>Write a message at a particular level.  |
-| std::string | **[formatMessage](http://example.org/classes/classrivet_1_1log/#function-formatmessage)**(int level, const std::string & message)<br>Turn a message string into the current log format.  |
 | | **[Log](http://example.org/classes/classrivet_1_1log/#function-log)**(const std::string & name)<br>Constructor 1.  |
 | | **[Log](http://example.org/classes/classrivet_1_1log/#function-log)**(const std::string & name, int level)<br>Constructor 2.  |
 | std::string | **[getColorCode](http://example.org/classes/classrivet_1_1log/#function-getcolorcode)**(int level) |
+| void | **[log](http://example.org/classes/classrivet_1_1log/#function-log)**(int level, const std::string & message)<br>Write a message at a particular level.  |
+| std::string | **[formatMessage](http://example.org/classes/classrivet_1_1log/#function-formatmessage)**(int level, const std::string & message)<br>Turn a message string into the current log format.  |
 
 ## Friends
 
@@ -108,51 +108,6 @@ Typedef for a collection of shell color codes, accessed by log level.
 
 ## Public Functions Documentation
 
-### function trace
-
-```cpp
-inline void trace(
-    const std::string & message
-)
-```
-
-
-### function debug
-
-```cpp
-inline void debug(
-    const std::string & message
-)
-```
-
-
-### function info
-
-```cpp
-inline void info(
-    const std::string & message
-)
-```
-
-
-### function warn
-
-```cpp
-inline void warn(
-    const std::string & message
-)
-```
-
-
-### function error
-
-```cpp
-inline void error(
-    const std::string & message
-)
-```
-
-
 ### function getLog
 
 ```cpp
@@ -184,9 +139,6 @@ static std::string getLevelName(
 ```
 
 Get the std::string representation of a log level. 
-
-TodoDo the map::upper_limit thing to find nearest level... 
-
 
 ### function getLevel
 
@@ -233,6 +185,51 @@ inline bool isActive(
 ```
 
 Will this log level produce output on this logger at the moment? 
+
+### function trace
+
+```cpp
+inline void trace(
+    const std::string & message
+)
+```
+
+
+### function debug
+
+```cpp
+inline void debug(
+    const std::string & message
+)
+```
+
+
+### function info
+
+```cpp
+inline void info(
+    const std::string & message
+)
+```
+
+
+### function warn
+
+```cpp
+inline void warn(
+    const std::string & message
+)
+```
+
+
+### function error
+
+```cpp
+inline void error(
+    const std::string & message
+)
+```
+
 
 ### function setLevel
 
@@ -292,28 +289,6 @@ static inline void setUseColors(
 
 ## Protected Functions Documentation
 
-### function log
-
-```cpp
-void log(
-    int level,
-    const std::string & message
-)
-```
-
-Write a message at a particular level. 
-
-### function formatMessage
-
-```cpp
-std::string formatMessage(
-    int level,
-    const std::string & message
-)
-```
-
-Turn a message string into the current log format. 
-
 ### function Log
 
 ```cpp
@@ -344,10 +319,27 @@ static std::string getColorCode(
 ```
 
 
-TodoTest for VT100 compliance? 
+### function log
 
-TodoDo the map::upper_limit thing to find nearest level... 
+```cpp
+void log(
+    int level,
+    const std::string & message
+)
+```
 
+Write a message at a particular level. 
+
+### function formatMessage
+
+```cpp
+std::string formatMessage(
+    int level,
+    const std::string & message
+)
+```
+
+Turn a message string into the current log format. 
 
 ## Friends
 
@@ -365,4 +357,4 @@ The streaming operator can use <a href="http://example.org/classes/classrivet_1_
 
 -------------------------------
 
-Updated on 2022-07-27 at 19:10:03 +0100
+Updated on 2022-07-28 at 11:25:42 +0100

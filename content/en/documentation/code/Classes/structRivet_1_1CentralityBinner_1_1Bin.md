@@ -19,21 +19,6 @@ title: "Rivet::CentralityBinner::Bin"
 | bool | **[inRange](http://example.org/classes/structrivet_1_1centralitybinner_1_1bin/#function-inrange)**(double cest) const |
 | void | **[normalizePerEvent](http://example.org/classes/structrivet_1_1centralitybinner_1_1bin/#function-normalizeperevent)**()<br>Normalise the AnalysisObject to the tital cross section.  |
 
-## Public Attributes
-
-|                | Name           |
-| -------------- | -------------- |
-| T | **[_t](http://example.org/classes/structrivet_1_1centralitybinner_1_1bin/#variable--t)** <br>The AnalysisObject.  |
-| double | **[_centLo](http://example.org/classes/structrivet_1_1centralitybinner_1_1bin/#variable--centlo)** <br>The range in centrality.  |
-| double | **[_centHi](http://example.org/classes/structrivet_1_1centralitybinner_1_1bin/#variable--centhi)**  |
-| double | **[_cestLo](http://example.org/classes/structrivet_1_1centralitybinner_1_1bin/#variable--cestlo)** <br>The corresponding range in the centrality estimator.  |
-| double | **[_cestHi](http://example.org/classes/structrivet_1_1centralitybinner_1_1bin/#variable--cesthi)**  |
-| double | **[_weightsum](http://example.org/classes/structrivet_1_1centralitybinner_1_1bin/#variable--weightsum)** <br>The sum of event weights for this bin;.  |
-| double | **[_underflow](http://example.org/classes/structrivet_1_1centralitybinner_1_1bin/#variable--underflow)**  |
-| double | **[_overflow](http://example.org/classes/structrivet_1_1centralitybinner_1_1bin/#variable--overflow)**  |
-| double | **[_ambiguous](http://example.org/classes/structrivet_1_1centralitybinner_1_1bin/#variable--ambiguous)** <br>Number of ambiguous events in this bin.  |
-| double | **[_ambweight](http://example.org/classes/structrivet_1_1centralitybinner_1_1bin/#variable--ambweight)** <br>Sum of abmiguous weights.  |
-
 ## Public Functions Documentation
 
 ### function Bin
@@ -80,90 +65,6 @@ inline void normalizePerEvent()
 
 Normalise the AnalysisObject to the tital cross section. 
 
-## Public Attributes Documentation
-
-### variable _t
-
-```cpp
-T _t;
-```
-
-The AnalysisObject. 
-
-### variable _centLo
-
-```cpp
-double _centLo;
-```
-
-The range in centrality. 
-
-### variable _centHi
-
-```cpp
-double _centHi;
-```
-
-
-### variable _cestLo
-
-```cpp
-double _cestLo;
-```
-
-The corresponding range in the centrality estimator. 
-
-### variable _cestHi
-
-```cpp
-double _cestHi;
-```
-
-
-### variable _weightsum
-
-```cpp
-double _weightsum;
-```
-
-The sum of event weights for this bin;. 
-
-### variable _underflow
-
-```cpp
-double _underflow;
-```
-
-
-The weight in a final AnalysisObject that contains events below the centrality limit. 
-
-
-### variable _overflow
-
-```cpp
-double _overflow;
-```
-
-
-The weight in a final AnalysisObject that contain events above the centrality limit. 
-
-
-### variable _ambiguous
-
-```cpp
-double _ambiguous;
-```
-
-Number of ambiguous events in this bin. 
-
-### variable _ambweight
-
-```cpp
-double _ambweight;
-```
-
-Sum of abmiguous weights. 
-
 -------------------------------
 
-Updated on 2022-07-27 at 19:09:51 +0100
+Updated on 2022-07-28 at 11:25:42 +0100

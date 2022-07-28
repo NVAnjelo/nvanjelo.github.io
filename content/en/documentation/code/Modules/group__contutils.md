@@ -20,9 +20,9 @@ title: "Container utils"
 | template <typename CONTAINER ,typename FN \> <br>bool | **[all](http://example.org/modules/group__contutils/#function-all)**(const CONTAINER & c, const FN & f)<br>Return true if _f(x)_ is true for all <code>x</code> in container _c_, otherwise false.  |
 | template <typename CONTAINER \> <br>bool | **[none](http://example.org/modules/group__contutils/#function-none)**(const CONTAINER & c)<br>Return true if _x_ is false for all <code>x</code> in container _c_, otherwise false.  |
 | template <typename CONTAINER ,typename FN \> <br>bool | **[none](http://example.org/modules/group__contutils/#function-none)**(const CONTAINER & c, const FN & f)<br>Return true if _f(x)_ is false for all <code>x</code> in container _c_, otherwise false.  |
-| template <typename CONTAINER1 ,typename CONTAINER2 ,typename FN \> <br>const CONTAINER2 & | **[transform](http://example.org/modules/group__contutils/#function-transform)**(const CONTAINER1 & in, CONTAINER2 & out, const FN & f)<br><a href="http://example.org/classes/classrivet_1_1a/">A</a> single-container-arg version of std::transform, aka <code>map</code>.  |
+| template <typename CONTAINER1 ,typename CONTAINER2 ,typename FN \> <br>const CONTAINER2 & | **[transform](http://example.org/modules/group__contutils/#function-transform)**(const CONTAINER1 & in, CONTAINER2 & out, const FN & f)<br>A single-container-arg version of std::transform, aka <code>map</code>.  |
 | template <typename CONTAINER1 ,typename T2 \> <br>std::vector< T2 > | **[transform](http://example.org/modules/group__contutils/#function-transform)**(const CONTAINER1 & in, const std::function< T2(typename CONTAINER1::value_type)> & f) |
-| template <typename CONTAINER1 ,typename T ,typename FN \> <br>T | **[accumulate](http://example.org/modules/group__contutils/#function-accumulate)**(const CONTAINER1 & in, const T & init, const FN & f)<br><a href="http://example.org/classes/classrivet_1_1a/">A</a> single-container-arg version of std::accumulate, aka <code>reduce</code>.  |
+| template <typename CONTAINER1 ,typename T ,typename FN \> <br>T | **[accumulate](http://example.org/modules/group__contutils/#function-accumulate)**(const CONTAINER1 & in, const T & init, const FN & f)<br>A single-container-arg version of std::accumulate, aka <code>reduce</code>.  |
 | template <typename CONTAINER \> <br>CONTAINER::value_type | **[sum](http://example.org/modules/group__contutils/#function-sum)**(const CONTAINER & c)<br>Generic sum function, adding <code>x</code> for all <code>x</code> in container _c_.  |
 | template <typename CONTAINER ,typename T \> <br>T | **[sum](http://example.org/modules/group__contutils/#function-sum)**(const CONTAINER & c, const T & start) |
 | template <typename CONTAINER ,typename FN ,typename T \> <br>T | **[sum](http://example.org/modules/group__contutils/#function-sum)**(const CONTAINER & c, const FN & f, const T & start =T())<br>Generic sum function, adding _fn_(<code>x</code>) for all <code>x</code> in container _c_, starting with _start_.  |
@@ -163,7 +163,7 @@ inline const CONTAINER2 & transform(
 )
 ```
 
-<a href="http://example.org/classes/classrivet_1_1a/">A</a> single-container-arg version of std::transform, aka <code>map</code>. 
+A single-container-arg version of std::transform, aka <code>map</code>. 
 
 ### function transform
 
@@ -179,7 +179,7 @@ inline std::vector< T2 > transform(
 
 **Todo**: Make the function template polymorphic... or specific to <a href="http://example.org/classes/classrivet_1_1particlebase/">ParticleBase</a>
 
-<a href="http://example.org/classes/classrivet_1_1a/">A</a> single-container-arg, return-value version of std::transform, aka <code>map</code>
+A single-container-arg, return-value version of std::transform, aka <code>map</code>
 
 
 ### function accumulate
@@ -195,7 +195,7 @@ inline T accumulate(
 )
 ```
 
-<a href="http://example.org/classes/classrivet_1_1a/">A</a> single-container-arg version of std::accumulate, aka <code>reduce</code>. 
+A single-container-arg version of std::accumulate, aka <code>reduce</code>. 
 
 ### function sum
 
@@ -605,4 +605,4 @@ Find the minimum and maximum values in the vector.
 
 -------------------------------
 
-Updated on 2022-07-27 at 19:10:13 +0100
+Updated on 2022-07-28 at 11:25:43 +0100

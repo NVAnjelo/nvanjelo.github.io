@@ -22,8 +22,8 @@ Inherits from [Rivet::BoolParticleBaseFunctor](http://example.org/classes/struct
 
 |                | Name           |
 | -------------- | -------------- |
-| | **[DeltaRLess](http://example.org/modules/group__particlebaseutils/#function-deltarless)**(const <a href="http://example.org/classes/classrivet_1_1particlebase/">ParticleBase</a> & vec, double dr, <a href="http://example.org/namespaces/namespacerivet/#enum-rapscheme">RapScheme</a> scheme =<a href="http://example.org/namespaces/namespacerivet/#enumvalue-pseudorapidity">PSEUDORAPIDITY</a>) |
-| | **[DeltaRLess](http://example.org/modules/group__particlebaseutils/#function-deltarless)**(const <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & vec, double dr, <a href="http://example.org/namespaces/namespacerivet/#enum-rapscheme">RapScheme</a> scheme =<a href="http://example.org/namespaces/namespacerivet/#enumvalue-pseudorapidity">PSEUDORAPIDITY</a>) |
+| | **[DeltaRLess](http://example.org/modules/group__particlebaseutils/#function-deltarless)**(const <a href="http://example.org/classes/classrivet_1_1particlebase/">ParticleBase</a> & vec, double dr, <a href="http://example.org/namespaces/namespacerivet/#enum-rapscheme">RapScheme</a> scheme =PSEUDORAPIDITY) |
+| | **[DeltaRLess](http://example.org/modules/group__particlebaseutils/#function-deltarless)**(const <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & vec, double dr, <a href="http://example.org/namespaces/namespacerivet/#enum-rapscheme">RapScheme</a> scheme =PSEUDORAPIDITY) |
 | | **[DeltaRLess](http://example.org/modules/group__particlebaseutils/#function-deltarless)**(const <a href="http://example.org/classes/classrivet_1_1vector3/">Vector3</a> & vec, double dr) |
 | virtual bool | **[operator()](http://example.org/modules/group__particlebaseutils/#function-operator())**(const <a href="http://example.org/classes/classrivet_1_1particlebase/">ParticleBase</a> & p) const |
 
@@ -115,4 +115,4 @@ RapScheme rapscheme;
 
 -------------------------------
 
-Updated on 2022-07-27 at 19:10:13 +0100
+Updated on 2022-07-28 at 11:25:43 +0100

@@ -1,18 +1,13 @@
 ---
 
 title: "std"
+summary: "STL namespace. "
 
 ---
 
 # std
 
-
-
-## Classes
-
-|                | Name           |
-| -------------- | -------------- |
-| struct | **[std::numeric_limits< Eigen::half >](http://example.org/classes/structstd_1_1numeric__limits_3_01eigen_1_1half_01_4/)**  |
+STL namespace. 
 
 ## Functions
 
@@ -106,4 +101,4 @@ Get a function pointer / hash integer from an std::function.
 
 -------------------------------
 
-Updated on 2022-07-27 at 19:09:35 +0100
+Updated on 2022-07-28 at 11:25:41 +0100

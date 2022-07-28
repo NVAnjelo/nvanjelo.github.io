@@ -11,7 +11,7 @@ summary: "A functor to return true if Jetj survives a random efficiency selectio
 
 
 
-<a href="http://example.org/classes/classrivet_1_1a/">A</a> functor to return true if <a href="http://example.org/classes/classrivet_1_1jet/">Jet</a>_j_ survives a random efficiency selection. 
+A functor to return true if <a href="http://example.org/classes/classrivet_1_1jet/">Jet</a>_j_ survives a random efficiency selection. 
 
 
 `#include <JetSmearingFunctions.hh>`
@@ -56,4 +56,4 @@ inline bool operator()(
 
 -------------------------------
 
-Updated on 2022-07-27 at 19:10:13 +0100
+Updated on 2022-07-28 at 11:25:43 +0100

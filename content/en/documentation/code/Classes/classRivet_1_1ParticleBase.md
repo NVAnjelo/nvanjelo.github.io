@@ -45,8 +45,8 @@ Inherited by [Rivet::Jet](http://example.org/classes/classrivet_1_1jet/), [Rivet
 | double | **[rap](http://example.org/classes/classrivet_1_1particlebase/#function-rap)**() const<br>Get the \( y \) directly (alias).  |
 | double | **[absrapidity](http://example.org/classes/classrivet_1_1particlebase/#function-absrapidity)**() const<br>Get the \( |y| \) directly.  |
 | double | **[absrap](http://example.org/classes/classrivet_1_1particlebase/#function-absrap)**() const<br>Get the \( |y| \) directly (alias).  |
-| double | **[azimuthalAngle](http://example.org/classes/classrivet_1_1particlebase/#function-azimuthalangle)**(const <a href="http://example.org/namespaces/namespacerivet/#enum-phimapping">PhiMapping</a> mapping =<a href="http://example.org/namespaces/namespacerivet/#enumvalue-zero-2pi">ZERO_2PI</a>) const<br>Azimuthal angle \( \phi \).  |
-| double | **[phi](http://example.org/classes/classrivet_1_1particlebase/#function-phi)**(const <a href="http://example.org/namespaces/namespacerivet/#enum-phimapping">PhiMapping</a> mapping =<a href="http://example.org/namespaces/namespacerivet/#enumvalue-zero-2pi">ZERO_2PI</a>) const<br>Get the \( \phi \) directly.  |
+| double | **[azimuthalAngle](http://example.org/classes/classrivet_1_1particlebase/#function-azimuthalangle)**(const <a href="http://example.org/namespaces/namespacerivet/#enum-phimapping">PhiMapping</a> mapping =ZERO_2PI) const<br>Azimuthal angle \( \phi \).  |
+| double | **[phi](http://example.org/classes/classrivet_1_1particlebase/#function-phi)**(const <a href="http://example.org/namespaces/namespacerivet/#enum-phimapping">PhiMapping</a> mapping =ZERO_2PI) const<br>Get the \( \phi \) directly.  |
 | <a href="http://example.org/classes/classrivet_1_1vector3/">Vector3</a> | **[p3](http://example.org/classes/classrivet_1_1particlebase/#function-p3)**() const<br>Get the 3-momentum directly.  |
 | double | **[p](http://example.org/classes/classrivet_1_1particlebase/#function-p)**() const<br>Get the 3-momentum magnitude directly.  |
 | double | **[p2](http://example.org/classes/classrivet_1_1particlebase/#function-p2)**() const<br>Get the 3-momentum magnitude-squared directly.  |
@@ -78,7 +78,7 @@ virtual const FourMomentum & momentum() const =0
 
 Get equivalent single momentum four-vector (const). 
 
-**Reimplemented by**: [Rivet::Jet::momentum](http://example.org/classes/classrivet_1_1jet/#function-momentum), [Rivet::Particle::momentum](http://example.org/classes/classrivet_1_1particle/#function-momentum)
+**Reimplemented by**: [Rivet::Jet::momentum](http://example.org/classes/classrivet_1_1jet/#function-momentum), [Rivet::DressedLepton::momentum](http://example.org/classes/classrivet_1_1dressedlepton/#function-momentum)
 
 
 ### function mom
@@ -465,4 +465,4 @@ Virtual destructor.
 
 -------------------------------
 
-Updated on 2022-07-27 at 19:10:07 +0100
+Updated on 2022-07-28 at 11:25:42 +0100

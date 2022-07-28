@@ -8,12 +8,6 @@ title: "Rivet::PID"
 
 
 
-## Classes
-
-|                | Name           |
-| -------------- | -------------- |
-| class | **[Rivet::PID::ParticleNames](http://example.org/classes/classrivet_1_1pid_1_1particlenames/)**  |
-
 ## Types
 
 |                | Name           |
@@ -30,34 +24,31 @@ title: "Rivet::PID"
 | std::pair< PdgId, PdgId > | **[make_pdgid_pair](http://example.org/namespaces/namespacerivet_1_1pid/#function-make-pdgid-pair)**(const std::string & a, const std::string & b)<br>Convenience maker of particle ID pairs from particle names.  |
 | std::string | **[toBeamsString](http://example.org/namespaces/namespacerivet_1_1pid/#function-tobeamsstring)**(const PdgIdPair & pair)<br>Print a PdgIdPair as a string.  |
 | int | **[abspid](http://example.org/modules/group__mcutils__utils/#function-abspid)**(int pid) |
-| unsigned short | **[_digit](http://example.org/modules/group__mcutils__utils/#function--digit)**(<a href="http://example.org/modules/group__mcutils__utils/#enum-location">Location</a> loc, int pid)<br>Split the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> into constituent integers.  |
-| int | **[_extraBits](http://example.org/modules/group__mcutils__utils/#function--extrabits)**(int pid)<br>Returns everything beyond the 7th digit (e.g. outside the numbering scheme)  |
-| int | **[_fundamentalID](http://example.org/modules/group__mcutils__utils/#function--fundamentalid)**(int pid)<br>Return the first two digits if this is a "fundamental" particle.  |
 | bool | **[isBSM](http://example.org/modules/group__mcutils__idclasses/#function-isbsm)**(int pid)<br>Is this a BSM particle (including graviton)?  |
-| bool | **[isNucleus](http://example.org/modules/group__mcutils__nucleus__ion/#function-isnucleus)**(int pid)<br>Is this a nucleus <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a>?  |
+| bool | **[isNucleus](http://example.org/modules/group__mcutils__nucleus__ion/#function-isnucleus)**(int pid)<br>Is this a nucleus PID?  |
 | int | **[nuclZ](http://example.org/modules/group__mcutils__nucleus__ion/#function-nuclz)**(int pid) |
 | int | **[nuclA](http://example.org/modules/group__mcutils__nucleus__ion/#function-nucla)**(int pid) |
 | int | **[nuclNlambda](http://example.org/modules/group__mcutils__nucleus__ion/#function-nuclnlambda)**(int pid) |
-| bool | **[isQuark](http://example.org/modules/group__mcutils__fundamental/#function-isquark)**(int pid)<br>Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of a quark.  |
-| bool | **[isGluon](http://example.org/modules/group__mcutils__fundamental/#function-isgluon)**(int pid)<br>Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of a gluon.  |
-| bool | **[isParton](http://example.org/modules/group__mcutils__fundamental/#function-isparton)**(int pid)<br>Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of a parton (quark or gluon)  |
-| bool | **[isPhoton](http://example.org/modules/group__mcutils__fundamental/#function-isphoton)**(int pid)<br>Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of a photon.  |
-| bool | **[isElectron](http://example.org/modules/group__mcutils__fundamental/#function-iselectron)**(int pid)<br>Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of an electron or positron.  |
-| bool | **[isMuon](http://example.org/modules/group__mcutils__fundamental/#function-ismuon)**(int pid)<br>Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of an muon or antimuon.  |
-| bool | **[isTau](http://example.org/modules/group__mcutils__fundamental/#function-istau)**(int pid)<br>Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of an tau or antitau.  |
-| bool | **[isChargedLepton](http://example.org/modules/group__mcutils__fundamental/#function-ischargedlepton)**(int pid)<br>Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of a charged lepton.  |
+| bool | **[isQuark](http://example.org/modules/group__mcutils__fundamental/#function-isquark)**(int pid)<br>Determine if the PID is that of a quark.  |
+| bool | **[isGluon](http://example.org/modules/group__mcutils__fundamental/#function-isgluon)**(int pid)<br>Determine if the PID is that of a gluon.  |
+| bool | **[isParton](http://example.org/modules/group__mcutils__fundamental/#function-isparton)**(int pid)<br>Determine if the PID is that of a parton (quark or gluon)  |
+| bool | **[isPhoton](http://example.org/modules/group__mcutils__fundamental/#function-isphoton)**(int pid)<br>Determine if the PID is that of a photon.  |
+| bool | **[isElectron](http://example.org/modules/group__mcutils__fundamental/#function-iselectron)**(int pid)<br>Determine if the PID is that of an electron or positron.  |
+| bool | **[isMuon](http://example.org/modules/group__mcutils__fundamental/#function-ismuon)**(int pid)<br>Determine if the PID is that of an muon or antimuon.  |
+| bool | **[isTau](http://example.org/modules/group__mcutils__fundamental/#function-istau)**(int pid)<br>Determine if the PID is that of an tau or antitau.  |
+| bool | **[isChargedLepton](http://example.org/modules/group__mcutils__fundamental/#function-ischargedlepton)**(int pid)<br>Determine if the PID is that of a charged lepton.  |
 | bool | **[isChLepton](http://example.org/modules/group__mcutils__fundamental/#function-ischlepton)**(int pid) |
-| bool | **[isNeutrino](http://example.org/modules/group__mcutils__fundamental/#function-isneutrino)**(int pid)<br>Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of a neutrino.  |
-| bool | **[isWplus](http://example.org/modules/group__mcutils__fundamental/#function-iswplus)**(int pid)<br>Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of a W+.  |
-| bool | **[isWminus](http://example.org/modules/group__mcutils__fundamental/#function-iswminus)**(int pid)<br>Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of a W-.  |
-| bool | **[isW](http://example.org/modules/group__mcutils__fundamental/#function-isw)**(int pid)<br>Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of a W+-.  |
-| bool | **[isZ](http://example.org/modules/group__mcutils__fundamental/#function-isz)**(int pid)<br>Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of a Z0.  |
-| bool | **[isHiggs](http://example.org/modules/group__mcutils__fundamental/#function-ishiggs)**(int pid)<br>Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of an SM/lightest SUSY Higgs.  |
+| bool | **[isNeutrino](http://example.org/modules/group__mcutils__fundamental/#function-isneutrino)**(int pid)<br>Determine if the PID is that of a neutrino.  |
+| bool | **[isWplus](http://example.org/modules/group__mcutils__fundamental/#function-iswplus)**(int pid)<br>Determine if the PID is that of a W+.  |
+| bool | **[isWminus](http://example.org/modules/group__mcutils__fundamental/#function-iswminus)**(int pid)<br>Determine if the PID is that of a W-.  |
+| bool | **[isW](http://example.org/modules/group__mcutils__fundamental/#function-isw)**(int pid)<br>Determine if the PID is that of a W+-.  |
+| bool | **[isZ](http://example.org/modules/group__mcutils__fundamental/#function-isz)**(int pid)<br>Determine if the PID is that of a Z0.  |
+| bool | **[isHiggs](http://example.org/modules/group__mcutils__fundamental/#function-ishiggs)**(int pid)<br>Determine if the PID is that of an SM/lightest SUSY Higgs.  |
 | bool | **[isGraviton](http://example.org/modules/group__mcutils__fundamental/#function-isgraviton)**(int pid)<br>Is this a graviton?  |
-| bool | **[isStrange](http://example.org/modules/group__mcutils__fundamental/#function-isstrange)**(int pid)<br>Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of an s/sbar.  |
-| bool | **[isCharm](http://example.org/modules/group__mcutils__fundamental/#function-ischarm)**(int pid)<br>Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of a c/cbar.  |
-| bool | **[isBottom](http://example.org/modules/group__mcutils__fundamental/#function-isbottom)**(int pid)<br>Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of a b/bbar.  |
-| bool | **[isTop](http://example.org/modules/group__mcutils__fundamental/#function-istop)**(int pid)<br>Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of a t/tbar.  |
+| bool | **[isStrange](http://example.org/modules/group__mcutils__fundamental/#function-isstrange)**(int pid)<br>Determine if the PID is that of an s/sbar.  |
+| bool | **[isCharm](http://example.org/modules/group__mcutils__fundamental/#function-ischarm)**(int pid)<br>Determine if the PID is that of a c/cbar.  |
+| bool | **[isBottom](http://example.org/modules/group__mcutils__fundamental/#function-isbottom)**(int pid)<br>Determine if the PID is that of a b/bbar.  |
+| bool | **[isTop](http://example.org/modules/group__mcutils__fundamental/#function-istop)**(int pid)<br>Determine if the PID is that of a t/tbar.  |
 | bool | **[isReggeon](http://example.org/modules/group__mcutils__qcomp/#function-isreggeon)**(int pid)<br>Is this a pomeron, odderon, or generic reggeon?  |
 | bool | **[isMeson](http://example.org/modules/group__mcutils__qcomp/#function-ismeson)**(int pid)<br>Check to see if this is a valid meson.  |
 | bool | **[isBaryon](http://example.org/modules/group__mcutils__qcomp/#function-isbaryon)**(int pid)<br>Check to see if this is a valid baryon.  |
@@ -87,9 +78,7 @@ title: "Rivet::PID"
 | bool | **[isExcitedLepton](http://example.org/modules/group__mcutils__idclasses/#function-isexcitedlepton)**(int pid)<br>Is this an excited lepton?  |
 | bool | **[isBlackHole](http://example.org/modules/group__mcutils__idclasses/#function-isblackhole)**(int pid) |
 | bool | **[isAECO](http://example.org/modules/group__mcutils__idclasses/#function-isaeco)**(int pid)<br>Is this an anomalously electrically charged particle (AECO)?  |
-| bool | **[_isValid](http://example.org/modules/group__mcutils__idclasses/#function--isvalid)**(int pid)<br>Check to see if this is a valid <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> (i.e. matches any known scheme)  |
 | bool | **[isValid](http://example.org/modules/group__mcutils__idclasses/#function-isvalid)**(int pid) |
-| bool | **[_hasQ](http://example.org/modules/group__mcutils__partoncontent/#function--hasq)**(int pid, int q) |
 | bool | **[hasDown](http://example.org/modules/group__mcutils__partoncontent/#function-hasdown)**(int pid)<br>Does this particle contain a down quark?  |
 | bool | **[hasUp](http://example.org/modules/group__mcutils__partoncontent/#function-hasup)**(int pid)<br>Does this particle contain an up quark?  |
 | bool | **[hasStrange](http://example.org/modules/group__mcutils__partoncontent/#function-hasstrange)**(int pid)<br>Does this particle contain a strange quark?  |
@@ -97,19 +86,19 @@ title: "Rivet::PID"
 | bool | **[hasBottom](http://example.org/modules/group__mcutils__partoncontent/#function-hasbottom)**(int pid)<br>Does this particle contain a bottom quark?  |
 | bool | **[hasTop](http://example.org/modules/group__mcutils__partoncontent/#function-hastop)**(int pid)<br>Does this particle contain a top quark?  |
 | bool | **[isHeavyFlavour](http://example.org/modules/group__mcutils__parton__classes/#function-isheavyflavour)**(int pid)<br>Determine if the particle is a heavy flavour hadron or parton.  |
-| bool | **[isHeavyParton](http://example.org/modules/group__mcutils__parton__classes/#function-isheavyparton)**(int pid)<br>Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of a heavy parton (c,b,t)  |
-| bool | **[isLightParton](http://example.org/modules/group__mcutils__parton__classes/#function-islightparton)**(int pid)<br>Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of a light parton (u,d,s)  |
-| bool | **[isHeavyMeson](http://example.org/modules/group__mcutils__parton__classes/#function-isheavymeson)**(int pid)<br>Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of a heavy flavour (b or c) meson.  |
-| bool | **[isHeavyBaryon](http://example.org/modules/group__mcutils__parton__classes/#function-isheavybaryon)**(int pid)<br>Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of a heavy flavour (b or c) baryon.  |
-| bool | **[isHeavyHadron](http://example.org/modules/group__mcutils__parton__classes/#function-isheavyhadron)**(int pid)<br>Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of a heavy flavour (b or c) hadron.  |
-| bool | **[isLightMeson](http://example.org/modules/group__mcutils__parton__classes/#function-islightmeson)**(int pid)<br>Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of a light flavour (not b or c) meson.  |
-| bool | **[isLightBaryon](http://example.org/modules/group__mcutils__parton__classes/#function-islightbaryon)**(int pid)<br>Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of a light flavour (not b or c) baryon.  |
-| bool | **[isLightHadron](http://example.org/modules/group__mcutils__parton__classes/#function-islighthadron)**(int pid)<br>Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of a light flavour (not b or c) hadron.  |
-| bool | **[isBottomMeson](http://example.org/modules/group__mcutils__parton__classes/#function-isbottommeson)**(int pid)<br>Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of a b-meson.  |
-| bool | **[isBottomBaryon](http://example.org/modules/group__mcutils__parton__classes/#function-isbottombaryon)**(int pid)<br>Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of a b-baryon.  |
-| bool | **[isBottomHadron](http://example.org/modules/group__mcutils__parton__classes/#function-isbottomhadron)**(int pid)<br>Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of a b-hadron.  |
-| bool | **[isCharmMeson](http://example.org/modules/group__mcutils__parton__classes/#function-ischarmmeson)**(int pid)<br>Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of a c-meson.  |
-| bool | **[isCharmBaryon](http://example.org/modules/group__mcutils__parton__classes/#function-ischarmbaryon)**(int pid)<br>Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of a c-baryon.  |
+| bool | **[isHeavyParton](http://example.org/modules/group__mcutils__parton__classes/#function-isheavyparton)**(int pid)<br>Determine if the PID is that of a heavy parton (c,b,t)  |
+| bool | **[isLightParton](http://example.org/modules/group__mcutils__parton__classes/#function-islightparton)**(int pid)<br>Determine if the PID is that of a light parton (u,d,s)  |
+| bool | **[isHeavyMeson](http://example.org/modules/group__mcutils__parton__classes/#function-isheavymeson)**(int pid)<br>Determine if the PID is that of a heavy flavour (b or c) meson.  |
+| bool | **[isHeavyBaryon](http://example.org/modules/group__mcutils__parton__classes/#function-isheavybaryon)**(int pid)<br>Determine if the PID is that of a heavy flavour (b or c) baryon.  |
+| bool | **[isHeavyHadron](http://example.org/modules/group__mcutils__parton__classes/#function-isheavyhadron)**(int pid)<br>Determine if the PID is that of a heavy flavour (b or c) hadron.  |
+| bool | **[isLightMeson](http://example.org/modules/group__mcutils__parton__classes/#function-islightmeson)**(int pid)<br>Determine if the PID is that of a light flavour (not b or c) meson.  |
+| bool | **[isLightBaryon](http://example.org/modules/group__mcutils__parton__classes/#function-islightbaryon)**(int pid)<br>Determine if the PID is that of a light flavour (not b or c) baryon.  |
+| bool | **[isLightHadron](http://example.org/modules/group__mcutils__parton__classes/#function-islighthadron)**(int pid)<br>Determine if the PID is that of a light flavour (not b or c) hadron.  |
+| bool | **[isBottomMeson](http://example.org/modules/group__mcutils__parton__classes/#function-isbottommeson)**(int pid)<br>Determine if the PID is that of a b-meson.  |
+| bool | **[isBottomBaryon](http://example.org/modules/group__mcutils__parton__classes/#function-isbottombaryon)**(int pid)<br>Determine if the PID is that of a b-baryon.  |
+| bool | **[isBottomHadron](http://example.org/modules/group__mcutils__parton__classes/#function-isbottomhadron)**(int pid)<br>Determine if the PID is that of a b-hadron.  |
+| bool | **[isCharmMeson](http://example.org/modules/group__mcutils__parton__classes/#function-ischarmmeson)**(int pid)<br>Determine if the PID is that of a c-meson.  |
+| bool | **[isCharmBaryon](http://example.org/modules/group__mcutils__parton__classes/#function-ischarmbaryon)**(int pid)<br>Determine if the PID is that of a c-baryon.  |
 | bool | **[isCharmHadron](http://example.org/modules/group__mcutils__parton__classes/#function-ischarmhadron)**(int pid) |
 | bool | **[isStrangeMeson](http://example.org/modules/group__mcutils__parton__classes/#function-isstrangemeson)**(int pid) |
 | bool | **[isStrangeBaryon](http://example.org/modules/group__mcutils__parton__classes/#function-isstrangebaryon)**(int pid) |
@@ -124,10 +113,10 @@ title: "Rivet::PID"
 | double | **[abscharge](http://example.org/modules/group__mcutils__charge/#function-abscharge)**(int pid)<br>Return the EM charge (as floating point)  |
 | bool | **[isCharged](http://example.org/modules/group__mcutils__charge__classes/#function-ischarged)**(int pid)<br>Determine if the particle is electrically charged.  |
 | bool | **[isNeutral](http://example.org/modules/group__mcutils__charge__classes/#function-isneutral)**(int pid)<br>Determine if the particle is electrically neutral.  |
-| bool | **[isStrongInteracting](http://example.org/modules/group__mcutils__interactions/#function-isstronginteracting)**(int pid)<br>Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of a strongly interacting particle.  |
-| bool | **[isEMInteracting](http://example.org/modules/group__mcutils__interactions/#function-iseminteracting)**(int pid)<br>Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of a electromagnetically interacting particle.  |
+| bool | **[isStrongInteracting](http://example.org/modules/group__mcutils__interactions/#function-isstronginteracting)**(int pid)<br>Determine if the PID is that of a strongly interacting particle.  |
+| bool | **[isEMInteracting](http://example.org/modules/group__mcutils__interactions/#function-iseminteracting)**(int pid)<br>Determine if the PID is that of a electromagnetically interacting particle.  |
 | bool | **[isWeakInteracting](http://example.org/modules/group__mcutils__interactions/#function-isweakinteracting)**(int pid) |
-| bool | **[isGenSpecific](http://example.org/modules/group__mcutils__other/#function-isgenspecific)**(int pid)<br>Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is in the generator-specific range.  |
+| bool | **[isGenSpecific](http://example.org/modules/group__mcutils__other/#function-isgenspecific)**(int pid)<br>Determine if the PID is in the generator-specific range.  |
 | bool | **[isResonance](http://example.org/modules/group__mcutils__other/#function-isresonance)**(int pid) |
 | bool | **[isTransportable](http://example.org/modules/group__mcutils__other/#function-istransportable)**(int pid) |
 | bool | **[isSameSign](http://example.org/namespaces/namespacerivet_1_1pid/#function-issamesign)**(PdgId a, PdgId b) |
@@ -281,7 +270,7 @@ title: "Rivet::PID"
 
 
 
-<a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> digits (base 10) are: n nr nl nq1 nq2 nq3 nj The Location enum provides a convenient index into the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a>. 
+PID digits (base 10) are: n nr nl nq1 nq2 nq3 nj The Location enum provides a convenient index into the PID. 
 
 
 
@@ -350,43 +339,10 @@ inline int abspid(
 
 **Deprecated**: 
 
-Just use <a href="http://example.org/files/arraycwiseunaryops_8h/#function-abs">abs()</a>! 
+Just use abs()! 
 
 Absolute value 
 
-
-### function _digit
-
-```cpp
-inline unsigned short _digit(
-    Location loc,
-    int pid
-)
-```
-
-Split the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> into constituent integers. 
-
-### function _extraBits
-
-```cpp
-inline int _extraBits(
-    int pid
-)
-```
-
-Returns everything beyond the 7th digit (e.g. outside the numbering scheme) 
-
-### function _fundamentalID
-
-```cpp
-inline int _fundamentalID(
-    int pid
-)
-```
-
-Return the first two digits if this is a "fundamental" particle. 
-
-**Note**: ID = 100 is a special case (internal generator ID's are 81-100) 
 
 ### function isBSM
 
@@ -406,9 +362,9 @@ inline bool isNucleus(
 )
 ```
 
-Is this a nucleus <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a>? 
+Is this a nucleus PID? 
 
-This implements the 2006 Monte Carlo nuclear code scheme. Ion numbers are +/- 10LZZZAAAI. AAA is <a href="http://example.org/classes/classrivet_1_1a/">A</a> - total baryon number ZZZ is Z - total charge L is the total number of strange quarks. I is the isomer number, with I=0 corresponding to the ground state. 
+This implements the 2006 Monte Carlo nuclear code scheme. Ion numbers are +/- 10LZZZAAAI. AAA is A - total baryon number ZZZ is Z - total charge L is the total number of strange quarks. I is the isomer number, with I=0 corresponding to the ground state. 
 
 
 ### function nuclZ
@@ -461,7 +417,7 @@ inline bool isQuark(
 )
 ```
 
-Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of a quark. 
+Determine if the PID is that of a quark. 
 
 ### function isGluon
 
@@ -471,7 +427,7 @@ inline bool isGluon(
 )
 ```
 
-Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of a gluon. 
+Determine if the PID is that of a gluon. 
 
 ### function isParton
 
@@ -481,7 +437,7 @@ inline bool isParton(
 )
 ```
 
-Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of a parton (quark or gluon) 
+Determine if the PID is that of a parton (quark or gluon) 
 
 ### function isPhoton
 
@@ -491,7 +447,7 @@ inline bool isPhoton(
 )
 ```
 
-Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of a photon. 
+Determine if the PID is that of a photon. 
 
 ### function isElectron
 
@@ -501,7 +457,7 @@ inline bool isElectron(
 )
 ```
 
-Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of an electron or positron. 
+Determine if the PID is that of an electron or positron. 
 
 ### function isMuon
 
@@ -511,7 +467,7 @@ inline bool isMuon(
 )
 ```
 
-Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of an muon or antimuon. 
+Determine if the PID is that of an muon or antimuon. 
 
 ### function isTau
 
@@ -521,7 +477,7 @@ inline bool isTau(
 )
 ```
 
-Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of an tau or antitau. 
+Determine if the PID is that of an tau or antitau. 
 
 ### function isChargedLepton
 
@@ -531,7 +487,7 @@ inline bool isChargedLepton(
 )
 ```
 
-Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of a charged lepton. 
+Determine if the PID is that of a charged lepton. 
 
 ### function isChLepton
 
@@ -557,7 +513,7 @@ inline bool isNeutrino(
 )
 ```
 
-Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of a neutrino. 
+Determine if the PID is that of a neutrino. 
 
 ### function isWplus
 
@@ -567,7 +523,7 @@ inline bool isWplus(
 )
 ```
 
-Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of a W+. 
+Determine if the PID is that of a W+. 
 
 ### function isWminus
 
@@ -577,7 +533,7 @@ inline bool isWminus(
 )
 ```
 
-Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of a W-. 
+Determine if the PID is that of a W-. 
 
 ### function isW
 
@@ -587,7 +543,7 @@ inline bool isW(
 )
 ```
 
-Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of a W+-. 
+Determine if the PID is that of a W+-. 
 
 ### function isZ
 
@@ -597,7 +553,7 @@ inline bool isZ(
 )
 ```
 
-Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of a Z0. 
+Determine if the PID is that of a Z0. 
 
 ### function isHiggs
 
@@ -607,7 +563,7 @@ inline bool isHiggs(
 )
 ```
 
-Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of an SM/lightest SUSY Higgs. 
+Determine if the PID is that of an SM/lightest SUSY Higgs. 
 
 ### function isGraviton
 
@@ -629,7 +585,7 @@ inline bool isStrange(
 )
 ```
 
-Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of an s/sbar. 
+Determine if the PID is that of an s/sbar. 
 
 ### function isCharm
 
@@ -639,7 +595,7 @@ inline bool isCharm(
 )
 ```
 
-Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of a c/cbar. 
+Determine if the PID is that of a c/cbar. 
 
 ### function isBottom
 
@@ -649,7 +605,7 @@ inline bool isBottom(
 )
 ```
 
-Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of a b/bbar. 
+Determine if the PID is that of a b/bbar. 
 
 ### function isTop
 
@@ -659,7 +615,7 @@ inline bool isTop(
 )
 ```
 
-Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of a t/tbar. 
+Determine if the PID is that of a t/tbar. 
 
 ### function isReggeon
 
@@ -864,7 +820,7 @@ inline bool isDarkMatter(
 **Note**: 
 
   * DM particles, including mediators, get the range 51-60 
-  * Also covers other cases: Heavy neutral leptons (50), Light pseudo-scalar <a href="http://example.org/classes/classrivet_1_1a/">A</a> in 2HDM (55), Z' scalar UFO models (56) 
+  * Also covers other cases: Heavy neutral leptons (50), Light pseudo-scalar A in 2HDM (55), Z' scalar UFO models (56) 
 
 
 **Todo**: Give a more explicit name to clarify that this does not cover all DM particles, e.g. LSP? 
@@ -985,31 +941,11 @@ inline bool isAECO(
 
 Is this an anomalously electrically charged particle (AECO)? 
 
-### function _isValid
-
-```cpp
-inline bool _isValid(
-    int pid
-)
-```
-
-Check to see if this is a valid <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> (i.e. matches any known scheme) 
-
 ### function isValid
 
 ```cpp
 inline bool isValid(
     int pid
-)
-```
-
-
-### function _hasQ
-
-```cpp
-inline bool _hasQ(
-    int pid,
-    int q
 )
 ```
 
@@ -1092,7 +1028,7 @@ inline bool isHeavyParton(
 )
 ```
 
-Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of a heavy parton (c,b,t) 
+Determine if the PID is that of a heavy parton (c,b,t) 
 
 ### function isLightParton
 
@@ -1102,7 +1038,7 @@ inline bool isLightParton(
 )
 ```
 
-Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of a light parton (u,d,s) 
+Determine if the PID is that of a light parton (u,d,s) 
 
 ### function isHeavyMeson
 
@@ -1112,7 +1048,7 @@ inline bool isHeavyMeson(
 )
 ```
 
-Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of a heavy flavour (b or c) meson. 
+Determine if the PID is that of a heavy flavour (b or c) meson. 
 
 ### function isHeavyBaryon
 
@@ -1122,7 +1058,7 @@ inline bool isHeavyBaryon(
 )
 ```
 
-Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of a heavy flavour (b or c) baryon. 
+Determine if the PID is that of a heavy flavour (b or c) baryon. 
 
 ### function isHeavyHadron
 
@@ -1132,7 +1068,7 @@ inline bool isHeavyHadron(
 )
 ```
 
-Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of a heavy flavour (b or c) hadron. 
+Determine if the PID is that of a heavy flavour (b or c) hadron. 
 
 ### function isLightMeson
 
@@ -1142,7 +1078,7 @@ inline bool isLightMeson(
 )
 ```
 
-Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of a light flavour (not b or c) meson. 
+Determine if the PID is that of a light flavour (not b or c) meson. 
 
 ### function isLightBaryon
 
@@ -1152,7 +1088,7 @@ inline bool isLightBaryon(
 )
 ```
 
-Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of a light flavour (not b or c) baryon. 
+Determine if the PID is that of a light flavour (not b or c) baryon. 
 
 ### function isLightHadron
 
@@ -1162,7 +1098,7 @@ inline bool isLightHadron(
 )
 ```
 
-Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of a light flavour (not b or c) hadron. 
+Determine if the PID is that of a light flavour (not b or c) hadron. 
 
 ### function isBottomMeson
 
@@ -1172,7 +1108,7 @@ inline bool isBottomMeson(
 )
 ```
 
-Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of a b-meson. 
+Determine if the PID is that of a b-meson. 
 
 ### function isBottomBaryon
 
@@ -1182,7 +1118,7 @@ inline bool isBottomBaryon(
 )
 ```
 
-Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of a b-baryon. 
+Determine if the PID is that of a b-baryon. 
 
 ### function isBottomHadron
 
@@ -1192,7 +1128,7 @@ inline bool isBottomHadron(
 )
 ```
 
-Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of a b-hadron. 
+Determine if the PID is that of a b-hadron. 
 
 ### function isCharmMeson
 
@@ -1202,7 +1138,7 @@ inline bool isCharmMeson(
 )
 ```
 
-Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of a c-meson. 
+Determine if the PID is that of a c-meson. 
 
 **Note**: Specifically, the _heaviest_ quark is a c: a B_c is a b-meson and NOT a c-meson. Charmonia (closed charm) are counted as c-mesons here. 
 
@@ -1214,7 +1150,7 @@ inline bool isCharmBaryon(
 )
 ```
 
-Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of a c-baryon. 
+Determine if the PID is that of a c-baryon. 
 
 **Note**: Specifically, the _heaviest_ quark is a c: a baryon containing a b & c is a b-baryon and NOT a c-baryon. To test for the simpler case, just use a combination of <a href="http://example.org/modules/group__mcutils__partoncontent/#function-hascharm">hasCharm()</a> and <a href="http://example.org/modules/group__mcutils__qcomp/#function-isbaryon">isBaryon()</a>. 
 
@@ -1229,7 +1165,7 @@ inline bool isCharmHadron(
 
 **Note**: Specifically, the _heaviest_ quark is a c: a baryon containing a b & c is a b-baryon and NOT a c-baryon. To test for the simpler case, just use a combination of <a href="http://example.org/modules/group__mcutils__partoncontent/#function-hascharm">hasCharm()</a> and <a href="http://example.org/modules/group__mcutils__qcomp/#function-isbaryon">isBaryon()</a>. 
 
-Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of a c-hadron.
+Determine if the PID is that of a c-hadron.
 
 
 ### function isStrangeMeson
@@ -1243,7 +1179,7 @@ inline bool isStrangeMeson(
 
 **Note**: Specifically, the _heaviest_ quark is an s: if it also contains either charm or bottom, it is not considered to be a strange hadron. 
 
-Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of a strange meson
+Determine if the PID is that of a strange meson
 
 
 ### function isStrangeBaryon
@@ -1257,7 +1193,7 @@ inline bool isStrangeBaryon(
 
 **Note**: Specifically, the _heaviest_ quark is an s: if it also contains either charm or bottom, it is not considered to be a strange hadron. 
 
-Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of a strange baryon
+Determine if the PID is that of a strange baryon
 
 
 ### function isStrangeHadron
@@ -1271,7 +1207,7 @@ inline bool isStrangeHadron(
 
 **Note**: Specifically, the _heaviest_ quark is an s: if it also contains either charm or bottom, it is not considered to be a strange hadron. 
 
-Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of a strange hadron
+Determine if the PID is that of a strange hadron
 
 
 ### function jSpin
@@ -1391,7 +1327,7 @@ inline bool isStrongInteracting(
 )
 ```
 
-Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of a strongly interacting particle. 
+Determine if the PID is that of a strongly interacting particle. 
 
 ### function isEMInteracting
 
@@ -1401,7 +1337,7 @@ inline bool isEMInteracting(
 )
 ```
 
-Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of a electromagnetically interacting particle. 
+Determine if the PID is that of a electromagnetically interacting particle. 
 
 ### function isWeakInteracting
 
@@ -1414,7 +1350,7 @@ inline bool isWeakInteracting(
 
 **Note**: Photons are considered weak-interacting, as are all hadrons and leptons (we can't distinguish between L and R fermions at physical particle level). 
 
-Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of a weakly interacting particle
+Determine if the PID is that of a weakly interacting particle
 
 
 ### function isGenSpecific
@@ -1425,7 +1361,7 @@ inline bool isGenSpecific(
 )
 ```
 
-Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is in the generator-specific range. 
+Determine if the PID is in the generator-specific range. 
 
 ### function isResonance
 
@@ -1438,7 +1374,7 @@ inline bool isResonance(
 
 **Todo**: Also include SUSY, technicolor, etc. etc.? Maybe via a isStandardModel(pid) function, but there are stable BSM particles (in principle) 
 
-Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of an EW scale resonance
+Determine if the PID is that of an EW scale resonance
 
 
 ### function isTransportable
@@ -1454,7 +1390,7 @@ inline bool isTransportable(
 
 What about long-lived particles... could be BSM but need to be transported 
 
-Check the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> for usability in transport codes like Geant4
+Check the PID for usability in transport codes like Geant4
 
 
 ### function isSameSign
@@ -2368,4 +2304,4 @@ Special wildcard particle name
 
 -------------------------------
 
-Updated on 2022-07-27 at 19:10:12 +0100
+Updated on 2022-07-28 at 11:25:43 +0100

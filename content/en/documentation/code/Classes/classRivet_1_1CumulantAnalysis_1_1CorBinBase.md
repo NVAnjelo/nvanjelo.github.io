@@ -11,8 +11,6 @@ summary: "Base class for correlator bins. "
 
 Base class for correlator bins. 
 
-Inherited by [Rivet::CumulantAnalysis::CorBin](http://example.org/classes/classrivet_1_1cumulantanalysis_1_1corbin/), [Rivet::CumulantAnalysis::CorSingleBin](http://example.org/classes/classrivet_1_1cumulantanalysis_1_1corsinglebin/)
-
 ## Public Functions
 
 |                | Name           |
@@ -48,9 +46,6 @@ virtual void fill(
 ```
 
 
-**Reimplemented by**: [Rivet::CumulantAnalysis::CorSingleBin::fill](http://example.org/classes/classrivet_1_1cumulantanalysis_1_1corsinglebin/#function-fill), [Rivet::CumulantAnalysis::CorBin::fill](http://example.org/classes/classrivet_1_1cumulantanalysis_1_1corbin/#function-fill)
-
-
 ### function mean
 
 ```cpp
@@ -58,9 +53,6 @@ virtual double mean() const =0
 ```
 
 
-**Reimplemented by**: [Rivet::CumulantAnalysis::CorSingleBin::mean](http://example.org/classes/classrivet_1_1cumulantanalysis_1_1corsinglebin/#function-mean), [Rivet::CumulantAnalysis::CorBin::mean](http://example.org/classes/classrivet_1_1cumulantanalysis_1_1corbin/#function-mean)
-
-
 -------------------------------
 
-Updated on 2022-07-27 at 19:09:57 +0100
+Updated on 2022-07-28 at 11:25:42 +0100

@@ -46,7 +46,7 @@ Functor for simultaneous efficiency-filtering and smearing of Jets.
 
 **Todo**: Include tagging efficiency functions? 
 
-<a href="http://example.org/classes/classrivet_1_1a/">A</a> central element of the <a href="http://example.org/classes/classrivet_1_1smearedjets/">SmearedJets</a> system
+A central element of the <a href="http://example.org/classes/classrivet_1_1smearedjets/">SmearedJets</a> system
 
 ## Public Functions Documentation
 
@@ -148,4 +148,4 @@ JetEffFn efn;
 
 -------------------------------
 
-Updated on 2022-07-27 at 19:10:13 +0100
+Updated on 2022-07-28 at 11:25:43 +0100

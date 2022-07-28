@@ -12,7 +12,7 @@ title: "Other classifiers"
 
 |                | Name           |
 | -------------- | -------------- |
-| bool | **[isGenSpecific](http://example.org/modules/group__mcutils__other/#function-isgenspecific)**(int pid)<br>Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is in the generator-specific range.  |
+| bool | **[isGenSpecific](http://example.org/modules/group__mcutils__other/#function-isgenspecific)**(int pid)<br>Determine if the PID is in the generator-specific range.  |
 | bool | **[isResonance](http://example.org/modules/group__mcutils__other/#function-isresonance)**(int pid) |
 | bool | **[isTransportable](http://example.org/modules/group__mcutils__other/#function-istransportable)**(int pid) |
 
@@ -27,7 +27,7 @@ inline bool isGenSpecific(
 )
 ```
 
-Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is in the generator-specific range. 
+Determine if the PID is in the generator-specific range. 
 
 ### function isResonance
 
@@ -40,7 +40,7 @@ inline bool isResonance(
 
 **Todo**: Also include SUSY, technicolor, etc. etc.? Maybe via a isStandardModel(pid) function, but there are stable BSM particles (in principle) 
 
-Determine if the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> is that of an EW scale resonance
+Determine if the PID is that of an EW scale resonance
 
 
 ### function isTransportable
@@ -56,7 +56,7 @@ inline bool isTransportable(
 
 What about long-lived particles... could be BSM but need to be transported 
 
-Check the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> for usability in transport codes like Geant4
+Check the PID for usability in transport codes like Geant4
 
 
 
@@ -65,4 +65,4 @@ Check the <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a>
 
 -------------------------------
 
-Updated on 2022-07-27 at 19:10:13 +0100
+Updated on 2022-07-28 at 11:25:43 +0100

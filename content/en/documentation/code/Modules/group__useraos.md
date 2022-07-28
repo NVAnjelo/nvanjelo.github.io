@@ -25,7 +25,7 @@ title: "User-facing analysis object wrappers"
 ## Detailed Description
 
 
-**Note**: Every object listed here needs a virtual fill() method in <a href="http://example.org/namespaces/namespaceyoda/">YODA</a>, otherwise the Tuple fakery won't work. 
+**Note**: Every object listed here needs a virtual fill() method in YODA, otherwise the Tuple fakery won't work. 
 ## Types Documentation
 
 ### using MultiweightAOPtr
@@ -98,4 +98,4 @@ using Rivet::Scatter3DPtr = typedef rivet_shared_ptr<Wrapper<YODA::Scatter3D> >;
 
 -------------------------------
 
-Updated on 2022-07-27 at 19:10:13 +0100
+Updated on 2022-07-28 at 11:25:43 +0100

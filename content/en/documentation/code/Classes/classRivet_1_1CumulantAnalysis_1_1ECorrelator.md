@@ -9,7 +9,7 @@ summary: "A helper class to calculate all event averages of correlators. "
 
 
 
-<a href="http://example.org/classes/classrivet_1_1a/">A</a> helper class to calculate all event averages of correlators.  [More...](#detailed-description)
+A helper class to calculate all event averages of correlators.  [More...](#detailed-description)
 
 
 `#include <Correlators.hh>`
@@ -24,15 +24,15 @@ summary: "A helper class to calculate all event averages of correlators. "
 | void | **[fill](http://example.org/classes/classrivet_1_1cumulantanalysis_1_1ecorrelator/#function-fill)**(const double & obs, const <a href="http://example.org/classes/classrivet_1_1correlators/">Correlators</a> & c1, const <a href="http://example.org/classes/classrivet_1_1correlators/">Correlators</a> & c2, double weight =1.0)<br>Fill the appropriate bin given an input (per event) observable, e.g. centrality, with a rapidity gap between two <a href="http://example.org/classes/classrivet_1_1correlators/">Correlators</a>.  |
 | void | **[fill](http://example.org/classes/classrivet_1_1cumulantanalysis_1_1ecorrelator/#function-fill)**(const <a href="http://example.org/classes/classrivet_1_1correlators/">Correlators</a> & c, const double & weight =1.0)<br>Fill the bins with the appropriate correlator.  |
 | void | **[fill](http://example.org/classes/classrivet_1_1cumulantanalysis_1_1ecorrelator/#function-fill)**(const <a href="http://example.org/classes/classrivet_1_1correlators/">Correlators</a> & c1, const <a href="http://example.org/classes/classrivet_1_1correlators/">Correlators</a> & c2, const double & weight =1.0)<br>Fill bins with the appropriate correlator, and a rapidity gap between two <a href="http://example.org/classes/classrivet_1_1correlators/">Correlators</a>.  |
-| vector< <a href="http://example.org/classes/classrivet_1_1cumulantanalysis_1_1corbin/">CorBin</a> > | **[getBins](http://example.org/classes/classrivet_1_1cumulantanalysis_1_1ecorrelator/#function-getbins)**() const<br>Get a copy of the bin contents.  |
-| vector< <a href="http://example.org/classes/classrivet_1_1cumulantanalysis_1_1corbinbase/">CorBinBase</a> * > | **[getBinPtrs](http://example.org/classes/classrivet_1_1cumulantanalysis_1_1ecorrelator/#function-getbinptrs)**()<br>Return the bins as pointers to the base class.  |
+| vector< CorBin > | **[getBins](http://example.org/classes/classrivet_1_1cumulantanalysis_1_1ecorrelator/#function-getbins)**() const<br>Get a copy of the bin contents.  |
+| vector< CorBinBase * > | **[getBinPtrs](http://example.org/classes/classrivet_1_1cumulantanalysis_1_1ecorrelator/#function-getbinptrs)**()<br>Return the bins as pointers to the base class.  |
 | vector< double > | **[getBinX](http://example.org/classes/classrivet_1_1cumulantanalysis_1_1ecorrelator/#function-getbinx)**() const<br>Get a copy of the bin x-values.  |
 | vector< int > | **[getH1](http://example.org/classes/classrivet_1_1cumulantanalysis_1_1ecorrelator/#function-geth1)**() const<br>Get a copy of the _h1_ harmonic vector.  |
 | vector< int > | **[getH2](http://example.org/classes/classrivet_1_1cumulantanalysis_1_1ecorrelator/#function-geth2)**() const<br>Get a copy of the _h2_ harmonic vector.  |
-| void | **[setReference](http://example.org/classes/classrivet_1_1cumulantanalysis_1_1ecorrelator/#function-setreference)**(<a href="http://example.org/classes/classrivet_1_1cumulantanalysis_1_1corbin/">CorBin</a> refIn)<br>Replace reference flow bin with another, e.g. calculated in another phase space or with other pid.  |
-| <a href="http://example.org/classes/classrivet_1_1cumulantanalysis_1_1corbin/">CorBin</a> | **[getReference](http://example.org/classes/classrivet_1_1cumulantanalysis_1_1ecorrelator/#function-getreference)**() const<br>Extract the reference flow from a differential event averaged correlator.  |
+| void | **[setReference](http://example.org/classes/classrivet_1_1cumulantanalysis_1_1ecorrelator/#function-setreference)**(CorBin refIn)<br>Replace reference flow bin with another, e.g. calculated in another phase space or with other pid.  |
+| CorBin | **[getReference](http://example.org/classes/classrivet_1_1cumulantanalysis_1_1ecorrelator/#function-getreference)**() const<br>Extract the reference flow from a differential event averaged correlator.  |
 | void | **[setProfs](http://example.org/classes/classrivet_1_1cumulantanalysis_1_1ecorrelator/#function-setprofs)**(vector< string > prIn)<br>Set the _prIn_ list of profile histograms associated with the internal bins.  |
-| bool | **[fillFromProfile](http://example.org/classes/classrivet_1_1cumulantanalysis_1_1ecorrelator/#function-fillfromprofile)**(<a href="http://example.org/namespaces/namespaceyoda/#typedef-analysisobjectptr">YODA::AnalysisObjectPtr</a> yao, string name)<br>Fill bins with content from preloaded histograms.  |
+| bool | **[fillFromProfile](http://example.org/classes/classrivet_1_1cumulantanalysis_1_1ecorrelator/#function-fillfromprofile)**(YODA::AnalysisObjectPtr yao, string name)<br>Fill bins with content from preloaded histograms.  |
 
 ## Public Attributes
 
@@ -46,7 +46,7 @@ summary: "A helper class to calculate all event averages of correlators. "
 class Rivet::CumulantAnalysis::ECorrelator;
 ```
 
-<a href="http://example.org/classes/classrivet_1_1a/">A</a> helper class to calculate all event averages of correlators. 
+A helper class to calculate all event averages of correlators. 
 
 Useful to construct cumulants. It can be binned in any variable. 
 
@@ -231,4 +231,4 @@ vector< string > profs;
 
 -------------------------------
 
-Updated on 2022-07-27 at 19:09:57 +0100
+Updated on 2022-07-28 at 11:25:42 +0100

@@ -12,14 +12,7 @@ title: "/home/anarendran/Documents/temp/rivet/include/Rivet/Math/MatrixDiag.hh"
 
 | Name           |
 | -------------- |
-| **[Rivet](http://example.org/namespaces/namespacerivet/)** <br>-*- C++ -*-  |
-
-## Classes
-
-|                | Name           |
-| -------------- | -------------- |
-| class | **[Rivet::EigenSystem](http://example.org/classes/classrivet_1_1eigensystem/)** <br>Handy object containing results of a diagonalization.  |
-| struct | **[Rivet::EigenPairCmp](http://example.org/classes/structrivet_1_1eigenpaircmp/)** <br>Comparison functor for "eigen-pairs".  |
+| **[Rivet](http://example.org/namespaces/namespacerivet/)**  |
 
 
 
@@ -180,4 +173,4 @@ inline ostream& operator<<(std::ostream& out, const typename EigenSystem<N>::Eig
 
 -------------------------------
 
-Updated on 2022-07-27 at 19:10:16 +0100
+Updated on 2022-07-28 at 11:25:43 +0100

@@ -12,7 +12,6 @@ title: "Parton content functions"
 
 |                | Name           |
 | -------------- | -------------- |
-| bool | **[_hasQ](http://example.org/modules/group__mcutils__partoncontent/#function--hasq)**(int pid, int q) |
 | bool | **[hasDown](http://example.org/modules/group__mcutils__partoncontent/#function-hasdown)**(int pid)<br>Does this particle contain a down quark?  |
 | bool | **[hasUp](http://example.org/modules/group__mcutils__partoncontent/#function-hasup)**(int pid)<br>Does this particle contain an up quark?  |
 | bool | **[hasStrange](http://example.org/modules/group__mcutils__partoncontent/#function-hasstrange)**(int pid)<br>Does this particle contain a strange quark?  |
@@ -22,16 +21,6 @@ title: "Parton content functions"
 
 
 ## Functions Documentation
-
-### function _hasQ
-
-```
-inline bool _hasQ(
-    int pid,
-    int q
-)
-```
-
 
 ### function hasDown
 
@@ -99,4 +88,4 @@ Does this particle contain a top quark?
 
 -------------------------------
 
-Updated on 2022-07-27 at 19:10:13 +0100
+Updated on 2022-07-28 at 11:25:43 +0100

@@ -9,7 +9,7 @@ summary: "A container for several Cutflow objects, with some convenient batch ac
 
 
 
-<a href="http://example.org/classes/classrivet_1_1a/">A</a> container for several <a href="http://example.org/classes/structrivet_1_1cutflow/">Cutflow</a> objects, with some convenient batch access. 
+A container for several <a href="http://example.org/classes/structrivet_1_1cutflow/">Cutflow</a> objects, with some convenient batch access. 
 
 
 `#include <Cutflow.hh>`
@@ -285,4 +285,4 @@ vector< Cutflow > cfs;
 
 -------------------------------
 
-Updated on 2022-07-27 at 19:09:57 +0100
+Updated on 2022-07-28 at 11:25:42 +0100

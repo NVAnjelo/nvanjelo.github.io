@@ -18,7 +18,7 @@ General \( N \)-dimensional mathematical matrix object.  [More...](#detailed-des
 
 |                | Name           |
 | -------------- | -------------- |
-| using <a href="http://example.org/classes/classeigen_1_1matrix/">Eigen::Matrix</a>< double, N, N > | **[EMatrix](http://example.org/classes/classrivet_1_1matrix/#using-ematrix)**  |
+| using Eigen::Matrix< double, N, N > | **[EMatrix](http://example.org/classes/classrivet_1_1matrix/#using-ematrix)**  |
 
 ## Public Functions
 
@@ -52,12 +52,6 @@ General \( N \)-dimensional mathematical matrix object.  [More...](#detailed-des
 | <a href="http://example.org/classes/classrivet_1_1matrix/">Matrix</a>< N > & | **[operator/=](http://example.org/classes/classrivet_1_1matrix/#function-operator/=)**(const double a) |
 | <a href="http://example.org/classes/classrivet_1_1matrix/">Matrix</a>< N > & | **[operator+=](http://example.org/classes/classrivet_1_1matrix/#function-operator+=)**(const <a href="http://example.org/classes/classrivet_1_1matrix/">Matrix</a>< N > & m) |
 | <a href="http://example.org/classes/classrivet_1_1matrix/">Matrix</a>< N > & | **[operator-=](http://example.org/classes/classrivet_1_1matrix/#function-operator-=)**(const <a href="http://example.org/classes/classrivet_1_1matrix/">Matrix</a>< N > & m) |
-
-## Protected Attributes
-
-|                | Name           |
-| -------------- | -------------- |
-| <a href="http://example.org/classes/classrivet_1_1matrix/#using-ematrix">EMatrix</a> | **[_matrix](http://example.org/classes/classrivet_1_1matrix/#variable--matrix)**  |
 
 ## Friends
 
@@ -332,15 +326,6 @@ inline Matrix< N > & operator-=(
 ```
 
 
-## Protected Attributes Documentation
-
-### variable _matrix
-
-```cpp
-EMatrix _matrix;
-```
-
-
 ## Friends
 
 ### friend add
@@ -400,4 +385,4 @@ friend Matrix< M > divide(
 
 -------------------------------
 
-Updated on 2022-07-27 at 19:10:04 +0100
+Updated on 2022-07-28 at 11:25:42 +0100

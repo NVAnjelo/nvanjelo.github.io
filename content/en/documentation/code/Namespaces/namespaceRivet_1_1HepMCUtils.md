@@ -12,19 +12,19 @@ title: "Rivet::HepMCUtils"
 
 |                | Name           |
 | -------------- | -------------- |
-| <a href="http://example.org/namespaces/namespacerivet/#typedef-constgenparticleptr">ConstGenParticlePtr</a> | **[getParticlePtr](http://example.org/namespaces/namespacerivet_1_1hepmcutils/#function-getparticleptr)**(const RivetHepMC::GenParticle & gp) |
-| std::vector< <a href="http://example.org/namespaces/namespacerivet/#typedef-constgenparticleptr">ConstGenParticlePtr</a> > | **[particles](http://example.org/namespaces/namespacerivet_1_1hepmcutils/#function-particles)**(<a href="http://example.org/namespaces/namespacerivet/#using-constgeneventptr">ConstGenEventPtr</a> ge) |
-| std::vector< <a href="http://example.org/namespaces/namespacerivet/#typedef-constgenparticleptr">ConstGenParticlePtr</a> > | **[particles](http://example.org/namespaces/namespacerivet_1_1hepmcutils/#function-particles)**(const GenEvent * ge) |
-| std::vector< <a href="http://example.org/namespaces/namespacerivet/#typedef-constgenvertexptr">ConstGenVertexPtr</a> > | **[vertices](http://example.org/namespaces/namespacerivet_1_1hepmcutils/#function-vertices)**(<a href="http://example.org/namespaces/namespacerivet/#using-constgeneventptr">ConstGenEventPtr</a> ge) |
-| std::vector< <a href="http://example.org/namespaces/namespacerivet/#typedef-constgenvertexptr">ConstGenVertexPtr</a> > | **[vertices](http://example.org/namespaces/namespacerivet_1_1hepmcutils/#function-vertices)**(const GenEvent * ge) |
-| std::vector< <a href="http://example.org/namespaces/namespacerivet/#typedef-constgenparticleptr">ConstGenParticlePtr</a> > | **[particles](http://example.org/namespaces/namespacerivet_1_1hepmcutils/#function-particles)**(<a href="http://example.org/namespaces/namespacerivet/#typedef-constgenvertexptr">ConstGenVertexPtr</a> gv, const <a href="http://example.org/classes/classrivet_1_1relatives/">Relatives</a> & relo) |
-| std::vector< <a href="http://example.org/namespaces/namespacerivet/#typedef-constgenparticleptr">ConstGenParticlePtr</a> > | **[particles](http://example.org/namespaces/namespacerivet_1_1hepmcutils/#function-particles)**(<a href="http://example.org/namespaces/namespacerivet/#typedef-constgenparticleptr">ConstGenParticlePtr</a> gp, const <a href="http://example.org/classes/classrivet_1_1relatives/">Relatives</a> & relo) |
-| int | **[uniqueId](http://example.org/namespaces/namespacerivet_1_1hepmcutils/#function-uniqueid)**(<a href="http://example.org/namespaces/namespacerivet/#typedef-constgenparticleptr">ConstGenParticlePtr</a> gp) |
-| int | **[particles_size](http://example.org/namespaces/namespacerivet_1_1hepmcutils/#function-particles-size)**(<a href="http://example.org/namespaces/namespacerivet/#using-constgeneventptr">ConstGenEventPtr</a> ge) |
+| ConstGenParticlePtr | **[getParticlePtr](http://example.org/namespaces/namespacerivet_1_1hepmcutils/#function-getparticleptr)**(const RivetHepMC::GenParticle & gp) |
+| std::vector< ConstGenParticlePtr > | **[particles](http://example.org/namespaces/namespacerivet_1_1hepmcutils/#function-particles)**(ConstGenEventPtr ge) |
+| std::vector< ConstGenParticlePtr > | **[particles](http://example.org/namespaces/namespacerivet_1_1hepmcutils/#function-particles)**(const GenEvent * ge) |
+| std::vector< ConstGenVertexPtr > | **[vertices](http://example.org/namespaces/namespacerivet_1_1hepmcutils/#function-vertices)**(ConstGenEventPtr ge) |
+| std::vector< ConstGenVertexPtr > | **[vertices](http://example.org/namespaces/namespacerivet_1_1hepmcutils/#function-vertices)**(const GenEvent * ge) |
+| std::vector< ConstGenParticlePtr > | **[particles](http://example.org/namespaces/namespacerivet_1_1hepmcutils/#function-particles)**(ConstGenVertexPtr gv, const Relatives & relo) |
+| std::vector< ConstGenParticlePtr > | **[particles](http://example.org/namespaces/namespacerivet_1_1hepmcutils/#function-particles)**(ConstGenParticlePtr gp, const Relatives & relo) |
+| int | **[uniqueId](http://example.org/namespaces/namespacerivet_1_1hepmcutils/#function-uniqueid)**(ConstGenParticlePtr gp) |
+| int | **[particles_size](http://example.org/namespaces/namespacerivet_1_1hepmcutils/#function-particles-size)**(ConstGenEventPtr ge) |
 | int | **[particles_size](http://example.org/namespaces/namespacerivet_1_1hepmcutils/#function-particles-size)**(const GenEvent * ge) |
-| std::pair< <a href="http://example.org/namespaces/namespacerivet/#typedef-constgenparticleptr">ConstGenParticlePtr</a>, <a href="http://example.org/namespaces/namespacerivet/#typedef-constgenparticleptr">ConstGenParticlePtr</a> > | **[beams](http://example.org/namespaces/namespacerivet_1_1hepmcutils/#function-beams)**(const GenEvent * ge) |
-| std::shared_ptr< <a href="http://example.org/namespaces/namespacerivet/#using-hepmc-io-type">HepMC_IO_type</a> > | **[makeReader](http://example.org/namespaces/namespacerivet_1_1hepmcutils/#function-makereader)**(std::string filename, std::shared_ptr< std::istream > & istrp, std::string * errm =0) |
-| bool | **[readEvent](http://example.org/namespaces/namespacerivet_1_1hepmcutils/#function-readevent)**(std::shared_ptr< <a href="http://example.org/namespaces/namespacerivet/#using-hepmc-io-type">HepMC_IO_type</a> > io, std::shared_ptr< GenEvent > evt) |
+| std::pair< ConstGenParticlePtr, ConstGenParticlePtr > | **[beams](http://example.org/namespaces/namespacerivet_1_1hepmcutils/#function-beams)**(const GenEvent * ge) |
+| std::shared_ptr< HepMC_IO_type > | **[makeReader](http://example.org/namespaces/namespacerivet_1_1hepmcutils/#function-makereader)**(std::string filename, std::shared_ptr< std::istream > & istrp, std::string * errm =0) |
+| bool | **[readEvent](http://example.org/namespaces/namespacerivet_1_1hepmcutils/#function-readevent)**(std::shared_ptr< HepMC_IO_type > io, std::shared_ptr< GenEvent > evt) |
 | void | **[strip](http://example.org/namespaces/namespacerivet_1_1hepmcutils/#function-strip)**(GenEvent & ge, const set< long > & stripid ={1, -1, 2, -2, 3,-3, 21}) |
 | vector< string > | **[weightNames](http://example.org/namespaces/namespacerivet_1_1hepmcutils/#function-weightnames)**(const GenEvent & ge) |
 | std::valarray< double > | **[weights](http://example.org/namespaces/namespacerivet_1_1hepmcutils/#function-weights)**(const GenEvent & ge) |
@@ -90,11 +90,6 @@ std::vector< ConstGenParticlePtr > particles(
     const Relatives & relo
 )
 ```
-
-
-Todo<a href="http://example.org/classes/classrivet_1_1a/">A</a> particle_const_iterator on GenVertex would be nice... 
-
-Todo<a href="http://example.org/classes/classrivet_1_1a/">A</a> particle_const_iterator on GenVertex would be nice... 
 
 
 ### function particles
@@ -164,15 +159,6 @@ bool readEvent(
 ```
 
 
-TodoAny problem due to these?! Factored failure return-lines are nicer if we can have them 
-
-TodoCheck that this is working when reading from a MEV-unit file... or should the reader auto-convert evt is GEV and io is MEV? 
-
-TodoAny problem due to these?! Factored failure return-lines are nicer if we can have them 
-
-TodoCheck that this is working when reading from a MEV-unit file... or should the reader auto-convert evt is GEV and io is MEV? 
-
-
 ### function strip
 
 ```cpp
@@ -217,4 +203,4 @@ pair< double, double > crossSection(
 
 -------------------------------
 
-Updated on 2022-07-27 at 19:10:12 +0100
+Updated on 2022-07-28 at 11:25:43 +0100

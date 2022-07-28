@@ -19,12 +19,25 @@ Inherits from [Rivet::ProjectionApplier](http://example.org/classes/classrivet_1
 
 |                | Name           |
 | -------------- | -------------- |
-| typedef set< <a href="http://example.org/classes/structrivet_1_1centralitybinner_1_1flexibin/">FlexiBin</a> > | **[FlexiBinSet](http://example.org/classes/classrivet_1_1centralitybinner/#typedef-flexibinset)** <br>Convenient typedefs.  |
+| typedef set< FlexiBin > | **[FlexiBinSet](http://example.org/classes/classrivet_1_1centralitybinner/#typedef-flexibinset)** <br>Convenient typedefs.  |
 
 ## Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
+| std::set< ConstProjectionPtr > | **[getProjections](http://example.org/classes/classrivet_1_1centralitybinner/#function-getprojections)**() const<br>Get the contained projections, including recursion.  |
+| bool | **[hasProjection](http://example.org/classes/classrivet_1_1centralitybinner/#function-hasprojection)**(const std::string & name) const<br>Does this applier have a projection registered under the name _name_?  |
+| template <typename PROJ \> <br>const PROJ & | **[getProjection](http://example.org/classes/classrivet_1_1centralitybinner/#function-getprojection)**(const std::string & name) const |
+| const <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> & | **[getProjection](http://example.org/classes/classrivet_1_1centralitybinner/#function-getprojection)**(const std::string & name) const |
+| template <typename PROJ \> <br>const PROJ & | **[get](http://example.org/classes/classrivet_1_1centralitybinner/#function-get)**(const std::string & name) const |
+| template <typename PROJ  =Projection\> <br>std::enable_if_t< std::is_base_of< <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a>, PROJ >::value, const PROJ & > | **[applyProjection](http://example.org/classes/classrivet_1_1centralitybinner/#function-applyprojection)**(const <a href="http://example.org/classes/classrivet_1_1event/">Event</a> & evt, const <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> & proj) const |
+| template <typename PROJ  =Projection\> <br>std::enable_if_t< std::is_base_of< <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a>, PROJ >::value, const PROJ & > | **[applyProjection](http://example.org/classes/classrivet_1_1centralitybinner/#function-applyprojection)**(const <a href="http://example.org/classes/classrivet_1_1event/">Event</a> & evt, const PROJ & proj) const |
+| template <typename PROJ  =Projection\> <br>std::enable_if_t< std::is_base_of< <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a>, PROJ >::value, const PROJ & > | **[applyProjection](http://example.org/classes/classrivet_1_1centralitybinner/#function-applyprojection)**(const <a href="http://example.org/classes/classrivet_1_1event/">Event</a> & evt, const std::string & name) const |
+| template <typename PROJ  =Projection\> <br>std::enable_if_t< std::is_base_of< <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a>, PROJ >::value, const PROJ & > | **[apply](http://example.org/classes/classrivet_1_1centralitybinner/#function-apply)**(const <a href="http://example.org/classes/classrivet_1_1event/">Event</a> & evt, const <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> & proj) const<br>Apply the supplied projection on event _evt_ (user-facing alias).  |
+| template <typename PROJ  =Projection\> <br>std::enable_if_t< std::is_base_of< <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a>, PROJ >::value, const PROJ & > | **[apply](http://example.org/classes/classrivet_1_1centralitybinner/#function-apply)**(const <a href="http://example.org/classes/classrivet_1_1event/">Event</a> & evt, const PROJ & proj) const<br>Apply the supplied projection on event _evt_ (user-facing alias).  |
+| template <typename PROJ  =Projection\> <br>std::enable_if_t< std::is_base_of< <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a>, PROJ >::value, const PROJ & > | **[apply](http://example.org/classes/classrivet_1_1centralitybinner/#function-apply)**(const <a href="http://example.org/classes/classrivet_1_1event/">Event</a> & evt, const std::string & name) const<br>Apply the supplied projection on event _evt_ (user-facing alias).  |
+| template <typename PROJ  =Projection\> <br>std::enable_if_t< std::is_base_of< <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a>, PROJ >::value, const PROJ & > | **[apply](http://example.org/classes/classrivet_1_1centralitybinner/#function-apply)**(const std::string & name, const <a href="http://example.org/classes/classrivet_1_1event/">Event</a> & evt) const<br>Apply the supplied projection on event _evt_ (convenience arg-reordering alias).  |
+| void | **[markAsOwned](http://example.org/classes/classrivet_1_1centralitybinner/#function-markasowned)**() const<br>Mark this object as owned by a proj-handler.  |
 | | **[CentralityBinner](http://example.org/classes/classrivet_1_1centralitybinner/#function-centralitybinner)**(int maxbins =200, double wlim =0.02) |
 | void | **[setProjection](http://example.org/classes/classrivet_1_1centralitybinner/#function-setprojection)**(const <a href="http://example.org/classes/classrivet_1_1centralityestimator/">CentralityEstimator</a> & p, string pname) |
 | virtual std::string | **[name](http://example.org/classes/classrivet_1_1centralitybinner/#function-name)**() const<br>Return the class name.  |
@@ -44,23 +57,11 @@ Inherits from [Rivet::ProjectionApplier](http://example.org/classes/classrivet_1
 
 |                | Name           |
 | -------------- | -------------- |
-| FlexiBinSet::iterator | **[_findBin](http://example.org/classes/classrivet_1_1centralitybinner/#function--findbin)**(double cest) |
-
-## Protected Attributes
-
-|                | Name           |
-| -------------- | -------------- |
-| string | **[_estimator](http://example.org/classes/classrivet_1_1centralitybinner/#variable--estimator)** <br>The name of the CentralityEstimator projection to be used.  |
-| T | **[_currenT](http://example.org/classes/classrivet_1_1centralitybinner/#variable--current)**  |
-| double | **[_currentCEst](http://example.org/classes/classrivet_1_1centralitybinner/#variable--currentcest)** <br>The current value of the centrality estimator.  |
-| int | **[_maxBins](http://example.org/classes/classrivet_1_1centralitybinner/#variable--maxbins)**  |
-| double | **[_warnlimit](http://example.org/classes/classrivet_1_1centralitybinner/#variable--warnlimit)**  |
-| vector< <a href="http://example.org/classes/structrivet_1_1centralitybinner_1_1bin/">Bin</a> > | **[_unfilled](http://example.org/classes/classrivet_1_1centralitybinner/#variable--unfilled)**  |
-| <a href="http://example.org/classes/classrivet_1_1centralitybinner/#typedef-flexibinset">FlexiBinSet</a> | **[_flexiBins](http://example.org/classes/classrivet_1_1centralitybinner/#variable--flexibins)** <br>The dynamic bins for ranges of centrality estimators.  |
-| double | **[_weightsum](http://example.org/classes/classrivet_1_1centralitybinner/#variable--weightsum)** <br>The sum of all event weights so far.  |
-| set< double > | **[_percentiles](http://example.org/classes/classrivet_1_1centralitybinner/#variable--percentiles)** <br>The requested percentile limits.  |
-| map< T, <a href="http://example.org/classes/structrivet_1_1centralitybinner_1_1bin/">Bin</a> > | **[_ready](http://example.org/classes/classrivet_1_1centralitybinner/#variable--ready)** <br>The filled AnalysisObjects where the estimator edges has been determined.  |
-| T | **[_devnull](http://example.org/classes/classrivet_1_1centralitybinner/#variable--devnull)**  |
+| <a href="http://example.org/classes/classrivet_1_1log/">Log</a> & | **[getLog](http://example.org/classes/classrivet_1_1centralitybinner/#function-getlog)**() const |
+| <a href="http://example.org/classes/classrivet_1_1projectionhandler/">ProjectionHandler</a> & | **[getProjHandler](http://example.org/classes/classrivet_1_1centralitybinner/#function-getprojhandler)**() const<br>Get a reference to the ProjectionHandler for this thread.  |
+| template <typename PROJ \> <br>const PROJ & | **[declareProjection](http://example.org/classes/classrivet_1_1centralitybinner/#function-declareprojection)**(const PROJ & proj, const std::string & name)<br>Register a contained projection.  |
+| template <typename PROJ \> <br>const PROJ & | **[declare](http://example.org/classes/classrivet_1_1centralitybinner/#function-declare)**(const PROJ & proj, const std::string & name)<br>Register a contained projection (user-facing version)  |
+| template <typename PROJ \> <br>const PROJ & | **[declare](http://example.org/classes/classrivet_1_1centralitybinner/#function-declare)**(const std::string & name, const PROJ & proj)<br>Register a contained projection (user-facing, arg-reordered version)  |
 
 ## Additional inherited members
 
@@ -68,40 +69,8 @@ Inherits from [Rivet::ProjectionApplier](http://example.org/classes/classrivet_1
 
 |                | Name           |
 | -------------- | -------------- |
-| std::set< ConstProjectionPtr > | **[getProjections](http://example.org/classes/classrivet_1_1projectionapplier/#function-getprojections)**() const<br>Get the contained projections, including recursion.  |
-| bool | **[hasProjection](http://example.org/classes/classrivet_1_1projectionapplier/#function-hasprojection)**(const std::string & name) const<br>Does this applier have a projection registered under the name _name_?  |
-| template <typename PROJ \> <br>const PROJ & | **[getProjection](http://example.org/classes/classrivet_1_1projectionapplier/#function-getprojection)**(const std::string & name) const |
-| template <typename PROJ \> <br>const PROJ & | **[get](http://example.org/classes/classrivet_1_1projectionapplier/#function-get)**(const std::string & name) const |
-| const <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> & | **[getProjection](http://example.org/classes/classrivet_1_1projectionapplier/#function-getprojection)**(const std::string & name) const |
-| template <typename PROJ  =Projection\> <br>std::enable_if_t< std::is_base_of< <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a>, PROJ >::value, const PROJ & > | **[applyProjection](http://example.org/classes/classrivet_1_1projectionapplier/#function-applyprojection)**(const <a href="http://example.org/classes/classrivet_1_1event/">Event</a> & evt, const <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> & proj) const |
-| template <typename PROJ  =Projection\> <br>std::enable_if_t< std::is_base_of< <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a>, PROJ >::value, const PROJ & > | **[apply](http://example.org/classes/classrivet_1_1projectionapplier/#function-apply)**(const <a href="http://example.org/classes/classrivet_1_1event/">Event</a> & evt, const <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> & proj) const<br>Apply the supplied projection on event _evt_ (user-facing alias).  |
-| template <typename PROJ  =Projection\> <br>std::enable_if_t< std::is_base_of< <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a>, PROJ >::value, const PROJ & > | **[applyProjection](http://example.org/classes/classrivet_1_1projectionapplier/#function-applyprojection)**(const <a href="http://example.org/classes/classrivet_1_1event/">Event</a> & evt, const PROJ & proj) const |
-| template <typename PROJ  =Projection\> <br>std::enable_if_t< std::is_base_of< <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a>, PROJ >::value, const PROJ & > | **[apply](http://example.org/classes/classrivet_1_1projectionapplier/#function-apply)**(const <a href="http://example.org/classes/classrivet_1_1event/">Event</a> & evt, const PROJ & proj) const<br>Apply the supplied projection on event _evt_ (user-facing alias).  |
-| template <typename PROJ  =Projection\> <br>std::enable_if_t< std::is_base_of< <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a>, PROJ >::value, const PROJ & > | **[applyProjection](http://example.org/classes/classrivet_1_1projectionapplier/#function-applyprojection)**(const <a href="http://example.org/classes/classrivet_1_1event/">Event</a> & evt, const std::string & name) const |
-| template <typename PROJ  =Projection\> <br>std::enable_if_t< std::is_base_of< <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a>, PROJ >::value, const PROJ & > | **[apply](http://example.org/classes/classrivet_1_1projectionapplier/#function-apply)**(const <a href="http://example.org/classes/classrivet_1_1event/">Event</a> & evt, const std::string & name) const<br>Apply the supplied projection on event _evt_ (user-facing alias).  |
-| template <typename PROJ  =Projection\> <br>std::enable_if_t< std::is_base_of< <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a>, PROJ >::value, const PROJ & > | **[apply](http://example.org/classes/classrivet_1_1projectionapplier/#function-apply)**(const std::string & name, const <a href="http://example.org/classes/classrivet_1_1event/">Event</a> & evt) const<br>Apply the supplied projection on event _evt_ (convenience arg-reordering alias).  |
-| void | **[markAsOwned](http://example.org/classes/classrivet_1_1projectionapplier/#function-markasowned)**() const<br>Mark this object as owned by a proj-handler.  |
 | | **[ProjectionApplier](http://example.org/classes/classrivet_1_1projectionapplier/#function-projectionapplier)**()<br>Constructor.  |
 | virtual | **[~ProjectionApplier](http://example.org/classes/classrivet_1_1projectionapplier/#function-~projectionapplier)**() |
-
-**Protected Functions inherited from [Rivet::ProjectionApplier](http://example.org/classes/classrivet_1_1projectionapplier/)**
-
-|                | Name           |
-| -------------- | -------------- |
-| template <typename PROJ \> <br>const PROJ & | **[declareProjection](http://example.org/classes/classrivet_1_1projectionapplier/#function-declareprojection)**(const PROJ & proj, const std::string & name)<br>Register a contained projection.  |
-| template <typename PROJ \> <br>const PROJ & | **[declare](http://example.org/classes/classrivet_1_1projectionapplier/#function-declare)**(const PROJ & proj, const std::string & name)<br>Register a contained projection (user-facing version)  |
-| template <typename PROJ \> <br>const PROJ & | **[declare](http://example.org/classes/classrivet_1_1projectionapplier/#function-declare)**(const std::string & name, const PROJ & proj)<br>Register a contained projection (user-facing, arg-reordered version)  |
-| const <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> & | **[_declareProjection](http://example.org/classes/classrivet_1_1projectionapplier/#function--declareprojection)**(const <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> & proj, const std::string & name)<br>Untemplated function to do the work...  |
-| const <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> & | **[_applyProjection](http://example.org/classes/classrivet_1_1projectionapplier/#function--applyprojection)**(const <a href="http://example.org/classes/classrivet_1_1event/">Event</a> & evt, const std::string & name) const |
-| const <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> & | **[_applyProjection](http://example.org/classes/classrivet_1_1projectionapplier/#function--applyprojection)**(const <a href="http://example.org/classes/classrivet_1_1event/">Event</a> & evt, const <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> & proj) const |
-| <a href="http://example.org/classes/classrivet_1_1log/">Log</a> & | **[getLog](http://example.org/classes/classrivet_1_1projectionapplier/#function-getlog)**() const |
-| <a href="http://example.org/classes/classrivet_1_1projectionhandler/">ProjectionHandler</a> & | **[getProjHandler](http://example.org/classes/classrivet_1_1projectionapplier/#function-getprojhandler)**() const<br>Get a reference to the ProjectionHandler for this thread.  |
-
-**Protected Attributes inherited from [Rivet::ProjectionApplier](http://example.org/classes/classrivet_1_1projectionapplier/)**
-
-|                | Name           |
-| -------------- | -------------- |
-| bool | **[_allowProjReg](http://example.org/classes/classrivet_1_1projectionapplier/#variable--allowprojreg)** <br>Flag to forbid projection registration in analyses until the init phase.  |
 
 
 ## Detailed Description
@@ -126,6 +95,176 @@ typedef set<FlexiBin> Rivet::CentralityBinner< T, MDist >::FlexiBinSet;
 Convenient typedefs. 
 
 ## Public Functions Documentation
+
+### function getProjections
+
+```cpp
+inline std::set< ConstProjectionPtr > getProjections() const
+```
+
+Get the contained projections, including recursion. 
+
+### function hasProjection
+
+```cpp
+inline bool hasProjection(
+    const std::string & name
+) const
+```
+
+Does this applier have a projection registered under the name _name_? 
+
+### function getProjection
+
+```cpp
+template <typename PROJ >
+inline const PROJ & getProjection(
+    const std::string & name
+) const
+```
+
+
+**Todo**: Add SFINAE to require that PROJ inherit from <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a>
+
+Get the named projection, specifying return type via a template argument. 
+
+
+### function getProjection
+
+```cpp
+inline const Projection & getProjection(
+    const std::string & name
+) const
+```
+
+
+Get the named projection (non-templated, so returns as a reference to a <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> base class). 
+
+
+### function get
+
+```cpp
+template <typename PROJ >
+inline const PROJ & get(
+    const std::string & name
+) const
+```
+
+
+**Todo**: Add SFINAE to require that PROJ inherit from <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a>
+
+Get the named projection, specifying return type via a template argument (user-facing alias). 
+
+
+### function applyProjection
+
+```cpp
+template <typename PROJ  =Projection>
+inline std::enable_if_t< std::is_base_of< Projection, PROJ >::value, const PROJ & > applyProjection(
+    const Event & evt,
+    const Projection & proj
+) const
+```
+
+
+**Deprecated**: 
+
+Prefer the simpler apply<> form 
+
+Apply the supplied projection on event _evt_.
+
+
+### function applyProjection
+
+```cpp
+template <typename PROJ  =Projection>
+inline std::enable_if_t< std::is_base_of< Projection, PROJ >::value, const PROJ & > applyProjection(
+    const Event & evt,
+    const PROJ & proj
+) const
+```
+
+
+**Deprecated**: 
+
+Prefer the simpler apply<> form 
+
+Apply the supplied projection on event _evt_.
+
+
+### function applyProjection
+
+```cpp
+template <typename PROJ  =Projection>
+inline std::enable_if_t< std::is_base_of< Projection, PROJ >::value, const PROJ & > applyProjection(
+    const Event & evt,
+    const std::string & name
+) const
+```
+
+
+**Deprecated**: 
+
+Prefer the simpler apply<> form 
+
+Apply the named projection on event _evt_.
+
+
+### function apply
+
+```cpp
+template <typename PROJ  =Projection>
+inline std::enable_if_t< std::is_base_of< Projection, PROJ >::value, const PROJ & > apply(
+    const Event & evt,
+    const Projection & proj
+) const
+```
+
+Apply the supplied projection on event _evt_ (user-facing alias). 
+
+### function apply
+
+```cpp
+template <typename PROJ  =Projection>
+inline std::enable_if_t< std::is_base_of< Projection, PROJ >::value, const PROJ & > apply(
+    const Event & evt,
+    const PROJ & proj
+) const
+```
+
+Apply the supplied projection on event _evt_ (user-facing alias). 
+
+### function apply
+
+```cpp
+template <typename PROJ  =Projection>
+inline std::enable_if_t< std::is_base_of< Projection, PROJ >::value, const PROJ & > apply(
+    const Event & evt,
+    const std::string & name
+) const
+```
+
+Apply the supplied projection on event _evt_ (user-facing alias). 
+
+### function apply
+
+```cpp
+template <typename PROJ  =Projection>
+inline std::enable_if_t< std::is_base_of< Projection, PROJ >::value, const PROJ & > apply(
+    const std::string & name,
+    const Event & evt
+) const
+```
+
+Apply the supplied projection on event _evt_ (convenience arg-reordering alias). 
+
+### function markAsOwned
+
+```cpp
+inline void markAsOwned() const
+```
+
+Mark this object as owned by a proj-handler. 
 
 ### function CentralityBinner
 
@@ -278,118 +417,66 @@ void fulldebug()
 
 ## Protected Functions Documentation
 
-### function _findBin
+### function getLog
 
 ```cpp
-inline FlexiBinSet::iterator _findBin(
-    double cest
+inline Log & getLog() const
+```
+
+
+### function getProjHandler
+
+```cpp
+inline ProjectionHandler & getProjHandler() const
+```
+
+Get a reference to the ProjectionHandler for this thread. 
+
+### function declareProjection
+
+```cpp
+template <typename PROJ >
+inline const PROJ & declareProjection(
+    const PROJ & proj,
+    const std::string & name
 )
 ```
 
+Register a contained projection. 
 
-Find a bin corresponding to a given value of the centrality estimator. 
+**Todo**: Add SFINAE to require that PROJ inherit from <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a>
+
+The type of the argument is used to instantiate a new projection internally: this new object is applied to events rather than the argument object. Hence you are advised to only use locally-scoped <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> objects in your <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> and <a href="http://example.org/classes/classrivet_1_1analysis/">Analysis</a> constructors, and to avoid polymorphism (e.g. handling <code>ConcreteProjection</code> via a pointer or reference to type <code><a href="http://example.org/classes/classrivet_1_1projection/">Projection</a></code>) since this will screw up the internal type management.
 
 
-## Protected Attributes Documentation
-
-### variable _estimator
-
-```cpp
-string _estimator;
-```
-
-The name of the CentralityEstimator projection to be used. 
-
-### variable _currenT
+### function declare
 
 ```cpp
-T _currenT;
+template <typename PROJ >
+inline const PROJ & declare(
+    const PROJ & proj,
+    const std::string & name
+)
 ```
 
+Register a contained projection (user-facing version) 
 
-The current temporary AnalysisObject selected for the centrality estimator calculated from the event presented in setup(). 
+**Todo**: Add SFINAE to require that PROJ inherit from <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a>
 
-
-### variable _currentCEst
+### function declare
 
 ```cpp
-double _currentCEst;
+template <typename PROJ >
+inline const PROJ & declare(
+    const std::string & name,
+    const PROJ & proj
+)
 ```
 
-The current value of the centrality estimator. 
+Register a contained projection (user-facing, arg-reordered version) 
 
-### variable _maxBins
-
-```cpp
-int _maxBins;
-```
-
-
-The oversampling of centrality bins. For each requested centrality bin this number of dynamic bins will be used. 
-
-
-### variable _warnlimit
-
-```cpp
-double _warnlimit;
-```
-
-
-If the fraction of events in a bin that comes from adjecent centrality bins exceeds this, emit a warning. 
-
-
-### variable _unfilled
-
-```cpp
-vector< Bin > _unfilled;
-```
-
-
-The unfilled AnalysisObjectss where the esimator edges has not yet been determined. 
-
-
-### variable _flexiBins
-
-```cpp
-FlexiBinSet _flexiBins;
-```
-
-The dynamic bins for ranges of centrality estimators. 
-
-### variable _weightsum
-
-```cpp
-double _weightsum;
-```
-
-The sum of all event weights so far. 
-
-### variable _percentiles
-
-```cpp
-set< double > _percentiles;
-```
-
-The requested percentile limits. 
-
-### variable _ready
-
-```cpp
-map< T, Bin > _ready;
-```
-
-The filled AnalysisObjects where the estimator edges has been determined. 
-
-### variable _devnull
-
-```cpp
-T _devnull;
-```
-
-
-<a href="http://example.org/classes/classrivet_1_1a/">A</a> special AnalysisObject which will be filled if the centrality estimate is out of range (negative). 
-
+**Todo**: Add SFINAE to require that PROJ inherit from <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a>
 
 -------------------------------
 
-Updated on 2022-07-27 at 19:09:51 +0100
+Updated on 2022-07-28 at 11:25:42 +0100

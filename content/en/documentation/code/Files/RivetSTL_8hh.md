@@ -12,8 +12,8 @@ title: "/home/anarendran/Documents/temp/rivet/include/Rivet/Tools/RivetSTL.hh"
 
 | Name           |
 | -------------- |
-| **[Rivet](http://example.org/namespaces/namespacerivet/)** <br>-*- C++ -*-  |
-| **[std](http://example.org/namespaces/namespacestd/)**  |
+| **[Rivet](http://example.org/namespaces/namespacerivet/)**  |
+| **[std](http://example.org/namespaces/namespacestd/)** <br>STL namespace.  |
 
 
 
@@ -196,4 +196,4 @@ namespace std {
 
 -------------------------------
 
-Updated on 2022-07-27 at 19:10:16 +0100
+Updated on 2022-07-28 at 11:25:43 +0100

@@ -1,0 +1,58 @@
+---
+
+title: "/home/anarendran/Documents/temp/rivet/include/Rivet/Tools/Cmp.fhh"
+
+---
+
+# /home/anarendran/Documents/temp/rivet/include/Rivet/Tools/Cmp.fhh
+
+
+
+
+
+
+## Source code
+
+```cpp
+// -*- C++ -*-
+#ifndef RIVET_Cmp_FHH
+#define RIVET_Cmp_FHH
+
+namespace Rivet {
+
+
+  // Forward-declare the Cmp template class
+  template <typename T>
+  class Cmp;
+
+
+  /// Enumeration of possible value-comparison states
+  enum class CmpState {
+    UNDEF, EQ, NEQ
+  };
+
+  /// Representation of a CmpState as a string
+  inline std::string toString(const CmpState& cmpst) {
+    switch (cmpst) {
+      case CmpState::UNDEF: return "Cmp: ??";
+      case CmpState::EQ:    return "Cmp: ==";
+      case CmpState::NEQ:   return "Cmp: !=";
+    }
+    throw Error("CmpState value not in enum list");
+  }
+
+  /// Stream a CmpState via its toString representation
+  inline std::ostream& operator << (std::ostream& os, const CmpState& obj) {
+    os << toString(obj);
+    return os;
+  }
+
+}
+
+#endif
+```
+
+
+-------------------------------
+
+Updated on 2022-07-28 at 11:25:43 +0100

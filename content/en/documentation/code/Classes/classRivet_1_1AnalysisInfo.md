@@ -101,12 +101,6 @@ static unique_ptr< AnalysisInfo > make(
 
 Static factory method: returns null pointer if no metadata found. 
 
-Static factory method. 
-
-
-If no ana data file found, return null AI
-
-
 ### function AnalysisInfo
 
 ```cpp
@@ -723,9 +717,6 @@ std::string refFile() const
 
 Find the path to the reference-data file for this analysis. 
 
-Return the path to the reference data file. 
-
-
 ### function validation
 
 ```cpp
@@ -750,4 +741,4 @@ Return true if this analysis needs to know the process cross-section.
 
 -------------------------------
 
-Updated on 2022-07-27 at 19:09:37 +0100
+Updated on 2022-07-28 at 11:25:42 +0100

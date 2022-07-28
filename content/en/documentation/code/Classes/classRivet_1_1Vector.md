@@ -9,7 +9,7 @@ summary: "A minimal base class for $ N $-dimensional vectors. "
 
 
 
-<a href="http://example.org/classes/classrivet_1_1a/">A</a> minimal base class for \( N \)-dimensional vectors.  [More...](#detailed-description)
+A minimal base class for \( N \)-dimensional vectors.  [More...](#detailed-description)
 
 
 `#include <VectorN.hh>`
@@ -18,7 +18,7 @@ summary: "A minimal base class for $ N $-dimensional vectors. "
 
 |                | Name           |
 | -------------- | -------------- |
-| using <a href="http://example.org/classes/classeigen_1_1matrix/">Eigen::Matrix</a>< double, N, 1 > | **[EVector](http://example.org/classes/classrivet_1_1vector/#using-evector)** <br><a href="http://example.org/classes/classrivet_1_1vector/">Vector</a>.  |
+| using Eigen::Matrix< double, N, 1 > | **[EVector](http://example.org/classes/classrivet_1_1vector/#using-evector)** <br><a href="http://example.org/classes/classrivet_1_1vector/">Vector</a>.  |
 
 ## Public Functions
 
@@ -39,12 +39,6 @@ summary: "A minimal base class for $ N $-dimensional vectors. "
 | bool | **[operator==](http://example.org/classes/classrivet_1_1vector/#function-operator==)**(const <a href="http://example.org/classes/classrivet_1_1vector/">Vector</a>< N > & a) const |
 | bool | **[operator!=](http://example.org/classes/classrivet_1_1vector/#function-operator!=)**(const <a href="http://example.org/classes/classrivet_1_1vector/">Vector</a>< N > & a) const |
 
-## Public Attributes
-
-|                | Name           |
-| -------------- | -------------- |
-| <a href="http://example.org/classes/classrivet_1_1vector/#using-evector">EVector</a> | **[_vec](http://example.org/classes/classrivet_1_1vector/#variable--vec)**  |
-
 ## Friends
 
 |                | Name           |
@@ -58,7 +52,7 @@ template <size_t N>
 class Rivet::Vector;
 ```
 
-<a href="http://example.org/classes/classrivet_1_1a/">A</a> minimal base class for \( N \)-dimensional vectors. 
+A minimal base class for \( N \)-dimensional vectors. 
 ## Public Types Documentation
 
 ### using EVector
@@ -196,15 +190,6 @@ inline bool operator!=(
 ```
 
 
-## Public Attributes Documentation
-
-### variable _vec
-
-```cpp
-EVector _vec;
-```
-
-
 ## Friends
 
 ### friend multiply
@@ -220,4 +205,4 @@ friend Vector< M > multiply(
 
 -------------------------------
 
-Updated on 2022-07-27 at 19:10:11 +0100
+Updated on 2022-07-28 at 11:25:43 +0100

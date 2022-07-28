@@ -12,22 +12,14 @@ title: "/home/anarendran/Documents/temp/rivet/include/Rivet/Tools/CentralityBinn
 
 | Name           |
 | -------------- |
-| **[Rivet](http://example.org/namespaces/namespacerivet/)** <br>-*- C++ -*-  |
+| **[Rivet](http://example.org/namespaces/namespacerivet/)**  |
 
 ## Classes
 
 |                | Name           |
 | -------------- | -------------- |
 | class | **[Rivet::CentralityEstimator](http://example.org/classes/classrivet_1_1centralityestimator/)** <br>Base class for projections profile observable value vs the collision centrality.  |
-| struct | **[Rivet::CentralityBinTraits](http://example.org/classes/structrivet_1_1centralitybintraits/)**  |
-| struct | **[Rivet::MergeDistance](http://example.org/classes/structrivet_1_1mergedistance/)**  |
 | class | **[Rivet::CentralityBinner](http://example.org/classes/classrivet_1_1centralitybinner/)**  |
-| struct | **[Rivet::CentralityBinTraits< Profile1DPtr >](http://example.org/classes/structrivet_1_1centralitybintraits_3_01profile1dptr_01_4/)** <br>Traits specialization for Profile histograms.  |
-| struct | **[Rivet::CentralityBinTraits< Profile2DPtr >](http://example.org/classes/structrivet_1_1centralitybintraits_3_01profile2dptr_01_4/)** <br>Traits specialization for Profile histograms.  |
-| struct | **[Rivet::CentralityBinTraits< vector< T > >](http://example.org/classes/structrivet_1_1centralitybintraits_3_01vector_3_01t_01_4_01_4/)**  |
-| struct | **[Rivet::TupleCentralityBinTraitsHelper](http://example.org/classes/structrivet_1_1tuplecentralitybintraitshelper/)**  |
-| struct | **[Rivet::TupleCentralityBinTraitsHelper< 0, Types... >](http://example.org/classes/structrivet_1_1tuplecentralitybintraitshelper_3_010_00_01types_8_8_8_01_4/)**  |
-| struct | **[Rivet::CentralityBinTraits< tuple< Types... > >](http://example.org/classes/structrivet_1_1centralitybintraits_3_01tuple_3_01types_8_8_8_01_4_01_4/)**  |
 | class | **[Rivet::GeneratedCentrality](http://example.org/classes/classrivet_1_1generatedcentrality/)**  |
 
 
@@ -692,4 +684,4 @@ namespace Rivet {
 
 -------------------------------
 
-Updated on 2022-07-27 at 19:10:16 +0100
+Updated on 2022-07-28 at 11:25:43 +0100

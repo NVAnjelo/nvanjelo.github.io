@@ -198,7 +198,7 @@ void divide(
 
 **Note**: Assigns to the (already registered) output scatter, _s_. Preserves the path information of the target. 
 
-Helper for histogram division with raw <a href="http://example.org/namespaces/namespaceyoda/">YODA</a> objects.
+Helper for histogram division with raw YODA objects.
 
 
 ### function divide
@@ -214,7 +214,7 @@ void divide(
 
 **Note**: Assigns to the (already registered) output scatter, _s_. Preserves the path information of the target. 
 
-Helper for histogram division with raw <a href="http://example.org/namespaces/namespaceyoda/">YODA</a> objects.
+Helper for histogram division with raw YODA objects.
 
 
 ### function divide
@@ -230,7 +230,7 @@ void divide(
 
 **Note**: Assigns to the (already registered) output scatter, _s_. Preserves the path information of the target. 
 
-Helper for profile histogram division with raw <a href="http://example.org/namespaces/namespaceyoda/">YODA</a> objects.
+Helper for profile histogram division with raw YODA objects.
 
 
 ### function divide
@@ -246,7 +246,7 @@ void divide(
 
 **Note**: Assigns to the (already registered) output scatter, _s_. Preserves the path information of the target. 
 
-Helper for 2D histogram division with raw <a href="http://example.org/namespaces/namespaceyoda/">YODA</a> objects.
+Helper for 2D histogram division with raw YODA objects.
 
 
 ### function divide
@@ -262,7 +262,7 @@ void divide(
 
 **Note**: Assigns to the (already registered) output scatter, _s_. Preserves the path information of the target. 
 
-Helper for 2D profile histogram division with raw <a href="http://example.org/namespaces/namespaceyoda/">YODA</a> objects
+Helper for 2D profile histogram division with raw YODA objects
 
 
 ### function efficiency
@@ -276,9 +276,7 @@ void efficiency(
 ```
 
 
-**Note**: Assigns to the (already registered) output scatter, _s_. Preserves the path information of the target.
-
-**Todo**: Counter and Histo2D efficiencies and asymms 
+**Note**: Assigns to the (already registered) output scatter, _s_. Preserves the path information of the target. 
 
 Helper for histogram efficiency calculation.
 
@@ -367,4 +365,4 @@ Helper for converting a differential histo to an integral one.
 
 -------------------------------
 
-Updated on 2022-07-27 at 19:10:13 +0100
+Updated on 2022-07-28 at 11:25:43 +0100

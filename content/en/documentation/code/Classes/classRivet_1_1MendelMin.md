@@ -9,7 +9,7 @@ summary: "A genetic algorithm functional minimizer. "
 
 
 
-<a href="http://example.org/classes/classrivet_1_1a/">A</a> genetic algorithm functional minimizer.  [More...](#detailed-description)
+A genetic algorithm functional minimizer.  [More...](#detailed-description)
 
 
 `#include <MendelMin.hh>`
@@ -38,7 +38,6 @@ summary: "A genetic algorithm functional minimizer. "
 | void | **[move](http://example.org/classes/classrivet_1_1mendelmin/#function-move)**(<a href="http://example.org/classes/classrivet_1_1mendelmin/#using-params">Params</a> & bad, const <a href="http://example.org/classes/classrivet_1_1mendelmin/#using-params">Params</a> & better) const |
 | double | **[f](http://example.org/classes/classrivet_1_1mendelmin/#function-f)**(const <a href="http://example.org/classes/classrivet_1_1mendelmin/#using-params">Params</a> & p) const<br>Simple wrapper around the function to be minimised.  |
 | std::pair< double, double > | **[minmax](http://example.org/classes/classrivet_1_1mendelmin/#function-minmax)**() |
-| void | **[_debug](http://example.org/classes/classrivet_1_1mendelmin/#function--debug)**()<br>Inspect a population and the fitness of its individuals.  |
 
 ## Public Attributes
 
@@ -52,7 +51,7 @@ summary: "A genetic algorithm functional minimizer. "
 class Rivet::MendelMin;
 ```
 
-<a href="http://example.org/classes/classrivet_1_1a/">A</a> genetic algorithm functional minimizer. 
+A genetic algorithm functional minimizer. 
 
 <a href="http://example.org/classes/classrivet_1_1mendelmin/">MendelMin</a> implements a home brewed genetic algorithm for finding the minimum of a function defined on a unit hypercube returning a non-negative real number (eg. a Chi-squared value). 
 
@@ -226,14 +225,6 @@ inline std::pair< double, double > minmax()
 Calculate the fitness values of all individuals and put the fittest one first. 
 
 
-### function _debug
-
-```cpp
-inline void _debug()
-```
-
-Inspect a population and the fitness of its individuals. 
-
 ## Public Attributes Documentation
 
 ### variable showTrace
@@ -246,4 +237,4 @@ Set true to get a verbose record of the evolution.
 
 -------------------------------
 
-Updated on 2022-07-27 at 19:10:06 +0100
+Updated on 2022-07-28 at 11:25:42 +0100

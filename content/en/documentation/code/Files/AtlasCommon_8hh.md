@@ -12,7 +12,7 @@ title: "/home/anarendran/Documents/temp/rivet/include/Rivet/Tools/AtlasCommon.hh
 
 | Name           |
 | -------------- |
-| **[Rivet](http://example.org/namespaces/namespacerivet/)** <br>-*- C++ -*-  |
+| **[Rivet](http://example.org/namespaces/namespacerivet/)**  |
 | **[Rivet::ATLAS](http://example.org/namespaces/namespacerivet_1_1atlas/)** <br>Common projections for ATLAS trigger conditions and centrality.  |
 
 ## Classes
@@ -142,4 +142,4 @@ protected:
 
 -------------------------------
 
-Updated on 2022-07-27 at 19:10:16 +0100
+Updated on 2022-07-28 at 11:25:43 +0100

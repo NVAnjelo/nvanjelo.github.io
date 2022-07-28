@@ -9,7 +9,7 @@ summary: "A tracker of numbers & fractions of events passing sequential cuts. "
 
 
 
-<a href="http://example.org/classes/classrivet_1_1a/">A</a> tracker of numbers & fractions of events passing sequential cuts. 
+A tracker of numbers & fractions of events passing sequential cuts. 
 
 
 `#include <Cutflow.hh>`
@@ -273,4 +273,4 @@ size_t icurr;
 
 -------------------------------
 
-Updated on 2022-07-27 at 19:09:57 +0100
+Updated on 2022-07-28 at 11:25:42 +0100

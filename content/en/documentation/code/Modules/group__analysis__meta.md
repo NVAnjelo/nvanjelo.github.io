@@ -31,11 +31,11 @@ title: "Metadata"
 | virtual std::string | **[bibKey](http://example.org/modules/group__analysis__meta/#function-bibkey)**() const<br>BibTeX citation key for this article.  |
 | virtual std::string | **[bibTeX](http://example.org/modules/group__analysis__meta/#function-bibtex)**() const<br>BibTeX citation entry for this article.  |
 | virtual std::string | **[status](http://example.org/modules/group__analysis__meta/#function-status)**() const<br>Whether this analysis is trusted (in any way!)  |
-| virtual std::string | **[warning](http://example.org/modules/group__analysis__meta/#function-warning)**() const<br><a href="http://example.org/classes/classrivet_1_1a/">A</a> warning message from the info file, if there is one.  |
+| virtual std::string | **[warning](http://example.org/modules/group__analysis__meta/#function-warning)**() const<br>A warning message from the info file, if there is one.  |
 | virtual std::vector< std::string > | **[todos](http://example.org/modules/group__analysis__meta/#function-todos)**() const<br>Any work to be done on this analysis.  |
 | virtual std::vector< std::string > | **[validation](http://example.org/modules/group__analysis__meta/#function-validation)**() const<br>make-style commands for validating this analysis.  |
 | virtual bool | **[reentrant](http://example.org/modules/group__analysis__meta/#function-reentrant)**() const<br>Does this analysis have a reentrant <a href="http://example.org/modules/group__analysis__main/#function-finalize">finalize()</a>?  |
-| virtual std::string | **[refFile](http://example.org/modules/group__analysis__meta/#function-reffile)**() const<br>Location of reference data <a href="http://example.org/namespaces/namespaceyoda/">YODA</a> file.  |
+| virtual std::string | **[refFile](http://example.org/modules/group__analysis__meta/#function-reffile)**() const<br>Location of reference data YODA file.  |
 | virtual std::string | **[refMatch](http://example.org/modules/group__analysis__meta/#function-refmatch)**() const<br>Positive filtering regex for ref-data HepData sync.  |
 | virtual std::string | **[refUnmatch](http://example.org/modules/group__analysis__meta/#function-refunmatch)**() const<br>Negative filtering regex for ref-data HepData sync.  |
 | virtual std::string | **[writerDoublePrecision](http://example.org/modules/group__analysis__meta/#function-writerdoubleprecision)**() const<br>Positive filterin regex for setting double precision in Writer.  |
@@ -232,7 +232,7 @@ Whether this analysis is trusted (in any way!)
 inline virtual std::string warning() const
 ```
 
-<a href="http://example.org/classes/classrivet_1_1a/">A</a> warning message from the info file, if there is one. 
+A warning message from the info file, if there is one. 
 
 ### function todos
 
@@ -264,7 +264,7 @@ Does this analysis have a reentrant <a href="http://example.org/modules/group__a
 inline virtual std::string refFile() const
 ```
 
-Location of reference data <a href="http://example.org/namespaces/namespaceyoda/">YODA</a> file. 
+Location of reference data YODA file. 
 
 ### function refMatch
 
@@ -352,4 +352,4 @@ Get the actual <a href="http://example.org/classes/classrivet_1_1analysisinfo/">
 
 -------------------------------
 
-Updated on 2022-07-27 at 19:10:13 +0100
+Updated on 2022-07-28 at 11:25:43 +0100

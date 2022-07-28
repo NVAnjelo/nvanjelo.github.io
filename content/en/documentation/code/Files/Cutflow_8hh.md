@@ -12,14 +12,14 @@ title: "/home/anarendran/Documents/temp/rivet/include/Rivet/Tools/Cutflow.hh"
 
 | Name           |
 | -------------- |
-| **[Rivet](http://example.org/namespaces/namespacerivet/)** <br>-*- C++ -*-  |
+| **[Rivet](http://example.org/namespaces/namespacerivet/)**  |
 
 ## Classes
 
 |                | Name           |
 | -------------- | -------------- |
-| struct | **[Rivet::Cutflow](http://example.org/classes/structrivet_1_1cutflow/)** <br><a href="http://example.org/classes/classrivet_1_1a/">A</a> tracker of numbers & fractions of events passing sequential cuts.  |
-| struct | **[Rivet::Cutflows](http://example.org/classes/structrivet_1_1cutflows/)** <br><a href="http://example.org/classes/classrivet_1_1a/">A</a> container for several <a href="http://example.org/classes/structrivet_1_1cutflow/">Cutflow</a> objects, with some convenient batch access.  |
+| struct | **[Rivet::Cutflow](http://example.org/classes/structrivet_1_1cutflow/)** <br>A tracker of numbers & fractions of events passing sequential cuts.  |
+| struct | **[Rivet::Cutflows](http://example.org/classes/structrivet_1_1cutflows/)** <br>A container for several <a href="http://example.org/classes/structrivet_1_1cutflow/">Cutflow</a> objects, with some convenient batch access.  |
 
 
 
@@ -283,4 +283,4 @@ namespace Rivet {
 
 -------------------------------
 
-Updated on 2022-07-27 at 19:10:16 +0100
+Updated on 2022-07-28 at 11:25:43 +0100

@@ -13,34 +13,7 @@ title: "/home/anarendran/Documents/temp/rivet/include/Rivet/Tools/RivetYODA.hh"
 | Name           |
 | -------------- |
 | **[YODA](http://example.org/namespaces/namespaceyoda/)**  |
-| **[Rivet](http://example.org/namespaces/namespacerivet/)** <br>-*- C++ -*-  |
-
-## Classes
-
-|                | Name           |
-| -------------- | -------------- |
-| class | **[Rivet::TupleWrapper< YODA::Counter >](http://example.org/classes/classrivet_1_1tuplewrapper_3_01yoda_1_1counter_01_4/)** <br><a href="http://example.org/classes/classrivet_1_1tuplewrapper/">TupleWrapper</a> specialisation for Counter.  |
-| class | **[Rivet::TupleWrapper< YODA::Histo1D >](http://example.org/classes/classrivet_1_1tuplewrapper_3_01yoda_1_1histo1d_01_4/)** <br><a href="http://example.org/classes/classrivet_1_1tuplewrapper/">TupleWrapper</a> specialisation for Histo1D.  |
-| class | **[Rivet::TupleWrapper< YODA::Profile1D >](http://example.org/classes/classrivet_1_1tuplewrapper_3_01yoda_1_1profile1d_01_4/)** <br><a href="http://example.org/classes/classrivet_1_1tuplewrapper/">TupleWrapper</a> specialisation for Profile1D.  |
-| class | **[Rivet::TupleWrapper< YODA::Histo2D >](http://example.org/classes/classrivet_1_1tuplewrapper_3_01yoda_1_1histo2d_01_4/)** <br><a href="http://example.org/classes/classrivet_1_1tuplewrapper/">TupleWrapper</a> specialisation for Histo2D.  |
-| class | **[Rivet::TupleWrapper< YODA::Profile2D >](http://example.org/classes/classrivet_1_1tuplewrapper_3_01yoda_1_1profile2d_01_4/)** <br><a href="http://example.org/classes/classrivet_1_1tuplewrapper/">TupleWrapper</a> specialisation for Profile2D.  |
-| class | **[Rivet::TupleWrapper< YODA::Scatter1D >](http://example.org/classes/classrivet_1_1tuplewrapper_3_01yoda_1_1scatter1d_01_4/)** <br><a href="http://example.org/classes/classrivet_1_1tuplewrapper/">TupleWrapper</a> specialisation for Scatter1D.  |
-| class | **[Rivet::TupleWrapper< YODA::Scatter2D >](http://example.org/classes/classrivet_1_1tuplewrapper_3_01yoda_1_1scatter2d_01_4/)** <br><a href="http://example.org/classes/classrivet_1_1tuplewrapper/">TupleWrapper</a> specialisation for Scatter2D.  |
-| class | **[Rivet::TupleWrapper< YODA::Scatter3D >](http://example.org/classes/classrivet_1_1tuplewrapper_3_01yoda_1_1scatter3d_01_4/)** <br><a href="http://example.org/classes/classrivet_1_1tuplewrapper/">TupleWrapper</a> specialisation for Scatter3D.  |
-| class | **[Rivet::AnalysisObjectWrapper](http://example.org/classes/classrivet_1_1analysisobjectwrapper/)** <br>Abstract interface to a set of <a href="http://example.org/namespaces/namespaceyoda/">YODA</a> AnalysisObjects.  |
-| class | **[Rivet::MultiweightAOWrapper](http://example.org/classes/classrivet_1_1multiweightaowrapper/)**  |
-| class | **[Rivet::Wrapper](http://example.org/classes/classrivet_1_1wrapper/)**  |
-| class | **[Rivet::rivet_shared_ptr](http://example.org/classes/classrivet_1_1rivet__shared__ptr/)**  |
-| struct | **[Rivet::ReferenceTraits](http://example.org/classes/structrivet_1_1referencetraits/)** <br>Traits class to access the type of the AnalysisObject in the reference files.  |
-| struct | **[Rivet::ReferenceTraits< Counter >](http://example.org/classes/structrivet_1_1referencetraits_3_01counter_01_4/)**  |
-| struct | **[Rivet::ReferenceTraits< Scatter1D >](http://example.org/classes/structrivet_1_1referencetraits_3_01scatter1d_01_4/)**  |
-| struct | **[Rivet::ReferenceTraits< Histo1D >](http://example.org/classes/structrivet_1_1referencetraits_3_01histo1d_01_4/)**  |
-| struct | **[Rivet::ReferenceTraits< Profile1D >](http://example.org/classes/structrivet_1_1referencetraits_3_01profile1d_01_4/)**  |
-| struct | **[Rivet::ReferenceTraits< Scatter2D >](http://example.org/classes/structrivet_1_1referencetraits_3_01scatter2d_01_4/)**  |
-| struct | **[Rivet::ReferenceTraits< Histo2D >](http://example.org/classes/structrivet_1_1referencetraits_3_01histo2d_01_4/)**  |
-| struct | **[Rivet::ReferenceTraits< Profile2D >](http://example.org/classes/structrivet_1_1referencetraits_3_01profile2d_01_4/)**  |
-| struct | **[Rivet::ReferenceTraits< Scatter3D >](http://example.org/classes/structrivet_1_1referencetraits_3_01scatter3d_01_4/)**  |
-| class | **[Rivet::AOPath](http://example.org/classes/classrivet_1_1aopath/)** <br>Class representing a <a href="http://example.org/namespaces/namespaceyoda/">YODA</a> path with all its components.  |
+| **[Rivet](http://example.org/namespaces/namespacerivet/)**  |
 
 
 
@@ -785,4 +758,4 @@ namespace Rivet {
 
 -------------------------------
 
-Updated on 2022-07-27 at 19:10:16 +0100
+Updated on 2022-07-28 at 11:25:43 +0100

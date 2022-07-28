@@ -12,13 +12,13 @@ title: "/home/anarendran/Documents/temp/rivet/include/Rivet/Projections/DressedL
 
 | Name           |
 | -------------- |
-| **[Rivet](http://example.org/namespaces/namespacerivet/)** <br>-*- C++ -*-  |
+| **[Rivet](http://example.org/namespaces/namespacerivet/)**  |
 
 ## Classes
 
 |                | Name           |
 | -------------- | -------------- |
-| class | **[Rivet::DressedLepton](http://example.org/classes/classrivet_1_1dressedlepton/)** <br><a href="http://example.org/classes/classrivet_1_1a/">A</a> charged lepton meta-particle created by clustering photons close to the bare lepton.  |
+| class | **[Rivet::DressedLepton](http://example.org/classes/classrivet_1_1dressedlepton/)** <br>A charged lepton meta-particle created by clustering photons close to the bare lepton.  |
 | class | **[Rivet::DressedLeptons](http://example.org/classes/classrivet_1_1dressedleptons/)** <br>Cluster photons from a given FS to all charged particles (typically leptons)  |
 
 
@@ -124,4 +124,4 @@ namespace Rivet {
 
 -------------------------------
 
-Updated on 2022-07-27 at 19:10:16 +0100
+Updated on 2022-07-28 at 11:25:43 +0100

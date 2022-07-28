@@ -12,13 +12,13 @@ title: "/home/anarendran/Documents/temp/rivet/include/Rivet/Math/VectorN.hh"
 
 | Name           |
 | -------------- |
-| **[Rivet](http://example.org/namespaces/namespacerivet/)** <br>-*- C++ -*-  |
+| **[Rivet](http://example.org/namespaces/namespacerivet/)**  |
 
 ## Classes
 
 |                | Name           |
 | -------------- | -------------- |
-| class | **[Rivet::Vector](http://example.org/classes/classrivet_1_1vector/)** <br><a href="http://example.org/classes/classrivet_1_1a/">A</a> minimal base class for \( N \)-dimensional vectors.  |
+| class | **[Rivet::Vector](http://example.org/classes/classrivet_1_1vector/)** <br>A minimal base class for \( N \)-dimensional vectors.  |
 
 
 
@@ -203,4 +203,4 @@ namespace Rivet {
 
 -------------------------------
 
-Updated on 2022-07-27 at 19:10:16 +0100
+Updated on 2022-07-28 at 11:25:43 +0100

@@ -12,7 +12,7 @@ title: "Nucleus/ion functions"
 
 |                | Name           |
 | -------------- | -------------- |
-| bool | **[isNucleus](http://example.org/modules/group__mcutils__nucleus__ion/#function-isnucleus)**(int pid)<br>Is this a nucleus <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a>?  |
+| bool | **[isNucleus](http://example.org/modules/group__mcutils__nucleus__ion/#function-isnucleus)**(int pid)<br>Is this a nucleus PID?  |
 | int | **[nuclZ](http://example.org/modules/group__mcutils__nucleus__ion/#function-nuclz)**(int pid) |
 | int | **[nuclA](http://example.org/modules/group__mcutils__nucleus__ion/#function-nucla)**(int pid) |
 | int | **[nuclNlambda](http://example.org/modules/group__mcutils__nucleus__ion/#function-nuclnlambda)**(int pid) |
@@ -28,9 +28,9 @@ inline bool isNucleus(
 )
 ```
 
-Is this a nucleus <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a>? 
+Is this a nucleus PID? 
 
-This implements the 2006 Monte Carlo nuclear code scheme. Ion numbers are +/- 10LZZZAAAI. AAA is <a href="http://example.org/classes/classrivet_1_1a/">A</a> - total baryon number ZZZ is Z - total charge L is the total number of strange quarks. I is the isomer number, with I=0 corresponding to the ground state. 
+This implements the 2006 Monte Carlo nuclear code scheme. Ion numbers are +/- 10LZZZAAAI. AAA is A - total baryon number ZZZ is Z - total charge L is the total number of strange quarks. I is the isomer number, with I=0 corresponding to the ground state. 
 
 
 ### function nuclZ
@@ -81,4 +81,4 @@ If this is a nucleus (ion), get nLambda
 
 -------------------------------
 
-Updated on 2022-07-27 at 19:10:13 +0100
+Updated on 2022-07-28 at 11:25:43 +0100

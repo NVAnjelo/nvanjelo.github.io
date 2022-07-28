@@ -9,8 +9,6 @@ title: "Modules"
 
 
 
-<details><summary><b>group <a href=http://example.org/modules/group__geometry__module/>Geometry_Module<a></b></summary>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>group <a href=http://example.org/modules/group__alignedboxtypedefs/>Global aligned box typedefs<a></b><br></details>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>group <a href=http://example.org/modules/group__alice/>ALICE specifics<a></b><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>group <a href=http://example.org/modules/group__anainfo__metadata/>Metadata<a></b><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>group <a href=http://example.org/modules/group__anainfo__options/>Analysis-options support<a></b><br>
@@ -35,10 +33,7 @@ title: "Modules"
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>group <a href=http://example.org/modules/group__anamacros/>Analysis macros<a></b><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>group <a href=http://example.org/modules/group__aomanip/>Analysis object manipulation functions<a></b><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>group <a href=http://example.org/modules/group__aotuples/>Minimal objects representing AO fills, to be buffered before pushToPersistent().<a></b><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>group <a href=http://example.org/modules/group__arraytypedefs/>Global array typedefs<a></b><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>group <a href=http://example.org/modules/group__contutils/>Container utils<a></b><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>group <a href=http://example.org/modules/group__enums/>Enumerations<a></b><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>group <a href=http://example.org/modules/group__flags/>Flags<a></b><br>
 <details><summary><b>group <a href=http://example.org/modules/group__jetutils/>Functions for Jets<a></b></summary>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>group <a href=http://example.org/modules/group__jetutils__coll/>Operations on collections of Jet<a></b><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>group <a href=http://example.org/modules/group__jetutils__conv/>Converting between Jets, Particles and PseudoJets<a></b><br>
@@ -46,7 +41,6 @@ title: "Modules"
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>group <a href=http://example.org/modules/group__jetutils__j2bool/>Jet classifier -> bool functors<a></b><br></details>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>group <a href=http://example.org/modules/group__logmacros/>Logging macros<a></b><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>group <a href=http://example.org/modules/group__mathutils/>Maths utilities<a></b><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>group <a href=http://example.org/modules/group__matrixtypedefs/>Global matrix typedefs<a></b><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>group <a href=http://example.org/modules/group__mcutils__angmom/>Angular momentum functions<a></b><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>group <a href=http://example.org/modules/group__mcutils__charge/>Charge functions<a></b><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>group <a href=http://example.org/modules/group__mcutils__charge__classes/>General PID-based classifier functions<a></b><br>
@@ -104,4 +98,4 @@ title: "Modules"
 
 -------------------------------
 
-Updated on 2022-07-27 at 19:10:17 +0100
+Updated on 2022-07-28 at 11:25:43 +0100

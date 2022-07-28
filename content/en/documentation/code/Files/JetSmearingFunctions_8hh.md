@@ -12,7 +12,7 @@ title: "/home/anarendran/Documents/temp/rivet/include/Rivet/Tools/JetSmearingFun
 
 | Name           |
 | -------------- |
-| **[Rivet](http://example.org/namespaces/namespacerivet/)** <br>-*- C++ -*-  |
+| **[Rivet](http://example.org/namespaces/namespacerivet/)**  |
 
 ## Classes
 
@@ -21,7 +21,7 @@ title: "/home/anarendran/Documents/temp/rivet/include/Rivet/Tools/JetSmearingFun
 | struct | **[Rivet::JET_EFF_CONST](http://example.org/classes/structrivet_1_1jet__eff__const/)** <br>Take a <a href="http://example.org/classes/classrivet_1_1jet/">Jet</a> and return a constant efficiency.  |
 | struct | **[Rivet::JET_BTAG_EFFS](http://example.org/classes/structrivet_1_1jet__btag__effs/)** <br>b-tagging efficiency functor, for more readable b-tag effs and mistag rates  |
 | struct | **[Rivet::JetEffSmearFn](http://example.org/classes/structrivet_1_1jeteffsmearfn/)** <br>Functor for simultaneous efficiency-filtering and smearing of Jets.  |
-| struct | **[Rivet::JetEffFilter](http://example.org/classes/structrivet_1_1jetefffilter/)** <br><a href="http://example.org/classes/classrivet_1_1a/">A</a> functor to return true if <a href="http://example.org/classes/classrivet_1_1jet/">Jet</a>_j_ survives a random efficiency selection.  |
+| struct | **[Rivet::JetEffFilter](http://example.org/classes/structrivet_1_1jetefffilter/)** <br>A functor to return true if <a href="http://example.org/classes/classrivet_1_1jet/">Jet</a>_j_ survives a random efficiency selection.  |
 
 
 
@@ -152,4 +152,4 @@ namespace Rivet {
 
 -------------------------------
 
-Updated on 2022-07-27 at 19:10:16 +0100
+Updated on 2022-07-28 at 11:25:43 +0100

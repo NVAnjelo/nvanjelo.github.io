@@ -34,7 +34,7 @@ The projection handler is a central repository for projections to be used in a <
 | const <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> & | **[registerProjection](http://example.org/classes/classrivet_1_1projectionhandler/#function-registerprojection)**(const <a href="http://example.org/classes/classrivet_1_1projectionapplier/">ProjectionApplier</a> & parent, const <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> & proj, const string & name)<br>Attach and retrieve a projection as a reference.  |
 | bool | **[hasProjection](http://example.org/classes/classrivet_1_1projectionhandler/#function-hasprojection)**(const <a href="http://example.org/classes/classrivet_1_1projectionapplier/">ProjectionApplier</a> & parent, const string & name) const<br>Check if there is a _name_ projection registered by _parent_.  |
 | const <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> & | **[getProjection](http://example.org/classes/classrivet_1_1projectionhandler/#function-getprojection)**(const <a href="http://example.org/classes/classrivet_1_1projectionapplier/">ProjectionApplier</a> & parent, const string & name) const |
-| set< const <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> * > | **[getChildProjections](http://example.org/classes/classrivet_1_1projectionhandler/#function-getchildprojections)**(const <a href="http://example.org/classes/classrivet_1_1projectionapplier/">ProjectionApplier</a> & parent, <a href="http://example.org/classes/classrivet_1_1projectionhandler/#enum-projdepth">ProjDepth</a> depth =<a href="http://example.org/classes/classrivet_1_1projectionhandler/#enumvalue-shallow">SHALLOW</a>) const |
+| set< const <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> * > | **[getChildProjections](http://example.org/classes/classrivet_1_1projectionhandler/#function-getchildprojections)**(const <a href="http://example.org/classes/classrivet_1_1projectionapplier/">ProjectionApplier</a> & parent, <a href="http://example.org/classes/classrivet_1_1projectionhandler/#enum-projdepth">ProjDepth</a> depth =SHALLOW) const |
 
 ## Public Attributes
 
@@ -209,4 +209,4 @@ friend class ProjectionApplier(
 
 -------------------------------
 
-Updated on 2022-07-27 at 19:10:08 +0100
+Updated on 2022-07-28 at 11:25:42 +0100

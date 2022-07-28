@@ -25,15 +25,6 @@ b-tagging efficiency functor, for more readable b-tag effs and mistag rates  [Mo
 | | **[JET_BTAG_EFFS](http://example.org/classes/structrivet_1_1jet__btag__effs/#function-jet-btag-effs)**(double eff_b, double eff_c, double eff_tau, double eff_light) |
 | double | **[operator()](http://example.org/classes/structrivet_1_1jet__btag__effs/#function-operator())**(const <a href="http://example.org/classes/classrivet_1_1jet/">Jet</a> & j) |
 
-## Public Attributes
-
-|                | Name           |
-| -------------- | -------------- |
-| double | **[_eff_b](http://example.org/classes/structrivet_1_1jet__btag__effs/#variable--eff-b)**  |
-| double | **[_eff_c](http://example.org/classes/structrivet_1_1jet__btag__effs/#variable--eff-c)**  |
-| double | **[_eff_t](http://example.org/classes/structrivet_1_1jet__btag__effs/#variable--eff-t)**  |
-| double | **[_eff_l](http://example.org/classes/structrivet_1_1jet__btag__effs/#variable--eff-l)**  |
-
 ## Detailed Description
 
 ```cpp
@@ -87,36 +78,6 @@ inline double operator()(
 ```
 
 
-## Public Attributes Documentation
-
-### variable _eff_b
-
-```cpp
-double _eff_b;
-```
-
-
-### variable _eff_c
-
-```cpp
-double _eff_c;
-```
-
-
-### variable _eff_t
-
-```cpp
-double _eff_t;
-```
-
-
-### variable _eff_l
-
-```cpp
-double _eff_l;
-```
-
-
 -------------------------------
 
-Updated on 2022-07-27 at 19:10:13 +0100
+Updated on 2022-07-28 at 11:25:43 +0100

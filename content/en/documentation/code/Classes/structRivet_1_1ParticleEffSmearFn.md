@@ -45,7 +45,7 @@ struct Rivet::ParticleEffSmearFn;
 
 Functor for simultaneous efficiency-filtering and smearing of Particles. 
 
-<a href="http://example.org/classes/classrivet_1_1a/">A</a> central element of the <a href="http://example.org/classes/classrivet_1_1smearedparticles/">SmearedParticles</a> system 
+A central element of the <a href="http://example.org/classes/classrivet_1_1smearedparticles/">SmearedParticles</a> system 
 
 ## Public Functions Documentation
 
@@ -150,4 +150,4 @@ const ParticleEffFn efn;
 
 -------------------------------
 
-Updated on 2022-07-27 at 19:10:13 +0100
+Updated on 2022-07-28 at 11:25:43 +0100

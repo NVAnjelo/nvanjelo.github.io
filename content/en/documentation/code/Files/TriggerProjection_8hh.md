@@ -12,7 +12,7 @@ title: "/home/anarendran/Documents/temp/rivet/include/Rivet/Projections/TriggerP
 
 | Name           |
 | -------------- |
-| **[Rivet](http://example.org/namespaces/namespacerivet/)** <br>-*- C++ -*-  |
+| **[Rivet](http://example.org/namespaces/namespacerivet/)**  |
 
 ## Classes
 
@@ -81,4 +81,4 @@ private:
 
 -------------------------------
 
-Updated on 2022-07-27 at 19:10:16 +0100
+Updated on 2022-07-28 at 11:25:43 +0100

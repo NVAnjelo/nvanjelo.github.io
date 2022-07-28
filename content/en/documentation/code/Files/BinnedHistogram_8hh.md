@@ -12,13 +12,13 @@ title: "/home/anarendran/Documents/temp/rivet/include/Rivet/Tools/BinnedHistogra
 
 | Name           |
 | -------------- |
-| **[Rivet](http://example.org/namespaces/namespacerivet/)** <br>-*- C++ -*-  |
+| **[Rivet](http://example.org/namespaces/namespacerivet/)**  |
 
 ## Classes
 
 |                | Name           |
 | -------------- | -------------- |
-| class | **[Rivet::BinnedHistogram](http://example.org/classes/classrivet_1_1binnedhistogram/)** <br><a href="http://example.org/classes/classrivet_1_1a/">A</a> set of booked Histo1DPtr, each in a bin of a second variable.  |
+| class | **[Rivet::BinnedHistogram](http://example.org/classes/classrivet_1_1binnedhistogram/)** <br>A set of booked Histo1DPtr, each in a bin of a second variable.  |
 
 
 
@@ -87,4 +87,4 @@ namespace Rivet {
 
 -------------------------------
 
-Updated on 2022-07-27 at 19:10:16 +0100
+Updated on 2022-07-28 at 11:25:43 +0100

@@ -35,7 +35,6 @@ title: "More general particle class identification functions"
 | bool | **[isBlackHole](http://example.org/modules/group__mcutils__idclasses/#function-isblackhole)**(int pid) |
 | bool | **[isAECO](http://example.org/modules/group__mcutils__idclasses/#function-isaeco)**(int pid)<br>Is this an anomalously electrically charged particle (AECO)?  |
 | bool | **[isBSM](http://example.org/modules/group__mcutils__idclasses/#function-isbsm)**(int pid)<br>Is this a BSM particle (including graviton)?  |
-| bool | **[_isValid](http://example.org/modules/group__mcutils__idclasses/#function--isvalid)**(int pid)<br>Check to see if this is a valid <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> (i.e. matches any known scheme)  |
 | bool | **[isValid](http://example.org/modules/group__mcutils__idclasses/#function-isvalid)**(int pid) |
 
 
@@ -160,7 +159,7 @@ inline bool isDarkMatter(
 **Note**: 
 
   * DM particles, including mediators, get the range 51-60 
-  * Also covers other cases: Heavy neutral leptons (50), Light pseudo-scalar <a href="http://example.org/classes/classrivet_1_1a/">A</a> in 2HDM (55), Z' scalar UFO models (56) 
+  * Also covers other cases: Heavy neutral leptons (50), Light pseudo-scalar A in 2HDM (55), Z' scalar UFO models (56) 
 
 
 **Todo**: Give a more explicit name to clarify that this does not cover all DM particles, e.g. LSP? 
@@ -291,16 +290,6 @@ inline bool isBSM(
 
 Is this a BSM particle (including graviton)? 
 
-### function _isValid
-
-```
-inline bool _isValid(
-    int pid
-)
-```
-
-Check to see if this is a valid <a href="http://example.org/namespaces/namespacerivet_1_1pid/">PID</a> (i.e. matches any known scheme) 
-
 ### function isValid
 
 ```
@@ -316,4 +305,4 @@ inline bool isValid(
 
 -------------------------------
 
-Updated on 2022-07-27 at 19:10:13 +0100
+Updated on 2022-07-28 at 11:25:43 +0100

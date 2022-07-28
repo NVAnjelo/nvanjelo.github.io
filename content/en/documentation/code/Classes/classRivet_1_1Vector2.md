@@ -16,6 +16,12 @@ Two-dimensional specialisation of <a href="http://example.org/classes/classrivet
 
 Inherits from [Rivet::Vector< 2 >](http://example.org/classes/classrivet_1_1vector/)
 
+## Public Types
+
+|                | Name           |
+| -------------- | -------------- |
+| using Eigen::Matrix< double, N, 1 > | **[EVector](http://example.org/classes/classrivet_1_1vector2/#using-evector)** <br>Vector.  |
+
 ## Public Functions
 
 |                | Name           |
@@ -38,6 +44,17 @@ Inherits from [Rivet::Vector< 2 >](http://example.org/classes/classrivet_1_1vect
 | <a href="http://example.org/classes/classrivet_1_1vector2/">Vector2</a> & | **[operator+=](http://example.org/classes/classrivet_1_1vector2/#function-operator+=)**(const <a href="http://example.org/classes/classrivet_1_1vector2/">Vector2</a> & v) |
 | <a href="http://example.org/classes/classrivet_1_1vector2/">Vector2</a> & | **[operator-=](http://example.org/classes/classrivet_1_1vector2/#function-operator-=)**(const <a href="http://example.org/classes/classrivet_1_1vector2/">Vector2</a> & v) |
 | <a href="http://example.org/classes/classrivet_1_1vector2/">Vector2</a> | **[operator-](http://example.org/classes/classrivet_1_1vector2/#function-operator-)**() const |
+| const double & | **[get](http://example.org/classes/classrivet_1_1vector2/#function-get)**(const size_t index) const |
+| double & | **[get](http://example.org/classes/classrivet_1_1vector2/#function-get)**(const size_t index) |
+| const double & | **[operator[]](http://example.org/classes/classrivet_1_1vector2/#function-operator[])**(const size_t index) const<br>Direct access to vector elements by index.  |
+| double & | **[operator[]](http://example.org/classes/classrivet_1_1vector2/#function-operator[])**(const size_t index)<br>Direct access to vector elements by index.  |
+| <a href="http://example.org/classes/classrivet_1_1vector/">Vector</a>< N > & | **[set](http://example.org/classes/classrivet_1_1vector2/#function-set)**(const size_t index, const double value)<br>Set indexed value.  |
+| constexpr size_t | **[size](http://example.org/classes/classrivet_1_1vector2/#function-size)**() const<br>Vector dimensionality.  |
+| bool | **[isZero](http://example.org/classes/classrivet_1_1vector2/#function-iszero)**(double tolerance =1E-5) const<br>Check for nullness, allowing for numerical precision.  |
+| double | **[mod2](http://example.org/classes/classrivet_1_1vector2/#function-mod2)**() const<br>Calculate the modulus-squared of a vector. \( \sum_{i=1}^N x_i^2 \).  |
+| double | **[mod](http://example.org/classes/classrivet_1_1vector2/#function-mod)**() const<br>Calculate the modulus of a vector. \( \sqrt{\sum_{i=1}^N x_i^2} \).  |
+| bool | **[operator==](http://example.org/classes/classrivet_1_1vector2/#function-operator==)**(const <a href="http://example.org/classes/classrivet_1_1vector/">Vector</a>< N > & a) const |
+| bool | **[operator!=](http://example.org/classes/classrivet_1_1vector2/#function-operator!=)**(const <a href="http://example.org/classes/classrivet_1_1vector/">Vector</a>< N > & a) const |
 | <a href="http://example.org/classes/classrivet_1_1vector2/">Vector2</a> | **[mkX](http://example.org/classes/classrivet_1_1vector2/#function-mkx)**() |
 | <a href="http://example.org/classes/classrivet_1_1vector2/">Vector2</a> | **[mkY](http://example.org/classes/classrivet_1_1vector2/#function-mky)**() |
 
@@ -52,36 +69,23 @@ Inherits from [Rivet::Vector< 2 >](http://example.org/classes/classrivet_1_1vect
 
 ## Additional inherited members
 
-**Public Types inherited from [Rivet::Vector< 2 >](http://example.org/classes/classrivet_1_1vector/)**
-
-|                | Name           |
-| -------------- | -------------- |
-| using <a href="http://example.org/classes/classeigen_1_1matrix/">Eigen::Matrix</a>< double, N, 1 > | **[EVector](http://example.org/classes/classrivet_1_1vector/#using-evector)** <br><a href="http://example.org/classes/classrivet_1_1vector/">Vector</a>.  |
-
 **Public Functions inherited from [Rivet::Vector< 2 >](http://example.org/classes/classrivet_1_1vector/)**
 
 |                | Name           |
 | -------------- | -------------- |
 | | **[Vector](http://example.org/classes/classrivet_1_1vector/#function-vector)**() |
 | | **[Vector](http://example.org/classes/classrivet_1_1vector/#function-vector)**(const <a href="http://example.org/classes/classrivet_1_1vector/">Vector</a>< N > & other) |
-| const double & | **[get](http://example.org/classes/classrivet_1_1vector/#function-get)**(const size_t index) const |
-| double & | **[get](http://example.org/classes/classrivet_1_1vector/#function-get)**(const size_t index) |
-| const double & | **[operator[]](http://example.org/classes/classrivet_1_1vector/#function-operator[])**(const size_t index) const<br>Direct access to vector elements by index.  |
-| double & | **[operator[]](http://example.org/classes/classrivet_1_1vector/#function-operator[])**(const size_t index)<br>Direct access to vector elements by index.  |
-| <a href="http://example.org/classes/classrivet_1_1vector/">Vector</a>< N > & | **[set](http://example.org/classes/classrivet_1_1vector/#function-set)**(const size_t index, const double value)<br>Set indexed value.  |
-| constexpr size_t | **[size](http://example.org/classes/classrivet_1_1vector/#function-size)**() const<br><a href="http://example.org/classes/classrivet_1_1vector/">Vector</a> dimensionality.  |
-| bool | **[isZero](http://example.org/classes/classrivet_1_1vector/#function-iszero)**(double tolerance =1E-5) const<br>Check for nullness, allowing for numerical precision.  |
-| double | **[mod2](http://example.org/classes/classrivet_1_1vector/#function-mod2)**() const<br>Calculate the modulus-squared of a vector. \( \sum_{i=1}^N x_i^2 \).  |
-| double | **[mod](http://example.org/classes/classrivet_1_1vector/#function-mod)**() const<br>Calculate the modulus of a vector. \( \sqrt{\sum_{i=1}^N x_i^2} \).  |
-| bool | **[operator==](http://example.org/classes/classrivet_1_1vector/#function-operator==)**(const <a href="http://example.org/classes/classrivet_1_1vector/">Vector</a>< N > & a) const |
-| bool | **[operator!=](http://example.org/classes/classrivet_1_1vector/#function-operator!=)**(const <a href="http://example.org/classes/classrivet_1_1vector/">Vector</a>< N > & a) const |
 
-**Public Attributes inherited from [Rivet::Vector< 2 >](http://example.org/classes/classrivet_1_1vector/)**
 
-|                | Name           |
-| -------------- | -------------- |
-| <a href="http://example.org/classes/classrivet_1_1vector/#using-evector">EVector</a> | **[_vec](http://example.org/classes/classrivet_1_1vector/#variable--vec)**  |
+## Public Types Documentation
 
+### using EVector
+
+```cpp
+using Rivet::Vector< N >::EVector =  Eigen::Matrix<double,N,1>;
+```
+
+Vector. 
 
 ## Public Functions Documentation
 
@@ -239,6 +243,107 @@ inline Vector2 operator-() const
 ```
 
 
+### function get
+
+```cpp
+inline const double & get(
+    const size_t index
+) const
+```
+
+
+### function get
+
+```cpp
+inline double & get(
+    const size_t index
+)
+```
+
+
+### function operator[]
+
+```cpp
+inline const double & operator[](
+    const size_t index
+) const
+```
+
+Direct access to vector elements by index. 
+
+### function operator[]
+
+```cpp
+inline double & operator[](
+    const size_t index
+)
+```
+
+Direct access to vector elements by index. 
+
+### function set
+
+```cpp
+inline Vector< N > & set(
+    const size_t index,
+    const double value
+)
+```
+
+Set indexed value. 
+
+### function size
+
+```cpp
+inline constexpr size_t size() const
+```
+
+Vector dimensionality. 
+
+### function isZero
+
+```cpp
+inline bool isZero(
+    double tolerance =1E-5
+) const
+```
+
+Check for nullness, allowing for numerical precision. 
+
+### function mod2
+
+```cpp
+inline double mod2() const
+```
+
+Calculate the modulus-squared of a vector. \( \sum_{i=1}^N x_i^2 \). 
+
+### function mod
+
+```cpp
+inline double mod() const
+```
+
+Calculate the modulus of a vector. \( \sqrt{\sum_{i=1}^N x_i^2} \). 
+
+### function operator==
+
+```cpp
+inline bool operator==(
+    const Vector< N > & a
+) const
+```
+
+
+### function operator!=
+
+```cpp
+inline bool operator!=(
+    const Vector< N > & a
+) const
+```
+
+
 ### function mkX
 
 ```cpp
@@ -301,4 +406,4 @@ friend Vector2 subtract(
 
 -------------------------------
 
-Updated on 2022-07-27 at 19:10:11 +0100
+Updated on 2022-07-28 at 11:25:43 +0100

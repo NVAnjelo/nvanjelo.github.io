@@ -18,8 +18,6 @@ Representation of a HepMC event, and enabler of Projection caching.  [More...](#
 
 |                | Name           |
 | -------------- | -------------- |
-| template <typename PROJ \> <br>const PROJ & | **[applyProjection](http://example.org/classes/classrivet_1_1event/#function-applyprojection)**(PROJ & p) const<br>Add a projection _p_ to this <a href="http://example.org/classes/classrivet_1_1event/">Event</a>.  |
-| template <typename PROJ \> <br>const PROJ & | **[applyProjection](http://example.org/classes/classrivet_1_1event/#function-applyprojection)**(PROJ * pp) const<br>Add a projection _p_ to this <a href="http://example.org/classes/classrivet_1_1event/">Event</a> by pointer.  |
 | | **[Event](http://example.org/classes/classrivet_1_1event/#function-event)**(const GenEvent * ge, const vector< size_t > & indices ={}, bool strip =false)<br>Constructor from a HepMC GenEvent pointer.  |
 | | **[Event](http://example.org/classes/classrivet_1_1event/#function-event)**(const GenEvent & ge, const vector< size_t > & indices ={}, bool strip =false) |
 | | **[Event](http://example.org/classes/classrivet_1_1event/#function-event)**(const <a href="http://example.org/classes/classrivet_1_1event/">Event</a> & e)<br>Copy constructor.  |
@@ -34,6 +32,8 @@ Representation of a HepMC event, and enabler of Projection caching.  [More...](#
 | std::valarray< double > | **[weights](http://example.org/classes/classrivet_1_1event/#function-weights)**() const<br>The generation weights associated with the event.  |
 | std::vector< std::pair< double, double > > | **[crossSections](http://example.org/classes/classrivet_1_1event/#function-crosssections)**() const<br>The generation cross-sections associated with the event.  |
 | double | **[weight](http://example.org/classes/classrivet_1_1event/#function-weight)**() const<br>Obsolete weight method. Always returns 1 now.  |
+| template <typename PROJ \> <br>const PROJ & | **[applyProjection](http://example.org/classes/classrivet_1_1event/#function-applyprojection)**(PROJ & p) const<br>Add a projection _p_ to this <a href="http://example.org/classes/classrivet_1_1event/">Event</a>.  |
+| template <typename PROJ \> <br>const PROJ & | **[applyProjection](http://example.org/classes/classrivet_1_1event/#function-applyprojection)**(PROJ * pp) const<br>Add a projection _p_ to this <a href="http://example.org/classes/classrivet_1_1event/">Event</a> by pointer.  |
 
 ## Detailed Description
 
@@ -48,38 +48,6 @@ Representation of a HepMC event, and enabler of Projection caching.
 In addition to the HepMC::GenEvent object the <a href="http://example.org/classes/classrivet_1_1event/">Event</a> also keeps track of all <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> objects which have been applied to the <a href="http://example.org/classes/classrivet_1_1event/">Event</a> so far. 
 
 ## Public Functions Documentation
-
-### function applyProjection
-
-```cpp
-template <typename PROJ >
-inline const PROJ & applyProjection(
-    PROJ & p
-) const
-```
-
-Add a projection _p_ to this <a href="http://example.org/classes/classrivet_1_1event/">Event</a>. 
-
-**Note**: Comparisons here are by direct pointer comparison, because equivalence is guaranteed if pointers are equal, and inequivalence guaranteed if they aren't, thanks to the <a href="http://example.org/classes/classrivet_1_1projectionhandler/">ProjectionHandler</a> registry 
-
-**Todo**: Can make this non-templated, since only cares about ptr to <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> base class
-
-If an equivalent <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> has been applied before, the <a href="http://example.org/classes/classrivet_1_1projection/#function-project">Projection::project(const Event&)</a> of _p_ is not called and a reference to the previous equivalent projection is returned. If no previous <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> was found, the <a href="http://example.org/classes/classrivet_1_1projection/#function-project">Projection::project(const Event&)</a> of _p_ is called and a reference to _p_ is returned.
-
-
-Currently using reint cast to integer type to bypass operator==(Proj*, Proj*)
-
-
-### function applyProjection
-
-```cpp
-template <typename PROJ >
-inline const PROJ & applyProjection(
-    PROJ * pp
-) const
-```
-
-Add a projection _p_ to this <a href="http://example.org/classes/classrivet_1_1event/">Event</a> by pointer. 
 
 ### function Event
 
@@ -218,6 +186,38 @@ inline double weight() const
 
 Obsolete weight method. Always returns 1 now. 
 
+### function applyProjection
+
+```cpp
+template <typename PROJ >
+inline const PROJ & applyProjection(
+    PROJ & p
+) const
+```
+
+Add a projection _p_ to this <a href="http://example.org/classes/classrivet_1_1event/">Event</a>. 
+
+**Note**: Comparisons here are by direct pointer comparison, because equivalence is guaranteed if pointers are equal, and inequivalence guaranteed if they aren't, thanks to the <a href="http://example.org/classes/classrivet_1_1projectionhandler/">ProjectionHandler</a> registry 
+
+**Todo**: Can make this non-templated, since only cares about ptr to <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> base class
+
+If an equivalent <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> has been applied before, the <a href="http://example.org/classes/classrivet_1_1axesdefinition/#function-project">Projection::project(const Event&)</a> of _p_ is not called and a reference to the previous equivalent projection is returned. If no previous <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> was found, the <a href="http://example.org/classes/classrivet_1_1axesdefinition/#function-project">Projection::project(const Event&)</a> of _p_ is called and a reference to _p_ is returned.
+
+
+Currently using reint cast to integer type to bypass operator==(Proj*, Proj*)
+
+
+### function applyProjection
+
+```cpp
+template <typename PROJ >
+inline const PROJ & applyProjection(
+    PROJ * pp
+) const
+```
+
+Add a projection _p_ to this <a href="http://example.org/classes/classrivet_1_1event/">Event</a> by pointer. 
+
 -------------------------------
 
-Updated on 2022-07-27 at 19:09:59 +0100
+Updated on 2022-07-28 at 11:25:42 +0100

@@ -19,7 +19,7 @@ Namespace used for ambiguous identifiers.
 
 |                | Name           |
 | -------------- | -------------- |
-| Cut | **[range](http://example.org/namespaces/namespacerivet_1_1cuts/#function-range)**(<a href="http://example.org/namespaces/namespacerivet_1_1cuts/#enum-quantity">Quantity</a> qty, double m, double n) |
+| Cut | **[range](http://example.org/namespaces/namespacerivet_1_1cuts/#function-range)**(<a href="http://example.org/namespaces/namespacerivet_1_1cuts/#enum-quantity">Quantity</a> , double m, double n) |
 | Cut | **[ptIn](http://example.org/namespaces/namespacerivet_1_1cuts/#function-ptin)**(double m, double n) |
 | Cut | **[etIn](http://example.org/namespaces/namespacerivet_1_1cuts/#function-etin)**(double m, double n) |
 | Cut | **[energyIn](http://example.org/namespaces/namespacerivet_1_1cuts/#function-energyin)**(double m, double n) |
@@ -74,7 +74,7 @@ Available categories of cut objects.
 
 ```cpp
 Cut range(
-    Quantity qty,
+    Quantity ,
     double m,
     double n
 )
@@ -175,14 +175,14 @@ Fully open cut singleton, accepts everything.
 ### variable OPEN
 
 ```cpp
-const Cut & OPEN = Cuts::open();
+const Cut & OPEN;
 ```
 
 
 ### variable NOCUT
 
 ```cpp
-const Cut & NOCUT = Cuts::open();
+const Cut & NOCUT;
 ```
 
 
@@ -191,4 +191,4 @@ const Cut & NOCUT = Cuts::open();
 
 -------------------------------
 
-Updated on 2022-07-27 at 19:10:12 +0100
+Updated on 2022-07-28 at 11:25:43 +0100

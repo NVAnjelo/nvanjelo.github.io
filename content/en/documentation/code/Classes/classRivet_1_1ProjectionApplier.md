@@ -41,20 +41,11 @@ Inherited by [Rivet::Analysis](http://example.org/classes/classrivet_1_1analysis
 
 |                | Name           |
 | -------------- | -------------- |
+| <a href="http://example.org/classes/classrivet_1_1log/">Log</a> & | **[getLog](http://example.org/classes/classrivet_1_1projectionapplier/#function-getlog)**() const |
+| <a href="http://example.org/classes/classrivet_1_1projectionhandler/">ProjectionHandler</a> & | **[getProjHandler](http://example.org/classes/classrivet_1_1projectionapplier/#function-getprojhandler)**() const<br>Get a reference to the ProjectionHandler for this thread.  |
 | template <typename PROJ \> <br>const PROJ & | **[declareProjection](http://example.org/classes/classrivet_1_1projectionapplier/#function-declareprojection)**(const PROJ & proj, const std::string & name)<br>Register a contained projection.  |
 | template <typename PROJ \> <br>const PROJ & | **[declare](http://example.org/classes/classrivet_1_1projectionapplier/#function-declare)**(const PROJ & proj, const std::string & name)<br>Register a contained projection (user-facing version)  |
 | template <typename PROJ \> <br>const PROJ & | **[declare](http://example.org/classes/classrivet_1_1projectionapplier/#function-declare)**(const std::string & name, const PROJ & proj)<br>Register a contained projection (user-facing, arg-reordered version)  |
-| const <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> & | **[_declareProjection](http://example.org/classes/classrivet_1_1projectionapplier/#function--declareprojection)**(const <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> & proj, const std::string & name)<br>Untemplated function to do the work...  |
-| const <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> & | **[_applyProjection](http://example.org/classes/classrivet_1_1projectionapplier/#function--applyprojection)**(const <a href="http://example.org/classes/classrivet_1_1event/">Event</a> & evt, const std::string & name) const |
-| const <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> & | **[_applyProjection](http://example.org/classes/classrivet_1_1projectionapplier/#function--applyprojection)**(const <a href="http://example.org/classes/classrivet_1_1event/">Event</a> & evt, const <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> & proj) const |
-| <a href="http://example.org/classes/classrivet_1_1log/">Log</a> & | **[getLog](http://example.org/classes/classrivet_1_1projectionapplier/#function-getlog)**() const |
-| <a href="http://example.org/classes/classrivet_1_1projectionhandler/">ProjectionHandler</a> & | **[getProjHandler](http://example.org/classes/classrivet_1_1projectionapplier/#function-getprojhandler)**() const<br>Get a reference to the ProjectionHandler for this thread.  |
-
-## Protected Attributes
-
-|                | Name           |
-| -------------- | -------------- |
-| bool | **[_allowProjReg](http://example.org/classes/classrivet_1_1projectionapplier/#variable--allowprojreg)** <br>Flag to forbid projection registration in analyses until the init phase.  |
 
 ## Detailed Description
 
@@ -76,7 +67,7 @@ virtual std::string name() const =0
 
 Get the name of this <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> or <a href="http://example.org/classes/classrivet_1_1analysis/">Analysis</a> class. 
 
-**Reimplemented by**: [Rivet::Analysis::name](http://example.org/modules/group__analysis__meta/#function-name), [Rivet::Projection::name](http://example.org/classes/classrivet_1_1projection/#function-name), [Rivet::CentralityBinner::name](http://example.org/classes/classrivet_1_1centralitybinner/#function-name)
+**Reimplemented by**: [Rivet::Analysis::name](http://example.org/modules/group__analysis__meta/#function-name), [Rivet::AxesDefinition::name](http://example.org/classes/classrivet_1_1axesdefinition/#function-name), [Rivet::CentralityBinner::name](http://example.org/classes/classrivet_1_1centralitybinner/#function-name)
 
 
 ### function getProjections
@@ -266,6 +257,21 @@ virtual ~ProjectionApplier()
 
 ## Protected Functions Documentation
 
+### function getLog
+
+```cpp
+inline Log & getLog() const
+```
+
+
+### function getProjHandler
+
+```cpp
+inline ProjectionHandler & getProjHandler() const
+```
+
+Get a reference to the ProjectionHandler for this thread. 
+
 ### function declareProjection
 
 ```cpp
@@ -311,68 +317,6 @@ Register a contained projection (user-facing, arg-reordered version)
 
 **Todo**: Add SFINAE to require that PROJ inherit from <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a>
 
-### function _declareProjection
-
-```cpp
-const Projection & _declareProjection(
-    const Projection & proj,
-    const std::string & name
-)
-```
-
-Untemplated function to do the work... 
-
-### function _applyProjection
-
-```cpp
-const Projection & _applyProjection(
-    const Event & evt,
-    const std::string & name
-) const
-```
-
-
-Non-templated version of string-based applyProjection, to work around header dependency issue. 
-
-
-### function _applyProjection
-
-```cpp
-const Projection & _applyProjection(
-    const Event & evt,
-    const Projection & proj
-) const
-```
-
-
-Non-templated version of proj-based applyProjection, to work around header dependency issue. 
-
-
-### function getLog
-
-```cpp
-inline Log & getLog() const
-```
-
-
-### function getProjHandler
-
-```cpp
-inline ProjectionHandler & getProjHandler() const
-```
-
-Get a reference to the ProjectionHandler for this thread. 
-
-## Protected Attributes Documentation
-
-### variable _allowProjReg
-
-```cpp
-bool _allowProjReg;
-```
-
-Flag to forbid projection registration in analyses until the init phase. 
-
 -------------------------------
 
-Updated on 2022-07-27 at 19:10:08 +0100
+Updated on 2022-07-28 at 11:25:42 +0100

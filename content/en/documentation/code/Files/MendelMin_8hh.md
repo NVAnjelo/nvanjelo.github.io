@@ -12,13 +12,13 @@ title: "/home/anarendran/Documents/temp/rivet/include/Rivet/Tools/MendelMin.hh"
 
 | Name           |
 | -------------- |
-| **[Rivet](http://example.org/namespaces/namespacerivet/)** <br>-*- C++ -*-  |
+| **[Rivet](http://example.org/namespaces/namespacerivet/)**  |
 
 ## Classes
 
 |                | Name           |
 | -------------- | -------------- |
-| class | **[Rivet::MendelMin](http://example.org/classes/classrivet_1_1mendelmin/)** <br><a href="http://example.org/classes/classrivet_1_1a/">A</a> genetic algorithm functional minimizer.  |
+| class | **[Rivet::MendelMin](http://example.org/classes/classrivet_1_1mendelmin/)** <br>A genetic algorithm functional minimizer.  |
 
 
 
@@ -208,4 +208,4 @@ namespace Rivet {
 
 -------------------------------
 
-Updated on 2022-07-27 at 19:10:16 +0100
+Updated on 2022-07-28 at 11:25:43 +0100

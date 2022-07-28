@@ -81,9 +81,6 @@ bool readEvent()
 
 Read the next HepMC event. 
 
-TodoClear rather than new the GenEvent object per-event? 
-
-
 ### function numEvents
 
 ```cpp
@@ -131,4 +128,4 @@ Destructor.
 
 -------------------------------
 
-Updated on 2022-07-27 at 19:10:08 +0100
+Updated on 2022-07-28 at 11:25:42 +0100

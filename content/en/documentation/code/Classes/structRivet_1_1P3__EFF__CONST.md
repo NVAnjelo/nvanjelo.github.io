@@ -23,12 +23,6 @@ Take a Vector3 and return a constant number.
 | | **[P3_EFF_CONST](http://example.org/classes/structrivet_1_1p3__eff__const/#function-p3-eff-const)**(double x) |
 | double | **[operator()](http://example.org/classes/structrivet_1_1p3__eff__const/#function-operator())**(const <a href="http://example.org/classes/classrivet_1_1vector3/">Vector3</a> & ) const |
 
-## Public Attributes
-
-|                | Name           |
-| -------------- | -------------- |
-| double | **[_x](http://example.org/classes/structrivet_1_1p3__eff__const/#variable--x)**  |
-
 ## Public Functions Documentation
 
 ### function P3_EFF_CONST
@@ -49,15 +43,6 @@ inline double operator()(
 ```
 
 
-## Public Attributes Documentation
-
-### variable _x
-
-```cpp
-double _x;
-```
-
-
 -------------------------------
 
-Updated on 2022-07-27 at 19:10:13 +0100
+Updated on 2022-07-28 at 11:25:43 +0100

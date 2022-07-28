@@ -22,8 +22,8 @@ Inherits from [Rivet::DoubleParticleBaseFunctor](http://example.org/classes/stru
 
 |                | Name           |
 | -------------- | -------------- |
-| | **[DeltaRWRT](http://example.org/modules/group__particlebaseutils/#function-deltarwrt)**(const <a href="http://example.org/classes/classrivet_1_1particlebase/">ParticleBase</a> & pb, <a href="http://example.org/namespaces/namespacerivet/#enum-rapscheme">RapScheme</a> scheme =<a href="http://example.org/namespaces/namespacerivet/#enumvalue-pseudorapidity">PSEUDORAPIDITY</a>) |
-| | **[DeltaRWRT](http://example.org/modules/group__particlebaseutils/#function-deltarwrt)**(const <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & p4, <a href="http://example.org/namespaces/namespacerivet/#enum-rapscheme">RapScheme</a> scheme =<a href="http://example.org/namespaces/namespacerivet/#enumvalue-pseudorapidity">PSEUDORAPIDITY</a>) |
+| | **[DeltaRWRT](http://example.org/modules/group__particlebaseutils/#function-deltarwrt)**(const <a href="http://example.org/classes/classrivet_1_1particlebase/">ParticleBase</a> & pb, <a href="http://example.org/namespaces/namespacerivet/#enum-rapscheme">RapScheme</a> scheme =PSEUDORAPIDITY) |
+| | **[DeltaRWRT](http://example.org/modules/group__particlebaseutils/#function-deltarwrt)**(const <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & p4, <a href="http://example.org/namespaces/namespacerivet/#enum-rapscheme">RapScheme</a> scheme =PSEUDORAPIDITY) |
 | | **[DeltaRWRT](http://example.org/modules/group__particlebaseutils/#function-deltarwrt)**(const <a href="http://example.org/classes/classrivet_1_1vector3/">Vector3</a> & p3) |
 | virtual double | **[operator()](http://example.org/modules/group__particlebaseutils/#function-operator())**(const <a href="http://example.org/classes/classrivet_1_1particlebase/">ParticleBase</a> & pb) const |
 | double | **[operator()](http://example.org/modules/group__particlebaseutils/#function-operator())**(const <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & p4) const |
@@ -124,4 +124,4 @@ RapScheme rapscheme;
 
 -------------------------------
 
-Updated on 2022-07-27 at 19:10:13 +0100
+Updated on 2022-07-28 at 11:25:43 +0100
