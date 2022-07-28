@@ -1,6 +1,8 @@
 ---
 
-title: "4-vector comparison functions (for sorting)"
+title: 'group 4-vector comparison functions (for sorting)'
+
+description: "[Documentation update required.]"
 
 ---
 
@@ -375,4 +377,4 @@ Sort a container of momenta by Et (decreasing) and return by value for const inp
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

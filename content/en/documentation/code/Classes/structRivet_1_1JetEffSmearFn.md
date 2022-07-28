@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::JetEffSmearFn"
-summary: "Functor for simultaneous efficiency-filtering and smearing of Jets. "
+title: 'struct Rivet::JetEffSmearFn'
+description: "Functor for simultaneous efficiency-filtering and smearing of Jets. "
 
 ---
 
@@ -148,4 +148,4 @@ JetEffFn efn;
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

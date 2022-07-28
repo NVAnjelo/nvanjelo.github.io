@@ -1,6 +1,8 @@
 ---
 
-title: "Experiment-specific photon efficiency and smearing functions"
+title: 'group Experiment-specific photon efficiency and smearing functions'
+
+description: "[Documentation update required.]"
 
 ---
 
@@ -136,4 +138,4 @@ inline Particle PHOTON_SMEAR_CMS_RUN2(
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

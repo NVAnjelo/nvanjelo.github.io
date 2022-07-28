@@ -1,12 +1,11 @@
 ---
-
 title: "Pages"
 
+menu:
+  documentation:
+    parent: "code"
+weight: 40
 ---
-
-# Pages
-
-
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>page <a href=http://example.org/pages/deprecated/#page-deprecated>Deprecated List<a></b><br>
@@ -18,4 +17,4 @@ title: "Pages"
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

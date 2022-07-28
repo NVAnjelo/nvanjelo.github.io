@@ -1,6 +1,8 @@
 ---
 
-title: "User-facing analysis object wrappers"
+title: 'group User-facing analysis object wrappers'
+
+description: "[Documentation update required.]"
 
 ---
 
@@ -98,4 +100,4 @@ using Rivet::Scatter3DPtr = typedef rivet_shared_ptr<Wrapper<YODA::Scatter3D> >;
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

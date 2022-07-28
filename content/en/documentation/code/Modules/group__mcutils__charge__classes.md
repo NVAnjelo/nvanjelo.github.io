@@ -1,6 +1,8 @@
 ---
 
-title: "General PID-based classifier functions"
+title: 'group General PID-based classifier functions'
+
+description: "[Documentation update required.]"
 
 ---
 
@@ -44,4 +46,4 @@ Determine if the particle is electrically neutral.
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

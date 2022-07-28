@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::AbsEtaInRange"
-summary: "Abs pseudorapidity in-range functor. "
+title: 'struct Rivet::AbsEtaInRange'
+description: "Abs pseudorapidity in-range functor. "
 
 ---
 
@@ -96,4 +96,4 @@ pair< double, double > absetacut;
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

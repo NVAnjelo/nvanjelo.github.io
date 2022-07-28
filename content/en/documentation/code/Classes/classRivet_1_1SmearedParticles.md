@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::SmearedParticles"
-summary: "Wrapper projection for smearing Jets with detector resolutions and efficiencies. "
+title: 'class Rivet::SmearedParticles'
+description: "Wrapper projection for smearing Jets with detector resolutions and efficiencies. "
 
 ---
 
@@ -896,4 +896,4 @@ Register a contained projection (user-facing, arg-reordered version)
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:42 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

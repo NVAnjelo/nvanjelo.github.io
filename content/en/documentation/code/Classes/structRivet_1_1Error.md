@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::Error"
-summary: "Generic runtime Rivet error. "
+title: 'struct Rivet::Error'
+description: "Generic runtime Rivet error. "
 
 ---
 
@@ -37,4 +37,4 @@ inline Error(
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:42 +0100
+Updated on 2022-07-28 at 14:01:08 +0100

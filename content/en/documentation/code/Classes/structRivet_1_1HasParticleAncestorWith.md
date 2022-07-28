@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::HasParticleAncestorWith"
-summary: "Determine whether a particle has an ancestor which meets the cut/function. "
+title: 'struct Rivet::HasParticleAncestorWith'
+description: "Determine whether a particle has an ancestor which meets the cut/function. "
 
 ---
 
@@ -94,4 +94,4 @@ bool onlyphysical;
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

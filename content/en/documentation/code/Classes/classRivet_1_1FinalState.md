@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::FinalState"
-summary: "Project out all final-state particles in an event. Probably the most important projection in Rivet! "
+title: 'class Rivet::FinalState'
+description: "Project out all final-state particles in an event. Probably the most important projection in Rivet! "
 
 ---
 
@@ -788,4 +788,4 @@ Register a contained projection (user-facing, arg-reordered version)
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:42 +0100
+Updated on 2022-07-28 at 14:01:08 +0100

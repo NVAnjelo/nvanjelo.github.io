@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::ThreeMomentum"
-summary: "Specialized version of the ThreeVector with momentum functionality. "
+title: 'class Rivet::ThreeMomentum'
+description: "Specialized version of the ThreeVector with momentum functionality. "
 
 ---
 
@@ -794,4 +794,4 @@ static inline Vector3 mkZ()
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

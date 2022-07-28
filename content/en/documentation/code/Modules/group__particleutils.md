@@ -1,6 +1,8 @@
 ---
 
-title: "Functions for Particles"
+title: 'group Functions for Particles'
+
+description: "[Documentation update required.]"
 
 ---
 
@@ -50,4 +52,4 @@ Unbound function access to abs PID code.
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

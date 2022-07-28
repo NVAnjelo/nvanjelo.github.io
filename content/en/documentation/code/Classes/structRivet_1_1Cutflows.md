@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::Cutflows"
-summary: "A container for several Cutflow objects, with some convenient batch access. "
+title: 'struct Rivet::Cutflows'
+description: "A container for several Cutflow objects, with some convenient batch access. "
 
 ---
 
@@ -285,4 +285,4 @@ vector< Cutflow > cfs;
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:42 +0100
+Updated on 2022-07-28 at 14:01:08 +0100

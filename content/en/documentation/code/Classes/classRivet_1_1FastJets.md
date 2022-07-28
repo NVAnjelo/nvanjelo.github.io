@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::FastJets"
-summary: "Project out jets found using the FastJet package jet algorithms. "
+title: 'class Rivet::FastJets'
+description: "Project out jets found using the FastJet package jet algorithms. "
 
 ---
 
@@ -1284,4 +1284,4 @@ Register a contained projection (user-facing, arg-reordered version)
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:42 +0100
+Updated on 2022-07-28 at 14:01:08 +0100

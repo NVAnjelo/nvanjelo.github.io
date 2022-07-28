@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::DISKinematics"
-summary: "Get the DIS kinematic variables and relevant boosts for an event. "
+title: 'class Rivet::DISKinematics'
+description: "Get the DIS kinematic variables and relevant boosts for an event. "
 
 ---
 
@@ -600,4 +600,4 @@ Compare with other projections.
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:42 +0100
+Updated on 2022-07-28 at 14:01:08 +0100

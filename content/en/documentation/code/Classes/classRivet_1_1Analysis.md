@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::Analysis"
-summary: "This is the base class of all analysis classes in Rivet. "
+title: 'class Rivet::Analysis'
+description: "This is the base class of all analysis classes in Rivet. "
 
 ---
 
@@ -2378,4 +2378,4 @@ The AnalysisHandler is a friend.
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:42 +0100
+Updated on 2022-07-28 at 14:01:08 +0100

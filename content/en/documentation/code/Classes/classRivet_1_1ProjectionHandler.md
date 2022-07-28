@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::ProjectionHandler"
-summary: "The projection handler is a central repository for projections to be used in a Rivet analysis run. "
+title: 'class Rivet::ProjectionHandler'
+description: "The projection handler is a central repository for projections to be used in a Rivet analysis run. "
 
 ---
 
@@ -209,4 +209,4 @@ friend class ProjectionApplier(
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:42 +0100
+Updated on 2022-07-28 at 14:01:08 +0100

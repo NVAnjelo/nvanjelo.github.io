@@ -1,6 +1,8 @@
 ---
 
-title: "Rivet file searching utils"
+title: 'group Rivet file searching utils'
+
+description: "[Documentation update required.]"
 
 ---
 
@@ -222,4 +224,4 @@ Convenience function for determining if a filesystem path exists.
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

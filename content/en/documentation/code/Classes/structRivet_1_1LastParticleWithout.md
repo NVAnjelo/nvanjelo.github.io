@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::LastParticleWithout"
-summary: "Determine whether a particle is the last in a decay chain not to meet the cut/function. "
+title: 'struct Rivet::LastParticleWithout'
+description: "Determine whether a particle is the last in a decay chain not to meet the cut/function. "
 
 ---
 
@@ -84,4 +84,4 @@ ParticleSelector fn;
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

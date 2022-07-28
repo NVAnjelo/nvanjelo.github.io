@@ -1,6 +1,8 @@
 ---
 
-title: "Interaction classifiers"
+title: 'group Interaction classifiers'
+
+description: "[Documentation update required.]"
 
 ---
 
@@ -59,4 +61,4 @@ Determine if the PID is that of a weakly interacting particle
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

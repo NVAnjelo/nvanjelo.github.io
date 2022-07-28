@@ -1,6 +1,8 @@
 ---
 
-title: "Rivet::@93"
+title: 'namespace Rivet::@93'
+
+description: "[Documentation update required.]"
 
 ---
 
@@ -15,4 +17,4 @@ title: "Rivet::@93"
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:41 +0100
+Updated on 2022-07-28 at 14:01:07 +0100

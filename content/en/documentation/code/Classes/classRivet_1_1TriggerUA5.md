@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::TriggerUA5"
-summary: "Access to the min bias triggers used by UA5. "
+title: 'class Rivet::TriggerUA5'
+description: "Access to the min bias triggers used by UA5. "
 
 ---
 
@@ -540,4 +540,4 @@ Compare with other projections.
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

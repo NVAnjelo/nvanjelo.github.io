@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::CumulantAnalysis::CorSingleBin"
-summary: "The basic quantity filled in an ECorrelator. "
+title: 'class Rivet::CumulantAnalysis::CorSingleBin'
+description: "The basic quantity filled in an ECorrelator. "
 
 ---
 
@@ -123,4 +123,4 @@ Add to all the entries.
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:42 +0100
+Updated on 2022-07-28 at 14:01:08 +0100

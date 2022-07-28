@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::PidError"
-summary: "Error specialisation for failures relating to particle ID codes. "
+title: 'struct Rivet::PidError'
+description: "Error specialisation for failures relating to particle ID codes. "
 
 ---
 
@@ -44,4 +44,4 @@ inline PidError(
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:42 +0100
+Updated on 2022-07-28 at 14:01:08 +0100

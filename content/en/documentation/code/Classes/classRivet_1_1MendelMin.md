@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::MendelMin"
-summary: "A genetic algorithm functional minimizer. "
+title: 'class Rivet::MendelMin'
+description: "A genetic algorithm functional minimizer. "
 
 ---
 
@@ -237,4 +237,4 @@ Set true to get a verbose record of the evolution.
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:42 +0100
+Updated on 2022-07-28 at 14:01:08 +0100

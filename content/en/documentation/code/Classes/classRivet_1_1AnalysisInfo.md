@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::AnalysisInfo"
-summary: "Holder of analysis metadata. "
+title: 'class Rivet::AnalysisInfo'
+description: "Holder of analysis metadata. "
 
 ---
 
@@ -741,4 +741,4 @@ Return true if this analysis needs to know the process cross-section.
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:42 +0100
+Updated on 2022-07-28 at 14:01:08 +0100

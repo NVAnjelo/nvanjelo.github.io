@@ -1,6 +1,8 @@
 ---
 
-title: "Angular momentum functions"
+title: 'group Angular momentum functions'
+
+description: "[Documentation update required.]"
 
 ---
 
@@ -55,4 +57,4 @@ lSpin returns 2L+1, where L is the orbital angular momentum
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::PercentileProjection"
-summary: "class for projections that reports the percentile for a given SingleValueProjection when initialized with a Histo1D of the distribution in the SingleValueProjection. "
+title: 'class Rivet::PercentileProjection'
+description: "class for projections that reports the percentile for a given SingleValueProjection when initialized with a Histo1D of the distribution in the SingleValueProjection. "
 
 ---
 
@@ -606,4 +606,4 @@ Unset the value.
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:42 +0100
+Updated on 2022-07-28 at 14:01:08 +0100

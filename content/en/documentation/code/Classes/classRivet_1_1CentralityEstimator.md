@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::CentralityEstimator"
-summary: "Base class for projections profile observable value vs the collision centrality. "
+title: 'class Rivet::CentralityEstimator'
+description: "Base class for projections profile observable value vs the collision centrality. "
 
 ---
 
@@ -529,4 +529,4 @@ Compare projections.
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:42 +0100
+Updated on 2022-07-28 at 14:01:08 +0100

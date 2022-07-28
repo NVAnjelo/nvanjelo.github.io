@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::Thrust"
-summary: "Get the e+ e- thrust basis and the thrust, thrust major and thrust minor scalars. "
+title: 'class Rivet::Thrust'
+description: "Get the e+ e- thrust basis and the thrust, thrust major and thrust minor scalars. "
 
 ---
 
@@ -677,4 +677,4 @@ Compare projections.
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

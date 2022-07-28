@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::ParticleFinder"
-summary: "Base class for projections which return subsets of an event's particles. "
+title: 'class Rivet::ParticleFinder'
+description: "Base class for projections which return subsets of an event's particles. "
 
 ---
 
@@ -755,4 +755,4 @@ Register a contained projection (user-facing, arg-reordered version)
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:42 +0100
+Updated on 2022-07-28 at 14:01:08 +0100

@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::GammaGammaLeptons"
-summary: "Get the incoming and outgoing leptons in a gamma gamma collision event in e+e-. "
+title: 'class Rivet::GammaGammaLeptons'
+description: "Get the incoming and outgoing leptons in a gamma gamma collision event in e+e-. "
 
 ---
 
@@ -554,4 +554,4 @@ Register a contained projection (user-facing, arg-reordered version)
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:42 +0100
+Updated on 2022-07-28 at 14:01:08 +0100

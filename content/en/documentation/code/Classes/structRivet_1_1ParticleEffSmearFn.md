@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::ParticleEffSmearFn"
-summary: "Functor for simultaneous efficiency-filtering and smearing of Particles. "
+title: 'struct Rivet::ParticleEffSmearFn'
+description: "Functor for simultaneous efficiency-filtering and smearing of Particles. "
 
 ---
 
@@ -150,4 +150,4 @@ const ParticleEffFn efn;
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

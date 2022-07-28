@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::UndressBeamLeptons"
-summary: "Project out the incoming beams, but subtract any colinear photons from lepton beams within a given cone. "
+title: 'class Rivet::UndressBeamLeptons'
+description: "Project out the incoming beams, but subtract any colinear photons from lepton beams within a given cone. "
 
 ---
 
@@ -614,4 +614,4 @@ Register a contained projection (user-facing, arg-reordered version)
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

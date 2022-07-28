@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::ATLAS"
-summary: "Common projections for ATLAS trigger conditions and centrality. "
+title: 'namespace Rivet::ATLAS'
+description: "Common projections for ATLAS trigger conditions and centrality. "
 
 ---
 
@@ -24,4 +24,4 @@ Common projections for ATLAS trigger conditions and centrality.
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

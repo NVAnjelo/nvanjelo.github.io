@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::TriggerCDFRun2"
-summary: "Access to the min bias triggers used by CDF in Run 0 and Run 1. "
+title: 'class Rivet::TriggerCDFRun2'
+description: "Access to the min bias triggers used by CDF in Run 0 and Run 1. "
 
 ---
 
@@ -502,4 +502,4 @@ Compare with other projections.
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

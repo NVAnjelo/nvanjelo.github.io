@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::MissingMomentum"
-summary: "Calculate missing $ E $, $ E_avoidperp $ etc. as complements to the total visible momentum. "
+title: 'class Rivet::MissingMomentum'
+description: "Calculate missing $ E $, $ E_avoidperp $ etc. as complements to the total visible momentum. "
 
 ---
 
@@ -751,4 +751,4 @@ Compare projections.
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:42 +0100
+Updated on 2022-07-28 at 14:01:08 +0100

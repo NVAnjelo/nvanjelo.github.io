@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::AnalysisHandler"
-summary: "The key class for coordination of Analysis objects and the event loop. "
+title: 'class Rivet::AnalysisHandler'
+description: "The key class for coordination of Analysis objects and the event loop. "
 
 ---
 
@@ -720,4 +720,4 @@ The destructor is not virtual, as this class should not be inherited from.
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:42 +0100
+Updated on 2022-07-28 at 14:01:08 +0100

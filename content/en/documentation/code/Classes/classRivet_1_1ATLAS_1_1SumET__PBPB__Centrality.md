@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::ATLAS::SumET_PBPB_Centrality"
-summary: "Centrality projection for PbPb collisions (two sided) "
+title: 'class Rivet::ATLAS::SumET_PBPB_Centrality'
+description: "Centrality projection for PbPb collisions (two sided) "
 
 ---
 
@@ -572,4 +572,4 @@ Unset the value.
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

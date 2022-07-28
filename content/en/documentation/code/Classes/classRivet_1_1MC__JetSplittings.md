@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::MC_JetSplittings"
-summary: "Base class providing common functionality for MC jet validation analyses. "
+title: 'class Rivet::MC_JetSplittings'
+description: "Base class providing common functionality for MC jet validation analyses. "
 
 ---
 
@@ -2365,4 +2365,4 @@ The name of the jet projection to be used for this analysis (this projection has
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:42 +0100
+Updated on 2022-07-28 at 14:01:08 +0100

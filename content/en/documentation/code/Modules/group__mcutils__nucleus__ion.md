@@ -1,6 +1,8 @@
 ---
 
-title: "Nucleus/ion functions"
+title: 'group Nucleus/ion functions'
+
+description: "[Documentation update required.]"
 
 ---
 
@@ -81,4 +83,4 @@ If this is a nucleus (ion), get nLambda
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

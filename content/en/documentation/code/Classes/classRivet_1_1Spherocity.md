@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::Spherocity"
-summary: "Get the transverse spherocity scalars for hadron-colliders. "
+title: 'class Rivet::Spherocity'
+description: "Get the transverse spherocity scalars for hadron-colliders. "
 
 ---
 
@@ -644,4 +644,4 @@ Compare projections.
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:42 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

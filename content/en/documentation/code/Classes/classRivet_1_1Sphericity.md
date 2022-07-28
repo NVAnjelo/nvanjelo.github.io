@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::Sphericity"
-summary: "Calculate the sphericity event shape. "
+title: 'class Rivet::Sphericity'
+description: "Calculate the sphericity event shape. "
 
 ---
 
@@ -741,4 +741,4 @@ Register a contained projection (user-facing, arg-reordered version)
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:42 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

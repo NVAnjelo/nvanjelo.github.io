@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::HadronicFinalState"
-summary: "Project only hadronic final state particles. "
+title: 'class Rivet::HadronicFinalState'
+description: "Project only hadronic final state particles. "
 
 ---
 
@@ -802,4 +802,4 @@ Compare projections.
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:42 +0100
+Updated on 2022-07-28 at 14:01:08 +0100

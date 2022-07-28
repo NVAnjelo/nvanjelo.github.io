@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::JET_BTAG_EFFS"
-summary: "b-tagging efficiency functor, for more readable b-tag effs and mistag rates "
+title: 'struct Rivet::JET_BTAG_EFFS'
+description: "b-tagging efficiency functor, for more readable b-tag effs and mistag rates "
 
 ---
 
@@ -80,4 +80,4 @@ inline double operator()(
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

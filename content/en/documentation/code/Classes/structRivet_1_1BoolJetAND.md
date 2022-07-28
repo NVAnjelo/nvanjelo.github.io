@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::BoolJetAND"
-summary: "Functor for and-combination of selector logic. "
+title: 'struct Rivet::BoolJetAND'
+description: "Functor for and-combination of selector logic. "
 
 ---
 
@@ -97,4 +97,4 @@ std::vector< JetSelector > selectors;
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

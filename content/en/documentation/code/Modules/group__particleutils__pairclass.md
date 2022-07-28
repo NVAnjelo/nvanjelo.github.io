@@ -1,7 +1,7 @@
 ---
 
-title: "Particle pair classifiers"
-summary: "Is this particle species charged? "
+title: 'group Particle pair classifiers'
+description: "Is this particle species charged? "
 
 ---
 
@@ -127,4 +127,4 @@ inline bool isSSOF(
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

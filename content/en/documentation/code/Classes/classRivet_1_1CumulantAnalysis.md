@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::CumulantAnalysis"
-summary: "Tools for flow analyses. "
+title: 'class Rivet::CumulantAnalysis'
+description: "Tools for flow analyses. "
 
 ---
 
@@ -2780,4 +2780,4 @@ list< ECorrPtr > eCorrPtrs;
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:42 +0100
+Updated on 2022-07-28 at 14:01:08 +0100

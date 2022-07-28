@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::DeltaRapWRT"
-summary: "Calculator of $ avoidDelta y $ with respect to a given momentum. "
+title: 'struct Rivet::DeltaRapWRT'
+description: "Calculator of $ avoidDelta y $ with respect to a given momentum. "
 
 ---
 
@@ -94,4 +94,4 @@ const FourMomentum p;
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

@@ -1,6 +1,8 @@
 ---
 
-title: "Parton content functions"
+title: 'group Parton content functions'
+
+description: "[Documentation update required.]"
 
 ---
 
@@ -88,4 +90,4 @@ Does this particle contain a top quark?
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

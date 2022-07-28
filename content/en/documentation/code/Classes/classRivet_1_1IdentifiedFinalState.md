@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::IdentifiedFinalState"
-summary: "Produce a final state which only contains specified particle IDs. "
+title: 'class Rivet::IdentifiedFinalState'
+description: "Produce a final state which only contains specified particle IDs. "
 
 ---
 
@@ -941,4 +941,4 @@ Register a contained projection (user-facing, arg-reordered version)
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:42 +0100
+Updated on 2022-07-28 at 14:01:08 +0100

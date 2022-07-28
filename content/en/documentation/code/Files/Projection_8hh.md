@@ -1,6 +1,8 @@
 ---
 
-title: "/home/anarendran/Documents/temp/rivet/include/Rivet/Projection.hh"
+title: 'file /home/anarendran/Documents/temp/rivet/include/Rivet/Projection.hh'
+
+description: "[Documentation update required.]"
 
 ---
 
@@ -176,4 +178,4 @@ inline bool std::less<const Rivet::Projection *>::operator()(const Rivet::Projec
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

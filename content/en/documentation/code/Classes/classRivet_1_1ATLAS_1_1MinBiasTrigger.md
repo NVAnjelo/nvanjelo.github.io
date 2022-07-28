@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::ATLAS::MinBiasTrigger"
-summary: "ATLAS min bias trigger conditions. "
+title: 'class Rivet::ATLAS::MinBiasTrigger'
+description: "ATLAS min bias trigger conditions. "
 
 ---
 
@@ -531,4 +531,4 @@ Indicate that the event has failed the trigger.
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::Run"
-summary: "Interface to handle a run of events read from a HepMC stream or file. "
+title: 'class Rivet::Run'
+description: "Interface to handle a run of events read from a HepMC stream or file. "
 
 ---
 
@@ -128,4 +128,4 @@ Destructor.
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:42 +0100
+Updated on 2022-07-28 at 14:01:08 +0100

@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::InvisibleFinalState"
-summary: "Final state modifier excluding particles which are experimentally visible. "
+title: 'class Rivet::InvisibleFinalState'
+description: "Final state modifier excluding particles which are experimentally visible. "
 
 ---
 
@@ -807,4 +807,4 @@ Register a contained projection (user-facing, arg-reordered version)
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:42 +0100
+Updated on 2022-07-28 at 14:01:08 +0100

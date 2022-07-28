@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::P3_EFF_CONST"
-summary: "Take a Vector3 and return a constant number. "
+title: 'struct Rivet::P3_EFF_CONST'
+description: "Take a Vector3 and return a constant number. "
 
 ---
 
@@ -45,4 +45,4 @@ inline double operator()(
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

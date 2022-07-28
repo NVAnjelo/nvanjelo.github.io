@@ -1,6 +1,8 @@
 ---
 
-title: "Rivet::HepMCHeavyIon"
+title: 'class Rivet::HepMCHeavyIon'
+
+description: "[Documentation update required.]"
 
 ---
 
@@ -714,4 +716,4 @@ Register a contained projection (user-facing, arg-reordered version)
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:42 +0100
+Updated on 2022-07-28 at 14:01:08 +0100

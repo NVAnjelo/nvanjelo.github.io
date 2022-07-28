@@ -1,12 +1,11 @@
 ---
-
 title: "Modules"
 
+menu:
+  documentation:
+    parent: "code"
+weight: 10
 ---
-
-# Modules
-
-
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>group <a href=http://example.org/modules/group__alice/>ALICE specifics<a></b><br>
@@ -98,4 +97,4 @@ title: "Modules"
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

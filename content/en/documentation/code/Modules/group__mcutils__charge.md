@@ -1,6 +1,8 @@
 ---
 
-title: "Charge functions"
+title: 'group Charge functions'
+
+description: "[Documentation update required.]"
 
 ---
 
@@ -86,4 +88,4 @@ Return the EM charge (as floating point)
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

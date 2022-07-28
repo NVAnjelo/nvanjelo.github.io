@@ -1,6 +1,8 @@
 ---
 
-title: "ALICE specifics"
+title: 'group ALICE specifics'
+
+description: "[Documentation update required.]"
 
 ---
 
@@ -99,4 +101,4 @@ The acceptance cut for SPD FASTOR
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

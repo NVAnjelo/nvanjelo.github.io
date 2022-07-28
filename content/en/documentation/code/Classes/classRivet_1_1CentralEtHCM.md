@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::CentralEtHCM"
-summary: "Summed $ E_avoidperp $ of central particles in HCM system. "
+title: 'class Rivet::CentralEtHCM'
+description: "Summed $ E_avoidperp $ of central particles in HCM system. "
 
 ---
 
@@ -516,4 +516,4 @@ Compare with other projections.
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:42 +0100
+Updated on 2022-07-28 at 14:01:08 +0100

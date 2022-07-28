@@ -1,6 +1,8 @@
 ---
 
-title: "Analysis-options support"
+title: 'group Analysis-options support'
+
+description: "[Documentation update required.]"
 
 ---
 
@@ -63,4 +65,4 @@ Build a map of options to facilitate checking.
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

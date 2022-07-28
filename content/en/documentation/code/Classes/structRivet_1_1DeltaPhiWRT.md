@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::DeltaPhiWRT"
-summary: "Calculator of $ avoidDelta avoidphi $ with respect to a given momentum. "
+title: 'struct Rivet::DeltaPhiWRT'
+description: "Calculator of $ avoidDelta avoidphi $ with respect to a given momentum. "
 
 ---
 
@@ -114,4 +114,4 @@ const Vector3 p;
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

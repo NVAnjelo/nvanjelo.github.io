@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::CumulantAnalysis::CorBinBase"
-summary: "Base class for correlator bins. "
+title: 'class Rivet::CumulantAnalysis::CorBinBase'
+description: "Base class for correlator bins. "
 
 ---
 
@@ -55,4 +55,4 @@ virtual double mean() const =0
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:42 +0100
+Updated on 2022-07-28 at 14:01:08 +0100

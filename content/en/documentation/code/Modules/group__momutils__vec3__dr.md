@@ -1,6 +1,8 @@
 ---
 
-title: "avoidf$avoidDelta Ravoidf$ calculations from 3-vectors"
+title: 'group avoidf$avoidDelta Ravoidf$ calculations from 3-vectors'
+
+description: "[Documentation update required.]"
 
 ---
 
@@ -98,4 +100,4 @@ Calculate the 2D rapidity-azimuthal ("eta-phi") distance between two spatial vec
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

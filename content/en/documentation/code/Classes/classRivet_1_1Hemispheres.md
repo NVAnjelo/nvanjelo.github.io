@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::Hemispheres"
-summary: "Calculate the hemisphere masses and broadenings. "
+title: 'class Rivet::Hemispheres'
+description: "Calculate the hemisphere masses and broadenings. "
 
 ---
 
@@ -754,4 +754,4 @@ Compare with other projections.
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:42 +0100
+Updated on 2022-07-28 at 14:01:08 +0100

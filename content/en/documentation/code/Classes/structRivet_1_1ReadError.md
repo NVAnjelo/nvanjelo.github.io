@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::ReadError"
-summary: "Error for read failures. "
+title: 'struct Rivet::ReadError'
+description: "Error for read failures. "
 
 ---
 
@@ -50,4 +50,4 @@ inline ReadError(
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:42 +0100
+Updated on 2022-07-28 at 14:01:08 +0100

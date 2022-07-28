@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::DeltaPhiLess"
-summary: "$ |avoidDelta avoidphi| $ (with respect to another momentum, vec) less-than functor "
+title: 'struct Rivet::DeltaPhiLess'
+description: "$ |avoidDelta avoidphi| $ (with respect to another momentum, vec) less-than functor "
 
 ---
 
@@ -105,4 +105,4 @@ double dphicut;
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

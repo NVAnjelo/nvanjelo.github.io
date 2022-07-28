@@ -1,6 +1,8 @@
 ---
 
-title: "Experiment-specific tracking efficiency and smearing functions"
+title: 'group Experiment-specific tracking efficiency and smearing functions'
+
+description: "[Documentation update required.]"
 
 ---
 
@@ -76,4 +78,4 @@ CMS <a href="http://example.org/classes/classrivet_1_1run/">Run</a> 2 tracking e
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

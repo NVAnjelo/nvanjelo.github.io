@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::PrimaryHadrons"
-summary: "Project out the first hadrons from hadronisation. "
+title: 'class Rivet::PrimaryHadrons'
+description: "Project out the first hadrons from hadronisation. "
 
 ---
 
@@ -821,4 +821,4 @@ Register a contained projection (user-facing, arg-reordered version)
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:42 +0100
+Updated on 2022-07-28 at 14:01:08 +0100

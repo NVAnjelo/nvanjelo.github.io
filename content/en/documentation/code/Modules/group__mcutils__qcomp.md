@@ -1,6 +1,8 @@
 ---
 
-title: "Quark composite functions"
+title: 'group Quark composite functions'
+
+description: "[Documentation update required.]"
 
 ---
 
@@ -113,4 +115,4 @@ Is this a valid hadron ID?
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

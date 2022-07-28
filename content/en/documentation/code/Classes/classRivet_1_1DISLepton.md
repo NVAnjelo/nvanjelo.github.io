@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::DISLepton"
-summary: "Get the incoming and outgoing leptons in a DIS event. "
+title: 'class Rivet::DISLepton'
+description: "Get the incoming and outgoing leptons in a DIS event. "
 
 ---
 
@@ -860,4 +860,4 @@ Register a contained projection (user-facing, arg-reordered version)
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:42 +0100
+Updated on 2022-07-28 at 14:01:08 +0100

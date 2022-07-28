@@ -1,6 +1,8 @@
 ---
 
-title: "The Rivet MC analysis framework"
+title: 'page The Rivet MC analysis framework'
+
+description: "[Documentation update required.]"
 
 ---
 
@@ -66,4 +68,4 @@ For more information, please see the documentation via <a href="https://rivet.he
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

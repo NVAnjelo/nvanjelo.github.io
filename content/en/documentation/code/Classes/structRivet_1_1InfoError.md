@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::InfoError"
-summary: "Error specialisation for failures relating to analysis info. "
+title: 'struct Rivet::InfoError'
+description: "Error specialisation for failures relating to analysis info. "
 
 ---
 
@@ -44,4 +44,4 @@ inline InfoError(
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:42 +0100
+Updated on 2022-07-28 at 14:01:08 +0100

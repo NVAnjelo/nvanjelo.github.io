@@ -1,6 +1,8 @@
 ---
 
-title: "Analysis object manipulation"
+title: 'group Analysis object manipulation'
+
+description: "[Documentation update required.]"
 
 ---
 
@@ -365,4 +367,4 @@ Helper for converting a differential histo to an integral one.
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

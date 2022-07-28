@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::Projection"
-summary: "Base class for all Rivet projections. "
+title: 'class Rivet::Projection'
+description: "Base class for all Rivet projections. "
 
 ---
 
@@ -531,4 +531,4 @@ The Cmp specialization for <a href="http://example.org/classes/classrivet_1_1pro
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:42 +0100
+Updated on 2022-07-28 at 14:01:08 +0100

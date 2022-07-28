@@ -1,6 +1,8 @@
 ---
 
-title: "Deprecated List"
+title: 'page Deprecated List'
+
+description: "[Documentation update required.]"
 
 ---
 
@@ -269,4 +271,4 @@ Member <a href="http://example.org/classes/classrivet_1_1zfinder/#function-zfind
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

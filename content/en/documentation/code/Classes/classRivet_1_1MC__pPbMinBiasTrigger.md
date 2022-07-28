@@ -1,6 +1,8 @@
 ---
 
-title: "Rivet::MC_pPbMinBiasTrigger"
+title: 'class Rivet::MC_pPbMinBiasTrigger'
+
+description: "[Documentation update required.]"
 
 ---
 
@@ -539,4 +541,4 @@ Indicate that the event has failed the trigger.
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:42 +0100
+Updated on 2022-07-28 at 14:01:08 +0100

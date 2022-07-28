@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::ProjectionApplier"
-summary: "Common base class for Projection and Analysis, used for internal polymorphism. "
+title: 'class Rivet::ProjectionApplier'
+description: "Common base class for Projection and Analysis, used for internal polymorphism. "
 
 ---
 
@@ -319,4 +319,4 @@ Register a contained projection (user-facing, arg-reordered version)
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:42 +0100
+Updated on 2022-07-28 at 14:01:08 +0100

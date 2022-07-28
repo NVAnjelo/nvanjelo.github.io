@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::BoolJetFunctor"
-summary: "Base type for Jet -> bool functors. "
+title: 'struct Rivet::BoolJetFunctor'
+description: "Base type for Jet -> bool functors. "
 
 ---
 
@@ -48,4 +48,4 @@ inline virtual ~BoolJetFunctor()
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

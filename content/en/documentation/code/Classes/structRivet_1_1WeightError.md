@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::WeightError"
-summary: "Errors relating to event/bin weights. "
+title: 'struct Rivet::WeightError'
+description: "Errors relating to event/bin weights. "
 
 ---
 
@@ -54,4 +54,4 @@ inline WeightError(
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

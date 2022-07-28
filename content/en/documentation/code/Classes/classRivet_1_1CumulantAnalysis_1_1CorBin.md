@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::CumulantAnalysis::CorBin"
-summary: "The basic bin quantity in ECorrelators. "
+title: 'class Rivet::CumulantAnalysis::CorBin'
+description: "The basic bin quantity in ECorrelators. "
 
 ---
 
@@ -92,4 +92,4 @@ Return the bins as pointers to the base class.
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:42 +0100
+Updated on 2022-07-28 at 14:01:08 +0100

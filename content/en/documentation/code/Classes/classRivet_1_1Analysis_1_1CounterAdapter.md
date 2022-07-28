@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::Analysis::CounterAdapter"
-summary: "To be used in finalize context only. "
+title: 'class Rivet::Analysis::CounterAdapter'
+description: "To be used in finalize context only. "
 
 ---
 
@@ -58,4 +58,4 @@ inline operator double() const
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:42 +0100
+Updated on 2022-07-28 at 14:01:08 +0100

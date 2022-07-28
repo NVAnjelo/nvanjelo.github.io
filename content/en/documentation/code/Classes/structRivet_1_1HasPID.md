@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::HasPID"
-summary: "PID matching functor. "
+title: 'struct Rivet::HasPID'
+description: "PID matching functor. "
 
 ---
 
@@ -94,4 +94,4 @@ vector< PdgId > targetpids;
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

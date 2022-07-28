@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::Jets"
-summary: "Specialised vector of Jet objects. "
+title: 'class Rivet::Jets'
+description: "Specialised vector of Jet objects. "
 
 ---
 
@@ -122,4 +122,4 @@ Jets & operator+=(
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:42 +0100
+Updated on 2022-07-28 at 14:01:08 +0100

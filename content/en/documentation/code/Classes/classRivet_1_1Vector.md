@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::Vector"
-summary: "A minimal base class for $ N $-dimensional vectors. "
+title: 'class Rivet::Vector'
+description: "A minimal base class for $ N $-dimensional vectors. "
 
 ---
 
@@ -205,4 +205,4 @@ friend Vector< M > multiply(
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

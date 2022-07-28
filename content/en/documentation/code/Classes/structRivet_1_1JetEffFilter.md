@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::JetEffFilter"
-summary: "A functor to return true if Jetj survives a random efficiency selection. "
+title: 'struct Rivet::JetEffFilter'
+description: "A functor to return true if Jetj survives a random efficiency selection. "
 
 ---
 
@@ -56,4 +56,4 @@ inline bool operator()(
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

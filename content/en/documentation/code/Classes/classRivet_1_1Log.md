@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::Log"
-summary: "Logging system for controlled & formatted writing to stdout. "
+title: 'class Rivet::Log'
+description: "Logging system for controlled & formatted writing to stdout. "
 
 ---
 
@@ -357,4 +357,4 @@ The streaming operator can use <a href="http://example.org/classes/classrivet_1_
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:42 +0100
+Updated on 2022-07-28 at 14:01:08 +0100

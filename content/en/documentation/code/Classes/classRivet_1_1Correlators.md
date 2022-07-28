@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::Correlators"
-summary: "Projection for calculating correlators for flow measurements. "
+title: 'class Rivet::Correlators'
+description: "Projection for calculating correlators for flow measurements. "
 
 ---
 
@@ -670,4 +670,4 @@ inline const complex< double > getP(
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:42 +0100
+Updated on 2022-07-28 at 14:01:08 +0100

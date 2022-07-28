@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::DressedLepton"
-summary: "A charged lepton meta-particle created by clustering photons close to the bare lepton. "
+title: 'class Rivet::DressedLepton'
+description: "A charged lepton meta-particle created by clustering photons close to the bare lepton. "
 
 ---
 
@@ -1756,4 +1756,4 @@ Retrieve the clustered photons (alias)
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:42 +0100
+Updated on 2022-07-28 at 14:01:08 +0100

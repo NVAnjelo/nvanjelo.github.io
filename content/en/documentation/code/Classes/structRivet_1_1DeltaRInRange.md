@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::DeltaRInRange"
-summary: "$ avoidDelta R $ (with respect to another 4-momentum, vec) in-range functor "
+title: 'struct Rivet::DeltaRInRange'
+description: "$ avoidDelta R $ (with respect to another 4-momentum, vec) in-range functor "
 
 ---
 
@@ -153,4 +153,4 @@ RapScheme rapscheme;
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

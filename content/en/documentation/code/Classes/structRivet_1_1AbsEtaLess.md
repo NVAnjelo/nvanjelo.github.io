@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::AbsEtaLess"
-summary: "Abs pseudorapidity momentum less-than functor. "
+title: 'struct Rivet::AbsEtaLess'
+description: "Abs pseudorapidity momentum less-than functor. "
 
 ---
 
@@ -84,4 +84,4 @@ double absetacut;
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

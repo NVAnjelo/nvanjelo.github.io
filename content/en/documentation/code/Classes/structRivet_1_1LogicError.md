@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::LogicError"
-summary: "Error specialisation for places where alg logic has failed. "
+title: 'struct Rivet::LogicError'
+description: "Error specialisation for places where alg logic has failed. "
 
 ---
 
@@ -44,4 +44,4 @@ inline LogicError(
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:42 +0100
+Updated on 2022-07-28 at 14:01:08 +0100

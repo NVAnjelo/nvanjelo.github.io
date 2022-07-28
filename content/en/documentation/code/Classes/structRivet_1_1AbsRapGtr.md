@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::AbsRapGtr"
-summary: "Abs rapidity greater-than functor. "
+title: 'struct Rivet::AbsRapGtr'
+description: "Abs rapidity greater-than functor. "
 
 ---
 
@@ -84,4 +84,4 @@ double absrapcut;
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

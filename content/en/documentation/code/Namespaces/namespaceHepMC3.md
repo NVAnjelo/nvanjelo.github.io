@@ -1,6 +1,8 @@
 ---
 
-title: "HepMC3"
+title: 'namespace HepMC3'
+
+description: "[Documentation update required.]"
 
 ---
 
@@ -15,4 +17,4 @@ title: "HepMC3"
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

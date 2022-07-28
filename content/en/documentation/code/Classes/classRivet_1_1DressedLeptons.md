@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::DressedLeptons"
-summary: "Cluster photons from a given FS to all charged particles (typically leptons) "
+title: 'class Rivet::DressedLeptons'
+description: "Cluster photons from a given FS to all charged particles (typically leptons) "
 
 ---
 
@@ -875,4 +875,4 @@ Compare projections.
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:42 +0100
+Updated on 2022-07-28 at 14:01:08 +0100

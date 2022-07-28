@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::TriggerProjection"
-summary: "Base class for projections returning a bool corresponding to a trigger. "
+title: 'class Rivet::TriggerProjection'
+description: "Base class for projections returning a bool corresponding to a trigger. "
 
 ---
 
@@ -544,4 +544,4 @@ Indicate that the event has failed the trigger.
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

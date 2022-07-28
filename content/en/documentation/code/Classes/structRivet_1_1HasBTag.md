@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::HasBTag"
-summary: "B-tagging functor, with a tag selection cut as the stored state. "
+title: 'struct Rivet::HasBTag'
+description: "B-tagging functor, with a tag selection cut as the stored state. "
 
 ---
 
@@ -74,4 +74,4 @@ const Cut cut;
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

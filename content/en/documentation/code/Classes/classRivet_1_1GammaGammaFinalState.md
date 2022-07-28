@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::GammaGammaFinalState"
-summary: "Final state particles boosted to the hadronic center of mass system. "
+title: 'class Rivet::GammaGammaFinalState'
+description: "Final state particles boosted to the hadronic center of mass system. "
 
 ---
 
@@ -840,4 +840,4 @@ Register a contained projection (user-facing, arg-reordered version)
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:42 +0100
+Updated on 2022-07-28 at 14:01:08 +0100

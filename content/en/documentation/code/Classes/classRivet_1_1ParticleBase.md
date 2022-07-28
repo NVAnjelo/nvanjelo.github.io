@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::ParticleBase"
-summary: "Base class for particle-like things like Particle and Jet. "
+title: 'class Rivet::ParticleBase'
+description: "Base class for particle-like things like Particle and Jet. "
 
 ---
 
@@ -465,4 +465,4 @@ Virtual destructor.
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:42 +0100
+Updated on 2022-07-28 at 14:01:08 +0100

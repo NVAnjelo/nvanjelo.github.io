@@ -1,6 +1,8 @@
 ---
 
-title: "Unbound functions for kinematic properties"
+title: 'group Unbound functions for kinematic properties'
+
+description: "[Documentation update required.]"
 
 ---
 
@@ -33,4 +35,4 @@ title: "Unbound functions for kinematic properties"
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

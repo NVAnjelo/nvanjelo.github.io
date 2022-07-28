@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::BinnedHistogram"
-summary: "A set of booked Histo1DPtr, each in a bin of a second variable. "
+title: 'class Rivet::BinnedHistogram'
+description: "A set of booked Histo1DPtr, each in a bin of a second variable. "
 
 ---
 
@@ -142,4 +142,4 @@ Scale histograms taking into account its "external" binwidth, i.e. by scale/binW
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:42 +0100
+Updated on 2022-07-28 at 14:01:08 +0100

@@ -1,7 +1,7 @@
 ---
 
-title: "std"
-summary: "STL namespace. "
+title: 'namespace std'
+description: "STL namespace. "
 
 ---
 
@@ -101,4 +101,4 @@ Get a function pointer / hash integer from an std::function.
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:41 +0100
+Updated on 2022-07-28 at 14:01:07 +0100

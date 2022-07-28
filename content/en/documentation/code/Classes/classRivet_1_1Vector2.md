@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::Vector2"
-summary: "Two-dimensional specialisation of Vector. "
+title: 'class Rivet::Vector2'
+description: "Two-dimensional specialisation of Vector. "
 
 ---
 
@@ -406,4 +406,4 @@ friend Vector2 subtract(
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

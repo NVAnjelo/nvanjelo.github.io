@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::BoolParticleNOT"
-summary: "Functor for inverting selector logic. "
+title: 'struct Rivet::BoolParticleNOT'
+description: "Functor for inverting selector logic. "
 
 ---
 
@@ -74,4 +74,4 @@ ParticleSelector selector;
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::InvMassFinalState"
-summary: "Identify particles which can be paired to fit within a given invariant mass window. "
+title: 'class Rivet::InvMassFinalState'
+description: "Identify particles which can be paired to fit within a given invariant mass window. "
 
 ---
 
@@ -869,4 +869,4 @@ Register a contained projection (user-facing, arg-reordered version)
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:42 +0100
+Updated on 2022-07-28 at 14:01:08 +0100

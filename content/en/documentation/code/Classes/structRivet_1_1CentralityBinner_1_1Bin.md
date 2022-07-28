@@ -1,6 +1,8 @@
 ---
 
-title: "Rivet::CentralityBinner::Bin"
+title: 'struct Rivet::CentralityBinner::Bin'
+
+description: "[Documentation update required.]"
 
 ---
 
@@ -67,4 +69,4 @@ Normalise the AnalysisObject to the tital cross section.
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:42 +0100
+Updated on 2022-07-28 at 14:01:08 +0100

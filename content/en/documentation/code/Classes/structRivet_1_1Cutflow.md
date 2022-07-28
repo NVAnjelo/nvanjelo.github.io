@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::Cutflow"
-summary: "A tracker of numbers & fractions of events passing sequential cuts. "
+title: 'struct Rivet::Cutflow'
+description: "A tracker of numbers & fractions of events passing sequential cuts. "
 
 ---
 
@@ -273,4 +273,4 @@ size_t icurr;
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:42 +0100
+Updated on 2022-07-28 at 14:01:08 +0100

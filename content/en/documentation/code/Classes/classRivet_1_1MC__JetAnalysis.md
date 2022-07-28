@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::MC_JetAnalysis"
-summary: "Base class providing common functionality for MC jet validation analyses. "
+title: 'class Rivet::MC_JetAnalysis'
+description: "Base class providing common functionality for MC jet validation analyses. "
 
 ---
 
@@ -2371,4 +2371,4 @@ std::vector< Scatter2DPtr > tmprap;
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:42 +0100
+Updated on 2022-07-28 at 14:01:08 +0100

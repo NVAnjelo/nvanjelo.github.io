@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::ChargedLeptons"
-summary: "Get charged final-state leptons. "
+title: 'class Rivet::ChargedLeptons'
+description: "Get charged final-state leptons. "
 
 ---
 
@@ -821,4 +821,4 @@ Compare projections.
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:42 +0100
+Updated on 2022-07-28 at 14:01:08 +0100

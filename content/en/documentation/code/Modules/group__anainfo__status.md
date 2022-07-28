@@ -1,6 +1,8 @@
 ---
 
-title: "Status info and categories"
+title: 'group Status info and categories'
+
+description: "[Documentation update required.]"
 
 ---
 
@@ -145,4 +147,4 @@ Helper function for checking status-string contents.
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

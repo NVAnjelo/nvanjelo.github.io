@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::Matrix3"
-summary: "Specialisation of MatrixN to aid 3 dimensional rotations. "
+title: 'class Rivet::Matrix3'
+description: "Specialisation of MatrixN to aid 3 dimensional rotations. "
 
 ---
 
@@ -395,4 +395,4 @@ static inline Matrix< N > mkIdentity()
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:42 +0100
+Updated on 2022-07-28 at 14:01:08 +0100

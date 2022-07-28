@@ -1,6 +1,8 @@
 ---
 
-title: "Generic jet filtering, efficiency and smearing utils"
+title: 'group Generic jet filtering, efficiency and smearing utils'
+
+description: "[Documentation update required.]"
 
 ---
 
@@ -363,4 +365,4 @@ Return true if <a href="http://example.org/classes/classrivet_1_1particle/">Part
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

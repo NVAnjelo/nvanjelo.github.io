@@ -1,6 +1,8 @@
 ---
 
-title: "Unbound functions for filtering particles"
+title: 'group Unbound functions for filtering particles'
+
+description: "[Documentation update required.]"
 
 ---
 
@@ -225,4 +227,4 @@ New alias for filter_discard.
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

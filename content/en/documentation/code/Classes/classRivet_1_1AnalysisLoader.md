@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::AnalysisLoader"
-summary: "Internal class which loads and registers analyses from plugin libs. "
+title: 'class Rivet::AnalysisLoader'
+description: "Internal class which loads and registers analyses from plugin libs. "
 
 ---
 
@@ -111,4 +111,4 @@ Allow the analysis builders to call the private _registerBuilder function.
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:42 +0100
+Updated on 2022-07-28 at 14:01:08 +0100

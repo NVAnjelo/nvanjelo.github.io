@@ -1,6 +1,8 @@
 ---
 
-title: "MT calculation"
+title: 'group MT calculation'
+
+description: "[Documentation update required.]"
 
 ---
 
@@ -60,4 +62,4 @@ Calculate transverse mass of a visible 4-vector and an invisible 3-vector.
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

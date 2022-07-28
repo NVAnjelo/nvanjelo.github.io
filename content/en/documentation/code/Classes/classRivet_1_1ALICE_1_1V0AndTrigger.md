@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::ALICE::V0AndTrigger"
-summary: "Trigger projection for the ALICE V0-AND (a.k.a. CINT7) requirement. "
+title: 'class Rivet::ALICE::V0AndTrigger'
+description: "Trigger projection for the ALICE V0-AND (a.k.a. CINT7) requirement. "
 
 ---
 
@@ -547,4 +547,4 @@ Indicate that the event has failed the trigger.
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

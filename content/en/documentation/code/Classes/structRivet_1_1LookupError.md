@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::LookupError"
-summary: "Error relating to looking up analysis objects in the register. "
+title: 'struct Rivet::LookupError'
+description: "Error relating to looking up analysis objects in the register. "
 
 ---
 
@@ -44,4 +44,4 @@ inline LookupError(
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:42 +0100
+Updated on 2022-07-28 at 14:01:08 +0100

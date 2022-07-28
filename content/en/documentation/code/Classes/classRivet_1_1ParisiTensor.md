@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::ParisiTensor"
-summary: "Calculate the Parisi event shape tensor (or linear momentum tensor). "
+title: 'class Rivet::ParisiTensor'
+description: "Calculate the Parisi event shape tensor (or linear momentum tensor). "
 
 ---
 
@@ -566,4 +566,4 @@ Compare with other projections.
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:42 +0100
+Updated on 2022-07-28 at 14:01:08 +0100

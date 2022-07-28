@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::Cuts"
-summary: "Namespace used for ambiguous identifiers. "
+title: 'namespace Rivet::Cuts'
+description: "Namespace used for ambiguous identifiers. "
 
 ---
 
@@ -191,4 +191,4 @@ const Cut & NOCUT;
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

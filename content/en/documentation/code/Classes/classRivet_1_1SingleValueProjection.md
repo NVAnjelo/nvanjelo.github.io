@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::SingleValueProjection"
-summary: "Base class for projections returning a single floating point value. "
+title: 'class Rivet::SingleValueProjection'
+description: "Base class for projections returning a single floating point value. "
 
 ---
 
@@ -576,4 +576,4 @@ Unset the value.
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:42 +0100
+Updated on 2022-07-28 at 14:01:08 +0100

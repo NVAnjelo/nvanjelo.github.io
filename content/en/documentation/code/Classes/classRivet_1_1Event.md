@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::Event"
-summary: "Representation of a HepMC event, and enabler of Projection caching. "
+title: 'class Rivet::Event'
+description: "Representation of a HepMC event, and enabler of Projection caching. "
 
 ---
 
@@ -220,4 +220,4 @@ Add a projection _p_ to this <a href="http://example.org/classes/classrivet_1_1e
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:42 +0100
+Updated on 2022-07-28 at 14:01:08 +0100

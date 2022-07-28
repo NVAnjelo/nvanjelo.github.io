@@ -1,6 +1,8 @@
 ---
 
-title: "Detector smearing & efficiency functions"
+title: 'group Detector smearing & efficiency functions'
+
+description: "[Documentation update required.]"
 
 ---
 
@@ -29,4 +31,4 @@ title: "Detector smearing & efficiency functions"
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

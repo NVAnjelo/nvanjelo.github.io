@@ -1,6 +1,8 @@
 ---
 
-title: "Generic 4-momentum filtering, efficiency and smearing utils"
+title: 'group Generic 4-momentum filtering, efficiency and smearing utils'
+
+description: "[Documentation update required.]"
 
 ---
 
@@ -252,4 +254,4 @@ Smear a <a href="http://example.org/classes/classrivet_1_1vector3/">Vector3</a>'
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

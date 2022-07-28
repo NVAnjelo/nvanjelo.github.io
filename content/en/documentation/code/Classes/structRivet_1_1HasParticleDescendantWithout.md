@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::HasParticleDescendantWithout"
-summary: "Determine whether a particle has a descendant which doesn't meet the cut/function. "
+title: 'struct Rivet::HasParticleDescendantWithout'
+description: "Determine whether a particle has a descendant which doesn't meet the cut/function. "
 
 ---
 
@@ -94,4 +94,4 @@ bool rmduplicates;
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

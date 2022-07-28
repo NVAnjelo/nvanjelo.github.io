@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::PercentileBase"
-summary: "PercentileBase is the base class of all Percentile classes. "
+title: 'class Rivet::PercentileBase'
+description: "PercentileBase is the base class of all Percentile classes. "
 
 ---
 
@@ -119,4 +119,4 @@ Helper function to check if _x_ is within _range_.
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:42 +0100
+Updated on 2022-07-28 at 14:01:08 +0100

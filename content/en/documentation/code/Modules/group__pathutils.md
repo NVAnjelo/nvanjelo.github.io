@@ -1,6 +1,8 @@
 ---
 
-title: "Path utils"
+title: 'group Path utils'
+
+description: "[Documentation update required.]"
 
 ---
 
@@ -106,4 +108,4 @@ Get the file extension from a filename _f_.
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

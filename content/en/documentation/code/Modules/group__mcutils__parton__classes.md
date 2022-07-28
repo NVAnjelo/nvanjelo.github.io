@@ -1,6 +1,8 @@
 ---
 
-title: "Parton content classification"
+title: 'group Parton content classification'
+
+description: "[Documentation update required.]"
 
 ---
 
@@ -240,4 +242,4 @@ Determine if the PID is that of a strange hadron
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

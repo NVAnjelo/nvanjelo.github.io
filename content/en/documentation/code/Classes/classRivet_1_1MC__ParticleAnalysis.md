@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::MC_ParticleAnalysis"
-summary: "Base class providing common functionality for MC particle species validation analyses. "
+title: 'class Rivet::MC_ParticleAnalysis'
+description: "Base class providing common functionality for MC particle species validation analyses. "
 
 ---
 
@@ -2355,4 +2355,4 @@ std::vector< Scatter2DPtr > tmprap;
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:42 +0100
+Updated on 2022-07-28 at 14:01:08 +0100

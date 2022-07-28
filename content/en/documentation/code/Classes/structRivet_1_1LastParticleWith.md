@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::LastParticleWith"
-summary: "Determine whether a particle is the last in a decay chain to meet the cut/function. "
+title: 'struct Rivet::LastParticleWith'
+description: "Determine whether a particle is the last in a decay chain to meet the cut/function. "
 
 ---
 
@@ -85,4 +85,4 @@ std::function< bool(const Particle &)> fn;
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

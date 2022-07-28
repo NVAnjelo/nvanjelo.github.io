@@ -1,6 +1,8 @@
 ---
 
-title: "Other classifiers"
+title: 'group Other classifiers'
+
+description: "[Documentation update required.]"
 
 ---
 
@@ -65,4 +67,4 @@ Check the PID for usability in transport codes like Geant4
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

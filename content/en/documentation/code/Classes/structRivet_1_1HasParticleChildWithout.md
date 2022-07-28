@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::HasParticleChildWithout"
-summary: "Determine whether a particle has a child which doesn't meet the cut/function. "
+title: 'struct Rivet::HasParticleChildWithout'
+description: "Determine whether a particle has a child which doesn't meet the cut/function. "
 
 ---
 
@@ -84,4 +84,4 @@ ParticleSelector fn;
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

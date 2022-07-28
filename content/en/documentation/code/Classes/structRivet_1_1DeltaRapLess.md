@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::DeltaRapLess"
-summary: "$ |avoidDelta y| $ (with respect to another momentum, vec) less-than functor "
+title: 'struct Rivet::DeltaRapLess'
+description: "$ |avoidDelta y| $ (with respect to another momentum, vec) less-than functor "
 
 ---
 
@@ -94,4 +94,4 @@ double drapcut;
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

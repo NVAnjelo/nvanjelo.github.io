@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::CumulantAnalysis::ECorrelator"
-summary: "A helper class to calculate all event averages of correlators. "
+title: 'class Rivet::CumulantAnalysis::ECorrelator'
+description: "A helper class to calculate all event averages of correlators. "
 
 ---
 
@@ -231,4 +231,4 @@ vector< string > profs;
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:42 +0100
+Updated on 2022-07-28 at 14:01:08 +0100

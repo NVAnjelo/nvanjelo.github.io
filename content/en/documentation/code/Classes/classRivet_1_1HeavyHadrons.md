@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::HeavyHadrons"
-summary: "Project out the last pre-decay b and c hadrons. "
+title: 'class Rivet::HeavyHadrons'
+description: "Project out the last pre-decay b and c hadrons. "
 
 ---
 
@@ -902,4 +902,4 @@ Register a contained projection (user-facing, arg-reordered version)
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:42 +0100
+Updated on 2022-07-28 at 14:01:08 +0100

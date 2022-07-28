@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::CentralityBinner::FlexiBin"
-summary: "A flexible bin struct to be used to store temporary AnalysisObjects. "
+title: 'struct Rivet::CentralityBinner::FlexiBin'
+description: "A flexible bin struct to be used to store temporary AnalysisObjects. "
 
 ---
 
@@ -81,4 +81,4 @@ Return true if the given centrality estimate is in the range of this bin.
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:42 +0100
+Updated on 2022-07-28 at 14:01:08 +0100

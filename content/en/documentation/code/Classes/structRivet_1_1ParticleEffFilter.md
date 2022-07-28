@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::ParticleEffFilter"
-summary: "A functor to return true if Particlep survives a random efficiency selection. "
+title: 'struct Rivet::ParticleEffFilter'
+description: "A functor to return true if Particlep survives a random efficiency selection. "
 
 ---
 
@@ -67,4 +67,4 @@ inline bool operator()(
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

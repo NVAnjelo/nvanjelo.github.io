@@ -1,6 +1,8 @@
 ---
 
-title: "Analysis / beam compatibility testing"
+title: 'group Analysis / beam compatibility testing'
+
+description: "[Documentation update required.]"
 
 ---
 
@@ -77,4 +79,4 @@ Check if sqrtS is compatible with provided value.
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

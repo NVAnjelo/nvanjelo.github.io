@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::bad_lexical_cast"
-summary: "Exception class for throwing from lexical_cast when a parse goes wrong. "
+title: 'struct Rivet::bad_lexical_cast'
+description: "Exception class for throwing from lexical_cast when a parse goes wrong. "
 
 ---
 
@@ -37,4 +37,4 @@ inline bad_lexical_cast(
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

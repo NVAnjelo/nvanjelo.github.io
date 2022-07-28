@@ -1,6 +1,8 @@
 ---
 
-title: "YODA"
+title: 'namespace YODA'
+
+description: "[Documentation update required.]"
 
 ---
 
@@ -94,4 +96,4 @@ typedef std::shared_ptr<YODA::Scatter3D> YODA::Scatter3DPtr;
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:41 +0100
+Updated on 2022-07-28 at 14:01:07 +0100

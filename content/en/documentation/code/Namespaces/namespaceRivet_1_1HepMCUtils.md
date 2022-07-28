@@ -1,6 +1,8 @@
 ---
 
-title: "Rivet::HepMCUtils"
+title: 'namespace Rivet::HepMCUtils'
+
+description: "[Documentation update required.]"
 
 ---
 
@@ -203,4 +205,4 @@ pair< double, double > crossSection(
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

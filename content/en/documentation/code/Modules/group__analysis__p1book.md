@@ -1,6 +1,8 @@
 ---
 
-title: "1D profile histogram booking"
+title: 'group 1D profile histogram booking'
+
+description: "[Documentation update required.]"
 
 ---
 
@@ -15,4 +17,4 @@ title: "1D profile histogram booking"
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

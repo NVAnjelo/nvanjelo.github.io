@@ -1,12 +1,11 @@
 ---
-
 title: "Files"
 
+menu:
+  documentation:
+    parent: "code"
+weight: 30
 ---
-
-# Files
-
-
 
 
 <details><summary><b>dir <a href=http://example.org/files/dir_d44c64559bbebec7f509842c48db8b23/#dir-/home/anarendran/documents/temp/rivet/include>/home/anarendran/Documents/temp/rivet/include<a></b></summary>
@@ -179,4 +178,4 @@ title: "Files"
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

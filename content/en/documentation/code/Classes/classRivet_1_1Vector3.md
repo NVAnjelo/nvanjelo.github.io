@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::Vector3"
-summary: "Three-dimensional specialisation of Vector. "
+title: 'class Rivet::Vector3'
+description: "Three-dimensional specialisation of Vector. "
 
 ---
 
@@ -657,4 +657,4 @@ Unbound vector subtraction function.
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

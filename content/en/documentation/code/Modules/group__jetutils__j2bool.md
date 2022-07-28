@@ -1,6 +1,8 @@
 ---
 
-title: "Jet classifier -> bool functors"
+title: 'group Jet classifier -> bool functors'
+
+description: "[Documentation update required.]"
 
 ---
 
@@ -129,4 +131,4 @@ Operator syntactic sugar for NOT construction.
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:43 +0100
+Updated on 2022-07-28 at 14:01:09 +0100

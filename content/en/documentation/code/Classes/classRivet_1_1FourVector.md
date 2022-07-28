@@ -1,7 +1,7 @@
 ---
 
-title: "Rivet::FourVector"
-summary: "Specialisation of VectorN to a general (non-momentum) Lorentz 4-vector. "
+title: 'class Rivet::FourVector'
+description: "Specialisation of VectorN to a general (non-momentum) Lorentz 4-vector. "
 
 ---
 
@@ -692,4 +692,4 @@ friend FourVector transform(
 
 -------------------------------
 
-Updated on 2022-07-28 at 11:25:42 +0100
+Updated on 2022-07-28 at 14:01:08 +0100
