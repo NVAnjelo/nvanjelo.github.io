@@ -14,19 +14,19 @@ description: "[Documentation update required.]"
 
 | Name           |
 | -------------- |
-| **[Rivet](http://example.org/namespaces/namespacerivet/)**  |
+| **[Rivet](/documentation/code/namespaces/namespacerivet/)**  |
 
 ## Classes
 
 |                | Name           |
 | -------------- | -------------- |
-| class | **[Rivet::Projection](http://example.org/classes/classrivet_1_1projection/)** <br>Base class for all <a href="http://example.org/namespaces/namespacerivet/">Rivet</a> projections.  |
+| class | **[Rivet::Projection](/documentation/code/classes/classrivet_1_1projection/)** <br>Base class for all <a href="/documentation/code/namespaces/namespacerivet/">Rivet</a> projections.  |
 
 ## Defines
 
 |                | Name           |
 | -------------- | -------------- |
-|  | **[DEFAULT_RIVET_PROJ_CLONE](http://example.org/files/projection_8hh/#define-default-rivet-proj-clone)**(clsname)  |
+|  | **[DEFAULT_RIVET_PROJ_CLONE](/documentation/code/files/projection_8hh/#define-default-rivet-proj-clone)**(clsname)  |
 
 
 
@@ -178,4 +178,4 @@ inline bool std::less<const Rivet::Projection *>::operator()(const Rivet::Projec
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

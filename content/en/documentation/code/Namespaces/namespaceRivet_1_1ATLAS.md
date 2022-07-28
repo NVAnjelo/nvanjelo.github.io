@@ -13,9 +13,9 @@ Common projections for ATLAS trigger conditions and centrality.
 
 |                | Name           |
 | -------------- | -------------- |
-| class | **[Rivet::ATLAS::MinBiasTrigger](http://example.org/classes/classrivet_1_1atlas_1_1minbiastrigger/)** <br><a href="http://example.org/namespaces/namespacerivet_1_1atlas/">ATLAS</a> min bias trigger conditions.  |
-| class | **[Rivet::ATLAS::SumET_PB_Centrality](http://example.org/classes/classrivet_1_1atlas_1_1sumet__pb__centrality/)** <br>Centrality projection for pPb collisions (one sided)  |
-| class | **[Rivet::ATLAS::SumET_PBPB_Centrality](http://example.org/classes/classrivet_1_1atlas_1_1sumet__pbpb__centrality/)** <br>Centrality projection for PbPb collisions (two sided)  |
+| class | **[Rivet::ATLAS::MinBiasTrigger](/documentation/code/classes/classrivet_1_1atlas_1_1minbiastrigger/)** <br><a href="/documentation/code/namespaces/namespacerivet_1_1atlas/">ATLAS</a> min bias trigger conditions.  |
+| class | **[Rivet::ATLAS::SumET_PB_Centrality](/documentation/code/classes/classrivet_1_1atlas_1_1sumet__pb__centrality/)** <br>Centrality projection for pPb collisions (one sided)  |
+| class | **[Rivet::ATLAS::SumET_PBPB_Centrality](/documentation/code/classes/classrivet_1_1atlas_1_1sumet__pbpb__centrality/)** <br>Centrality projection for PbPb collisions (two sided)  |
 
 
 
@@ -24,4 +24,4 @@ Common projections for ATLAS trigger conditions and centrality.
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

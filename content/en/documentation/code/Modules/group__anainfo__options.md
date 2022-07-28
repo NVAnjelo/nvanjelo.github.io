@@ -14,10 +14,10 @@ description: "[Documentation update required.]"
 
 |                | Name           |
 | -------------- | -------------- |
-| const std::vector< std::string > & | **[options](http://example.org/modules/group__anainfo__options/#function-options)**() const<br>Get the option list.  |
-| bool | **[validOption](http://example.org/modules/group__anainfo__options/#function-validoption)**(std::string key, std::string val) const<br>Check if the given option is valid.  |
-| void | **[setOptions](http://example.org/modules/group__anainfo__options/#function-setoptions)**(const std::vector< std::string > & opts)<br>Set the option list.  |
-| void | **[buildOptionMap](http://example.org/modules/group__anainfo__options/#function-buildoptionmap)**()<br>Build a map of options to facilitate checking.  |
+| const std::vector< std::string > & | **[options](/documentation/code/modules/group__anainfo__options/#function-options)**() const<br>Get the option list.  |
+| bool | **[validOption](/documentation/code/modules/group__anainfo__options/#function-validoption)**(std::string key, std::string val) const<br>Check if the given option is valid.  |
+| void | **[setOptions](/documentation/code/modules/group__anainfo__options/#function-setoptions)**(const std::vector< std::string > & opts)<br>Set the option list.  |
+| void | **[buildOptionMap](/documentation/code/modules/group__anainfo__options/#function-buildoptionmap)**()<br>Build a map of options to facilitate checking.  |
 
 
 ## Functions Documentation
@@ -65,4 +65,4 @@ Build a map of options to facilitate checking.
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

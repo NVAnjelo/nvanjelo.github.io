@@ -18,27 +18,27 @@ A helper class to calculate all event averages of correlators.  [More...](#detai
 
 |                | Name           |
 | -------------- | -------------- |
-| | **[ECorrelator](http://example.org/classes/classrivet_1_1cumulantanalysis_1_1ecorrelator/#function-ecorrelator)**(vector< int > h, vector< double > binIn)<br>Constructor. Takes as argument the desired harmonic and number of correlated particles as a generic framework style vector, eg, {2, -2} for <<2>>_2, no binning.  |
-| | **[ECorrelator](http://example.org/classes/classrivet_1_1cumulantanalysis_1_1ecorrelator/#function-ecorrelator)**(vector< int > h1In, vector< int > h2In, vector< double > binIn)<br>Constructor for gapped correlator.  |
-| void | **[fill](http://example.org/classes/classrivet_1_1cumulantanalysis_1_1ecorrelator/#function-fill)**(const double & obs, const <a href="http://example.org/classes/classrivet_1_1correlators/">Correlators</a> & c, double weight =1.0)<br>Fill the appropriate bin given an input (per event) observable, e.g. centrality.  |
-| void | **[fill](http://example.org/classes/classrivet_1_1cumulantanalysis_1_1ecorrelator/#function-fill)**(const double & obs, const <a href="http://example.org/classes/classrivet_1_1correlators/">Correlators</a> & c1, const <a href="http://example.org/classes/classrivet_1_1correlators/">Correlators</a> & c2, double weight =1.0)<br>Fill the appropriate bin given an input (per event) observable, e.g. centrality, with a rapidity gap between two <a href="http://example.org/classes/classrivet_1_1correlators/">Correlators</a>.  |
-| void | **[fill](http://example.org/classes/classrivet_1_1cumulantanalysis_1_1ecorrelator/#function-fill)**(const <a href="http://example.org/classes/classrivet_1_1correlators/">Correlators</a> & c, const double & weight =1.0)<br>Fill the bins with the appropriate correlator.  |
-| void | **[fill](http://example.org/classes/classrivet_1_1cumulantanalysis_1_1ecorrelator/#function-fill)**(const <a href="http://example.org/classes/classrivet_1_1correlators/">Correlators</a> & c1, const <a href="http://example.org/classes/classrivet_1_1correlators/">Correlators</a> & c2, const double & weight =1.0)<br>Fill bins with the appropriate correlator, and a rapidity gap between two <a href="http://example.org/classes/classrivet_1_1correlators/">Correlators</a>.  |
-| vector< CorBin > | **[getBins](http://example.org/classes/classrivet_1_1cumulantanalysis_1_1ecorrelator/#function-getbins)**() const<br>Get a copy of the bin contents.  |
-| vector< CorBinBase * > | **[getBinPtrs](http://example.org/classes/classrivet_1_1cumulantanalysis_1_1ecorrelator/#function-getbinptrs)**()<br>Return the bins as pointers to the base class.  |
-| vector< double > | **[getBinX](http://example.org/classes/classrivet_1_1cumulantanalysis_1_1ecorrelator/#function-getbinx)**() const<br>Get a copy of the bin x-values.  |
-| vector< int > | **[getH1](http://example.org/classes/classrivet_1_1cumulantanalysis_1_1ecorrelator/#function-geth1)**() const<br>Get a copy of the _h1_ harmonic vector.  |
-| vector< int > | **[getH2](http://example.org/classes/classrivet_1_1cumulantanalysis_1_1ecorrelator/#function-geth2)**() const<br>Get a copy of the _h2_ harmonic vector.  |
-| void | **[setReference](http://example.org/classes/classrivet_1_1cumulantanalysis_1_1ecorrelator/#function-setreference)**(CorBin refIn)<br>Replace reference flow bin with another, e.g. calculated in another phase space or with other pid.  |
-| CorBin | **[getReference](http://example.org/classes/classrivet_1_1cumulantanalysis_1_1ecorrelator/#function-getreference)**() const<br>Extract the reference flow from a differential event averaged correlator.  |
-| void | **[setProfs](http://example.org/classes/classrivet_1_1cumulantanalysis_1_1ecorrelator/#function-setprofs)**(vector< string > prIn)<br>Set the _prIn_ list of profile histograms associated with the internal bins.  |
-| bool | **[fillFromProfile](http://example.org/classes/classrivet_1_1cumulantanalysis_1_1ecorrelator/#function-fillfromprofile)**(YODA::AnalysisObjectPtr yao, string name)<br>Fill bins with content from preloaded histograms.  |
+| | **[ECorrelator](/documentation/code/classes/classrivet_1_1cumulantanalysis_1_1ecorrelator/#function-ecorrelator)**(vector< int > h, vector< double > binIn)<br>Constructor. Takes as argument the desired harmonic and number of correlated particles as a generic framework style vector, eg, {2, -2} for <<2>>_2, no binning.  |
+| | **[ECorrelator](/documentation/code/classes/classrivet_1_1cumulantanalysis_1_1ecorrelator/#function-ecorrelator)**(vector< int > h1In, vector< int > h2In, vector< double > binIn)<br>Constructor for gapped correlator.  |
+| void | **[fill](/documentation/code/classes/classrivet_1_1cumulantanalysis_1_1ecorrelator/#function-fill)**(const double & obs, const <a href="/documentation/code/classes/classrivet_1_1correlators/">Correlators</a> & c, double weight =1.0)<br>Fill the appropriate bin given an input (per event) observable, e.g. centrality.  |
+| void | **[fill](/documentation/code/classes/classrivet_1_1cumulantanalysis_1_1ecorrelator/#function-fill)**(const double & obs, const <a href="/documentation/code/classes/classrivet_1_1correlators/">Correlators</a> & c1, const <a href="/documentation/code/classes/classrivet_1_1correlators/">Correlators</a> & c2, double weight =1.0)<br>Fill the appropriate bin given an input (per event) observable, e.g. centrality, with a rapidity gap between two <a href="/documentation/code/classes/classrivet_1_1correlators/">Correlators</a>.  |
+| void | **[fill](/documentation/code/classes/classrivet_1_1cumulantanalysis_1_1ecorrelator/#function-fill)**(const <a href="/documentation/code/classes/classrivet_1_1correlators/">Correlators</a> & c, const double & weight =1.0)<br>Fill the bins with the appropriate correlator.  |
+| void | **[fill](/documentation/code/classes/classrivet_1_1cumulantanalysis_1_1ecorrelator/#function-fill)**(const <a href="/documentation/code/classes/classrivet_1_1correlators/">Correlators</a> & c1, const <a href="/documentation/code/classes/classrivet_1_1correlators/">Correlators</a> & c2, const double & weight =1.0)<br>Fill bins with the appropriate correlator, and a rapidity gap between two <a href="/documentation/code/classes/classrivet_1_1correlators/">Correlators</a>.  |
+| vector< CorBin > | **[getBins](/documentation/code/classes/classrivet_1_1cumulantanalysis_1_1ecorrelator/#function-getbins)**() const<br>Get a copy of the bin contents.  |
+| vector< CorBinBase * > | **[getBinPtrs](/documentation/code/classes/classrivet_1_1cumulantanalysis_1_1ecorrelator/#function-getbinptrs)**()<br>Return the bins as pointers to the base class.  |
+| vector< double > | **[getBinX](/documentation/code/classes/classrivet_1_1cumulantanalysis_1_1ecorrelator/#function-getbinx)**() const<br>Get a copy of the bin x-values.  |
+| vector< int > | **[getH1](/documentation/code/classes/classrivet_1_1cumulantanalysis_1_1ecorrelator/#function-geth1)**() const<br>Get a copy of the _h1_ harmonic vector.  |
+| vector< int > | **[getH2](/documentation/code/classes/classrivet_1_1cumulantanalysis_1_1ecorrelator/#function-geth2)**() const<br>Get a copy of the _h2_ harmonic vector.  |
+| void | **[setReference](/documentation/code/classes/classrivet_1_1cumulantanalysis_1_1ecorrelator/#function-setreference)**(CorBin refIn)<br>Replace reference flow bin with another, e.g. calculated in another phase space or with other pid.  |
+| CorBin | **[getReference](/documentation/code/classes/classrivet_1_1cumulantanalysis_1_1ecorrelator/#function-getreference)**() const<br>Extract the reference flow from a differential event averaged correlator.  |
+| void | **[setProfs](/documentation/code/classes/classrivet_1_1cumulantanalysis_1_1ecorrelator/#function-setprofs)**(vector< string > prIn)<br>Set the _prIn_ list of profile histograms associated with the internal bins.  |
+| bool | **[fillFromProfile](/documentation/code/classes/classrivet_1_1cumulantanalysis_1_1ecorrelator/#function-fillfromprofile)**(YODA::AnalysisObjectPtr yao, string name)<br>Fill bins with content from preloaded histograms.  |
 
 ## Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
-| vector< string > | **[profs](http://example.org/classes/classrivet_1_1cumulantanalysis_1_1ecorrelator/#variable-profs)**  |
+| vector< string > | **[profs](/documentation/code/classes/classrivet_1_1cumulantanalysis_1_1ecorrelator/#variable-profs)**  |
 
 ## Detailed Description
 
@@ -110,7 +110,7 @@ inline void fill(
 )
 ```
 
-Fill the appropriate bin given an input (per event) observable, e.g. centrality, with a rapidity gap between two <a href="http://example.org/classes/classrivet_1_1correlators/">Correlators</a>. 
+Fill the appropriate bin given an input (per event) observable, e.g. centrality, with a rapidity gap between two <a href="/documentation/code/classes/classrivet_1_1correlators/">Correlators</a>. 
 
 ### function fill
 
@@ -123,7 +123,7 @@ inline void fill(
 
 Fill the bins with the appropriate correlator. 
 
-Takes the binning directly from the <a href="http://example.org/classes/classrivet_1_1correlators/">Correlators</a> object, and fills also the reference flow. 
+Takes the binning directly from the <a href="/documentation/code/classes/classrivet_1_1correlators/">Correlators</a> object, and fills also the reference flow. 
 
 
 ### function fill
@@ -136,9 +136,9 @@ inline void fill(
 )
 ```
 
-Fill bins with the appropriate correlator, and a rapidity gap between two <a href="http://example.org/classes/classrivet_1_1correlators/">Correlators</a>. 
+Fill bins with the appropriate correlator, and a rapidity gap between two <a href="/documentation/code/classes/classrivet_1_1correlators/">Correlators</a>. 
 
-Takes the binning directly from the <a href="http://example.org/classes/classrivet_1_1correlators/">Correlators</a> object, and also the reference flow. 
+Takes the binning directly from the <a href="/documentation/code/classes/classrivet_1_1correlators/">Correlators</a> object, and also the reference flow. 
 
 
 ### function getBins
@@ -231,4 +231,4 @@ vector< string > profs;
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:08 +0100
+Updated on 2022-07-28 at 18:36:45 +0100

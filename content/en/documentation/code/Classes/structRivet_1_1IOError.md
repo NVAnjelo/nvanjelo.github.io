@@ -9,28 +9,28 @@ description: "Error for I/O failures. "
 
 
 
-<a href="http://example.org/classes/structrivet_1_1error/">Error</a> for I/O failures. 
+<a href="/documentation/code/classes/structrivet_1_1error/">Error</a> for I/O failures. 
 
 
 `#include <Exceptions.hh>`
 
-Inherits from [Rivet::Error](http://example.org/classes/structrivet_1_1error/), std::runtime_error
+Inherits from [Rivet::Error](/documentation/code/classes/structrivet_1_1error/), std::runtime_error
 
-Inherited by [Rivet::ReadError](http://example.org/classes/structrivet_1_1readerror/), [Rivet::WriteError](http://example.org/classes/structrivet_1_1writeerror/)
+Inherited by [Rivet::ReadError](/documentation/code/classes/structrivet_1_1readerror/), [Rivet::WriteError](/documentation/code/classes/structrivet_1_1writeerror/)
 
 ## Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
-| | **[IOError](http://example.org/classes/structrivet_1_1ioerror/#function-ioerror)**(const std::string & what) |
+| | **[IOError](/documentation/code/classes/structrivet_1_1ioerror/#function-ioerror)**(const std::string & what) |
 
 ## Additional inherited members
 
-**Public Functions inherited from [Rivet::Error](http://example.org/classes/structrivet_1_1error/)**
+**Public Functions inherited from [Rivet::Error](/documentation/code/classes/structrivet_1_1error/)**
 
 |                | Name           |
 | -------------- | -------------- |
-| | **[Error](http://example.org/classes/structrivet_1_1error/#function-error)**(const std::string & what) |
+| | **[Error](/documentation/code/classes/structrivet_1_1error/#function-error)**(const std::string & what) |
 
 
 ## Public Functions Documentation
@@ -46,4 +46,4 @@ inline IOError(
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:08 +0100
+Updated on 2022-07-28 at 18:36:46 +0100

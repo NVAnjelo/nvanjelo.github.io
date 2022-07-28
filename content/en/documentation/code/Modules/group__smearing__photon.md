@@ -8,7 +8,7 @@ description: "[Documentation update required.]"
 
 # Experiment-specific photon efficiency and smearing functions
 
-**Module:** **[Detector smearing & efficiency functions](http://example.org/modules/group__smearing/)**
+**Module:** **[Detector smearing & efficiency functions](/documentation/code/modules/group__smearing/)**
 
 
 
@@ -16,14 +16,14 @@ description: "[Documentation update required.]"
 
 |                | Name           |
 | -------------- | -------------- |
-| double | **[PHOTON_EFF_ATLAS_RUN1](http://example.org/modules/group__smearing__photon/#function-photon-eff-atlas-run1)**(const Particle & y)<br><a href="http://example.org/namespaces/namespacerivet_1_1atlas/">ATLAS</a><a href="http://example.org/classes/classrivet_1_1run/">Run</a> 2 photon reco efficiency.  |
-| double | **[PHOTON_EFF_ATLAS_RUN2](http://example.org/modules/group__smearing__photon/#function-photon-eff-atlas-run2)**(const Particle & y)<br><a href="http://example.org/namespaces/namespacerivet_1_1atlas/">ATLAS</a><a href="http://example.org/classes/classrivet_1_1run/">Run</a> 2 photon reco efficiency.  |
-| double | **[PHOTON_EFF_CMS_RUN1](http://example.org/modules/group__smearing__photon/#function-photon-eff-cms-run1)**(const Particle & y) |
-| double | **[PHOTON_EFF_CMS_RUN2](http://example.org/modules/group__smearing__photon/#function-photon-eff-cms-run2)**(const Particle & y) |
-| Particle | **[PHOTON_SMEAR_ATLAS_RUN1](http://example.org/modules/group__smearing__photon/#function-photon-smear-atlas-run1)**(const Particle & y) |
-| Particle | **[PHOTON_SMEAR_ATLAS_RUN2](http://example.org/modules/group__smearing__photon/#function-photon-smear-atlas-run2)**(const Particle & y) |
-| Particle | **[PHOTON_SMEAR_CMS_RUN1](http://example.org/modules/group__smearing__photon/#function-photon-smear-cms-run1)**(const Particle & y) |
-| Particle | **[PHOTON_SMEAR_CMS_RUN2](http://example.org/modules/group__smearing__photon/#function-photon-smear-cms-run2)**(const Particle & y) |
+| double | **[PHOTON_EFF_ATLAS_RUN1](/documentation/code/modules/group__smearing__photon/#function-photon-eff-atlas-run1)**(const Particle & y)<br><a href="/documentation/code/namespaces/namespacerivet_1_1atlas/">ATLAS</a><a href="/documentation/code/classes/classrivet_1_1run/">Run</a> 2 photon reco efficiency.  |
+| double | **[PHOTON_EFF_ATLAS_RUN2](/documentation/code/modules/group__smearing__photon/#function-photon-eff-atlas-run2)**(const Particle & y)<br><a href="/documentation/code/namespaces/namespacerivet_1_1atlas/">ATLAS</a><a href="/documentation/code/classes/classrivet_1_1run/">Run</a> 2 photon reco efficiency.  |
+| double | **[PHOTON_EFF_CMS_RUN1](/documentation/code/modules/group__smearing__photon/#function-photon-eff-cms-run1)**(const Particle & y) |
+| double | **[PHOTON_EFF_CMS_RUN2](/documentation/code/modules/group__smearing__photon/#function-photon-eff-cms-run2)**(const Particle & y) |
+| Particle | **[PHOTON_SMEAR_ATLAS_RUN1](/documentation/code/modules/group__smearing__photon/#function-photon-smear-atlas-run1)**(const Particle & y) |
+| Particle | **[PHOTON_SMEAR_ATLAS_RUN2](/documentation/code/modules/group__smearing__photon/#function-photon-smear-atlas-run2)**(const Particle & y) |
+| Particle | **[PHOTON_SMEAR_CMS_RUN1](/documentation/code/modules/group__smearing__photon/#function-photon-smear-cms-run1)**(const Particle & y) |
+| Particle | **[PHOTON_SMEAR_CMS_RUN2](/documentation/code/modules/group__smearing__photon/#function-photon-smear-cms-run2)**(const Particle & y) |
 
 
 ## Functions Documentation
@@ -36,7 +36,7 @@ inline double PHOTON_EFF_ATLAS_RUN1(
 )
 ```
 
-<a href="http://example.org/namespaces/namespacerivet_1_1atlas/">ATLAS</a><a href="http://example.org/classes/classrivet_1_1run/">Run</a> 2 photon reco efficiency. 
+<a href="/documentation/code/namespaces/namespacerivet_1_1atlas/">ATLAS</a><a href="/documentation/code/classes/classrivet_1_1run/">Run</a> 2 photon reco efficiency. 
 
 Taken from converted photons, Fig 8, in arXiv:1606.01813 
 
@@ -52,7 +52,7 @@ inline double PHOTON_EFF_ATLAS_RUN2(
 )
 ```
 
-<a href="http://example.org/namespaces/namespacerivet_1_1atlas/">ATLAS</a><a href="http://example.org/classes/classrivet_1_1run/">Run</a> 2 photon reco efficiency. 
+<a href="/documentation/code/namespaces/namespacerivet_1_1atlas/">ATLAS</a><a href="/documentation/code/classes/classrivet_1_1run/">Run</a> 2 photon reco efficiency. 
 
 Taken from converted photons, Fig 6, in ATL-PHYS-PUB-2016-014 
 
@@ -71,7 +71,7 @@ inline double PHOTON_EFF_CMS_RUN1(
 
 **Todo**: Currently from Delphes 
 
-CMS <a href="http://example.org/classes/classrivet_1_1run/">Run</a> 1 photon reco efficiency 
+CMS <a href="/documentation/code/classes/classrivet_1_1run/">Run</a> 1 photon reco efficiency 
 
 
 < TodoAllow electron misID? What about jet misID? 
@@ -86,9 +86,9 @@ inline double PHOTON_EFF_CMS_RUN2(
 ```
 
 
-**Todo**: Currently just a copy of <a href="http://example.org/classes/classrivet_1_1run/">Run</a> 1: fix! 
+**Todo**: Currently just a copy of <a href="/documentation/code/classes/classrivet_1_1run/">Run</a> 1: fix! 
 
-CMS <a href="http://example.org/classes/classrivet_1_1run/">Run</a> 2 photon reco efficiency 
+CMS <a href="/documentation/code/classes/classrivet_1_1run/">Run</a> 2 photon reco efficiency 
 
 
 < TodoAllow electron misID? What about jet misID? 
@@ -138,4 +138,4 @@ inline Particle PHOTON_SMEAR_CMS_RUN2(
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

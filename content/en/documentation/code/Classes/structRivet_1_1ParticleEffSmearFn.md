@@ -7,7 +7,7 @@ description: "Functor for simultaneous efficiency-filtering and smearing of Part
 
 # Rivet::ParticleEffSmearFn
 
-**Module:** **[Detector smearing & efficiency functions](http://example.org/modules/group__smearing/)** **/** **[Generic jet filtering, efficiency and smearing utils](http://example.org/modules/group__smearing__particle/)**
+**Module:** **[Detector smearing & efficiency functions](/documentation/code/modules/group__smearing/)** **/** **[Generic jet filtering, efficiency and smearing utils](/documentation/code/modules/group__smearing__particle/)**
 
 
 
@@ -20,22 +20,22 @@ Functor for simultaneous efficiency-filtering and smearing of Particles.  [More.
 
 |                | Name           |
 | -------------- | -------------- |
-| | **[ParticleEffSmearFn](http://example.org/classes/structrivet_1_1particleeffsmearfn/#function-particleeffsmearfn)**(const <a href="http://example.org/modules/group__smearing__particle/#typedef-particlesmearfn">ParticleSmearFn</a> & s, const <a href="http://example.org/modules/group__smearing__particle/#typedef-particleefffn">ParticleEffFn</a> & e) |
-| | **[ParticleEffSmearFn](http://example.org/classes/structrivet_1_1particleeffsmearfn/#function-particleeffsmearfn)**(const <a href="http://example.org/modules/group__smearing__particle/#typedef-particleefffn">ParticleEffFn</a> & e, const <a href="http://example.org/modules/group__smearing__particle/#typedef-particlesmearfn">ParticleSmearFn</a> & s) |
-| | **[ParticleEffSmearFn](http://example.org/classes/structrivet_1_1particleeffsmearfn/#function-particleeffsmearfn)**(const <a href="http://example.org/modules/group__smearing__particle/#typedef-particlesmearfn">ParticleSmearFn</a> & s) |
-| | **[ParticleEffSmearFn](http://example.org/classes/structrivet_1_1particleeffsmearfn/#function-particleeffsmearfn)**(const <a href="http://example.org/modules/group__smearing__particle/#typedef-particleefffn">ParticleEffFn</a> & e) |
-| | **[ParticleEffSmearFn](http://example.org/classes/structrivet_1_1particleeffsmearfn/#function-particleeffsmearfn)**(double eff) |
-| pair< <a href="http://example.org/classes/classrivet_1_1particle/">Particle</a>, double > | **[operator()](http://example.org/classes/structrivet_1_1particleeffsmearfn/#function-operator())**(const <a href="http://example.org/classes/classrivet_1_1particle/">Particle</a> & p) const<br>Smear and calculate an efficiency for the given particle.  |
-| CmpState | **[cmp](http://example.org/classes/structrivet_1_1particleeffsmearfn/#function-cmp)**(const <a href="http://example.org/classes/structrivet_1_1particleeffsmearfn/">ParticleEffSmearFn</a> & other) const<br>Compare to another, for use in the projection system.  |
-| | **[operator ParticleSmearFn](http://example.org/classes/structrivet_1_1particleeffsmearfn/#function-operator-particlesmearfn)**()<br>Automatic conversion to a smearing function.  |
-| | **[operator ParticleEffFn](http://example.org/classes/structrivet_1_1particleeffsmearfn/#function-operator-particleefffn)**()<br>Automatic conversion to an efficiency function.  |
+| | **[ParticleEffSmearFn](/documentation/code/classes/structrivet_1_1particleeffsmearfn/#function-particleeffsmearfn)**(const <a href="/documentation/code/modules/group__smearing__particle/#typedef-particlesmearfn">ParticleSmearFn</a> & s, const <a href="/documentation/code/modules/group__smearing__particle/#typedef-particleefffn">ParticleEffFn</a> & e) |
+| | **[ParticleEffSmearFn](/documentation/code/classes/structrivet_1_1particleeffsmearfn/#function-particleeffsmearfn)**(const <a href="/documentation/code/modules/group__smearing__particle/#typedef-particleefffn">ParticleEffFn</a> & e, const <a href="/documentation/code/modules/group__smearing__particle/#typedef-particlesmearfn">ParticleSmearFn</a> & s) |
+| | **[ParticleEffSmearFn](/documentation/code/classes/structrivet_1_1particleeffsmearfn/#function-particleeffsmearfn)**(const <a href="/documentation/code/modules/group__smearing__particle/#typedef-particlesmearfn">ParticleSmearFn</a> & s) |
+| | **[ParticleEffSmearFn](/documentation/code/classes/structrivet_1_1particleeffsmearfn/#function-particleeffsmearfn)**(const <a href="/documentation/code/modules/group__smearing__particle/#typedef-particleefffn">ParticleEffFn</a> & e) |
+| | **[ParticleEffSmearFn](/documentation/code/classes/structrivet_1_1particleeffsmearfn/#function-particleeffsmearfn)**(double eff) |
+| pair< <a href="/documentation/code/classes/classrivet_1_1particle/">Particle</a>, double > | **[operator()](/documentation/code/classes/structrivet_1_1particleeffsmearfn/#function-operator())**(const <a href="/documentation/code/classes/classrivet_1_1particle/">Particle</a> & p) const<br>Smear and calculate an efficiency for the given particle.  |
+| CmpState | **[cmp](/documentation/code/classes/structrivet_1_1particleeffsmearfn/#function-cmp)**(const <a href="/documentation/code/classes/structrivet_1_1particleeffsmearfn/">ParticleEffSmearFn</a> & other) const<br>Compare to another, for use in the projection system.  |
+| | **[operator ParticleSmearFn](/documentation/code/classes/structrivet_1_1particleeffsmearfn/#function-operator-particlesmearfn)**()<br>Automatic conversion to a smearing function.  |
+| | **[operator ParticleEffFn](/documentation/code/classes/structrivet_1_1particleeffsmearfn/#function-operator-particleefffn)**()<br>Automatic conversion to an efficiency function.  |
 
 ## Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
-| const <a href="http://example.org/modules/group__smearing__particle/#typedef-particlesmearfn">ParticleSmearFn</a> | **[sfn](http://example.org/classes/structrivet_1_1particleeffsmearfn/#variable-sfn)**  |
-| const <a href="http://example.org/modules/group__smearing__particle/#typedef-particleefffn">ParticleEffFn</a> | **[efn](http://example.org/classes/structrivet_1_1particleeffsmearfn/#variable-efn)**  |
+| const <a href="/documentation/code/modules/group__smearing__particle/#typedef-particlesmearfn">ParticleSmearFn</a> | **[sfn](/documentation/code/classes/structrivet_1_1particleeffsmearfn/#variable-sfn)**  |
+| const <a href="/documentation/code/modules/group__smearing__particle/#typedef-particleefffn">ParticleEffFn</a> | **[efn](/documentation/code/classes/structrivet_1_1particleeffsmearfn/#variable-efn)**  |
 
 ## Detailed Description
 
@@ -45,7 +45,7 @@ struct Rivet::ParticleEffSmearFn;
 
 Functor for simultaneous efficiency-filtering and smearing of Particles. 
 
-A central element of the <a href="http://example.org/classes/classrivet_1_1smearedparticles/">SmearedParticles</a> system 
+A central element of the <a href="/documentation/code/classes/classrivet_1_1smearedparticles/">SmearedParticles</a> system 
 
 ## Public Functions Documentation
 
@@ -150,4 +150,4 @@ const ParticleEffFn efn;
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

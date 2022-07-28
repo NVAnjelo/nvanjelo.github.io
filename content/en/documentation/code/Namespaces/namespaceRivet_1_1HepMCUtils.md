@@ -14,23 +14,23 @@ description: "[Documentation update required.]"
 
 |                | Name           |
 | -------------- | -------------- |
-| ConstGenParticlePtr | **[getParticlePtr](http://example.org/namespaces/namespacerivet_1_1hepmcutils/#function-getparticleptr)**(const RivetHepMC::GenParticle & gp) |
-| std::vector< ConstGenParticlePtr > | **[particles](http://example.org/namespaces/namespacerivet_1_1hepmcutils/#function-particles)**(ConstGenEventPtr ge) |
-| std::vector< ConstGenParticlePtr > | **[particles](http://example.org/namespaces/namespacerivet_1_1hepmcutils/#function-particles)**(const GenEvent * ge) |
-| std::vector< ConstGenVertexPtr > | **[vertices](http://example.org/namespaces/namespacerivet_1_1hepmcutils/#function-vertices)**(ConstGenEventPtr ge) |
-| std::vector< ConstGenVertexPtr > | **[vertices](http://example.org/namespaces/namespacerivet_1_1hepmcutils/#function-vertices)**(const GenEvent * ge) |
-| std::vector< ConstGenParticlePtr > | **[particles](http://example.org/namespaces/namespacerivet_1_1hepmcutils/#function-particles)**(ConstGenVertexPtr gv, const Relatives & relo) |
-| std::vector< ConstGenParticlePtr > | **[particles](http://example.org/namespaces/namespacerivet_1_1hepmcutils/#function-particles)**(ConstGenParticlePtr gp, const Relatives & relo) |
-| int | **[uniqueId](http://example.org/namespaces/namespacerivet_1_1hepmcutils/#function-uniqueid)**(ConstGenParticlePtr gp) |
-| int | **[particles_size](http://example.org/namespaces/namespacerivet_1_1hepmcutils/#function-particles-size)**(ConstGenEventPtr ge) |
-| int | **[particles_size](http://example.org/namespaces/namespacerivet_1_1hepmcutils/#function-particles-size)**(const GenEvent * ge) |
-| std::pair< ConstGenParticlePtr, ConstGenParticlePtr > | **[beams](http://example.org/namespaces/namespacerivet_1_1hepmcutils/#function-beams)**(const GenEvent * ge) |
-| std::shared_ptr< HepMC_IO_type > | **[makeReader](http://example.org/namespaces/namespacerivet_1_1hepmcutils/#function-makereader)**(std::string filename, std::shared_ptr< std::istream > & istrp, std::string * errm =0) |
-| bool | **[readEvent](http://example.org/namespaces/namespacerivet_1_1hepmcutils/#function-readevent)**(std::shared_ptr< HepMC_IO_type > io, std::shared_ptr< GenEvent > evt) |
-| void | **[strip](http://example.org/namespaces/namespacerivet_1_1hepmcutils/#function-strip)**(GenEvent & ge, const set< long > & stripid ={1, -1, 2, -2, 3,-3, 21}) |
-| vector< string > | **[weightNames](http://example.org/namespaces/namespacerivet_1_1hepmcutils/#function-weightnames)**(const GenEvent & ge) |
-| std::valarray< double > | **[weights](http://example.org/namespaces/namespacerivet_1_1hepmcutils/#function-weights)**(const GenEvent & ge) |
-| pair< double, double > | **[crossSection](http://example.org/namespaces/namespacerivet_1_1hepmcutils/#function-crosssection)**(const GenEvent & ge, size_t index =0) |
+| ConstGenParticlePtr | **[getParticlePtr](/documentation/code/namespaces/namespacerivet_1_1hepmcutils/#function-getparticleptr)**(const RivetHepMC::GenParticle & gp) |
+| std::vector< ConstGenParticlePtr > | **[particles](/documentation/code/namespaces/namespacerivet_1_1hepmcutils/#function-particles)**(ConstGenEventPtr ge) |
+| std::vector< ConstGenParticlePtr > | **[particles](/documentation/code/namespaces/namespacerivet_1_1hepmcutils/#function-particles)**(const GenEvent * ge) |
+| std::vector< ConstGenVertexPtr > | **[vertices](/documentation/code/namespaces/namespacerivet_1_1hepmcutils/#function-vertices)**(ConstGenEventPtr ge) |
+| std::vector< ConstGenVertexPtr > | **[vertices](/documentation/code/namespaces/namespacerivet_1_1hepmcutils/#function-vertices)**(const GenEvent * ge) |
+| std::vector< ConstGenParticlePtr > | **[particles](/documentation/code/namespaces/namespacerivet_1_1hepmcutils/#function-particles)**(ConstGenVertexPtr gv, const Relatives & relo) |
+| std::vector< ConstGenParticlePtr > | **[particles](/documentation/code/namespaces/namespacerivet_1_1hepmcutils/#function-particles)**(ConstGenParticlePtr gp, const Relatives & relo) |
+| int | **[uniqueId](/documentation/code/namespaces/namespacerivet_1_1hepmcutils/#function-uniqueid)**(ConstGenParticlePtr gp) |
+| int | **[particles_size](/documentation/code/namespaces/namespacerivet_1_1hepmcutils/#function-particles-size)**(ConstGenEventPtr ge) |
+| int | **[particles_size](/documentation/code/namespaces/namespacerivet_1_1hepmcutils/#function-particles-size)**(const GenEvent * ge) |
+| std::pair< ConstGenParticlePtr, ConstGenParticlePtr > | **[beams](/documentation/code/namespaces/namespacerivet_1_1hepmcutils/#function-beams)**(const GenEvent * ge) |
+| std::shared_ptr< HepMC_IO_type > | **[makeReader](/documentation/code/namespaces/namespacerivet_1_1hepmcutils/#function-makereader)**(std::string filename, std::shared_ptr< std::istream > & istrp, std::string * errm =0) |
+| bool | **[readEvent](/documentation/code/namespaces/namespacerivet_1_1hepmcutils/#function-readevent)**(std::shared_ptr< HepMC_IO_type > io, std::shared_ptr< GenEvent > evt) |
+| void | **[strip](/documentation/code/namespaces/namespacerivet_1_1hepmcutils/#function-strip)**(GenEvent & ge, const set< long > & stripid ={1, -1, 2, -2, 3,-3, 21}) |
+| vector< string > | **[weightNames](/documentation/code/namespaces/namespacerivet_1_1hepmcutils/#function-weightnames)**(const GenEvent & ge) |
+| std::valarray< double > | **[weights](/documentation/code/namespaces/namespacerivet_1_1hepmcutils/#function-weights)**(const GenEvent & ge) |
+| pair< double, double > | **[crossSection](/documentation/code/namespaces/namespacerivet_1_1hepmcutils/#function-crosssection)**(const GenEvent & ge, size_t index =0) |
 
 ## Detailed Description
 
@@ -205,4 +205,4 @@ pair< double, double > crossSection(
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

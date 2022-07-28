@@ -14,15 +14,15 @@ description: "[Documentation update required.]"
 
 | Name           |
 | -------------- |
-| **[Rivet](http://example.org/namespaces/namespacerivet/)**  |
+| **[Rivet](/documentation/code/namespaces/namespacerivet/)**  |
 
 ## Classes
 
 |                | Name           |
 | -------------- | -------------- |
-| struct | **[Rivet::PARTICLE_EFF_CONST](http://example.org/classes/structrivet_1_1particle__eff__const/)** <br>Take a <a href="http://example.org/classes/classrivet_1_1particle/">Particle</a> and return a constant number.  |
-| struct | **[Rivet::ParticleEffSmearFn](http://example.org/classes/structrivet_1_1particleeffsmearfn/)** <br>Functor for simultaneous efficiency-filtering and smearing of Particles.  |
-| struct | **[Rivet::ParticleEffFilter](http://example.org/classes/structrivet_1_1particleefffilter/)** <br>A functor to return true if <a href="http://example.org/classes/classrivet_1_1particle/">Particle</a>_p_ survives a random efficiency selection.  |
+| struct | **[Rivet::PARTICLE_EFF_CONST](/documentation/code/classes/structrivet_1_1particle__eff__const/)** <br>Take a <a href="/documentation/code/classes/classrivet_1_1particle/">Particle</a> and return a constant number.  |
+| struct | **[Rivet::ParticleEffSmearFn](/documentation/code/classes/structrivet_1_1particleeffsmearfn/)** <br>Functor for simultaneous efficiency-filtering and smearing of Particles.  |
+| struct | **[Rivet::ParticleEffFilter](/documentation/code/classes/structrivet_1_1particleefffilter/)** <br>A functor to return true if <a href="/documentation/code/classes/classrivet_1_1particle/">Particle</a>_p_ survives a random efficiency selection.  |
 
 
 
@@ -129,4 +129,4 @@ namespace Rivet {
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

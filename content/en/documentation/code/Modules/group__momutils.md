@@ -14,125 +14,125 @@ description: "[Documentation update required.]"
 
 | Name           |
 | -------------- |
-| **[4-vector comparison functions (for sorting)](http://example.org/modules/group__momutils__cmp/)**  |
+| **[4-vector comparison functions (for sorting)](/documentation/code/modules/group__momutils__cmp/)**  |
 
 ## Functions
 
 |                | Name           |
 | -------------- | -------------- |
-| FourMomentum & | **[setE](http://example.org/modules/group__momutils/#function-sete)**(double E)<br>Set energy \( E \) (time component of momentum).  |
-| FourMomentum & | **[setPx](http://example.org/modules/group__momutils/#function-setpx)**(double px)<br>Set x-component of momentum \( p_x \).  |
-| FourMomentum & | **[setPy](http://example.org/modules/group__momutils/#function-setpy)**(double py)<br>Set y-component of momentum \( p_y \).  |
-| FourMomentum & | **[setPz](http://example.org/modules/group__momutils/#function-setpz)**(double pz)<br>Set z-component of momentum \( p_z \).  |
-| FourMomentum & | **[setPE](http://example.org/modules/group__momutils/#function-setpe)**(double px, double py, double pz, double E)<br>Set the p coordinates and energy simultaneously.  |
-| FourMomentum & | **[setXYZE](http://example.org/modules/group__momutils/#function-setxyze)**(double px, double py, double pz, double E)<br>Alias for setPE.  |
-| FourMomentum & | **[setPM](http://example.org/modules/group__momutils/#function-setpm)**(double px, double py, double pz, double mass)<br>Set the p coordinates and mass simultaneously.  |
-| FourMomentum & | **[setXYZM](http://example.org/modules/group__momutils/#function-setxyzm)**(double px, double py, double pz, double mass)<br>Alias for setPM.  |
-| FourMomentum & | **[setEtaPhiME](http://example.org/modules/group__momutils/#function-setetaphime)**(double eta, double phi, double mass, double E) |
-| FourMomentum & | **[setEtaPhiMPt](http://example.org/modules/group__momutils/#function-setetaphimpt)**(double eta, double phi, double mass, double pt) |
-| FourMomentum & | **[setRapPhiME](http://example.org/modules/group__momutils/#function-setrapphime)**(double y, double phi, double mass, double E) |
-| FourMomentum & | **[setRapPhiMPt](http://example.org/modules/group__momutils/#function-setrapphimpt)**(double y, double phi, double mass, double pt) |
-| FourMomentum & | **[setThetaPhiME](http://example.org/modules/group__momutils/#function-setthetaphime)**(double theta, double phi, double mass, double E) |
-| FourMomentum & | **[setThetaPhiMPt](http://example.org/modules/group__momutils/#function-setthetaphimpt)**(double theta, double phi, double mass, double pt) |
-| FourMomentum & | **[setPtPhiME](http://example.org/modules/group__momutils/#function-setptphime)**(double pt, double phi, double mass, double E) |
-| double | **[E](http://example.org/modules/group__momutils/#function-e)**() const<br>Get energy \( E \) (time component of momentum).  |
-| double | **[E2](http://example.org/modules/group__momutils/#function-e2)**() const<br>Get energy-squared \( E^2 \).  |
-| double | **[px](http://example.org/modules/group__momutils/#function-px)**() const<br>Get x-component of momentum \( p_x \).  |
-| double | **[px2](http://example.org/modules/group__momutils/#function-px2)**() const<br>Get x-squared \( p_x^2 \).  |
-| double | **[py](http://example.org/modules/group__momutils/#function-py)**() const<br>Get y-component of momentum \( p_y \).  |
-| double | **[py2](http://example.org/modules/group__momutils/#function-py2)**() const<br>Get y-squared \( p_y^2 \).  |
-| double | **[pz](http://example.org/modules/group__momutils/#function-pz)**() const<br>Get z-component of momentum \( p_z \).  |
-| double | **[pz2](http://example.org/modules/group__momutils/#function-pz2)**() const<br>Get z-squared \( p_z^2 \).  |
-| double | **[mass](http://example.org/modules/group__momutils/#function-mass)**() const<br>Get the mass \( m = \sqrt{E^2 - p^2} \) (the Lorentz self-invariant).  |
-| double | **[mass2](http://example.org/modules/group__momutils/#function-mass2)**() const<br>Get the squared mass \( m^2 = E^2 - p^2 \) (the Lorentz self-invariant).  |
-| Vector3 | **[p3](http://example.org/modules/group__momutils/#function-p3)**() const<br>Get 3-momentum part, \( p \).  |
-| double | **[p](http://example.org/modules/group__momutils/#function-p)**() const<br>Get the modulus of the 3-momentum.  |
-| double | **[p2](http://example.org/modules/group__momutils/#function-p2)**() const<br>Get the modulus-squared of the 3-momentum.  |
-| double | **[rapidity](http://example.org/modules/group__momutils/#function-rapidity)**() const<br>Calculate the rapidity.  |
-| double | **[rap](http://example.org/modules/group__momutils/#function-rap)**() const<br>Alias for rapidity.  |
-| double | **[absrapidity](http://example.org/modules/group__momutils/#function-absrapidity)**() const<br>Absolute rapidity.  |
-| double | **[absrap](http://example.org/modules/group__momutils/#function-absrap)**() const<br>Absolute rapidity.  |
-| Vector3 | **[pTvec](http://example.org/modules/group__momutils/#function-ptvec)**() const<br>Calculate the transverse momentum vector \( \vec{p}_T \).  |
-| Vector3 | **[ptvec](http://example.org/modules/group__momutils/#function-ptvec)**() const<br>Synonym for pTvec.  |
-| double | **[pT2](http://example.org/modules/group__momutils/#function-pt2)**() const<br>Calculate the squared transverse momentum \( p_T^2 \).  |
-| double | **[pt2](http://example.org/modules/group__momutils/#function-pt2)**() const<br>Calculate the squared transverse momentum \( p_T^2 \).  |
-| double | **[pT](http://example.org/modules/group__momutils/#function-pt)**() const<br>Calculate the transverse momentum \( p_T \).  |
-| double | **[pt](http://example.org/modules/group__momutils/#function-pt)**() const<br>Calculate the transverse momentum \( p_T \).  |
-| double | **[Et2](http://example.org/modules/group__momutils/#function-et2)**() const<br>Calculate the transverse energy \( E_T^2 = E^2 \sin^2{\theta} \).  |
-| double | **[Et](http://example.org/modules/group__momutils/#function-et)**() const<br>Calculate the transverse energy \( E_T = E \sin{\theta} \).  |
-| double | **[gamma](http://example.org/modules/group__momutils/#function-gamma)**() const |
-| Vector3 | **[gammaVec](http://example.org/modules/group__momutils/#function-gammavec)**() const |
-| double | **[beta](http://example.org/modules/group__momutils/#function-beta)**() const |
-| Vector3 | **[betaVec](http://example.org/modules/group__momutils/#function-betavec)**() const |
-| FourMomentum & | **[operator*=](http://example.org/modules/group__momutils/#function-operator*=)**(double a)<br>Multiply by a scalar.  |
-| FourMomentum & | **[operator/=](http://example.org/modules/group__momutils/#function-operator/=)**(double a)<br>Divide by a scalar.  |
-| FourMomentum & | **[operator+=](http://example.org/modules/group__momutils/#function-operator+=)**(const FourMomentum & v)<br>Add to this 4-vector. NB time as well as space components are added.  |
-| FourMomentum & | **[operator-=](http://example.org/modules/group__momutils/#function-operator-=)**(const FourMomentum & v)<br>Subtract from this 4-vector. NB time as well as space components are subtracted.  |
-| FourMomentum | **[operator-](http://example.org/modules/group__momutils/#function-operator-)**() const<br>Multiply all components (time and space) by -1.  |
-| FourMomentum | **[reverse](http://example.org/modules/group__momutils/#function-reverse)**() const<br>Multiply space components only by -1.  |
-| FourMomentum | **[mkXYZE](http://example.org/modules/group__momutils/#function-mkxyze)**(double px, double py, double pz, double E)<br>Make a vector from (px,py,pz,E) coordinates.  |
-| FourMomentum | **[mkXYZM](http://example.org/modules/group__momutils/#function-mkxyzm)**(double px, double py, double pz, double mass)<br>Make a vector from (px,py,pz) coordinates and the mass.  |
-| FourMomentum | **[mkEtaPhiME](http://example.org/modules/group__momutils/#function-mketaphime)**(double eta, double phi, double mass, double E)<br>Make a vector from (eta,phi,energy) coordinates and the mass.  |
-| FourMomentum | **[mkEtaPhiMPt](http://example.org/modules/group__momutils/#function-mketaphimpt)**(double eta, double phi, double mass, double pt)<br>Make a vector from (eta,phi,pT) coordinates and the mass.  |
-| FourMomentum | **[mkRapPhiME](http://example.org/modules/group__momutils/#function-mkrapphime)**(double y, double phi, double mass, double E)<br>Make a vector from (y,phi,energy) coordinates and the mass.  |
-| FourMomentum | **[mkRapPhiMPt](http://example.org/modules/group__momutils/#function-mkrapphimpt)**(double y, double phi, double mass, double pt)<br>Make a vector from (y,phi,pT) coordinates and the mass.  |
-| FourMomentum | **[mkThetaPhiME](http://example.org/modules/group__momutils/#function-mkthetaphime)**(double theta, double phi, double mass, double E)<br>Make a vector from (theta,phi,energy) coordinates and the mass.  |
-| FourMomentum | **[mkThetaPhiMPt](http://example.org/modules/group__momutils/#function-mkthetaphimpt)**(double theta, double phi, double mass, double pt)<br>Make a vector from (theta,phi,pT) coordinates and the mass.  |
-| FourMomentum | **[mkPtPhiME](http://example.org/modules/group__momutils/#function-mkptphime)**(double pt, double phi, double mass, double E)<br>Make a vector from (pT,phi,energy) coordinates and the mass.  |
-| | **[FourVector](http://example.org/modules/group__momutils/#function-fourvector)**() |
-| template <typename V4TYPE ,typename std::enable_if< HasXYZT< V4TYPE >::value, int >::type DUMMY =0\> <br>| **[FourVector](http://example.org/modules/group__momutils/#function-fourvector)**(const V4TYPE & other) |
-| | **[FourVector](http://example.org/modules/group__momutils/#function-fourvector)**(const Vector< 4 > & other) |
-| | **[FourVector](http://example.org/modules/group__momutils/#function-fourvector)**(const double t, const double x, const double y, const double z) |
-| virtual | **[~FourVector](http://example.org/modules/group__momutils/#function-~fourvector)**() |
-| double | **[t](http://example.org/modules/group__momutils/#function-t)**() const |
-| double | **[t2](http://example.org/modules/group__momutils/#function-t2)**() const |
-| FourVector & | **[setT](http://example.org/modules/group__momutils/#function-sett)**(const double t) |
-| double | **[x](http://example.org/modules/group__momutils/#function-x)**() const |
-| double | **[x2](http://example.org/modules/group__momutils/#function-x2)**() const |
-| FourVector & | **[setX](http://example.org/modules/group__momutils/#function-setx)**(const double x) |
-| double | **[y](http://example.org/modules/group__momutils/#function-y)**() const |
-| double | **[y2](http://example.org/modules/group__momutils/#function-y2)**() const |
-| FourVector & | **[setY](http://example.org/modules/group__momutils/#function-sety)**(const double y) |
-| double | **[z](http://example.org/modules/group__momutils/#function-z)**() const |
-| double | **[z2](http://example.org/modules/group__momutils/#function-z2)**() const |
-| FourVector & | **[setZ](http://example.org/modules/group__momutils/#function-setz)**(const double z) |
-| double | **[invariant](http://example.org/modules/group__momutils/#function-invariant)**() const |
-| bool | **[isNull](http://example.org/modules/group__momutils/#function-isnull)**() const |
-| double | **[angle](http://example.org/modules/group__momutils/#function-angle)**(const FourVector & v) const<br>Angle between this vector and another.  |
-| double | **[angle](http://example.org/modules/group__momutils/#function-angle)**(const Vector3 & v3) const<br>Angle between this vector and another (3-vector)  |
-| double | **[polarRadius2](http://example.org/modules/group__momutils/#function-polarradius2)**() const<br>Mod-square of the projection of the 3-vector on to the \( x-y \) plane This is a more efficient function than <code>polarRadius</code>, as it avoids the square root. Use it if you only need the squared value, or e.g. an ordering by magnitude.  |
-| double | **[perp2](http://example.org/modules/group__momutils/#function-perp2)**() const<br>Synonym for polarRadius2.  |
-| double | **[rho2](http://example.org/modules/group__momutils/#function-rho2)**() const<br>Synonym for polarRadius2.  |
-| double | **[polarRadius](http://example.org/modules/group__momutils/#function-polarradius)**() const<br>Magnitude of projection of 3-vector on to the \( x-y \) plane.  |
-| double | **[perp](http://example.org/modules/group__momutils/#function-perp)**() const<br>Synonym for polarRadius.  |
-| double | **[rho](http://example.org/modules/group__momutils/#function-rho)**() const<br>Synonym for polarRadius.  |
-| Vector3 | **[polarVec](http://example.org/modules/group__momutils/#function-polarvec)**() const<br><a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> of 3-vector on to the \( x-y \) plane.  |
-| Vector3 | **[perpVec](http://example.org/modules/group__momutils/#function-perpvec)**() const<br>Synonym for polarVec.  |
-| Vector3 | **[rhoVec](http://example.org/modules/group__momutils/#function-rhovec)**() const<br>Synonym for polarVec.  |
-| double | **[azimuthalAngle](http://example.org/modules/group__momutils/#function-azimuthalangle)**(const PhiMapping mapping =ZERO_2PI) const<br>Angle subtended by the 3-vector's projection in x-y and the x-axis.  |
-| double | **[phi](http://example.org/modules/group__momutils/#function-phi)**(const PhiMapping mapping =ZERO_2PI) const<br>Synonym for azimuthalAngle.  |
-| double | **[polarAngle](http://example.org/modules/group__momutils/#function-polarangle)**() const<br>Angle subtended by the 3-vector and the z-axis.  |
-| double | **[theta](http://example.org/modules/group__momutils/#function-theta)**() const<br>Synonym for polarAngle.  |
-| double | **[pseudorapidity](http://example.org/modules/group__momutils/#function-pseudorapidity)**() const<br>Pseudorapidity (defined purely by the 3-vector components)  |
-| double | **[eta](http://example.org/modules/group__momutils/#function-eta)**() const<br>Synonym for pseudorapidity.  |
-| double | **[abspseudorapidity](http://example.org/modules/group__momutils/#function-abspseudorapidity)**() const<br>Get the \( |\eta| \) directly.  |
-| double | **[abseta](http://example.org/modules/group__momutils/#function-abseta)**() const<br>Get the \( |\eta| \) directly (alias).  |
-| Vector3 | **[vector3](http://example.org/modules/group__momutils/#function-vector3)**() const<br>Get the spatial part of the 4-vector as a 3-vector.  |
-| | **[operator Vector3](http://example.org/modules/group__momutils/#function-operator-vector3)**() const<br>Implicit cast to a 3-vector.  |
-| double | **[contract](http://example.org/modules/group__momutils/#function-contract)**(const FourVector & v) const<br>Contract two 4-vectors, with metric signature (+ - - -).  |
-| double | **[dot](http://example.org/modules/group__momutils/#function-dot)**(const FourVector & v) const<br>Contract two 4-vectors, with metric signature (+ - - -).  |
-| double | **[operator*](http://example.org/modules/group__momutils/#function-operator*)**(const FourVector & v) const<br>Contract two 4-vectors, with metric signature (+ - - -).  |
-| FourVector & | **[operator*=](http://example.org/modules/group__momutils/#function-operator*=)**(double a)<br>Multiply by a scalar.  |
-| FourVector & | **[operator/=](http://example.org/modules/group__momutils/#function-operator/=)**(double a)<br>Divide by a scalar.  |
-| FourVector & | **[operator+=](http://example.org/modules/group__momutils/#function-operator+=)**(const FourVector & v)<br>Add to this 4-vector.  |
-| FourVector & | **[operator-=](http://example.org/modules/group__momutils/#function-operator-=)**(const FourVector & v)<br>Subtract from this 4-vector. NB time as well as space components are subtracted.  |
-| FourVector | **[operator-](http://example.org/modules/group__momutils/#function-operator-)**() const<br>Multiply all components (space and time) by -1.  |
-| FourVector | **[reverse](http://example.org/modules/group__momutils/#function-reverse)**() const<br>Multiply space components only by -1.  |
-| | **[FourMomentum](http://example.org/modules/group__momutils/#function-fourmomentum)**() |
-| template <typename V4TYPE ,typename std::enable_if< HasXYZT< V4TYPE >::value, int >::type DUMMY =0\> <br>| **[FourMomentum](http://example.org/modules/group__momutils/#function-fourmomentum)**(const V4TYPE & other) |
-| | **[FourMomentum](http://example.org/modules/group__momutils/#function-fourmomentum)**(const Vector< 4 > & other) |
-| | **[FourMomentum](http://example.org/modules/group__momutils/#function-fourmomentum)**(const double E, const double px, const double py, const double pz) |
-| | **[~FourMomentum](http://example.org/modules/group__momutils/#function-~fourmomentum)**() |
+| FourMomentum & | **[setE](/documentation/code/modules/group__momutils/#function-sete)**(double E)<br>Set energy \( E \) (time component of momentum).  |
+| FourMomentum & | **[setPx](/documentation/code/modules/group__momutils/#function-setpx)**(double px)<br>Set x-component of momentum \( p_x \).  |
+| FourMomentum & | **[setPy](/documentation/code/modules/group__momutils/#function-setpy)**(double py)<br>Set y-component of momentum \( p_y \).  |
+| FourMomentum & | **[setPz](/documentation/code/modules/group__momutils/#function-setpz)**(double pz)<br>Set z-component of momentum \( p_z \).  |
+| FourMomentum & | **[setPE](/documentation/code/modules/group__momutils/#function-setpe)**(double px, double py, double pz, double E)<br>Set the p coordinates and energy simultaneously.  |
+| FourMomentum & | **[setXYZE](/documentation/code/modules/group__momutils/#function-setxyze)**(double px, double py, double pz, double E)<br>Alias for setPE.  |
+| FourMomentum & | **[setPM](/documentation/code/modules/group__momutils/#function-setpm)**(double px, double py, double pz, double mass)<br>Set the p coordinates and mass simultaneously.  |
+| FourMomentum & | **[setXYZM](/documentation/code/modules/group__momutils/#function-setxyzm)**(double px, double py, double pz, double mass)<br>Alias for setPM.  |
+| FourMomentum & | **[setEtaPhiME](/documentation/code/modules/group__momutils/#function-setetaphime)**(double eta, double phi, double mass, double E) |
+| FourMomentum & | **[setEtaPhiMPt](/documentation/code/modules/group__momutils/#function-setetaphimpt)**(double eta, double phi, double mass, double pt) |
+| FourMomentum & | **[setRapPhiME](/documentation/code/modules/group__momutils/#function-setrapphime)**(double y, double phi, double mass, double E) |
+| FourMomentum & | **[setRapPhiMPt](/documentation/code/modules/group__momutils/#function-setrapphimpt)**(double y, double phi, double mass, double pt) |
+| FourMomentum & | **[setThetaPhiME](/documentation/code/modules/group__momutils/#function-setthetaphime)**(double theta, double phi, double mass, double E) |
+| FourMomentum & | **[setThetaPhiMPt](/documentation/code/modules/group__momutils/#function-setthetaphimpt)**(double theta, double phi, double mass, double pt) |
+| FourMomentum & | **[setPtPhiME](/documentation/code/modules/group__momutils/#function-setptphime)**(double pt, double phi, double mass, double E) |
+| double | **[E](/documentation/code/modules/group__momutils/#function-e)**() const<br>Get energy \( E \) (time component of momentum).  |
+| double | **[E2](/documentation/code/modules/group__momutils/#function-e2)**() const<br>Get energy-squared \( E^2 \).  |
+| double | **[px](/documentation/code/modules/group__momutils/#function-px)**() const<br>Get x-component of momentum \( p_x \).  |
+| double | **[px2](/documentation/code/modules/group__momutils/#function-px2)**() const<br>Get x-squared \( p_x^2 \).  |
+| double | **[py](/documentation/code/modules/group__momutils/#function-py)**() const<br>Get y-component of momentum \( p_y \).  |
+| double | **[py2](/documentation/code/modules/group__momutils/#function-py2)**() const<br>Get y-squared \( p_y^2 \).  |
+| double | **[pz](/documentation/code/modules/group__momutils/#function-pz)**() const<br>Get z-component of momentum \( p_z \).  |
+| double | **[pz2](/documentation/code/modules/group__momutils/#function-pz2)**() const<br>Get z-squared \( p_z^2 \).  |
+| double | **[mass](/documentation/code/modules/group__momutils/#function-mass)**() const<br>Get the mass \( m = \sqrt{E^2 - p^2} \) (the Lorentz self-invariant).  |
+| double | **[mass2](/documentation/code/modules/group__momutils/#function-mass2)**() const<br>Get the squared mass \( m^2 = E^2 - p^2 \) (the Lorentz self-invariant).  |
+| Vector3 | **[p3](/documentation/code/modules/group__momutils/#function-p3)**() const<br>Get 3-momentum part, \( p \).  |
+| double | **[p](/documentation/code/modules/group__momutils/#function-p)**() const<br>Get the modulus of the 3-momentum.  |
+| double | **[p2](/documentation/code/modules/group__momutils/#function-p2)**() const<br>Get the modulus-squared of the 3-momentum.  |
+| double | **[rapidity](/documentation/code/modules/group__momutils/#function-rapidity)**() const<br>Calculate the rapidity.  |
+| double | **[rap](/documentation/code/modules/group__momutils/#function-rap)**() const<br>Alias for rapidity.  |
+| double | **[absrapidity](/documentation/code/modules/group__momutils/#function-absrapidity)**() const<br>Absolute rapidity.  |
+| double | **[absrap](/documentation/code/modules/group__momutils/#function-absrap)**() const<br>Absolute rapidity.  |
+| Vector3 | **[pTvec](/documentation/code/modules/group__momutils/#function-ptvec)**() const<br>Calculate the transverse momentum vector \( \vec{p}_T \).  |
+| Vector3 | **[ptvec](/documentation/code/modules/group__momutils/#function-ptvec)**() const<br>Synonym for pTvec.  |
+| double | **[pT2](/documentation/code/modules/group__momutils/#function-pt2)**() const<br>Calculate the squared transverse momentum \( p_T^2 \).  |
+| double | **[pt2](/documentation/code/modules/group__momutils/#function-pt2)**() const<br>Calculate the squared transverse momentum \( p_T^2 \).  |
+| double | **[pT](/documentation/code/modules/group__momutils/#function-pt)**() const<br>Calculate the transverse momentum \( p_T \).  |
+| double | **[pt](/documentation/code/modules/group__momutils/#function-pt)**() const<br>Calculate the transverse momentum \( p_T \).  |
+| double | **[Et2](/documentation/code/modules/group__momutils/#function-et2)**() const<br>Calculate the transverse energy \( E_T^2 = E^2 \sin^2{\theta} \).  |
+| double | **[Et](/documentation/code/modules/group__momutils/#function-et)**() const<br>Calculate the transverse energy \( E_T = E \sin{\theta} \).  |
+| double | **[gamma](/documentation/code/modules/group__momutils/#function-gamma)**() const |
+| Vector3 | **[gammaVec](/documentation/code/modules/group__momutils/#function-gammavec)**() const |
+| double | **[beta](/documentation/code/modules/group__momutils/#function-beta)**() const |
+| Vector3 | **[betaVec](/documentation/code/modules/group__momutils/#function-betavec)**() const |
+| FourMomentum & | **[operator*=](/documentation/code/modules/group__momutils/#function-operator*=)**(double a)<br>Multiply by a scalar.  |
+| FourMomentum & | **[operator/=](/documentation/code/modules/group__momutils/#function-operator/=)**(double a)<br>Divide by a scalar.  |
+| FourMomentum & | **[operator+=](/documentation/code/modules/group__momutils/#function-operator+=)**(const FourMomentum & v)<br>Add to this 4-vector. NB time as well as space components are added.  |
+| FourMomentum & | **[operator-=](/documentation/code/modules/group__momutils/#function-operator-=)**(const FourMomentum & v)<br>Subtract from this 4-vector. NB time as well as space components are subtracted.  |
+| FourMomentum | **[operator-](/documentation/code/modules/group__momutils/#function-operator-)**() const<br>Multiply all components (time and space) by -1.  |
+| FourMomentum | **[reverse](/documentation/code/modules/group__momutils/#function-reverse)**() const<br>Multiply space components only by -1.  |
+| FourMomentum | **[mkXYZE](/documentation/code/modules/group__momutils/#function-mkxyze)**(double px, double py, double pz, double E)<br>Make a vector from (px,py,pz,E) coordinates.  |
+| FourMomentum | **[mkXYZM](/documentation/code/modules/group__momutils/#function-mkxyzm)**(double px, double py, double pz, double mass)<br>Make a vector from (px,py,pz) coordinates and the mass.  |
+| FourMomentum | **[mkEtaPhiME](/documentation/code/modules/group__momutils/#function-mketaphime)**(double eta, double phi, double mass, double E)<br>Make a vector from (eta,phi,energy) coordinates and the mass.  |
+| FourMomentum | **[mkEtaPhiMPt](/documentation/code/modules/group__momutils/#function-mketaphimpt)**(double eta, double phi, double mass, double pt)<br>Make a vector from (eta,phi,pT) coordinates and the mass.  |
+| FourMomentum | **[mkRapPhiME](/documentation/code/modules/group__momutils/#function-mkrapphime)**(double y, double phi, double mass, double E)<br>Make a vector from (y,phi,energy) coordinates and the mass.  |
+| FourMomentum | **[mkRapPhiMPt](/documentation/code/modules/group__momutils/#function-mkrapphimpt)**(double y, double phi, double mass, double pt)<br>Make a vector from (y,phi,pT) coordinates and the mass.  |
+| FourMomentum | **[mkThetaPhiME](/documentation/code/modules/group__momutils/#function-mkthetaphime)**(double theta, double phi, double mass, double E)<br>Make a vector from (theta,phi,energy) coordinates and the mass.  |
+| FourMomentum | **[mkThetaPhiMPt](/documentation/code/modules/group__momutils/#function-mkthetaphimpt)**(double theta, double phi, double mass, double pt)<br>Make a vector from (theta,phi,pT) coordinates and the mass.  |
+| FourMomentum | **[mkPtPhiME](/documentation/code/modules/group__momutils/#function-mkptphime)**(double pt, double phi, double mass, double E)<br>Make a vector from (pT,phi,energy) coordinates and the mass.  |
+| | **[FourVector](/documentation/code/modules/group__momutils/#function-fourvector)**() |
+| template <typename V4TYPE ,typename std::enable_if< HasXYZT< V4TYPE >::value, int >::type DUMMY =0\> <br>| **[FourVector](/documentation/code/modules/group__momutils/#function-fourvector)**(const V4TYPE & other) |
+| | **[FourVector](/documentation/code/modules/group__momutils/#function-fourvector)**(const Vector< 4 > & other) |
+| | **[FourVector](/documentation/code/modules/group__momutils/#function-fourvector)**(const double t, const double x, const double y, const double z) |
+| virtual | **[~FourVector](/documentation/code/modules/group__momutils/#function-~fourvector)**() |
+| double | **[t](/documentation/code/modules/group__momutils/#function-t)**() const |
+| double | **[t2](/documentation/code/modules/group__momutils/#function-t2)**() const |
+| FourVector & | **[setT](/documentation/code/modules/group__momutils/#function-sett)**(const double t) |
+| double | **[x](/documentation/code/modules/group__momutils/#function-x)**() const |
+| double | **[x2](/documentation/code/modules/group__momutils/#function-x2)**() const |
+| FourVector & | **[setX](/documentation/code/modules/group__momutils/#function-setx)**(const double x) |
+| double | **[y](/documentation/code/modules/group__momutils/#function-y)**() const |
+| double | **[y2](/documentation/code/modules/group__momutils/#function-y2)**() const |
+| FourVector & | **[setY](/documentation/code/modules/group__momutils/#function-sety)**(const double y) |
+| double | **[z](/documentation/code/modules/group__momutils/#function-z)**() const |
+| double | **[z2](/documentation/code/modules/group__momutils/#function-z2)**() const |
+| FourVector & | **[setZ](/documentation/code/modules/group__momutils/#function-setz)**(const double z) |
+| double | **[invariant](/documentation/code/modules/group__momutils/#function-invariant)**() const |
+| bool | **[isNull](/documentation/code/modules/group__momutils/#function-isnull)**() const |
+| double | **[angle](/documentation/code/modules/group__momutils/#function-angle)**(const FourVector & v) const<br>Angle between this vector and another.  |
+| double | **[angle](/documentation/code/modules/group__momutils/#function-angle)**(const Vector3 & v3) const<br>Angle between this vector and another (3-vector)  |
+| double | **[polarRadius2](/documentation/code/modules/group__momutils/#function-polarradius2)**() const<br>Mod-square of the projection of the 3-vector on to the \( x-y \) plane This is a more efficient function than <code>polarRadius</code>, as it avoids the square root. Use it if you only need the squared value, or e.g. an ordering by magnitude.  |
+| double | **[perp2](/documentation/code/modules/group__momutils/#function-perp2)**() const<br>Synonym for polarRadius2.  |
+| double | **[rho2](/documentation/code/modules/group__momutils/#function-rho2)**() const<br>Synonym for polarRadius2.  |
+| double | **[polarRadius](/documentation/code/modules/group__momutils/#function-polarradius)**() const<br>Magnitude of projection of 3-vector on to the \( x-y \) plane.  |
+| double | **[perp](/documentation/code/modules/group__momutils/#function-perp)**() const<br>Synonym for polarRadius.  |
+| double | **[rho](/documentation/code/modules/group__momutils/#function-rho)**() const<br>Synonym for polarRadius.  |
+| Vector3 | **[polarVec](/documentation/code/modules/group__momutils/#function-polarvec)**() const<br><a href="/documentation/code/classes/classrivet_1_1projection/">Projection</a> of 3-vector on to the \( x-y \) plane.  |
+| Vector3 | **[perpVec](/documentation/code/modules/group__momutils/#function-perpvec)**() const<br>Synonym for polarVec.  |
+| Vector3 | **[rhoVec](/documentation/code/modules/group__momutils/#function-rhovec)**() const<br>Synonym for polarVec.  |
+| double | **[azimuthalAngle](/documentation/code/modules/group__momutils/#function-azimuthalangle)**(const PhiMapping mapping =ZERO_2PI) const<br>Angle subtended by the 3-vector's projection in x-y and the x-axis.  |
+| double | **[phi](/documentation/code/modules/group__momutils/#function-phi)**(const PhiMapping mapping =ZERO_2PI) const<br>Synonym for azimuthalAngle.  |
+| double | **[polarAngle](/documentation/code/modules/group__momutils/#function-polarangle)**() const<br>Angle subtended by the 3-vector and the z-axis.  |
+| double | **[theta](/documentation/code/modules/group__momutils/#function-theta)**() const<br>Synonym for polarAngle.  |
+| double | **[pseudorapidity](/documentation/code/modules/group__momutils/#function-pseudorapidity)**() const<br>Pseudorapidity (defined purely by the 3-vector components)  |
+| double | **[eta](/documentation/code/modules/group__momutils/#function-eta)**() const<br>Synonym for pseudorapidity.  |
+| double | **[abspseudorapidity](/documentation/code/modules/group__momutils/#function-abspseudorapidity)**() const<br>Get the \( |\eta| \) directly.  |
+| double | **[abseta](/documentation/code/modules/group__momutils/#function-abseta)**() const<br>Get the \( |\eta| \) directly (alias).  |
+| Vector3 | **[vector3](/documentation/code/modules/group__momutils/#function-vector3)**() const<br>Get the spatial part of the 4-vector as a 3-vector.  |
+| | **[operator Vector3](/documentation/code/modules/group__momutils/#function-operator-vector3)**() const<br>Implicit cast to a 3-vector.  |
+| double | **[contract](/documentation/code/modules/group__momutils/#function-contract)**(const FourVector & v) const<br>Contract two 4-vectors, with metric signature (+ - - -).  |
+| double | **[dot](/documentation/code/modules/group__momutils/#function-dot)**(const FourVector & v) const<br>Contract two 4-vectors, with metric signature (+ - - -).  |
+| double | **[operator*](/documentation/code/modules/group__momutils/#function-operator*)**(const FourVector & v) const<br>Contract two 4-vectors, with metric signature (+ - - -).  |
+| FourVector & | **[operator*=](/documentation/code/modules/group__momutils/#function-operator*=)**(double a)<br>Multiply by a scalar.  |
+| FourVector & | **[operator/=](/documentation/code/modules/group__momutils/#function-operator/=)**(double a)<br>Divide by a scalar.  |
+| FourVector & | **[operator+=](/documentation/code/modules/group__momutils/#function-operator+=)**(const FourVector & v)<br>Add to this 4-vector.  |
+| FourVector & | **[operator-=](/documentation/code/modules/group__momutils/#function-operator-=)**(const FourVector & v)<br>Subtract from this 4-vector. NB time as well as space components are subtracted.  |
+| FourVector | **[operator-](/documentation/code/modules/group__momutils/#function-operator-)**() const<br>Multiply all components (space and time) by -1.  |
+| FourVector | **[reverse](/documentation/code/modules/group__momutils/#function-reverse)**() const<br>Multiply space components only by -1.  |
+| | **[FourMomentum](/documentation/code/modules/group__momutils/#function-fourmomentum)**() |
+| template <typename V4TYPE ,typename std::enable_if< HasXYZT< V4TYPE >::value, int >::type DUMMY =0\> <br>| **[FourMomentum](/documentation/code/modules/group__momutils/#function-fourmomentum)**(const V4TYPE & other) |
+| | **[FourMomentum](/documentation/code/modules/group__momutils/#function-fourmomentum)**(const Vector< 4 > & other) |
+| | **[FourMomentum](/documentation/code/modules/group__momutils/#function-fourmomentum)**(const double E, const double px, const double py, const double pz) |
+| | **[~FourMomentum](/documentation/code/modules/group__momutils/#function-~fourmomentum)**() |
 
 
 ## Functions Documentation
@@ -998,7 +998,7 @@ Synonym for polarRadius.
 inline Vector3 polarVec() const
 ```
 
-<a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> of 3-vector on to the \( x-y \) plane. 
+<a href="/documentation/code/classes/classrivet_1_1projection/">Projection</a> of 3-vector on to the \( x-y \) plane. 
 
 ### function perpVec
 
@@ -1238,4 +1238,4 @@ inline ~FourMomentum()
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

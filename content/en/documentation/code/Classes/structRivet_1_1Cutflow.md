@@ -18,31 +18,31 @@ A tracker of numbers & fractions of events passing sequential cuts.
 
 |                | Name           |
 | -------------- | -------------- |
-| | **[Cutflow](http://example.org/classes/structrivet_1_1cutflow/#function-cutflow)**()<br>Default constructor.  |
-| | **[Cutflow](http://example.org/classes/structrivet_1_1cutflow/#function-cutflow)**(const string & cfname, const vector< string > & cutnames)<br>Proper constructor.  |
-| void | **[fillinit](http://example.org/classes/structrivet_1_1cutflow/#function-fillinit)**(double weight =1.)<br>Fill the pre-cut counter.  |
-| bool | **[fill](http://example.org/classes/structrivet_1_1cutflow/#function-fill)**(size_t icut, bool cutresult =true, double weight =1.)<br>Fill the _{icut}'th_ post-cut counter, starting at icut=1 for first cut.  |
-| bool | **[fill](http://example.org/classes/structrivet_1_1cutflow/#function-fill)**(size_t icut, double weight)<br>Fill the _{icut}'th_ post-cut counter, starting at icut=1 for first cut (cutvalue=true overload)  |
-| bool | **[fill](http://example.org/classes/structrivet_1_1cutflow/#function-fill)**(size_t icut, const vector< bool > & cutresults, double weight =1.)<br>Fill cut-state counters from an n-element results vector, starting at icut.  |
-| bool | **[fillnext](http://example.org/classes/structrivet_1_1cutflow/#function-fillnext)**(bool cutresult, double weight =1.)<br>Fill the next post-cut counter.  |
-| bool | **[fillnext](http://example.org/classes/structrivet_1_1cutflow/#function-fillnext)**(double weight =1.)<br>Fill the next post-cut counter, assuming a true result.  |
-| bool | **[fillnext](http://example.org/classes/structrivet_1_1cutflow/#function-fillnext)**(const vector< bool > & cutresults, double weight =1.)<br>Fill the next cut-state counters from an n-element results vector.  |
-| bool | **[fillall](http://example.org/classes/structrivet_1_1cutflow/#function-fillall)**(const vector< bool > & cutresults, double weight =1.)<br>Fill all cut-state counters from an Ncut-element results vector, starting at icut=1.  |
-| bool | **[filltail](http://example.org/classes/structrivet_1_1cutflow/#function-filltail)**(const vector< bool > & cutresults, double weight =1.)<br>Fill the N trailing post-cut counters, when supplied with an N-element results vector.  |
-| void | **[scale](http://example.org/classes/structrivet_1_1cutflow/#function-scale)**(double factor)<br>Scale the cutflow weights by the given factor.  |
-| void | **[normalize](http://example.org/classes/structrivet_1_1cutflow/#function-normalize)**(double norm, size_t icut =0)<br>Scale the cutflow weights so that the weight count after cut _icut_ is _norm_.  |
-| string | **[str](http://example.org/classes/structrivet_1_1cutflow/#function-str)**() const<br>Create a string representation.  |
-| void | **[print](http://example.org/classes/structrivet_1_1cutflow/#function-print)**(std::ostream & os) const<br>Print string representation to a stream.  |
+| | **[Cutflow](/documentation/code/classes/structrivet_1_1cutflow/#function-cutflow)**()<br>Default constructor.  |
+| | **[Cutflow](/documentation/code/classes/structrivet_1_1cutflow/#function-cutflow)**(const string & cfname, const vector< string > & cutnames)<br>Proper constructor.  |
+| void | **[fillinit](/documentation/code/classes/structrivet_1_1cutflow/#function-fillinit)**(double weight =1.)<br>Fill the pre-cut counter.  |
+| bool | **[fill](/documentation/code/classes/structrivet_1_1cutflow/#function-fill)**(size_t icut, bool cutresult =true, double weight =1.)<br>Fill the _{icut}'th_ post-cut counter, starting at icut=1 for first cut.  |
+| bool | **[fill](/documentation/code/classes/structrivet_1_1cutflow/#function-fill)**(size_t icut, double weight)<br>Fill the _{icut}'th_ post-cut counter, starting at icut=1 for first cut (cutvalue=true overload)  |
+| bool | **[fill](/documentation/code/classes/structrivet_1_1cutflow/#function-fill)**(size_t icut, const vector< bool > & cutresults, double weight =1.)<br>Fill cut-state counters from an n-element results vector, starting at icut.  |
+| bool | **[fillnext](/documentation/code/classes/structrivet_1_1cutflow/#function-fillnext)**(bool cutresult, double weight =1.)<br>Fill the next post-cut counter.  |
+| bool | **[fillnext](/documentation/code/classes/structrivet_1_1cutflow/#function-fillnext)**(double weight =1.)<br>Fill the next post-cut counter, assuming a true result.  |
+| bool | **[fillnext](/documentation/code/classes/structrivet_1_1cutflow/#function-fillnext)**(const vector< bool > & cutresults, double weight =1.)<br>Fill the next cut-state counters from an n-element results vector.  |
+| bool | **[fillall](/documentation/code/classes/structrivet_1_1cutflow/#function-fillall)**(const vector< bool > & cutresults, double weight =1.)<br>Fill all cut-state counters from an Ncut-element results vector, starting at icut=1.  |
+| bool | **[filltail](/documentation/code/classes/structrivet_1_1cutflow/#function-filltail)**(const vector< bool > & cutresults, double weight =1.)<br>Fill the N trailing post-cut counters, when supplied with an N-element results vector.  |
+| void | **[scale](/documentation/code/classes/structrivet_1_1cutflow/#function-scale)**(double factor)<br>Scale the cutflow weights by the given factor.  |
+| void | **[normalize](/documentation/code/classes/structrivet_1_1cutflow/#function-normalize)**(double norm, size_t icut =0)<br>Scale the cutflow weights so that the weight count after cut _icut_ is _norm_.  |
+| string | **[str](/documentation/code/classes/structrivet_1_1cutflow/#function-str)**() const<br>Create a string representation.  |
+| void | **[print](/documentation/code/classes/structrivet_1_1cutflow/#function-print)**(std::ostream & os) const<br>Print string representation to a stream.  |
 
 ## Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
-| string | **[name](http://example.org/classes/structrivet_1_1cutflow/#variable-name)**  |
-| size_t | **[ncuts](http://example.org/classes/structrivet_1_1cutflow/#variable-ncuts)**  |
-| vector< string > | **[cuts](http://example.org/classes/structrivet_1_1cutflow/#variable-cuts)**  |
-| vector< double > | **[counts](http://example.org/classes/structrivet_1_1cutflow/#variable-counts)**  |
-| size_t | **[icurr](http://example.org/classes/structrivet_1_1cutflow/#variable-icurr)**  |
+| string | **[name](/documentation/code/classes/structrivet_1_1cutflow/#variable-name)**  |
+| size_t | **[ncuts](/documentation/code/classes/structrivet_1_1cutflow/#variable-ncuts)**  |
+| vector< string > | **[cuts](/documentation/code/classes/structrivet_1_1cutflow/#variable-cuts)**  |
+| vector< double > | **[counts](/documentation/code/classes/structrivet_1_1cutflow/#variable-counts)**  |
+| size_t | **[icurr](/documentation/code/classes/structrivet_1_1cutflow/#variable-icurr)**  |
 
 ## Public Functions Documentation
 
@@ -173,7 +173,7 @@ Fill all cut-state counters from an Ncut-element results vector, starting at icu
 
 **Deprecated**: 
 
-Prefer to use vector <a href="http://example.org/classes/structrivet_1_1cutflow/#function-fillinit">fillinit()</a> and vector <a href="http://example.org/classes/structrivet_1_1cutflow/#function-fill">fill()</a>
+Prefer to use vector <a href="/documentation/code/classes/structrivet_1_1cutflow/#function-fillinit">fillinit()</a> and vector <a href="/documentation/code/classes/structrivet_1_1cutflow/#function-fill">fill()</a>
 
 ### function filltail
 
@@ -188,7 +188,7 @@ Fill the N trailing post-cut counters, when supplied with an N-element results v
 
 **Deprecated**: 
 
-Now prefer to use vector <a href="http://example.org/classes/structrivet_1_1cutflow/#function-fillnext">fillnext()</a>
+Now prefer to use vector <a href="/documentation/code/classes/structrivet_1_1cutflow/#function-fillnext">fillnext()</a>
 
 **Note**: Returns the overall cut result to allow 'side-effect' cut-flow filling in an if-statement 
 
@@ -273,4 +273,4 @@ size_t icurr;
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:08 +0100
+Updated on 2022-07-28 at 18:36:45 +0100

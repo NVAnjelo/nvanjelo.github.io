@@ -9,7 +9,7 @@ description: "A container for several Cutflow objects, with some convenient batc
 
 
 
-A container for several <a href="http://example.org/classes/structrivet_1_1cutflow/">Cutflow</a> objects, with some convenient batch access. 
+A container for several <a href="/documentation/code/classes/structrivet_1_1cutflow/">Cutflow</a> objects, with some convenient batch access. 
 
 
 `#include <Cutflow.hh>`
@@ -18,32 +18,32 @@ A container for several <a href="http://example.org/classes/structrivet_1_1cutfl
 
 |                | Name           |
 | -------------- | -------------- |
-| | **[Cutflows](http://example.org/classes/structrivet_1_1cutflows/#function-cutflows)**()<br>Do-nothing default constructor.  |
-| | **[Cutflows](http://example.org/classes/structrivet_1_1cutflows/#function-cutflows)**(const vector< <a href="http://example.org/classes/structrivet_1_1cutflow/">Cutflow</a> > & cutflows)<br>Populating constructor.  |
-| void | **[addCutflow](http://example.org/classes/structrivet_1_1cutflows/#function-addcutflow)**(const <a href="http://example.org/classes/structrivet_1_1cutflow/">Cutflow</a> & cf)<br>Append a provided <a href="http://example.org/classes/structrivet_1_1cutflow/">Cutflow</a> to the list.  |
-| void | **[addCutflow](http://example.org/classes/structrivet_1_1cutflows/#function-addcutflow)**(const string & cfname, const vector< string > & cutnames)<br>Append a newly constructed <a href="http://example.org/classes/structrivet_1_1cutflow/">Cutflow</a> to the list.  |
-| <a href="http://example.org/classes/structrivet_1_1cutflow/">Cutflow</a> & | **[operator[]](http://example.org/classes/structrivet_1_1cutflows/#function-operator[])**(size_t i)<br>Access the _i'th_<a href="http://example.org/classes/structrivet_1_1cutflow/">Cutflow</a>.  |
-| const <a href="http://example.org/classes/structrivet_1_1cutflow/">Cutflow</a> & | **[operator[]](http://example.org/classes/structrivet_1_1cutflows/#function-operator[])**(size_t i) const<br>Access the _i'th_<a href="http://example.org/classes/structrivet_1_1cutflow/">Cutflow</a> (const)  |
-| <a href="http://example.org/classes/structrivet_1_1cutflow/">Cutflow</a> & | **[operator[]](http://example.org/classes/structrivet_1_1cutflows/#function-operator[])**(const string & name)<br>Access the <a href="http://example.org/classes/structrivet_1_1cutflow/">Cutflow</a> whose name is _name_.  |
-| const <a href="http://example.org/classes/structrivet_1_1cutflow/">Cutflow</a> & | **[operator[]](http://example.org/classes/structrivet_1_1cutflows/#function-operator[])**(const string & name) const<br>Access the _i'th_<a href="http://example.org/classes/structrivet_1_1cutflow/">Cutflow</a> (const)  |
-| void | **[fillinit](http://example.org/classes/structrivet_1_1cutflows/#function-fillinit)**(double weight =1.)<br>Fill the pre-cuts state counter for all contained {<a href="http://example.org/classes/structrivet_1_1cutflow/">Cutflow</a>}s.  |
-| bool | **[fill](http://example.org/classes/structrivet_1_1cutflows/#function-fill)**(size_t icut, bool cutresult =true, double weight =1.)<br>Fill the _{icut}'th_ post-cut counter, starting at icut=1 for first cut, with the same result for all {<a href="http://example.org/classes/structrivet_1_1cutflow/">Cutflow</a>}s.  |
-| bool | **[fill](http://example.org/classes/structrivet_1_1cutflows/#function-fill)**(size_t icut, double weight)<br>Fill the _{icut}'th_ post-cut counter, starting at icut=1 for first cut, with the same result for all {<a href="http://example.org/classes/structrivet_1_1cutflow/">Cutflow</a>}s (cutresult=true overload)  |
-| bool | **[fill](http://example.org/classes/structrivet_1_1cutflows/#function-fill)**(size_t icut, const vector< bool > & cutresults, double weight =1.)<br>Fill cut-state counters from an n-element results vector, starting at icut.  |
-| bool | **[fillnext](http://example.org/classes/structrivet_1_1cutflows/#function-fillnext)**(bool cutresult, double weight =1.)<br>Fill the next post-cut counter.  |
-| bool | **[fillnext](http://example.org/classes/structrivet_1_1cutflows/#function-fillnext)**(double weight =1.)<br>Fill the next post-cut counter, assuming a true result.  |
-| bool | **[fillnext](http://example.org/classes/structrivet_1_1cutflows/#function-fillnext)**(const vector< bool > & cutresults, double weight =1.)<br>Fill the next cut-state counters from an n-element results vector.  |
-| bool | **[fillall](http://example.org/classes/structrivet_1_1cutflows/#function-fillall)**(const vector< bool > & cutresults, double weight =1.)<br>Fill all cut-state counters from an Ncut-element results vector, starting at icut=1.  |
-| void | **[scale](http://example.org/classes/structrivet_1_1cutflows/#function-scale)**(double factor)<br>Scale the contained {<a href="http://example.org/classes/structrivet_1_1cutflow/">Cutflow</a>}s by the given factor.  |
-| void | **[normalize](http://example.org/classes/structrivet_1_1cutflows/#function-normalize)**(double norm, size_t icut =0) |
-| string | **[str](http://example.org/classes/structrivet_1_1cutflows/#function-str)**() const<br>Create a string representation.  |
-| void | **[print](http://example.org/classes/structrivet_1_1cutflows/#function-print)**(std::ostream & os) const<br>Print string representation to a stream.  |
+| | **[Cutflows](/documentation/code/classes/structrivet_1_1cutflows/#function-cutflows)**()<br>Do-nothing default constructor.  |
+| | **[Cutflows](/documentation/code/classes/structrivet_1_1cutflows/#function-cutflows)**(const vector< <a href="/documentation/code/classes/structrivet_1_1cutflow/">Cutflow</a> > & cutflows)<br>Populating constructor.  |
+| void | **[addCutflow](/documentation/code/classes/structrivet_1_1cutflows/#function-addcutflow)**(const <a href="/documentation/code/classes/structrivet_1_1cutflow/">Cutflow</a> & cf)<br>Append a provided <a href="/documentation/code/classes/structrivet_1_1cutflow/">Cutflow</a> to the list.  |
+| void | **[addCutflow](/documentation/code/classes/structrivet_1_1cutflows/#function-addcutflow)**(const string & cfname, const vector< string > & cutnames)<br>Append a newly constructed <a href="/documentation/code/classes/structrivet_1_1cutflow/">Cutflow</a> to the list.  |
+| <a href="/documentation/code/classes/structrivet_1_1cutflow/">Cutflow</a> & | **[operator[]](/documentation/code/classes/structrivet_1_1cutflows/#function-operator[])**(size_t i)<br>Access the _i'th_<a href="/documentation/code/classes/structrivet_1_1cutflow/">Cutflow</a>.  |
+| const <a href="/documentation/code/classes/structrivet_1_1cutflow/">Cutflow</a> & | **[operator[]](/documentation/code/classes/structrivet_1_1cutflows/#function-operator[])**(size_t i) const<br>Access the _i'th_<a href="/documentation/code/classes/structrivet_1_1cutflow/">Cutflow</a> (const)  |
+| <a href="/documentation/code/classes/structrivet_1_1cutflow/">Cutflow</a> & | **[operator[]](/documentation/code/classes/structrivet_1_1cutflows/#function-operator[])**(const string & name)<br>Access the <a href="/documentation/code/classes/structrivet_1_1cutflow/">Cutflow</a> whose name is _name_.  |
+| const <a href="/documentation/code/classes/structrivet_1_1cutflow/">Cutflow</a> & | **[operator[]](/documentation/code/classes/structrivet_1_1cutflows/#function-operator[])**(const string & name) const<br>Access the _i'th_<a href="/documentation/code/classes/structrivet_1_1cutflow/">Cutflow</a> (const)  |
+| void | **[fillinit](/documentation/code/classes/structrivet_1_1cutflows/#function-fillinit)**(double weight =1.)<br>Fill the pre-cuts state counter for all contained {<a href="/documentation/code/classes/structrivet_1_1cutflow/">Cutflow</a>}s.  |
+| bool | **[fill](/documentation/code/classes/structrivet_1_1cutflows/#function-fill)**(size_t icut, bool cutresult =true, double weight =1.)<br>Fill the _{icut}'th_ post-cut counter, starting at icut=1 for first cut, with the same result for all {<a href="/documentation/code/classes/structrivet_1_1cutflow/">Cutflow</a>}s.  |
+| bool | **[fill](/documentation/code/classes/structrivet_1_1cutflows/#function-fill)**(size_t icut, double weight)<br>Fill the _{icut}'th_ post-cut counter, starting at icut=1 for first cut, with the same result for all {<a href="/documentation/code/classes/structrivet_1_1cutflow/">Cutflow</a>}s (cutresult=true overload)  |
+| bool | **[fill](/documentation/code/classes/structrivet_1_1cutflows/#function-fill)**(size_t icut, const vector< bool > & cutresults, double weight =1.)<br>Fill cut-state counters from an n-element results vector, starting at icut.  |
+| bool | **[fillnext](/documentation/code/classes/structrivet_1_1cutflows/#function-fillnext)**(bool cutresult, double weight =1.)<br>Fill the next post-cut counter.  |
+| bool | **[fillnext](/documentation/code/classes/structrivet_1_1cutflows/#function-fillnext)**(double weight =1.)<br>Fill the next post-cut counter, assuming a true result.  |
+| bool | **[fillnext](/documentation/code/classes/structrivet_1_1cutflows/#function-fillnext)**(const vector< bool > & cutresults, double weight =1.)<br>Fill the next cut-state counters from an n-element results vector.  |
+| bool | **[fillall](/documentation/code/classes/structrivet_1_1cutflows/#function-fillall)**(const vector< bool > & cutresults, double weight =1.)<br>Fill all cut-state counters from an Ncut-element results vector, starting at icut=1.  |
+| void | **[scale](/documentation/code/classes/structrivet_1_1cutflows/#function-scale)**(double factor)<br>Scale the contained {<a href="/documentation/code/classes/structrivet_1_1cutflow/">Cutflow</a>}s by the given factor.  |
+| void | **[normalize](/documentation/code/classes/structrivet_1_1cutflows/#function-normalize)**(double norm, size_t icut =0) |
+| string | **[str](/documentation/code/classes/structrivet_1_1cutflows/#function-str)**() const<br>Create a string representation.  |
+| void | **[print](/documentation/code/classes/structrivet_1_1cutflows/#function-print)**(std::ostream & os) const<br>Print string representation to a stream.  |
 
 ## Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
-| vector< <a href="http://example.org/classes/structrivet_1_1cutflow/">Cutflow</a> > | **[cfs](http://example.org/classes/structrivet_1_1cutflows/#variable-cfs)**  |
+| vector< <a href="/documentation/code/classes/structrivet_1_1cutflow/">Cutflow</a> > | **[cfs](/documentation/code/classes/structrivet_1_1cutflows/#variable-cfs)**  |
 
 ## Public Functions Documentation
 
@@ -73,7 +73,7 @@ inline void addCutflow(
 )
 ```
 
-Append a provided <a href="http://example.org/classes/structrivet_1_1cutflow/">Cutflow</a> to the list. 
+Append a provided <a href="/documentation/code/classes/structrivet_1_1cutflow/">Cutflow</a> to the list. 
 
 ### function addCutflow
 
@@ -84,7 +84,7 @@ inline void addCutflow(
 )
 ```
 
-Append a newly constructed <a href="http://example.org/classes/structrivet_1_1cutflow/">Cutflow</a> to the list. 
+Append a newly constructed <a href="/documentation/code/classes/structrivet_1_1cutflow/">Cutflow</a> to the list. 
 
 ### function operator[]
 
@@ -94,7 +94,7 @@ inline Cutflow & operator[](
 )
 ```
 
-Access the _i'th_<a href="http://example.org/classes/structrivet_1_1cutflow/">Cutflow</a>. 
+Access the _i'th_<a href="/documentation/code/classes/structrivet_1_1cutflow/">Cutflow</a>. 
 
 ### function operator[]
 
@@ -104,7 +104,7 @@ inline const Cutflow & operator[](
 ) const
 ```
 
-Access the _i'th_<a href="http://example.org/classes/structrivet_1_1cutflow/">Cutflow</a> (const) 
+Access the _i'th_<a href="/documentation/code/classes/structrivet_1_1cutflow/">Cutflow</a> (const) 
 
 ### function operator[]
 
@@ -114,7 +114,7 @@ inline Cutflow & operator[](
 )
 ```
 
-Access the <a href="http://example.org/classes/structrivet_1_1cutflow/">Cutflow</a> whose name is _name_. 
+Access the <a href="/documentation/code/classes/structrivet_1_1cutflow/">Cutflow</a> whose name is _name_. 
 
 ### function operator[]
 
@@ -124,7 +124,7 @@ inline const Cutflow & operator[](
 ) const
 ```
 
-Access the _i'th_<a href="http://example.org/classes/structrivet_1_1cutflow/">Cutflow</a> (const) 
+Access the _i'th_<a href="/documentation/code/classes/structrivet_1_1cutflow/">Cutflow</a> (const) 
 
 ### function fillinit
 
@@ -134,7 +134,7 @@ inline void fillinit(
 )
 ```
 
-Fill the pre-cuts state counter for all contained {<a href="http://example.org/classes/structrivet_1_1cutflow/">Cutflow</a>}s. 
+Fill the pre-cuts state counter for all contained {<a href="/documentation/code/classes/structrivet_1_1cutflow/">Cutflow</a>}s. 
 
 ### function fill
 
@@ -146,7 +146,7 @@ inline bool fill(
 )
 ```
 
-Fill the _{icut}'th_ post-cut counter, starting at icut=1 for first cut, with the same result for all {<a href="http://example.org/classes/structrivet_1_1cutflow/">Cutflow</a>}s. 
+Fill the _{icut}'th_ post-cut counter, starting at icut=1 for first cut, with the same result for all {<a href="/documentation/code/classes/structrivet_1_1cutflow/">Cutflow</a>}s. 
 
 ### function fill
 
@@ -157,7 +157,7 @@ inline bool fill(
 )
 ```
 
-Fill the _{icut}'th_ post-cut counter, starting at icut=1 for first cut, with the same result for all {<a href="http://example.org/classes/structrivet_1_1cutflow/">Cutflow</a>}s (cutresult=true overload) 
+Fill the _{icut}'th_ post-cut counter, starting at icut=1 for first cut, with the same result for all {<a href="/documentation/code/classes/structrivet_1_1cutflow/">Cutflow</a>}s (cutresult=true overload) 
 
 **Note**: Returns the cut result to allow 'side-effect' cut-flow filling in an if-statement 
 
@@ -229,7 +229,7 @@ Fill all cut-state counters from an Ncut-element results vector, starting at icu
 
 **Deprecated**: 
 
-Prefer to use vector <a href="http://example.org/classes/structrivet_1_1cutflows/#function-fillinit">fillinit()</a> and vector <a href="http://example.org/classes/structrivet_1_1cutflows/#function-fill">fill()</a>
+Prefer to use vector <a href="/documentation/code/classes/structrivet_1_1cutflows/#function-fillinit">fillinit()</a> and vector <a href="/documentation/code/classes/structrivet_1_1cutflows/#function-fill">fill()</a>
 
 ### function scale
 
@@ -239,7 +239,7 @@ inline void scale(
 )
 ```
 
-Scale the contained {<a href="http://example.org/classes/structrivet_1_1cutflow/">Cutflow</a>}s by the given factor. 
+Scale the contained {<a href="/documentation/code/classes/structrivet_1_1cutflow/">Cutflow</a>}s by the given factor. 
 
 ### function normalize
 
@@ -285,4 +285,4 @@ vector< Cutflow > cfs;
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:08 +0100
+Updated on 2022-07-28 at 18:36:45 +0100

@@ -7,7 +7,7 @@ description: "$ |avoidDelta y| $ (with respect to another momentum, vec) less-th
 
 # Rivet::DeltaRapLess
 
-**Module:** **[Functions for Particles and Jets](http://example.org/modules/group__particlebaseutils/)** **/** **[ParticleBase classifier -> bool functors](http://example.org/modules/group__particlebasetutils__pb2bool/)**
+**Module:** **[Functions for Particles and Jets](/documentation/code/modules/group__particlebaseutils/)** **/** **[ParticleBase classifier -> bool functors](/documentation/code/modules/group__particlebasetutils__pb2bool/)**
 
 
 
@@ -16,30 +16,30 @@ description: "$ |avoidDelta y| $ (with respect to another momentum, vec) less-th
 
 `#include <ParticleBaseUtils.hh>`
 
-Inherits from [Rivet::BoolParticleBaseFunctor](http://example.org/classes/structrivet_1_1boolparticlebasefunctor/)
+Inherits from [Rivet::BoolParticleBaseFunctor](/documentation/code/classes/structrivet_1_1boolparticlebasefunctor/)
 
 ## Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
-| | **[DeltaRapLess](http://example.org/modules/group__particlebaseutils/#function-deltarapless)**(const <a href="http://example.org/classes/classrivet_1_1particlebase/">ParticleBase</a> & vec, double drap) |
-| | **[DeltaRapLess](http://example.org/modules/group__particlebaseutils/#function-deltarapless)**(const <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & vec, double drap) |
-| virtual bool | **[operator()](http://example.org/modules/group__particlebaseutils/#function-operator())**(const <a href="http://example.org/classes/classrivet_1_1particlebase/">ParticleBase</a> & p) const |
+| | **[DeltaRapLess](/documentation/code/modules/group__particlebaseutils/#function-deltarapless)**(const <a href="/documentation/code/classes/classrivet_1_1particlebase/">ParticleBase</a> & vec, double drap) |
+| | **[DeltaRapLess](/documentation/code/modules/group__particlebaseutils/#function-deltarapless)**(const <a href="/documentation/code/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & vec, double drap) |
+| virtual bool | **[operator()](/documentation/code/modules/group__particlebaseutils/#function-operator())**(const <a href="/documentation/code/classes/classrivet_1_1particlebase/">ParticleBase</a> & p) const |
 
 ## Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
-| <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a> | **[refvec](http://example.org/modules/group__particlebaseutils/#variable-refvec)**  |
-| double | **[drapcut](http://example.org/modules/group__particlebaseutils/#variable-drapcut)**  |
+| <a href="/documentation/code/classes/classrivet_1_1fourmomentum/">FourMomentum</a> | **[refvec](/documentation/code/modules/group__particlebaseutils/#variable-refvec)**  |
+| double | **[drapcut](/documentation/code/modules/group__particlebaseutils/#variable-drapcut)**  |
 
 ## Additional inherited members
 
-**Public Functions inherited from [Rivet::BoolParticleBaseFunctor](http://example.org/classes/structrivet_1_1boolparticlebasefunctor/)**
+**Public Functions inherited from [Rivet::BoolParticleBaseFunctor](/documentation/code/classes/structrivet_1_1boolparticlebasefunctor/)**
 
 |                | Name           |
 | -------------- | -------------- |
-| virtual | **[~BoolParticleBaseFunctor](http://example.org/modules/group__particlebaseutils/#function-~boolparticlebasefunctor)**() |
+| virtual | **[~BoolParticleBaseFunctor](/documentation/code/modules/group__particlebaseutils/#function-~boolparticlebasefunctor)**() |
 
 
 ## Public Functions Documentation
@@ -73,7 +73,7 @@ inline virtual bool operator()(
 ```
 
 
-**Reimplements**: [Rivet::BoolParticleBaseFunctor::operator()](http://example.org/modules/group__particlebaseutils/#function-operator())
+**Reimplements**: [Rivet::BoolParticleBaseFunctor::operator()](/documentation/code/modules/group__particlebaseutils/#function-operator())
 
 
 ## Public Attributes Documentation
@@ -94,4 +94,4 @@ double drapcut;
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

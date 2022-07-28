@@ -14,15 +14,15 @@ description: "[Documentation update required.]"
 
 | Name           |
 | -------------- |
-| **[Rivet](http://example.org/namespaces/namespacerivet/)**  |
+| **[Rivet](/documentation/code/namespaces/namespacerivet/)**  |
 
 ## Classes
 
 |                | Name           |
 | -------------- | -------------- |
-| class | **[Rivet::EventMixingBase](http://example.org/classes/classrivet_1_1eventmixingbase/)**  |
-| class | **[Rivet::EventMixingFinalState](http://example.org/classes/classrivet_1_1eventmixingfinalstate/)**  |
-| class | **[Rivet::EventMixingCentrality](http://example.org/classes/classrivet_1_1eventmixingcentrality/)**  |
+| class | **[Rivet::EventMixingBase](/documentation/code/classes/classrivet_1_1eventmixingbase/)**  |
+| class | **[Rivet::EventMixingFinalState](/documentation/code/classes/classrivet_1_1eventmixingfinalstate/)**  |
+| class | **[Rivet::EventMixingCentrality](/documentation/code/classes/classrivet_1_1eventmixingcentrality/)**  |
 
 
 
@@ -259,4 +259,4 @@ namespace Rivet {
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

@@ -14,8 +14,8 @@ description: "[Documentation update required.]"
 
 | Name           |
 | -------------- |
-| **[Rivet](http://example.org/namespaces/namespacerivet/)**  |
-| **[Rivet::Cuts](http://example.org/namespaces/namespacerivet_1_1cuts/)** <br>Namespace used for ambiguous identifiers.  |
+| **[Rivet](/documentation/code/namespaces/namespacerivet/)**  |
+| **[Rivet::Cuts](/documentation/code/namespaces/namespacerivet_1_1cuts/)** <br>Namespace used for ambiguous identifiers.  |
 
 
 
@@ -134,4 +134,4 @@ namespace Rivet {
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

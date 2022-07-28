@@ -14,16 +14,16 @@ description: "[Documentation update required.]"
 
 |                | Name           |
 | -------------- | -------------- |
-| map< string, YODA::AnalysisObjectPtr > | **[getRefData](http://example.org/modules/group__aomanip/#function-getrefdata)**(const string & papername) |
-| string | **[getDatafilePath](http://example.org/modules/group__aomanip/#function-getdatafilepath)**(const string & papername)<br>Get the file system path to the reference file for this paper.  |
-| template <typename T \> <br>bool | **[aocopy](http://example.org/modules/group__aomanip/#function-aocopy)**(YODA::AnalysisObjectPtr src, YODA::AnalysisObjectPtr dst) |
-| template <typename T \> <br>bool | **[aocopy](http://example.org/modules/group__aomanip/#function-aocopy)**(YODA::AnalysisObjectPtr src, YODA::AnalysisObjectPtr dst, double scale) |
-| template <typename T \> <br>bool | **[aoadd](http://example.org/modules/group__aomanip/#function-aoadd)**(YODA::AnalysisObjectPtr dst, YODA::AnalysisObjectPtr src, double scale) |
-| bool | **[copyao](http://example.org/modules/group__aomanip/#function-copyao)**(YODA::AnalysisObjectPtr src, YODA::AnalysisObjectPtr dst, double scale =1.0) |
-| bool | **[addaos](http://example.org/modules/group__aomanip/#function-addaos)**(YODA::AnalysisObjectPtr dst, YODA::AnalysisObjectPtr src, double scale) |
-| template <typename TPtr \> <br>bool | **[bookingCompatible](http://example.org/modules/group__aomanip/#function-bookingcompatible)**(TPtr a, TPtr b) |
-| bool | **[bookingCompatible](http://example.org/modules/group__aomanip/#function-bookingcompatible)**(CounterPtr a, CounterPtr b) |
-| bool | **[bookingCompatible](http://example.org/modules/group__aomanip/#function-bookingcompatible)**(YODA::CounterPtr a, YODA::CounterPtr b) |
+| map< string, YODA::AnalysisObjectPtr > | **[getRefData](/documentation/code/modules/group__aomanip/#function-getrefdata)**(const string & papername) |
+| string | **[getDatafilePath](/documentation/code/modules/group__aomanip/#function-getdatafilepath)**(const string & papername)<br>Get the file system path to the reference file for this paper.  |
+| template <typename T \> <br>bool | **[aocopy](/documentation/code/modules/group__aomanip/#function-aocopy)**(YODA::AnalysisObjectPtr src, YODA::AnalysisObjectPtr dst) |
+| template <typename T \> <br>bool | **[aocopy](/documentation/code/modules/group__aomanip/#function-aocopy)**(YODA::AnalysisObjectPtr src, YODA::AnalysisObjectPtr dst, double scale) |
+| template <typename T \> <br>bool | **[aoadd](/documentation/code/modules/group__aomanip/#function-aoadd)**(YODA::AnalysisObjectPtr dst, YODA::AnalysisObjectPtr src, double scale) |
+| bool | **[copyao](/documentation/code/modules/group__aomanip/#function-copyao)**(YODA::AnalysisObjectPtr src, YODA::AnalysisObjectPtr dst, double scale =1.0) |
+| bool | **[addaos](/documentation/code/modules/group__aomanip/#function-addaos)**(YODA::AnalysisObjectPtr dst, YODA::AnalysisObjectPtr src, double scale) |
+| template <typename TPtr \> <br>bool | **[bookingCompatible](/documentation/code/modules/group__aomanip/#function-bookingcompatible)**(TPtr a, TPtr b) |
+| bool | **[bookingCompatible](/documentation/code/modules/group__aomanip/#function-bookingcompatible)**(CounterPtr a, CounterPtr b) |
+| bool | **[bookingCompatible](/documentation/code/modules/group__aomanip/#function-bookingcompatible)**(YODA::CounterPtr a, YODA::CounterPtr b) |
 
 
 ## Functions Documentation
@@ -50,7 +50,7 @@ string getDatafilePath(
 
 Get the file system path to the reference file for this paper. 
 
-**Todo**: Also provide a Scatter3D <a href="http://example.org/modules/group__aomanip/#function-getrefdata">getRefData()</a> version? 
+**Todo**: Also provide a Scatter3D <a href="/documentation/code/modules/group__aomanip/#function-getrefdata">getRefData()</a> version? 
 
 ### function aocopy
 
@@ -78,7 +78,7 @@ inline bool aocopy(
 ```
 
 
-If _dst_ and _src_ both are of same subclass T, copy the contents of _src_ into _dst_ and return true. Otherwise return false. The _scale_ argument will be ued to scale the weights of non-scatter types, cf. <a href="http://example.org/modules/group__aomanip/#function-aoadd">aoadd()</a>. 
+If _dst_ and _src_ both are of same subclass T, copy the contents of _src_ into _dst_ and return true. Otherwise return false. The _scale_ argument will be ued to scale the weights of non-scatter types, cf. <a href="/documentation/code/modules/group__aomanip/#function-aoadd">aoadd()</a>. 
 
 
 ### function aoadd
@@ -164,4 +164,4 @@ inline bool bookingCompatible(
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

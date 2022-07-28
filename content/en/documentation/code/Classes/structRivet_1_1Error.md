@@ -9,20 +9,20 @@ description: "Generic runtime Rivet error. "
 
 
 
-Generic runtime <a href="http://example.org/namespaces/namespacerivet/">Rivet</a> error. 
+Generic runtime <a href="/documentation/code/namespaces/namespacerivet/">Rivet</a> error. 
 
 
 `#include <Exceptions.hh>`
 
 Inherits from std::runtime_error
 
-Inherited by [Rivet::IOError](http://example.org/classes/structrivet_1_1ioerror/), [Rivet::InfoError](http://example.org/classes/structrivet_1_1infoerror/), [Rivet::LogicError](http://example.org/classes/structrivet_1_1logicerror/), [Rivet::LookupError](http://example.org/classes/structrivet_1_1lookuperror/), [Rivet::PidError](http://example.org/classes/structrivet_1_1piderror/), [Rivet::RangeError](http://example.org/classes/structrivet_1_1rangeerror/), [Rivet::UserError](http://example.org/classes/structrivet_1_1usererror/), [Rivet::WeightError](http://example.org/classes/structrivet_1_1weighterror/)
+Inherited by [Rivet::IOError](/documentation/code/classes/structrivet_1_1ioerror/), [Rivet::InfoError](/documentation/code/classes/structrivet_1_1infoerror/), [Rivet::LogicError](/documentation/code/classes/structrivet_1_1logicerror/), [Rivet::LookupError](/documentation/code/classes/structrivet_1_1lookuperror/), [Rivet::PidError](/documentation/code/classes/structrivet_1_1piderror/), [Rivet::RangeError](/documentation/code/classes/structrivet_1_1rangeerror/), [Rivet::UserError](/documentation/code/classes/structrivet_1_1usererror/), [Rivet::WeightError](/documentation/code/classes/structrivet_1_1weighterror/)
 
 ## Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
-| | **[Error](http://example.org/classes/structrivet_1_1error/#function-error)**(const std::string & what) |
+| | **[Error](/documentation/code/classes/structrivet_1_1error/#function-error)**(const std::string & what) |
 
 ## Public Functions Documentation
 
@@ -37,4 +37,4 @@ inline Error(
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:08 +0100
+Updated on 2022-07-28 at 18:36:46 +0100

@@ -14,13 +14,13 @@ description: "[Documentation update required.]"
 
 |                | Name           |
 | -------------- | -------------- |
-| enum| **[Location](http://example.org/modules/group__mcutils__utils/#enum-location)** { nj =1, nq3, nq2, nq1, nl, nr, n, n8, n9, n10} |
+| enum| **[Location](/documentation/code/modules/group__mcutils__utils/#enum-location)** { nj =1, nq3, nq2, nq1, nl, nr, n, n8, n9, n10} |
 
 ## Functions
 
 |                | Name           |
 | -------------- | -------------- |
-| int | **[abspid](http://example.org/modules/group__mcutils__utils/#function-abspid)**(int pid) |
+| int | **[abspid](/documentation/code/modules/group__mcutils__utils/#function-abspid)**(int pid) |
 
 ## Types Documentation
 
@@ -70,4 +70,4 @@ Absolute value
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

@@ -14,15 +14,15 @@ description: "[Documentation update required.]"
 
 |                | Name           |
 | -------------- | -------------- |
-| using rivet_shared_ptr< MultiweightAOWrapper > | **[MultiweightAOPtr](http://example.org/modules/group__useraos/#using-multiweightaoptr)**  |
-| using rivet_shared_ptr< Wrapper< YODA::Histo1D > > | **[Histo1DPtr](http://example.org/modules/group__useraos/#using-histo1dptr)**  |
-| using rivet_shared_ptr< Wrapper< YODA::Histo2D > > | **[Histo2DPtr](http://example.org/modules/group__useraos/#using-histo2dptr)**  |
-| using rivet_shared_ptr< Wrapper< YODA::Profile1D > > | **[Profile1DPtr](http://example.org/modules/group__useraos/#using-profile1dptr)**  |
-| using rivet_shared_ptr< Wrapper< YODA::Profile2D > > | **[Profile2DPtr](http://example.org/modules/group__useraos/#using-profile2dptr)**  |
-| using rivet_shared_ptr< Wrapper< YODA::Counter > > | **[CounterPtr](http://example.org/modules/group__useraos/#using-counterptr)**  |
-| using rivet_shared_ptr< Wrapper< YODA::Scatter1D > > | **[Scatter1DPtr](http://example.org/modules/group__useraos/#using-scatter1dptr)**  |
-| using rivet_shared_ptr< Wrapper< YODA::Scatter2D > > | **[Scatter2DPtr](http://example.org/modules/group__useraos/#using-scatter2dptr)**  |
-| using rivet_shared_ptr< Wrapper< YODA::Scatter3D > > | **[Scatter3DPtr](http://example.org/modules/group__useraos/#using-scatter3dptr)**  |
+| using rivet_shared_ptr< MultiweightAOWrapper > | **[MultiweightAOPtr](/documentation/code/modules/group__useraos/#using-multiweightaoptr)**  |
+| using rivet_shared_ptr< Wrapper< YODA::Histo1D > > | **[Histo1DPtr](/documentation/code/modules/group__useraos/#using-histo1dptr)**  |
+| using rivet_shared_ptr< Wrapper< YODA::Histo2D > > | **[Histo2DPtr](/documentation/code/modules/group__useraos/#using-histo2dptr)**  |
+| using rivet_shared_ptr< Wrapper< YODA::Profile1D > > | **[Profile1DPtr](/documentation/code/modules/group__useraos/#using-profile1dptr)**  |
+| using rivet_shared_ptr< Wrapper< YODA::Profile2D > > | **[Profile2DPtr](/documentation/code/modules/group__useraos/#using-profile2dptr)**  |
+| using rivet_shared_ptr< Wrapper< YODA::Counter > > | **[CounterPtr](/documentation/code/modules/group__useraos/#using-counterptr)**  |
+| using rivet_shared_ptr< Wrapper< YODA::Scatter1D > > | **[Scatter1DPtr](/documentation/code/modules/group__useraos/#using-scatter1dptr)**  |
+| using rivet_shared_ptr< Wrapper< YODA::Scatter2D > > | **[Scatter2DPtr](/documentation/code/modules/group__useraos/#using-scatter2dptr)**  |
+| using rivet_shared_ptr< Wrapper< YODA::Scatter3D > > | **[Scatter3DPtr](/documentation/code/modules/group__useraos/#using-scatter3dptr)**  |
 
 ## Detailed Description
 
@@ -100,4 +100,4 @@ using Rivet::Scatter3DPtr = typedef rivet_shared_ptr<Wrapper<YODA::Scatter3D> >;
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

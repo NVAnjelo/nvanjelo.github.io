@@ -14,26 +14,26 @@ description: "[Documentation update required.]"
 
 | Name           |
 | -------------- |
-| **[Rivet](http://example.org/namespaces/namespacerivet/)**  |
+| **[Rivet](/documentation/code/namespaces/namespacerivet/)**  |
 
 ## Classes
 
 |                | Name           |
 | -------------- | -------------- |
-| class | **[Rivet::Analysis](http://example.org/classes/classrivet_1_1analysis/)** <br>This is the base class of all analysis classes in <a href="http://example.org/namespaces/namespacerivet/">Rivet</a>.  |
+| class | **[Rivet::Analysis](/documentation/code/classes/classrivet_1_1analysis/)** <br>This is the base class of all analysis classes in <a href="/documentation/code/namespaces/namespacerivet/">Rivet</a>.  |
 
 ## Defines
 
 |                | Name           |
 | -------------- | -------------- |
-|  | **[vetoEvent](http://example.org/files/analysis_8hh/#define-vetoevent)**  |
-|  | **[RIVET_DECLARE_PLUGIN](http://example.org/modules/group__anamacros/#define-rivet-declare-plugin)**(clsname)  |
-|  | **[RIVET_DECLARE_ALIASED_PLUGIN](http://example.org/modules/group__anamacros/#define-rivet-declare-aliased-plugin)**(clsname, alias)  |
-|  | **[RIVET_DEFAULT_ANALYSIS_CTOR](http://example.org/modules/group__anamacros/#define-rivet-default-analysis-ctor)**(clsname)  |
-|  | **[DECLARE_RIVET_PLUGIN](http://example.org/modules/group__anamacros/#define-declare-rivet-plugin)**(clsname)  |
-|  | **[DECLARE_ALIASED_RIVET_PLUGIN](http://example.org/modules/group__anamacros/#define-declare-aliased-rivet-plugin)**(clsname, alias)  |
-|  | **[DEFAULT_RIVET_ANALYSIS_CONSTRUCTOR](http://example.org/modules/group__anamacros/#define-default-rivet-analysis-constructor)**(clsname)  |
-|  | **[DEFAULT_RIVET_ANALYSIS_CTOR](http://example.org/modules/group__anamacros/#define-default-rivet-analysis-ctor)**(clsname)  |
+|  | **[vetoEvent](/documentation/code/files/analysis_8hh/#define-vetoevent)**  |
+|  | **[RIVET_DECLARE_PLUGIN](/documentation/code/modules/group__anamacros/#define-rivet-declare-plugin)**(clsname)  |
+|  | **[RIVET_DECLARE_ALIASED_PLUGIN](/documentation/code/modules/group__anamacros/#define-rivet-declare-aliased-plugin)**(clsname, alias)  |
+|  | **[RIVET_DEFAULT_ANALYSIS_CTOR](/documentation/code/modules/group__anamacros/#define-rivet-default-analysis-ctor)**(clsname)  |
+|  | **[DECLARE_RIVET_PLUGIN](/documentation/code/modules/group__anamacros/#define-declare-rivet-plugin)**(clsname)  |
+|  | **[DECLARE_ALIASED_RIVET_PLUGIN](/documentation/code/modules/group__anamacros/#define-declare-aliased-rivet-plugin)**(clsname, alias)  |
+|  | **[DEFAULT_RIVET_ANALYSIS_CONSTRUCTOR](/documentation/code/modules/group__anamacros/#define-default-rivet-analysis-constructor)**(clsname)  |
+|  | **[DEFAULT_RIVET_ANALYSIS_CTOR](/documentation/code/modules/group__anamacros/#define-default-rivet-analysis-ctor)**(clsname)  |
 
 
 
@@ -1256,4 +1256,4 @@ namespace Rivet {
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

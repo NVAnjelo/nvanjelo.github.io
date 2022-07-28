@@ -14,13 +14,13 @@ description: "[Documentation update required.]"
 
 | Name           |
 | -------------- |
-| **[Rivet](http://example.org/namespaces/namespacerivet/)**  |
+| **[Rivet](/documentation/code/namespaces/namespacerivet/)**  |
 
 ## Classes
 
 |                | Name           |
 | -------------- | -------------- |
-| class | **[Rivet::SmearedMET](http://example.org/classes/classrivet_1_1smearedmet/)** <br>Wrapper projection for smearing missing (transverse) energy/momentum with detector resolutions.  |
+| class | **[Rivet::SmearedMET](/documentation/code/classes/classrivet_1_1smearedmet/)** <br>Wrapper projection for smearing missing (transverse) energy/momentum with detector resolutions.  |
 
 
 
@@ -111,4 +111,4 @@ namespace Rivet {
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

@@ -14,13 +14,13 @@ description: "[Documentation update required.]"
 
 |                | Name           |
 | -------------- | -------------- |
-|  | **[RIVET_DECLARE_PLUGIN](http://example.org/modules/group__anamacros/#define-rivet-declare-plugin)**(clsname)  |
-|  | **[RIVET_DECLARE_ALIASED_PLUGIN](http://example.org/modules/group__anamacros/#define-rivet-declare-aliased-plugin)**(clsname, alias)  |
-|  | **[RIVET_DEFAULT_ANALYSIS_CTOR](http://example.org/modules/group__anamacros/#define-rivet-default-analysis-ctor)**(clsname)  |
-|  | **[DECLARE_RIVET_PLUGIN](http://example.org/modules/group__anamacros/#define-declare-rivet-plugin)**(clsname)  |
-|  | **[DECLARE_ALIASED_RIVET_PLUGIN](http://example.org/modules/group__anamacros/#define-declare-aliased-rivet-plugin)**(clsname, alias)  |
-|  | **[DEFAULT_RIVET_ANALYSIS_CONSTRUCTOR](http://example.org/modules/group__anamacros/#define-default-rivet-analysis-constructor)**(clsname)  |
-|  | **[DEFAULT_RIVET_ANALYSIS_CTOR](http://example.org/modules/group__anamacros/#define-default-rivet-analysis-ctor)**(clsname)  |
+|  | **[RIVET_DECLARE_PLUGIN](/documentation/code/modules/group__anamacros/#define-rivet-declare-plugin)**(clsname)  |
+|  | **[RIVET_DECLARE_ALIASED_PLUGIN](/documentation/code/modules/group__anamacros/#define-rivet-declare-aliased-plugin)**(clsname, alias)  |
+|  | **[RIVET_DEFAULT_ANALYSIS_CTOR](/documentation/code/modules/group__anamacros/#define-rivet-default-analysis-ctor)**(clsname)  |
+|  | **[DECLARE_RIVET_PLUGIN](/documentation/code/modules/group__anamacros/#define-declare-rivet-plugin)**(clsname)  |
+|  | **[DECLARE_ALIASED_RIVET_PLUGIN](/documentation/code/modules/group__anamacros/#define-declare-aliased-rivet-plugin)**(clsname, alias)  |
+|  | **[DEFAULT_RIVET_ANALYSIS_CONSTRUCTOR](/documentation/code/modules/group__anamacros/#define-default-rivet-analysis-constructor)**(clsname)  |
+|  | **[DEFAULT_RIVET_ANALYSIS_CTOR](/documentation/code/modules/group__anamacros/#define-default-rivet-analysis-ctor)**(clsname)  |
 
 
 
@@ -140,4 +140,4 @@ Preprocessor define to prettify the awkward constructor with name string argumen
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

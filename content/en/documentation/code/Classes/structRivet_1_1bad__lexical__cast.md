@@ -7,7 +7,7 @@ description: "Exception class for throwing from lexical_cast when a parse goes w
 
 # Rivet::bad_lexical_cast
 
-**Module:** **[String utils](http://example.org/modules/group__strutils/)**
+**Module:** **[String utils](/documentation/code/modules/group__strutils/)**
 
 
 
@@ -22,7 +22,7 @@ Inherits from std::runtime_error
 
 |                | Name           |
 | -------------- | -------------- |
-| | **[bad_lexical_cast](http://example.org/classes/structrivet_1_1bad__lexical__cast/#function-bad-lexical-cast)**(const std::string & what) |
+| | **[bad_lexical_cast](/documentation/code/classes/structrivet_1_1bad__lexical__cast/#function-bad-lexical-cast)**(const std::string & what) |
 
 ## Public Functions Documentation
 
@@ -37,4 +37,4 @@ inline bad_lexical_cast(
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

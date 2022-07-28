@@ -9,7 +9,7 @@ description: "Specialised vector of Jet objects. "
 
 
 
-Specialised vector of <a href="http://example.org/classes/classrivet_1_1jet/">Jet</a> objects.  [More...](#detailed-description)
+Specialised vector of <a href="/documentation/code/classes/classrivet_1_1jet/">Jet</a> objects.  [More...](#detailed-description)
 
 
 `#include <Jet.hh>`
@@ -20,20 +20,20 @@ Inherits from std::vector< Jet >
 
 |                | Name           |
 | -------------- | -------------- |
-| using std::vector< <a href="http://example.org/classes/classrivet_1_1jet/">Jet</a> > | **[base](http://example.org/classes/classrivet_1_1jets/#using-base)**  |
+| using std::vector< <a href="/documentation/code/classes/classrivet_1_1jet/">Jet</a> > | **[base](/documentation/code/classes/classrivet_1_1jets/#using-base)**  |
 
 ## Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
-| | **[Jets](http://example.org/classes/classrivet_1_1jets/#function-jets)**() |
-| | **[Jets](http://example.org/classes/classrivet_1_1jets/#function-jets)**(const std::vector< <a href="http://example.org/classes/classrivet_1_1jet/">Jet</a> > & vjs) |
-| FourMomenta | **[moms](http://example.org/classes/classrivet_1_1jets/#function-moms)**() const |
-| <a href="http://example.org/namespaces/namespacerivet/#typedef-pseudojets">PseudoJets</a> | **[pseudojets](http://example.org/classes/classrivet_1_1jets/#function-pseudojets)**() const |
-| | **[operator FourMomenta](http://example.org/classes/classrivet_1_1jets/#function-operator-fourmomenta)**() const |
-| | **[operator PseudoJets](http://example.org/classes/classrivet_1_1jets/#function-operator-pseudojets)**() const |
-| <a href="http://example.org/classes/classrivet_1_1jets/">Jets</a> & | **[operator+=](http://example.org/classes/classrivet_1_1jets/#function-operator+=)**(const <a href="http://example.org/classes/classrivet_1_1jet/">Jet</a> & j) |
-| <a href="http://example.org/classes/classrivet_1_1jets/">Jets</a> & | **[operator+=](http://example.org/classes/classrivet_1_1jets/#function-operator+=)**(const <a href="http://example.org/classes/classrivet_1_1jets/">Jets</a> & js) |
+| | **[Jets](/documentation/code/classes/classrivet_1_1jets/#function-jets)**() |
+| | **[Jets](/documentation/code/classes/classrivet_1_1jets/#function-jets)**(const std::vector< <a href="/documentation/code/classes/classrivet_1_1jet/">Jet</a> > & vjs) |
+| FourMomenta | **[moms](/documentation/code/classes/classrivet_1_1jets/#function-moms)**() const |
+| <a href="/documentation/code/namespaces/namespacerivet/#typedef-pseudojets">PseudoJets</a> | **[pseudojets](/documentation/code/classes/classrivet_1_1jets/#function-pseudojets)**() const |
+| | **[operator FourMomenta](/documentation/code/classes/classrivet_1_1jets/#function-operator-fourmomenta)**() const |
+| | **[operator PseudoJets](/documentation/code/classes/classrivet_1_1jets/#function-operator-pseudojets)**() const |
+| <a href="/documentation/code/classes/classrivet_1_1jets/">Jets</a> & | **[operator+=](/documentation/code/classes/classrivet_1_1jets/#function-operator+=)**(const <a href="/documentation/code/classes/classrivet_1_1jet/">Jet</a> & j) |
+| <a href="/documentation/code/classes/classrivet_1_1jets/">Jets</a> & | **[operator+=](/documentation/code/classes/classrivet_1_1jets/#function-operator+=)**(const <a href="/documentation/code/classes/classrivet_1_1jets/">Jets</a> & js) |
 
 ## Detailed Description
 
@@ -41,11 +41,11 @@ Inherits from std::vector< Jet >
 class Rivet::Jets;
 ```
 
-Specialised vector of <a href="http://example.org/classes/classrivet_1_1jet/">Jet</a> objects. 
+Specialised vector of <a href="/documentation/code/classes/classrivet_1_1jet/">Jet</a> objects. 
 
-A specialised version of vector<Jet> which is able to implicitly and explicitly convert to a vector of <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a> or PseudoJet.
+A specialised version of vector<Jet> which is able to implicitly and explicitly convert to a vector of <a href="/documentation/code/classes/classrivet_1_1fourmomentum/">FourMomentum</a> or PseudoJet.
 
-typedef std::vector<Jet> <a href="http://example.org/classes/classrivet_1_1jets/">Jets</a>; 
+typedef std::vector<Jet> <a href="/documentation/code/classes/classrivet_1_1jets/">Jets</a>; 
 
 ## Public Types Documentation
 
@@ -122,4 +122,4 @@ Jets & operator+=(
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:08 +0100
+Updated on 2022-07-28 at 18:36:46 +0100

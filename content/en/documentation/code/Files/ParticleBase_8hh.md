@@ -14,13 +14,13 @@ description: "[Documentation update required.]"
 
 | Name           |
 | -------------- |
-| **[Rivet](http://example.org/namespaces/namespacerivet/)**  |
+| **[Rivet](/documentation/code/namespaces/namespacerivet/)**  |
 
 ## Classes
 
 |                | Name           |
 | -------------- | -------------- |
-| class | **[Rivet::ParticleBase](http://example.org/classes/classrivet_1_1particlebase/)** <br>Base class for particle-like things like <a href="http://example.org/classes/classrivet_1_1particle/">Particle</a> and <a href="http://example.org/classes/classrivet_1_1jet/">Jet</a>.  |
+| class | **[Rivet::ParticleBase](/documentation/code/classes/classrivet_1_1particlebase/)** <br>Base class for particle-like things like <a href="/documentation/code/classes/classrivet_1_1particle/">Particle</a> and <a href="/documentation/code/classes/classrivet_1_1jet/">Jet</a>.  |
 
 
 
@@ -278,4 +278,4 @@ namespace Rivet {
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

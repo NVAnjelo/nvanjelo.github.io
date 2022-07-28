@@ -14,13 +14,13 @@ description: "[Documentation update required.]"
 
 | Name           |
 | -------------- |
-| **[Rivet](http://example.org/namespaces/namespacerivet/)**  |
+| **[Rivet](/documentation/code/namespaces/namespacerivet/)**  |
 
 ## Classes
 
 |                | Name           |
 | -------------- | -------------- |
-| class | **[Rivet::MendelMin](http://example.org/classes/classrivet_1_1mendelmin/)** <br>A genetic algorithm functional minimizer.  |
+| class | **[Rivet::MendelMin](/documentation/code/classes/classrivet_1_1mendelmin/)** <br>A genetic algorithm functional minimizer.  |
 
 
 
@@ -210,4 +210,4 @@ namespace Rivet {
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

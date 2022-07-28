@@ -14,15 +14,15 @@ description: "[Documentation update required.]"
 
 |                | Name           |
 | -------------- | -------------- |
-| bool | **[isCompatible](http://example.org/modules/group__analysis__beamcompat/#function-iscompatible)**(const ParticlePair & beams) const<br>Check if analysis is compatible with the provided beam particle IDs and energies.  |
-| bool | **[isCompatible](http://example.org/modules/group__analysis__beamcompat/#function-iscompatible)**(PdgId beam1, PdgId beam2, double e1, double e2) const<br>Check if analysis is compatible with the provided beam particle IDs and energies.  |
-| bool | **[isCompatible](http://example.org/modules/group__analysis__beamcompat/#function-iscompatible)**(const PdgIdPair & beams, const std::pair< double, double > & energies) const<br>Check if analysis is compatible with the provided beam particle IDs and energies.  |
-| bool | **[isCompatibleWithSqrtS](http://example.org/modules/group__analysis__beamcompat/#function-iscompatiblewithsqrts)**(const float energy, float tolerance =1E-5) const<br>Check if sqrtS is compatible with provided value.  |
+| bool | **[isCompatible](/documentation/code/modules/group__analysis__beamcompat/#function-iscompatible)**(const ParticlePair & beams) const<br>Check if analysis is compatible with the provided beam particle IDs and energies.  |
+| bool | **[isCompatible](/documentation/code/modules/group__analysis__beamcompat/#function-iscompatible)**(PdgId beam1, PdgId beam2, double e1, double e2) const<br>Check if analysis is compatible with the provided beam particle IDs and energies.  |
+| bool | **[isCompatible](/documentation/code/modules/group__analysis__beamcompat/#function-iscompatible)**(const PdgIdPair & beams, const std::pair< double, double > & energies) const<br>Check if analysis is compatible with the provided beam particle IDs and energies.  |
+| bool | **[isCompatibleWithSqrtS](/documentation/code/modules/group__analysis__beamcompat/#function-iscompatiblewithsqrts)**(const float energy, float tolerance =1E-5) const<br>Check if sqrtS is compatible with provided value.  |
 
 ## Detailed Description
 
 
-**Todo**: Replace with beamsCompatible() with no args (calling <a href="http://example.org/modules/group__analysis__run/#function-beams">beams()</a> function internally) 
+**Todo**: Replace with beamsCompatible() with no args (calling <a href="/documentation/code/modules/group__analysis__run/#function-beams">beams()</a> function internally) 
 
 Add beamsMatch() methods with same (shared-code?) tolerance as in beamsCompatible()
 
@@ -79,4 +79,4 @@ Check if sqrtS is compatible with provided value.
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

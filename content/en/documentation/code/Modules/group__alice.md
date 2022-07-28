@@ -14,18 +14,18 @@ description: "[Documentation update required.]"
 
 | Name           |
 | -------------- |
-| **[Rivet::ALICE](http://example.org/namespaces/namespacerivet_1_1alice/)**  |
+| **[Rivet::ALICE](/documentation/code/namespaces/namespacerivet_1_1alice/)**  |
 
 ## Attributes
 
 |                | Name           |
 | -------------- | -------------- |
-| const Cut | **[V0Aacceptance](http://example.org/modules/group__alice/#variable-v0aacceptance)**  |
-| const Cut | **[V0Cacceptance](http://example.org/modules/group__alice/#variable-v0cacceptance)**  |
-| const Cut | **[CL0acceptance](http://example.org/modules/group__alice/#variable-cl0acceptance)**  |
-| const Cut | **[CL1acceptance](http://example.org/modules/group__alice/#variable-cl1acceptance)**  |
-| const Cut | **[Eta1acceptance](http://example.org/modules/group__alice/#variable-eta1acceptance)**  |
-| const Cut | **[FASTORacceptance](http://example.org/modules/group__alice/#variable-fastoracceptance)**  |
+| const Cut | **[V0Aacceptance](/documentation/code/modules/group__alice/#variable-v0aacceptance)**  |
+| const Cut | **[V0Cacceptance](/documentation/code/modules/group__alice/#variable-v0cacceptance)**  |
+| const Cut | **[CL0acceptance](/documentation/code/modules/group__alice/#variable-cl0acceptance)**  |
+| const Cut | **[CL1acceptance](/documentation/code/modules/group__alice/#variable-cl1acceptance)**  |
+| const Cut | **[Eta1acceptance](/documentation/code/modules/group__alice/#variable-eta1acceptance)**  |
+| const Cut | **[FASTORacceptance](/documentation/code/modules/group__alice/#variable-fastoracceptance)**  |
 
 ## Detailed Description
 
@@ -101,4 +101,4 @@ The acceptance cut for SPD FASTOR
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

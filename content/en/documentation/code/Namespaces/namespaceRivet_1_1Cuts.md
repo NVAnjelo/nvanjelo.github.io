@@ -13,29 +13,29 @@ Namespace used for ambiguous identifiers.
 
 |                | Name           |
 | -------------- | -------------- |
-| enum| **[Quantity](http://example.org/namespaces/namespacerivet_1_1cuts/#enum-quantity)** { pT =0, pt =0, Et =1, et =1, E =2, energy =2, mass, rap, absrap, eta, abseta, phi, pid, abspid, charge, abscharge, charge3, abscharge3, pz}<br>Available categories of cut objects.  |
+| enum| **[Quantity](/documentation/code/namespaces/namespacerivet_1_1cuts/#enum-quantity)** { pT =0, pt =0, Et =1, et =1, E =2, energy =2, mass, rap, absrap, eta, abseta, phi, pid, abspid, charge, abscharge, charge3, abscharge3, pz}<br>Available categories of cut objects.  |
 
 ## Functions
 
 |                | Name           |
 | -------------- | -------------- |
-| Cut | **[range](http://example.org/namespaces/namespacerivet_1_1cuts/#function-range)**(<a href="http://example.org/namespaces/namespacerivet_1_1cuts/#enum-quantity">Quantity</a> , double m, double n) |
-| Cut | **[ptIn](http://example.org/namespaces/namespacerivet_1_1cuts/#function-ptin)**(double m, double n) |
-| Cut | **[etIn](http://example.org/namespaces/namespacerivet_1_1cuts/#function-etin)**(double m, double n) |
-| Cut | **[energyIn](http://example.org/namespaces/namespacerivet_1_1cuts/#function-energyin)**(double m, double n) |
-| Cut | **[massIn](http://example.org/namespaces/namespacerivet_1_1cuts/#function-massin)**(double m, double n) |
-| Cut | **[rapIn](http://example.org/namespaces/namespacerivet_1_1cuts/#function-rapin)**(double m, double n) |
-| Cut | **[absrapIn](http://example.org/namespaces/namespacerivet_1_1cuts/#function-absrapin)**(double m, double n) |
-| Cut | **[etaIn](http://example.org/namespaces/namespacerivet_1_1cuts/#function-etain)**(double m, double n) |
-| Cut | **[absetaIn](http://example.org/namespaces/namespacerivet_1_1cuts/#function-absetain)**(double m, double n) |
-| const Cut & | **[open](http://example.org/namespaces/namespacerivet_1_1cuts/#function-open)**()<br>Fully open cut singleton, accepts everything.  |
+| Cut | **[range](/documentation/code/namespaces/namespacerivet_1_1cuts/#function-range)**(<a href="/documentation/code/namespaces/namespacerivet_1_1cuts/#enum-quantity">Quantity</a> , double m, double n) |
+| Cut | **[ptIn](/documentation/code/namespaces/namespacerivet_1_1cuts/#function-ptin)**(double m, double n) |
+| Cut | **[etIn](/documentation/code/namespaces/namespacerivet_1_1cuts/#function-etin)**(double m, double n) |
+| Cut | **[energyIn](/documentation/code/namespaces/namespacerivet_1_1cuts/#function-energyin)**(double m, double n) |
+| Cut | **[massIn](/documentation/code/namespaces/namespacerivet_1_1cuts/#function-massin)**(double m, double n) |
+| Cut | **[rapIn](/documentation/code/namespaces/namespacerivet_1_1cuts/#function-rapin)**(double m, double n) |
+| Cut | **[absrapIn](/documentation/code/namespaces/namespacerivet_1_1cuts/#function-absrapin)**(double m, double n) |
+| Cut | **[etaIn](/documentation/code/namespaces/namespacerivet_1_1cuts/#function-etain)**(double m, double n) |
+| Cut | **[absetaIn](/documentation/code/namespaces/namespacerivet_1_1cuts/#function-absetain)**(double m, double n) |
+| const Cut & | **[open](/documentation/code/namespaces/namespacerivet_1_1cuts/#function-open)**()<br>Fully open cut singleton, accepts everything.  |
 
 ## Attributes
 
 |                | Name           |
 | -------------- | -------------- |
-| const Cut & | **[OPEN](http://example.org/namespaces/namespacerivet_1_1cuts/#variable-open)**  |
-| const Cut & | **[NOCUT](http://example.org/namespaces/namespacerivet_1_1cuts/#variable-nocut)**  |
+| const Cut & | **[OPEN](/documentation/code/namespaces/namespacerivet_1_1cuts/#variable-open)**  |
+| const Cut & | **[NOCUT](/documentation/code/namespaces/namespacerivet_1_1cuts/#variable-nocut)**  |
 
 ## Types Documentation
 
@@ -191,4 +191,4 @@ const Cut & NOCUT;
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

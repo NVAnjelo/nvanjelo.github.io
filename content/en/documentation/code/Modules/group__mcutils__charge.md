@@ -14,11 +14,11 @@ description: "[Documentation update required.]"
 
 |                | Name           |
 | -------------- | -------------- |
-| int | **[charge3](http://example.org/modules/group__mcutils__charge/#function-charge3)**(int pid)<br>Three times the EM charge (as integer)  |
-| int | **[threeCharge](http://example.org/modules/group__mcutils__charge/#function-threecharge)**(int pid) |
-| int | **[abscharge3](http://example.org/modules/group__mcutils__charge/#function-abscharge3)**(int pid)<br>Return the absolute value of 3 times the EM charge.  |
-| double | **[charge](http://example.org/modules/group__mcutils__charge/#function-charge)**(int pid)<br>Return the EM charge (as floating point)  |
-| double | **[abscharge](http://example.org/modules/group__mcutils__charge/#function-abscharge)**(int pid)<br>Return the EM charge (as floating point)  |
+| int | **[charge3](/documentation/code/modules/group__mcutils__charge/#function-charge3)**(int pid)<br>Three times the EM charge (as integer)  |
+| int | **[threeCharge](/documentation/code/modules/group__mcutils__charge/#function-threecharge)**(int pid) |
+| int | **[abscharge3](/documentation/code/modules/group__mcutils__charge/#function-abscharge3)**(int pid)<br>Return the absolute value of 3 times the EM charge.  |
+| double | **[charge](/documentation/code/modules/group__mcutils__charge/#function-charge)**(int pid)<br>Return the EM charge (as floating point)  |
+| double | **[abscharge](/documentation/code/modules/group__mcutils__charge/#function-abscharge)**(int pid)<br>Return the EM charge (as floating point)  |
 
 
 ## Functions Documentation
@@ -88,4 +88,4 @@ Return the EM charge (as floating point)
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

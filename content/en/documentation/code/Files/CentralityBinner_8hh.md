@@ -14,15 +14,15 @@ description: "[Documentation update required.]"
 
 | Name           |
 | -------------- |
-| **[Rivet](http://example.org/namespaces/namespacerivet/)**  |
+| **[Rivet](/documentation/code/namespaces/namespacerivet/)**  |
 
 ## Classes
 
 |                | Name           |
 | -------------- | -------------- |
-| class | **[Rivet::CentralityEstimator](http://example.org/classes/classrivet_1_1centralityestimator/)** <br>Base class for projections profile observable value vs the collision centrality.  |
-| class | **[Rivet::CentralityBinner](http://example.org/classes/classrivet_1_1centralitybinner/)**  |
-| class | **[Rivet::GeneratedCentrality](http://example.org/classes/classrivet_1_1generatedcentrality/)**  |
+| class | **[Rivet::CentralityEstimator](/documentation/code/classes/classrivet_1_1centralityestimator/)** <br>Base class for projections profile observable value vs the collision centrality.  |
+| class | **[Rivet::CentralityBinner](/documentation/code/classes/classrivet_1_1centralitybinner/)**  |
+| class | **[Rivet::GeneratedCentrality](/documentation/code/classes/classrivet_1_1generatedcentrality/)**  |
 
 
 
@@ -686,4 +686,4 @@ namespace Rivet {
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

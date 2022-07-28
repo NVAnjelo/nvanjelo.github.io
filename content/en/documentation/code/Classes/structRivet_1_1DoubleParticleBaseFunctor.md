@@ -7,7 +7,7 @@ description: "Base type for Particle -> double functors. "
 
 # Rivet::DoubleParticleBaseFunctor
 
-**Module:** **[Functions for Particles and Jets](http://example.org/modules/group__particlebaseutils/)** **/** **[ParticleBase comparison -> double functors](http://example.org/modules/group__particlebaseutils__pb2dbl/)**
+**Module:** **[Functions for Particles and Jets](/documentation/code/modules/group__particlebaseutils/)** **/** **[ParticleBase comparison -> double functors](/documentation/code/modules/group__particlebaseutils__pb2dbl/)**
 
 
 
@@ -16,14 +16,14 @@ Base type for Particle -> double functors.
 
 `#include <ParticleBaseUtils.hh>`
 
-Inherited by [Rivet::AbsDeltaEtaWRT](http://example.org/classes/structrivet_1_1absdeltaetawrt/), [Rivet::AbsDeltaRapWRT](http://example.org/classes/structrivet_1_1absdeltarapwrt/), [Rivet::DeltaEtaWRT](http://example.org/classes/structrivet_1_1deltaetawrt/), [Rivet::DeltaPhiWRT](http://example.org/classes/structrivet_1_1deltaphiwrt/), [Rivet::DeltaRWRT](http://example.org/classes/structrivet_1_1deltarwrt/), [Rivet::DeltaRapWRT](http://example.org/classes/structrivet_1_1deltarapwrt/)
+Inherited by [Rivet::AbsDeltaEtaWRT](/documentation/code/classes/structrivet_1_1absdeltaetawrt/), [Rivet::AbsDeltaRapWRT](/documentation/code/classes/structrivet_1_1absdeltarapwrt/), [Rivet::DeltaEtaWRT](/documentation/code/classes/structrivet_1_1deltaetawrt/), [Rivet::DeltaPhiWRT](/documentation/code/classes/structrivet_1_1deltaphiwrt/), [Rivet::DeltaRWRT](/documentation/code/classes/structrivet_1_1deltarwrt/), [Rivet::DeltaRapWRT](/documentation/code/classes/structrivet_1_1deltarapwrt/)
 
 ## Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
-| virtual double | **[operator()](http://example.org/modules/group__particlebaseutils/#function-operator())**(const <a href="http://example.org/classes/classrivet_1_1particlebase/">ParticleBase</a> & p) const =0 |
-| virtual | **[~DoubleParticleBaseFunctor](http://example.org/modules/group__particlebaseutils/#function-~doubleparticlebasefunctor)**() |
+| virtual double | **[operator()](/documentation/code/modules/group__particlebaseutils/#function-operator())**(const <a href="/documentation/code/classes/classrivet_1_1particlebase/">ParticleBase</a> & p) const =0 |
+| virtual | **[~DoubleParticleBaseFunctor](/documentation/code/modules/group__particlebaseutils/#function-~doubleparticlebasefunctor)**() |
 
 ## Public Functions Documentation
 
@@ -36,7 +36,7 @@ virtual double operator()(
 ```
 
 
-**Reimplemented by**: [Rivet::DeltaRWRT::operator()](http://example.org/modules/group__particlebaseutils/#function-operator()), [Rivet::DeltaPhiWRT::operator()](http://example.org/modules/group__particlebaseutils/#function-operator()), [Rivet::DeltaEtaWRT::operator()](http://example.org/modules/group__particlebaseutils/#function-operator()), [Rivet::AbsDeltaEtaWRT::operator()](http://example.org/modules/group__particlebaseutils/#function-operator()), [Rivet::DeltaRapWRT::operator()](http://example.org/modules/group__particlebaseutils/#function-operator()), [Rivet::AbsDeltaRapWRT::operator()](http://example.org/modules/group__particlebaseutils/#function-operator())
+**Reimplemented by**: [Rivet::DeltaRWRT::operator()](/documentation/code/modules/group__particlebaseutils/#function-operator()), [Rivet::DeltaPhiWRT::operator()](/documentation/code/modules/group__particlebaseutils/#function-operator()), [Rivet::DeltaEtaWRT::operator()](/documentation/code/modules/group__particlebaseutils/#function-operator()), [Rivet::AbsDeltaEtaWRT::operator()](/documentation/code/modules/group__particlebaseutils/#function-operator()), [Rivet::DeltaRapWRT::operator()](/documentation/code/modules/group__particlebaseutils/#function-operator()), [Rivet::AbsDeltaRapWRT::operator()](/documentation/code/modules/group__particlebaseutils/#function-operator())
 
 
 ### function ~DoubleParticleBaseFunctor
@@ -48,4 +48,4 @@ inline virtual ~DoubleParticleBaseFunctor()
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

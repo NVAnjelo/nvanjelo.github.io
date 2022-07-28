@@ -16,10 +16,10 @@ description: "[Documentation update required.]"
 
 |                | Name           |
 | -------------- | -------------- |
-| | **[Bin](http://example.org/classes/structrivet_1_1centralitybinner_1_1bin/#function-bin)**()<br>Construct a completely empty bin.  |
-| | **[Bin](http://example.org/classes/structrivet_1_1centralitybinner_1_1bin/#function-bin)**(T t, double centLo, double centHi, double cestLo =-1.0, double cestHi =-1.0) |
-| bool | **[inRange](http://example.org/classes/structrivet_1_1centralitybinner_1_1bin/#function-inrange)**(double cest) const |
-| void | **[normalizePerEvent](http://example.org/classes/structrivet_1_1centralitybinner_1_1bin/#function-normalizeperevent)**()<br>Normalise the AnalysisObject to the tital cross section.  |
+| | **[Bin](/documentation/code/classes/structrivet_1_1centralitybinner_1_1bin/#function-bin)**()<br>Construct a completely empty bin.  |
+| | **[Bin](/documentation/code/classes/structrivet_1_1centralitybinner_1_1bin/#function-bin)**(T t, double centLo, double centHi, double cestLo =-1.0, double cestHi =-1.0) |
+| bool | **[inRange](/documentation/code/classes/structrivet_1_1centralitybinner_1_1bin/#function-inrange)**(double cest) const |
+| void | **[normalizePerEvent](/documentation/code/classes/structrivet_1_1centralitybinner_1_1bin/#function-normalizeperevent)**()<br>Normalise the AnalysisObject to the tital cross section.  |
 
 ## Public Functions Documentation
 
@@ -69,4 +69,4 @@ Normalise the AnalysisObject to the tital cross section.
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:08 +0100
+Updated on 2022-07-28 at 18:36:45 +0100

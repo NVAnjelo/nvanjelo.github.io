@@ -9,7 +9,7 @@ description: "Specialised vector of Particle objects. "
 
 
 
-Specialised vector of <a href="http://example.org/classes/classrivet_1_1particle/">Particle</a> objects.  [More...](#detailed-description)
+Specialised vector of <a href="/documentation/code/classes/classrivet_1_1particle/">Particle</a> objects.  [More...](#detailed-description)
 
 
 `#include <Particle.hh>`
@@ -20,20 +20,20 @@ Inherits from std::vector< Particle >
 
 |                | Name           |
 | -------------- | -------------- |
-| using std::vector< <a href="http://example.org/classes/classrivet_1_1particle/">Particle</a> > | **[base](http://example.org/classes/classrivet_1_1particles/#using-base)**  |
+| using std::vector< <a href="/documentation/code/classes/classrivet_1_1particle/">Particle</a> > | **[base](/documentation/code/classes/classrivet_1_1particles/#using-base)**  |
 
 ## Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
-| | **[Particles](http://example.org/classes/classrivet_1_1particles/#function-particles)**() |
-| | **[Particles](http://example.org/classes/classrivet_1_1particles/#function-particles)**(const std::vector< <a href="http://example.org/classes/classrivet_1_1particle/">Particle</a> > & vps) |
-| FourMomenta | **[moms](http://example.org/classes/classrivet_1_1particles/#function-moms)**() const |
-| <a href="http://example.org/namespaces/namespacerivet/#typedef-pseudojets">PseudoJets</a> | **[pseudojets](http://example.org/classes/classrivet_1_1particles/#function-pseudojets)**() const |
-| | **[operator FourMomenta](http://example.org/classes/classrivet_1_1particles/#function-operator-fourmomenta)**() const |
-| | **[operator PseudoJets](http://example.org/classes/classrivet_1_1particles/#function-operator-pseudojets)**() const |
-| <a href="http://example.org/classes/classrivet_1_1particles/">Particles</a> & | **[operator+=](http://example.org/classes/classrivet_1_1particles/#function-operator+=)**(const <a href="http://example.org/classes/classrivet_1_1particle/">Particle</a> & p) |
-| <a href="http://example.org/classes/classrivet_1_1particles/">Particles</a> & | **[operator+=](http://example.org/classes/classrivet_1_1particles/#function-operator+=)**(const <a href="http://example.org/classes/classrivet_1_1particles/">Particles</a> & ps) |
+| | **[Particles](/documentation/code/classes/classrivet_1_1particles/#function-particles)**() |
+| | **[Particles](/documentation/code/classes/classrivet_1_1particles/#function-particles)**(const std::vector< <a href="/documentation/code/classes/classrivet_1_1particle/">Particle</a> > & vps) |
+| FourMomenta | **[moms](/documentation/code/classes/classrivet_1_1particles/#function-moms)**() const |
+| <a href="/documentation/code/namespaces/namespacerivet/#typedef-pseudojets">PseudoJets</a> | **[pseudojets](/documentation/code/classes/classrivet_1_1particles/#function-pseudojets)**() const |
+| | **[operator FourMomenta](/documentation/code/classes/classrivet_1_1particles/#function-operator-fourmomenta)**() const |
+| | **[operator PseudoJets](/documentation/code/classes/classrivet_1_1particles/#function-operator-pseudojets)**() const |
+| <a href="/documentation/code/classes/classrivet_1_1particles/">Particles</a> & | **[operator+=](/documentation/code/classes/classrivet_1_1particles/#function-operator+=)**(const <a href="/documentation/code/classes/classrivet_1_1particle/">Particle</a> & p) |
+| <a href="/documentation/code/classes/classrivet_1_1particles/">Particles</a> & | **[operator+=](/documentation/code/classes/classrivet_1_1particles/#function-operator+=)**(const <a href="/documentation/code/classes/classrivet_1_1particles/">Particles</a> & ps) |
 
 ## Detailed Description
 
@@ -41,11 +41,11 @@ Inherits from std::vector< Particle >
 class Rivet::Particles;
 ```
 
-Specialised vector of <a href="http://example.org/classes/classrivet_1_1particle/">Particle</a> objects. 
+Specialised vector of <a href="/documentation/code/classes/classrivet_1_1particle/">Particle</a> objects. 
 
 **Todo**: Add explicit and implicit conversion to PseudoJets 
 
-A specialised version of vector<Particle> which is able to implicitly and explicitly convert to a vector of <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a>.
+A specialised version of vector<Particle> which is able to implicitly and explicitly convert to a vector of <a href="/documentation/code/classes/classrivet_1_1fourmomentum/">FourMomentum</a>.
 
 ## Public Types Documentation
 
@@ -122,4 +122,4 @@ Particles & operator+=(
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:08 +0100
+Updated on 2022-07-28 at 18:36:46 +0100

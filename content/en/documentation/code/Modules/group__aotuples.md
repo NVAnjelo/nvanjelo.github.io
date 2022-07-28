@@ -14,9 +14,9 @@ description: "[Documentation update required.]"
 
 |                | Name           |
 | -------------- | -------------- |
-| using double | **[Weight](http://example.org/modules/group__aotuples/#using-weight)** <br>Typedef for weights.  |
-| template <class T \> <br>using pair< typename T::FillType, Weight > | **[Fill](http://example.org/modules/group__aotuples/#using-fill)** <br>A single fill is a (FillType, Weight) pair.  |
-| template <class T \> <br>using multiset< Fill< T > > | **[Fills](http://example.org/modules/group__aotuples/#using-fills)**  |
+| using double | **[Weight](/documentation/code/modules/group__aotuples/#using-weight)** <br>Typedef for weights.  |
+| template <class T \> <br>using pair< typename T::FillType, Weight > | **[Fill](/documentation/code/modules/group__aotuples/#using-fill)** <br>A single fill is a (FillType, Weight) pair.  |
+| template <class T \> <br>using multiset< Fill< T > > | **[Fills](/documentation/code/modules/group__aotuples/#using-fills)**  |
 
 ## Detailed Description
 
@@ -61,4 +61,4 @@ A set of several fill objects.
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

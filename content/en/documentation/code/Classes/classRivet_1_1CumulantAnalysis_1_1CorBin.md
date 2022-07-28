@@ -17,12 +17,12 @@ Inherits from Rivet::CumulantAnalysis::CorBinBase
 
 |                | Name           |
 | -------------- | -------------- |
-| | **[CorBin](http://example.org/classes/classrivet_1_1cumulantanalysis_1_1corbin/#function-corbin)**()<br>Constructor.  |
-| | **[~CorBin](http://example.org/classes/classrivet_1_1cumulantanalysis_1_1corbin/#function-~corbin)**() |
-| void | **[fill](http://example.org/classes/classrivet_1_1cumulantanalysis_1_1corbin/#function-fill)**(const pair< double, double > & cor, const double & weight =1.0)<br>Fill the correct underlying bin and take a step.  |
-| double | **[mean](http://example.org/classes/classrivet_1_1cumulantanalysis_1_1corbin/#function-mean)**() const<br>Calculate the total sample mean with all available statistics.  |
-| vector< CorSingleBin > | **[getBins](http://example.org/classes/classrivet_1_1cumulantanalysis_1_1corbin/#function-getbins)**() const<br>Return a copy of the bins.  |
-| template <class T  =CorBinBase\> <br>vector< T * > | **[getBinPtrs](http://example.org/classes/classrivet_1_1cumulantanalysis_1_1corbin/#function-getbinptrs)**()<br>Return the bins as pointers to the base class.  |
+| | **[CorBin](/documentation/code/classes/classrivet_1_1cumulantanalysis_1_1corbin/#function-corbin)**()<br>Constructor.  |
+| | **[~CorBin](/documentation/code/classes/classrivet_1_1cumulantanalysis_1_1corbin/#function-~corbin)**() |
+| void | **[fill](/documentation/code/classes/classrivet_1_1cumulantanalysis_1_1corbin/#function-fill)**(const pair< double, double > & cor, const double & weight =1.0)<br>Fill the correct underlying bin and take a step.  |
+| double | **[mean](/documentation/code/classes/classrivet_1_1cumulantanalysis_1_1corbin/#function-mean)**() const<br>Calculate the total sample mean with all available statistics.  |
+| vector< CorSingleBin > | **[getBins](/documentation/code/classes/classrivet_1_1cumulantanalysis_1_1corbin/#function-getbins)**() const<br>Return a copy of the bins.  |
+| template <class T  =CorBinBase\> <br>vector< T * > | **[getBinPtrs](/documentation/code/classes/classrivet_1_1cumulantanalysis_1_1corbin/#function-getbinptrs)**()<br>Return the bins as pointers to the base class.  |
 
 ## Detailed Description
 
@@ -92,4 +92,4 @@ Return the bins as pointers to the base class.
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:08 +0100
+Updated on 2022-07-28 at 18:36:45 +0100

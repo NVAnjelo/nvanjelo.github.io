@@ -8,7 +8,7 @@ description: "[Documentation update required.]"
 
 # Isolation helpers
 
-**Module:** **[Functions for Particles and Jets](http://example.org/modules/group__particlebaseutils/)** **/** **[Next-level filtering](http://example.org/modules/group__particlebaseutils__uberfilt/)**
+**Module:** **[Functions for Particles and Jets](/documentation/code/modules/group__particlebaseutils/)** **/** **[Next-level filtering](/documentation/code/modules/group__particlebaseutils__uberfilt/)**
 
 
 
@@ -16,14 +16,14 @@ description: "[Documentation update required.]"
 
 |                | Name           |
 | -------------- | -------------- |
-| template <typename PBCONTAINER1 ,typename PBCONTAINER2 \> <br>void | **[idiscardIfAnyDeltaRLess](http://example.org/modules/group__particlebaseutils__iso/#function-idiscardifanydeltarless)**(PBCONTAINER1 & tofilter, const PBCONTAINER2 & tocompare, double dR) |
-| template <typename PBCONTAINER1 ,typename PBCONTAINER2 \> <br>PBCONTAINER1 | **[discardIfAnyDeltaRLess](http://example.org/modules/group__particlebaseutils__iso/#function-discardifanydeltarless)**(const PBCONTAINER1 & tofilter, const PBCONTAINER2 & tocompare, double dR) |
-| template <typename PBCONTAINER1 ,typename PBCONTAINER2 \> <br>void | **[idiscardIfAnyDeltaPhiLess](http://example.org/modules/group__particlebaseutils__iso/#function-idiscardifanydeltaphiless)**(PBCONTAINER1 & tofilter, const PBCONTAINER2 & tocompare, double dphi) |
-| template <typename PBCONTAINER1 ,typename PBCONTAINER2 \> <br>PBCONTAINER1 | **[discardIfAnyDeltaPhiLess](http://example.org/modules/group__particlebaseutils__iso/#function-discardifanydeltaphiless)**(const PBCONTAINER1 & tofilter, const PBCONTAINER2 & tocompare, double dphi) |
-| template <typename PBCONTAINER1 ,typename PBCONTAINER2 \> <br>PBCONTAINER1 | **[selectIfAnyDeltaRLess](http://example.org/modules/group__particlebaseutils__iso/#function-selectifanydeltarless)**(const PBCONTAINER1 & tofilter, const PBCONTAINER2 & tocompare, double dR) |
-| template <typename PBCONTAINER1 ,typename PBCONTAINER2 \> <br>void | **[iselectIfAnyDeltaRLess](http://example.org/modules/group__particlebaseutils__iso/#function-iselectifanydeltarless)**(PBCONTAINER1 & tofilter, const PBCONTAINER2 & tocompare, double dR) |
-| template <typename PBCONTAINER1 ,typename PBCONTAINER2 \> <br>PBCONTAINER1 | **[selectIfAnyDeltaPhiLess](http://example.org/modules/group__particlebaseutils__iso/#function-selectifanydeltaphiless)**(const PBCONTAINER1 & tofilter, const PBCONTAINER2 & tocompare, double dphi) |
-| template <typename PBCONTAINER1 ,typename PBCONTAINER2 \> <br>void | **[iselectIfAnyDeltaPhiLess](http://example.org/modules/group__particlebaseutils__iso/#function-iselectifanydeltaphiless)**(PBCONTAINER1 & tofilter, const PBCONTAINER2 & tocompare, double dphi) |
+| template <typename PBCONTAINER1 ,typename PBCONTAINER2 \> <br>void | **[idiscardIfAnyDeltaRLess](/documentation/code/modules/group__particlebaseutils__iso/#function-idiscardifanydeltarless)**(PBCONTAINER1 & tofilter, const PBCONTAINER2 & tocompare, double dR) |
+| template <typename PBCONTAINER1 ,typename PBCONTAINER2 \> <br>PBCONTAINER1 | **[discardIfAnyDeltaRLess](/documentation/code/modules/group__particlebaseutils__iso/#function-discardifanydeltarless)**(const PBCONTAINER1 & tofilter, const PBCONTAINER2 & tocompare, double dR) |
+| template <typename PBCONTAINER1 ,typename PBCONTAINER2 \> <br>void | **[idiscardIfAnyDeltaPhiLess](/documentation/code/modules/group__particlebaseutils__iso/#function-idiscardifanydeltaphiless)**(PBCONTAINER1 & tofilter, const PBCONTAINER2 & tocompare, double dphi) |
+| template <typename PBCONTAINER1 ,typename PBCONTAINER2 \> <br>PBCONTAINER1 | **[discardIfAnyDeltaPhiLess](/documentation/code/modules/group__particlebaseutils__iso/#function-discardifanydeltaphiless)**(const PBCONTAINER1 & tofilter, const PBCONTAINER2 & tocompare, double dphi) |
+| template <typename PBCONTAINER1 ,typename PBCONTAINER2 \> <br>PBCONTAINER1 | **[selectIfAnyDeltaRLess](/documentation/code/modules/group__particlebaseutils__iso/#function-selectifanydeltarless)**(const PBCONTAINER1 & tofilter, const PBCONTAINER2 & tocompare, double dR) |
+| template <typename PBCONTAINER1 ,typename PBCONTAINER2 \> <br>void | **[iselectIfAnyDeltaRLess](/documentation/code/modules/group__particlebaseutils__iso/#function-iselectifanydeltarless)**(PBCONTAINER1 & tofilter, const PBCONTAINER2 & tocompare, double dR) |
+| template <typename PBCONTAINER1 ,typename PBCONTAINER2 \> <br>PBCONTAINER1 | **[selectIfAnyDeltaPhiLess](/documentation/code/modules/group__particlebaseutils__iso/#function-selectifanydeltaphiless)**(const PBCONTAINER1 & tofilter, const PBCONTAINER2 & tocompare, double dphi) |
+| template <typename PBCONTAINER1 ,typename PBCONTAINER2 \> <br>void | **[iselectIfAnyDeltaPhiLess](/documentation/code/modules/group__particlebaseutils__iso/#function-iselectifanydeltaphiless)**(PBCONTAINER1 & tofilter, const PBCONTAINER2 & tocompare, double dphi) |
 
 
 ## Functions Documentation
@@ -138,4 +138,4 @@ inline void iselectIfAnyDeltaPhiLess(
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

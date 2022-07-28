@@ -14,12 +14,12 @@ description: "[Documentation update required.]"
 
 | Name           |
 | -------------- |
-| **[Rivet::Kin](http://example.org/namespaces/namespacerivet_1_1kin/)**  |
+| **[Rivet::Kin](/documentation/code/namespaces/namespacerivet_1_1kin/)**  |
 
 ## Detailed Description
 
 
-**Note**: This can't be done on generic collections of <a href="http://example.org/classes/classrivet_1_1particlebase/">ParticleBase</a>&ndash; thanks, C++ :-/ 
+**Note**: This can't be done on generic collections of <a href="/documentation/code/classes/classrivet_1_1particlebase/">ParticleBase</a>&ndash; thanks, C++ :-/ 
 
 
 
@@ -27,4 +27,4 @@ description: "[Documentation update required.]"
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

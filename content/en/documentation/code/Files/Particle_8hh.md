@@ -14,14 +14,14 @@ description: "[Documentation update required.]"
 
 | Name           |
 | -------------- |
-| **[Rivet](http://example.org/namespaces/namespacerivet/)**  |
+| **[Rivet](/documentation/code/namespaces/namespacerivet/)**  |
 
 ## Classes
 
 |                | Name           |
 | -------------- | -------------- |
-| class | **[Rivet::Particles](http://example.org/classes/classrivet_1_1particles/)** <br>Specialised vector of <a href="http://example.org/classes/classrivet_1_1particle/">Particle</a> objects.  |
-| class | **[Rivet::Particle](http://example.org/classes/classrivet_1_1particle/)** <br>Particle representation, either from a HepMC::GenEvent or reconstructed.  |
+| class | **[Rivet::Particles](/documentation/code/classes/classrivet_1_1particles/)** <br>Specialised vector of <a href="/documentation/code/classes/classrivet_1_1particle/">Particle</a> objects.  |
+| class | **[Rivet::Particle](/documentation/code/classes/classrivet_1_1particle/)** <br>Particle representation, either from a HepMC::GenEvent or reconstructed.  |
 
 
 
@@ -479,4 +479,4 @@ namespace Rivet {
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

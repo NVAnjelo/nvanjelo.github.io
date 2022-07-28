@@ -14,127 +14,127 @@ Specialized version of the ThreeVector with momentum functionality.
 
 `#include <Vector3.hh>`
 
-Inherits from [Rivet::Vector3](http://example.org/classes/classrivet_1_1vector3/), [Rivet::Vector< 3 >](http://example.org/classes/classrivet_1_1vector/)
+Inherits from [Rivet::Vector3](/documentation/code/classes/classrivet_1_1vector3/), [Rivet::Vector< 3 >](/documentation/code/classes/classrivet_1_1vector/)
 
 ## Public Types
 
 |                | Name           |
 | -------------- | -------------- |
-| using Eigen::Matrix< double, N, 1 > | **[EVector](http://example.org/classes/classrivet_1_1threemomentum/#using-evector)** <br>Vector.  |
+| using Eigen::Matrix< double, N, 1 > | **[EVector](/documentation/code/classes/classrivet_1_1threemomentum/#using-evector)** <br>Vector.  |
 
 ## Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
-| <a href="http://example.org/classes/classrivet_1_1threemomentum/">ThreeMomentum</a> & | **[setPx](http://example.org/classes/classrivet_1_1threemomentum/#function-setpx)**(double px)<br>Set x-component of momentum \( p_x \).  |
-| <a href="http://example.org/classes/classrivet_1_1threemomentum/">ThreeMomentum</a> & | **[setPy](http://example.org/classes/classrivet_1_1threemomentum/#function-setpy)**(double py)<br>Set y-component of momentum \( p_y \).  |
-| <a href="http://example.org/classes/classrivet_1_1threemomentum/">ThreeMomentum</a> & | **[setPz](http://example.org/classes/classrivet_1_1threemomentum/#function-setpz)**(double pz)<br>Set z-component of momentum \( p_z \).  |
-| double | **[px](http://example.org/classes/classrivet_1_1threemomentum/#function-px)**() const<br>Get x-component of momentum \( p_x \).  |
-| double | **[px2](http://example.org/classes/classrivet_1_1threemomentum/#function-px2)**() const<br>Get x-squared \( p_x^2 \).  |
-| double | **[py](http://example.org/classes/classrivet_1_1threemomentum/#function-py)**() const<br>Get y-component of momentum \( p_y \).  |
-| double | **[py2](http://example.org/classes/classrivet_1_1threemomentum/#function-py2)**() const<br>Get y-squared \( p_y^2 \).  |
-| double | **[pz](http://example.org/classes/classrivet_1_1threemomentum/#function-pz)**() const<br>Get z-component of momentum \( p_z \).  |
-| double | **[pz2](http://example.org/classes/classrivet_1_1threemomentum/#function-pz2)**() const<br>Get z-squared \( p_z^2 \).  |
-| double | **[p](http://example.org/classes/classrivet_1_1threemomentum/#function-p)**() const<br>Get the modulus of the 3-momentum.  |
-| double | **[p2](http://example.org/classes/classrivet_1_1threemomentum/#function-p2)**() const<br>Get the modulus-squared of the 3-momentum.  |
-| <a href="http://example.org/classes/classrivet_1_1threemomentum/">ThreeMomentum</a> | **[pTvec](http://example.org/classes/classrivet_1_1threemomentum/#function-ptvec)**() const<br>Calculate the transverse momentum vector \( \vec{p}_T \).  |
-| <a href="http://example.org/classes/classrivet_1_1threemomentum/">ThreeMomentum</a> | **[ptvec](http://example.org/classes/classrivet_1_1threemomentum/#function-ptvec)**() const<br>Synonym for pTvec.  |
-| double | **[pT2](http://example.org/classes/classrivet_1_1threemomentum/#function-pt2)**() const<br>Calculate the squared transverse momentum \( p_T^2 \).  |
-| double | **[pt2](http://example.org/classes/classrivet_1_1threemomentum/#function-pt2)**() const<br>Calculate the squared transverse momentum \( p_T^2 \).  |
-| double | **[pT](http://example.org/classes/classrivet_1_1threemomentum/#function-pt)**() const<br>Calculate the transverse momentum \( p_T \).  |
-| double | **[pt](http://example.org/classes/classrivet_1_1threemomentum/#function-pt)**() const<br>Calculate the transverse momentum \( p_T \).  |
-| <a href="http://example.org/classes/classrivet_1_1threemomentum/">ThreeMomentum</a> & | **[operator*=](http://example.org/classes/classrivet_1_1threemomentum/#function-operator*=)**(double a)<br>Multiply by a scalar.  |
-| <a href="http://example.org/classes/classrivet_1_1threemomentum/">ThreeMomentum</a> & | **[operator/=](http://example.org/classes/classrivet_1_1threemomentum/#function-operator/=)**(double a)<br>Divide by a scalar.  |
-| <a href="http://example.org/classes/classrivet_1_1threemomentum/">ThreeMomentum</a> & | **[operator+=](http://example.org/classes/classrivet_1_1threemomentum/#function-operator+=)**(const <a href="http://example.org/classes/classrivet_1_1threemomentum/">ThreeMomentum</a> & v)<br>Add two 3-momenta.  |
-| <a href="http://example.org/classes/classrivet_1_1threemomentum/">ThreeMomentum</a> & | **[operator-=](http://example.org/classes/classrivet_1_1threemomentum/#function-operator-=)**(const <a href="http://example.org/classes/classrivet_1_1threemomentum/">ThreeMomentum</a> & v)<br>Subtract two 3-momenta.  |
-| <a href="http://example.org/classes/classrivet_1_1threemomentum/">ThreeMomentum</a> | **[operator-](http://example.org/classes/classrivet_1_1threemomentum/#function-operator-)**() const<br>Multiply all components by -1.  |
-| | **[ThreeMomentum](http://example.org/classes/classrivet_1_1threemomentum/#function-threemomentum)**() |
-| template <typename V3TYPE ,typename std::enable_if< HasXYZ< V3TYPE >::value, int >::type DUMMY =0\> <br>| **[ThreeMomentum](http://example.org/classes/classrivet_1_1threemomentum/#function-threemomentum)**(const V3TYPE & other) |
-| | **[ThreeMomentum](http://example.org/classes/classrivet_1_1threemomentum/#function-threemomentum)**(const <a href="http://example.org/classes/classrivet_1_1vector/">Vector</a>< 3 > & other) |
-| | **[ThreeMomentum](http://example.org/classes/classrivet_1_1threemomentum/#function-threemomentum)**(const double px, const double py, const double pz) |
-| | **[~ThreeMomentum](http://example.org/classes/classrivet_1_1threemomentum/#function-~threemomentum)**() |
-| double | **[x](http://example.org/classes/classrivet_1_1threemomentum/#function-x)**() const |
-| double | **[x2](http://example.org/classes/classrivet_1_1threemomentum/#function-x2)**() const |
-| <a href="http://example.org/classes/classrivet_1_1vector3/">Vector3</a> & | **[setX](http://example.org/classes/classrivet_1_1threemomentum/#function-setx)**(double x) |
-| double | **[y](http://example.org/classes/classrivet_1_1threemomentum/#function-y)**() const |
-| double | **[y2](http://example.org/classes/classrivet_1_1threemomentum/#function-y2)**() const |
-| <a href="http://example.org/classes/classrivet_1_1vector3/">Vector3</a> & | **[setY](http://example.org/classes/classrivet_1_1threemomentum/#function-sety)**(double y) |
-| double | **[z](http://example.org/classes/classrivet_1_1threemomentum/#function-z)**() const |
-| double | **[z2](http://example.org/classes/classrivet_1_1threemomentum/#function-z2)**() const |
-| <a href="http://example.org/classes/classrivet_1_1vector3/">Vector3</a> & | **[setZ](http://example.org/classes/classrivet_1_1threemomentum/#function-setz)**(double z) |
-| double | **[dot](http://example.org/classes/classrivet_1_1threemomentum/#function-dot)**(const <a href="http://example.org/classes/classrivet_1_1vector3/">Vector3</a> & v) const<br>Dot-product with another vector.  |
-| <a href="http://example.org/classes/classrivet_1_1vector3/">Vector3</a> | **[cross](http://example.org/classes/classrivet_1_1threemomentum/#function-cross)**(const <a href="http://example.org/classes/classrivet_1_1vector3/">Vector3</a> & v) const<br>Cross-product with another vector.  |
-| double | **[angle](http://example.org/classes/classrivet_1_1threemomentum/#function-angle)**(const <a href="http://example.org/classes/classrivet_1_1vector3/">Vector3</a> & v) const<br>Angle in radians to another vector.  |
-| <a href="http://example.org/classes/classrivet_1_1vector3/">Vector3</a> | **[unitVec](http://example.org/classes/classrivet_1_1threemomentum/#function-unitvec)**() const<br>Unit-normalized version of this vector.  |
-| <a href="http://example.org/classes/classrivet_1_1vector3/">Vector3</a> | **[unit](http://example.org/classes/classrivet_1_1threemomentum/#function-unit)**() const<br>Synonym for unitVec.  |
-| <a href="http://example.org/classes/classrivet_1_1vector3/">Vector3</a> | **[polarVec](http://example.org/classes/classrivet_1_1threemomentum/#function-polarvec)**() const<br>Polar projection of this vector into the x-y plane.  |
-| <a href="http://example.org/classes/classrivet_1_1vector3/">Vector3</a> | **[perpVec](http://example.org/classes/classrivet_1_1threemomentum/#function-perpvec)**() const<br>Synonym for polarVec.  |
-| <a href="http://example.org/classes/classrivet_1_1vector3/">Vector3</a> | **[rhoVec](http://example.org/classes/classrivet_1_1threemomentum/#function-rhovec)**() const<br>Synonym for polarVec.  |
-| double | **[polarRadius2](http://example.org/classes/classrivet_1_1threemomentum/#function-polarradius2)**() const<br>Square of the polar radius (.  |
-| double | **[perp2](http://example.org/classes/classrivet_1_1threemomentum/#function-perp2)**() const<br>Synonym for polarRadius2.  |
-| double | **[rho2](http://example.org/classes/classrivet_1_1threemomentum/#function-rho2)**() const<br>Synonym for polarRadius2.  |
-| double | **[polarRadius](http://example.org/classes/classrivet_1_1threemomentum/#function-polarradius)**() const<br>Polar radius.  |
-| double | **[perp](http://example.org/classes/classrivet_1_1threemomentum/#function-perp)**() const<br>Synonym for polarRadius.  |
-| double | **[rho](http://example.org/classes/classrivet_1_1threemomentum/#function-rho)**() const<br>Synonym for polarRadius.  |
-| double | **[azimuthalAngle](http://example.org/classes/classrivet_1_1threemomentum/#function-azimuthalangle)**(const <a href="http://example.org/namespaces/namespacerivet/#enum-phimapping">PhiMapping</a> mapping =ZERO_2PI) const<br>Angle subtended by the vector's projection in x-y and the x-axis.  |
-| double | **[phi](http://example.org/classes/classrivet_1_1threemomentum/#function-phi)**(const <a href="http://example.org/namespaces/namespacerivet/#enum-phimapping">PhiMapping</a> mapping =ZERO_2PI) const<br>Synonym for azimuthalAngle.  |
-| double | **[tanTheta](http://example.org/classes/classrivet_1_1threemomentum/#function-tantheta)**() const<br>Tangent of the polar angle.  |
-| double | **[polarAngle](http://example.org/classes/classrivet_1_1threemomentum/#function-polarangle)**() const<br>Angle subtended by the vector and the z-axis.  |
-| double | **[theta](http://example.org/classes/classrivet_1_1threemomentum/#function-theta)**() const<br>Synonym for polarAngle.  |
-| double | **[pseudorapidity](http://example.org/classes/classrivet_1_1threemomentum/#function-pseudorapidity)**() const<br>Purely geometric approximation to rapidity.  |
-| double | **[eta](http://example.org/classes/classrivet_1_1threemomentum/#function-eta)**() const<br>Synonym for pseudorapidity.  |
-| double | **[abseta](http://example.org/classes/classrivet_1_1threemomentum/#function-abseta)**() const<br>Convenience shortcut for fabs(eta())  |
-| <a href="http://example.org/classes/classrivet_1_1vector3/">Vector3</a> & | **[operator+=](http://example.org/classes/classrivet_1_1threemomentum/#function-operator+=)**(const <a href="http://example.org/classes/classrivet_1_1vector3/">Vector3</a> & v)<br>In-place addition operator.  |
-| <a href="http://example.org/classes/classrivet_1_1vector3/">Vector3</a> & | **[operator-=](http://example.org/classes/classrivet_1_1threemomentum/#function-operator-=)**(const <a href="http://example.org/classes/classrivet_1_1vector3/">Vector3</a> & v)<br>In-place subtraction operator.  |
-| const double & | **[get](http://example.org/classes/classrivet_1_1threemomentum/#function-get)**(const size_t index) const |
-| double & | **[get](http://example.org/classes/classrivet_1_1threemomentum/#function-get)**(const size_t index) |
-| const double & | **[operator[]](http://example.org/classes/classrivet_1_1threemomentum/#function-operator[])**(const size_t index) const<br>Direct access to vector elements by index.  |
-| double & | **[operator[]](http://example.org/classes/classrivet_1_1threemomentum/#function-operator[])**(const size_t index)<br>Direct access to vector elements by index.  |
-| <a href="http://example.org/classes/classrivet_1_1vector/">Vector</a>< N > & | **[set](http://example.org/classes/classrivet_1_1threemomentum/#function-set)**(const size_t index, const double value)<br>Set indexed value.  |
-| constexpr size_t | **[size](http://example.org/classes/classrivet_1_1threemomentum/#function-size)**() const<br>Vector dimensionality.  |
-| bool | **[isZero](http://example.org/classes/classrivet_1_1threemomentum/#function-iszero)**(double tolerance =1E-5) const<br>Check for nullness, allowing for numerical precision.  |
-| double | **[mod2](http://example.org/classes/classrivet_1_1threemomentum/#function-mod2)**() const<br>Calculate the modulus-squared of a vector. \( \sum_{i=1}^N x_i^2 \).  |
-| double | **[mod](http://example.org/classes/classrivet_1_1threemomentum/#function-mod)**() const<br>Calculate the modulus of a vector. \( \sqrt{\sum_{i=1}^N x_i^2} \).  |
-| bool | **[operator==](http://example.org/classes/classrivet_1_1threemomentum/#function-operator==)**(const <a href="http://example.org/classes/classrivet_1_1vector/">Vector</a>< N > & a) const |
-| bool | **[operator!=](http://example.org/classes/classrivet_1_1threemomentum/#function-operator!=)**(const <a href="http://example.org/classes/classrivet_1_1vector/">Vector</a>< N > & a) const |
-| <a href="http://example.org/classes/classrivet_1_1vector3/">Vector3</a> | **[mkX](http://example.org/classes/classrivet_1_1threemomentum/#function-mkx)**() |
-| <a href="http://example.org/classes/classrivet_1_1vector3/">Vector3</a> | **[mkY](http://example.org/classes/classrivet_1_1threemomentum/#function-mky)**() |
-| <a href="http://example.org/classes/classrivet_1_1vector3/">Vector3</a> | **[mkZ](http://example.org/classes/classrivet_1_1threemomentum/#function-mkz)**() |
+| <a href="/documentation/code/classes/classrivet_1_1threemomentum/">ThreeMomentum</a> & | **[setPx](/documentation/code/classes/classrivet_1_1threemomentum/#function-setpx)**(double px)<br>Set x-component of momentum \( p_x \).  |
+| <a href="/documentation/code/classes/classrivet_1_1threemomentum/">ThreeMomentum</a> & | **[setPy](/documentation/code/classes/classrivet_1_1threemomentum/#function-setpy)**(double py)<br>Set y-component of momentum \( p_y \).  |
+| <a href="/documentation/code/classes/classrivet_1_1threemomentum/">ThreeMomentum</a> & | **[setPz](/documentation/code/classes/classrivet_1_1threemomentum/#function-setpz)**(double pz)<br>Set z-component of momentum \( p_z \).  |
+| double | **[px](/documentation/code/classes/classrivet_1_1threemomentum/#function-px)**() const<br>Get x-component of momentum \( p_x \).  |
+| double | **[px2](/documentation/code/classes/classrivet_1_1threemomentum/#function-px2)**() const<br>Get x-squared \( p_x^2 \).  |
+| double | **[py](/documentation/code/classes/classrivet_1_1threemomentum/#function-py)**() const<br>Get y-component of momentum \( p_y \).  |
+| double | **[py2](/documentation/code/classes/classrivet_1_1threemomentum/#function-py2)**() const<br>Get y-squared \( p_y^2 \).  |
+| double | **[pz](/documentation/code/classes/classrivet_1_1threemomentum/#function-pz)**() const<br>Get z-component of momentum \( p_z \).  |
+| double | **[pz2](/documentation/code/classes/classrivet_1_1threemomentum/#function-pz2)**() const<br>Get z-squared \( p_z^2 \).  |
+| double | **[p](/documentation/code/classes/classrivet_1_1threemomentum/#function-p)**() const<br>Get the modulus of the 3-momentum.  |
+| double | **[p2](/documentation/code/classes/classrivet_1_1threemomentum/#function-p2)**() const<br>Get the modulus-squared of the 3-momentum.  |
+| <a href="/documentation/code/classes/classrivet_1_1threemomentum/">ThreeMomentum</a> | **[pTvec](/documentation/code/classes/classrivet_1_1threemomentum/#function-ptvec)**() const<br>Calculate the transverse momentum vector \( \vec{p}_T \).  |
+| <a href="/documentation/code/classes/classrivet_1_1threemomentum/">ThreeMomentum</a> | **[ptvec](/documentation/code/classes/classrivet_1_1threemomentum/#function-ptvec)**() const<br>Synonym for pTvec.  |
+| double | **[pT2](/documentation/code/classes/classrivet_1_1threemomentum/#function-pt2)**() const<br>Calculate the squared transverse momentum \( p_T^2 \).  |
+| double | **[pt2](/documentation/code/classes/classrivet_1_1threemomentum/#function-pt2)**() const<br>Calculate the squared transverse momentum \( p_T^2 \).  |
+| double | **[pT](/documentation/code/classes/classrivet_1_1threemomentum/#function-pt)**() const<br>Calculate the transverse momentum \( p_T \).  |
+| double | **[pt](/documentation/code/classes/classrivet_1_1threemomentum/#function-pt)**() const<br>Calculate the transverse momentum \( p_T \).  |
+| <a href="/documentation/code/classes/classrivet_1_1threemomentum/">ThreeMomentum</a> & | **[operator*=](/documentation/code/classes/classrivet_1_1threemomentum/#function-operator*=)**(double a)<br>Multiply by a scalar.  |
+| <a href="/documentation/code/classes/classrivet_1_1threemomentum/">ThreeMomentum</a> & | **[operator/=](/documentation/code/classes/classrivet_1_1threemomentum/#function-operator/=)**(double a)<br>Divide by a scalar.  |
+| <a href="/documentation/code/classes/classrivet_1_1threemomentum/">ThreeMomentum</a> & | **[operator+=](/documentation/code/classes/classrivet_1_1threemomentum/#function-operator+=)**(const <a href="/documentation/code/classes/classrivet_1_1threemomentum/">ThreeMomentum</a> & v)<br>Add two 3-momenta.  |
+| <a href="/documentation/code/classes/classrivet_1_1threemomentum/">ThreeMomentum</a> & | **[operator-=](/documentation/code/classes/classrivet_1_1threemomentum/#function-operator-=)**(const <a href="/documentation/code/classes/classrivet_1_1threemomentum/">ThreeMomentum</a> & v)<br>Subtract two 3-momenta.  |
+| <a href="/documentation/code/classes/classrivet_1_1threemomentum/">ThreeMomentum</a> | **[operator-](/documentation/code/classes/classrivet_1_1threemomentum/#function-operator-)**() const<br>Multiply all components by -1.  |
+| | **[ThreeMomentum](/documentation/code/classes/classrivet_1_1threemomentum/#function-threemomentum)**() |
+| template <typename V3TYPE ,typename std::enable_if< HasXYZ< V3TYPE >::value, int >::type DUMMY =0\> <br>| **[ThreeMomentum](/documentation/code/classes/classrivet_1_1threemomentum/#function-threemomentum)**(const V3TYPE & other) |
+| | **[ThreeMomentum](/documentation/code/classes/classrivet_1_1threemomentum/#function-threemomentum)**(const <a href="/documentation/code/classes/classrivet_1_1vector/">Vector</a>< 3 > & other) |
+| | **[ThreeMomentum](/documentation/code/classes/classrivet_1_1threemomentum/#function-threemomentum)**(const double px, const double py, const double pz) |
+| | **[~ThreeMomentum](/documentation/code/classes/classrivet_1_1threemomentum/#function-~threemomentum)**() |
+| double | **[x](/documentation/code/classes/classrivet_1_1threemomentum/#function-x)**() const |
+| double | **[x2](/documentation/code/classes/classrivet_1_1threemomentum/#function-x2)**() const |
+| <a href="/documentation/code/classes/classrivet_1_1vector3/">Vector3</a> & | **[setX](/documentation/code/classes/classrivet_1_1threemomentum/#function-setx)**(double x) |
+| double | **[y](/documentation/code/classes/classrivet_1_1threemomentum/#function-y)**() const |
+| double | **[y2](/documentation/code/classes/classrivet_1_1threemomentum/#function-y2)**() const |
+| <a href="/documentation/code/classes/classrivet_1_1vector3/">Vector3</a> & | **[setY](/documentation/code/classes/classrivet_1_1threemomentum/#function-sety)**(double y) |
+| double | **[z](/documentation/code/classes/classrivet_1_1threemomentum/#function-z)**() const |
+| double | **[z2](/documentation/code/classes/classrivet_1_1threemomentum/#function-z2)**() const |
+| <a href="/documentation/code/classes/classrivet_1_1vector3/">Vector3</a> & | **[setZ](/documentation/code/classes/classrivet_1_1threemomentum/#function-setz)**(double z) |
+| double | **[dot](/documentation/code/classes/classrivet_1_1threemomentum/#function-dot)**(const <a href="/documentation/code/classes/classrivet_1_1vector3/">Vector3</a> & v) const<br>Dot-product with another vector.  |
+| <a href="/documentation/code/classes/classrivet_1_1vector3/">Vector3</a> | **[cross](/documentation/code/classes/classrivet_1_1threemomentum/#function-cross)**(const <a href="/documentation/code/classes/classrivet_1_1vector3/">Vector3</a> & v) const<br>Cross-product with another vector.  |
+| double | **[angle](/documentation/code/classes/classrivet_1_1threemomentum/#function-angle)**(const <a href="/documentation/code/classes/classrivet_1_1vector3/">Vector3</a> & v) const<br>Angle in radians to another vector.  |
+| <a href="/documentation/code/classes/classrivet_1_1vector3/">Vector3</a> | **[unitVec](/documentation/code/classes/classrivet_1_1threemomentum/#function-unitvec)**() const<br>Unit-normalized version of this vector.  |
+| <a href="/documentation/code/classes/classrivet_1_1vector3/">Vector3</a> | **[unit](/documentation/code/classes/classrivet_1_1threemomentum/#function-unit)**() const<br>Synonym for unitVec.  |
+| <a href="/documentation/code/classes/classrivet_1_1vector3/">Vector3</a> | **[polarVec](/documentation/code/classes/classrivet_1_1threemomentum/#function-polarvec)**() const<br>Polar projection of this vector into the x-y plane.  |
+| <a href="/documentation/code/classes/classrivet_1_1vector3/">Vector3</a> | **[perpVec](/documentation/code/classes/classrivet_1_1threemomentum/#function-perpvec)**() const<br>Synonym for polarVec.  |
+| <a href="/documentation/code/classes/classrivet_1_1vector3/">Vector3</a> | **[rhoVec](/documentation/code/classes/classrivet_1_1threemomentum/#function-rhovec)**() const<br>Synonym for polarVec.  |
+| double | **[polarRadius2](/documentation/code/classes/classrivet_1_1threemomentum/#function-polarradius2)**() const<br>Square of the polar radius (.  |
+| double | **[perp2](/documentation/code/classes/classrivet_1_1threemomentum/#function-perp2)**() const<br>Synonym for polarRadius2.  |
+| double | **[rho2](/documentation/code/classes/classrivet_1_1threemomentum/#function-rho2)**() const<br>Synonym for polarRadius2.  |
+| double | **[polarRadius](/documentation/code/classes/classrivet_1_1threemomentum/#function-polarradius)**() const<br>Polar radius.  |
+| double | **[perp](/documentation/code/classes/classrivet_1_1threemomentum/#function-perp)**() const<br>Synonym for polarRadius.  |
+| double | **[rho](/documentation/code/classes/classrivet_1_1threemomentum/#function-rho)**() const<br>Synonym for polarRadius.  |
+| double | **[azimuthalAngle](/documentation/code/classes/classrivet_1_1threemomentum/#function-azimuthalangle)**(const <a href="/documentation/code/namespaces/namespacerivet/#enum-phimapping">PhiMapping</a> mapping =ZERO_2PI) const<br>Angle subtended by the vector's projection in x-y and the x-axis.  |
+| double | **[phi](/documentation/code/classes/classrivet_1_1threemomentum/#function-phi)**(const <a href="/documentation/code/namespaces/namespacerivet/#enum-phimapping">PhiMapping</a> mapping =ZERO_2PI) const<br>Synonym for azimuthalAngle.  |
+| double | **[tanTheta](/documentation/code/classes/classrivet_1_1threemomentum/#function-tantheta)**() const<br>Tangent of the polar angle.  |
+| double | **[polarAngle](/documentation/code/classes/classrivet_1_1threemomentum/#function-polarangle)**() const<br>Angle subtended by the vector and the z-axis.  |
+| double | **[theta](/documentation/code/classes/classrivet_1_1threemomentum/#function-theta)**() const<br>Synonym for polarAngle.  |
+| double | **[pseudorapidity](/documentation/code/classes/classrivet_1_1threemomentum/#function-pseudorapidity)**() const<br>Purely geometric approximation to rapidity.  |
+| double | **[eta](/documentation/code/classes/classrivet_1_1threemomentum/#function-eta)**() const<br>Synonym for pseudorapidity.  |
+| double | **[abseta](/documentation/code/classes/classrivet_1_1threemomentum/#function-abseta)**() const<br>Convenience shortcut for fabs(eta())  |
+| <a href="/documentation/code/classes/classrivet_1_1vector3/">Vector3</a> & | **[operator+=](/documentation/code/classes/classrivet_1_1threemomentum/#function-operator+=)**(const <a href="/documentation/code/classes/classrivet_1_1vector3/">Vector3</a> & v)<br>In-place addition operator.  |
+| <a href="/documentation/code/classes/classrivet_1_1vector3/">Vector3</a> & | **[operator-=](/documentation/code/classes/classrivet_1_1threemomentum/#function-operator-=)**(const <a href="/documentation/code/classes/classrivet_1_1vector3/">Vector3</a> & v)<br>In-place subtraction operator.  |
+| const double & | **[get](/documentation/code/classes/classrivet_1_1threemomentum/#function-get)**(const size_t index) const |
+| double & | **[get](/documentation/code/classes/classrivet_1_1threemomentum/#function-get)**(const size_t index) |
+| const double & | **[operator[]](/documentation/code/classes/classrivet_1_1threemomentum/#function-operator[])**(const size_t index) const<br>Direct access to vector elements by index.  |
+| double & | **[operator[]](/documentation/code/classes/classrivet_1_1threemomentum/#function-operator[])**(const size_t index)<br>Direct access to vector elements by index.  |
+| <a href="/documentation/code/classes/classrivet_1_1vector/">Vector</a>< N > & | **[set](/documentation/code/classes/classrivet_1_1threemomentum/#function-set)**(const size_t index, const double value)<br>Set indexed value.  |
+| constexpr size_t | **[size](/documentation/code/classes/classrivet_1_1threemomentum/#function-size)**() const<br>Vector dimensionality.  |
+| bool | **[isZero](/documentation/code/classes/classrivet_1_1threemomentum/#function-iszero)**(double tolerance =1E-5) const<br>Check for nullness, allowing for numerical precision.  |
+| double | **[mod2](/documentation/code/classes/classrivet_1_1threemomentum/#function-mod2)**() const<br>Calculate the modulus-squared of a vector. \( \sum_{i=1}^N x_i^2 \).  |
+| double | **[mod](/documentation/code/classes/classrivet_1_1threemomentum/#function-mod)**() const<br>Calculate the modulus of a vector. \( \sqrt{\sum_{i=1}^N x_i^2} \).  |
+| bool | **[operator==](/documentation/code/classes/classrivet_1_1threemomentum/#function-operator==)**(const <a href="/documentation/code/classes/classrivet_1_1vector/">Vector</a>< N > & a) const |
+| bool | **[operator!=](/documentation/code/classes/classrivet_1_1threemomentum/#function-operator!=)**(const <a href="/documentation/code/classes/classrivet_1_1vector/">Vector</a>< N > & a) const |
+| <a href="/documentation/code/classes/classrivet_1_1vector3/">Vector3</a> | **[mkX](/documentation/code/classes/classrivet_1_1threemomentum/#function-mkx)**() |
+| <a href="/documentation/code/classes/classrivet_1_1vector3/">Vector3</a> | **[mkY](/documentation/code/classes/classrivet_1_1threemomentum/#function-mky)**() |
+| <a href="/documentation/code/classes/classrivet_1_1vector3/">Vector3</a> | **[mkZ](/documentation/code/classes/classrivet_1_1threemomentum/#function-mkz)**() |
 
 ## Additional inherited members
 
-**Public Functions inherited from [Rivet::Vector3](http://example.org/classes/classrivet_1_1vector3/)**
+**Public Functions inherited from [Rivet::Vector3](/documentation/code/classes/classrivet_1_1vector3/)**
 
 |                | Name           |
 | -------------- | -------------- |
-| | **[Vector3](http://example.org/classes/classrivet_1_1vector3/#function-vector3)**() |
-| template <typename V3TYPE \> <br>| **[Vector3](http://example.org/classes/classrivet_1_1vector3/#function-vector3)**(const V3TYPE & other) |
-| | **[Vector3](http://example.org/classes/classrivet_1_1vector3/#function-vector3)**(const <a href="http://example.org/classes/classrivet_1_1vector/">Vector</a>< 3 > & other) |
-| | **[Vector3](http://example.org/classes/classrivet_1_1vector3/#function-vector3)**(double x, double y, double z) |
-| | **[~Vector3](http://example.org/classes/classrivet_1_1vector3/#function-~vector3)**() |
+| | **[Vector3](/documentation/code/classes/classrivet_1_1vector3/#function-vector3)**() |
+| template <typename V3TYPE \> <br>| **[Vector3](/documentation/code/classes/classrivet_1_1vector3/#function-vector3)**(const V3TYPE & other) |
+| | **[Vector3](/documentation/code/classes/classrivet_1_1vector3/#function-vector3)**(const <a href="/documentation/code/classes/classrivet_1_1vector/">Vector</a>< 3 > & other) |
+| | **[Vector3](/documentation/code/classes/classrivet_1_1vector3/#function-vector3)**(double x, double y, double z) |
+| | **[~Vector3](/documentation/code/classes/classrivet_1_1vector3/#function-~vector3)**() |
 
-**Friends inherited from [Rivet::Vector3](http://example.org/classes/classrivet_1_1vector3/)**
-
-|                | Name           |
-| -------------- | -------------- |
-| class | **[Matrix3](http://example.org/classes/classrivet_1_1vector3/#friend-matrix3)**  |
-| <a href="http://example.org/classes/classrivet_1_1vector3/">Vector3</a> | **[multiply](http://example.org/classes/classrivet_1_1vector3/#friend-multiply)**(const double a, const <a href="http://example.org/classes/classrivet_1_1vector3/">Vector3</a> & v) <br>Unbound scalar-product function.  |
-| <a href="http://example.org/classes/classrivet_1_1vector3/">Vector3</a> | **[multiply](http://example.org/classes/classrivet_1_1vector3/#friend-multiply)**(const <a href="http://example.org/classes/classrivet_1_1vector3/">Vector3</a> & v, const double a) <br>Unbound scalar-product function.  |
-| <a href="http://example.org/classes/classrivet_1_1vector3/">Vector3</a> | **[add](http://example.org/classes/classrivet_1_1vector3/#friend-add)**(const <a href="http://example.org/classes/classrivet_1_1vector3/">Vector3</a> & a, const <a href="http://example.org/classes/classrivet_1_1vector3/">Vector3</a> & b) <br>Unbound vector addition function.  |
-| <a href="http://example.org/classes/classrivet_1_1vector3/">Vector3</a> | **[subtract](http://example.org/classes/classrivet_1_1vector3/#friend-subtract)**(const <a href="http://example.org/classes/classrivet_1_1vector3/">Vector3</a> & a, const <a href="http://example.org/classes/classrivet_1_1vector3/">Vector3</a> & b) <br>Unbound vector subtraction function.  |
-
-**Public Functions inherited from [Rivet::Vector< 3 >](http://example.org/classes/classrivet_1_1vector/)**
+**Friends inherited from [Rivet::Vector3](/documentation/code/classes/classrivet_1_1vector3/)**
 
 |                | Name           |
 | -------------- | -------------- |
-| | **[Vector](http://example.org/classes/classrivet_1_1vector/#function-vector)**() |
-| | **[Vector](http://example.org/classes/classrivet_1_1vector/#function-vector)**(const <a href="http://example.org/classes/classrivet_1_1vector/">Vector</a>< N > & other) |
+| class | **[Matrix3](/documentation/code/classes/classrivet_1_1vector3/#friend-matrix3)**  |
+| <a href="/documentation/code/classes/classrivet_1_1vector3/">Vector3</a> | **[multiply](/documentation/code/classes/classrivet_1_1vector3/#friend-multiply)**(const double a, const <a href="/documentation/code/classes/classrivet_1_1vector3/">Vector3</a> & v) <br>Unbound scalar-product function.  |
+| <a href="/documentation/code/classes/classrivet_1_1vector3/">Vector3</a> | **[multiply](/documentation/code/classes/classrivet_1_1vector3/#friend-multiply)**(const <a href="/documentation/code/classes/classrivet_1_1vector3/">Vector3</a> & v, const double a) <br>Unbound scalar-product function.  |
+| <a href="/documentation/code/classes/classrivet_1_1vector3/">Vector3</a> | **[add](/documentation/code/classes/classrivet_1_1vector3/#friend-add)**(const <a href="/documentation/code/classes/classrivet_1_1vector3/">Vector3</a> & a, const <a href="/documentation/code/classes/classrivet_1_1vector3/">Vector3</a> & b) <br>Unbound vector addition function.  |
+| <a href="/documentation/code/classes/classrivet_1_1vector3/">Vector3</a> | **[subtract](/documentation/code/classes/classrivet_1_1vector3/#friend-subtract)**(const <a href="/documentation/code/classes/classrivet_1_1vector3/">Vector3</a> & a, const <a href="/documentation/code/classes/classrivet_1_1vector3/">Vector3</a> & b) <br>Unbound vector subtraction function.  |
 
-**Friends inherited from [Rivet::Vector< 3 >](http://example.org/classes/classrivet_1_1vector/)**
+**Public Functions inherited from [Rivet::Vector< 3 >](/documentation/code/classes/classrivet_1_1vector/)**
 
 |                | Name           |
 | -------------- | -------------- |
-| <a href="http://example.org/classes/classrivet_1_1vector/">Vector</a>< M > | **[multiply](http://example.org/classes/classrivet_1_1vector/#friend-multiply)**(const <a href="http://example.org/classes/classrivet_1_1matrix/">Matrix</a>< M > & a, const <a href="http://example.org/classes/classrivet_1_1vector/">Vector</a>< M > & b)  |
+| | **[Vector](/documentation/code/classes/classrivet_1_1vector/#function-vector)**() |
+| | **[Vector](/documentation/code/classes/classrivet_1_1vector/#function-vector)**(const <a href="/documentation/code/classes/classrivet_1_1vector/">Vector</a>< N > & other) |
+
+**Friends inherited from [Rivet::Vector< 3 >](/documentation/code/classes/classrivet_1_1vector/)**
+
+|                | Name           |
+| -------------- | -------------- |
+| <a href="/documentation/code/classes/classrivet_1_1vector/">Vector</a>< M > | **[multiply](/documentation/code/classes/classrivet_1_1vector/#friend-multiply)**(const <a href="/documentation/code/classes/classrivet_1_1matrix/">Matrix</a>< M > & a, const <a href="/documentation/code/classes/classrivet_1_1vector/">Vector</a>< M > & b)  |
 
 
 ## Public Types Documentation
@@ -794,4 +794,4 @@ static inline Vector3 mkZ()
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:46 +0100

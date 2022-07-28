@@ -14,19 +14,19 @@ description: "[Documentation update required.]"
 
 | Name           |
 | -------------- |
-| **[Rivet](http://example.org/namespaces/namespacerivet/)**  |
+| **[Rivet](/documentation/code/namespaces/namespacerivet/)**  |
 
 ## Classes
 
 |                | Name           |
 | -------------- | -------------- |
-| struct | **[Rivet::bad_lexical_cast](http://example.org/classes/structrivet_1_1bad__lexical__cast/)** <br>Exception class for throwing from lexical_cast when a parse goes wrong.  |
+| struct | **[Rivet::bad_lexical_cast](/documentation/code/classes/structrivet_1_1bad__lexical__cast/)** <br>Exception class for throwing from lexical_cast when a parse goes wrong.  |
 
 ## Defines
 
 |                | Name           |
 | -------------- | -------------- |
-|  | **[DEPRECATED](http://example.org/files/utils_8hh/#define-deprecated)**(x) <br>Macro to help mark code as deprecated to produce compiler warnings.  |
+|  | **[DEPRECATED](/documentation/code/files/utils_8hh/#define-deprecated)**(x) <br>Macro to help mark code as deprecated to produce compiler warnings.  |
 
 
 
@@ -617,4 +617,4 @@ namespace Rivet {
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

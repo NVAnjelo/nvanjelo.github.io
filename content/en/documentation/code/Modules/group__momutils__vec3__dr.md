@@ -14,12 +14,12 @@ description: "[Documentation update required.]"
 
 |                | Name           |
 | -------------- | -------------- |
-| double | **[deltaR2](http://example.org/modules/group__momutils__vec3__dr/#function-deltar2)**(const Vector3 & a, const Vector3 & b)<br>Calculate the 2D rapidity-azimuthal ("eta-phi") distance between two spatial vectors.  |
-| double | **[deltaR](http://example.org/modules/group__momutils__vec3__dr/#function-deltar)**(const Vector3 & a, const Vector3 & b)<br>Calculate the 2D rapidity-azimuthal ("eta-phi") distance between two spatial vectors.  |
-| double | **[deltaR2](http://example.org/modules/group__momutils__vec3__dr/#function-deltar2)**(const Vector3 & v, double eta2, double phi2)<br>Calculate the 2D rapidity-azimuthal ("eta-phi") distance between two spatial vectors.  |
-| double | **[deltaR](http://example.org/modules/group__momutils__vec3__dr/#function-deltar)**(const Vector3 & v, double eta2, double phi2)<br>Calculate the 2D rapidity-azimuthal ("eta-phi") distance between two spatial vectors.  |
-| double | **[deltaR2](http://example.org/modules/group__momutils__vec3__dr/#function-deltar2)**(double eta1, double phi1, const Vector3 & v)<br>Calculate the 2D rapidity-azimuthal ("eta-phi") distance between two spatial vectors.  |
-| double | **[deltaR](http://example.org/modules/group__momutils__vec3__dr/#function-deltar)**(double eta1, double phi1, const Vector3 & v)<br>Calculate the 2D rapidity-azimuthal ("eta-phi") distance between two spatial vectors.  |
+| double | **[deltaR2](/documentation/code/modules/group__momutils__vec3__dr/#function-deltar2)**(const Vector3 & a, const Vector3 & b)<br>Calculate the 2D rapidity-azimuthal ("eta-phi") distance between two spatial vectors.  |
+| double | **[deltaR](/documentation/code/modules/group__momutils__vec3__dr/#function-deltar)**(const Vector3 & a, const Vector3 & b)<br>Calculate the 2D rapidity-azimuthal ("eta-phi") distance between two spatial vectors.  |
+| double | **[deltaR2](/documentation/code/modules/group__momutils__vec3__dr/#function-deltar2)**(const Vector3 & v, double eta2, double phi2)<br>Calculate the 2D rapidity-azimuthal ("eta-phi") distance between two spatial vectors.  |
+| double | **[deltaR](/documentation/code/modules/group__momutils__vec3__dr/#function-deltar)**(const Vector3 & v, double eta2, double phi2)<br>Calculate the 2D rapidity-azimuthal ("eta-phi") distance between two spatial vectors.  |
+| double | **[deltaR2](/documentation/code/modules/group__momutils__vec3__dr/#function-deltar2)**(double eta1, double phi1, const Vector3 & v)<br>Calculate the 2D rapidity-azimuthal ("eta-phi") distance between two spatial vectors.  |
+| double | **[deltaR](/documentation/code/modules/group__momutils__vec3__dr/#function-deltar)**(double eta1, double phi1, const Vector3 & v)<br>Calculate the 2D rapidity-azimuthal ("eta-phi") distance between two spatial vectors.  |
 
 
 ## Functions Documentation
@@ -100,4 +100,4 @@ Calculate the 2D rapidity-azimuthal ("eta-phi") distance between two spatial vec
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

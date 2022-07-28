@@ -14,14 +14,14 @@ description: "[Documentation update required.]"
 
 | Name           |
 | -------------- |
-| **[Rivet](http://example.org/namespaces/namespacerivet/)**  |
+| **[Rivet](/documentation/code/namespaces/namespacerivet/)**  |
 
 ## Classes
 
 |                | Name           |
 | -------------- | -------------- |
-| class | **[Rivet::DressedLepton](http://example.org/classes/classrivet_1_1dressedlepton/)** <br>A charged lepton meta-particle created by clustering photons close to the bare lepton.  |
-| class | **[Rivet::DressedLeptons](http://example.org/classes/classrivet_1_1dressedleptons/)** <br>Cluster photons from a given FS to all charged particles (typically leptons)  |
+| class | **[Rivet::DressedLepton](/documentation/code/classes/classrivet_1_1dressedlepton/)** <br>A charged lepton meta-particle created by clustering photons close to the bare lepton.  |
+| class | **[Rivet::DressedLeptons](/documentation/code/classes/classrivet_1_1dressedleptons/)** <br>Cluster photons from a given FS to all charged particles (typically leptons)  |
 
 
 
@@ -126,4 +126,4 @@ namespace Rivet {
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

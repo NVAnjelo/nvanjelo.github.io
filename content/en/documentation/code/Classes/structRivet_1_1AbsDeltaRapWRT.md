@@ -7,7 +7,7 @@ description: "Calculator of $ |avoidDelta y| $ with respect to a given momentum.
 
 # Rivet::AbsDeltaRapWRT
 
-**Module:** **[Functions for Particles and Jets](http://example.org/modules/group__particlebaseutils/)** **/** **[ParticleBase comparison -> double functors](http://example.org/modules/group__particlebaseutils__pb2dbl/)**
+**Module:** **[Functions for Particles and Jets](/documentation/code/modules/group__particlebaseutils/)** **/** **[ParticleBase comparison -> double functors](/documentation/code/modules/group__particlebaseutils__pb2dbl/)**
 
 
 
@@ -16,30 +16,30 @@ Calculator of \( |\Delta y| \) with respect to a given momentum.
 
 `#include <ParticleBaseUtils.hh>`
 
-Inherits from [Rivet::DoubleParticleBaseFunctor](http://example.org/classes/structrivet_1_1doubleparticlebasefunctor/)
+Inherits from [Rivet::DoubleParticleBaseFunctor](/documentation/code/classes/structrivet_1_1doubleparticlebasefunctor/)
 
 ## Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
-| | **[AbsDeltaRapWRT](http://example.org/modules/group__particlebaseutils/#function-absdeltarapwrt)**(const <a href="http://example.org/classes/classrivet_1_1particlebase/">ParticleBase</a> & pb) |
-| | **[AbsDeltaRapWRT](http://example.org/modules/group__particlebaseutils/#function-absdeltarapwrt)**(const <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & p4) |
-| virtual double | **[operator()](http://example.org/modules/group__particlebaseutils/#function-operator())**(const <a href="http://example.org/classes/classrivet_1_1particlebase/">ParticleBase</a> & pb) const |
-| double | **[operator()](http://example.org/modules/group__particlebaseutils/#function-operator())**(const <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & p4) const |
+| | **[AbsDeltaRapWRT](/documentation/code/modules/group__particlebaseutils/#function-absdeltarapwrt)**(const <a href="/documentation/code/classes/classrivet_1_1particlebase/">ParticleBase</a> & pb) |
+| | **[AbsDeltaRapWRT](/documentation/code/modules/group__particlebaseutils/#function-absdeltarapwrt)**(const <a href="/documentation/code/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & p4) |
+| virtual double | **[operator()](/documentation/code/modules/group__particlebaseutils/#function-operator())**(const <a href="/documentation/code/classes/classrivet_1_1particlebase/">ParticleBase</a> & pb) const |
+| double | **[operator()](/documentation/code/modules/group__particlebaseutils/#function-operator())**(const <a href="/documentation/code/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & p4) const |
 
 ## Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
-| const <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a> | **[p](http://example.org/modules/group__particlebaseutils/#variable-p)**  |
+| const <a href="/documentation/code/classes/classrivet_1_1fourmomentum/">FourMomentum</a> | **[p](/documentation/code/modules/group__particlebaseutils/#variable-p)**  |
 
 ## Additional inherited members
 
-**Public Functions inherited from [Rivet::DoubleParticleBaseFunctor](http://example.org/classes/structrivet_1_1doubleparticlebasefunctor/)**
+**Public Functions inherited from [Rivet::DoubleParticleBaseFunctor](/documentation/code/classes/structrivet_1_1doubleparticlebasefunctor/)**
 
 |                | Name           |
 | -------------- | -------------- |
-| virtual | **[~DoubleParticleBaseFunctor](http://example.org/modules/group__particlebaseutils/#function-~doubleparticlebasefunctor)**() |
+| virtual | **[~DoubleParticleBaseFunctor](/documentation/code/modules/group__particlebaseutils/#function-~doubleparticlebasefunctor)**() |
 
 
 ## Public Functions Documentation
@@ -71,7 +71,7 @@ inline virtual double operator()(
 ```
 
 
-**Reimplements**: [Rivet::DoubleParticleBaseFunctor::operator()](http://example.org/modules/group__particlebaseutils/#function-operator())
+**Reimplements**: [Rivet::DoubleParticleBaseFunctor::operator()](/documentation/code/modules/group__particlebaseutils/#function-operator())
 
 
 ### function operator()
@@ -94,4 +94,4 @@ const FourMomentum p;
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

@@ -7,7 +7,7 @@ description: "Determine whether a particle is the first in a decay chain to meet
 
 # Rivet::FirstParticleWith
 
-**Module:** **[Particle classifier -> bool functors](http://example.org/modules/group__particleutils__p2bool/)**
+**Module:** **[Particle classifier -> bool functors](/documentation/code/modules/group__particleutils__p2bool/)**
 
 
 
@@ -16,29 +16,29 @@ Determine whether a particle is the first in a decay chain to meet the cut/funct
 
 `#include <ParticleUtils.hh>`
 
-Inherits from [Rivet::BoolParticleFunctor](http://example.org/classes/structrivet_1_1boolparticlefunctor/)
+Inherits from [Rivet::BoolParticleFunctor](/documentation/code/classes/structrivet_1_1boolparticlefunctor/)
 
 ## Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
-| | **[FirstParticleWith](http://example.org/classes/structrivet_1_1firstparticlewith/#function-firstparticlewith)**(const ParticleSelector & f) |
-| | **[FirstParticleWith](http://example.org/classes/structrivet_1_1firstparticlewith/#function-firstparticlewith)**(const Cut & c) |
-| virtual bool | **[operator()](http://example.org/classes/structrivet_1_1firstparticlewith/#function-operator())**(const <a href="http://example.org/classes/classrivet_1_1particle/">Particle</a> & p) const |
+| | **[FirstParticleWith](/documentation/code/classes/structrivet_1_1firstparticlewith/#function-firstparticlewith)**(const ParticleSelector & f) |
+| | **[FirstParticleWith](/documentation/code/classes/structrivet_1_1firstparticlewith/#function-firstparticlewith)**(const Cut & c) |
+| virtual bool | **[operator()](/documentation/code/classes/structrivet_1_1firstparticlewith/#function-operator())**(const <a href="/documentation/code/classes/classrivet_1_1particle/">Particle</a> & p) const |
 
 ## Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
-| ParticleSelector | **[fn](http://example.org/classes/structrivet_1_1firstparticlewith/#variable-fn)**  |
+| ParticleSelector | **[fn](/documentation/code/classes/structrivet_1_1firstparticlewith/#variable-fn)**  |
 
 ## Additional inherited members
 
-**Public Functions inherited from [Rivet::BoolParticleFunctor](http://example.org/classes/structrivet_1_1boolparticlefunctor/)**
+**Public Functions inherited from [Rivet::BoolParticleFunctor](/documentation/code/classes/structrivet_1_1boolparticlefunctor/)**
 
 |                | Name           |
 | -------------- | -------------- |
-| virtual | **[~BoolParticleFunctor](http://example.org/classes/structrivet_1_1boolparticlefunctor/#function-~boolparticlefunctor)**() |
+| virtual | **[~BoolParticleFunctor](/documentation/code/classes/structrivet_1_1boolparticlefunctor/#function-~boolparticlefunctor)**() |
 
 
 ## Public Functions Documentation
@@ -70,7 +70,7 @@ inline virtual bool operator()(
 ```
 
 
-**Reimplements**: [Rivet::BoolParticleFunctor::operator()](http://example.org/classes/structrivet_1_1boolparticlefunctor/#function-operator())
+**Reimplements**: [Rivet::BoolParticleFunctor::operator()](/documentation/code/classes/structrivet_1_1boolparticlefunctor/#function-operator())
 
 
 ## Public Attributes Documentation
@@ -84,4 +84,4 @@ ParticleSelector fn;
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

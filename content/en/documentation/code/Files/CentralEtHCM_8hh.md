@@ -14,13 +14,13 @@ description: "[Documentation update required.]"
 
 | Name           |
 | -------------- |
-| **[Rivet](http://example.org/namespaces/namespacerivet/)**  |
+| **[Rivet](/documentation/code/namespaces/namespacerivet/)**  |
 
 ## Classes
 
 |                | Name           |
 | -------------- | -------------- |
-| class | **[Rivet::CentralEtHCM](http://example.org/classes/classrivet_1_1centralethcm/)** <br>Summed \( E_\perp \) of central particles in HCM system.  |
+| class | **[Rivet::CentralEtHCM](/documentation/code/classes/classrivet_1_1centralethcm/)** <br>Summed \( E_\perp \) of central particles in HCM system.  |
 
 
 
@@ -80,4 +80,4 @@ namespace Rivet {
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

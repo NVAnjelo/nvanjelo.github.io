@@ -14,14 +14,14 @@ description: "[Documentation update required.]"
 
 | Name           |
 | -------------- |
-| **[Rivet](http://example.org/namespaces/namespacerivet/)**  |
+| **[Rivet](/documentation/code/namespaces/namespacerivet/)**  |
 
 ## Classes
 
 |                | Name           |
 | -------------- | -------------- |
-| class | **[Rivet::STAR_BES_Centrality](http://example.org/classes/classrivet_1_1star__bes__centrality/)** <br>Common projections for RHIC experiments' trigger conditions and centrality.  |
-| class | **[Rivet::BRAHMSCentrality](http://example.org/classes/classrivet_1_1brahmscentrality/)** <br>BRAHMS Centrality projection.  |
+| class | **[Rivet::STAR_BES_Centrality](/documentation/code/classes/classrivet_1_1star__bes__centrality/)** <br>Common projections for RHIC experiments' trigger conditions and centrality.  |
+| class | **[Rivet::BRAHMSCentrality](/documentation/code/classes/classrivet_1_1brahmscentrality/)** <br>BRAHMS Centrality projection.  |
 
 
 
@@ -104,4 +104,4 @@ protected:
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

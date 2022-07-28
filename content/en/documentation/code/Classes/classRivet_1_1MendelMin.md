@@ -18,32 +18,32 @@ A genetic algorithm functional minimizer.  [More...](#detailed-description)
 
 |                | Name           |
 | -------------- | -------------- |
-| using std::valarray< double > | **[Params](http://example.org/classes/classrivet_1_1mendelmin/#using-params)** <br>Typedef for a valaray of parameters to the function to be minimised.  |
-| using std::function< double(const <a href="http://example.org/classes/classrivet_1_1mendelmin/#using-params">Params</a> &, const <a href="http://example.org/classes/classrivet_1_1mendelmin/#using-params">Params</a> &)> | **[FuncT](http://example.org/classes/classrivet_1_1mendelmin/#using-funct)** <br>Typedef for the function to be minimised.  |
-| using std::function< double(const <a href="http://example.org/classes/classrivet_1_1mendelmin/#using-params">Params</a> &)> | **[FuncNoFixedT](http://example.org/classes/classrivet_1_1mendelmin/#using-funcnofixedt)** <br>Typedef for the function to be minimised.  |
+| using std::valarray< double > | **[Params](/documentation/code/classes/classrivet_1_1mendelmin/#using-params)** <br>Typedef for a valaray of parameters to the function to be minimised.  |
+| using std::function< double(const <a href="/documentation/code/classes/classrivet_1_1mendelmin/#using-params">Params</a> &, const <a href="/documentation/code/classes/classrivet_1_1mendelmin/#using-params">Params</a> &)> | **[FuncT](/documentation/code/classes/classrivet_1_1mendelmin/#using-funct)** <br>Typedef for the function to be minimised.  |
+| using std::function< double(const <a href="/documentation/code/classes/classrivet_1_1mendelmin/#using-params">Params</a> &)> | **[FuncNoFixedT](/documentation/code/classes/classrivet_1_1mendelmin/#using-funcnofixedt)** <br>Typedef for the function to be minimised.  |
 
 ## Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
-| | **[MendelMin](http://example.org/classes/classrivet_1_1mendelmin/#function-mendelmin)**(const <a href="http://example.org/classes/classrivet_1_1mendelmin/#using-funct">FuncT</a> & fin, unsigned int ndim, const <a href="http://example.org/classes/classrivet_1_1mendelmin/#using-params">Params</a> & fixpar, unsigned int npop =20, unsigned int ngen =20, double margin =0.1) |
-| | **[MendelMin](http://example.org/classes/classrivet_1_1mendelmin/#function-mendelmin)**(const <a href="http://example.org/classes/classrivet_1_1mendelmin/#using-funcnofixedt">FuncNoFixedT</a> & fin, unsigned int ndim, unsigned int npop =20, unsigned int ngen =20, double margin =0.1) |
-| void | **[guess](http://example.org/classes/classrivet_1_1mendelmin/#function-guess)**(const <a href="http://example.org/classes/classrivet_1_1mendelmin/#using-params">Params</a> & p) |
-| double | **[evolve](http://example.org/classes/classrivet_1_1mendelmin/#function-evolve)**(unsigned int NGen) |
-| <a href="http://example.org/classes/classrivet_1_1mendelmin/#using-params">Params</a> | **[fittest](http://example.org/classes/classrivet_1_1mendelmin/#function-fittest)**() const<br>Return the fittest parameter point found.  |
-| double | **[fit](http://example.org/classes/classrivet_1_1mendelmin/#function-fit)**() const<br>Return the fittest value found.  |
-| double | **[rnd](http://example.org/classes/classrivet_1_1mendelmin/#function-rnd)**() const<br>Simple wrapper around the random number generator.  |
-| <a href="http://example.org/classes/classrivet_1_1mendelmin/#using-params">Params</a> | **[rndParams](http://example.org/classes/classrivet_1_1mendelmin/#function-rndparams)**() const<br>Return a random parameter point in the unit hypercube.  |
-| void | **[limit01](http://example.org/classes/classrivet_1_1mendelmin/#function-limit01)**(<a href="http://example.org/classes/classrivet_1_1mendelmin/#using-params">Params</a> & p) const<br>Limit a parameter point to inside the unit hypercube.  |
-| void | **[move](http://example.org/classes/classrivet_1_1mendelmin/#function-move)**(<a href="http://example.org/classes/classrivet_1_1mendelmin/#using-params">Params</a> & bad, const <a href="http://example.org/classes/classrivet_1_1mendelmin/#using-params">Params</a> & better) const |
-| double | **[f](http://example.org/classes/classrivet_1_1mendelmin/#function-f)**(const <a href="http://example.org/classes/classrivet_1_1mendelmin/#using-params">Params</a> & p) const<br>Simple wrapper around the function to be minimised.  |
-| std::pair< double, double > | **[minmax](http://example.org/classes/classrivet_1_1mendelmin/#function-minmax)**() |
+| | **[MendelMin](/documentation/code/classes/classrivet_1_1mendelmin/#function-mendelmin)**(const <a href="/documentation/code/classes/classrivet_1_1mendelmin/#using-funct">FuncT</a> & fin, unsigned int ndim, const <a href="/documentation/code/classes/classrivet_1_1mendelmin/#using-params">Params</a> & fixpar, unsigned int npop =20, unsigned int ngen =20, double margin =0.1) |
+| | **[MendelMin](/documentation/code/classes/classrivet_1_1mendelmin/#function-mendelmin)**(const <a href="/documentation/code/classes/classrivet_1_1mendelmin/#using-funcnofixedt">FuncNoFixedT</a> & fin, unsigned int ndim, unsigned int npop =20, unsigned int ngen =20, double margin =0.1) |
+| void | **[guess](/documentation/code/classes/classrivet_1_1mendelmin/#function-guess)**(const <a href="/documentation/code/classes/classrivet_1_1mendelmin/#using-params">Params</a> & p) |
+| double | **[evolve](/documentation/code/classes/classrivet_1_1mendelmin/#function-evolve)**(unsigned int NGen) |
+| <a href="/documentation/code/classes/classrivet_1_1mendelmin/#using-params">Params</a> | **[fittest](/documentation/code/classes/classrivet_1_1mendelmin/#function-fittest)**() const<br>Return the fittest parameter point found.  |
+| double | **[fit](/documentation/code/classes/classrivet_1_1mendelmin/#function-fit)**() const<br>Return the fittest value found.  |
+| double | **[rnd](/documentation/code/classes/classrivet_1_1mendelmin/#function-rnd)**() const<br>Simple wrapper around the random number generator.  |
+| <a href="/documentation/code/classes/classrivet_1_1mendelmin/#using-params">Params</a> | **[rndParams](/documentation/code/classes/classrivet_1_1mendelmin/#function-rndparams)**() const<br>Return a random parameter point in the unit hypercube.  |
+| void | **[limit01](/documentation/code/classes/classrivet_1_1mendelmin/#function-limit01)**(<a href="/documentation/code/classes/classrivet_1_1mendelmin/#using-params">Params</a> & p) const<br>Limit a parameter point to inside the unit hypercube.  |
+| void | **[move](/documentation/code/classes/classrivet_1_1mendelmin/#function-move)**(<a href="/documentation/code/classes/classrivet_1_1mendelmin/#using-params">Params</a> & bad, const <a href="/documentation/code/classes/classrivet_1_1mendelmin/#using-params">Params</a> & better) const |
+| double | **[f](/documentation/code/classes/classrivet_1_1mendelmin/#function-f)**(const <a href="/documentation/code/classes/classrivet_1_1mendelmin/#using-params">Params</a> & p) const<br>Simple wrapper around the function to be minimised.  |
+| std::pair< double, double > | **[minmax](/documentation/code/classes/classrivet_1_1mendelmin/#function-minmax)**() |
 
 ## Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
-| bool | **[showTrace](http://example.org/classes/classrivet_1_1mendelmin/#variable-showtrace)** <br>Set true to get a verbose record of the evolution.  |
+| bool | **[showTrace](/documentation/code/classes/classrivet_1_1mendelmin/#variable-showtrace)** <br>Set true to get a verbose record of the evolution.  |
 
 ## Detailed Description
 
@@ -53,7 +53,7 @@ class Rivet::MendelMin;
 
 A genetic algorithm functional minimizer. 
 
-<a href="http://example.org/classes/classrivet_1_1mendelmin/">MendelMin</a> implements a home brewed genetic algorithm for finding the minimum of a function defined on a unit hypercube returning a non-negative real number (eg. a Chi-squared value). 
+<a href="/documentation/code/classes/classrivet_1_1mendelmin/">MendelMin</a> implements a home brewed genetic algorithm for finding the minimum of a function defined on a unit hypercube returning a non-negative real number (eg. a Chi-squared value). 
 
 ## Public Types Documentation
 
@@ -237,4 +237,4 @@ Set true to get a verbose record of the evolution.
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:08 +0100
+Updated on 2022-07-28 at 18:36:46 +0100

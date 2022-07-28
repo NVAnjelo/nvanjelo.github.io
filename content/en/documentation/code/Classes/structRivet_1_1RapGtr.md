@@ -7,7 +7,7 @@ description: "Rapidity greater-than functor. "
 
 # Rivet::RapGtr
 
-**Module:** **[Functions for Particles and Jets](http://example.org/modules/group__particlebaseutils/)** **/** **[ParticleBase classifier -> bool functors](http://example.org/modules/group__particlebasetutils__pb2bool/)**
+**Module:** **[Functions for Particles and Jets](/documentation/code/modules/group__particlebaseutils/)** **/** **[ParticleBase classifier -> bool functors](/documentation/code/modules/group__particlebasetutils__pb2bool/)**
 
 
 
@@ -16,29 +16,29 @@ Rapidity greater-than functor.
 
 `#include <ParticleBaseUtils.hh>`
 
-Inherits from [Rivet::BoolParticleBaseFunctor](http://example.org/classes/structrivet_1_1boolparticlebasefunctor/)
+Inherits from [Rivet::BoolParticleBaseFunctor](/documentation/code/classes/structrivet_1_1boolparticlebasefunctor/)
 
 ## Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
-| | **[RapGtr](http://example.org/modules/group__particlebaseutils/#function-rapgtr)**(double rap) |
-| | **[RapGtr](http://example.org/modules/group__particlebaseutils/#function-rapgtr)**(const <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & p) |
-| virtual bool | **[operator()](http://example.org/modules/group__particlebaseutils/#function-operator())**(const <a href="http://example.org/classes/classrivet_1_1particlebase/">ParticleBase</a> & p) const |
+| | **[RapGtr](/documentation/code/modules/group__particlebaseutils/#function-rapgtr)**(double rap) |
+| | **[RapGtr](/documentation/code/modules/group__particlebaseutils/#function-rapgtr)**(const <a href="/documentation/code/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & p) |
+| virtual bool | **[operator()](/documentation/code/modules/group__particlebaseutils/#function-operator())**(const <a href="/documentation/code/classes/classrivet_1_1particlebase/">ParticleBase</a> & p) const |
 
 ## Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
-| double | **[rapcut](http://example.org/modules/group__particlebaseutils/#variable-rapcut)**  |
+| double | **[rapcut](/documentation/code/modules/group__particlebaseutils/#variable-rapcut)**  |
 
 ## Additional inherited members
 
-**Public Functions inherited from [Rivet::BoolParticleBaseFunctor](http://example.org/classes/structrivet_1_1boolparticlebasefunctor/)**
+**Public Functions inherited from [Rivet::BoolParticleBaseFunctor](/documentation/code/classes/structrivet_1_1boolparticlebasefunctor/)**
 
 |                | Name           |
 | -------------- | -------------- |
-| virtual | **[~BoolParticleBaseFunctor](http://example.org/modules/group__particlebaseutils/#function-~boolparticlebasefunctor)**() |
+| virtual | **[~BoolParticleBaseFunctor](/documentation/code/modules/group__particlebaseutils/#function-~boolparticlebasefunctor)**() |
 
 
 ## Public Functions Documentation
@@ -70,7 +70,7 @@ inline virtual bool operator()(
 ```
 
 
-**Reimplements**: [Rivet::BoolParticleBaseFunctor::operator()](http://example.org/modules/group__particlebaseutils/#function-operator())
+**Reimplements**: [Rivet::BoolParticleBaseFunctor::operator()](/documentation/code/modules/group__particlebaseutils/#function-operator())
 
 
 ## Public Attributes Documentation
@@ -84,4 +84,4 @@ double rapcut;
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

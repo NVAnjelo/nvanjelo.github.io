@@ -14,39 +14,39 @@ description: "[Documentation update required.]"
 
 | Name           |
 | -------------- |
-| **[Rivet](http://example.org/namespaces/namespacerivet/)**  |
-| **[Rivet::Kin](http://example.org/namespaces/namespacerivet_1_1kin/)**  |
+| **[Rivet](/documentation/code/namespaces/namespacerivet/)**  |
+| **[Rivet::Kin](/documentation/code/namespaces/namespacerivet_1_1kin/)**  |
 
 ## Classes
 
 |                | Name           |
 | -------------- | -------------- |
-| struct | **[Rivet::BoolParticleFunctor](http://example.org/classes/structrivet_1_1boolparticlefunctor/)** <br>Base type for Particle -> bool functors.  |
-| struct | **[Rivet::BoolParticleAND](http://example.org/classes/structrivet_1_1boolparticleand/)** <br>Functor for and-combination of selector logic.  |
-| struct | **[Rivet::BoolParticleOR](http://example.org/classes/structrivet_1_1boolparticleor/)** <br>Functor for or-combination of selector logic.  |
-| struct | **[Rivet::BoolParticleNOT](http://example.org/classes/structrivet_1_1boolparticlenot/)** <br>Functor for inverting selector logic.  |
-| struct | **[Rivet::HasPID](http://example.org/classes/structrivet_1_1haspid/)** <br>PID matching functor.  |
-| struct | **[Rivet::HasAbsPID](http://example.org/classes/structrivet_1_1hasabspid/)** <br>|PID| matching functor  |
-| struct | **[Rivet::FirstParticleWith](http://example.org/classes/structrivet_1_1firstparticlewith/)** <br>Determine whether a particle is the first in a decay chain to meet the cut/function.  |
-| struct | **[Rivet::FirstParticleWithout](http://example.org/classes/structrivet_1_1firstparticlewithout/)** <br>Determine whether a particle is the first in a decay chain not to meet the cut/function.  |
-| struct | **[Rivet::LastParticleWith](http://example.org/classes/structrivet_1_1lastparticlewith/)** <br>Determine whether a particle is the last in a decay chain to meet the cut/function.  |
-| struct | **[Rivet::LastParticleWithout](http://example.org/classes/structrivet_1_1lastparticlewithout/)** <br>Determine whether a particle is the last in a decay chain not to meet the cut/function.  |
-| struct | **[Rivet::HasParticleAncestorWith](http://example.org/classes/structrivet_1_1hasparticleancestorwith/)** <br>Determine whether a particle has an ancestor which meets the cut/function.  |
-| struct | **[Rivet::HasParticleAncestorWithout](http://example.org/classes/structrivet_1_1hasparticleancestorwithout/)** <br>Determine whether a particle has an ancestor which doesn't meet the cut/function.  |
-| struct | **[Rivet::HasParticleParentWith](http://example.org/classes/structrivet_1_1hasparticleparentwith/)** <br>Determine whether a particle has an parent which meets the cut/function.  |
-| struct | **[Rivet::HasParticleParentWithout](http://example.org/classes/structrivet_1_1hasparticleparentwithout/)** <br>Determine whether a particle has an parent which doesn't meet the cut/function.  |
-| struct | **[Rivet::HasParticleChildWith](http://example.org/classes/structrivet_1_1hasparticlechildwith/)** <br>Determine whether a particle has a child which meets the cut/function.  |
-| struct | **[Rivet::HasParticleChildWithout](http://example.org/classes/structrivet_1_1hasparticlechildwithout/)** <br>Determine whether a particle has a child which doesn't meet the cut/function.  |
-| struct | **[Rivet::HasParticleDescendantWith](http://example.org/classes/structrivet_1_1hasparticledescendantwith/)** <br>Determine whether a particle has a descendant which meets the cut/function.  |
-| struct | **[Rivet::HasParticleDescendantWithout](http://example.org/classes/structrivet_1_1hasparticledescendantwithout/)** <br>Determine whether a particle has a descendant which doesn't meet the cut/function.  |
+| struct | **[Rivet::BoolParticleFunctor](/documentation/code/classes/structrivet_1_1boolparticlefunctor/)** <br>Base type for Particle -> bool functors.  |
+| struct | **[Rivet::BoolParticleAND](/documentation/code/classes/structrivet_1_1boolparticleand/)** <br>Functor for and-combination of selector logic.  |
+| struct | **[Rivet::BoolParticleOR](/documentation/code/classes/structrivet_1_1boolparticleor/)** <br>Functor for or-combination of selector logic.  |
+| struct | **[Rivet::BoolParticleNOT](/documentation/code/classes/structrivet_1_1boolparticlenot/)** <br>Functor for inverting selector logic.  |
+| struct | **[Rivet::HasPID](/documentation/code/classes/structrivet_1_1haspid/)** <br>PID matching functor.  |
+| struct | **[Rivet::HasAbsPID](/documentation/code/classes/structrivet_1_1hasabspid/)** <br>|PID| matching functor  |
+| struct | **[Rivet::FirstParticleWith](/documentation/code/classes/structrivet_1_1firstparticlewith/)** <br>Determine whether a particle is the first in a decay chain to meet the cut/function.  |
+| struct | **[Rivet::FirstParticleWithout](/documentation/code/classes/structrivet_1_1firstparticlewithout/)** <br>Determine whether a particle is the first in a decay chain not to meet the cut/function.  |
+| struct | **[Rivet::LastParticleWith](/documentation/code/classes/structrivet_1_1lastparticlewith/)** <br>Determine whether a particle is the last in a decay chain to meet the cut/function.  |
+| struct | **[Rivet::LastParticleWithout](/documentation/code/classes/structrivet_1_1lastparticlewithout/)** <br>Determine whether a particle is the last in a decay chain not to meet the cut/function.  |
+| struct | **[Rivet::HasParticleAncestorWith](/documentation/code/classes/structrivet_1_1hasparticleancestorwith/)** <br>Determine whether a particle has an ancestor which meets the cut/function.  |
+| struct | **[Rivet::HasParticleAncestorWithout](/documentation/code/classes/structrivet_1_1hasparticleancestorwithout/)** <br>Determine whether a particle has an ancestor which doesn't meet the cut/function.  |
+| struct | **[Rivet::HasParticleParentWith](/documentation/code/classes/structrivet_1_1hasparticleparentwith/)** <br>Determine whether a particle has an parent which meets the cut/function.  |
+| struct | **[Rivet::HasParticleParentWithout](/documentation/code/classes/structrivet_1_1hasparticleparentwithout/)** <br>Determine whether a particle has an parent which doesn't meet the cut/function.  |
+| struct | **[Rivet::HasParticleChildWith](/documentation/code/classes/structrivet_1_1hasparticlechildwith/)** <br>Determine whether a particle has a child which meets the cut/function.  |
+| struct | **[Rivet::HasParticleChildWithout](/documentation/code/classes/structrivet_1_1hasparticlechildwithout/)** <br>Determine whether a particle has a child which doesn't meet the cut/function.  |
+| struct | **[Rivet::HasParticleDescendantWith](/documentation/code/classes/structrivet_1_1hasparticledescendantwith/)** <br>Determine whether a particle has a descendant which meets the cut/function.  |
+| struct | **[Rivet::HasParticleDescendantWithout](/documentation/code/classes/structrivet_1_1hasparticledescendantwithout/)** <br>Determine whether a particle has a descendant which doesn't meet the cut/function.  |
 
 ## Defines
 
 |                | Name           |
 | -------------- | -------------- |
-|  | **[PARTICLE_TO_PID_BOOLFN](http://example.org/files/particleutils_8hh/#define-particle-to-pid-boolfn)**(fname)  |
-|  | **[PARTICLE_TO_PID_INTFN](http://example.org/files/particleutils_8hh/#define-particle-to-pid-intfn)**(fname)  |
-|  | **[PARTICLE_TO_PID_DBLFN](http://example.org/files/particleutils_8hh/#define-particle-to-pid-dblfn)**(fname)  |
+|  | **[PARTICLE_TO_PID_BOOLFN](/documentation/code/files/particleutils_8hh/#define-particle-to-pid-boolfn)**(fname)  |
+|  | **[PARTICLE_TO_PID_INTFN](/documentation/code/files/particleutils_8hh/#define-particle-to-pid-intfn)**(fname)  |
+|  | **[PARTICLE_TO_PID_DBLFN](/documentation/code/files/particleutils_8hh/#define-particle-to-pid-dblfn)**(fname)  |
 
 
 
@@ -756,4 +756,4 @@ namespace Rivet {
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

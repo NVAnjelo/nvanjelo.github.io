@@ -15,10 +15,10 @@ Base class for correlator bins.
 
 |                | Name           |
 | -------------- | -------------- |
-| | **[CorBinBase](http://example.org/classes/classrivet_1_1cumulantanalysis_1_1corbinbase/#function-corbinbase)**() |
-| virtual | **[~CorBinBase](http://example.org/classes/classrivet_1_1cumulantanalysis_1_1corbinbase/#function-~corbinbase)**() |
-| virtual void | **[fill](http://example.org/classes/classrivet_1_1cumulantanalysis_1_1corbinbase/#function-fill)**(const pair< double, double > & cor, const double & weight =1.0) =0 |
-| virtual double | **[mean](http://example.org/classes/classrivet_1_1cumulantanalysis_1_1corbinbase/#function-mean)**() const =0 |
+| | **[CorBinBase](/documentation/code/classes/classrivet_1_1cumulantanalysis_1_1corbinbase/#function-corbinbase)**() |
+| virtual | **[~CorBinBase](/documentation/code/classes/classrivet_1_1cumulantanalysis_1_1corbinbase/#function-~corbinbase)**() |
+| virtual void | **[fill](/documentation/code/classes/classrivet_1_1cumulantanalysis_1_1corbinbase/#function-fill)**(const pair< double, double > & cor, const double & weight =1.0) =0 |
+| virtual double | **[mean](/documentation/code/classes/classrivet_1_1cumulantanalysis_1_1corbinbase/#function-mean)**() const =0 |
 
 ## Public Functions Documentation
 
@@ -55,4 +55,4 @@ virtual double mean() const =0
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:08 +0100
+Updated on 2022-07-28 at 18:36:45 +0100

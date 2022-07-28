@@ -14,10 +14,10 @@ description: "[Documentation update required.]"
 
 |                | Name           |
 | -------------- | -------------- |
-| bool | **[isNucleus](http://example.org/modules/group__mcutils__nucleus__ion/#function-isnucleus)**(int pid)<br>Is this a nucleus PID?  |
-| int | **[nuclZ](http://example.org/modules/group__mcutils__nucleus__ion/#function-nuclz)**(int pid) |
-| int | **[nuclA](http://example.org/modules/group__mcutils__nucleus__ion/#function-nucla)**(int pid) |
-| int | **[nuclNlambda](http://example.org/modules/group__mcutils__nucleus__ion/#function-nuclnlambda)**(int pid) |
+| bool | **[isNucleus](/documentation/code/modules/group__mcutils__nucleus__ion/#function-isnucleus)**(int pid)<br>Is this a nucleus PID?  |
+| int | **[nuclZ](/documentation/code/modules/group__mcutils__nucleus__ion/#function-nuclz)**(int pid) |
+| int | **[nuclA](/documentation/code/modules/group__mcutils__nucleus__ion/#function-nucla)**(int pid) |
+| int | **[nuclNlambda](/documentation/code/modules/group__mcutils__nucleus__ion/#function-nuclnlambda)**(int pid) |
 
 
 ## Functions Documentation
@@ -83,4 +83,4 @@ If this is a nucleus (ion), get nLambda
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

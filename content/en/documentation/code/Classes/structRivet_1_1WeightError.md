@@ -14,21 +14,21 @@ Errors relating to event/bin weights.  [More...](#detailed-description)
 
 `#include <Exceptions.hh>`
 
-Inherits from [Rivet::Error](http://example.org/classes/structrivet_1_1error/), std::runtime_error
+Inherits from [Rivet::Error](/documentation/code/classes/structrivet_1_1error/), std::runtime_error
 
 ## Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
-| | **[WeightError](http://example.org/classes/structrivet_1_1weighterror/#function-weighterror)**(const std::string & what) |
+| | **[WeightError](/documentation/code/classes/structrivet_1_1weighterror/#function-weighterror)**(const std::string & what) |
 
 ## Additional inherited members
 
-**Public Functions inherited from [Rivet::Error](http://example.org/classes/structrivet_1_1error/)**
+**Public Functions inherited from [Rivet::Error](/documentation/code/classes/structrivet_1_1error/)**
 
 |                | Name           |
 | -------------- | -------------- |
-| | **[Error](http://example.org/classes/structrivet_1_1error/#function-error)**(const std::string & what) |
+| | **[Error](/documentation/code/classes/structrivet_1_1error/#function-error)**(const std::string & what) |
 
 
 ## Detailed Description
@@ -54,4 +54,4 @@ inline WeightError(
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:46 +0100

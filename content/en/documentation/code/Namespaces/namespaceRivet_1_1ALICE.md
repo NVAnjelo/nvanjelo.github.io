@@ -8,7 +8,7 @@ description: "[Documentation update required.]"
 
 # Rivet::ALICE
 
-**Module:** **[ALICE specifics](http://example.org/modules/group__alice/)**
+**Module:** **[ALICE specifics](/documentation/code/modules/group__alice/)**
 
  [More...](#detailed-description)
 
@@ -16,40 +16,40 @@ description: "[Documentation update required.]"
 
 |                | Name           |
 | -------------- | -------------- |
-| class | **[Rivet::ALICE::CLMultiplicity](http://example.org/classes/classrivet_1_1alice_1_1clmultiplicity/)**  |
-| class | **[Rivet::ALICE::PrimaryParticles](http://example.org/classes/classrivet_1_1alice_1_1primaryparticles/)** <br>Standard <a href="http://example.org/namespaces/namespacerivet_1_1alice/">ALICE</a> primary particle definition.  |
-| class | **[Rivet::ALICE::V0AndTrigger](http://example.org/classes/classrivet_1_1alice_1_1v0andtrigger/)** <br>Trigger projection for the <a href="http://example.org/namespaces/namespacerivet_1_1alice/">ALICE</a> V0-AND (a.k.a. CINT7) requirement.  |
-| class | **[Rivet::ALICE::V0Multiplicity](http://example.org/classes/classrivet_1_1alice_1_1v0multiplicity/)**  |
-| class | **[Rivet::ALICE::V0Trigger](http://example.org/classes/classrivet_1_1alice_1_1v0trigger/)**  |
+| class | **[Rivet::ALICE::CLMultiplicity](/documentation/code/classes/classrivet_1_1alice_1_1clmultiplicity/)**  |
+| class | **[Rivet::ALICE::PrimaryParticles](/documentation/code/classes/classrivet_1_1alice_1_1primaryparticles/)** <br>Standard <a href="/documentation/code/namespaces/namespacerivet_1_1alice/">ALICE</a> primary particle definition.  |
+| class | **[Rivet::ALICE::V0AndTrigger](/documentation/code/classes/classrivet_1_1alice_1_1v0andtrigger/)** <br>Trigger projection for the <a href="/documentation/code/namespaces/namespacerivet_1_1alice/">ALICE</a> V0-AND (a.k.a. CINT7) requirement.  |
+| class | **[Rivet::ALICE::V0Multiplicity](/documentation/code/classes/classrivet_1_1alice_1_1v0multiplicity/)**  |
+| class | **[Rivet::ALICE::V0Trigger](/documentation/code/classes/classrivet_1_1alice_1_1v0trigger/)**  |
 
 ## Types
 
 |                | Name           |
 | -------------- | -------------- |
-| typedef <a href="http://example.org/classes/classrivet_1_1alice_1_1v0multiplicity/">V0Multiplicity</a><+1 > | **[V0AMultiplicity](http://example.org/namespaces/namespacerivet_1_1alice/#typedef-v0amultiplicity)**  |
-| typedef <a href="http://example.org/classes/classrivet_1_1alice_1_1v0multiplicity/">V0Multiplicity</a><-1 > | **[V0CMultiplicity](http://example.org/namespaces/namespacerivet_1_1alice/#typedef-v0cmultiplicity)**  |
-| typedef <a href="http://example.org/classes/classrivet_1_1alice_1_1v0multiplicity/">V0Multiplicity</a>< 0 > | **[V0MMultiplicity](http://example.org/namespaces/namespacerivet_1_1alice/#typedef-v0mmultiplicity)**  |
-| typedef <a href="http://example.org/classes/classrivet_1_1alice_1_1clmultiplicity/">CLMultiplicity</a>< true > | **[CL0Multiplicity](http://example.org/namespaces/namespacerivet_1_1alice/#typedef-cl0multiplicity)**  |
-| typedef <a href="http://example.org/classes/classrivet_1_1alice_1_1clmultiplicity/">CLMultiplicity</a>< false > | **[CL1Multiplicity](http://example.org/namespaces/namespacerivet_1_1alice/#typedef-cl1multiplicity)**  |
-| using <a href="http://example.org/classes/classrivet_1_1alice_1_1v0trigger/">V0Trigger</a><-1 > | **[V0ATrigger](http://example.org/namespaces/namespacerivet_1_1alice/#using-v0atrigger)**  |
-| using <a href="http://example.org/classes/classrivet_1_1alice_1_1v0trigger/">V0Trigger</a><+1 > | **[V0CTrigger](http://example.org/namespaces/namespacerivet_1_1alice/#using-v0ctrigger)**  |
-| using <a href="http://example.org/classes/classrivet_1_1alice_1_1v0trigger/">V0Trigger</a>< 0 > | **[V0OrTrigger](http://example.org/namespaces/namespacerivet_1_1alice/#using-v0ortrigger)**  |
+| typedef <a href="/documentation/code/classes/classrivet_1_1alice_1_1v0multiplicity/">V0Multiplicity</a><+1 > | **[V0AMultiplicity](/documentation/code/namespaces/namespacerivet_1_1alice/#typedef-v0amultiplicity)**  |
+| typedef <a href="/documentation/code/classes/classrivet_1_1alice_1_1v0multiplicity/">V0Multiplicity</a><-1 > | **[V0CMultiplicity](/documentation/code/namespaces/namespacerivet_1_1alice/#typedef-v0cmultiplicity)**  |
+| typedef <a href="/documentation/code/classes/classrivet_1_1alice_1_1v0multiplicity/">V0Multiplicity</a>< 0 > | **[V0MMultiplicity](/documentation/code/namespaces/namespacerivet_1_1alice/#typedef-v0mmultiplicity)**  |
+| typedef <a href="/documentation/code/classes/classrivet_1_1alice_1_1clmultiplicity/">CLMultiplicity</a>< true > | **[CL0Multiplicity](/documentation/code/namespaces/namespacerivet_1_1alice/#typedef-cl0multiplicity)**  |
+| typedef <a href="/documentation/code/classes/classrivet_1_1alice_1_1clmultiplicity/">CLMultiplicity</a>< false > | **[CL1Multiplicity](/documentation/code/namespaces/namespacerivet_1_1alice/#typedef-cl1multiplicity)**  |
+| using <a href="/documentation/code/classes/classrivet_1_1alice_1_1v0trigger/">V0Trigger</a><-1 > | **[V0ATrigger](/documentation/code/namespaces/namespacerivet_1_1alice/#using-v0atrigger)**  |
+| using <a href="/documentation/code/classes/classrivet_1_1alice_1_1v0trigger/">V0Trigger</a><+1 > | **[V0CTrigger](/documentation/code/namespaces/namespacerivet_1_1alice/#using-v0ctrigger)**  |
+| using <a href="/documentation/code/classes/classrivet_1_1alice_1_1v0trigger/">V0Trigger</a>< 0 > | **[V0OrTrigger](/documentation/code/namespaces/namespacerivet_1_1alice/#using-v0ortrigger)**  |
 
 ## Attributes
 
 |                | Name           |
 | -------------- | -------------- |
-| const Cut | **[V0Aacceptance](http://example.org/modules/group__alice/#variable-v0aacceptance)**  |
-| const Cut | **[V0Cacceptance](http://example.org/modules/group__alice/#variable-v0cacceptance)**  |
-| const Cut | **[CL0acceptance](http://example.org/modules/group__alice/#variable-cl0acceptance)**  |
-| const Cut | **[CL1acceptance](http://example.org/modules/group__alice/#variable-cl1acceptance)**  |
-| const Cut | **[Eta1acceptance](http://example.org/modules/group__alice/#variable-eta1acceptance)**  |
-| const Cut | **[FASTORacceptance](http://example.org/modules/group__alice/#variable-fastoracceptance)**  |
+| const Cut | **[V0Aacceptance](/documentation/code/modules/group__alice/#variable-v0aacceptance)**  |
+| const Cut | **[V0Cacceptance](/documentation/code/modules/group__alice/#variable-v0cacceptance)**  |
+| const Cut | **[CL0acceptance](/documentation/code/modules/group__alice/#variable-cl0acceptance)**  |
+| const Cut | **[CL1acceptance](/documentation/code/modules/group__alice/#variable-cl1acceptance)**  |
+| const Cut | **[Eta1acceptance](/documentation/code/modules/group__alice/#variable-eta1acceptance)**  |
+| const Cut | **[FASTORacceptance](/documentation/code/modules/group__alice/#variable-fastoracceptance)**  |
 
 ## Detailed Description
 
 
-Namespace for <a href="http://example.org/namespaces/namespacerivet_1_1alice/">ALICE</a> specific core code 
+Namespace for <a href="/documentation/code/namespaces/namespacerivet_1_1alice/">ALICE</a> specific core code 
 
 ## Types Documentation
 
@@ -202,4 +202,4 @@ The acceptance cut for SPD FASTOR
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

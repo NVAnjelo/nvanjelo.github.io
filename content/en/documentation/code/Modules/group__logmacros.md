@@ -14,12 +14,12 @@ description: "[Documentation update required.]"
 
 |                | Name           |
 | -------------- | -------------- |
-|  | **[MSG_LVL](http://example.org/modules/group__logmacros/#define-msg-lvl)**(lvl, x) <br>Neat CPU-conserving logging macros. Use by preference!  |
-|  | **[MSG_TRACE](http://example.org/modules/group__logmacros/#define-msg-trace)**(x) <br>Lowest-level, most verbose messaging, using MSG_LVL.  |
-|  | **[MSG_DEBUG](http://example.org/modules/group__logmacros/#define-msg-debug)**(x) <br>Debug messaging, not enabled by default, using MSG_LVL.  |
-|  | **[MSG_INFO](http://example.org/modules/group__logmacros/#define-msg-info)**(x) <br>Key-information messging, enabled by default, using MSG_LVL.  |
-|  | **[MSG_WARNING](http://example.org/modules/group__logmacros/#define-msg-warning)**(x) <br>Warning messages for non-fatal bad things, using MSG_LVL.  |
-|  | **[MSG_ERROR](http://example.org/modules/group__logmacros/#define-msg-error)**(x) <br>Highest level messaging for serious problems, using MSG_LVL.  |
+|  | **[MSG_LVL](/documentation/code/modules/group__logmacros/#define-msg-lvl)**(lvl, x) <br>Neat CPU-conserving logging macros. Use by preference!  |
+|  | **[MSG_TRACE](/documentation/code/modules/group__logmacros/#define-msg-trace)**(x) <br>Lowest-level, most verbose messaging, using MSG_LVL.  |
+|  | **[MSG_DEBUG](/documentation/code/modules/group__logmacros/#define-msg-debug)**(x) <br>Debug messaging, not enabled by default, using MSG_LVL.  |
+|  | **[MSG_INFO](/documentation/code/modules/group__logmacros/#define-msg-info)**(x) <br>Key-information messging, enabled by default, using MSG_LVL.  |
+|  | **[MSG_WARNING](/documentation/code/modules/group__logmacros/#define-msg-warning)**(x) <br>Warning messages for non-fatal bad things, using MSG_LVL.  |
+|  | **[MSG_ERROR](/documentation/code/modules/group__logmacros/#define-msg-error)**(x) <br>Highest level messaging for serious problems, using MSG_LVL.  |
 
 
 
@@ -105,4 +105,4 @@ Highest level messaging for serious problems, using MSG_LVL.
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

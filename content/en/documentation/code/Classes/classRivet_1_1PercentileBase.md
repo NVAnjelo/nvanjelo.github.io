@@ -9,24 +9,24 @@ description: "PercentileBase is the base class of all Percentile classes. "
 
 
 
-PercentileBase is the base class of all <a href="http://example.org/classes/classrivet_1_1percentile/">Percentile</a> classes.  [More...](#detailed-description)
+PercentileBase is the base class of all <a href="/documentation/code/classes/classrivet_1_1percentile/">Percentile</a> classes.  [More...](#detailed-description)
 
 
 `#include <Percentile.hh>`
 
-Inherited by [Rivet::PercentileTBase< T >](http://example.org/classes/classrivet_1_1percentiletbase/)
+Inherited by [Rivet::PercentileTBase< T >](/documentation/code/classes/classrivet_1_1percentiletbase/)
 
 ## Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
-| | **[PercentileBase](http://example.org/classes/classrivet_1_1percentilebase/#function-percentilebase)**(<a href="http://example.org/classes/classrivet_1_1analysis/">Analysis</a> * ana, string projName)<br>Constructor.  |
-| | **[PercentileBase](http://example.org/classes/classrivet_1_1percentilebase/#function-percentilebase)**()<br>Default constructor.  |
-| void | **[selectBins](http://example.org/classes/classrivet_1_1percentilebase/#function-selectbins)**(const <a href="http://example.org/classes/classrivet_1_1event/">Event</a> & )<br>Initialize the <a href="http://example.org/classes/classrivet_1_1percentilebase/">PercentileBase</a> for a new event.  |
-| void | **[copyFrom](http://example.org/classes/classrivet_1_1percentilebase/#function-copyfrom)**(const <a href="http://example.org/classes/classrivet_1_1percentilebase/">PercentileBase</a> & other)<br>Copy information from _other_<a href="http://example.org/classes/classrivet_1_1percentilebase/">PercentileBase</a>.  |
-| bool | **[compatible](http://example.org/classes/classrivet_1_1percentilebase/#function-compatible)**(const <a href="http://example.org/classes/classrivet_1_1percentilebase/">PercentileBase</a> & other) const<br>check if _other_<a href="http://example.org/classes/classrivet_1_1percentilebase/">PercentileBase</a> is compatible with this.  |
-| const vector< pair< float, float > > & | **[centralities](http://example.org/classes/classrivet_1_1percentilebase/#function-centralities)**() const<br>return the list of centrality bins.  |
-| bool | **[inRange](http://example.org/classes/classrivet_1_1percentilebase/#function-inrange)**(double x, pair< float, float > range)<br>Helper function to check if _x_ is within _range_.  |
+| | **[PercentileBase](/documentation/code/classes/classrivet_1_1percentilebase/#function-percentilebase)**(<a href="/documentation/code/classes/classrivet_1_1analysis/">Analysis</a> * ana, string projName)<br>Constructor.  |
+| | **[PercentileBase](/documentation/code/classes/classrivet_1_1percentilebase/#function-percentilebase)**()<br>Default constructor.  |
+| void | **[selectBins](/documentation/code/classes/classrivet_1_1percentilebase/#function-selectbins)**(const <a href="/documentation/code/classes/classrivet_1_1event/">Event</a> & )<br>Initialize the <a href="/documentation/code/classes/classrivet_1_1percentilebase/">PercentileBase</a> for a new event.  |
+| void | **[copyFrom](/documentation/code/classes/classrivet_1_1percentilebase/#function-copyfrom)**(const <a href="/documentation/code/classes/classrivet_1_1percentilebase/">PercentileBase</a> & other)<br>Copy information from _other_<a href="/documentation/code/classes/classrivet_1_1percentilebase/">PercentileBase</a>.  |
+| bool | **[compatible](/documentation/code/classes/classrivet_1_1percentilebase/#function-compatible)**(const <a href="/documentation/code/classes/classrivet_1_1percentilebase/">PercentileBase</a> & other) const<br>check if _other_<a href="/documentation/code/classes/classrivet_1_1percentilebase/">PercentileBase</a> is compatible with this.  |
+| const vector< pair< float, float > > & | **[centralities](/documentation/code/classes/classrivet_1_1percentilebase/#function-centralities)**() const<br>return the list of centrality bins.  |
+| bool | **[inRange](/documentation/code/classes/classrivet_1_1percentilebase/#function-inrange)**(double x, pair< float, float > range)<br>Helper function to check if _x_ is within _range_.  |
 
 ## Detailed Description
 
@@ -34,7 +34,7 @@ Inherited by [Rivet::PercentileTBase< T >](http://example.org/classes/classrivet
 class Rivet::PercentileBase;
 ```
 
-PercentileBase is the base class of all <a href="http://example.org/classes/classrivet_1_1percentile/">Percentile</a> classes. 
+PercentileBase is the base class of all <a href="/documentation/code/classes/classrivet_1_1percentile/">Percentile</a> classes. 
 
 This base class contains all non-templated variables and infrastructure needed. 
 
@@ -51,7 +51,7 @@ inline PercentileBase(
 
 Constructor. 
 
-Constructor requiring a pointer, _ana_, to the <a href="http://example.org/classes/classrivet_1_1analysis/">Analysis</a> to which this object belongs and the name of the <a href="http://example.org/classes/classrivet_1_1centralityprojection/">CentralityProjection</a>, _projname_, to be used. 
+Constructor requiring a pointer, _ana_, to the <a href="/documentation/code/classes/classrivet_1_1analysis/">Analysis</a> to which this object belongs and the name of the <a href="/documentation/code/classes/classrivet_1_1centralityprojection/">CentralityProjection</a>, _projname_, to be used. 
 
 
 ### function PercentileBase
@@ -70,9 +70,9 @@ void selectBins(
 )
 ```
 
-Initialize the <a href="http://example.org/classes/classrivet_1_1percentilebase/">PercentileBase</a> for a new event. 
+Initialize the <a href="/documentation/code/classes/classrivet_1_1percentilebase/">PercentileBase</a> for a new event. 
 
-This will perform the assigned <a href="http://example.org/classes/classrivet_1_1centralityprojection/">CentralityProjection</a> and select out the (indices) of the internal AnalysisObjects that are to be active in this event. 
+This will perform the assigned <a href="/documentation/code/classes/classrivet_1_1centralityprojection/">CentralityProjection</a> and select out the (indices) of the internal AnalysisObjects that are to be active in this event. 
 
 
 ### function copyFrom
@@ -83,7 +83,7 @@ inline void copyFrom(
 )
 ```
 
-Copy information from _other_<a href="http://example.org/classes/classrivet_1_1percentilebase/">PercentileBase</a>. 
+Copy information from _other_<a href="/documentation/code/classes/classrivet_1_1percentilebase/">PercentileBase</a>. 
 
 ### function compatible
 
@@ -93,7 +93,7 @@ inline bool compatible(
 ) const
 ```
 
-check if _other_<a href="http://example.org/classes/classrivet_1_1percentilebase/">PercentileBase</a> is compatible with this. 
+check if _other_<a href="/documentation/code/classes/classrivet_1_1percentilebase/">PercentileBase</a> is compatible with this. 
 
 ### function centralities
 
@@ -103,7 +103,7 @@ inline const vector< pair< float, float > > & centralities() const
 
 return the list of centrality bins. 
 
-The size of this vector is the same as number of internal analysis objects in the sub class <a href="http://example.org/classes/classrivet_1_1percentiletbase/">PercentileTBase</a>. 
+The size of this vector is the same as number of internal analysis objects in the sub class <a href="/documentation/code/classes/classrivet_1_1percentiletbase/">PercentileTBase</a>. 
 
 
 ### function inRange
@@ -119,4 +119,4 @@ Helper function to check if _x_ is within _range_.
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:08 +0100
+Updated on 2022-07-28 at 18:36:46 +0100

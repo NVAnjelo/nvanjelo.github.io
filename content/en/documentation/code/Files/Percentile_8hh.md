@@ -14,16 +14,16 @@ description: "[Documentation update required.]"
 
 | Name           |
 | -------------- |
-| **[Rivet](http://example.org/namespaces/namespacerivet/)**  |
+| **[Rivet](/documentation/code/namespaces/namespacerivet/)**  |
 
 ## Classes
 
 |                | Name           |
 | -------------- | -------------- |
-| class | **[Rivet::PercentileBase](http://example.org/classes/classrivet_1_1percentilebase/)** <br>PercentileBase is the base class of all <a href="http://example.org/classes/classrivet_1_1percentile/">Percentile</a> classes.  |
-| class | **[Rivet::PercentileTBase](http://example.org/classes/classrivet_1_1percentiletbase/)** <br>PercentileTBase is the base class of all <a href="http://example.org/classes/classrivet_1_1percentile/">Percentile</a> classes.  |
-| class | **[Rivet::Percentile](http://example.org/classes/classrivet_1_1percentile/)** <br>The Percentile class for centrality binning.  |
-| class | **[Rivet::PercentileXaxis](http://example.org/classes/classrivet_1_1percentilexaxis/)** <br>The PercentileXaxis class for centrality binning.  |
+| class | **[Rivet::PercentileBase](/documentation/code/classes/classrivet_1_1percentilebase/)** <br>PercentileBase is the base class of all <a href="/documentation/code/classes/classrivet_1_1percentile/">Percentile</a> classes.  |
+| class | **[Rivet::PercentileTBase](/documentation/code/classes/classrivet_1_1percentiletbase/)** <br>PercentileTBase is the base class of all <a href="/documentation/code/classes/classrivet_1_1percentile/">Percentile</a> classes.  |
+| class | **[Rivet::Percentile](/documentation/code/classes/classrivet_1_1percentile/)** <br>The Percentile class for centrality binning.  |
+| class | **[Rivet::PercentileXaxis](/documentation/code/classes/classrivet_1_1percentilexaxis/)** <br>The PercentileXaxis class for centrality binning.  |
 
 
 
@@ -603,4 +603,4 @@ namespace Rivet {
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

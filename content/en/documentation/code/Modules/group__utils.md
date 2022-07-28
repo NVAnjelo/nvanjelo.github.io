@@ -14,7 +14,7 @@ description: "[Documentation update required.]"
 
 |                | Name           |
 | -------------- | -------------- |
-| template <typename T \> <br>T | **[getEnvParam](http://example.org/modules/group__utils/#function-getenvparam)**(const std::string name, const T & fallback)<br>Get a parameter from a named environment variable, with automatic type conversion.  |
+| template <typename T \> <br>T | **[getEnvParam](/documentation/code/modules/group__utils/#function-getenvparam)**(const std::string name, const T & fallback)<br>Get a parameter from a named environment variable, with automatic type conversion.  |
 
 
 ## Functions Documentation
@@ -33,7 +33,7 @@ Get a parameter from a named environment variable, with automatic type conversio
 
 **Note**: Return _fallback_ if the variable is not defined, otherwise convert its string to the template type 
 
-**Todo**: Should the param name have to be specific to an analysis? Can specialise as an <a href="http://example.org/classes/classrivet_1_1analysis/">Analysis</a> member fn.
+**Todo**: Should the param name have to be specific to an analysis? Can specialise as an <a href="/documentation/code/classes/classrivet_1_1analysis/">Analysis</a> member fn.
 
 
 
@@ -41,4 +41,4 @@ Get a parameter from a named environment variable, with automatic type conversio
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

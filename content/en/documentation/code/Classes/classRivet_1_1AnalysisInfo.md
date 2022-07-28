@@ -18,76 +18,76 @@ Holder of analysis metadata.
 
 |                | Name           |
 | -------------- | -------------- |
-| unique_ptr< <a href="http://example.org/classes/classrivet_1_1analysisinfo/">AnalysisInfo</a> > | **[make](http://example.org/classes/classrivet_1_1analysisinfo/#function-make)**(const std::string & name)<br>Static factory method: returns null pointer if no metadata found.  |
-| | **[AnalysisInfo](http://example.org/classes/classrivet_1_1analysisinfo/#function-analysisinfo)**()<br>Default constructor.  |
-| | **[~AnalysisInfo](http://example.org/classes/classrivet_1_1analysisinfo/#function-~analysisinfo)**() |
-| std::string | **[name](http://example.org/modules/group__anainfo__metadata/#function-name)**() const |
-| void | **[setName](http://example.org/modules/group__anainfo__metadata/#function-setname)**(const std::string & name)<br>Set the name of the analysis.  |
-| std::string | **[getRefDataName](http://example.org/modules/group__anainfo__metadata/#function-getrefdataname)**() const<br>Get the reference data name of the analysis (if different from plugin name).  |
-| void | **[setRefDataName](http://example.org/modules/group__anainfo__metadata/#function-setrefdataname)**(const std::string & name)<br>Set the reference data name of the analysis (if different from plugin name).  |
-| const std::string & | **[inspireId](http://example.org/modules/group__anainfo__metadata/#function-inspireid)**() const<br>Get the Inspire (SPIRES replacement) ID code for this analysis.  |
-| void | **[setInspireId](http://example.org/modules/group__anainfo__metadata/#function-setinspireid)**(const std::string & inspireId)<br>Set the Inspire (SPIRES replacement) ID code for this analysis.  |
-| const std::string & | **[spiresId](http://example.org/modules/group__anainfo__metadata/#function-spiresid)**() const |
-| void | **[setSpiresId](http://example.org/modules/group__anainfo__metadata/#function-setspiresid)**(const std::string & spiresId) |
-| const std::vector< std::string > & | **[authors](http://example.org/modules/group__anainfo__metadata/#function-authors)**() const<br>Names & emails of paper/analysis authors.  |
-| void | **[setAuthors](http://example.org/modules/group__anainfo__metadata/#function-setauthors)**(const std::vector< std::string > & authors)<br>Set the author list.  |
-| const std::string & | **[summary](http://example.org/modules/group__anainfo__metadata/#function-summary)**() const<br>Get a short description of the analysis.  |
-| void | **[setSummary](http://example.org/modules/group__anainfo__metadata/#function-setsummary)**(const std::string & summary)<br>Set the short description for this analysis.  |
-| const std::string & | **[description](http://example.org/modules/group__anainfo__metadata/#function-description)**() const<br>Get a full description of the analysis.  |
-| void | **[setDescription](http://example.org/modules/group__anainfo__metadata/#function-setdescription)**(const std::string & description)<br>Set the full description for this analysis.  |
-| const std::string & | **[runInfo](http://example.org/modules/group__anainfo__metadata/#function-runinfo)**() const<br>Information about the events needed as input for this analysis.  |
-| void | **[setRunInfo](http://example.org/modules/group__anainfo__metadata/#function-setruninfo)**(const std::string & runInfo)<br>Set the full description for this analysis.  |
-| const std::vector< PdgIdPair > & | **[beams](http://example.org/modules/group__anainfo__metadata/#function-beams)**() const<br>Beam particle types.  |
-| void | **[setBeams](http://example.org/modules/group__anainfo__metadata/#function-setbeams)**(const std::vector< PdgIdPair > & beams)<br>Set beam particle types.  |
-| const std::vector< std::pair< double, double > > & | **[energies](http://example.org/modules/group__anainfo__metadata/#function-energies)**() const<br>Sets of valid beam energies.  |
-| void | **[setEnergies](http://example.org/modules/group__anainfo__metadata/#function-setenergies)**(const std::vector< std::pair< double, double > > & energies)<br>Set the valid beam energies.  |
-| const std::string & | **[experiment](http://example.org/modules/group__anainfo__metadata/#function-experiment)**() const<br>Experiment which performed and published this analysis.  |
-| void | **[setExperiment](http://example.org/modules/group__anainfo__metadata/#function-setexperiment)**(const std::string & experiment)<br>Set the experiment which performed and published this analysis.  |
-| const std::string & | **[collider](http://example.org/modules/group__anainfo__metadata/#function-collider)**() const<br>Collider on which the experiment ran.  |
-| void | **[setCollider](http://example.org/modules/group__anainfo__metadata/#function-setcollider)**(const std::string & collider)<br>Set the collider on which the experiment ran.  |
-| const std::string & | **[year](http://example.org/modules/group__anainfo__metadata/#function-year)**() const<br>When the original experimental analysis was published.  |
-| void | **[setYear](http://example.org/modules/group__anainfo__metadata/#function-setyear)**(const std::string & year)<br>Set the year in which the original experimental analysis was published.  |
-| double | **[luminosityfb](http://example.org/modules/group__anainfo__metadata/#function-luminosityfb)**() const<br>The integrated data luminosity of the data set in 1/fb.  |
-| double | **[luminosity](http://example.org/modules/group__anainfo__metadata/#function-luminosity)**() const<br>The integrated data luminosity of the data set in 1/pb.  |
-| void | **[setLuminosityfb](http://example.org/modules/group__anainfo__metadata/#function-setluminosityfb)**(const double luminosityfb)<br>Set the integrated data luminosity of the data set.  |
-| const std::vector< std::string > & | **[references](http://example.org/modules/group__anainfo__metadata/#function-references)**() const<br>Journal and preprint references.  |
-| void | **[setReferences](http://example.org/modules/group__anainfo__metadata/#function-setreferences)**(const std::vector< std::string > & references)<br>Set the journal and preprint reference list.  |
-| const std::vector< std::string > & | **[keywords](http://example.org/modules/group__anainfo__metadata/#function-keywords)**() const<br><a href="http://example.org/classes/classrivet_1_1analysis/">Analysis</a> keywords, for grouping etc.  |
-| void | **[setKeywords](http://example.org/modules/group__anainfo__metadata/#function-setkeywords)**(const std::vector< std::string > & keywords) |
-| const std::string & | **[warning](http://example.org/modules/group__anainfo__metadata/#function-warning)**() const<br>Any warning message.  |
-| void | **[setWarning](http://example.org/modules/group__anainfo__metadata/#function-setwarning)**(const std::string warning) |
-| const std::string & | **[refMatch](http://example.org/modules/group__anainfo__metadata/#function-refmatch)**() const<br>Positive filtering regex for ref-data HepData sync.  |
-| void | **[setRefMatch](http://example.org/modules/group__anainfo__metadata/#function-setrefmatch)**(const std::string refmatch) |
-| const std::string & | **[refUnmatch](http://example.org/modules/group__anainfo__metadata/#function-refunmatch)**() const<br>Negative filtering regex for ref-data HepData sync.  |
-| void | **[setRefUnmatch](http://example.org/modules/group__anainfo__metadata/#function-setrefunmatch)**(const std::string refunmatch) |
-| const std::string & | **[writerDoublePrecision](http://example.org/modules/group__anainfo__metadata/#function-writerdoubleprecision)**() const<br>Positive filtering regex for setting double precision in Writer.  |
-| void | **[setWriterDoublePrecision](http://example.org/modules/group__anainfo__metadata/#function-setwriterdoubleprecision)**(const std::string dp) |
-| const std::string & | **[bibKey](http://example.org/modules/group__anainfo__metadata/#function-bibkey)**() const<br>BibTeX citation key for this article.  |
-| void | **[setBibKey](http://example.org/modules/group__anainfo__metadata/#function-setbibkey)**(const std::string & bibKey)<br>Set the BibTeX citation key for this article.  |
-| const std::string & | **[bibTeX](http://example.org/modules/group__anainfo__metadata/#function-bibtex)**() const<br>BibTeX citation entry for this article.  |
-| void | **[setBibTeX](http://example.org/modules/group__anainfo__metadata/#function-setbibtex)**(const std::string & bibTeX)<br>Set the BibTeX citation entry for this article.  |
-| const std::vector< std::string > & | **[todos](http://example.org/modules/group__anainfo__metadata/#function-todos)**() const<br>Any work to be done on this analysis.  |
-| void | **[setTodos](http://example.org/modules/group__anainfo__metadata/#function-settodos)**(const std::vector< std::string > & todos)<br>Set the to-do list.  |
-| const std::vector< std::string > & | **[options](http://example.org/modules/group__anainfo__options/#function-options)**() const<br>Get the option list.  |
-| bool | **[validOption](http://example.org/modules/group__anainfo__options/#function-validoption)**(std::string key, std::string val) const<br>Check if the given option is valid.  |
-| void | **[setOptions](http://example.org/modules/group__anainfo__options/#function-setoptions)**(const std::vector< std::string > & opts)<br>Set the option list.  |
-| void | **[buildOptionMap](http://example.org/modules/group__anainfo__options/#function-buildoptionmap)**()<br>Build a map of options to facilitate checking.  |
-| const std::string & | **[status](http://example.org/modules/group__anainfo__status/#function-status)**() const<br>Whether this analysis is trusted (in any way!)  |
-| void | **[setStatus](http://example.org/modules/group__anainfo__status/#function-setstatus)**(const std::string & status)<br>Set the analysis code status.  |
-| bool | **[reentrant](http://example.org/modules/group__anainfo__status/#function-reentrant)**() const<br>Return true if finalize() can be run multiple times for this analysis.  |
-| void | **[setReentrant](http://example.org/modules/group__anainfo__status/#function-setreentrant)**(bool ree =true)<br>Set re-entrant status.  |
-| bool | **[validated](http://example.org/modules/group__anainfo__status/#function-validated)**() const<br>Return true if validated.  |
-| bool | **[preliminary](http://example.org/modules/group__anainfo__status/#function-preliminary)**() const<br>Return true if preliminary.  |
-| bool | **[obsolete](http://example.org/modules/group__anainfo__status/#function-obsolete)**() const<br>Return true if obsolete.  |
-| bool | **[unvalidated](http://example.org/modules/group__anainfo__status/#function-unvalidated)**() const<br>Return true if unvalidated.  |
-| bool | **[random](http://example.org/modules/group__anainfo__status/#function-random)**() const<br>Return true if includes random variations.  |
-| bool | **[unphysical](http://example.org/modules/group__anainfo__status/#function-unphysical)**() const<br>Return true if the analysis uses generator-dependent information.  |
-| bool | **[hepdata](http://example.org/modules/group__anainfo__status/#function-hepdata)**() const<br>Check if refdata comes automatically from Hepdata.  |
-| bool | **[multiweight](http://example.org/modules/group__anainfo__status/#function-multiweight)**() const<br>Check if this analysis can handle multiple weights.  |
-| bool | **[statuscheck](http://example.org/modules/group__anainfo__status/#function-statuscheck)**(const string & word) const<br>Helper function for checking status-string contents.  |
-| std::string | **[refFile](http://example.org/classes/classrivet_1_1analysisinfo/#function-reffile)**() const<br>Find the path to the reference-data file for this analysis.  |
-| const std::vector< std::string > & | **[validation](http://example.org/classes/classrivet_1_1analysisinfo/#function-validation)**() const<br>List a series of command lines to be used for valdation.  |
-| bool | **[needsCrossSection](http://example.org/classes/classrivet_1_1analysisinfo/#function-needscrosssection)**() const |
+| unique_ptr< <a href="/documentation/code/classes/classrivet_1_1analysisinfo/">AnalysisInfo</a> > | **[make](/documentation/code/classes/classrivet_1_1analysisinfo/#function-make)**(const std::string & name)<br>Static factory method: returns null pointer if no metadata found.  |
+| | **[AnalysisInfo](/documentation/code/classes/classrivet_1_1analysisinfo/#function-analysisinfo)**()<br>Default constructor.  |
+| | **[~AnalysisInfo](/documentation/code/classes/classrivet_1_1analysisinfo/#function-~analysisinfo)**() |
+| std::string | **[name](/documentation/code/modules/group__anainfo__metadata/#function-name)**() const |
+| void | **[setName](/documentation/code/modules/group__anainfo__metadata/#function-setname)**(const std::string & name)<br>Set the name of the analysis.  |
+| std::string | **[getRefDataName](/documentation/code/modules/group__anainfo__metadata/#function-getrefdataname)**() const<br>Get the reference data name of the analysis (if different from plugin name).  |
+| void | **[setRefDataName](/documentation/code/modules/group__anainfo__metadata/#function-setrefdataname)**(const std::string & name)<br>Set the reference data name of the analysis (if different from plugin name).  |
+| const std::string & | **[inspireId](/documentation/code/modules/group__anainfo__metadata/#function-inspireid)**() const<br>Get the Inspire (SPIRES replacement) ID code for this analysis.  |
+| void | **[setInspireId](/documentation/code/modules/group__anainfo__metadata/#function-setinspireid)**(const std::string & inspireId)<br>Set the Inspire (SPIRES replacement) ID code for this analysis.  |
+| const std::string & | **[spiresId](/documentation/code/modules/group__anainfo__metadata/#function-spiresid)**() const |
+| void | **[setSpiresId](/documentation/code/modules/group__anainfo__metadata/#function-setspiresid)**(const std::string & spiresId) |
+| const std::vector< std::string > & | **[authors](/documentation/code/modules/group__anainfo__metadata/#function-authors)**() const<br>Names & emails of paper/analysis authors.  |
+| void | **[setAuthors](/documentation/code/modules/group__anainfo__metadata/#function-setauthors)**(const std::vector< std::string > & authors)<br>Set the author list.  |
+| const std::string & | **[summary](/documentation/code/modules/group__anainfo__metadata/#function-summary)**() const<br>Get a short description of the analysis.  |
+| void | **[setSummary](/documentation/code/modules/group__anainfo__metadata/#function-setsummary)**(const std::string & summary)<br>Set the short description for this analysis.  |
+| const std::string & | **[description](/documentation/code/modules/group__anainfo__metadata/#function-description)**() const<br>Get a full description of the analysis.  |
+| void | **[setDescription](/documentation/code/modules/group__anainfo__metadata/#function-setdescription)**(const std::string & description)<br>Set the full description for this analysis.  |
+| const std::string & | **[runInfo](/documentation/code/modules/group__anainfo__metadata/#function-runinfo)**() const<br>Information about the events needed as input for this analysis.  |
+| void | **[setRunInfo](/documentation/code/modules/group__anainfo__metadata/#function-setruninfo)**(const std::string & runInfo)<br>Set the full description for this analysis.  |
+| const std::vector< PdgIdPair > & | **[beams](/documentation/code/modules/group__anainfo__metadata/#function-beams)**() const<br>Beam particle types.  |
+| void | **[setBeams](/documentation/code/modules/group__anainfo__metadata/#function-setbeams)**(const std::vector< PdgIdPair > & beams)<br>Set beam particle types.  |
+| const std::vector< std::pair< double, double > > & | **[energies](/documentation/code/modules/group__anainfo__metadata/#function-energies)**() const<br>Sets of valid beam energies.  |
+| void | **[setEnergies](/documentation/code/modules/group__anainfo__metadata/#function-setenergies)**(const std::vector< std::pair< double, double > > & energies)<br>Set the valid beam energies.  |
+| const std::string & | **[experiment](/documentation/code/modules/group__anainfo__metadata/#function-experiment)**() const<br>Experiment which performed and published this analysis.  |
+| void | **[setExperiment](/documentation/code/modules/group__anainfo__metadata/#function-setexperiment)**(const std::string & experiment)<br>Set the experiment which performed and published this analysis.  |
+| const std::string & | **[collider](/documentation/code/modules/group__anainfo__metadata/#function-collider)**() const<br>Collider on which the experiment ran.  |
+| void | **[setCollider](/documentation/code/modules/group__anainfo__metadata/#function-setcollider)**(const std::string & collider)<br>Set the collider on which the experiment ran.  |
+| const std::string & | **[year](/documentation/code/modules/group__anainfo__metadata/#function-year)**() const<br>When the original experimental analysis was published.  |
+| void | **[setYear](/documentation/code/modules/group__anainfo__metadata/#function-setyear)**(const std::string & year)<br>Set the year in which the original experimental analysis was published.  |
+| double | **[luminosityfb](/documentation/code/modules/group__anainfo__metadata/#function-luminosityfb)**() const<br>The integrated data luminosity of the data set in 1/fb.  |
+| double | **[luminosity](/documentation/code/modules/group__anainfo__metadata/#function-luminosity)**() const<br>The integrated data luminosity of the data set in 1/pb.  |
+| void | **[setLuminosityfb](/documentation/code/modules/group__anainfo__metadata/#function-setluminosityfb)**(const double luminosityfb)<br>Set the integrated data luminosity of the data set.  |
+| const std::vector< std::string > & | **[references](/documentation/code/modules/group__anainfo__metadata/#function-references)**() const<br>Journal and preprint references.  |
+| void | **[setReferences](/documentation/code/modules/group__anainfo__metadata/#function-setreferences)**(const std::vector< std::string > & references)<br>Set the journal and preprint reference list.  |
+| const std::vector< std::string > & | **[keywords](/documentation/code/modules/group__anainfo__metadata/#function-keywords)**() const<br><a href="/documentation/code/classes/classrivet_1_1analysis/">Analysis</a> keywords, for grouping etc.  |
+| void | **[setKeywords](/documentation/code/modules/group__anainfo__metadata/#function-setkeywords)**(const std::vector< std::string > & keywords) |
+| const std::string & | **[warning](/documentation/code/modules/group__anainfo__metadata/#function-warning)**() const<br>Any warning message.  |
+| void | **[setWarning](/documentation/code/modules/group__anainfo__metadata/#function-setwarning)**(const std::string warning) |
+| const std::string & | **[refMatch](/documentation/code/modules/group__anainfo__metadata/#function-refmatch)**() const<br>Positive filtering regex for ref-data HepData sync.  |
+| void | **[setRefMatch](/documentation/code/modules/group__anainfo__metadata/#function-setrefmatch)**(const std::string refmatch) |
+| const std::string & | **[refUnmatch](/documentation/code/modules/group__anainfo__metadata/#function-refunmatch)**() const<br>Negative filtering regex for ref-data HepData sync.  |
+| void | **[setRefUnmatch](/documentation/code/modules/group__anainfo__metadata/#function-setrefunmatch)**(const std::string refunmatch) |
+| const std::string & | **[writerDoublePrecision](/documentation/code/modules/group__anainfo__metadata/#function-writerdoubleprecision)**() const<br>Positive filtering regex for setting double precision in Writer.  |
+| void | **[setWriterDoublePrecision](/documentation/code/modules/group__anainfo__metadata/#function-setwriterdoubleprecision)**(const std::string dp) |
+| const std::string & | **[bibKey](/documentation/code/modules/group__anainfo__metadata/#function-bibkey)**() const<br>BibTeX citation key for this article.  |
+| void | **[setBibKey](/documentation/code/modules/group__anainfo__metadata/#function-setbibkey)**(const std::string & bibKey)<br>Set the BibTeX citation key for this article.  |
+| const std::string & | **[bibTeX](/documentation/code/modules/group__anainfo__metadata/#function-bibtex)**() const<br>BibTeX citation entry for this article.  |
+| void | **[setBibTeX](/documentation/code/modules/group__anainfo__metadata/#function-setbibtex)**(const std::string & bibTeX)<br>Set the BibTeX citation entry for this article.  |
+| const std::vector< std::string > & | **[todos](/documentation/code/modules/group__anainfo__metadata/#function-todos)**() const<br>Any work to be done on this analysis.  |
+| void | **[setTodos](/documentation/code/modules/group__anainfo__metadata/#function-settodos)**(const std::vector< std::string > & todos)<br>Set the to-do list.  |
+| const std::vector< std::string > & | **[options](/documentation/code/modules/group__anainfo__options/#function-options)**() const<br>Get the option list.  |
+| bool | **[validOption](/documentation/code/modules/group__anainfo__options/#function-validoption)**(std::string key, std::string val) const<br>Check if the given option is valid.  |
+| void | **[setOptions](/documentation/code/modules/group__anainfo__options/#function-setoptions)**(const std::vector< std::string > & opts)<br>Set the option list.  |
+| void | **[buildOptionMap](/documentation/code/modules/group__anainfo__options/#function-buildoptionmap)**()<br>Build a map of options to facilitate checking.  |
+| const std::string & | **[status](/documentation/code/modules/group__anainfo__status/#function-status)**() const<br>Whether this analysis is trusted (in any way!)  |
+| void | **[setStatus](/documentation/code/modules/group__anainfo__status/#function-setstatus)**(const std::string & status)<br>Set the analysis code status.  |
+| bool | **[reentrant](/documentation/code/modules/group__anainfo__status/#function-reentrant)**() const<br>Return true if finalize() can be run multiple times for this analysis.  |
+| void | **[setReentrant](/documentation/code/modules/group__anainfo__status/#function-setreentrant)**(bool ree =true)<br>Set re-entrant status.  |
+| bool | **[validated](/documentation/code/modules/group__anainfo__status/#function-validated)**() const<br>Return true if validated.  |
+| bool | **[preliminary](/documentation/code/modules/group__anainfo__status/#function-preliminary)**() const<br>Return true if preliminary.  |
+| bool | **[obsolete](/documentation/code/modules/group__anainfo__status/#function-obsolete)**() const<br>Return true if obsolete.  |
+| bool | **[unvalidated](/documentation/code/modules/group__anainfo__status/#function-unvalidated)**() const<br>Return true if unvalidated.  |
+| bool | **[random](/documentation/code/modules/group__anainfo__status/#function-random)**() const<br>Return true if includes random variations.  |
+| bool | **[unphysical](/documentation/code/modules/group__anainfo__status/#function-unphysical)**() const<br>Return true if the analysis uses generator-dependent information.  |
+| bool | **[hepdata](/documentation/code/modules/group__anainfo__status/#function-hepdata)**() const<br>Check if refdata comes automatically from Hepdata.  |
+| bool | **[multiweight](/documentation/code/modules/group__anainfo__status/#function-multiweight)**() const<br>Check if this analysis can handle multiple weights.  |
+| bool | **[statuscheck](/documentation/code/modules/group__anainfo__status/#function-statuscheck)**(const string & word) const<br>Helper function for checking status-string contents.  |
+| std::string | **[refFile](/documentation/code/classes/classrivet_1_1analysisinfo/#function-reffile)**() const<br>Find the path to the reference-data file for this analysis.  |
+| const std::vector< std::string > & | **[validation](/documentation/code/classes/classrivet_1_1analysisinfo/#function-validation)**() const<br>List a series of command lines to be used for valdation.  |
+| bool | **[needsCrossSection](/documentation/code/classes/classrivet_1_1analysisinfo/#function-needscrosssection)**() const |
 
 ## Public Functions Documentation
 
@@ -231,7 +231,7 @@ inline const std::string & summary() const
 
 Get a short description of the analysis. 
 
-Short (one sentence) description used as an index entry. Use _<a href="http://example.org/modules/group__anainfo__metadata/#function-description">description()</a>_ to provide full descriptive paragraphs of analysis details. 
+Short (one sentence) description used as an index entry. Use _<a href="/documentation/code/modules/group__anainfo__metadata/#function-description">description()</a>_ to provide full descriptive paragraphs of analysis details. 
 
 
 ### function setSummary
@@ -273,7 +273,7 @@ inline const std::string & runInfo() const
 
 Information about the events needed as input for this analysis. 
 
-<a href="http://example.org/classes/classrivet_1_1event/">Event</a> types, energies, kinematic cuts, particles to be considered stable, etc. etc. Should be treated as a restructuredText bullet list (<a href="http://docutils.sourceforge.net/rst.html">http://docutils.sourceforge.net/rst.html</a>) 
+<a href="/documentation/code/classes/classrivet_1_1event/">Event</a> types, energies, kinematic cuts, particles to be considered stable, etc. etc. Should be treated as a restructuredText bullet list (<a href="http://docutils.sourceforge.net/rst.html">http://docutils.sourceforge.net/rst.html</a>) 
 
 
 ### function setRunInfo
@@ -429,7 +429,7 @@ Set the journal and preprint reference list.
 inline const std::vector< std::string > & keywords() const
 ```
 
-<a href="http://example.org/classes/classrivet_1_1analysis/">Analysis</a> keywords, for grouping etc. 
+<a href="/documentation/code/classes/classrivet_1_1analysis/">Analysis</a> keywords, for grouping etc. 
 
 ### function setKeywords
 
@@ -741,4 +741,4 @@ Return true if this analysis needs to know the process cross-section.
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:08 +0100
+Updated on 2022-07-28 at 18:36:45 +0100

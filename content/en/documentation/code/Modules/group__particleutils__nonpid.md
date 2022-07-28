@@ -14,32 +14,32 @@ description: "[Documentation update required.]"
 
 |                | Name           |
 | -------------- | -------------- |
-| bool | **[isFirstWith](http://example.org/modules/group__particleutils__nonpid/#function-isfirstwith)**(const Particle & p, const ParticleSelector & f)<br>Determine whether a particle is the first in a decay chain to meet the function requirement.  |
-| bool | **[isFirstWithout](http://example.org/modules/group__particleutils__nonpid/#function-isfirstwithout)**(const Particle & p, const ParticleSelector & f)<br>Determine whether a particle is the first in a decay chain not to meet the function requirement.  |
-| bool | **[isLastWith](http://example.org/modules/group__particleutils__nonpid/#function-islastwith)**(const Particle & p, const ParticleSelector & f)<br>Determine whether a particle is the last in a decay chain to meet the function requirement.  |
-| bool | **[isLastWithout](http://example.org/modules/group__particleutils__nonpid/#function-islastwithout)**(const Particle & p, const ParticleSelector & f)<br>Determine whether a particle is the last in a decay chain not to meet the function requirement.  |
-| bool | **[hasAncestorWith](http://example.org/modules/group__particleutils__nonpid/#function-hasancestorwith)**(const Particle & p, const ParticleSelector & f, bool only_physical =true)<br>Determine whether a particle has an ancestor which meets the function requirement.  |
-| bool | **[hasAncestorWithout](http://example.org/modules/group__particleutils__nonpid/#function-hasancestorwithout)**(const Particle & p, const ParticleSelector & f, bool only_physical =true)<br>Determine whether a particle has an ancestor which doesn't meet the function requirement.  |
-| bool | **[hasParentWith](http://example.org/modules/group__particleutils__nonpid/#function-hasparentwith)**(const Particle & p, const ParticleSelector & f)<br>Determine whether a particle has a parent which meets the function requirement.  |
-| bool | **[hasParentWithout](http://example.org/modules/group__particleutils__nonpid/#function-hasparentwithout)**(const Particle & p, const ParticleSelector & f)<br>Determine whether a particle has a parent which doesn't meet the function requirement.  |
-| bool | **[hasChildWith](http://example.org/modules/group__particleutils__nonpid/#function-haschildwith)**(const Particle & p, const ParticleSelector & f)<br>Determine whether a particle has a child which meets the function requirement.  |
-| bool | **[hasChildWithout](http://example.org/modules/group__particleutils__nonpid/#function-haschildwithout)**(const Particle & p, const ParticleSelector & f)<br>Determine whether a particle has a child which doesn't meet the function requirement.  |
-| bool | **[hasDescendantWith](http://example.org/modules/group__particleutils__nonpid/#function-hasdescendantwith)**(const Particle & p, const ParticleSelector & f, bool remove_duplicates =true)<br>Determine whether a particle has a descendant which meets the function requirement.  |
-| bool | **[hasDescendantWithout](http://example.org/modules/group__particleutils__nonpid/#function-hasdescendantwithout)**(const Particle & p, const ParticleSelector & f, bool remove_duplicates =true)<br>Determine whether a particle has a descendant which doesn't meet the function requirement.  |
-| bool | **[hasStableDescendantWith](http://example.org/modules/group__particleutils__nonpid/#function-hasstabledescendantwith)**(const Particle & p, const ParticleSelector & f)<br>Determine whether a particle has a stable descendant which meets the function requirement.  |
-| bool | **[hasStableDescendantWithout](http://example.org/modules/group__particleutils__nonpid/#function-hasstabledescendantwithout)**(const Particle & p, const ParticleSelector & f)<br>Determine whether a particle has a stable descendant which doesn't meet the function requirement.  |
-| bool | **[isVisible](http://example.org/modules/group__particleutils__nonpid/#function-isvisible)**(const Particle & p)<br>Is this particle potentially visible in a detector?  |
-| bool | **[isDirect](http://example.org/modules/group__particleutils__nonpid/#function-isdirect)**(const Particle & p, bool allow_from_direct_tau =false, bool allow_from_direct_mu =false)<br>Decide if a given particle is direct, via <a href="http://example.org/classes/classrivet_1_1dressedlepton/#function-isdirect">Particle::isDirect()</a> |
-| bool | **[isPrompt](http://example.org/modules/group__particleutils__nonpid/#function-isprompt)**(const Particle & p, bool allow_from_prompt_tau =false, bool allow_from_prompt_mu =false)<br>Decide if a given particle is prompt, via <a href="http://example.org/classes/classrivet_1_1dressedlepton/#function-isprompt">Particle::isPrompt()</a> |
-| bool | **[isStable](http://example.org/modules/group__particleutils__nonpid/#function-isstable)**(const Particle & p)<br>Decide if a given particle is stable, via <a href="http://example.org/classes/classrivet_1_1dressedlepton/#function-isstable">Particle::isStable()</a> |
-| bool | **[hasHadronicDecay](http://example.org/modules/group__particleutils__nonpid/#function-hashadronicdecay)**(const Particle & p)<br>Decide if a given particle decays hadronically.  |
-| bool | **[hasLeptonicDecay](http://example.org/modules/group__particleutils__nonpid/#function-hasleptonicdecay)**(const Particle & p)<br>Decide if a given particle decays leptonically (decays, and no hadrons)  |
-| bool | **[hasAncestor](http://example.org/modules/group__particleutils__nonpid/#function-hasancestor)**(const Particle & p, PdgId pid) |
-| bool | **[fromBottom](http://example.org/modules/group__particleutils__nonpid/#function-frombottom)**(const Particle & p)<br>Determine whether the particle is from a b-hadron decay.  |
-| bool | **[fromCharm](http://example.org/modules/group__particleutils__nonpid/#function-fromcharm)**(const Particle & p)<br>Determine whether the particle is from a c-hadron decay.  |
-| bool | **[fromHadron](http://example.org/modules/group__particleutils__nonpid/#function-fromhadron)**(const Particle & p)<br>Determine whether the particle is from a hadron decay.  |
-| bool | **[fromTau](http://example.org/modules/group__particleutils__nonpid/#function-fromtau)**(const Particle & p, bool prompt_taus_only =false)<br>Determine whether the particle is from a tau decay.  |
-| bool | **[fromPromptTau](http://example.org/modules/group__particleutils__nonpid/#function-fromprompttau)**(const Particle & p)<br>Determine whether the particle is from a prompt tau decay.  |
+| bool | **[isFirstWith](/documentation/code/modules/group__particleutils__nonpid/#function-isfirstwith)**(const Particle & p, const ParticleSelector & f)<br>Determine whether a particle is the first in a decay chain to meet the function requirement.  |
+| bool | **[isFirstWithout](/documentation/code/modules/group__particleutils__nonpid/#function-isfirstwithout)**(const Particle & p, const ParticleSelector & f)<br>Determine whether a particle is the first in a decay chain not to meet the function requirement.  |
+| bool | **[isLastWith](/documentation/code/modules/group__particleutils__nonpid/#function-islastwith)**(const Particle & p, const ParticleSelector & f)<br>Determine whether a particle is the last in a decay chain to meet the function requirement.  |
+| bool | **[isLastWithout](/documentation/code/modules/group__particleutils__nonpid/#function-islastwithout)**(const Particle & p, const ParticleSelector & f)<br>Determine whether a particle is the last in a decay chain not to meet the function requirement.  |
+| bool | **[hasAncestorWith](/documentation/code/modules/group__particleutils__nonpid/#function-hasancestorwith)**(const Particle & p, const ParticleSelector & f, bool only_physical =true)<br>Determine whether a particle has an ancestor which meets the function requirement.  |
+| bool | **[hasAncestorWithout](/documentation/code/modules/group__particleutils__nonpid/#function-hasancestorwithout)**(const Particle & p, const ParticleSelector & f, bool only_physical =true)<br>Determine whether a particle has an ancestor which doesn't meet the function requirement.  |
+| bool | **[hasParentWith](/documentation/code/modules/group__particleutils__nonpid/#function-hasparentwith)**(const Particle & p, const ParticleSelector & f)<br>Determine whether a particle has a parent which meets the function requirement.  |
+| bool | **[hasParentWithout](/documentation/code/modules/group__particleutils__nonpid/#function-hasparentwithout)**(const Particle & p, const ParticleSelector & f)<br>Determine whether a particle has a parent which doesn't meet the function requirement.  |
+| bool | **[hasChildWith](/documentation/code/modules/group__particleutils__nonpid/#function-haschildwith)**(const Particle & p, const ParticleSelector & f)<br>Determine whether a particle has a child which meets the function requirement.  |
+| bool | **[hasChildWithout](/documentation/code/modules/group__particleutils__nonpid/#function-haschildwithout)**(const Particle & p, const ParticleSelector & f)<br>Determine whether a particle has a child which doesn't meet the function requirement.  |
+| bool | **[hasDescendantWith](/documentation/code/modules/group__particleutils__nonpid/#function-hasdescendantwith)**(const Particle & p, const ParticleSelector & f, bool remove_duplicates =true)<br>Determine whether a particle has a descendant which meets the function requirement.  |
+| bool | **[hasDescendantWithout](/documentation/code/modules/group__particleutils__nonpid/#function-hasdescendantwithout)**(const Particle & p, const ParticleSelector & f, bool remove_duplicates =true)<br>Determine whether a particle has a descendant which doesn't meet the function requirement.  |
+| bool | **[hasStableDescendantWith](/documentation/code/modules/group__particleutils__nonpid/#function-hasstabledescendantwith)**(const Particle & p, const ParticleSelector & f)<br>Determine whether a particle has a stable descendant which meets the function requirement.  |
+| bool | **[hasStableDescendantWithout](/documentation/code/modules/group__particleutils__nonpid/#function-hasstabledescendantwithout)**(const Particle & p, const ParticleSelector & f)<br>Determine whether a particle has a stable descendant which doesn't meet the function requirement.  |
+| bool | **[isVisible](/documentation/code/modules/group__particleutils__nonpid/#function-isvisible)**(const Particle & p)<br>Is this particle potentially visible in a detector?  |
+| bool | **[isDirect](/documentation/code/modules/group__particleutils__nonpid/#function-isdirect)**(const Particle & p, bool allow_from_direct_tau =false, bool allow_from_direct_mu =false)<br>Decide if a given particle is direct, via <a href="/documentation/code/classes/classrivet_1_1dressedlepton/#function-isdirect">Particle::isDirect()</a> |
+| bool | **[isPrompt](/documentation/code/modules/group__particleutils__nonpid/#function-isprompt)**(const Particle & p, bool allow_from_prompt_tau =false, bool allow_from_prompt_mu =false)<br>Decide if a given particle is prompt, via <a href="/documentation/code/classes/classrivet_1_1dressedlepton/#function-isprompt">Particle::isPrompt()</a> |
+| bool | **[isStable](/documentation/code/modules/group__particleutils__nonpid/#function-isstable)**(const Particle & p)<br>Decide if a given particle is stable, via <a href="/documentation/code/classes/classrivet_1_1dressedlepton/#function-isstable">Particle::isStable()</a> |
+| bool | **[hasHadronicDecay](/documentation/code/modules/group__particleutils__nonpid/#function-hashadronicdecay)**(const Particle & p)<br>Decide if a given particle decays hadronically.  |
+| bool | **[hasLeptonicDecay](/documentation/code/modules/group__particleutils__nonpid/#function-hasleptonicdecay)**(const Particle & p)<br>Decide if a given particle decays leptonically (decays, and no hadrons)  |
+| bool | **[hasAncestor](/documentation/code/modules/group__particleutils__nonpid/#function-hasancestor)**(const Particle & p, PdgId pid) |
+| bool | **[fromBottom](/documentation/code/modules/group__particleutils__nonpid/#function-frombottom)**(const Particle & p)<br>Determine whether the particle is from a b-hadron decay.  |
+| bool | **[fromCharm](/documentation/code/modules/group__particleutils__nonpid/#function-fromcharm)**(const Particle & p)<br>Determine whether the particle is from a c-hadron decay.  |
+| bool | **[fromHadron](/documentation/code/modules/group__particleutils__nonpid/#function-fromhadron)**(const Particle & p)<br>Determine whether the particle is from a hadron decay.  |
+| bool | **[fromTau](/documentation/code/modules/group__particleutils__nonpid/#function-fromtau)**(const Particle & p, bool prompt_taus_only =false)<br>Determine whether the particle is from a tau decay.  |
+| bool | **[fromPromptTau](/documentation/code/modules/group__particleutils__nonpid/#function-fromprompttau)**(const Particle & p)<br>Determine whether the particle is from a prompt tau decay.  |
 
 
 ## Functions Documentation
@@ -222,7 +222,7 @@ inline bool isDirect(
 )
 ```
 
-Decide if a given particle is direct, via <a href="http://example.org/classes/classrivet_1_1dressedlepton/#function-isdirect">Particle::isDirect()</a>
+Decide if a given particle is direct, via <a href="/documentation/code/classes/classrivet_1_1dressedlepton/#function-isdirect">Particle::isDirect()</a>
 
 A "direct" particle is one directly connected to the hard process. It is a preferred alias for "prompt", since it has no confusing implications about distinguishability by timing information.
 
@@ -239,7 +239,7 @@ inline bool isPrompt(
 )
 ```
 
-Decide if a given particle is prompt, via <a href="http://example.org/classes/classrivet_1_1dressedlepton/#function-isprompt">Particle::isPrompt()</a>
+Decide if a given particle is prompt, via <a href="/documentation/code/classes/classrivet_1_1dressedlepton/#function-isprompt">Particle::isPrompt()</a>
 
 The boolean arguments allow a decay lepton to be considered prompt if its parent was a "real" prompt lepton. 
 
@@ -252,7 +252,7 @@ inline bool isStable(
 )
 ```
 
-Decide if a given particle is stable, via <a href="http://example.org/classes/classrivet_1_1dressedlepton/#function-isstable">Particle::isStable()</a>
+Decide if a given particle is stable, via <a href="/documentation/code/classes/classrivet_1_1dressedlepton/#function-isstable">Particle::isStable()</a>
 
 ### function hasHadronicDecay
 
@@ -348,4 +348,4 @@ Determine whether the particle is from a prompt tau decay.
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

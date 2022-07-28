@@ -14,16 +14,16 @@ description: "[Documentation update required.]"
 
 | Name           |
 | -------------- |
-| **[Rivet](http://example.org/namespaces/namespacerivet/)**  |
+| **[Rivet](/documentation/code/namespaces/namespacerivet/)**  |
 
 ## Classes
 
 |                | Name           |
 | -------------- | -------------- |
-| struct | **[Rivet::JET_EFF_CONST](http://example.org/classes/structrivet_1_1jet__eff__const/)** <br>Take a <a href="http://example.org/classes/classrivet_1_1jet/">Jet</a> and return a constant efficiency.  |
-| struct | **[Rivet::JET_BTAG_EFFS](http://example.org/classes/structrivet_1_1jet__btag__effs/)** <br>b-tagging efficiency functor, for more readable b-tag effs and mistag rates  |
-| struct | **[Rivet::JetEffSmearFn](http://example.org/classes/structrivet_1_1jeteffsmearfn/)** <br>Functor for simultaneous efficiency-filtering and smearing of Jets.  |
-| struct | **[Rivet::JetEffFilter](http://example.org/classes/structrivet_1_1jetefffilter/)** <br>A functor to return true if <a href="http://example.org/classes/classrivet_1_1jet/">Jet</a>_j_ survives a random efficiency selection.  |
+| struct | **[Rivet::JET_EFF_CONST](/documentation/code/classes/structrivet_1_1jet__eff__const/)** <br>Take a <a href="/documentation/code/classes/classrivet_1_1jet/">Jet</a> and return a constant efficiency.  |
+| struct | **[Rivet::JET_BTAG_EFFS](/documentation/code/classes/structrivet_1_1jet__btag__effs/)** <br>b-tagging efficiency functor, for more readable b-tag effs and mistag rates  |
+| struct | **[Rivet::JetEffSmearFn](/documentation/code/classes/structrivet_1_1jeteffsmearfn/)** <br>Functor for simultaneous efficiency-filtering and smearing of Jets.  |
+| struct | **[Rivet::JetEffFilter](/documentation/code/classes/structrivet_1_1jetefffilter/)** <br>A functor to return true if <a href="/documentation/code/classes/classrivet_1_1jet/">Jet</a>_j_ survives a random efficiency selection.  |
 
 
 
@@ -154,4 +154,4 @@ namespace Rivet {
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

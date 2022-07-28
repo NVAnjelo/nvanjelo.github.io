@@ -14,48 +14,48 @@ description: "[Documentation update required.]"
 
 | Name           |
 | -------------- |
-| **[Rivet](http://example.org/namespaces/namespacerivet/)**  |
-| **[Rivet::Kin](http://example.org/namespaces/namespacerivet_1_1kin/)**  |
+| **[Rivet](/documentation/code/namespaces/namespacerivet/)**  |
+| **[Rivet::Kin](/documentation/code/namespaces/namespacerivet_1_1kin/)**  |
 
 ## Classes
 
 |                | Name           |
 | -------------- | -------------- |
-| struct | **[Rivet::BoolParticleBaseFunctor](http://example.org/classes/structrivet_1_1boolparticlebasefunctor/)** <br>Base type for Particle -> bool functors.  |
-| struct | **[Rivet::PtGtr](http://example.org/classes/structrivet_1_1ptgtr/)** <br>Transverse momentum greater-than functor.  |
-| struct | **[Rivet::PtLess](http://example.org/classes/structrivet_1_1ptless/)** <br>Transverse momentum less-than functor.  |
-| struct | **[Rivet::PtInRange](http://example.org/classes/structrivet_1_1ptinrange/)** <br>Transverse momentum in-range functor.  |
-| struct | **[Rivet::EtaGtr](http://example.org/classes/structrivet_1_1etagtr/)** <br>Pseudorapidity greater-than functor.  |
-| struct | **[Rivet::EtaLess](http://example.org/classes/structrivet_1_1etaless/)** <br>Pseudorapidity less-than functor.  |
-| struct | **[Rivet::EtaInRange](http://example.org/classes/structrivet_1_1etainrange/)** <br>Pseudorapidity in-range functor.  |
-| struct | **[Rivet::AbsEtaGtr](http://example.org/classes/structrivet_1_1absetagtr/)** <br>Abs pseudorapidity greater-than functor.  |
-| struct | **[Rivet::AbsEtaLess](http://example.org/classes/structrivet_1_1absetaless/)** <br>Abs pseudorapidity momentum less-than functor.  |
-| struct | **[Rivet::AbsEtaInRange](http://example.org/classes/structrivet_1_1absetainrange/)** <br>Abs pseudorapidity in-range functor.  |
-| struct | **[Rivet::RapGtr](http://example.org/classes/structrivet_1_1rapgtr/)** <br>Rapidity greater-than functor.  |
-| struct | **[Rivet::RapLess](http://example.org/classes/structrivet_1_1rapless/)** <br>Rapidity momentum less-than functor.  |
-| struct | **[Rivet::RapInRange](http://example.org/classes/structrivet_1_1rapinrange/)** <br>Rapidity in-range functor.  |
-| struct | **[Rivet::AbsRapGtr](http://example.org/classes/structrivet_1_1absrapgtr/)** <br>Abs rapidity greater-than functor.  |
-| struct | **[Rivet::AbsRapLess](http://example.org/classes/structrivet_1_1absrapless/)** <br>Abs rapidity momentum less-than functor.  |
-| struct | **[Rivet::AbsRapInRange](http://example.org/classes/structrivet_1_1absrapinrange/)** <br>Abs rapidity in-range functor.  |
-| struct | **[Rivet::DeltaRGtr](http://example.org/classes/structrivet_1_1deltargtr/)** <br>\( \Delta R \) (with respect to another 4-momentum, _vec_) greater-than functor  |
-| struct | **[Rivet::DeltaRLess](http://example.org/classes/structrivet_1_1deltarless/)** <br>\( \Delta R \) (with respect to another 4-momentum, _vec_) less-than functor  |
-| struct | **[Rivet::DeltaRInRange](http://example.org/classes/structrivet_1_1deltarinrange/)** <br>\( \Delta R \) (with respect to another 4-momentum, _vec_) in-range functor  |
-| struct | **[Rivet::DeltaPhiGtr](http://example.org/classes/structrivet_1_1deltaphigtr/)** <br>\( |\Delta \phi| \) (with respect to another momentum, _vec_) greater-than functor  |
-| struct | **[Rivet::DeltaPhiLess](http://example.org/classes/structrivet_1_1deltaphiless/)** <br>\( |\Delta \phi| \) (with respect to another momentum, _vec_) less-than functor  |
-| struct | **[Rivet::DeltaPhiInRange](http://example.org/classes/structrivet_1_1deltaphiinrange/)** <br>\( \Delta \phi \) (with respect to another 4-momentum, _vec_) in-range functor  |
-| struct | **[Rivet::DeltaEtaGtr](http://example.org/classes/structrivet_1_1deltaetagtr/)** <br>\( |\Delta \eta| \) (with respect to another momentum, _vec_) greater-than functor  |
-| struct | **[Rivet::DeltaEtaLess](http://example.org/classes/structrivet_1_1deltaetaless/)** <br>\( |\Delta \eta| \) (with respect to another momentum, _vec_) less-than functor  |
-| struct | **[Rivet::DeltaEtaInRange](http://example.org/classes/structrivet_1_1deltaetainrange/)** <br>\( \Delta \eta \) (with respect to another 4-momentum, _vec_) in-range functor  |
-| struct | **[Rivet::DeltaRapGtr](http://example.org/classes/structrivet_1_1deltarapgtr/)** <br>\( |\Delta y| \) (with respect to another momentum, _vec_) greater-than functor  |
-| struct | **[Rivet::DeltaRapLess](http://example.org/classes/structrivet_1_1deltarapless/)** <br>\( |\Delta y| \) (with respect to another momentum, _vec_) less-than functor  |
-| struct | **[Rivet::DeltaRapInRange](http://example.org/classes/structrivet_1_1deltarapinrange/)** <br>\( \Delta y \) (with respect to another 4-momentum, _vec_) in-range functor  |
-| struct | **[Rivet::DoubleParticleBaseFunctor](http://example.org/classes/structrivet_1_1doubleparticlebasefunctor/)** <br>Base type for Particle -> double functors.  |
-| struct | **[Rivet::DeltaRWRT](http://example.org/classes/structrivet_1_1deltarwrt/)** <br>Calculator of \( \Delta R \) with respect to a given momentum.  |
-| struct | **[Rivet::DeltaPhiWRT](http://example.org/classes/structrivet_1_1deltaphiwrt/)** <br>Calculator of \( \Delta \phi \) with respect to a given momentum.  |
-| struct | **[Rivet::DeltaEtaWRT](http://example.org/classes/structrivet_1_1deltaetawrt/)** <br>Calculator of \( \Delta \eta \) with respect to a given momentum.  |
-| struct | **[Rivet::AbsDeltaEtaWRT](http://example.org/classes/structrivet_1_1absdeltaetawrt/)** <br>Calculator of \( |\Delta \eta| \) with respect to a given momentum.  |
-| struct | **[Rivet::DeltaRapWRT](http://example.org/classes/structrivet_1_1deltarapwrt/)** <br>Calculator of \( \Delta y \) with respect to a given momentum.  |
-| struct | **[Rivet::AbsDeltaRapWRT](http://example.org/classes/structrivet_1_1absdeltarapwrt/)** <br>Calculator of \( |\Delta y| \) with respect to a given momentum.  |
+| struct | **[Rivet::BoolParticleBaseFunctor](/documentation/code/classes/structrivet_1_1boolparticlebasefunctor/)** <br>Base type for Particle -> bool functors.  |
+| struct | **[Rivet::PtGtr](/documentation/code/classes/structrivet_1_1ptgtr/)** <br>Transverse momentum greater-than functor.  |
+| struct | **[Rivet::PtLess](/documentation/code/classes/structrivet_1_1ptless/)** <br>Transverse momentum less-than functor.  |
+| struct | **[Rivet::PtInRange](/documentation/code/classes/structrivet_1_1ptinrange/)** <br>Transverse momentum in-range functor.  |
+| struct | **[Rivet::EtaGtr](/documentation/code/classes/structrivet_1_1etagtr/)** <br>Pseudorapidity greater-than functor.  |
+| struct | **[Rivet::EtaLess](/documentation/code/classes/structrivet_1_1etaless/)** <br>Pseudorapidity less-than functor.  |
+| struct | **[Rivet::EtaInRange](/documentation/code/classes/structrivet_1_1etainrange/)** <br>Pseudorapidity in-range functor.  |
+| struct | **[Rivet::AbsEtaGtr](/documentation/code/classes/structrivet_1_1absetagtr/)** <br>Abs pseudorapidity greater-than functor.  |
+| struct | **[Rivet::AbsEtaLess](/documentation/code/classes/structrivet_1_1absetaless/)** <br>Abs pseudorapidity momentum less-than functor.  |
+| struct | **[Rivet::AbsEtaInRange](/documentation/code/classes/structrivet_1_1absetainrange/)** <br>Abs pseudorapidity in-range functor.  |
+| struct | **[Rivet::RapGtr](/documentation/code/classes/structrivet_1_1rapgtr/)** <br>Rapidity greater-than functor.  |
+| struct | **[Rivet::RapLess](/documentation/code/classes/structrivet_1_1rapless/)** <br>Rapidity momentum less-than functor.  |
+| struct | **[Rivet::RapInRange](/documentation/code/classes/structrivet_1_1rapinrange/)** <br>Rapidity in-range functor.  |
+| struct | **[Rivet::AbsRapGtr](/documentation/code/classes/structrivet_1_1absrapgtr/)** <br>Abs rapidity greater-than functor.  |
+| struct | **[Rivet::AbsRapLess](/documentation/code/classes/structrivet_1_1absrapless/)** <br>Abs rapidity momentum less-than functor.  |
+| struct | **[Rivet::AbsRapInRange](/documentation/code/classes/structrivet_1_1absrapinrange/)** <br>Abs rapidity in-range functor.  |
+| struct | **[Rivet::DeltaRGtr](/documentation/code/classes/structrivet_1_1deltargtr/)** <br>\( \Delta R \) (with respect to another 4-momentum, _vec_) greater-than functor  |
+| struct | **[Rivet::DeltaRLess](/documentation/code/classes/structrivet_1_1deltarless/)** <br>\( \Delta R \) (with respect to another 4-momentum, _vec_) less-than functor  |
+| struct | **[Rivet::DeltaRInRange](/documentation/code/classes/structrivet_1_1deltarinrange/)** <br>\( \Delta R \) (with respect to another 4-momentum, _vec_) in-range functor  |
+| struct | **[Rivet::DeltaPhiGtr](/documentation/code/classes/structrivet_1_1deltaphigtr/)** <br>\( |\Delta \phi| \) (with respect to another momentum, _vec_) greater-than functor  |
+| struct | **[Rivet::DeltaPhiLess](/documentation/code/classes/structrivet_1_1deltaphiless/)** <br>\( |\Delta \phi| \) (with respect to another momentum, _vec_) less-than functor  |
+| struct | **[Rivet::DeltaPhiInRange](/documentation/code/classes/structrivet_1_1deltaphiinrange/)** <br>\( \Delta \phi \) (with respect to another 4-momentum, _vec_) in-range functor  |
+| struct | **[Rivet::DeltaEtaGtr](/documentation/code/classes/structrivet_1_1deltaetagtr/)** <br>\( |\Delta \eta| \) (with respect to another momentum, _vec_) greater-than functor  |
+| struct | **[Rivet::DeltaEtaLess](/documentation/code/classes/structrivet_1_1deltaetaless/)** <br>\( |\Delta \eta| \) (with respect to another momentum, _vec_) less-than functor  |
+| struct | **[Rivet::DeltaEtaInRange](/documentation/code/classes/structrivet_1_1deltaetainrange/)** <br>\( \Delta \eta \) (with respect to another 4-momentum, _vec_) in-range functor  |
+| struct | **[Rivet::DeltaRapGtr](/documentation/code/classes/structrivet_1_1deltarapgtr/)** <br>\( |\Delta y| \) (with respect to another momentum, _vec_) greater-than functor  |
+| struct | **[Rivet::DeltaRapLess](/documentation/code/classes/structrivet_1_1deltarapless/)** <br>\( |\Delta y| \) (with respect to another momentum, _vec_) less-than functor  |
+| struct | **[Rivet::DeltaRapInRange](/documentation/code/classes/structrivet_1_1deltarapinrange/)** <br>\( \Delta y \) (with respect to another 4-momentum, _vec_) in-range functor  |
+| struct | **[Rivet::DoubleParticleBaseFunctor](/documentation/code/classes/structrivet_1_1doubleparticlebasefunctor/)** <br>Base type for Particle -> double functors.  |
+| struct | **[Rivet::DeltaRWRT](/documentation/code/classes/structrivet_1_1deltarwrt/)** <br>Calculator of \( \Delta R \) with respect to a given momentum.  |
+| struct | **[Rivet::DeltaPhiWRT](/documentation/code/classes/structrivet_1_1deltaphiwrt/)** <br>Calculator of \( \Delta \phi \) with respect to a given momentum.  |
+| struct | **[Rivet::DeltaEtaWRT](/documentation/code/classes/structrivet_1_1deltaetawrt/)** <br>Calculator of \( \Delta \eta \) with respect to a given momentum.  |
+| struct | **[Rivet::AbsDeltaEtaWRT](/documentation/code/classes/structrivet_1_1absdeltaetawrt/)** <br>Calculator of \( |\Delta \eta| \) with respect to a given momentum.  |
+| struct | **[Rivet::DeltaRapWRT](/documentation/code/classes/structrivet_1_1deltarapwrt/)** <br>Calculator of \( \Delta y \) with respect to a given momentum.  |
+| struct | **[Rivet::AbsDeltaRapWRT](/documentation/code/classes/structrivet_1_1absdeltarapwrt/)** <br>Calculator of \( |\Delta y| \) with respect to a given momentum.  |
 
 
 
@@ -683,4 +683,4 @@ namespace Rivet {
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

@@ -7,7 +7,7 @@ description: "Determine whether a particle has an ancestor which meets the cut/f
 
 # Rivet::HasParticleAncestorWith
 
-**Module:** **[Particle classifier -> bool functors](http://example.org/modules/group__particleutils__p2bool/)**
+**Module:** **[Particle classifier -> bool functors](/documentation/code/modules/group__particleutils__p2bool/)**
 
 
 
@@ -16,30 +16,30 @@ Determine whether a particle has an ancestor which meets the cut/function.
 
 `#include <ParticleUtils.hh>`
 
-Inherits from [Rivet::BoolParticleFunctor](http://example.org/classes/structrivet_1_1boolparticlefunctor/)
+Inherits from [Rivet::BoolParticleFunctor](/documentation/code/classes/structrivet_1_1boolparticlefunctor/)
 
 ## Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
-| | **[HasParticleAncestorWith](http://example.org/classes/structrivet_1_1hasparticleancestorwith/#function-hasparticleancestorwith)**(const ParticleSelector & f, bool only_physical =true) |
-| | **[HasParticleAncestorWith](http://example.org/classes/structrivet_1_1hasparticleancestorwith/#function-hasparticleancestorwith)**(const Cut & c, bool only_physical =true) |
-| virtual bool | **[operator()](http://example.org/classes/structrivet_1_1hasparticleancestorwith/#function-operator())**(const <a href="http://example.org/classes/classrivet_1_1particle/">Particle</a> & p) const |
+| | **[HasParticleAncestorWith](/documentation/code/classes/structrivet_1_1hasparticleancestorwith/#function-hasparticleancestorwith)**(const ParticleSelector & f, bool only_physical =true) |
+| | **[HasParticleAncestorWith](/documentation/code/classes/structrivet_1_1hasparticleancestorwith/#function-hasparticleancestorwith)**(const Cut & c, bool only_physical =true) |
+| virtual bool | **[operator()](/documentation/code/classes/structrivet_1_1hasparticleancestorwith/#function-operator())**(const <a href="/documentation/code/classes/classrivet_1_1particle/">Particle</a> & p) const |
 
 ## Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
-| ParticleSelector | **[fn](http://example.org/classes/structrivet_1_1hasparticleancestorwith/#variable-fn)**  |
-| bool | **[onlyphysical](http://example.org/classes/structrivet_1_1hasparticleancestorwith/#variable-onlyphysical)**  |
+| ParticleSelector | **[fn](/documentation/code/classes/structrivet_1_1hasparticleancestorwith/#variable-fn)**  |
+| bool | **[onlyphysical](/documentation/code/classes/structrivet_1_1hasparticleancestorwith/#variable-onlyphysical)**  |
 
 ## Additional inherited members
 
-**Public Functions inherited from [Rivet::BoolParticleFunctor](http://example.org/classes/structrivet_1_1boolparticlefunctor/)**
+**Public Functions inherited from [Rivet::BoolParticleFunctor](/documentation/code/classes/structrivet_1_1boolparticlefunctor/)**
 
 |                | Name           |
 | -------------- | -------------- |
-| virtual | **[~BoolParticleFunctor](http://example.org/classes/structrivet_1_1boolparticlefunctor/#function-~boolparticlefunctor)**() |
+| virtual | **[~BoolParticleFunctor](/documentation/code/classes/structrivet_1_1boolparticlefunctor/#function-~boolparticlefunctor)**() |
 
 
 ## Public Functions Documentation
@@ -73,7 +73,7 @@ inline virtual bool operator()(
 ```
 
 
-**Reimplements**: [Rivet::BoolParticleFunctor::operator()](http://example.org/classes/structrivet_1_1boolparticlefunctor/#function-operator())
+**Reimplements**: [Rivet::BoolParticleFunctor::operator()](/documentation/code/classes/structrivet_1_1boolparticlefunctor/#function-operator())
 
 
 ## Public Attributes Documentation
@@ -94,4 +94,4 @@ bool onlyphysical;
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

@@ -14,14 +14,14 @@ description: "[Documentation update required.]"
 
 | Name           |
 | -------------- |
-| **[Rivet](http://example.org/namespaces/namespacerivet/)**  |
+| **[Rivet](/documentation/code/namespaces/namespacerivet/)**  |
 
 ## Classes
 
 |                | Name           |
 | -------------- | -------------- |
-| class | **[Rivet::FourVector](http://example.org/classes/classrivet_1_1fourvector/)** <br>Specialisation of VectorN to a general (non-momentum) Lorentz 4-vector.  |
-| class | **[Rivet::FourMomentum](http://example.org/classes/classrivet_1_1fourmomentum/)** <br>Specialized version of the FourVector with momentum/energy functionality.  |
+| class | **[Rivet::FourVector](/documentation/code/classes/classrivet_1_1fourvector/)** <br>Specialisation of VectorN to a general (non-momentum) Lorentz 4-vector.  |
+| class | **[Rivet::FourMomentum](/documentation/code/classes/classrivet_1_1fourmomentum/)** <br>Specialized version of the FourVector with momentum/energy functionality.  |
 
 
 
@@ -1225,4 +1225,4 @@ namespace Rivet {
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

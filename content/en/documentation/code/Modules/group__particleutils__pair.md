@@ -14,7 +14,7 @@ description: "[Documentation update required.]"
 
 |                | Name           |
 | -------------- | -------------- |
-| PdgIdPair | **[pids](http://example.org/modules/group__particleutils__pair/#function-pids)**(const ParticlePair & pp) |
+| PdgIdPair | **[pids](/documentation/code/modules/group__particleutils__pair/#function-pids)**(const ParticlePair & pp) |
 
 
 ## Functions Documentation
@@ -39,4 +39,4 @@ Get the PDG ID codes of a ParticlePair
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

@@ -18,19 +18,19 @@ Internal class which loads and registers analyses from plugin libs.
 
 |                | Name           |
 | -------------- | -------------- |
-| vector< string > | **[analysisNames](http://example.org/classes/classrivet_1_1analysisloader/#function-analysisnames)**()<br>Get the available analyses' canonical names.  |
-| vector< string > | **[allAnalysisNames](http://example.org/classes/classrivet_1_1analysisloader/#function-allanalysisnames)**()<br>Get all the available analyses' names, including aliases.  |
-| vector< string > | **[getAllAnalysisNames](http://example.org/classes/classrivet_1_1analysisloader/#function-getallanalysisnames)**() |
-| vector< string > | **[stdAnalysisNames](http://example.org/classes/classrivet_1_1analysisloader/#function-stdanalysisnames)**()<br>Get the standard analyses' names (from a release-specific list file)  |
-| map< string, string > | **[analysisNameAliases](http://example.org/classes/classrivet_1_1analysisloader/#function-analysisnamealiases)**()<br>Get the map of analysis alias-names to their canonical equivalents.  |
-| unique_ptr< <a href="http://example.org/classes/classrivet_1_1analysis/">Analysis</a> > | **[getAnalysis](http://example.org/classes/classrivet_1_1analysisloader/#function-getanalysis)**(const string & analysisname) |
-| vector< unique_ptr< <a href="http://example.org/classes/classrivet_1_1analysis/">Analysis</a> > > | **[getAllAnalyses](http://example.org/classes/classrivet_1_1analysisloader/#function-getallanalyses)**()<br>Get all the available analyses.  |
+| vector< string > | **[analysisNames](/documentation/code/classes/classrivet_1_1analysisloader/#function-analysisnames)**()<br>Get the available analyses' canonical names.  |
+| vector< string > | **[allAnalysisNames](/documentation/code/classes/classrivet_1_1analysisloader/#function-allanalysisnames)**()<br>Get all the available analyses' names, including aliases.  |
+| vector< string > | **[getAllAnalysisNames](/documentation/code/classes/classrivet_1_1analysisloader/#function-getallanalysisnames)**() |
+| vector< string > | **[stdAnalysisNames](/documentation/code/classes/classrivet_1_1analysisloader/#function-stdanalysisnames)**()<br>Get the standard analyses' names (from a release-specific list file)  |
+| map< string, string > | **[analysisNameAliases](/documentation/code/classes/classrivet_1_1analysisloader/#function-analysisnamealiases)**()<br>Get the map of analysis alias-names to their canonical equivalents.  |
+| unique_ptr< <a href="/documentation/code/classes/classrivet_1_1analysis/">Analysis</a> > | **[getAnalysis](/documentation/code/classes/classrivet_1_1analysisloader/#function-getanalysis)**(const string & analysisname) |
+| vector< unique_ptr< <a href="/documentation/code/classes/classrivet_1_1analysis/">Analysis</a> > > | **[getAllAnalyses](/documentation/code/classes/classrivet_1_1analysisloader/#function-getallanalyses)**()<br>Get all the available analyses.  |
 
 ## Friends
 
 |                | Name           |
 | -------------- | -------------- |
-| class | **[AnalysisBuilderBase](http://example.org/classes/classrivet_1_1analysisloader/#friend-analysisbuilderbase)** <br>Allow the analysis builders to call the private _registerBuilder function.  |
+| class | **[AnalysisBuilderBase](/documentation/code/classes/classrivet_1_1analysisloader/#friend-analysisbuilderbase)** <br>Allow the analysis builders to call the private _registerBuilder function.  |
 
 ## Public Functions Documentation
 
@@ -59,7 +59,7 @@ static inline vector< string > getAllAnalysisNames()
 
 **Deprecated**: 
 
-Use <a href="http://example.org/classes/classrivet_1_1analysisloader/#function-allanalysisnames">allAnalysisNames()</a>
+Use <a href="/documentation/code/classes/classrivet_1_1analysisloader/#function-allanalysisnames">allAnalysisNames()</a>
 
 ### function stdAnalysisNames
 
@@ -111,4 +111,4 @@ Allow the analysis builders to call the private _registerBuilder function.
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:08 +0100
+Updated on 2022-07-28 at 18:36:45 +0100

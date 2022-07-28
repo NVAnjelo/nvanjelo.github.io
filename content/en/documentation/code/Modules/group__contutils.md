@@ -14,44 +14,44 @@ description: "[Documentation update required.]"
 
 |                | Name           |
 | -------------- | -------------- |
-| template <typename CONTAINER \> <br>unsigned int | **[count](http://example.org/modules/group__contutils/#function-count)**(const CONTAINER & c)<br>Return number of true elements in the container _c_ .  |
-| template <typename CONTAINER ,typename FN \> <br>unsigned int | **[count](http://example.org/modules/group__contutils/#function-count)**(const CONTAINER & c, const FN & f)<br>Return number of elements in the container _c_ for which <code>f(x)</code> is true.  |
-| template <typename CONTAINER \> <br>bool | **[any](http://example.org/modules/group__contutils/#function-any)**(const CONTAINER & c)<br>Return true if x is true for any x in container c, otherwise false.  |
-| template <typename CONTAINER ,typename FN \> <br>bool | **[any](http://example.org/modules/group__contutils/#function-any)**(const CONTAINER & c, const FN & f)<br>Return true if f(x) is true for any x in container c, otherwise false.  |
-| template <typename CONTAINER \> <br>bool | **[all](http://example.org/modules/group__contutils/#function-all)**(const CONTAINER & c)<br>Return true if _x_ is true for all <code>x</code> in container _c_, otherwise false.  |
-| template <typename CONTAINER ,typename FN \> <br>bool | **[all](http://example.org/modules/group__contutils/#function-all)**(const CONTAINER & c, const FN & f)<br>Return true if _f(x)_ is true for all <code>x</code> in container _c_, otherwise false.  |
-| template <typename CONTAINER \> <br>bool | **[none](http://example.org/modules/group__contutils/#function-none)**(const CONTAINER & c)<br>Return true if _x_ is false for all <code>x</code> in container _c_, otherwise false.  |
-| template <typename CONTAINER ,typename FN \> <br>bool | **[none](http://example.org/modules/group__contutils/#function-none)**(const CONTAINER & c, const FN & f)<br>Return true if _f(x)_ is false for all <code>x</code> in container _c_, otherwise false.  |
-| template <typename CONTAINER1 ,typename CONTAINER2 ,typename FN \> <br>const CONTAINER2 & | **[transform](http://example.org/modules/group__contutils/#function-transform)**(const CONTAINER1 & in, CONTAINER2 & out, const FN & f)<br>A single-container-arg version of std::transform, aka <code>map</code>.  |
-| template <typename CONTAINER1 ,typename T2 \> <br>std::vector< T2 > | **[transform](http://example.org/modules/group__contutils/#function-transform)**(const CONTAINER1 & in, const std::function< T2(typename CONTAINER1::value_type)> & f) |
-| template <typename CONTAINER1 ,typename T ,typename FN \> <br>T | **[accumulate](http://example.org/modules/group__contutils/#function-accumulate)**(const CONTAINER1 & in, const T & init, const FN & f)<br>A single-container-arg version of std::accumulate, aka <code>reduce</code>.  |
-| template <typename CONTAINER \> <br>CONTAINER::value_type | **[sum](http://example.org/modules/group__contutils/#function-sum)**(const CONTAINER & c)<br>Generic sum function, adding <code>x</code> for all <code>x</code> in container _c_.  |
-| template <typename CONTAINER ,typename T \> <br>T | **[sum](http://example.org/modules/group__contutils/#function-sum)**(const CONTAINER & c, const T & start) |
-| template <typename CONTAINER ,typename FN ,typename T \> <br>T | **[sum](http://example.org/modules/group__contutils/#function-sum)**(const CONTAINER & c, const FN & f, const T & start =T())<br>Generic sum function, adding _fn_(<code>x</code>) for all <code>x</code> in container _c_, starting with _start_.  |
-| template <typename CONTAINER ,typename T \> <br>T & | **[isum](http://example.org/modules/group__contutils/#function-isum)**(const CONTAINER & c, T & out) |
-| template <typename CONTAINER ,typename FN ,typename T \> <br>T & | **[isum](http://example.org/modules/group__contutils/#function-isum)**(const CONTAINER & c, const FN & f, T & out) |
-| template <typename CONTAINER ,typename FN \> <br>CONTAINER & | **[ifilter_discard](http://example.org/modules/group__contutils/#function-ifilter-discard)**(CONTAINER & c, const FN & f) |
-| template <typename CONTAINER ,typename FN \> <br>CONTAINER & | **[idiscard](http://example.org/modules/group__contutils/#function-idiscard)**(CONTAINER & c, const FN & f)<br>Alias.  |
-| template <typename CONTAINER ,typename FN \> <br>CONTAINER | **[filter_discard](http://example.org/modules/group__contutils/#function-filter-discard)**(const CONTAINER & c, const FN & f) |
-| template <typename CONTAINER ,typename FN \> <br>CONTAINER & | **[discard](http://example.org/modules/group__contutils/#function-discard)**(CONTAINER & c, const FN & f)<br>Alias.  |
-| template <typename CONTAINER ,typename FN \> <br>CONTAINER & | **[filter_discard](http://example.org/modules/group__contutils/#function-filter-discard)**(const CONTAINER & c, const FN & f, CONTAINER & out) |
-| template <typename CONTAINER ,typename FN \> <br>CONTAINER & | **[discard](http://example.org/modules/group__contutils/#function-discard)**(CONTAINER & c, const FN & f, CONTAINER & out)<br>Alias.  |
-| template <typename CONTAINER ,typename FN \> <br>CONTAINER & | **[ifilter_select](http://example.org/modules/group__contutils/#function-ifilter-select)**(CONTAINER & c, const FN & f) |
-| template <typename CONTAINER ,typename FN \> <br>CONTAINER & | **[iselect](http://example.org/modules/group__contutils/#function-iselect)**(CONTAINER & c, const FN & f)<br>Alias.  |
-| template <typename CONTAINER ,typename FN \> <br>CONTAINER | **[filter_select](http://example.org/modules/group__contutils/#function-filter-select)**(const CONTAINER & c, const FN & f) |
-| template <typename CONTAINER ,typename FN \> <br>CONTAINER | **[select](http://example.org/modules/group__contutils/#function-select)**(const CONTAINER & c, const FN & f)<br>Alias.  |
-| template <typename CONTAINER ,typename FN \> <br>CONTAINER & | **[filter_select](http://example.org/modules/group__contutils/#function-filter-select)**(const CONTAINER & c, const FN & f, CONTAINER & out) |
-| template <typename CONTAINER ,typename FN \> <br>CONTAINER & | **[select](http://example.org/modules/group__contutils/#function-select)**(CONTAINER & c, const FN & f, CONTAINER & out)<br>Alias.  |
-| template <typename CONTAINER \> <br>CONTAINER | **[slice](http://example.org/modules/group__contutils/#function-slice)**(const CONTAINER & c, int i, int j)<br>Slice of the container elements cf. Python's [i:j] syntax.  |
-| template <typename CONTAINER \> <br>CONTAINER | **[slice](http://example.org/modules/group__contutils/#function-slice)**(const CONTAINER & c, int i)<br>Tail slice of the container elements cf. Python's [i:] syntax.  |
-| template <typename CONTAINER \> <br>CONTAINER | **[head](http://example.org/modules/group__contutils/#function-head)**(const CONTAINER & c, int n)<br>Head slice of the _n_ first container elements.  |
-| template <typename CONTAINER \> <br>CONTAINER | **[tail](http://example.org/modules/group__contutils/#function-tail)**(const CONTAINER & c, int n)<br>Tail slice of the _n_ last container elements.  |
-| double | **[min](http://example.org/modules/group__contutils/#function-min)**(const vector< double > & in, double errval =DBL_NAN)<br>Find the minimum value in the vector.  |
-| double | **[max](http://example.org/modules/group__contutils/#function-max)**(const vector< double > & in, double errval =DBL_NAN)<br>Find the maximum value in the vector.  |
-| pair< double, double > | **[minmax](http://example.org/modules/group__contutils/#function-minmax)**(const vector< double > & in, double errval =DBL_NAN)<br>Find the minimum and maximum values in the vector.  |
-| int | **[min](http://example.org/modules/group__contutils/#function-min)**(const vector< int > & in, int errval =-1)<br>Find the minimum value in the vector.  |
-| int | **[max](http://example.org/modules/group__contutils/#function-max)**(const vector< int > & in, int errval =-1)<br>Find the maximum value in the vector.  |
-| pair< int, int > | **[minmax](http://example.org/modules/group__contutils/#function-minmax)**(const vector< int > & in, int errval =-1)<br>Find the minimum and maximum values in the vector.  |
+| template <typename CONTAINER \> <br>unsigned int | **[count](/documentation/code/modules/group__contutils/#function-count)**(const CONTAINER & c)<br>Return number of true elements in the container _c_ .  |
+| template <typename CONTAINER ,typename FN \> <br>unsigned int | **[count](/documentation/code/modules/group__contutils/#function-count)**(const CONTAINER & c, const FN & f)<br>Return number of elements in the container _c_ for which <code>f(x)</code> is true.  |
+| template <typename CONTAINER \> <br>bool | **[any](/documentation/code/modules/group__contutils/#function-any)**(const CONTAINER & c)<br>Return true if x is true for any x in container c, otherwise false.  |
+| template <typename CONTAINER ,typename FN \> <br>bool | **[any](/documentation/code/modules/group__contutils/#function-any)**(const CONTAINER & c, const FN & f)<br>Return true if f(x) is true for any x in container c, otherwise false.  |
+| template <typename CONTAINER \> <br>bool | **[all](/documentation/code/modules/group__contutils/#function-all)**(const CONTAINER & c)<br>Return true if _x_ is true for all <code>x</code> in container _c_, otherwise false.  |
+| template <typename CONTAINER ,typename FN \> <br>bool | **[all](/documentation/code/modules/group__contutils/#function-all)**(const CONTAINER & c, const FN & f)<br>Return true if _f(x)_ is true for all <code>x</code> in container _c_, otherwise false.  |
+| template <typename CONTAINER \> <br>bool | **[none](/documentation/code/modules/group__contutils/#function-none)**(const CONTAINER & c)<br>Return true if _x_ is false for all <code>x</code> in container _c_, otherwise false.  |
+| template <typename CONTAINER ,typename FN \> <br>bool | **[none](/documentation/code/modules/group__contutils/#function-none)**(const CONTAINER & c, const FN & f)<br>Return true if _f(x)_ is false for all <code>x</code> in container _c_, otherwise false.  |
+| template <typename CONTAINER1 ,typename CONTAINER2 ,typename FN \> <br>const CONTAINER2 & | **[transform](/documentation/code/modules/group__contutils/#function-transform)**(const CONTAINER1 & in, CONTAINER2 & out, const FN & f)<br>A single-container-arg version of std::transform, aka <code>map</code>.  |
+| template <typename CONTAINER1 ,typename T2 \> <br>std::vector< T2 > | **[transform](/documentation/code/modules/group__contutils/#function-transform)**(const CONTAINER1 & in, const std::function< T2(typename CONTAINER1::value_type)> & f) |
+| template <typename CONTAINER1 ,typename T ,typename FN \> <br>T | **[accumulate](/documentation/code/modules/group__contutils/#function-accumulate)**(const CONTAINER1 & in, const T & init, const FN & f)<br>A single-container-arg version of std::accumulate, aka <code>reduce</code>.  |
+| template <typename CONTAINER \> <br>CONTAINER::value_type | **[sum](/documentation/code/modules/group__contutils/#function-sum)**(const CONTAINER & c)<br>Generic sum function, adding <code>x</code> for all <code>x</code> in container _c_.  |
+| template <typename CONTAINER ,typename T \> <br>T | **[sum](/documentation/code/modules/group__contutils/#function-sum)**(const CONTAINER & c, const T & start) |
+| template <typename CONTAINER ,typename FN ,typename T \> <br>T | **[sum](/documentation/code/modules/group__contutils/#function-sum)**(const CONTAINER & c, const FN & f, const T & start =T())<br>Generic sum function, adding _fn_(<code>x</code>) for all <code>x</code> in container _c_, starting with _start_.  |
+| template <typename CONTAINER ,typename T \> <br>T & | **[isum](/documentation/code/modules/group__contutils/#function-isum)**(const CONTAINER & c, T & out) |
+| template <typename CONTAINER ,typename FN ,typename T \> <br>T & | **[isum](/documentation/code/modules/group__contutils/#function-isum)**(const CONTAINER & c, const FN & f, T & out) |
+| template <typename CONTAINER ,typename FN \> <br>CONTAINER & | **[ifilter_discard](/documentation/code/modules/group__contutils/#function-ifilter-discard)**(CONTAINER & c, const FN & f) |
+| template <typename CONTAINER ,typename FN \> <br>CONTAINER & | **[idiscard](/documentation/code/modules/group__contutils/#function-idiscard)**(CONTAINER & c, const FN & f)<br>Alias.  |
+| template <typename CONTAINER ,typename FN \> <br>CONTAINER | **[filter_discard](/documentation/code/modules/group__contutils/#function-filter-discard)**(const CONTAINER & c, const FN & f) |
+| template <typename CONTAINER ,typename FN \> <br>CONTAINER & | **[discard](/documentation/code/modules/group__contutils/#function-discard)**(CONTAINER & c, const FN & f)<br>Alias.  |
+| template <typename CONTAINER ,typename FN \> <br>CONTAINER & | **[filter_discard](/documentation/code/modules/group__contutils/#function-filter-discard)**(const CONTAINER & c, const FN & f, CONTAINER & out) |
+| template <typename CONTAINER ,typename FN \> <br>CONTAINER & | **[discard](/documentation/code/modules/group__contutils/#function-discard)**(CONTAINER & c, const FN & f, CONTAINER & out)<br>Alias.  |
+| template <typename CONTAINER ,typename FN \> <br>CONTAINER & | **[ifilter_select](/documentation/code/modules/group__contutils/#function-ifilter-select)**(CONTAINER & c, const FN & f) |
+| template <typename CONTAINER ,typename FN \> <br>CONTAINER & | **[iselect](/documentation/code/modules/group__contutils/#function-iselect)**(CONTAINER & c, const FN & f)<br>Alias.  |
+| template <typename CONTAINER ,typename FN \> <br>CONTAINER | **[filter_select](/documentation/code/modules/group__contutils/#function-filter-select)**(const CONTAINER & c, const FN & f) |
+| template <typename CONTAINER ,typename FN \> <br>CONTAINER | **[select](/documentation/code/modules/group__contutils/#function-select)**(const CONTAINER & c, const FN & f)<br>Alias.  |
+| template <typename CONTAINER ,typename FN \> <br>CONTAINER & | **[filter_select](/documentation/code/modules/group__contutils/#function-filter-select)**(const CONTAINER & c, const FN & f, CONTAINER & out) |
+| template <typename CONTAINER ,typename FN \> <br>CONTAINER & | **[select](/documentation/code/modules/group__contutils/#function-select)**(CONTAINER & c, const FN & f, CONTAINER & out)<br>Alias.  |
+| template <typename CONTAINER \> <br>CONTAINER | **[slice](/documentation/code/modules/group__contutils/#function-slice)**(const CONTAINER & c, int i, int j)<br>Slice of the container elements cf. Python's [i:j] syntax.  |
+| template <typename CONTAINER \> <br>CONTAINER | **[slice](/documentation/code/modules/group__contutils/#function-slice)**(const CONTAINER & c, int i)<br>Tail slice of the container elements cf. Python's [i:] syntax.  |
+| template <typename CONTAINER \> <br>CONTAINER | **[head](/documentation/code/modules/group__contutils/#function-head)**(const CONTAINER & c, int n)<br>Head slice of the _n_ first container elements.  |
+| template <typename CONTAINER \> <br>CONTAINER | **[tail](/documentation/code/modules/group__contutils/#function-tail)**(const CONTAINER & c, int n)<br>Tail slice of the _n_ last container elements.  |
+| double | **[min](/documentation/code/modules/group__contutils/#function-min)**(const vector< double > & in, double errval =DBL_NAN)<br>Find the minimum value in the vector.  |
+| double | **[max](/documentation/code/modules/group__contutils/#function-max)**(const vector< double > & in, double errval =DBL_NAN)<br>Find the maximum value in the vector.  |
+| pair< double, double > | **[minmax](/documentation/code/modules/group__contutils/#function-minmax)**(const vector< double > & in, double errval =DBL_NAN)<br>Find the minimum and maximum values in the vector.  |
+| int | **[min](/documentation/code/modules/group__contutils/#function-min)**(const vector< int > & in, int errval =-1)<br>Find the minimum value in the vector.  |
+| int | **[max](/documentation/code/modules/group__contutils/#function-max)**(const vector< int > & in, int errval =-1)<br>Find the maximum value in the vector.  |
+| pair< int, int > | **[minmax](/documentation/code/modules/group__contutils/#function-minmax)**(const vector< int > & in, int errval =-1)<br>Find the minimum and maximum values in the vector.  |
 
 
 ## Functions Documentation
@@ -179,7 +179,7 @@ inline std::vector< T2 > transform(
 ```
 
 
-**Todo**: Make the function template polymorphic... or specific to <a href="http://example.org/classes/classrivet_1_1particlebase/">ParticleBase</a>
+**Todo**: Make the function template polymorphic... or specific to <a href="/documentation/code/classes/classrivet_1_1particlebase/">ParticleBase</a>
 
 A single-container-arg, return-value version of std::transform, aka <code>map</code>
 
@@ -292,7 +292,7 @@ inline CONTAINER & ifilter_discard(
 ```
 
 
-**Todo**: Use const std::function<bool(typename CONTAINER::value_type)>... but need polymorphism for <a href="http://example.org/classes/classrivet_1_1particlebase/">ParticleBase</a>
+**Todo**: Use const std::function<bool(typename CONTAINER::value_type)>... but need polymorphism for <a href="/documentation/code/classes/classrivet_1_1particlebase/">ParticleBase</a>
 
 Filter a collection in-place, removing the subset that passes the supplied function 
 
@@ -322,7 +322,7 @@ inline CONTAINER filter_discard(
 ```
 
 
-**Todo**: Use const std::function<bool(typename CONTAINER::value_type)>... but need polymorphism for <a href="http://example.org/classes/classrivet_1_1particlebase/">ParticleBase</a>
+**Todo**: Use const std::function<bool(typename CONTAINER::value_type)>... but need polymorphism for <a href="/documentation/code/classes/classrivet_1_1particlebase/">ParticleBase</a>
 
 Filter a collection by copy, removing the subset that passes the supplied function 
 
@@ -358,7 +358,7 @@ inline CONTAINER & filter_discard(
 
 **Note**: New container will be replaced, not appended to 
 
-**Todo**: Use const std::function<bool(typename CONTAINER::value_type)>... but need polymorphism for <a href="http://example.org/classes/classrivet_1_1particlebase/">ParticleBase</a>
+**Todo**: Use const std::function<bool(typename CONTAINER::value_type)>... but need polymorphism for <a href="/documentation/code/classes/classrivet_1_1particlebase/">ParticleBase</a>
 
 Filter a collection by copy into a supplied container, removing the subset that passes the supplied function 
 
@@ -389,7 +389,7 @@ inline CONTAINER & ifilter_select(
 ```
 
 
-**Todo**: Use const std::function<bool(typename CONTAINER::value_type)>... but need polymorphism for <a href="http://example.org/classes/classrivet_1_1particlebase/">ParticleBase</a>
+**Todo**: Use const std::function<bool(typename CONTAINER::value_type)>... but need polymorphism for <a href="/documentation/code/classes/classrivet_1_1particlebase/">ParticleBase</a>
 
 Filter a collection in-place, keeping the subset that passes the supplied function 
 
@@ -419,7 +419,7 @@ inline CONTAINER filter_select(
 ```
 
 
-**Todo**: Use const std::function<bool(typename CONTAINER::value_type)>... but need polymorphism for <a href="http://example.org/classes/classrivet_1_1particlebase/">ParticleBase</a>
+**Todo**: Use const std::function<bool(typename CONTAINER::value_type)>... but need polymorphism for <a href="/documentation/code/classes/classrivet_1_1particlebase/">ParticleBase</a>
 
 Filter a collection by copy, keeping the subset that passes the supplied function 
 
@@ -455,7 +455,7 @@ inline CONTAINER & filter_select(
 
 **Note**: New container will be replaced, not appended to 
 
-**Todo**: Use const std::function<bool(typename CONTAINER::value_type)>... but need polymorphism for <a href="http://example.org/classes/classrivet_1_1particlebase/">ParticleBase</a>
+**Todo**: Use const std::function<bool(typename CONTAINER::value_type)>... but need polymorphism for <a href="/documentation/code/classes/classrivet_1_1particlebase/">ParticleBase</a>
 
 Filter a collection by copy into a supplied container, keeping the subset that passes the supplied function 
 
@@ -607,4 +607,4 @@ Find the minimum and maximum values in the vector.
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

@@ -14,14 +14,14 @@ description: "[Documentation update required.]"
 
 |                | Name           |
 | -------------- | -------------- |
-|  | **[RIVET_BUGREPORT](http://example.org/files/rivetconfig_8hh/#define-rivet-bugreport)**  |
-|  | **[RIVET_NAME](http://example.org/files/rivetconfig_8hh/#define-rivet-name)**  |
-|  | **[RIVET_STRING](http://example.org/files/rivetconfig_8hh/#define-rivet-string)**  |
-|  | **[RIVET_TARNAME](http://example.org/files/rivetconfig_8hh/#define-rivet-tarname)**  |
-|  | **[RIVET_VERSION](http://example.org/files/rivetconfig_8hh/#define-rivet-version)**  |
-|  | **[RIVET_VERSION_CODE](http://example.org/files/rivetconfig_8hh/#define-rivet-version-code)**  |
-|  | **[RIVET_ENABLE_HEPMC_3](http://example.org/files/rivetconfig_8hh/#define-rivet-enable-hepmc-3)**  |
-|  | **[RIVET_SUPPORTS_MERGING_IN_MEMORY](http://example.org/files/rivetconfig_8hh/#define-rivet-supports-merging-in-memory)**  |
+|  | **[RIVET_BUGREPORT](/documentation/code/files/rivetconfig_8hh/#define-rivet-bugreport)**  |
+|  | **[RIVET_NAME](/documentation/code/files/rivetconfig_8hh/#define-rivet-name)**  |
+|  | **[RIVET_STRING](/documentation/code/files/rivetconfig_8hh/#define-rivet-string)**  |
+|  | **[RIVET_TARNAME](/documentation/code/files/rivetconfig_8hh/#define-rivet-tarname)**  |
+|  | **[RIVET_VERSION](/documentation/code/files/rivetconfig_8hh/#define-rivet-version)**  |
+|  | **[RIVET_VERSION_CODE](/documentation/code/files/rivetconfig_8hh/#define-rivet-version-code)**  |
+|  | **[RIVET_ENABLE_HEPMC_3](/documentation/code/files/rivetconfig_8hh/#define-rivet-enable-hepmc-3)**  |
+|  | **[RIVET_SUPPORTS_MERGING_IN_MEMORY](/documentation/code/files/rivetconfig_8hh/#define-rivet-supports-merging-in-memory)**  |
 
 
 
@@ -125,4 +125,4 @@ description: "[Documentation update required.]"
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

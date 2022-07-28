@@ -14,161 +14,161 @@ Specialized version of the FourVector with momentum/energy functionality.
 
 `#include <Vector4.hh>`
 
-Inherits from [Rivet::FourVector](http://example.org/classes/classrivet_1_1fourvector/), [Rivet::Vector< 4 >](http://example.org/classes/classrivet_1_1vector/)
+Inherits from [Rivet::FourVector](/documentation/code/classes/classrivet_1_1fourvector/), [Rivet::Vector< 4 >](/documentation/code/classes/classrivet_1_1vector/)
 
 ## Public Types
 
 |                | Name           |
 | -------------- | -------------- |
-| using Eigen::Matrix< double, N, 1 > | **[EVector](http://example.org/classes/classrivet_1_1fourmomentum/#using-evector)** <br>Vector.  |
+| using Eigen::Matrix< double, N, 1 > | **[EVector](/documentation/code/classes/classrivet_1_1fourmomentum/#using-evector)** <br>Vector.  |
 
 ## Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
-| <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & | **[setE](http://example.org/modules/group__momutils/#function-sete)**(double E)<br>Set energy \( E \) (time component of momentum).  |
-| <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & | **[setPx](http://example.org/modules/group__momutils/#function-setpx)**(double px)<br>Set x-component of momentum \( p_x \).  |
-| <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & | **[setPy](http://example.org/modules/group__momutils/#function-setpy)**(double py)<br>Set y-component of momentum \( p_y \).  |
-| <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & | **[setPz](http://example.org/modules/group__momutils/#function-setpz)**(double pz)<br>Set z-component of momentum \( p_z \).  |
-| <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & | **[setPE](http://example.org/modules/group__momutils/#function-setpe)**(double px, double py, double pz, double E)<br>Set the p coordinates and energy simultaneously.  |
-| <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & | **[setXYZE](http://example.org/modules/group__momutils/#function-setxyze)**(double px, double py, double pz, double E)<br>Alias for setPE.  |
-| <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & | **[setPM](http://example.org/modules/group__momutils/#function-setpm)**(double px, double py, double pz, double mass)<br>Set the p coordinates and mass simultaneously.  |
-| <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & | **[setXYZM](http://example.org/modules/group__momutils/#function-setxyzm)**(double px, double py, double pz, double mass)<br>Alias for setPM.  |
-| <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & | **[setEtaPhiME](http://example.org/modules/group__momutils/#function-setetaphime)**(double eta, double phi, double mass, double E) |
-| <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & | **[setEtaPhiMPt](http://example.org/modules/group__momutils/#function-setetaphimpt)**(double eta, double phi, double mass, double pt) |
-| <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & | **[setRapPhiME](http://example.org/modules/group__momutils/#function-setrapphime)**(double y, double phi, double mass, double E) |
-| <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & | **[setRapPhiMPt](http://example.org/modules/group__momutils/#function-setrapphimpt)**(double y, double phi, double mass, double pt) |
-| <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & | **[setThetaPhiME](http://example.org/modules/group__momutils/#function-setthetaphime)**(double theta, double phi, double mass, double E) |
-| <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & | **[setThetaPhiMPt](http://example.org/modules/group__momutils/#function-setthetaphimpt)**(double theta, double phi, double mass, double pt) |
-| <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & | **[setPtPhiME](http://example.org/modules/group__momutils/#function-setptphime)**(double pt, double phi, double mass, double E) |
-| double | **[E](http://example.org/modules/group__momutils/#function-e)**() const<br>Get energy \( E \) (time component of momentum).  |
-| double | **[E2](http://example.org/modules/group__momutils/#function-e2)**() const<br>Get energy-squared \( E^2 \).  |
-| double | **[px](http://example.org/modules/group__momutils/#function-px)**() const<br>Get x-component of momentum \( p_x \).  |
-| double | **[px2](http://example.org/modules/group__momutils/#function-px2)**() const<br>Get x-squared \( p_x^2 \).  |
-| double | **[py](http://example.org/modules/group__momutils/#function-py)**() const<br>Get y-component of momentum \( p_y \).  |
-| double | **[py2](http://example.org/modules/group__momutils/#function-py2)**() const<br>Get y-squared \( p_y^2 \).  |
-| double | **[pz](http://example.org/modules/group__momutils/#function-pz)**() const<br>Get z-component of momentum \( p_z \).  |
-| double | **[pz2](http://example.org/modules/group__momutils/#function-pz2)**() const<br>Get z-squared \( p_z^2 \).  |
-| double | **[mass](http://example.org/modules/group__momutils/#function-mass)**() const<br>Get the mass \( m = \sqrt{E^2 - p^2} \) (the Lorentz self-invariant).  |
-| double | **[mass2](http://example.org/modules/group__momutils/#function-mass2)**() const<br>Get the squared mass \( m^2 = E^2 - p^2 \) (the Lorentz self-invariant).  |
-| <a href="http://example.org/classes/classrivet_1_1vector3/">Vector3</a> | **[p3](http://example.org/modules/group__momutils/#function-p3)**() const<br>Get 3-momentum part, \( p \).  |
-| double | **[p](http://example.org/modules/group__momutils/#function-p)**() const<br>Get the modulus of the 3-momentum.  |
-| double | **[p2](http://example.org/modules/group__momutils/#function-p2)**() const<br>Get the modulus-squared of the 3-momentum.  |
-| double | **[rapidity](http://example.org/modules/group__momutils/#function-rapidity)**() const<br>Calculate the rapidity.  |
-| double | **[rap](http://example.org/modules/group__momutils/#function-rap)**() const<br>Alias for rapidity.  |
-| double | **[absrapidity](http://example.org/modules/group__momutils/#function-absrapidity)**() const<br>Absolute rapidity.  |
-| double | **[absrap](http://example.org/modules/group__momutils/#function-absrap)**() const<br>Absolute rapidity.  |
-| <a href="http://example.org/classes/classrivet_1_1vector3/">Vector3</a> | **[pTvec](http://example.org/modules/group__momutils/#function-ptvec)**() const<br>Calculate the transverse momentum vector \( \vec{p}_T \).  |
-| <a href="http://example.org/classes/classrivet_1_1vector3/">Vector3</a> | **[ptvec](http://example.org/modules/group__momutils/#function-ptvec)**() const<br>Synonym for pTvec.  |
-| double | **[pT2](http://example.org/modules/group__momutils/#function-pt2)**() const<br>Calculate the squared transverse momentum \( p_T^2 \).  |
-| double | **[pt2](http://example.org/modules/group__momutils/#function-pt2)**() const<br>Calculate the squared transverse momentum \( p_T^2 \).  |
-| double | **[pT](http://example.org/modules/group__momutils/#function-pt)**() const<br>Calculate the transverse momentum \( p_T \).  |
-| double | **[pt](http://example.org/modules/group__momutils/#function-pt)**() const<br>Calculate the transverse momentum \( p_T \).  |
-| double | **[Et2](http://example.org/modules/group__momutils/#function-et2)**() const<br>Calculate the transverse energy \( E_T^2 = E^2 \sin^2{\theta} \).  |
-| double | **[Et](http://example.org/modules/group__momutils/#function-et)**() const<br>Calculate the transverse energy \( E_T = E \sin{\theta} \).  |
-| double | **[gamma](http://example.org/modules/group__momutils/#function-gamma)**() const |
-| <a href="http://example.org/classes/classrivet_1_1vector3/">Vector3</a> | **[gammaVec](http://example.org/modules/group__momutils/#function-gammavec)**() const |
-| double | **[beta](http://example.org/modules/group__momutils/#function-beta)**() const |
-| <a href="http://example.org/classes/classrivet_1_1vector3/">Vector3</a> | **[betaVec](http://example.org/modules/group__momutils/#function-betavec)**() const |
-| <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & | **[operator*=](http://example.org/modules/group__momutils/#function-operator*=)**(double a)<br>Multiply by a scalar.  |
-| <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & | **[operator/=](http://example.org/modules/group__momutils/#function-operator/=)**(double a)<br>Divide by a scalar.  |
-| <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & | **[operator+=](http://example.org/modules/group__momutils/#function-operator+=)**(const <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & v)<br>Add to this 4-vector. NB time as well as space components are added.  |
-| <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & | **[operator-=](http://example.org/modules/group__momutils/#function-operator-=)**(const <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & v)<br>Subtract from this 4-vector. NB time as well as space components are subtracted.  |
-| <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a> | **[operator-](http://example.org/modules/group__momutils/#function-operator-)**() const<br>Multiply all components (time and space) by -1.  |
-| <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a> | **[reverse](http://example.org/modules/group__momutils/#function-reverse)**() const<br>Multiply space components only by -1.  |
-| <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a> | **[mkXYZE](http://example.org/modules/group__momutils/#function-mkxyze)**(double px, double py, double pz, double E)<br>Make a vector from (px,py,pz,E) coordinates.  |
-| <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a> | **[mkXYZM](http://example.org/modules/group__momutils/#function-mkxyzm)**(double px, double py, double pz, double mass)<br>Make a vector from (px,py,pz) coordinates and the mass.  |
-| <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a> | **[mkEtaPhiME](http://example.org/modules/group__momutils/#function-mketaphime)**(double eta, double phi, double mass, double E)<br>Make a vector from (eta,phi,energy) coordinates and the mass.  |
-| <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a> | **[mkEtaPhiMPt](http://example.org/modules/group__momutils/#function-mketaphimpt)**(double eta, double phi, double mass, double pt)<br>Make a vector from (eta,phi,pT) coordinates and the mass.  |
-| <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a> | **[mkRapPhiME](http://example.org/modules/group__momutils/#function-mkrapphime)**(double y, double phi, double mass, double E)<br>Make a vector from (y,phi,energy) coordinates and the mass.  |
-| <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a> | **[mkRapPhiMPt](http://example.org/modules/group__momutils/#function-mkrapphimpt)**(double y, double phi, double mass, double pt)<br>Make a vector from (y,phi,pT) coordinates and the mass.  |
-| <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a> | **[mkThetaPhiME](http://example.org/modules/group__momutils/#function-mkthetaphime)**(double theta, double phi, double mass, double E)<br>Make a vector from (theta,phi,energy) coordinates and the mass.  |
-| <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a> | **[mkThetaPhiMPt](http://example.org/modules/group__momutils/#function-mkthetaphimpt)**(double theta, double phi, double mass, double pt)<br>Make a vector from (theta,phi,pT) coordinates and the mass.  |
-| <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a> | **[mkPtPhiME](http://example.org/modules/group__momutils/#function-mkptphime)**(double pt, double phi, double mass, double E)<br>Make a vector from (pT,phi,energy) coordinates and the mass.  |
-| | **[FourMomentum](http://example.org/modules/group__momutils/#function-fourmomentum)**() |
-| template <typename V4TYPE ,typename std::enable_if< HasXYZT< V4TYPE >::value, int >::type DUMMY =0\> <br>| **[FourMomentum](http://example.org/modules/group__momutils/#function-fourmomentum)**(const V4TYPE & other) |
-| | **[FourMomentum](http://example.org/modules/group__momutils/#function-fourmomentum)**(const <a href="http://example.org/classes/classrivet_1_1vector/">Vector</a>< 4 > & other) |
-| | **[FourMomentum](http://example.org/modules/group__momutils/#function-fourmomentum)**(const double E, const double px, const double py, const double pz) |
-| | **[~FourMomentum](http://example.org/modules/group__momutils/#function-~fourmomentum)**() |
-| double | **[t](http://example.org/modules/group__momutils/#function-t)**() const |
-| double | **[t2](http://example.org/modules/group__momutils/#function-t2)**() const |
-| <a href="http://example.org/classes/classrivet_1_1fourvector/">FourVector</a> & | **[setT](http://example.org/modules/group__momutils/#function-sett)**(const double t) |
-| double | **[x](http://example.org/modules/group__momutils/#function-x)**() const |
-| double | **[x2](http://example.org/modules/group__momutils/#function-x2)**() const |
-| <a href="http://example.org/classes/classrivet_1_1fourvector/">FourVector</a> & | **[setX](http://example.org/modules/group__momutils/#function-setx)**(const double x) |
-| double | **[y](http://example.org/modules/group__momutils/#function-y)**() const |
-| double | **[y2](http://example.org/modules/group__momutils/#function-y2)**() const |
-| <a href="http://example.org/classes/classrivet_1_1fourvector/">FourVector</a> & | **[setY](http://example.org/modules/group__momutils/#function-sety)**(const double y) |
-| double | **[z](http://example.org/modules/group__momutils/#function-z)**() const |
-| double | **[z2](http://example.org/modules/group__momutils/#function-z2)**() const |
-| <a href="http://example.org/classes/classrivet_1_1fourvector/">FourVector</a> & | **[setZ](http://example.org/modules/group__momutils/#function-setz)**(const double z) |
-| double | **[invariant](http://example.org/modules/group__momutils/#function-invariant)**() const |
-| bool | **[isNull](http://example.org/modules/group__momutils/#function-isnull)**() const |
-| double | **[angle](http://example.org/modules/group__momutils/#function-angle)**(const <a href="http://example.org/classes/classrivet_1_1fourvector/">FourVector</a> & v) const<br>Angle between this vector and another.  |
-| double | **[angle](http://example.org/modules/group__momutils/#function-angle)**(const <a href="http://example.org/classes/classrivet_1_1vector3/">Vector3</a> & v3) const<br>Angle between this vector and another (3-vector)  |
-| double | **[polarRadius2](http://example.org/modules/group__momutils/#function-polarradius2)**() const<br>Mod-square of the projection of the 3-vector on to the \( x-y \) plane This is a more efficient function than <code>polarRadius</code>, as it avoids the square root. Use it if you only need the squared value, or e.g. an ordering by magnitude.  |
-| double | **[perp2](http://example.org/modules/group__momutils/#function-perp2)**() const<br>Synonym for polarRadius2.  |
-| double | **[rho2](http://example.org/modules/group__momutils/#function-rho2)**() const<br>Synonym for polarRadius2.  |
-| double | **[polarRadius](http://example.org/modules/group__momutils/#function-polarradius)**() const<br>Magnitude of projection of 3-vector on to the \( x-y \) plane.  |
-| double | **[perp](http://example.org/modules/group__momutils/#function-perp)**() const<br>Synonym for polarRadius.  |
-| double | **[rho](http://example.org/modules/group__momutils/#function-rho)**() const<br>Synonym for polarRadius.  |
-| <a href="http://example.org/classes/classrivet_1_1vector3/">Vector3</a> | **[polarVec](http://example.org/modules/group__momutils/#function-polarvec)**() const<br>Projection of 3-vector on to the \( x-y \) plane.  |
-| <a href="http://example.org/classes/classrivet_1_1vector3/">Vector3</a> | **[perpVec](http://example.org/modules/group__momutils/#function-perpvec)**() const<br>Synonym for polarVec.  |
-| <a href="http://example.org/classes/classrivet_1_1vector3/">Vector3</a> | **[rhoVec](http://example.org/modules/group__momutils/#function-rhovec)**() const<br>Synonym for polarVec.  |
-| double | **[azimuthalAngle](http://example.org/modules/group__momutils/#function-azimuthalangle)**(const <a href="http://example.org/namespaces/namespacerivet/#enum-phimapping">PhiMapping</a> mapping =ZERO_2PI) const<br>Angle subtended by the 3-vector's projection in x-y and the x-axis.  |
-| double | **[phi](http://example.org/modules/group__momutils/#function-phi)**(const <a href="http://example.org/namespaces/namespacerivet/#enum-phimapping">PhiMapping</a> mapping =ZERO_2PI) const<br>Synonym for azimuthalAngle.  |
-| double | **[polarAngle](http://example.org/modules/group__momutils/#function-polarangle)**() const<br>Angle subtended by the 3-vector and the z-axis.  |
-| double | **[theta](http://example.org/modules/group__momutils/#function-theta)**() const<br>Synonym for polarAngle.  |
-| double | **[pseudorapidity](http://example.org/modules/group__momutils/#function-pseudorapidity)**() const<br>Pseudorapidity (defined purely by the 3-vector components)  |
-| double | **[eta](http://example.org/modules/group__momutils/#function-eta)**() const<br>Synonym for pseudorapidity.  |
-| double | **[abspseudorapidity](http://example.org/modules/group__momutils/#function-abspseudorapidity)**() const<br>Get the \( |\eta| \) directly.  |
-| double | **[abseta](http://example.org/modules/group__momutils/#function-abseta)**() const<br>Get the \( |\eta| \) directly (alias).  |
-| <a href="http://example.org/classes/classrivet_1_1vector3/">Vector3</a> | **[vector3](http://example.org/modules/group__momutils/#function-vector3)**() const<br>Get the spatial part of the 4-vector as a 3-vector.  |
-| | **[operator Vector3](http://example.org/modules/group__momutils/#function-operator-vector3)**() const<br>Implicit cast to a 3-vector.  |
-| double | **[contract](http://example.org/modules/group__momutils/#function-contract)**(const <a href="http://example.org/classes/classrivet_1_1fourvector/">FourVector</a> & v) const<br>Contract two 4-vectors, with metric signature (+ - - -).  |
-| double | **[dot](http://example.org/modules/group__momutils/#function-dot)**(const <a href="http://example.org/classes/classrivet_1_1fourvector/">FourVector</a> & v) const<br>Contract two 4-vectors, with metric signature (+ - - -).  |
-| double | **[operator*](http://example.org/modules/group__momutils/#function-operator*)**(const <a href="http://example.org/classes/classrivet_1_1fourvector/">FourVector</a> & v) const<br>Contract two 4-vectors, with metric signature (+ - - -).  |
-| <a href="http://example.org/classes/classrivet_1_1fourvector/">FourVector</a> & | **[operator+=](http://example.org/modules/group__momutils/#function-operator+=)**(const <a href="http://example.org/classes/classrivet_1_1fourvector/">FourVector</a> & v)<br>Add to this 4-vector.  |
-| <a href="http://example.org/classes/classrivet_1_1fourvector/">FourVector</a> & | **[operator-=](http://example.org/modules/group__momutils/#function-operator-=)**(const <a href="http://example.org/classes/classrivet_1_1fourvector/">FourVector</a> & v)<br>Subtract from this 4-vector. NB time as well as space components are subtracted.  |
-| const double & | **[get](http://example.org/classes/classrivet_1_1fourmomentum/#function-get)**(const size_t index) const |
-| double & | **[get](http://example.org/classes/classrivet_1_1fourmomentum/#function-get)**(const size_t index) |
-| const double & | **[operator[]](http://example.org/classes/classrivet_1_1fourmomentum/#function-operator[])**(const size_t index) const<br>Direct access to vector elements by index.  |
-| double & | **[operator[]](http://example.org/classes/classrivet_1_1fourmomentum/#function-operator[])**(const size_t index)<br>Direct access to vector elements by index.  |
-| <a href="http://example.org/classes/classrivet_1_1vector/">Vector</a>< N > & | **[set](http://example.org/classes/classrivet_1_1fourmomentum/#function-set)**(const size_t index, const double value)<br>Set indexed value.  |
-| constexpr size_t | **[size](http://example.org/classes/classrivet_1_1fourmomentum/#function-size)**() const<br>Vector dimensionality.  |
-| bool | **[isZero](http://example.org/classes/classrivet_1_1fourmomentum/#function-iszero)**(double tolerance =1<a href="http://example.org/modules/group__momutils/#function-e">E</a>-5) const<br>Check for nullness, allowing for numerical precision.  |
-| double | **[mod2](http://example.org/classes/classrivet_1_1fourmomentum/#function-mod2)**() const<br>Calculate the modulus-squared of a vector. \( \sum_{i=1}^N x_i^2 \).  |
-| double | **[mod](http://example.org/classes/classrivet_1_1fourmomentum/#function-mod)**() const<br>Calculate the modulus of a vector. \( \sqrt{\sum_{i=1}^N x_i^2} \).  |
-| bool | **[operator==](http://example.org/classes/classrivet_1_1fourmomentum/#function-operator==)**(const <a href="http://example.org/classes/classrivet_1_1vector/">Vector</a>< N > & a) const |
-| bool | **[operator!=](http://example.org/classes/classrivet_1_1fourmomentum/#function-operator!=)**(const <a href="http://example.org/classes/classrivet_1_1vector/">Vector</a>< N > & a) const |
+| <a href="/documentation/code/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & | **[setE](/documentation/code/modules/group__momutils/#function-sete)**(double E)<br>Set energy \( E \) (time component of momentum).  |
+| <a href="/documentation/code/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & | **[setPx](/documentation/code/modules/group__momutils/#function-setpx)**(double px)<br>Set x-component of momentum \( p_x \).  |
+| <a href="/documentation/code/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & | **[setPy](/documentation/code/modules/group__momutils/#function-setpy)**(double py)<br>Set y-component of momentum \( p_y \).  |
+| <a href="/documentation/code/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & | **[setPz](/documentation/code/modules/group__momutils/#function-setpz)**(double pz)<br>Set z-component of momentum \( p_z \).  |
+| <a href="/documentation/code/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & | **[setPE](/documentation/code/modules/group__momutils/#function-setpe)**(double px, double py, double pz, double E)<br>Set the p coordinates and energy simultaneously.  |
+| <a href="/documentation/code/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & | **[setXYZE](/documentation/code/modules/group__momutils/#function-setxyze)**(double px, double py, double pz, double E)<br>Alias for setPE.  |
+| <a href="/documentation/code/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & | **[setPM](/documentation/code/modules/group__momutils/#function-setpm)**(double px, double py, double pz, double mass)<br>Set the p coordinates and mass simultaneously.  |
+| <a href="/documentation/code/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & | **[setXYZM](/documentation/code/modules/group__momutils/#function-setxyzm)**(double px, double py, double pz, double mass)<br>Alias for setPM.  |
+| <a href="/documentation/code/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & | **[setEtaPhiME](/documentation/code/modules/group__momutils/#function-setetaphime)**(double eta, double phi, double mass, double E) |
+| <a href="/documentation/code/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & | **[setEtaPhiMPt](/documentation/code/modules/group__momutils/#function-setetaphimpt)**(double eta, double phi, double mass, double pt) |
+| <a href="/documentation/code/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & | **[setRapPhiME](/documentation/code/modules/group__momutils/#function-setrapphime)**(double y, double phi, double mass, double E) |
+| <a href="/documentation/code/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & | **[setRapPhiMPt](/documentation/code/modules/group__momutils/#function-setrapphimpt)**(double y, double phi, double mass, double pt) |
+| <a href="/documentation/code/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & | **[setThetaPhiME](/documentation/code/modules/group__momutils/#function-setthetaphime)**(double theta, double phi, double mass, double E) |
+| <a href="/documentation/code/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & | **[setThetaPhiMPt](/documentation/code/modules/group__momutils/#function-setthetaphimpt)**(double theta, double phi, double mass, double pt) |
+| <a href="/documentation/code/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & | **[setPtPhiME](/documentation/code/modules/group__momutils/#function-setptphime)**(double pt, double phi, double mass, double E) |
+| double | **[E](/documentation/code/modules/group__momutils/#function-e)**() const<br>Get energy \( E \) (time component of momentum).  |
+| double | **[E2](/documentation/code/modules/group__momutils/#function-e2)**() const<br>Get energy-squared \( E^2 \).  |
+| double | **[px](/documentation/code/modules/group__momutils/#function-px)**() const<br>Get x-component of momentum \( p_x \).  |
+| double | **[px2](/documentation/code/modules/group__momutils/#function-px2)**() const<br>Get x-squared \( p_x^2 \).  |
+| double | **[py](/documentation/code/modules/group__momutils/#function-py)**() const<br>Get y-component of momentum \( p_y \).  |
+| double | **[py2](/documentation/code/modules/group__momutils/#function-py2)**() const<br>Get y-squared \( p_y^2 \).  |
+| double | **[pz](/documentation/code/modules/group__momutils/#function-pz)**() const<br>Get z-component of momentum \( p_z \).  |
+| double | **[pz2](/documentation/code/modules/group__momutils/#function-pz2)**() const<br>Get z-squared \( p_z^2 \).  |
+| double | **[mass](/documentation/code/modules/group__momutils/#function-mass)**() const<br>Get the mass \( m = \sqrt{E^2 - p^2} \) (the Lorentz self-invariant).  |
+| double | **[mass2](/documentation/code/modules/group__momutils/#function-mass2)**() const<br>Get the squared mass \( m^2 = E^2 - p^2 \) (the Lorentz self-invariant).  |
+| <a href="/documentation/code/classes/classrivet_1_1vector3/">Vector3</a> | **[p3](/documentation/code/modules/group__momutils/#function-p3)**() const<br>Get 3-momentum part, \( p \).  |
+| double | **[p](/documentation/code/modules/group__momutils/#function-p)**() const<br>Get the modulus of the 3-momentum.  |
+| double | **[p2](/documentation/code/modules/group__momutils/#function-p2)**() const<br>Get the modulus-squared of the 3-momentum.  |
+| double | **[rapidity](/documentation/code/modules/group__momutils/#function-rapidity)**() const<br>Calculate the rapidity.  |
+| double | **[rap](/documentation/code/modules/group__momutils/#function-rap)**() const<br>Alias for rapidity.  |
+| double | **[absrapidity](/documentation/code/modules/group__momutils/#function-absrapidity)**() const<br>Absolute rapidity.  |
+| double | **[absrap](/documentation/code/modules/group__momutils/#function-absrap)**() const<br>Absolute rapidity.  |
+| <a href="/documentation/code/classes/classrivet_1_1vector3/">Vector3</a> | **[pTvec](/documentation/code/modules/group__momutils/#function-ptvec)**() const<br>Calculate the transverse momentum vector \( \vec{p}_T \).  |
+| <a href="/documentation/code/classes/classrivet_1_1vector3/">Vector3</a> | **[ptvec](/documentation/code/modules/group__momutils/#function-ptvec)**() const<br>Synonym for pTvec.  |
+| double | **[pT2](/documentation/code/modules/group__momutils/#function-pt2)**() const<br>Calculate the squared transverse momentum \( p_T^2 \).  |
+| double | **[pt2](/documentation/code/modules/group__momutils/#function-pt2)**() const<br>Calculate the squared transverse momentum \( p_T^2 \).  |
+| double | **[pT](/documentation/code/modules/group__momutils/#function-pt)**() const<br>Calculate the transverse momentum \( p_T \).  |
+| double | **[pt](/documentation/code/modules/group__momutils/#function-pt)**() const<br>Calculate the transverse momentum \( p_T \).  |
+| double | **[Et2](/documentation/code/modules/group__momutils/#function-et2)**() const<br>Calculate the transverse energy \( E_T^2 = E^2 \sin^2{\theta} \).  |
+| double | **[Et](/documentation/code/modules/group__momutils/#function-et)**() const<br>Calculate the transverse energy \( E_T = E \sin{\theta} \).  |
+| double | **[gamma](/documentation/code/modules/group__momutils/#function-gamma)**() const |
+| <a href="/documentation/code/classes/classrivet_1_1vector3/">Vector3</a> | **[gammaVec](/documentation/code/modules/group__momutils/#function-gammavec)**() const |
+| double | **[beta](/documentation/code/modules/group__momutils/#function-beta)**() const |
+| <a href="/documentation/code/classes/classrivet_1_1vector3/">Vector3</a> | **[betaVec](/documentation/code/modules/group__momutils/#function-betavec)**() const |
+| <a href="/documentation/code/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & | **[operator*=](/documentation/code/modules/group__momutils/#function-operator*=)**(double a)<br>Multiply by a scalar.  |
+| <a href="/documentation/code/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & | **[operator/=](/documentation/code/modules/group__momutils/#function-operator/=)**(double a)<br>Divide by a scalar.  |
+| <a href="/documentation/code/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & | **[operator+=](/documentation/code/modules/group__momutils/#function-operator+=)**(const <a href="/documentation/code/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & v)<br>Add to this 4-vector. NB time as well as space components are added.  |
+| <a href="/documentation/code/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & | **[operator-=](/documentation/code/modules/group__momutils/#function-operator-=)**(const <a href="/documentation/code/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & v)<br>Subtract from this 4-vector. NB time as well as space components are subtracted.  |
+| <a href="/documentation/code/classes/classrivet_1_1fourmomentum/">FourMomentum</a> | **[operator-](/documentation/code/modules/group__momutils/#function-operator-)**() const<br>Multiply all components (time and space) by -1.  |
+| <a href="/documentation/code/classes/classrivet_1_1fourmomentum/">FourMomentum</a> | **[reverse](/documentation/code/modules/group__momutils/#function-reverse)**() const<br>Multiply space components only by -1.  |
+| <a href="/documentation/code/classes/classrivet_1_1fourmomentum/">FourMomentum</a> | **[mkXYZE](/documentation/code/modules/group__momutils/#function-mkxyze)**(double px, double py, double pz, double E)<br>Make a vector from (px,py,pz,E) coordinates.  |
+| <a href="/documentation/code/classes/classrivet_1_1fourmomentum/">FourMomentum</a> | **[mkXYZM](/documentation/code/modules/group__momutils/#function-mkxyzm)**(double px, double py, double pz, double mass)<br>Make a vector from (px,py,pz) coordinates and the mass.  |
+| <a href="/documentation/code/classes/classrivet_1_1fourmomentum/">FourMomentum</a> | **[mkEtaPhiME](/documentation/code/modules/group__momutils/#function-mketaphime)**(double eta, double phi, double mass, double E)<br>Make a vector from (eta,phi,energy) coordinates and the mass.  |
+| <a href="/documentation/code/classes/classrivet_1_1fourmomentum/">FourMomentum</a> | **[mkEtaPhiMPt](/documentation/code/modules/group__momutils/#function-mketaphimpt)**(double eta, double phi, double mass, double pt)<br>Make a vector from (eta,phi,pT) coordinates and the mass.  |
+| <a href="/documentation/code/classes/classrivet_1_1fourmomentum/">FourMomentum</a> | **[mkRapPhiME](/documentation/code/modules/group__momutils/#function-mkrapphime)**(double y, double phi, double mass, double E)<br>Make a vector from (y,phi,energy) coordinates and the mass.  |
+| <a href="/documentation/code/classes/classrivet_1_1fourmomentum/">FourMomentum</a> | **[mkRapPhiMPt](/documentation/code/modules/group__momutils/#function-mkrapphimpt)**(double y, double phi, double mass, double pt)<br>Make a vector from (y,phi,pT) coordinates and the mass.  |
+| <a href="/documentation/code/classes/classrivet_1_1fourmomentum/">FourMomentum</a> | **[mkThetaPhiME](/documentation/code/modules/group__momutils/#function-mkthetaphime)**(double theta, double phi, double mass, double E)<br>Make a vector from (theta,phi,energy) coordinates and the mass.  |
+| <a href="/documentation/code/classes/classrivet_1_1fourmomentum/">FourMomentum</a> | **[mkThetaPhiMPt](/documentation/code/modules/group__momutils/#function-mkthetaphimpt)**(double theta, double phi, double mass, double pt)<br>Make a vector from (theta,phi,pT) coordinates and the mass.  |
+| <a href="/documentation/code/classes/classrivet_1_1fourmomentum/">FourMomentum</a> | **[mkPtPhiME](/documentation/code/modules/group__momutils/#function-mkptphime)**(double pt, double phi, double mass, double E)<br>Make a vector from (pT,phi,energy) coordinates and the mass.  |
+| | **[FourMomentum](/documentation/code/modules/group__momutils/#function-fourmomentum)**() |
+| template <typename V4TYPE ,typename std::enable_if< HasXYZT< V4TYPE >::value, int >::type DUMMY =0\> <br>| **[FourMomentum](/documentation/code/modules/group__momutils/#function-fourmomentum)**(const V4TYPE & other) |
+| | **[FourMomentum](/documentation/code/modules/group__momutils/#function-fourmomentum)**(const <a href="/documentation/code/classes/classrivet_1_1vector/">Vector</a>< 4 > & other) |
+| | **[FourMomentum](/documentation/code/modules/group__momutils/#function-fourmomentum)**(const double E, const double px, const double py, const double pz) |
+| | **[~FourMomentum](/documentation/code/modules/group__momutils/#function-~fourmomentum)**() |
+| double | **[t](/documentation/code/modules/group__momutils/#function-t)**() const |
+| double | **[t2](/documentation/code/modules/group__momutils/#function-t2)**() const |
+| <a href="/documentation/code/classes/classrivet_1_1fourvector/">FourVector</a> & | **[setT](/documentation/code/modules/group__momutils/#function-sett)**(const double t) |
+| double | **[x](/documentation/code/modules/group__momutils/#function-x)**() const |
+| double | **[x2](/documentation/code/modules/group__momutils/#function-x2)**() const |
+| <a href="/documentation/code/classes/classrivet_1_1fourvector/">FourVector</a> & | **[setX](/documentation/code/modules/group__momutils/#function-setx)**(const double x) |
+| double | **[y](/documentation/code/modules/group__momutils/#function-y)**() const |
+| double | **[y2](/documentation/code/modules/group__momutils/#function-y2)**() const |
+| <a href="/documentation/code/classes/classrivet_1_1fourvector/">FourVector</a> & | **[setY](/documentation/code/modules/group__momutils/#function-sety)**(const double y) |
+| double | **[z](/documentation/code/modules/group__momutils/#function-z)**() const |
+| double | **[z2](/documentation/code/modules/group__momutils/#function-z2)**() const |
+| <a href="/documentation/code/classes/classrivet_1_1fourvector/">FourVector</a> & | **[setZ](/documentation/code/modules/group__momutils/#function-setz)**(const double z) |
+| double | **[invariant](/documentation/code/modules/group__momutils/#function-invariant)**() const |
+| bool | **[isNull](/documentation/code/modules/group__momutils/#function-isnull)**() const |
+| double | **[angle](/documentation/code/modules/group__momutils/#function-angle)**(const <a href="/documentation/code/classes/classrivet_1_1fourvector/">FourVector</a> & v) const<br>Angle between this vector and another.  |
+| double | **[angle](/documentation/code/modules/group__momutils/#function-angle)**(const <a href="/documentation/code/classes/classrivet_1_1vector3/">Vector3</a> & v3) const<br>Angle between this vector and another (3-vector)  |
+| double | **[polarRadius2](/documentation/code/modules/group__momutils/#function-polarradius2)**() const<br>Mod-square of the projection of the 3-vector on to the \( x-y \) plane This is a more efficient function than <code>polarRadius</code>, as it avoids the square root. Use it if you only need the squared value, or e.g. an ordering by magnitude.  |
+| double | **[perp2](/documentation/code/modules/group__momutils/#function-perp2)**() const<br>Synonym for polarRadius2.  |
+| double | **[rho2](/documentation/code/modules/group__momutils/#function-rho2)**() const<br>Synonym for polarRadius2.  |
+| double | **[polarRadius](/documentation/code/modules/group__momutils/#function-polarradius)**() const<br>Magnitude of projection of 3-vector on to the \( x-y \) plane.  |
+| double | **[perp](/documentation/code/modules/group__momutils/#function-perp)**() const<br>Synonym for polarRadius.  |
+| double | **[rho](/documentation/code/modules/group__momutils/#function-rho)**() const<br>Synonym for polarRadius.  |
+| <a href="/documentation/code/classes/classrivet_1_1vector3/">Vector3</a> | **[polarVec](/documentation/code/modules/group__momutils/#function-polarvec)**() const<br>Projection of 3-vector on to the \( x-y \) plane.  |
+| <a href="/documentation/code/classes/classrivet_1_1vector3/">Vector3</a> | **[perpVec](/documentation/code/modules/group__momutils/#function-perpvec)**() const<br>Synonym for polarVec.  |
+| <a href="/documentation/code/classes/classrivet_1_1vector3/">Vector3</a> | **[rhoVec](/documentation/code/modules/group__momutils/#function-rhovec)**() const<br>Synonym for polarVec.  |
+| double | **[azimuthalAngle](/documentation/code/modules/group__momutils/#function-azimuthalangle)**(const <a href="/documentation/code/namespaces/namespacerivet/#enum-phimapping">PhiMapping</a> mapping =ZERO_2PI) const<br>Angle subtended by the 3-vector's projection in x-y and the x-axis.  |
+| double | **[phi](/documentation/code/modules/group__momutils/#function-phi)**(const <a href="/documentation/code/namespaces/namespacerivet/#enum-phimapping">PhiMapping</a> mapping =ZERO_2PI) const<br>Synonym for azimuthalAngle.  |
+| double | **[polarAngle](/documentation/code/modules/group__momutils/#function-polarangle)**() const<br>Angle subtended by the 3-vector and the z-axis.  |
+| double | **[theta](/documentation/code/modules/group__momutils/#function-theta)**() const<br>Synonym for polarAngle.  |
+| double | **[pseudorapidity](/documentation/code/modules/group__momutils/#function-pseudorapidity)**() const<br>Pseudorapidity (defined purely by the 3-vector components)  |
+| double | **[eta](/documentation/code/modules/group__momutils/#function-eta)**() const<br>Synonym for pseudorapidity.  |
+| double | **[abspseudorapidity](/documentation/code/modules/group__momutils/#function-abspseudorapidity)**() const<br>Get the \( |\eta| \) directly.  |
+| double | **[abseta](/documentation/code/modules/group__momutils/#function-abseta)**() const<br>Get the \( |\eta| \) directly (alias).  |
+| <a href="/documentation/code/classes/classrivet_1_1vector3/">Vector3</a> | **[vector3](/documentation/code/modules/group__momutils/#function-vector3)**() const<br>Get the spatial part of the 4-vector as a 3-vector.  |
+| | **[operator Vector3](/documentation/code/modules/group__momutils/#function-operator-vector3)**() const<br>Implicit cast to a 3-vector.  |
+| double | **[contract](/documentation/code/modules/group__momutils/#function-contract)**(const <a href="/documentation/code/classes/classrivet_1_1fourvector/">FourVector</a> & v) const<br>Contract two 4-vectors, with metric signature (+ - - -).  |
+| double | **[dot](/documentation/code/modules/group__momutils/#function-dot)**(const <a href="/documentation/code/classes/classrivet_1_1fourvector/">FourVector</a> & v) const<br>Contract two 4-vectors, with metric signature (+ - - -).  |
+| double | **[operator*](/documentation/code/modules/group__momutils/#function-operator*)**(const <a href="/documentation/code/classes/classrivet_1_1fourvector/">FourVector</a> & v) const<br>Contract two 4-vectors, with metric signature (+ - - -).  |
+| <a href="/documentation/code/classes/classrivet_1_1fourvector/">FourVector</a> & | **[operator+=](/documentation/code/modules/group__momutils/#function-operator+=)**(const <a href="/documentation/code/classes/classrivet_1_1fourvector/">FourVector</a> & v)<br>Add to this 4-vector.  |
+| <a href="/documentation/code/classes/classrivet_1_1fourvector/">FourVector</a> & | **[operator-=](/documentation/code/modules/group__momutils/#function-operator-=)**(const <a href="/documentation/code/classes/classrivet_1_1fourvector/">FourVector</a> & v)<br>Subtract from this 4-vector. NB time as well as space components are subtracted.  |
+| const double & | **[get](/documentation/code/classes/classrivet_1_1fourmomentum/#function-get)**(const size_t index) const |
+| double & | **[get](/documentation/code/classes/classrivet_1_1fourmomentum/#function-get)**(const size_t index) |
+| const double & | **[operator[]](/documentation/code/classes/classrivet_1_1fourmomentum/#function-operator[])**(const size_t index) const<br>Direct access to vector elements by index.  |
+| double & | **[operator[]](/documentation/code/classes/classrivet_1_1fourmomentum/#function-operator[])**(const size_t index)<br>Direct access to vector elements by index.  |
+| <a href="/documentation/code/classes/classrivet_1_1vector/">Vector</a>< N > & | **[set](/documentation/code/classes/classrivet_1_1fourmomentum/#function-set)**(const size_t index, const double value)<br>Set indexed value.  |
+| constexpr size_t | **[size](/documentation/code/classes/classrivet_1_1fourmomentum/#function-size)**() const<br>Vector dimensionality.  |
+| bool | **[isZero](/documentation/code/classes/classrivet_1_1fourmomentum/#function-iszero)**(double tolerance =1<a href="/documentation/code/modules/group__momutils/#function-e">E</a>-5) const<br>Check for nullness, allowing for numerical precision.  |
+| double | **[mod2](/documentation/code/classes/classrivet_1_1fourmomentum/#function-mod2)**() const<br>Calculate the modulus-squared of a vector. \( \sum_{i=1}^N x_i^2 \).  |
+| double | **[mod](/documentation/code/classes/classrivet_1_1fourmomentum/#function-mod)**() const<br>Calculate the modulus of a vector. \( \sqrt{\sum_{i=1}^N x_i^2} \).  |
+| bool | **[operator==](/documentation/code/classes/classrivet_1_1fourmomentum/#function-operator==)**(const <a href="/documentation/code/classes/classrivet_1_1vector/">Vector</a>< N > & a) const |
+| bool | **[operator!=](/documentation/code/classes/classrivet_1_1fourmomentum/#function-operator!=)**(const <a href="/documentation/code/classes/classrivet_1_1vector/">Vector</a>< N > & a) const |
 
 ## Friends
 
 |                | Name           |
 | -------------- | -------------- |
-| <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a> | **[multiply](http://example.org/modules/group__momutils/#friend-multiply)**(const double a, const <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & v)  |
-| <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a> | **[multiply](http://example.org/modules/group__momutils/#friend-multiply)**(const <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & v, const double a)  |
-| <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a> | **[add](http://example.org/modules/group__momutils/#friend-add)**(const <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & a, const <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & b)  |
-| <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a> | **[transform](http://example.org/modules/group__momutils/#friend-transform)**(const <a href="http://example.org/classes/classrivet_1_1lorentztransform/">LorentzTransform</a> & lt, const <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & v4)  |
+| <a href="/documentation/code/classes/classrivet_1_1fourmomentum/">FourMomentum</a> | **[multiply](/documentation/code/modules/group__momutils/#friend-multiply)**(const double a, const <a href="/documentation/code/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & v)  |
+| <a href="/documentation/code/classes/classrivet_1_1fourmomentum/">FourMomentum</a> | **[multiply](/documentation/code/modules/group__momutils/#friend-multiply)**(const <a href="/documentation/code/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & v, const double a)  |
+| <a href="/documentation/code/classes/classrivet_1_1fourmomentum/">FourMomentum</a> | **[add](/documentation/code/modules/group__momutils/#friend-add)**(const <a href="/documentation/code/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & a, const <a href="/documentation/code/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & b)  |
+| <a href="/documentation/code/classes/classrivet_1_1fourmomentum/">FourMomentum</a> | **[transform](/documentation/code/modules/group__momutils/#friend-transform)**(const <a href="/documentation/code/classes/classrivet_1_1lorentztransform/">LorentzTransform</a> & lt, const <a href="/documentation/code/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & v4)  |
 
 ## Additional inherited members
 
-**Public Functions inherited from [Rivet::FourVector](http://example.org/classes/classrivet_1_1fourvector/)**
+**Public Functions inherited from [Rivet::FourVector](/documentation/code/classes/classrivet_1_1fourvector/)**
 
 |                | Name           |
 | -------------- | -------------- |
-| | **[FourVector](http://example.org/modules/group__momutils/#function-fourvector)**() |
-| template <typename V4TYPE ,typename std::enable_if< HasXYZT< V4TYPE >::value, int >::type DUMMY =0\> <br>| **[FourVector](http://example.org/modules/group__momutils/#function-fourvector)**(const V4TYPE & other) |
-| | **[FourVector](http://example.org/modules/group__momutils/#function-fourvector)**(const <a href="http://example.org/classes/classrivet_1_1vector/">Vector</a>< 4 > & other) |
-| | **[FourVector](http://example.org/modules/group__momutils/#function-fourvector)**(const double t, const double x, const double y, const double z) |
-| virtual | **[~FourVector](http://example.org/modules/group__momutils/#function-~fourvector)**() |
+| | **[FourVector](/documentation/code/modules/group__momutils/#function-fourvector)**() |
+| template <typename V4TYPE ,typename std::enable_if< HasXYZT< V4TYPE >::value, int >::type DUMMY =0\> <br>| **[FourVector](/documentation/code/modules/group__momutils/#function-fourvector)**(const V4TYPE & other) |
+| | **[FourVector](/documentation/code/modules/group__momutils/#function-fourvector)**(const <a href="/documentation/code/classes/classrivet_1_1vector/">Vector</a>< 4 > & other) |
+| | **[FourVector](/documentation/code/modules/group__momutils/#function-fourvector)**(const double t, const double x, const double y, const double z) |
+| virtual | **[~FourVector](/documentation/code/modules/group__momutils/#function-~fourvector)**() |
 
-**Public Functions inherited from [Rivet::Vector< 4 >](http://example.org/classes/classrivet_1_1vector/)**
+**Public Functions inherited from [Rivet::Vector< 4 >](/documentation/code/classes/classrivet_1_1vector/)**
 
 |                | Name           |
 | -------------- | -------------- |
-| | **[Vector](http://example.org/classes/classrivet_1_1vector/#function-vector)**() |
-| | **[Vector](http://example.org/classes/classrivet_1_1vector/#function-vector)**(const <a href="http://example.org/classes/classrivet_1_1vector/">Vector</a>< N > & other) |
+| | **[Vector](/documentation/code/classes/classrivet_1_1vector/#function-vector)**() |
+| | **[Vector](/documentation/code/classes/classrivet_1_1vector/#function-vector)**(const <a href="/documentation/code/classes/classrivet_1_1vector/">Vector</a>< N > & other) |
 
 
 ## Public Types Documentation
@@ -1345,4 +1345,4 @@ friend FourMomentum transform(
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:08 +0100
+Updated on 2022-07-28 at 18:36:46 +0100

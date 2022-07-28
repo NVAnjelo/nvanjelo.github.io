@@ -7,11 +7,11 @@ description: "Take a Jet and return a constant efficiency. "
 
 # Rivet::JET_EFF_CONST
 
-**Module:** **[Detector smearing & efficiency functions](http://example.org/modules/group__smearing/)** **/** **[Generic jet filtering, efficiency and smearing utils](http://example.org/modules/group__smearing__particle/)**
+**Module:** **[Detector smearing & efficiency functions](/documentation/code/modules/group__smearing/)** **/** **[Generic jet filtering, efficiency and smearing utils](/documentation/code/modules/group__smearing__particle/)**
 
 
 
-Take a <a href="http://example.org/classes/classrivet_1_1jet/">Jet</a> and return a constant efficiency. 
+Take a <a href="/documentation/code/classes/classrivet_1_1jet/">Jet</a> and return a constant efficiency. 
 
 
 `#include <JetSmearingFunctions.hh>`
@@ -20,8 +20,8 @@ Take a <a href="http://example.org/classes/classrivet_1_1jet/">Jet</a> and retur
 
 |                | Name           |
 | -------------- | -------------- |
-| | **[JET_EFF_CONST](http://example.org/classes/structrivet_1_1jet__eff__const/#function-jet-eff-const)**(double eff) |
-| double | **[operator()](http://example.org/classes/structrivet_1_1jet__eff__const/#function-operator())**(const <a href="http://example.org/classes/classrivet_1_1jet/">Jet</a> & ) const |
+| | **[JET_EFF_CONST](/documentation/code/classes/structrivet_1_1jet__eff__const/#function-jet-eff-const)**(double eff) |
+| double | **[operator()](/documentation/code/classes/structrivet_1_1jet__eff__const/#function-operator())**(const <a href="/documentation/code/classes/classrivet_1_1jet/">Jet</a> & ) const |
 
 ## Public Functions Documentation
 
@@ -45,4 +45,4 @@ inline double operator()(
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

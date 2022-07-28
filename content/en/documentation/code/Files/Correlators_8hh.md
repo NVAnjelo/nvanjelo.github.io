@@ -14,15 +14,15 @@ description: "[Documentation update required.]"
 
 | Name           |
 | -------------- |
-| **[Rivet](http://example.org/namespaces/namespacerivet/)**  |
+| **[Rivet](/documentation/code/namespaces/namespacerivet/)**  |
 
 ## Classes
 
 |                | Name           |
 | -------------- | -------------- |
-| class | **[Rivet::Correlators](http://example.org/classes/classrivet_1_1correlators/)** <br>Projection for calculating correlators for flow measurements.  |
-| class | **[Rivet::CumulantAnalysis](http://example.org/classes/classrivet_1_1cumulantanalysis/)** <br>Tools for flow analyses.  |
-| class | **[Rivet::CumulantAnalysis::ECorrelator](http://example.org/classes/classrivet_1_1cumulantanalysis_1_1ecorrelator/)** <br>A helper class to calculate all event averages of correlators.  |
+| class | **[Rivet::Correlators](/documentation/code/classes/classrivet_1_1correlators/)** <br>Projection for calculating correlators for flow measurements.  |
+| class | **[Rivet::CumulantAnalysis](/documentation/code/classes/classrivet_1_1cumulantanalysis/)** <br>Tools for flow analyses.  |
+| class | **[Rivet::CumulantAnalysis::ECorrelator](/documentation/code/classes/classrivet_1_1cumulantanalysis_1_1ecorrelator/)** <br>A helper class to calculate all event averages of correlators.  |
 
 
 
@@ -1056,4 +1056,4 @@ namespace Rivet {
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

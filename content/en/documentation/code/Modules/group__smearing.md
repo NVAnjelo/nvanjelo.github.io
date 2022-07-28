@@ -14,15 +14,15 @@ description: "[Documentation update required.]"
 
 | Name           |
 | -------------- |
-| **[Experiment-specific electron efficiency and smearing functions](http://example.org/modules/group__smearing__elec/)**  |
-| **[Experiment-specific photon efficiency and smearing functions](http://example.org/modules/group__smearing__photon/)**  |
-| **[Experiment-specific muon efficiency and smearing functions](http://example.org/modules/group__smearing__muon/)**  |
-| **[Experiment-specific tau efficiency and smearing functions](http://example.org/modules/group__smearing__tau/)**  |
-| **[Experiment-specific jet efficiency and smearing functions](http://example.org/modules/group__smearing__jet/)**  |
-| **[Experiment-specific missing-ET smearing functions](http://example.org/modules/group__smearing__met/)**  |
-| **[Experiment-specific tracking efficiency and smearing functions](http://example.org/modules/group__smearing__trk/)**  |
-| **[Generic jet filtering, efficiency and smearing utils](http://example.org/modules/group__smearing__particle/)**  |
-| **[Generic 4-momentum filtering, efficiency and smearing utils](http://example.org/modules/group__smearing__mom/)**  |
+| **[Experiment-specific electron efficiency and smearing functions](/documentation/code/modules/group__smearing__elec/)**  |
+| **[Experiment-specific photon efficiency and smearing functions](/documentation/code/modules/group__smearing__photon/)**  |
+| **[Experiment-specific muon efficiency and smearing functions](/documentation/code/modules/group__smearing__muon/)**  |
+| **[Experiment-specific tau efficiency and smearing functions](/documentation/code/modules/group__smearing__tau/)**  |
+| **[Experiment-specific jet efficiency and smearing functions](/documentation/code/modules/group__smearing__jet/)**  |
+| **[Experiment-specific missing-ET smearing functions](/documentation/code/modules/group__smearing__met/)**  |
+| **[Experiment-specific tracking efficiency and smearing functions](/documentation/code/modules/group__smearing__trk/)**  |
+| **[Generic jet filtering, efficiency and smearing utils](/documentation/code/modules/group__smearing__particle/)**  |
+| **[Generic 4-momentum filtering, efficiency and smearing utils](/documentation/code/modules/group__smearing__mom/)**  |
 
 
 
@@ -31,4 +31,4 @@ description: "[Documentation update required.]"
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

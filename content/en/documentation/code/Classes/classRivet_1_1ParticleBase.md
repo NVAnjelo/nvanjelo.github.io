@@ -9,64 +9,64 @@ description: "Base class for particle-like things like Particle and Jet. "
 
 
 
-Base class for particle-like things like <a href="http://example.org/classes/classrivet_1_1particle/">Particle</a> and <a href="http://example.org/classes/classrivet_1_1jet/">Jet</a>. 
+Base class for particle-like things like <a href="/documentation/code/classes/classrivet_1_1particle/">Particle</a> and <a href="/documentation/code/classes/classrivet_1_1jet/">Jet</a>. 
 
 
 `#include <ParticleBase.hh>`
 
-Inherited by [Rivet::Jet](http://example.org/classes/classrivet_1_1jet/), [Rivet::Particle](http://example.org/classes/classrivet_1_1particle/)
+Inherited by [Rivet::Jet](/documentation/code/classes/classrivet_1_1jet/), [Rivet::Particle](/documentation/code/classes/classrivet_1_1particle/)
 
 ## Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
-| virtual const <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & | **[momentum](http://example.org/classes/classrivet_1_1particlebase/#function-momentum)**() const =0<br>Get equivalent single momentum four-vector (const).  |
-| const <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & | **[mom](http://example.org/classes/classrivet_1_1particlebase/#function-mom)**() const<br>Get equivalent single momentum four-vector (const) (alias).  |
-| | **[operator const FourMomentum &](http://example.org/classes/classrivet_1_1particlebase/#function-operator-const-fourmomentum-&)**() const<br>Cast operator for conversion to <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a>.  |
-| double | **[E](http://example.org/classes/classrivet_1_1particlebase/#function-e)**() const<br>Get the energy directly.  |
-| double | **[energy](http://example.org/classes/classrivet_1_1particlebase/#function-energy)**() const<br>Get the energy directly (alias).  |
-| double | **[E2](http://example.org/classes/classrivet_1_1particlebase/#function-e2)**() const<br>Get the energy-squared.  |
-| double | **[energy2](http://example.org/classes/classrivet_1_1particlebase/#function-energy2)**() const<br>Get the energy-squared (alias).  |
-| double | **[pt](http://example.org/classes/classrivet_1_1particlebase/#function-pt)**() const<br>Get the \( p_T \) directly.  |
-| double | **[pT](http://example.org/classes/classrivet_1_1particlebase/#function-pt)**() const<br>Get the \( p_T \) directly (alias).  |
-| double | **[perp](http://example.org/classes/classrivet_1_1particlebase/#function-perp)**() const<br>Get the \( p_T \) directly (alias).  |
-| double | **[pt2](http://example.org/classes/classrivet_1_1particlebase/#function-pt2)**() const<br>Get the \( p_T^2 \) directly.  |
-| double | **[pT2](http://example.org/classes/classrivet_1_1particlebase/#function-pt2)**() const<br>Get the \( p_T^2 \) directly (alias).  |
-| double | **[perp2](http://example.org/classes/classrivet_1_1particlebase/#function-perp2)**() const<br>Get the \( p_T^2 \) directly (alias).  |
-| double | **[Et](http://example.org/classes/classrivet_1_1particlebase/#function-et)**() const<br>Get the \( E_T \) directly.  |
-| double | **[Et2](http://example.org/classes/classrivet_1_1particlebase/#function-et2)**() const<br>Get the \( E_T^2 \) directly.  |
-| double | **[mass](http://example.org/classes/classrivet_1_1particlebase/#function-mass)**() const<br>Get the mass directly.  |
-| double | **[mass2](http://example.org/classes/classrivet_1_1particlebase/#function-mass2)**() const<br>Get the mass**2 directly.  |
-| double | **[pseudorapidity](http://example.org/classes/classrivet_1_1particlebase/#function-pseudorapidity)**() const<br>Get the \( \eta \) directly.  |
-| double | **[eta](http://example.org/classes/classrivet_1_1particlebase/#function-eta)**() const<br>Get the \( \eta \) directly (alias).  |
-| double | **[abspseudorapidity](http://example.org/classes/classrivet_1_1particlebase/#function-abspseudorapidity)**() const<br>Get the \( |\eta| \) directly.  |
-| double | **[abseta](http://example.org/classes/classrivet_1_1particlebase/#function-abseta)**() const<br>Get the \( |\eta| \) directly (alias).  |
-| double | **[rapidity](http://example.org/classes/classrivet_1_1particlebase/#function-rapidity)**() const<br>Get the \( y \) directly.  |
-| double | **[rap](http://example.org/classes/classrivet_1_1particlebase/#function-rap)**() const<br>Get the \( y \) directly (alias).  |
-| double | **[absrapidity](http://example.org/classes/classrivet_1_1particlebase/#function-absrapidity)**() const<br>Get the \( |y| \) directly.  |
-| double | **[absrap](http://example.org/classes/classrivet_1_1particlebase/#function-absrap)**() const<br>Get the \( |y| \) directly (alias).  |
-| double | **[azimuthalAngle](http://example.org/classes/classrivet_1_1particlebase/#function-azimuthalangle)**(const <a href="http://example.org/namespaces/namespacerivet/#enum-phimapping">PhiMapping</a> mapping =ZERO_2PI) const<br>Azimuthal angle \( \phi \).  |
-| double | **[phi](http://example.org/classes/classrivet_1_1particlebase/#function-phi)**(const <a href="http://example.org/namespaces/namespacerivet/#enum-phimapping">PhiMapping</a> mapping =ZERO_2PI) const<br>Get the \( \phi \) directly.  |
-| <a href="http://example.org/classes/classrivet_1_1vector3/">Vector3</a> | **[p3](http://example.org/classes/classrivet_1_1particlebase/#function-p3)**() const<br>Get the 3-momentum directly.  |
-| double | **[p](http://example.org/classes/classrivet_1_1particlebase/#function-p)**() const<br>Get the 3-momentum magnitude directly.  |
-| double | **[p2](http://example.org/classes/classrivet_1_1particlebase/#function-p2)**() const<br>Get the 3-momentum magnitude-squared directly.  |
-| <a href="http://example.org/classes/classrivet_1_1vector3/">Vector3</a> | **[ptvec](http://example.org/classes/classrivet_1_1particlebase/#function-ptvec)**() const<br>Get the transverse 3-momentum directly.  |
-| <a href="http://example.org/classes/classrivet_1_1vector3/">Vector3</a> | **[pTvec](http://example.org/classes/classrivet_1_1particlebase/#function-ptvec)**() const<br>Get the transverse 3-momentum directly.  |
-| double | **[px](http://example.org/classes/classrivet_1_1particlebase/#function-px)**() const<br>x component of momentum.  |
-| double | **[py](http://example.org/classes/classrivet_1_1particlebase/#function-py)**() const<br>y component of momentum.  |
-| double | **[pz](http://example.org/classes/classrivet_1_1particlebase/#function-pz)**() const<br>z component of momentum.  |
-| double | **[px2](http://example.org/classes/classrivet_1_1particlebase/#function-px2)**() const<br>x component of momentum, squared.  |
-| double | **[py2](http://example.org/classes/classrivet_1_1particlebase/#function-py2)**() const<br>y component of momentum, squared.  |
-| double | **[pz2](http://example.org/classes/classrivet_1_1particlebase/#function-pz2)**() const<br>z component of momentum, squared.  |
-| double | **[polarAngle](http://example.org/classes/classrivet_1_1particlebase/#function-polarangle)**() const<br>Angle subtended by the 3-vector and the z-axis.  |
-| double | **[theta](http://example.org/classes/classrivet_1_1particlebase/#function-theta)**() const<br>Synonym for polarAngle.  |
-| double | **[angle](http://example.org/classes/classrivet_1_1particlebase/#function-angle)**(const <a href="http://example.org/classes/classrivet_1_1particlebase/">ParticleBase</a> & v) const<br>Angle between this vector and another.  |
-| double | **[angle](http://example.org/classes/classrivet_1_1particlebase/#function-angle)**(const <a href="http://example.org/classes/classrivet_1_1fourvector/">FourVector</a> & v) const<br>Angle between this vector and another.  |
-| double | **[angle](http://example.org/classes/classrivet_1_1particlebase/#function-angle)**(const <a href="http://example.org/classes/classrivet_1_1vector3/">Vector3</a> & v3) const<br>Angle between this vector and another (3-vector)  |
-| double | **[dot](http://example.org/classes/classrivet_1_1particlebase/#function-dot)**(const <a href="http://example.org/classes/classrivet_1_1particlebase/">ParticleBase</a> & v) const<br>Lorentz dot product between this 4-vector and another.  |
-| double | **[dot](http://example.org/classes/classrivet_1_1particlebase/#function-dot)**(const <a href="http://example.org/classes/classrivet_1_1fourvector/">FourVector</a> & v) const<br>Angle between this 4-vector and another.  |
-| | **[ParticleBase](http://example.org/classes/classrivet_1_1particlebase/#function-particlebase)**()<br>Default constructor.  |
-| virtual | **[~ParticleBase](http://example.org/classes/classrivet_1_1particlebase/#function-~particlebase)**()<br>Virtual destructor.  |
+| virtual const <a href="/documentation/code/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & | **[momentum](/documentation/code/classes/classrivet_1_1particlebase/#function-momentum)**() const =0<br>Get equivalent single momentum four-vector (const).  |
+| const <a href="/documentation/code/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & | **[mom](/documentation/code/classes/classrivet_1_1particlebase/#function-mom)**() const<br>Get equivalent single momentum four-vector (const) (alias).  |
+| | **[operator const FourMomentum &](/documentation/code/classes/classrivet_1_1particlebase/#function-operator-const-fourmomentum-&)**() const<br>Cast operator for conversion to <a href="/documentation/code/classes/classrivet_1_1fourmomentum/">FourMomentum</a>.  |
+| double | **[E](/documentation/code/classes/classrivet_1_1particlebase/#function-e)**() const<br>Get the energy directly.  |
+| double | **[energy](/documentation/code/classes/classrivet_1_1particlebase/#function-energy)**() const<br>Get the energy directly (alias).  |
+| double | **[E2](/documentation/code/classes/classrivet_1_1particlebase/#function-e2)**() const<br>Get the energy-squared.  |
+| double | **[energy2](/documentation/code/classes/classrivet_1_1particlebase/#function-energy2)**() const<br>Get the energy-squared (alias).  |
+| double | **[pt](/documentation/code/classes/classrivet_1_1particlebase/#function-pt)**() const<br>Get the \( p_T \) directly.  |
+| double | **[pT](/documentation/code/classes/classrivet_1_1particlebase/#function-pt)**() const<br>Get the \( p_T \) directly (alias).  |
+| double | **[perp](/documentation/code/classes/classrivet_1_1particlebase/#function-perp)**() const<br>Get the \( p_T \) directly (alias).  |
+| double | **[pt2](/documentation/code/classes/classrivet_1_1particlebase/#function-pt2)**() const<br>Get the \( p_T^2 \) directly.  |
+| double | **[pT2](/documentation/code/classes/classrivet_1_1particlebase/#function-pt2)**() const<br>Get the \( p_T^2 \) directly (alias).  |
+| double | **[perp2](/documentation/code/classes/classrivet_1_1particlebase/#function-perp2)**() const<br>Get the \( p_T^2 \) directly (alias).  |
+| double | **[Et](/documentation/code/classes/classrivet_1_1particlebase/#function-et)**() const<br>Get the \( E_T \) directly.  |
+| double | **[Et2](/documentation/code/classes/classrivet_1_1particlebase/#function-et2)**() const<br>Get the \( E_T^2 \) directly.  |
+| double | **[mass](/documentation/code/classes/classrivet_1_1particlebase/#function-mass)**() const<br>Get the mass directly.  |
+| double | **[mass2](/documentation/code/classes/classrivet_1_1particlebase/#function-mass2)**() const<br>Get the mass**2 directly.  |
+| double | **[pseudorapidity](/documentation/code/classes/classrivet_1_1particlebase/#function-pseudorapidity)**() const<br>Get the \( \eta \) directly.  |
+| double | **[eta](/documentation/code/classes/classrivet_1_1particlebase/#function-eta)**() const<br>Get the \( \eta \) directly (alias).  |
+| double | **[abspseudorapidity](/documentation/code/classes/classrivet_1_1particlebase/#function-abspseudorapidity)**() const<br>Get the \( |\eta| \) directly.  |
+| double | **[abseta](/documentation/code/classes/classrivet_1_1particlebase/#function-abseta)**() const<br>Get the \( |\eta| \) directly (alias).  |
+| double | **[rapidity](/documentation/code/classes/classrivet_1_1particlebase/#function-rapidity)**() const<br>Get the \( y \) directly.  |
+| double | **[rap](/documentation/code/classes/classrivet_1_1particlebase/#function-rap)**() const<br>Get the \( y \) directly (alias).  |
+| double | **[absrapidity](/documentation/code/classes/classrivet_1_1particlebase/#function-absrapidity)**() const<br>Get the \( |y| \) directly.  |
+| double | **[absrap](/documentation/code/classes/classrivet_1_1particlebase/#function-absrap)**() const<br>Get the \( |y| \) directly (alias).  |
+| double | **[azimuthalAngle](/documentation/code/classes/classrivet_1_1particlebase/#function-azimuthalangle)**(const <a href="/documentation/code/namespaces/namespacerivet/#enum-phimapping">PhiMapping</a> mapping =ZERO_2PI) const<br>Azimuthal angle \( \phi \).  |
+| double | **[phi](/documentation/code/classes/classrivet_1_1particlebase/#function-phi)**(const <a href="/documentation/code/namespaces/namespacerivet/#enum-phimapping">PhiMapping</a> mapping =ZERO_2PI) const<br>Get the \( \phi \) directly.  |
+| <a href="/documentation/code/classes/classrivet_1_1vector3/">Vector3</a> | **[p3](/documentation/code/classes/classrivet_1_1particlebase/#function-p3)**() const<br>Get the 3-momentum directly.  |
+| double | **[p](/documentation/code/classes/classrivet_1_1particlebase/#function-p)**() const<br>Get the 3-momentum magnitude directly.  |
+| double | **[p2](/documentation/code/classes/classrivet_1_1particlebase/#function-p2)**() const<br>Get the 3-momentum magnitude-squared directly.  |
+| <a href="/documentation/code/classes/classrivet_1_1vector3/">Vector3</a> | **[ptvec](/documentation/code/classes/classrivet_1_1particlebase/#function-ptvec)**() const<br>Get the transverse 3-momentum directly.  |
+| <a href="/documentation/code/classes/classrivet_1_1vector3/">Vector3</a> | **[pTvec](/documentation/code/classes/classrivet_1_1particlebase/#function-ptvec)**() const<br>Get the transverse 3-momentum directly.  |
+| double | **[px](/documentation/code/classes/classrivet_1_1particlebase/#function-px)**() const<br>x component of momentum.  |
+| double | **[py](/documentation/code/classes/classrivet_1_1particlebase/#function-py)**() const<br>y component of momentum.  |
+| double | **[pz](/documentation/code/classes/classrivet_1_1particlebase/#function-pz)**() const<br>z component of momentum.  |
+| double | **[px2](/documentation/code/classes/classrivet_1_1particlebase/#function-px2)**() const<br>x component of momentum, squared.  |
+| double | **[py2](/documentation/code/classes/classrivet_1_1particlebase/#function-py2)**() const<br>y component of momentum, squared.  |
+| double | **[pz2](/documentation/code/classes/classrivet_1_1particlebase/#function-pz2)**() const<br>z component of momentum, squared.  |
+| double | **[polarAngle](/documentation/code/classes/classrivet_1_1particlebase/#function-polarangle)**() const<br>Angle subtended by the 3-vector and the z-axis.  |
+| double | **[theta](/documentation/code/classes/classrivet_1_1particlebase/#function-theta)**() const<br>Synonym for polarAngle.  |
+| double | **[angle](/documentation/code/classes/classrivet_1_1particlebase/#function-angle)**(const <a href="/documentation/code/classes/classrivet_1_1particlebase/">ParticleBase</a> & v) const<br>Angle between this vector and another.  |
+| double | **[angle](/documentation/code/classes/classrivet_1_1particlebase/#function-angle)**(const <a href="/documentation/code/classes/classrivet_1_1fourvector/">FourVector</a> & v) const<br>Angle between this vector and another.  |
+| double | **[angle](/documentation/code/classes/classrivet_1_1particlebase/#function-angle)**(const <a href="/documentation/code/classes/classrivet_1_1vector3/">Vector3</a> & v3) const<br>Angle between this vector and another (3-vector)  |
+| double | **[dot](/documentation/code/classes/classrivet_1_1particlebase/#function-dot)**(const <a href="/documentation/code/classes/classrivet_1_1particlebase/">ParticleBase</a> & v) const<br>Lorentz dot product between this 4-vector and another.  |
+| double | **[dot](/documentation/code/classes/classrivet_1_1particlebase/#function-dot)**(const <a href="/documentation/code/classes/classrivet_1_1fourvector/">FourVector</a> & v) const<br>Angle between this 4-vector and another.  |
+| | **[ParticleBase](/documentation/code/classes/classrivet_1_1particlebase/#function-particlebase)**()<br>Default constructor.  |
+| virtual | **[~ParticleBase](/documentation/code/classes/classrivet_1_1particlebase/#function-~particlebase)**()<br>Virtual destructor.  |
 
 ## Public Functions Documentation
 
@@ -78,7 +78,7 @@ virtual const FourMomentum & momentum() const =0
 
 Get equivalent single momentum four-vector (const). 
 
-**Reimplemented by**: [Rivet::Jet::momentum](http://example.org/classes/classrivet_1_1jet/#function-momentum), [Rivet::DressedLepton::momentum](http://example.org/classes/classrivet_1_1dressedlepton/#function-momentum)
+**Reimplemented by**: [Rivet::Jet::momentum](/documentation/code/classes/classrivet_1_1jet/#function-momentum), [Rivet::DressedLepton::momentum](/documentation/code/classes/classrivet_1_1dressedlepton/#function-momentum)
 
 
 ### function mom
@@ -95,7 +95,7 @@ Get equivalent single momentum four-vector (const) (alias).
 inline operator const FourMomentum &() const
 ```
 
-Cast operator for conversion to <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a>. 
+Cast operator for conversion to <a href="/documentation/code/classes/classrivet_1_1fourmomentum/">FourMomentum</a>. 
 
 ### function E
 
@@ -465,4 +465,4 @@ Virtual destructor.
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:08 +0100
+Updated on 2022-07-28 at 18:36:46 +0100

@@ -14,23 +14,23 @@ description: "[Documentation update required.]"
 
 | Name           |
 | -------------- |
-| **[Rivet](http://example.org/namespaces/namespacerivet/)**  |
+| **[Rivet](/documentation/code/namespaces/namespacerivet/)**  |
 
 ## Classes
 
 |                | Name           |
 | -------------- | -------------- |
-| struct | **[Rivet::Error](http://example.org/classes/structrivet_1_1error/)** <br>Generic runtime <a href="http://example.org/namespaces/namespacerivet/">Rivet</a> error.  |
-| struct | **[Rivet::RangeError](http://example.org/classes/structrivet_1_1rangeerror/)** <br><a href="http://example.org/classes/structrivet_1_1error/">Error</a> for e.g. use of invalid bin ranges.  |
-| struct | **[Rivet::LogicError](http://example.org/classes/structrivet_1_1logicerror/)** <br><a href="http://example.org/classes/structrivet_1_1error/">Error</a> specialisation for places where alg logic has failed.  |
-| struct | **[Rivet::PidError](http://example.org/classes/structrivet_1_1piderror/)** <br><a href="http://example.org/classes/structrivet_1_1error/">Error</a> specialisation for failures relating to particle ID codes.  |
-| struct | **[Rivet::InfoError](http://example.org/classes/structrivet_1_1infoerror/)** <br><a href="http://example.org/classes/structrivet_1_1error/">Error</a> specialisation for failures relating to analysis info.  |
-| struct | **[Rivet::WeightError](http://example.org/classes/structrivet_1_1weighterror/)** <br>Errors relating to event/bin weights.  |
-| struct | **[Rivet::UserError](http://example.org/classes/structrivet_1_1usererror/)** <br><a href="http://example.org/classes/structrivet_1_1error/">Error</a> specialisation for where the problem is between the chair and the computer.  |
-| struct | **[Rivet::LookupError](http://example.org/classes/structrivet_1_1lookuperror/)** <br><a href="http://example.org/classes/structrivet_1_1error/">Error</a> relating to looking up analysis objects in the register.  |
-| struct | **[Rivet::IOError](http://example.org/classes/structrivet_1_1ioerror/)** <br><a href="http://example.org/classes/structrivet_1_1error/">Error</a> for I/O failures.  |
-| struct | **[Rivet::ReadError](http://example.org/classes/structrivet_1_1readerror/)** <br><a href="http://example.org/classes/structrivet_1_1error/">Error</a> for read failures.  |
-| struct | **[Rivet::WriteError](http://example.org/classes/structrivet_1_1writeerror/)** <br><a href="http://example.org/classes/structrivet_1_1error/">Error</a> for write failures.  |
+| struct | **[Rivet::Error](/documentation/code/classes/structrivet_1_1error/)** <br>Generic runtime <a href="/documentation/code/namespaces/namespacerivet/">Rivet</a> error.  |
+| struct | **[Rivet::RangeError](/documentation/code/classes/structrivet_1_1rangeerror/)** <br><a href="/documentation/code/classes/structrivet_1_1error/">Error</a> for e.g. use of invalid bin ranges.  |
+| struct | **[Rivet::LogicError](/documentation/code/classes/structrivet_1_1logicerror/)** <br><a href="/documentation/code/classes/structrivet_1_1error/">Error</a> specialisation for places where alg logic has failed.  |
+| struct | **[Rivet::PidError](/documentation/code/classes/structrivet_1_1piderror/)** <br><a href="/documentation/code/classes/structrivet_1_1error/">Error</a> specialisation for failures relating to particle ID codes.  |
+| struct | **[Rivet::InfoError](/documentation/code/classes/structrivet_1_1infoerror/)** <br><a href="/documentation/code/classes/structrivet_1_1error/">Error</a> specialisation for failures relating to analysis info.  |
+| struct | **[Rivet::WeightError](/documentation/code/classes/structrivet_1_1weighterror/)** <br>Errors relating to event/bin weights.  |
+| struct | **[Rivet::UserError](/documentation/code/classes/structrivet_1_1usererror/)** <br><a href="/documentation/code/classes/structrivet_1_1error/">Error</a> specialisation for where the problem is between the chair and the computer.  |
+| struct | **[Rivet::LookupError](/documentation/code/classes/structrivet_1_1lookuperror/)** <br><a href="/documentation/code/classes/structrivet_1_1error/">Error</a> relating to looking up analysis objects in the register.  |
+| struct | **[Rivet::IOError](/documentation/code/classes/structrivet_1_1ioerror/)** <br><a href="/documentation/code/classes/structrivet_1_1error/">Error</a> for I/O failures.  |
+| struct | **[Rivet::ReadError](/documentation/code/classes/structrivet_1_1readerror/)** <br><a href="/documentation/code/classes/structrivet_1_1error/">Error</a> for read failures.  |
+| struct | **[Rivet::WriteError](/documentation/code/classes/structrivet_1_1writeerror/)** <br><a href="/documentation/code/classes/structrivet_1_1error/">Error</a> for write failures.  |
 
 
 
@@ -112,4 +112,4 @@ namespace Rivet {
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

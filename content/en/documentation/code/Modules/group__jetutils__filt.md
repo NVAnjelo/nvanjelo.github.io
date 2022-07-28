@@ -8,7 +8,7 @@ description: "[Documentation update required.]"
 
 # Unbound functions for filtering jets
 
-**Module:** **[Functions for Jets](http://example.org/modules/group__jetutils/)**
+**Module:** **[Functions for Jets](/documentation/code/modules/group__jetutils/)**
 
 
 
@@ -16,21 +16,21 @@ description: "[Documentation update required.]"
 
 |                | Name           |
 | -------------- | -------------- |
-| Jets & | **[ifilter_select](http://example.org/modules/group__jetutils__filt/#function-ifilter-select)**(Jets & jets, const Cut & c)<br>Filter a jet collection in-place to the subset that passes the supplied Cut.  |
-| Jets & | **[ifilterBy](http://example.org/modules/group__jetutils__filt/#function-ifilterby)**(Jets & jets, const Cut & c) |
-| Jets & | **[iselect](http://example.org/modules/group__jetutils__filt/#function-iselect)**(Jets & jets, const Cut & c)<br>New alias for ifilter_select.  |
-| Jets | **[filter_select](http://example.org/modules/group__jetutils__filt/#function-filter-select)**(const Jets & jets, const Cut & c)<br>Filter a jet collection in-place to the subset that passes the supplied Cut.  |
-| Jets | **[filterBy](http://example.org/modules/group__jetutils__filt/#function-filterby)**(const Jets & jets, const Cut & c) |
-| Jets | **[select](http://example.org/modules/group__jetutils__filt/#function-select)**(const Jets & jets, const Cut & c)<br>New alias for filter_select.  |
-| Jets | **[filter_select](http://example.org/modules/group__jetutils__filt/#function-filter-select)**(const Jets & jets, const Cut & c, Jets & out)<br>Filter a jet collection in-place to the subset that passes the supplied Cut.  |
-| Jets | **[filterBy](http://example.org/modules/group__jetutils__filt/#function-filterby)**(const Jets & jets, const Cut & c, Jets & out) |
-| Jets | **[select](http://example.org/modules/group__jetutils__filt/#function-select)**(const Jets & jets, const Cut & c, Jets & out)<br>New alias for filter_select.  |
-| Jets & | **[ifilter_discard](http://example.org/modules/group__jetutils__filt/#function-ifilter-discard)**(Jets & jets, const Cut & c)<br>Filter a jet collection in-place to the subset that fails the supplied Cut.  |
-| Jets & | **[idiscard](http://example.org/modules/group__jetutils__filt/#function-idiscard)**(Jets & jets, const Cut & c)<br>New alias for ifilter_discard.  |
-| Jets | **[filter_discard](http://example.org/modules/group__jetutils__filt/#function-filter-discard)**(const Jets & jets, const Cut & c)<br>Filter a jet collection in-place to the subset that fails the supplied Cut.  |
-| Jets | **[discard](http://example.org/modules/group__jetutils__filt/#function-discard)**(const Jets & jets, const Cut & c)<br>New alias for filter_discard.  |
-| Jets | **[filter_discard](http://example.org/modules/group__jetutils__filt/#function-filter-discard)**(const Jets & jets, const Cut & c, Jets & out)<br>Filter a jet collection in-place to the subset that fails the supplied Cut.  |
-| Jets | **[discard](http://example.org/modules/group__jetutils__filt/#function-discard)**(const Jets & jets, const Cut & c, Jets & out)<br>New alias for filter_discard.  |
+| Jets & | **[ifilter_select](/documentation/code/modules/group__jetutils__filt/#function-ifilter-select)**(Jets & jets, const Cut & c)<br>Filter a jet collection in-place to the subset that passes the supplied Cut.  |
+| Jets & | **[ifilterBy](/documentation/code/modules/group__jetutils__filt/#function-ifilterby)**(Jets & jets, const Cut & c) |
+| Jets & | **[iselect](/documentation/code/modules/group__jetutils__filt/#function-iselect)**(Jets & jets, const Cut & c)<br>New alias for ifilter_select.  |
+| Jets | **[filter_select](/documentation/code/modules/group__jetutils__filt/#function-filter-select)**(const Jets & jets, const Cut & c)<br>Filter a jet collection in-place to the subset that passes the supplied Cut.  |
+| Jets | **[filterBy](/documentation/code/modules/group__jetutils__filt/#function-filterby)**(const Jets & jets, const Cut & c) |
+| Jets | **[select](/documentation/code/modules/group__jetutils__filt/#function-select)**(const Jets & jets, const Cut & c)<br>New alias for filter_select.  |
+| Jets | **[filter_select](/documentation/code/modules/group__jetutils__filt/#function-filter-select)**(const Jets & jets, const Cut & c, Jets & out)<br>Filter a jet collection in-place to the subset that passes the supplied Cut.  |
+| Jets | **[filterBy](/documentation/code/modules/group__jetutils__filt/#function-filterby)**(const Jets & jets, const Cut & c, Jets & out) |
+| Jets | **[select](/documentation/code/modules/group__jetutils__filt/#function-select)**(const Jets & jets, const Cut & c, Jets & out)<br>New alias for filter_select.  |
+| Jets & | **[ifilter_discard](/documentation/code/modules/group__jetutils__filt/#function-ifilter-discard)**(Jets & jets, const Cut & c)<br>Filter a jet collection in-place to the subset that fails the supplied Cut.  |
+| Jets & | **[idiscard](/documentation/code/modules/group__jetutils__filt/#function-idiscard)**(Jets & jets, const Cut & c)<br>New alias for ifilter_discard.  |
+| Jets | **[filter_discard](/documentation/code/modules/group__jetutils__filt/#function-filter-discard)**(const Jets & jets, const Cut & c)<br>Filter a jet collection in-place to the subset that fails the supplied Cut.  |
+| Jets | **[discard](/documentation/code/modules/group__jetutils__filt/#function-discard)**(const Jets & jets, const Cut & c)<br>New alias for filter_discard.  |
+| Jets | **[filter_discard](/documentation/code/modules/group__jetutils__filt/#function-filter-discard)**(const Jets & jets, const Cut & c, Jets & out)<br>Filter a jet collection in-place to the subset that fails the supplied Cut.  |
+| Jets | **[discard](/documentation/code/modules/group__jetutils__filt/#function-discard)**(const Jets & jets, const Cut & c, Jets & out)<br>New alias for filter_discard.  |
 
 
 ## Functions Documentation
@@ -229,4 +229,4 @@ New alias for filter_discard.
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

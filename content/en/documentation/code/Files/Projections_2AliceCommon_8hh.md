@@ -14,18 +14,18 @@ description: "[Documentation update required.]"
 
 | Name           |
 | -------------- |
-| **[Rivet](http://example.org/namespaces/namespacerivet/)**  |
-| **[Rivet::ALICE](http://example.org/namespaces/namespacerivet_1_1alice/)**  |
+| **[Rivet](/documentation/code/namespaces/namespacerivet/)**  |
+| **[Rivet::ALICE](/documentation/code/namespaces/namespacerivet_1_1alice/)**  |
 
 ## Classes
 
 |                | Name           |
 | -------------- | -------------- |
-| class | **[Rivet::ALICE::V0Multiplicity](http://example.org/classes/classrivet_1_1alice_1_1v0multiplicity/)**  |
-| class | **[Rivet::ALICE::CLMultiplicity](http://example.org/classes/classrivet_1_1alice_1_1clmultiplicity/)**  |
-| class | **[Rivet::ALICE::V0Trigger](http://example.org/classes/classrivet_1_1alice_1_1v0trigger/)**  |
-| class | **[Rivet::ALICE::V0AndTrigger](http://example.org/classes/classrivet_1_1alice_1_1v0andtrigger/)** <br>Trigger projection for the <a href="http://example.org/namespaces/namespacerivet_1_1alice/">ALICE</a> V0-AND (a.k.a. CINT7) requirement.  |
-| class | **[Rivet::ALICE::PrimaryParticles](http://example.org/classes/classrivet_1_1alice_1_1primaryparticles/)** <br>Standard <a href="http://example.org/namespaces/namespacerivet_1_1alice/">ALICE</a> primary particle definition.  |
+| class | **[Rivet::ALICE::V0Multiplicity](/documentation/code/classes/classrivet_1_1alice_1_1v0multiplicity/)**  |
+| class | **[Rivet::ALICE::CLMultiplicity](/documentation/code/classes/classrivet_1_1alice_1_1clmultiplicity/)**  |
+| class | **[Rivet::ALICE::V0Trigger](/documentation/code/classes/classrivet_1_1alice_1_1v0trigger/)**  |
+| class | **[Rivet::ALICE::V0AndTrigger](/documentation/code/classes/classrivet_1_1alice_1_1v0andtrigger/)** <br>Trigger projection for the <a href="/documentation/code/namespaces/namespacerivet_1_1alice/">ALICE</a> V0-AND (a.k.a. CINT7) requirement.  |
+| class | **[Rivet::ALICE::PrimaryParticles](/documentation/code/classes/classrivet_1_1alice_1_1primaryparticles/)** <br>Standard <a href="/documentation/code/namespaces/namespacerivet_1_1alice/">ALICE</a> primary particle definition.  |
 
 
 
@@ -259,4 +259,4 @@ namespace Rivet {
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

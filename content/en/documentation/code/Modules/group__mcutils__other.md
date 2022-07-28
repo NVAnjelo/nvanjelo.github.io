@@ -14,9 +14,9 @@ description: "[Documentation update required.]"
 
 |                | Name           |
 | -------------- | -------------- |
-| bool | **[isGenSpecific](http://example.org/modules/group__mcutils__other/#function-isgenspecific)**(int pid)<br>Determine if the PID is in the generator-specific range.  |
-| bool | **[isResonance](http://example.org/modules/group__mcutils__other/#function-isresonance)**(int pid) |
-| bool | **[isTransportable](http://example.org/modules/group__mcutils__other/#function-istransportable)**(int pid) |
+| bool | **[isGenSpecific](/documentation/code/modules/group__mcutils__other/#function-isgenspecific)**(int pid)<br>Determine if the PID is in the generator-specific range.  |
+| bool | **[isResonance](/documentation/code/modules/group__mcutils__other/#function-isresonance)**(int pid) |
+| bool | **[isTransportable](/documentation/code/modules/group__mcutils__other/#function-istransportable)**(int pid) |
 
 
 ## Functions Documentation
@@ -54,7 +54,7 @@ inline bool isTransportable(
 ```
 
 
-**Todo**: Should exclude neutrinos/LSP, since the <a href="http://example.org/namespaces/namespacerivet_1_1atlas/">ATLAS</a> G4 interface deletes them immediately? 
+**Todo**: Should exclude neutrinos/LSP, since the <a href="/documentation/code/namespaces/namespacerivet_1_1atlas/">ATLAS</a> G4 interface deletes them immediately? 
 
 What about long-lived particles... could be BSM but need to be transported 
 
@@ -67,4 +67,4 @@ Check the PID for usability in transport codes like Geant4
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

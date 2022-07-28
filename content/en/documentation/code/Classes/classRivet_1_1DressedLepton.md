@@ -14,176 +14,176 @@ A charged lepton meta-particle created by clustering photons close to the bare l
 
 `#include <DressedLeptons.hh>`
 
-Inherits from [Rivet::Particle](http://example.org/classes/classrivet_1_1particle/), [Rivet::ParticleBase](http://example.org/classes/classrivet_1_1particlebase/)
+Inherits from [Rivet::Particle](/documentation/code/classes/classrivet_1_1particle/), [Rivet::ParticleBase](/documentation/code/classes/classrivet_1_1particlebase/)
 
 ## Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
-| virtual const <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & | **[momentum](http://example.org/classes/classrivet_1_1dressedlepton/#function-momentum)**() const<br>The momentum.  |
-| <a href="http://example.org/classes/classrivet_1_1particle/">Particle</a> & | **[setMomentum](http://example.org/classes/classrivet_1_1dressedlepton/#function-setmomentum)**(const <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & momentum)<br>Set the momentum.  |
-| <a href="http://example.org/classes/classrivet_1_1particle/">Particle</a> & | **[setMomentum](http://example.org/classes/classrivet_1_1dressedlepton/#function-setmomentum)**(double E, double px, double py, double pz)<br>Set the momentum via components.  |
-| <a href="http://example.org/classes/classrivet_1_1particle/">Particle</a> & | **[transformBy](http://example.org/classes/classrivet_1_1dressedlepton/#function-transformby)**(const <a href="http://example.org/classes/classrivet_1_1lorentztransform/">LorentzTransform</a> & lt)<br>Apply an active Lorentz transform to this particle.  |
-| const <a href="http://example.org/classes/classrivet_1_1fourvector/">FourVector</a> & | **[origin](http://example.org/classes/classrivet_1_1dressedlepton/#function-origin)**() const<br>The origin position (and time).  |
-| <a href="http://example.org/classes/classrivet_1_1particle/">Particle</a> & | **[setOrigin](http://example.org/classes/classrivet_1_1dressedlepton/#function-setorigin)**(const <a href="http://example.org/classes/classrivet_1_1fourvector/">FourVector</a> & position)<br>Set the origin position.  |
-| <a href="http://example.org/classes/classrivet_1_1particle/">Particle</a> & | **[setOrigin](http://example.org/classes/classrivet_1_1dressedlepton/#function-setorigin)**(double t, double x, double y, double z)<br>Set the origin position via components.  |
-| <a href="http://example.org/classes/classrivet_1_1vector3/">Vector3</a> | **[closestApproach](http://example.org/classes/classrivet_1_1dressedlepton/#function-closestapproach)**() const<br>Find the point of closest approach to the primary vertex.  |
-| virtual fastjet::PseudoJet | **[pseudojet](http://example.org/classes/classrivet_1_1dressedlepton/#function-pseudojet)**() const<br>Converter to FastJet3 PseudoJet.  |
-| | **[operator PseudoJet](http://example.org/classes/classrivet_1_1dressedlepton/#function-operator-pseudojet)**() const<br>Cast operator to FastJet3 PseudoJet.  |
-| <a href="http://example.org/classes/classrivet_1_1particle/">Particle</a> & | **[setGenParticle](http://example.org/classes/classrivet_1_1dressedlepton/#function-setgenparticle)**(ConstGenParticlePtr gp)<br>Set a const pointer to the original GenParticle.  |
-| ConstGenParticlePtr | **[genParticle](http://example.org/classes/classrivet_1_1dressedlepton/#function-genparticle)**() const<br>Get a const pointer to the original GenParticle.  |
-| | **[operator ConstGenParticlePtr](http://example.org/classes/classrivet_1_1dressedlepton/#function-operator-constgenparticleptr)**() const |
-| PdgId | **[pid](http://example.org/classes/classrivet_1_1dressedlepton/#function-pid)**() const<br>This Particle's PDG ID code.  |
-| PdgId | **[abspid](http://example.org/classes/classrivet_1_1dressedlepton/#function-abspid)**() const<br>Absolute value of the PDG ID code.  |
-| double | **[charge](http://example.org/classes/classrivet_1_1dressedlepton/#function-charge)**() const<br>The charge of this Particle.  |
-| double | **[abscharge](http://example.org/classes/classrivet_1_1dressedlepton/#function-abscharge)**() const<br>The absolute charge of this Particle.  |
-| int | **[charge3](http://example.org/classes/classrivet_1_1dressedlepton/#function-charge3)**() const<br>Three times the charge of this Particle (i.e. integer multiple of smallest quark charge).  |
-| int | **[abscharge3](http://example.org/classes/classrivet_1_1dressedlepton/#function-abscharge3)**() const<br>Three times the absolute charge of this Particle (i.e. integer multiple of smallest quark charge).  |
-| bool | **[isCharged](http://example.org/classes/classrivet_1_1dressedlepton/#function-ischarged)**() const<br>Is this Particle charged?  |
-| bool | **[isHadron](http://example.org/classes/classrivet_1_1dressedlepton/#function-ishadron)**() const<br>Is this a hadron?  |
-| bool | **[isMeson](http://example.org/classes/classrivet_1_1dressedlepton/#function-ismeson)**() const<br>Is this a meson?  |
-| bool | **[isBaryon](http://example.org/classes/classrivet_1_1dressedlepton/#function-isbaryon)**() const<br>Is this a baryon?  |
-| bool | **[isLepton](http://example.org/classes/classrivet_1_1dressedlepton/#function-islepton)**() const<br>Is this a lepton?  |
-| bool | **[isChargedLepton](http://example.org/classes/classrivet_1_1dressedlepton/#function-ischargedlepton)**() const<br>Is this a charged lepton?  |
-| bool | **[isNeutrino](http://example.org/classes/classrivet_1_1dressedlepton/#function-isneutrino)**() const<br>Is this a neutrino?  |
-| bool | **[hasBottom](http://example.org/classes/classrivet_1_1dressedlepton/#function-hasbottom)**() const<br>Does this (hadron) contain a b quark?  |
-| bool | **[hasCharm](http://example.org/classes/classrivet_1_1dressedlepton/#function-hascharm)**() const<br>Does this (hadron) contain a c quark?  |
-| bool | **[isVisible](http://example.org/classes/classrivet_1_1dressedlepton/#function-isvisible)**() const<br>Is this particle potentially visible in a detector?  |
-| bool | **[isParton](http://example.org/classes/classrivet_1_1dressedlepton/#function-isparton)**() const<br>Is this a parton? (Hopefully not very often... fiducial FTW)  |
-| virtual void | **[setConstituents](http://example.org/classes/classrivet_1_1dressedlepton/#function-setconstituents)**(const <a href="http://example.org/classes/classrivet_1_1particles/">Particles</a> & cs, bool setmom =false)<br>Set direct constituents of this particle.  |
-| virtual void | **[addConstituent](http://example.org/classes/classrivet_1_1dressedlepton/#function-addconstituent)**(const <a href="http://example.org/classes/classrivet_1_1particle/">Particle</a> & c, bool addmom =false)<br>Add a single direct constituent to this particle.  |
-| virtual void | **[addConstituents](http://example.org/classes/classrivet_1_1dressedlepton/#function-addconstituents)**(const <a href="http://example.org/classes/classrivet_1_1particles/">Particles</a> & cs, bool addmom =false)<br>Add direct constituents to this particle.  |
-| bool | **[isComposite](http://example.org/classes/classrivet_1_1dressedlepton/#function-iscomposite)**() const<br>Determine if this Particle is a composite of other <a href="http://example.org/namespaces/namespacerivet/">Rivet</a>Particles.  |
-| const <a href="http://example.org/classes/classrivet_1_1particles/">Particles</a> & | **[constituents](http://example.org/classes/classrivet_1_1dressedlepton/#function-constituents)**() const<br>Direct constituents of this particle, returned by reference.  |
-| const <a href="http://example.org/classes/classrivet_1_1particles/">Particles</a> | **[constituents](http://example.org/classes/classrivet_1_1dressedlepton/#function-constituents)**(const ParticleSorter & sorter) const<br>Direct constituents of this particle, sorted by a functor.  |
-| const <a href="http://example.org/classes/classrivet_1_1particles/">Particles</a> | **[constituents](http://example.org/classes/classrivet_1_1dressedlepton/#function-constituents)**(const Cut & c) const<br>Direct constituents of this particle, filtered by a Cut.  |
-| const <a href="http://example.org/classes/classrivet_1_1particles/">Particles</a> | **[constituents](http://example.org/classes/classrivet_1_1dressedlepton/#function-constituents)**(const Cut & c, const ParticleSorter & sorter) const<br>Direct constituents of this particle, sorted by a functor.  |
-| const <a href="http://example.org/classes/classrivet_1_1particles/">Particles</a> | **[constituents](http://example.org/classes/classrivet_1_1dressedlepton/#function-constituents)**(const ParticleSelector & selector) const<br>Direct constituents of this particle, filtered by a selection functor.  |
-| const <a href="http://example.org/classes/classrivet_1_1particles/">Particles</a> | **[constituents](http://example.org/classes/classrivet_1_1dressedlepton/#function-constituents)**(const ParticleSelector & selector, const ParticleSorter & sorter) const<br>Direct constituents of this particle, filtered and sorted by functors.  |
-| <a href="http://example.org/classes/classrivet_1_1particles/">Particles</a> | **[rawConstituents](http://example.org/classes/classrivet_1_1dressedlepton/#function-rawconstituents)**() const<br>Fundamental constituents of this particle.  |
-| const <a href="http://example.org/classes/classrivet_1_1particles/">Particles</a> | **[rawConstituents](http://example.org/classes/classrivet_1_1dressedlepton/#function-rawconstituents)**(const ParticleSorter & sorter) const<br>Fundamental constituents of this particle, sorted by a functor.  |
-| const <a href="http://example.org/classes/classrivet_1_1particles/">Particles</a> | **[rawConstituents](http://example.org/classes/classrivet_1_1dressedlepton/#function-rawconstituents)**(const Cut & c) const<br>Fundamental constituents of this particle, filtered by a Cut.  |
-| const <a href="http://example.org/classes/classrivet_1_1particles/">Particles</a> | **[rawConstituents](http://example.org/classes/classrivet_1_1dressedlepton/#function-rawconstituents)**(const Cut & c, const ParticleSorter & sorter) const<br>Fundamental constituents of this particle, sorted by a functor.  |
-| const <a href="http://example.org/classes/classrivet_1_1particles/">Particles</a> | **[rawConstituents](http://example.org/classes/classrivet_1_1dressedlepton/#function-rawconstituents)**(const ParticleSelector & selector) const<br>Fundamental constituents of this particle, filtered by a selection functor.  |
-| const <a href="http://example.org/classes/classrivet_1_1particles/">Particles</a> | **[rawConstituents](http://example.org/classes/classrivet_1_1dressedlepton/#function-rawconstituents)**(const ParticleSelector & selector, const ParticleSorter & sorter) const<br>Fundamental constituents of this particle, filtered and sorted by functors.  |
-| <a href="http://example.org/classes/classrivet_1_1particles/">Particles</a> | **[parents](http://example.org/classes/classrivet_1_1dressedlepton/#function-parents)**(const Cut & c =Cuts::OPEN) const |
-| <a href="http://example.org/classes/classrivet_1_1particles/">Particles</a> | **[parents](http://example.org/classes/classrivet_1_1dressedlepton/#function-parents)**(const ParticleSelector & f) const |
-| bool | **[hasParentWith](http://example.org/classes/classrivet_1_1dressedlepton/#function-hasparentwith)**(const ParticleSelector & f) const |
-| bool | **[hasParentWith](http://example.org/classes/classrivet_1_1dressedlepton/#function-hasparentwith)**(const Cut & c) const |
-| bool | **[hasParentWithout](http://example.org/classes/classrivet_1_1dressedlepton/#function-hasparentwithout)**(const ParticleSelector & f) const |
-| bool | **[hasParentWithout](http://example.org/classes/classrivet_1_1dressedlepton/#function-hasparentwithout)**(const Cut & c) const |
-| bool | **[hasParent](http://example.org/classes/classrivet_1_1dressedlepton/#function-hasparent)**(PdgId pid) const |
-| <a href="http://example.org/classes/classrivet_1_1particles/">Particles</a> | **[ancestors](http://example.org/classes/classrivet_1_1dressedlepton/#function-ancestors)**(const Cut & c =Cuts::OPEN, bool only_physical =true) const |
-| <a href="http://example.org/classes/classrivet_1_1particles/">Particles</a> | **[ancestors](http://example.org/classes/classrivet_1_1dressedlepton/#function-ancestors)**(const ParticleSelector & f, bool only_physical =true) const |
-| bool | **[hasAncestorWith](http://example.org/classes/classrivet_1_1dressedlepton/#function-hasancestorwith)**(const ParticleSelector & f, bool only_physical =true) const |
-| bool | **[hasAncestorWith](http://example.org/classes/classrivet_1_1dressedlepton/#function-hasancestorwith)**(const Cut & c, bool only_physical =true) const |
-| bool | **[hasAncestorWithout](http://example.org/classes/classrivet_1_1dressedlepton/#function-hasancestorwithout)**(const ParticleSelector & f, bool only_physical =true) const |
-| bool | **[hasAncestorWithout](http://example.org/classes/classrivet_1_1dressedlepton/#function-hasancestorwithout)**(const Cut & c, bool only_physical =true) const |
-| bool | **[hasAncestor](http://example.org/classes/classrivet_1_1dressedlepton/#function-hasancestor)**(PdgId pid, bool only_physical =true) const |
-| bool | **[fromBottom](http://example.org/classes/classrivet_1_1dressedlepton/#function-frombottom)**() const<br>Determine whether the particle is from a b-hadron decay.  |
-| bool | **[fromCharm](http://example.org/classes/classrivet_1_1dressedlepton/#function-fromcharm)**() const<br>Determine whether the particle is from a c-hadron decay.  |
-| bool | **[fromHadron](http://example.org/classes/classrivet_1_1dressedlepton/#function-fromhadron)**() const<br>Determine whether the particle is from a hadron decay.  |
-| bool | **[fromTau](http://example.org/classes/classrivet_1_1dressedlepton/#function-fromtau)**(bool prompt_taus_only =false) const<br>Determine whether the particle is from a tau decay.  |
-| bool | **[fromPromptTau](http://example.org/classes/classrivet_1_1dressedlepton/#function-fromprompttau)**() const<br>Determine whether the particle is from a prompt tau decay.  |
-| bool | **[fromHadronicTau](http://example.org/classes/classrivet_1_1dressedlepton/#function-fromhadronictau)**(bool prompt_taus_only =false) const<br>Determine whether the particle is from a tau which decayed hadronically.  |
-| | **[DEPRECATED](http://example.org/classes/classrivet_1_1dressedlepton/#function-deprecated)**("Too vague: use  fromHadron) || fromPromptTau(, or <a href="http://example.org/classes/classrivet_1_1dressedlepton/#function-isdirect">isDirect</a>()" ) const<br>Determine whether the particle is from a hadron or tau decay.  |
-| bool | **[isDirect](http://example.org/classes/classrivet_1_1dressedlepton/#function-isdirect)**(bool allow_from_direct_tau =false, bool allow_from_direct_mu =false) const<br>Shorthand definition of 'promptness' based on set definition flags.  |
-| bool | **[isPrompt](http://example.org/classes/classrivet_1_1dressedlepton/#function-isprompt)**(bool allow_from_prompt_tau =false, bool allow_from_prompt_mu =false) const<br>Alias for isDirect.  |
-| bool | **[isStable](http://example.org/classes/classrivet_1_1dressedlepton/#function-isstable)**() const<br>Whether this particle is stable according to the generator.  |
-| <a href="http://example.org/classes/classrivet_1_1particles/">Particles</a> | **[children](http://example.org/classes/classrivet_1_1dressedlepton/#function-children)**(const Cut & c =Cuts::OPEN) const<br>Get a list of the direct descendants from the current particle (with optional selection Cut)  |
-| <a href="http://example.org/classes/classrivet_1_1particles/">Particles</a> | **[children](http://example.org/classes/classrivet_1_1dressedlepton/#function-children)**(const ParticleSelector & f) const<br>Get a list of the direct descendants from the current particle (with selector function)  |
-| bool | **[hasChildWith](http://example.org/classes/classrivet_1_1dressedlepton/#function-haschildwith)**(const ParticleSelector & f) const |
-| bool | **[hasChildWith](http://example.org/classes/classrivet_1_1dressedlepton/#function-haschildwith)**(const Cut & c) const |
-| bool | **[hasChildWithout](http://example.org/classes/classrivet_1_1dressedlepton/#function-haschildwithout)**(const ParticleSelector & f) const |
-| bool | **[hasChildWithout](http://example.org/classes/classrivet_1_1dressedlepton/#function-haschildwithout)**(const Cut & c) const |
-| <a href="http://example.org/classes/classrivet_1_1particles/">Particles</a> | **[allDescendants](http://example.org/classes/classrivet_1_1dressedlepton/#function-alldescendants)**(const Cut & c =Cuts::OPEN, bool remove_duplicates =true) const<br>Get a list of all the descendants from the current particle (with optional selection Cut)  |
-| <a href="http://example.org/classes/classrivet_1_1particles/">Particles</a> | **[allDescendants](http://example.org/classes/classrivet_1_1dressedlepton/#function-alldescendants)**(const ParticleSelector & f, bool remove_duplicates =true) const<br>Get a list of all the descendants from the current particle (with selector function)  |
-| bool | **[hasDescendantWith](http://example.org/classes/classrivet_1_1dressedlepton/#function-hasdescendantwith)**(const ParticleSelector & f, bool remove_duplicates =true) const |
-| bool | **[hasDescendantWith](http://example.org/classes/classrivet_1_1dressedlepton/#function-hasdescendantwith)**(const Cut & c, bool remove_duplicates =true) const |
-| bool | **[hasDescendantWithout](http://example.org/classes/classrivet_1_1dressedlepton/#function-hasdescendantwithout)**(const ParticleSelector & f, bool remove_duplicates =true) const |
-| bool | **[hasDescendantWithout](http://example.org/classes/classrivet_1_1dressedlepton/#function-hasdescendantwithout)**(const Cut & c, bool remove_duplicates =true) const |
-| <a href="http://example.org/classes/classrivet_1_1particles/">Particles</a> | **[stableDescendants](http://example.org/classes/classrivet_1_1dressedlepton/#function-stabledescendants)**(const Cut & c =Cuts::OPEN) const |
-| <a href="http://example.org/classes/classrivet_1_1particles/">Particles</a> | **[stableDescendants](http://example.org/classes/classrivet_1_1dressedlepton/#function-stabledescendants)**(const ParticleSelector & f) const<br>Get a list of all the stable descendants from the current particle (with selector function)  |
-| bool | **[hasStableDescendantWith](http://example.org/classes/classrivet_1_1dressedlepton/#function-hasstabledescendantwith)**(const ParticleSelector & f) const |
-| bool | **[hasStableDescendantWith](http://example.org/classes/classrivet_1_1dressedlepton/#function-hasstabledescendantwith)**(const Cut & c) const |
-| bool | **[hasStableDescendantWithout](http://example.org/classes/classrivet_1_1dressedlepton/#function-hasstabledescendantwithout)**(const ParticleSelector & f) const |
-| bool | **[hasStableDescendantWithout](http://example.org/classes/classrivet_1_1dressedlepton/#function-hasstabledescendantwithout)**(const Cut & c) const |
-| double | **[flightLength](http://example.org/classes/classrivet_1_1dressedlepton/#function-flightlength)**() const |
-| bool | **[isFirstWith](http://example.org/classes/classrivet_1_1dressedlepton/#function-isfirstwith)**(const ParticleSelector & f) const<br>Determine whether a particle is the first in a decay chain to meet the function requirement.  |
-| bool | **[isFirstWithout](http://example.org/classes/classrivet_1_1dressedlepton/#function-isfirstwithout)**(const ParticleSelector & f) const<br>Determine whether a particle is the first in a decay chain not to meet the function requirement.  |
-| bool | **[isLastWith](http://example.org/classes/classrivet_1_1dressedlepton/#function-islastwith)**(const ParticleSelector & f) const<br>Determine whether a particle is the last in a decay chain to meet the function requirement.  |
-| bool | **[isLastWithout](http://example.org/classes/classrivet_1_1dressedlepton/#function-islastwithout)**(const ParticleSelector & f) const<br>Determine whether a particle is the last in a decay chain not to meet the function requirement.  |
-| bool | **[isSame](http://example.org/classes/classrivet_1_1dressedlepton/#function-issame)**(const <a href="http://example.org/classes/classrivet_1_1particle/">Particle</a> & other) const |
-| const <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & | **[mom](http://example.org/classes/classrivet_1_1dressedlepton/#function-mom)**() const<br>Get equivalent single momentum four-vector (const) (alias).  |
-| | **[operator const FourMomentum &](http://example.org/classes/classrivet_1_1dressedlepton/#function-operator-const-fourmomentum-&)**() const<br>Cast operator for conversion to FourMomentum.  |
-| double | **[E](http://example.org/classes/classrivet_1_1dressedlepton/#function-e)**() const<br>Get the energy directly.  |
-| double | **[energy](http://example.org/classes/classrivet_1_1dressedlepton/#function-energy)**() const<br>Get the energy directly (alias).  |
-| double | **[E2](http://example.org/classes/classrivet_1_1dressedlepton/#function-e2)**() const<br>Get the energy-squared.  |
-| double | **[energy2](http://example.org/classes/classrivet_1_1dressedlepton/#function-energy2)**() const<br>Get the energy-squared (alias).  |
-| double | **[pt](http://example.org/classes/classrivet_1_1dressedlepton/#function-pt)**() const<br>Get the \( p_T \) directly.  |
-| double | **[pT](http://example.org/classes/classrivet_1_1dressedlepton/#function-pt)**() const<br>Get the \( p_T \) directly (alias).  |
-| double | **[perp](http://example.org/classes/classrivet_1_1dressedlepton/#function-perp)**() const<br>Get the \( p_T \) directly (alias).  |
-| double | **[pt2](http://example.org/classes/classrivet_1_1dressedlepton/#function-pt2)**() const<br>Get the \( p_T^2 \) directly.  |
-| double | **[pT2](http://example.org/classes/classrivet_1_1dressedlepton/#function-pt2)**() const<br>Get the \( p_T^2 \) directly (alias).  |
-| double | **[perp2](http://example.org/classes/classrivet_1_1dressedlepton/#function-perp2)**() const<br>Get the \( p_T^2 \) directly (alias).  |
-| double | **[Et](http://example.org/classes/classrivet_1_1dressedlepton/#function-et)**() const<br>Get the \( E_T \) directly.  |
-| double | **[Et2](http://example.org/classes/classrivet_1_1dressedlepton/#function-et2)**() const<br>Get the \( E_T^2 \) directly.  |
-| double | **[mass](http://example.org/classes/classrivet_1_1dressedlepton/#function-mass)**() const<br>Get the mass directly.  |
-| double | **[mass2](http://example.org/classes/classrivet_1_1dressedlepton/#function-mass2)**() const<br>Get the mass**2 directly.  |
-| double | **[pseudorapidity](http://example.org/classes/classrivet_1_1dressedlepton/#function-pseudorapidity)**() const<br>Get the \( \eta \) directly.  |
-| double | **[eta](http://example.org/classes/classrivet_1_1dressedlepton/#function-eta)**() const<br>Get the \( \eta \) directly (alias).  |
-| double | **[abspseudorapidity](http://example.org/classes/classrivet_1_1dressedlepton/#function-abspseudorapidity)**() const<br>Get the \( |\eta| \) directly.  |
-| double | **[abseta](http://example.org/classes/classrivet_1_1dressedlepton/#function-abseta)**() const<br>Get the \( |\eta| \) directly (alias).  |
-| double | **[rapidity](http://example.org/classes/classrivet_1_1dressedlepton/#function-rapidity)**() const<br>Get the \( y \) directly.  |
-| double | **[rap](http://example.org/classes/classrivet_1_1dressedlepton/#function-rap)**() const<br>Get the \( y \) directly (alias).  |
-| double | **[absrapidity](http://example.org/classes/classrivet_1_1dressedlepton/#function-absrapidity)**() const<br>Get the \( |y| \) directly.  |
-| double | **[absrap](http://example.org/classes/classrivet_1_1dressedlepton/#function-absrap)**() const<br>Get the \( |y| \) directly (alias).  |
-| double | **[azimuthalAngle](http://example.org/classes/classrivet_1_1dressedlepton/#function-azimuthalangle)**(const <a href="http://example.org/namespaces/namespacerivet/#enum-phimapping">PhiMapping</a> mapping =ZERO_2PI) const<br>Azimuthal angle \( \phi \).  |
-| double | **[phi](http://example.org/classes/classrivet_1_1dressedlepton/#function-phi)**(const <a href="http://example.org/namespaces/namespacerivet/#enum-phimapping">PhiMapping</a> mapping =ZERO_2PI) const<br>Get the \( \phi \) directly.  |
-| <a href="http://example.org/classes/classrivet_1_1vector3/">Vector3</a> | **[p3](http://example.org/classes/classrivet_1_1dressedlepton/#function-p3)**() const<br>Get the 3-momentum directly.  |
-| double | **[p](http://example.org/classes/classrivet_1_1dressedlepton/#function-p)**() const<br>Get the 3-momentum magnitude directly.  |
-| double | **[p2](http://example.org/classes/classrivet_1_1dressedlepton/#function-p2)**() const<br>Get the 3-momentum magnitude-squared directly.  |
-| <a href="http://example.org/classes/classrivet_1_1vector3/">Vector3</a> | **[ptvec](http://example.org/classes/classrivet_1_1dressedlepton/#function-ptvec)**() const<br>Get the transverse 3-momentum directly.  |
-| <a href="http://example.org/classes/classrivet_1_1vector3/">Vector3</a> | **[pTvec](http://example.org/classes/classrivet_1_1dressedlepton/#function-ptvec)**() const<br>Get the transverse 3-momentum directly.  |
-| double | **[px](http://example.org/classes/classrivet_1_1dressedlepton/#function-px)**() const<br>x component of momentum.  |
-| double | **[py](http://example.org/classes/classrivet_1_1dressedlepton/#function-py)**() const<br>y component of momentum.  |
-| double | **[pz](http://example.org/classes/classrivet_1_1dressedlepton/#function-pz)**() const<br>z component of momentum.  |
-| double | **[px2](http://example.org/classes/classrivet_1_1dressedlepton/#function-px2)**() const<br>x component of momentum, squared.  |
-| double | **[py2](http://example.org/classes/classrivet_1_1dressedlepton/#function-py2)**() const<br>y component of momentum, squared.  |
-| double | **[pz2](http://example.org/classes/classrivet_1_1dressedlepton/#function-pz2)**() const<br>z component of momentum, squared.  |
-| double | **[polarAngle](http://example.org/classes/classrivet_1_1dressedlepton/#function-polarangle)**() const<br>Angle subtended by the 3-vector and the z-axis.  |
-| double | **[theta](http://example.org/classes/classrivet_1_1dressedlepton/#function-theta)**() const<br>Synonym for polarAngle.  |
-| double | **[angle](http://example.org/classes/classrivet_1_1dressedlepton/#function-angle)**(const <a href="http://example.org/classes/classrivet_1_1particlebase/">ParticleBase</a> & v) const<br>Angle between this vector and another.  |
-| double | **[angle](http://example.org/classes/classrivet_1_1dressedlepton/#function-angle)**(const <a href="http://example.org/classes/classrivet_1_1fourvector/">FourVector</a> & v) const<br>Angle between this vector and another.  |
-| double | **[angle](http://example.org/classes/classrivet_1_1dressedlepton/#function-angle)**(const <a href="http://example.org/classes/classrivet_1_1vector3/">Vector3</a> & v3) const<br>Angle between this vector and another (3-vector)  |
-| double | **[dot](http://example.org/classes/classrivet_1_1dressedlepton/#function-dot)**(const <a href="http://example.org/classes/classrivet_1_1particlebase/">ParticleBase</a> & v) const<br>Lorentz dot product between this 4-vector and another.  |
-| double | **[dot](http://example.org/classes/classrivet_1_1dressedlepton/#function-dot)**(const <a href="http://example.org/classes/classrivet_1_1fourvector/">FourVector</a> & v) const<br>Angle between this 4-vector and another.  |
-| | **[DressedLepton](http://example.org/classes/classrivet_1_1dressedlepton/#function-dressedlepton)**(const <a href="http://example.org/classes/classrivet_1_1particle/">Particle</a> & dlepton)<br>Copy constructor (from Particle)  |
-| | **[DressedLepton](http://example.org/classes/classrivet_1_1dressedlepton/#function-dressedlepton)**(const <a href="http://example.org/classes/classrivet_1_1particle/">Particle</a> & lepton, const <a href="http://example.org/classes/classrivet_1_1particles/">Particles</a> & photons, bool momsum =true) |
-| void | **[addPhoton](http://example.org/classes/classrivet_1_1dressedlepton/#function-addphoton)**(const <a href="http://example.org/classes/classrivet_1_1particle/">Particle</a> & p, bool momsum =true) |
-| const <a href="http://example.org/classes/classrivet_1_1particle/">Particle</a> & | **[bareLepton](http://example.org/classes/classrivet_1_1dressedlepton/#function-barelepton)**() const<br>Retrieve the bare lepton.  |
-| const <a href="http://example.org/classes/classrivet_1_1particle/">Particle</a> & | **[constituentLepton](http://example.org/classes/classrivet_1_1dressedlepton/#function-constituentlepton)**() const |
-| const <a href="http://example.org/classes/classrivet_1_1particles/">Particles</a> | **[photons](http://example.org/classes/classrivet_1_1dressedlepton/#function-photons)**() const<br>Retrieve the clustered photons.  |
-| const <a href="http://example.org/classes/classrivet_1_1particles/">Particles</a> | **[constituentPhotons](http://example.org/classes/classrivet_1_1dressedlepton/#function-constituentphotons)**() const |
+| virtual const <a href="/documentation/code/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & | **[momentum](/documentation/code/classes/classrivet_1_1dressedlepton/#function-momentum)**() const<br>The momentum.  |
+| <a href="/documentation/code/classes/classrivet_1_1particle/">Particle</a> & | **[setMomentum](/documentation/code/classes/classrivet_1_1dressedlepton/#function-setmomentum)**(const <a href="/documentation/code/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & momentum)<br>Set the momentum.  |
+| <a href="/documentation/code/classes/classrivet_1_1particle/">Particle</a> & | **[setMomentum](/documentation/code/classes/classrivet_1_1dressedlepton/#function-setmomentum)**(double E, double px, double py, double pz)<br>Set the momentum via components.  |
+| <a href="/documentation/code/classes/classrivet_1_1particle/">Particle</a> & | **[transformBy](/documentation/code/classes/classrivet_1_1dressedlepton/#function-transformby)**(const <a href="/documentation/code/classes/classrivet_1_1lorentztransform/">LorentzTransform</a> & lt)<br>Apply an active Lorentz transform to this particle.  |
+| const <a href="/documentation/code/classes/classrivet_1_1fourvector/">FourVector</a> & | **[origin](/documentation/code/classes/classrivet_1_1dressedlepton/#function-origin)**() const<br>The origin position (and time).  |
+| <a href="/documentation/code/classes/classrivet_1_1particle/">Particle</a> & | **[setOrigin](/documentation/code/classes/classrivet_1_1dressedlepton/#function-setorigin)**(const <a href="/documentation/code/classes/classrivet_1_1fourvector/">FourVector</a> & position)<br>Set the origin position.  |
+| <a href="/documentation/code/classes/classrivet_1_1particle/">Particle</a> & | **[setOrigin](/documentation/code/classes/classrivet_1_1dressedlepton/#function-setorigin)**(double t, double x, double y, double z)<br>Set the origin position via components.  |
+| <a href="/documentation/code/classes/classrivet_1_1vector3/">Vector3</a> | **[closestApproach](/documentation/code/classes/classrivet_1_1dressedlepton/#function-closestapproach)**() const<br>Find the point of closest approach to the primary vertex.  |
+| virtual fastjet::PseudoJet | **[pseudojet](/documentation/code/classes/classrivet_1_1dressedlepton/#function-pseudojet)**() const<br>Converter to FastJet3 PseudoJet.  |
+| | **[operator PseudoJet](/documentation/code/classes/classrivet_1_1dressedlepton/#function-operator-pseudojet)**() const<br>Cast operator to FastJet3 PseudoJet.  |
+| <a href="/documentation/code/classes/classrivet_1_1particle/">Particle</a> & | **[setGenParticle](/documentation/code/classes/classrivet_1_1dressedlepton/#function-setgenparticle)**(ConstGenParticlePtr gp)<br>Set a const pointer to the original GenParticle.  |
+| ConstGenParticlePtr | **[genParticle](/documentation/code/classes/classrivet_1_1dressedlepton/#function-genparticle)**() const<br>Get a const pointer to the original GenParticle.  |
+| | **[operator ConstGenParticlePtr](/documentation/code/classes/classrivet_1_1dressedlepton/#function-operator-constgenparticleptr)**() const |
+| PdgId | **[pid](/documentation/code/classes/classrivet_1_1dressedlepton/#function-pid)**() const<br>This Particle's PDG ID code.  |
+| PdgId | **[abspid](/documentation/code/classes/classrivet_1_1dressedlepton/#function-abspid)**() const<br>Absolute value of the PDG ID code.  |
+| double | **[charge](/documentation/code/classes/classrivet_1_1dressedlepton/#function-charge)**() const<br>The charge of this Particle.  |
+| double | **[abscharge](/documentation/code/classes/classrivet_1_1dressedlepton/#function-abscharge)**() const<br>The absolute charge of this Particle.  |
+| int | **[charge3](/documentation/code/classes/classrivet_1_1dressedlepton/#function-charge3)**() const<br>Three times the charge of this Particle (i.e. integer multiple of smallest quark charge).  |
+| int | **[abscharge3](/documentation/code/classes/classrivet_1_1dressedlepton/#function-abscharge3)**() const<br>Three times the absolute charge of this Particle (i.e. integer multiple of smallest quark charge).  |
+| bool | **[isCharged](/documentation/code/classes/classrivet_1_1dressedlepton/#function-ischarged)**() const<br>Is this Particle charged?  |
+| bool | **[isHadron](/documentation/code/classes/classrivet_1_1dressedlepton/#function-ishadron)**() const<br>Is this a hadron?  |
+| bool | **[isMeson](/documentation/code/classes/classrivet_1_1dressedlepton/#function-ismeson)**() const<br>Is this a meson?  |
+| bool | **[isBaryon](/documentation/code/classes/classrivet_1_1dressedlepton/#function-isbaryon)**() const<br>Is this a baryon?  |
+| bool | **[isLepton](/documentation/code/classes/classrivet_1_1dressedlepton/#function-islepton)**() const<br>Is this a lepton?  |
+| bool | **[isChargedLepton](/documentation/code/classes/classrivet_1_1dressedlepton/#function-ischargedlepton)**() const<br>Is this a charged lepton?  |
+| bool | **[isNeutrino](/documentation/code/classes/classrivet_1_1dressedlepton/#function-isneutrino)**() const<br>Is this a neutrino?  |
+| bool | **[hasBottom](/documentation/code/classes/classrivet_1_1dressedlepton/#function-hasbottom)**() const<br>Does this (hadron) contain a b quark?  |
+| bool | **[hasCharm](/documentation/code/classes/classrivet_1_1dressedlepton/#function-hascharm)**() const<br>Does this (hadron) contain a c quark?  |
+| bool | **[isVisible](/documentation/code/classes/classrivet_1_1dressedlepton/#function-isvisible)**() const<br>Is this particle potentially visible in a detector?  |
+| bool | **[isParton](/documentation/code/classes/classrivet_1_1dressedlepton/#function-isparton)**() const<br>Is this a parton? (Hopefully not very often... fiducial FTW)  |
+| virtual void | **[setConstituents](/documentation/code/classes/classrivet_1_1dressedlepton/#function-setconstituents)**(const <a href="/documentation/code/classes/classrivet_1_1particles/">Particles</a> & cs, bool setmom =false)<br>Set direct constituents of this particle.  |
+| virtual void | **[addConstituent](/documentation/code/classes/classrivet_1_1dressedlepton/#function-addconstituent)**(const <a href="/documentation/code/classes/classrivet_1_1particle/">Particle</a> & c, bool addmom =false)<br>Add a single direct constituent to this particle.  |
+| virtual void | **[addConstituents](/documentation/code/classes/classrivet_1_1dressedlepton/#function-addconstituents)**(const <a href="/documentation/code/classes/classrivet_1_1particles/">Particles</a> & cs, bool addmom =false)<br>Add direct constituents to this particle.  |
+| bool | **[isComposite](/documentation/code/classes/classrivet_1_1dressedlepton/#function-iscomposite)**() const<br>Determine if this Particle is a composite of other <a href="/documentation/code/namespaces/namespacerivet/">Rivet</a>Particles.  |
+| const <a href="/documentation/code/classes/classrivet_1_1particles/">Particles</a> & | **[constituents](/documentation/code/classes/classrivet_1_1dressedlepton/#function-constituents)**() const<br>Direct constituents of this particle, returned by reference.  |
+| const <a href="/documentation/code/classes/classrivet_1_1particles/">Particles</a> | **[constituents](/documentation/code/classes/classrivet_1_1dressedlepton/#function-constituents)**(const ParticleSorter & sorter) const<br>Direct constituents of this particle, sorted by a functor.  |
+| const <a href="/documentation/code/classes/classrivet_1_1particles/">Particles</a> | **[constituents](/documentation/code/classes/classrivet_1_1dressedlepton/#function-constituents)**(const Cut & c) const<br>Direct constituents of this particle, filtered by a Cut.  |
+| const <a href="/documentation/code/classes/classrivet_1_1particles/">Particles</a> | **[constituents](/documentation/code/classes/classrivet_1_1dressedlepton/#function-constituents)**(const Cut & c, const ParticleSorter & sorter) const<br>Direct constituents of this particle, sorted by a functor.  |
+| const <a href="/documentation/code/classes/classrivet_1_1particles/">Particles</a> | **[constituents](/documentation/code/classes/classrivet_1_1dressedlepton/#function-constituents)**(const ParticleSelector & selector) const<br>Direct constituents of this particle, filtered by a selection functor.  |
+| const <a href="/documentation/code/classes/classrivet_1_1particles/">Particles</a> | **[constituents](/documentation/code/classes/classrivet_1_1dressedlepton/#function-constituents)**(const ParticleSelector & selector, const ParticleSorter & sorter) const<br>Direct constituents of this particle, filtered and sorted by functors.  |
+| <a href="/documentation/code/classes/classrivet_1_1particles/">Particles</a> | **[rawConstituents](/documentation/code/classes/classrivet_1_1dressedlepton/#function-rawconstituents)**() const<br>Fundamental constituents of this particle.  |
+| const <a href="/documentation/code/classes/classrivet_1_1particles/">Particles</a> | **[rawConstituents](/documentation/code/classes/classrivet_1_1dressedlepton/#function-rawconstituents)**(const ParticleSorter & sorter) const<br>Fundamental constituents of this particle, sorted by a functor.  |
+| const <a href="/documentation/code/classes/classrivet_1_1particles/">Particles</a> | **[rawConstituents](/documentation/code/classes/classrivet_1_1dressedlepton/#function-rawconstituents)**(const Cut & c) const<br>Fundamental constituents of this particle, filtered by a Cut.  |
+| const <a href="/documentation/code/classes/classrivet_1_1particles/">Particles</a> | **[rawConstituents](/documentation/code/classes/classrivet_1_1dressedlepton/#function-rawconstituents)**(const Cut & c, const ParticleSorter & sorter) const<br>Fundamental constituents of this particle, sorted by a functor.  |
+| const <a href="/documentation/code/classes/classrivet_1_1particles/">Particles</a> | **[rawConstituents](/documentation/code/classes/classrivet_1_1dressedlepton/#function-rawconstituents)**(const ParticleSelector & selector) const<br>Fundamental constituents of this particle, filtered by a selection functor.  |
+| const <a href="/documentation/code/classes/classrivet_1_1particles/">Particles</a> | **[rawConstituents](/documentation/code/classes/classrivet_1_1dressedlepton/#function-rawconstituents)**(const ParticleSelector & selector, const ParticleSorter & sorter) const<br>Fundamental constituents of this particle, filtered and sorted by functors.  |
+| <a href="/documentation/code/classes/classrivet_1_1particles/">Particles</a> | **[parents](/documentation/code/classes/classrivet_1_1dressedlepton/#function-parents)**(const Cut & c =Cuts::OPEN) const |
+| <a href="/documentation/code/classes/classrivet_1_1particles/">Particles</a> | **[parents](/documentation/code/classes/classrivet_1_1dressedlepton/#function-parents)**(const ParticleSelector & f) const |
+| bool | **[hasParentWith](/documentation/code/classes/classrivet_1_1dressedlepton/#function-hasparentwith)**(const ParticleSelector & f) const |
+| bool | **[hasParentWith](/documentation/code/classes/classrivet_1_1dressedlepton/#function-hasparentwith)**(const Cut & c) const |
+| bool | **[hasParentWithout](/documentation/code/classes/classrivet_1_1dressedlepton/#function-hasparentwithout)**(const ParticleSelector & f) const |
+| bool | **[hasParentWithout](/documentation/code/classes/classrivet_1_1dressedlepton/#function-hasparentwithout)**(const Cut & c) const |
+| bool | **[hasParent](/documentation/code/classes/classrivet_1_1dressedlepton/#function-hasparent)**(PdgId pid) const |
+| <a href="/documentation/code/classes/classrivet_1_1particles/">Particles</a> | **[ancestors](/documentation/code/classes/classrivet_1_1dressedlepton/#function-ancestors)**(const Cut & c =Cuts::OPEN, bool only_physical =true) const |
+| <a href="/documentation/code/classes/classrivet_1_1particles/">Particles</a> | **[ancestors](/documentation/code/classes/classrivet_1_1dressedlepton/#function-ancestors)**(const ParticleSelector & f, bool only_physical =true) const |
+| bool | **[hasAncestorWith](/documentation/code/classes/classrivet_1_1dressedlepton/#function-hasancestorwith)**(const ParticleSelector & f, bool only_physical =true) const |
+| bool | **[hasAncestorWith](/documentation/code/classes/classrivet_1_1dressedlepton/#function-hasancestorwith)**(const Cut & c, bool only_physical =true) const |
+| bool | **[hasAncestorWithout](/documentation/code/classes/classrivet_1_1dressedlepton/#function-hasancestorwithout)**(const ParticleSelector & f, bool only_physical =true) const |
+| bool | **[hasAncestorWithout](/documentation/code/classes/classrivet_1_1dressedlepton/#function-hasancestorwithout)**(const Cut & c, bool only_physical =true) const |
+| bool | **[hasAncestor](/documentation/code/classes/classrivet_1_1dressedlepton/#function-hasancestor)**(PdgId pid, bool only_physical =true) const |
+| bool | **[fromBottom](/documentation/code/classes/classrivet_1_1dressedlepton/#function-frombottom)**() const<br>Determine whether the particle is from a b-hadron decay.  |
+| bool | **[fromCharm](/documentation/code/classes/classrivet_1_1dressedlepton/#function-fromcharm)**() const<br>Determine whether the particle is from a c-hadron decay.  |
+| bool | **[fromHadron](/documentation/code/classes/classrivet_1_1dressedlepton/#function-fromhadron)**() const<br>Determine whether the particle is from a hadron decay.  |
+| bool | **[fromTau](/documentation/code/classes/classrivet_1_1dressedlepton/#function-fromtau)**(bool prompt_taus_only =false) const<br>Determine whether the particle is from a tau decay.  |
+| bool | **[fromPromptTau](/documentation/code/classes/classrivet_1_1dressedlepton/#function-fromprompttau)**() const<br>Determine whether the particle is from a prompt tau decay.  |
+| bool | **[fromHadronicTau](/documentation/code/classes/classrivet_1_1dressedlepton/#function-fromhadronictau)**(bool prompt_taus_only =false) const<br>Determine whether the particle is from a tau which decayed hadronically.  |
+| | **[DEPRECATED](/documentation/code/classes/classrivet_1_1dressedlepton/#function-deprecated)**("Too vague: use  fromHadron) || fromPromptTau(, or <a href="/documentation/code/classes/classrivet_1_1dressedlepton/#function-isdirect">isDirect</a>()" ) const<br>Determine whether the particle is from a hadron or tau decay.  |
+| bool | **[isDirect](/documentation/code/classes/classrivet_1_1dressedlepton/#function-isdirect)**(bool allow_from_direct_tau =false, bool allow_from_direct_mu =false) const<br>Shorthand definition of 'promptness' based on set definition flags.  |
+| bool | **[isPrompt](/documentation/code/classes/classrivet_1_1dressedlepton/#function-isprompt)**(bool allow_from_prompt_tau =false, bool allow_from_prompt_mu =false) const<br>Alias for isDirect.  |
+| bool | **[isStable](/documentation/code/classes/classrivet_1_1dressedlepton/#function-isstable)**() const<br>Whether this particle is stable according to the generator.  |
+| <a href="/documentation/code/classes/classrivet_1_1particles/">Particles</a> | **[children](/documentation/code/classes/classrivet_1_1dressedlepton/#function-children)**(const Cut & c =Cuts::OPEN) const<br>Get a list of the direct descendants from the current particle (with optional selection Cut)  |
+| <a href="/documentation/code/classes/classrivet_1_1particles/">Particles</a> | **[children](/documentation/code/classes/classrivet_1_1dressedlepton/#function-children)**(const ParticleSelector & f) const<br>Get a list of the direct descendants from the current particle (with selector function)  |
+| bool | **[hasChildWith](/documentation/code/classes/classrivet_1_1dressedlepton/#function-haschildwith)**(const ParticleSelector & f) const |
+| bool | **[hasChildWith](/documentation/code/classes/classrivet_1_1dressedlepton/#function-haschildwith)**(const Cut & c) const |
+| bool | **[hasChildWithout](/documentation/code/classes/classrivet_1_1dressedlepton/#function-haschildwithout)**(const ParticleSelector & f) const |
+| bool | **[hasChildWithout](/documentation/code/classes/classrivet_1_1dressedlepton/#function-haschildwithout)**(const Cut & c) const |
+| <a href="/documentation/code/classes/classrivet_1_1particles/">Particles</a> | **[allDescendants](/documentation/code/classes/classrivet_1_1dressedlepton/#function-alldescendants)**(const Cut & c =Cuts::OPEN, bool remove_duplicates =true) const<br>Get a list of all the descendants from the current particle (with optional selection Cut)  |
+| <a href="/documentation/code/classes/classrivet_1_1particles/">Particles</a> | **[allDescendants](/documentation/code/classes/classrivet_1_1dressedlepton/#function-alldescendants)**(const ParticleSelector & f, bool remove_duplicates =true) const<br>Get a list of all the descendants from the current particle (with selector function)  |
+| bool | **[hasDescendantWith](/documentation/code/classes/classrivet_1_1dressedlepton/#function-hasdescendantwith)**(const ParticleSelector & f, bool remove_duplicates =true) const |
+| bool | **[hasDescendantWith](/documentation/code/classes/classrivet_1_1dressedlepton/#function-hasdescendantwith)**(const Cut & c, bool remove_duplicates =true) const |
+| bool | **[hasDescendantWithout](/documentation/code/classes/classrivet_1_1dressedlepton/#function-hasdescendantwithout)**(const ParticleSelector & f, bool remove_duplicates =true) const |
+| bool | **[hasDescendantWithout](/documentation/code/classes/classrivet_1_1dressedlepton/#function-hasdescendantwithout)**(const Cut & c, bool remove_duplicates =true) const |
+| <a href="/documentation/code/classes/classrivet_1_1particles/">Particles</a> | **[stableDescendants](/documentation/code/classes/classrivet_1_1dressedlepton/#function-stabledescendants)**(const Cut & c =Cuts::OPEN) const |
+| <a href="/documentation/code/classes/classrivet_1_1particles/">Particles</a> | **[stableDescendants](/documentation/code/classes/classrivet_1_1dressedlepton/#function-stabledescendants)**(const ParticleSelector & f) const<br>Get a list of all the stable descendants from the current particle (with selector function)  |
+| bool | **[hasStableDescendantWith](/documentation/code/classes/classrivet_1_1dressedlepton/#function-hasstabledescendantwith)**(const ParticleSelector & f) const |
+| bool | **[hasStableDescendantWith](/documentation/code/classes/classrivet_1_1dressedlepton/#function-hasstabledescendantwith)**(const Cut & c) const |
+| bool | **[hasStableDescendantWithout](/documentation/code/classes/classrivet_1_1dressedlepton/#function-hasstabledescendantwithout)**(const ParticleSelector & f) const |
+| bool | **[hasStableDescendantWithout](/documentation/code/classes/classrivet_1_1dressedlepton/#function-hasstabledescendantwithout)**(const Cut & c) const |
+| double | **[flightLength](/documentation/code/classes/classrivet_1_1dressedlepton/#function-flightlength)**() const |
+| bool | **[isFirstWith](/documentation/code/classes/classrivet_1_1dressedlepton/#function-isfirstwith)**(const ParticleSelector & f) const<br>Determine whether a particle is the first in a decay chain to meet the function requirement.  |
+| bool | **[isFirstWithout](/documentation/code/classes/classrivet_1_1dressedlepton/#function-isfirstwithout)**(const ParticleSelector & f) const<br>Determine whether a particle is the first in a decay chain not to meet the function requirement.  |
+| bool | **[isLastWith](/documentation/code/classes/classrivet_1_1dressedlepton/#function-islastwith)**(const ParticleSelector & f) const<br>Determine whether a particle is the last in a decay chain to meet the function requirement.  |
+| bool | **[isLastWithout](/documentation/code/classes/classrivet_1_1dressedlepton/#function-islastwithout)**(const ParticleSelector & f) const<br>Determine whether a particle is the last in a decay chain not to meet the function requirement.  |
+| bool | **[isSame](/documentation/code/classes/classrivet_1_1dressedlepton/#function-issame)**(const <a href="/documentation/code/classes/classrivet_1_1particle/">Particle</a> & other) const |
+| const <a href="/documentation/code/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & | **[mom](/documentation/code/classes/classrivet_1_1dressedlepton/#function-mom)**() const<br>Get equivalent single momentum four-vector (const) (alias).  |
+| | **[operator const FourMomentum &](/documentation/code/classes/classrivet_1_1dressedlepton/#function-operator-const-fourmomentum-&)**() const<br>Cast operator for conversion to FourMomentum.  |
+| double | **[E](/documentation/code/classes/classrivet_1_1dressedlepton/#function-e)**() const<br>Get the energy directly.  |
+| double | **[energy](/documentation/code/classes/classrivet_1_1dressedlepton/#function-energy)**() const<br>Get the energy directly (alias).  |
+| double | **[E2](/documentation/code/classes/classrivet_1_1dressedlepton/#function-e2)**() const<br>Get the energy-squared.  |
+| double | **[energy2](/documentation/code/classes/classrivet_1_1dressedlepton/#function-energy2)**() const<br>Get the energy-squared (alias).  |
+| double | **[pt](/documentation/code/classes/classrivet_1_1dressedlepton/#function-pt)**() const<br>Get the \( p_T \) directly.  |
+| double | **[pT](/documentation/code/classes/classrivet_1_1dressedlepton/#function-pt)**() const<br>Get the \( p_T \) directly (alias).  |
+| double | **[perp](/documentation/code/classes/classrivet_1_1dressedlepton/#function-perp)**() const<br>Get the \( p_T \) directly (alias).  |
+| double | **[pt2](/documentation/code/classes/classrivet_1_1dressedlepton/#function-pt2)**() const<br>Get the \( p_T^2 \) directly.  |
+| double | **[pT2](/documentation/code/classes/classrivet_1_1dressedlepton/#function-pt2)**() const<br>Get the \( p_T^2 \) directly (alias).  |
+| double | **[perp2](/documentation/code/classes/classrivet_1_1dressedlepton/#function-perp2)**() const<br>Get the \( p_T^2 \) directly (alias).  |
+| double | **[Et](/documentation/code/classes/classrivet_1_1dressedlepton/#function-et)**() const<br>Get the \( E_T \) directly.  |
+| double | **[Et2](/documentation/code/classes/classrivet_1_1dressedlepton/#function-et2)**() const<br>Get the \( E_T^2 \) directly.  |
+| double | **[mass](/documentation/code/classes/classrivet_1_1dressedlepton/#function-mass)**() const<br>Get the mass directly.  |
+| double | **[mass2](/documentation/code/classes/classrivet_1_1dressedlepton/#function-mass2)**() const<br>Get the mass**2 directly.  |
+| double | **[pseudorapidity](/documentation/code/classes/classrivet_1_1dressedlepton/#function-pseudorapidity)**() const<br>Get the \( \eta \) directly.  |
+| double | **[eta](/documentation/code/classes/classrivet_1_1dressedlepton/#function-eta)**() const<br>Get the \( \eta \) directly (alias).  |
+| double | **[abspseudorapidity](/documentation/code/classes/classrivet_1_1dressedlepton/#function-abspseudorapidity)**() const<br>Get the \( |\eta| \) directly.  |
+| double | **[abseta](/documentation/code/classes/classrivet_1_1dressedlepton/#function-abseta)**() const<br>Get the \( |\eta| \) directly (alias).  |
+| double | **[rapidity](/documentation/code/classes/classrivet_1_1dressedlepton/#function-rapidity)**() const<br>Get the \( y \) directly.  |
+| double | **[rap](/documentation/code/classes/classrivet_1_1dressedlepton/#function-rap)**() const<br>Get the \( y \) directly (alias).  |
+| double | **[absrapidity](/documentation/code/classes/classrivet_1_1dressedlepton/#function-absrapidity)**() const<br>Get the \( |y| \) directly.  |
+| double | **[absrap](/documentation/code/classes/classrivet_1_1dressedlepton/#function-absrap)**() const<br>Get the \( |y| \) directly (alias).  |
+| double | **[azimuthalAngle](/documentation/code/classes/classrivet_1_1dressedlepton/#function-azimuthalangle)**(const <a href="/documentation/code/namespaces/namespacerivet/#enum-phimapping">PhiMapping</a> mapping =ZERO_2PI) const<br>Azimuthal angle \( \phi \).  |
+| double | **[phi](/documentation/code/classes/classrivet_1_1dressedlepton/#function-phi)**(const <a href="/documentation/code/namespaces/namespacerivet/#enum-phimapping">PhiMapping</a> mapping =ZERO_2PI) const<br>Get the \( \phi \) directly.  |
+| <a href="/documentation/code/classes/classrivet_1_1vector3/">Vector3</a> | **[p3](/documentation/code/classes/classrivet_1_1dressedlepton/#function-p3)**() const<br>Get the 3-momentum directly.  |
+| double | **[p](/documentation/code/classes/classrivet_1_1dressedlepton/#function-p)**() const<br>Get the 3-momentum magnitude directly.  |
+| double | **[p2](/documentation/code/classes/classrivet_1_1dressedlepton/#function-p2)**() const<br>Get the 3-momentum magnitude-squared directly.  |
+| <a href="/documentation/code/classes/classrivet_1_1vector3/">Vector3</a> | **[ptvec](/documentation/code/classes/classrivet_1_1dressedlepton/#function-ptvec)**() const<br>Get the transverse 3-momentum directly.  |
+| <a href="/documentation/code/classes/classrivet_1_1vector3/">Vector3</a> | **[pTvec](/documentation/code/classes/classrivet_1_1dressedlepton/#function-ptvec)**() const<br>Get the transverse 3-momentum directly.  |
+| double | **[px](/documentation/code/classes/classrivet_1_1dressedlepton/#function-px)**() const<br>x component of momentum.  |
+| double | **[py](/documentation/code/classes/classrivet_1_1dressedlepton/#function-py)**() const<br>y component of momentum.  |
+| double | **[pz](/documentation/code/classes/classrivet_1_1dressedlepton/#function-pz)**() const<br>z component of momentum.  |
+| double | **[px2](/documentation/code/classes/classrivet_1_1dressedlepton/#function-px2)**() const<br>x component of momentum, squared.  |
+| double | **[py2](/documentation/code/classes/classrivet_1_1dressedlepton/#function-py2)**() const<br>y component of momentum, squared.  |
+| double | **[pz2](/documentation/code/classes/classrivet_1_1dressedlepton/#function-pz2)**() const<br>z component of momentum, squared.  |
+| double | **[polarAngle](/documentation/code/classes/classrivet_1_1dressedlepton/#function-polarangle)**() const<br>Angle subtended by the 3-vector and the z-axis.  |
+| double | **[theta](/documentation/code/classes/classrivet_1_1dressedlepton/#function-theta)**() const<br>Synonym for polarAngle.  |
+| double | **[angle](/documentation/code/classes/classrivet_1_1dressedlepton/#function-angle)**(const <a href="/documentation/code/classes/classrivet_1_1particlebase/">ParticleBase</a> & v) const<br>Angle between this vector and another.  |
+| double | **[angle](/documentation/code/classes/classrivet_1_1dressedlepton/#function-angle)**(const <a href="/documentation/code/classes/classrivet_1_1fourvector/">FourVector</a> & v) const<br>Angle between this vector and another.  |
+| double | **[angle](/documentation/code/classes/classrivet_1_1dressedlepton/#function-angle)**(const <a href="/documentation/code/classes/classrivet_1_1vector3/">Vector3</a> & v3) const<br>Angle between this vector and another (3-vector)  |
+| double | **[dot](/documentation/code/classes/classrivet_1_1dressedlepton/#function-dot)**(const <a href="/documentation/code/classes/classrivet_1_1particlebase/">ParticleBase</a> & v) const<br>Lorentz dot product between this 4-vector and another.  |
+| double | **[dot](/documentation/code/classes/classrivet_1_1dressedlepton/#function-dot)**(const <a href="/documentation/code/classes/classrivet_1_1fourvector/">FourVector</a> & v) const<br>Angle between this 4-vector and another.  |
+| | **[DressedLepton](/documentation/code/classes/classrivet_1_1dressedlepton/#function-dressedlepton)**(const <a href="/documentation/code/classes/classrivet_1_1particle/">Particle</a> & dlepton)<br>Copy constructor (from Particle)  |
+| | **[DressedLepton](/documentation/code/classes/classrivet_1_1dressedlepton/#function-dressedlepton)**(const <a href="/documentation/code/classes/classrivet_1_1particle/">Particle</a> & lepton, const <a href="/documentation/code/classes/classrivet_1_1particles/">Particles</a> & photons, bool momsum =true) |
+| void | **[addPhoton](/documentation/code/classes/classrivet_1_1dressedlepton/#function-addphoton)**(const <a href="/documentation/code/classes/classrivet_1_1particle/">Particle</a> & p, bool momsum =true) |
+| const <a href="/documentation/code/classes/classrivet_1_1particle/">Particle</a> & | **[bareLepton](/documentation/code/classes/classrivet_1_1dressedlepton/#function-barelepton)**() const<br>Retrieve the bare lepton.  |
+| const <a href="/documentation/code/classes/classrivet_1_1particle/">Particle</a> & | **[constituentLepton](/documentation/code/classes/classrivet_1_1dressedlepton/#function-constituentlepton)**() const |
+| const <a href="/documentation/code/classes/classrivet_1_1particles/">Particles</a> | **[photons](/documentation/code/classes/classrivet_1_1dressedlepton/#function-photons)**() const<br>Retrieve the clustered photons.  |
+| const <a href="/documentation/code/classes/classrivet_1_1particles/">Particles</a> | **[constituentPhotons](/documentation/code/classes/classrivet_1_1dressedlepton/#function-constituentphotons)**() const |
 
 ## Additional inherited members
 
-**Public Functions inherited from [Rivet::Particle](http://example.org/classes/classrivet_1_1particle/)**
+**Public Functions inherited from [Rivet::Particle](/documentation/code/classes/classrivet_1_1particle/)**
 
 |                | Name           |
 | -------------- | -------------- |
-| | **[Particle](http://example.org/classes/classrivet_1_1particle/#function-particle)**() |
-| | **[Particle](http://example.org/classes/classrivet_1_1particle/#function-particle)**(PdgId pid, const <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & mom, const <a href="http://example.org/classes/classrivet_1_1fourvector/">FourVector</a> & pos =<a href="http://example.org/classes/classrivet_1_1fourvector/">FourVector</a>(), ConstGenParticlePtr gp =nullptr)<br>Constructor from PID and momentum.  |
-| | **[Particle](http://example.org/classes/classrivet_1_1particle/#function-particle)**(PdgId pid, const <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & mom, ConstGenParticlePtr gp, const <a href="http://example.org/classes/classrivet_1_1fourvector/">FourVector</a> & pos =<a href="http://example.org/classes/classrivet_1_1fourvector/">FourVector</a>())<br>Constructor from PID, momentum, and a GenParticle for relational links.  |
-| | **[Particle](http://example.org/classes/classrivet_1_1particle/#function-particle)**(ConstGenParticlePtr gp)<br>Constructor from a HepMC GenParticle pointer.  |
-| | **[Particle](http://example.org/classes/classrivet_1_1particle/#function-particle)**(const RivetHepMC::GenParticle & gp)<br>Constructor from a HepMC GenParticle reference.  |
+| | **[Particle](/documentation/code/classes/classrivet_1_1particle/#function-particle)**() |
+| | **[Particle](/documentation/code/classes/classrivet_1_1particle/#function-particle)**(PdgId pid, const <a href="/documentation/code/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & mom, const <a href="/documentation/code/classes/classrivet_1_1fourvector/">FourVector</a> & pos =<a href="/documentation/code/classes/classrivet_1_1fourvector/">FourVector</a>(), ConstGenParticlePtr gp =nullptr)<br>Constructor from PID and momentum.  |
+| | **[Particle](/documentation/code/classes/classrivet_1_1particle/#function-particle)**(PdgId pid, const <a href="/documentation/code/classes/classrivet_1_1fourmomentum/">FourMomentum</a> & mom, ConstGenParticlePtr gp, const <a href="/documentation/code/classes/classrivet_1_1fourvector/">FourVector</a> & pos =<a href="/documentation/code/classes/classrivet_1_1fourvector/">FourVector</a>())<br>Constructor from PID, momentum, and a GenParticle for relational links.  |
+| | **[Particle](/documentation/code/classes/classrivet_1_1particle/#function-particle)**(ConstGenParticlePtr gp)<br>Constructor from a HepMC GenParticle pointer.  |
+| | **[Particle](/documentation/code/classes/classrivet_1_1particle/#function-particle)**(const RivetHepMC::GenParticle & gp)<br>Constructor from a HepMC GenParticle reference.  |
 
-**Public Functions inherited from [Rivet::ParticleBase](http://example.org/classes/classrivet_1_1particlebase/)**
+**Public Functions inherited from [Rivet::ParticleBase](/documentation/code/classes/classrivet_1_1particlebase/)**
 
 |                | Name           |
 | -------------- | -------------- |
-| | **[ParticleBase](http://example.org/classes/classrivet_1_1particlebase/#function-particlebase)**()<br>Default constructor.  |
-| virtual | **[~ParticleBase](http://example.org/classes/classrivet_1_1particlebase/#function-~particlebase)**()<br>Virtual destructor.  |
+| | **[ParticleBase](/documentation/code/classes/classrivet_1_1particlebase/#function-particlebase)**()<br>Default constructor.  |
+| virtual | **[~ParticleBase](/documentation/code/classes/classrivet_1_1particlebase/#function-~particlebase)**()<br>Virtual destructor.  |
 
 
 ## Detailed Description
@@ -196,7 +196,7 @@ A charged lepton meta-particle created by clustering photons close to the bare l
 
 **Deprecated**: 
 
-Just use <a href="http://example.org/classes/classrivet_1_1dressedlepton/#function-constituents">Particle.constituents()</a> now. 
+Just use <a href="/documentation/code/classes/classrivet_1_1dressedlepton/#function-constituents">Particle.constituents()</a> now. 
 
 **Todo**: Remove completely &ndash; it's unnecessary and too confusing (esp. between copying & aggregating) 
 ## Public Functions Documentation
@@ -209,7 +209,7 @@ inline virtual const FourMomentum & momentum() const
 
 The momentum. 
 
-**Reimplements**: [Rivet::ParticleBase::momentum](http://example.org/classes/classrivet_1_1particlebase/#function-momentum)
+**Reimplements**: [Rivet::ParticleBase::momentum](/documentation/code/classes/classrivet_1_1particlebase/#function-momentum)
 
 
 ### function setMomentum
@@ -508,7 +508,7 @@ Add direct constituents to this particle.
 inline bool isComposite() const
 ```
 
-Determine if this Particle is a composite of other <a href="http://example.org/namespaces/namespacerivet/">Rivet</a>Particles. 
+Determine if this Particle is a composite of other <a href="/documentation/code/namespaces/namespacerivet/">Rivet</a>Particles. 
 
 ### function constituents
 
@@ -1727,7 +1727,7 @@ inline const Particle & constituentLepton() const
 
 **Deprecated**: 
 
-Prefer the more physicsy <a href="http://example.org/classes/classrivet_1_1dressedlepton/#function-barelepton">bareLepton()</a>
+Prefer the more physicsy <a href="/documentation/code/classes/classrivet_1_1dressedlepton/#function-barelepton">bareLepton()</a>
 
 Retrieve the bare lepton (alias) 
 
@@ -1749,11 +1749,11 @@ inline const Particles constituentPhotons() const
 
 **Deprecated**: 
 
-Prefer the shorter <a href="http://example.org/classes/classrivet_1_1dressedlepton/#function-photons">photons()</a>
+Prefer the shorter <a href="/documentation/code/classes/classrivet_1_1dressedlepton/#function-photons">photons()</a>
 
 Retrieve the clustered photons (alias) 
 
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:08 +0100
+Updated on 2022-07-28 at 18:36:46 +0100

@@ -7,11 +7,11 @@ description: "A functor to return true if Jetj survives a random efficiency sele
 
 # Rivet::JetEffFilter
 
-**Module:** **[Detector smearing & efficiency functions](http://example.org/modules/group__smearing/)** **/** **[Generic jet filtering, efficiency and smearing utils](http://example.org/modules/group__smearing__particle/)**
+**Module:** **[Detector smearing & efficiency functions](/documentation/code/modules/group__smearing/)** **/** **[Generic jet filtering, efficiency and smearing utils](/documentation/code/modules/group__smearing__particle/)**
 
 
 
-A functor to return true if <a href="http://example.org/classes/classrivet_1_1jet/">Jet</a>_j_ survives a random efficiency selection. 
+A functor to return true if <a href="/documentation/code/classes/classrivet_1_1jet/">Jet</a>_j_ survives a random efficiency selection. 
 
 
 `#include <JetSmearingFunctions.hh>`
@@ -20,9 +20,9 @@ A functor to return true if <a href="http://example.org/classes/classrivet_1_1je
 
 |                | Name           |
 | -------------- | -------------- |
-| template <typename FN \> <br>| **[JetEffFilter](http://example.org/classes/structrivet_1_1jetefffilter/#function-jetefffilter)**(const FN & feff) |
-| | **[JetEffFilter](http://example.org/classes/structrivet_1_1jetefffilter/#function-jetefffilter)**(double eff) |
-| bool | **[operator()](http://example.org/classes/structrivet_1_1jetefffilter/#function-operator())**(const <a href="http://example.org/classes/classrivet_1_1jet/">Jet</a> & j) const |
+| template <typename FN \> <br>| **[JetEffFilter](/documentation/code/classes/structrivet_1_1jetefffilter/#function-jetefffilter)**(const FN & feff) |
+| | **[JetEffFilter](/documentation/code/classes/structrivet_1_1jetefffilter/#function-jetefffilter)**(double eff) |
+| bool | **[operator()](/documentation/code/classes/structrivet_1_1jetefffilter/#function-operator())**(const <a href="/documentation/code/classes/classrivet_1_1jet/">Jet</a> & j) const |
 
 ## Public Functions Documentation
 
@@ -56,4 +56,4 @@ inline bool operator()(
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

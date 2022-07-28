@@ -15,11 +15,11 @@ A flexible bin struct to be used to store temporary AnalysisObjects.
 
 |                | Name           |
 | -------------- | -------------- |
-| | **[FlexiBin](http://example.org/classes/structrivet_1_1centralitybinner_1_1flexibin/#function-flexibin)**(T & t, double cest =0.0, double weight =0.0) |
-| | **[FlexiBin](http://example.org/classes/structrivet_1_1centralitybinner_1_1flexibin/#function-flexibin)**(double cest)<br>Construct a temporary FlexiBin for finding a bin in a set.  |
-| void | **[merge](http://example.org/classes/structrivet_1_1centralitybinner_1_1flexibin/#function-merge)**(const FlexiBin & fb)<br>Merge in the contents of another FlexiBin into this.  |
-| bool | **[operator<](http://example.org/classes/structrivet_1_1centralitybinner_1_1flexibin/#function-operator<)**(const FlexiBin & fb) const<br>Comparisons for containers.  |
-| bool | **[inRange](http://example.org/classes/structrivet_1_1centralitybinner_1_1flexibin/#function-inrange)**(double cest) const |
+| | **[FlexiBin](/documentation/code/classes/structrivet_1_1centralitybinner_1_1flexibin/#function-flexibin)**(T & t, double cest =0.0, double weight =0.0) |
+| | **[FlexiBin](/documentation/code/classes/structrivet_1_1centralitybinner_1_1flexibin/#function-flexibin)**(double cest)<br>Construct a temporary FlexiBin for finding a bin in a set.  |
+| void | **[merge](/documentation/code/classes/structrivet_1_1centralitybinner_1_1flexibin/#function-merge)**(const FlexiBin & fb)<br>Merge in the contents of another FlexiBin into this.  |
+| bool | **[operator<](/documentation/code/classes/structrivet_1_1centralitybinner_1_1flexibin/#function-operator<)**(const FlexiBin & fb) const<br>Comparisons for containers.  |
+| bool | **[inRange](/documentation/code/classes/structrivet_1_1centralitybinner_1_1flexibin/#function-inrange)**(double cest) const |
 
 ## Public Functions Documentation
 
@@ -81,4 +81,4 @@ Return true if the given centrality estimate is in the range of this bin.
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:08 +0100
+Updated on 2022-07-28 at 18:36:45 +0100

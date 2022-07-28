@@ -14,13 +14,13 @@ description: "[Documentation update required.]"
 
 | Name           |
 | -------------- |
-| **[Rivet](http://example.org/namespaces/namespacerivet/)**  |
+| **[Rivet](/documentation/code/namespaces/namespacerivet/)**  |
 
 ## Classes
 
 |                | Name           |
 | -------------- | -------------- |
-| class | **[Rivet::ProjectionHandler](http://example.org/classes/classrivet_1_1projectionhandler/)** <br>The projection handler is a central repository for projections to be used in a <a href="http://example.org/namespaces/namespacerivet/">Rivet</a> analysis run.  |
+| class | **[Rivet::ProjectionHandler](/documentation/code/classes/classrivet_1_1projectionhandler/)** <br>The projection handler is a central repository for projections to be used in a <a href="/documentation/code/namespaces/namespacerivet/">Rivet</a> analysis run.  |
 
 
 
@@ -172,4 +172,4 @@ namespace Rivet {
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

@@ -14,13 +14,13 @@ description: "[Documentation update required.]"
 
 | Name           |
 | -------------- |
-| **[Rivet](http://example.org/namespaces/namespacerivet/)**  |
+| **[Rivet](/documentation/code/namespaces/namespacerivet/)**  |
 
 ## Classes
 
 |                | Name           |
 | -------------- | -------------- |
-| class | **[Rivet::TriggerCDFRun0Run1](http://example.org/classes/classrivet_1_1triggercdfrun0run1/)** <br>Access to the min bias triggers used by CDF in <a href="http://example.org/classes/classrivet_1_1run/">Run</a> 0 and <a href="http://example.org/classes/classrivet_1_1run/">Run</a> 1.  |
+| class | **[Rivet::TriggerCDFRun0Run1](/documentation/code/classes/classrivet_1_1triggercdfrun0run1/)** <br>Access to the min bias triggers used by CDF in <a href="/documentation/code/classes/classrivet_1_1run/">Run</a> 0 and <a href="/documentation/code/classes/classrivet_1_1run/">Run</a> 1.  |
 
 
 
@@ -81,4 +81,4 @@ namespace Rivet {
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

@@ -9,123 +9,123 @@ description: "Standard ALICE primary particle definition. "
 
 
 
-Standard <a href="http://example.org/namespaces/namespacerivet_1_1alice/">ALICE</a> primary particle definition.  [More...](#detailed-description)
+Standard <a href="/documentation/code/namespaces/namespacerivet_1_1alice/">ALICE</a> primary particle definition.  [More...](#detailed-description)
 
 
 `#include <AliceCommon.hh>`
 
-Inherits from [Rivet::PrimaryParticles](http://example.org/classes/classrivet_1_1primaryparticles/), [Rivet::ParticleFinder](http://example.org/classes/classrivet_1_1particlefinder/), [Rivet::Projection](http://example.org/classes/classrivet_1_1projection/), [Rivet::ProjectionApplier](http://example.org/classes/classrivet_1_1projectionapplier/)
+Inherits from [Rivet::PrimaryParticles](/documentation/code/classes/classrivet_1_1primaryparticles/), [Rivet::ParticleFinder](/documentation/code/classes/classrivet_1_1particlefinder/), [Rivet::Projection](/documentation/code/classes/classrivet_1_1projection/), [Rivet::ProjectionApplier](/documentation/code/classes/classrivet_1_1projectionapplier/)
 
 ## Public Types
 
 |                | Name           |
 | -------------- | -------------- |
-| typedef <a href="http://example.org/classes/classrivet_1_1particle/">Particle</a> | **[entity_type](http://example.org/classes/classrivet_1_1alice_1_1primaryparticles/#typedef-entity-type)**  |
-| typedef <a href="http://example.org/classes/classrivet_1_1particles/">Particles</a> | **[collection_type](http://example.org/classes/classrivet_1_1alice_1_1primaryparticles/#typedef-collection-type)**  |
+| typedef <a href="/documentation/code/classes/classrivet_1_1particle/">Particle</a> | **[entity_type](/documentation/code/classes/classrivet_1_1alice_1_1primaryparticles/#typedef-entity-type)**  |
+| typedef <a href="/documentation/code/classes/classrivet_1_1particles/">Particles</a> | **[collection_type](/documentation/code/classes/classrivet_1_1alice_1_1primaryparticles/#typedef-collection-type)**  |
 
 ## Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
-| size_t | **[size](http://example.org/classes/classrivet_1_1alice_1_1primaryparticles/#function-size)**() const<br>Count the final-state particles.  |
-| size_t | **[size](http://example.org/classes/classrivet_1_1alice_1_1primaryparticles/#function-size)**(const Cut & c) const<br>Count the final-state particles after a Cut is applied.  |
-| size_t | **[size](http://example.org/classes/classrivet_1_1alice_1_1primaryparticles/#function-size)**(const ParticleSelector & s) const<br>Count the final-state particles after a selection functor is applied.  |
-| bool | **[empty](http://example.org/classes/classrivet_1_1alice_1_1primaryparticles/#function-empty)**() const<br>Is this final state empty?  |
-| bool | **[empty](http://example.org/classes/classrivet_1_1alice_1_1primaryparticles/#function-empty)**(const Cut & c) const<br>Is this final state empty after a Cut is applied?  |
-| bool | **[empty](http://example.org/classes/classrivet_1_1alice_1_1primaryparticles/#function-empty)**(const ParticleSelector & s) const<br>Is this final state empty after a selection functor is applied?  |
-| virtual const <a href="http://example.org/classes/classrivet_1_1particles/">Particles</a> & | **[particles](http://example.org/classes/classrivet_1_1alice_1_1primaryparticles/#function-particles)**() const<br>Get the particles in no particular order, with no cuts.  |
-| <a href="http://example.org/classes/classrivet_1_1particles/">Particles</a> | **[particles](http://example.org/classes/classrivet_1_1alice_1_1primaryparticles/#function-particles)**(const Cut & c) const<br>Get the particles with selection cuts.  |
-| <a href="http://example.org/classes/classrivet_1_1particles/">Particles</a> | **[particles](http://example.org/classes/classrivet_1_1alice_1_1primaryparticles/#function-particles)**(const ParticleSelector & selector) const<br>Get the particles with selection cuts via a functor.  |
-| <a href="http://example.org/classes/classrivet_1_1particles/">Particles</a> | **[particles](http://example.org/classes/classrivet_1_1alice_1_1primaryparticles/#function-particles)**(const ParticleSorter & sorter, const Cut & c =<a href="http://example.org/namespaces/namespacerivet_1_1cuts/#function-open">Cuts::open</a>()) const |
-| <a href="http://example.org/classes/classrivet_1_1particles/">Particles</a> | **[particles](http://example.org/classes/classrivet_1_1alice_1_1primaryparticles/#function-particles)**(const Cut & c, const ParticleSorter & sorter) const |
-| <a href="http://example.org/classes/classrivet_1_1particles/">Particles</a> | **[particles](http://example.org/classes/classrivet_1_1alice_1_1primaryparticles/#function-particles)**(const ParticleSelector & selector, const ParticleSorter & sorter) const |
-| <a href="http://example.org/classes/classrivet_1_1particles/">Particles</a> | **[particles](http://example.org/classes/classrivet_1_1alice_1_1primaryparticles/#function-particles)**(const ParticleSorter & sorter, const ParticleSelector & selector) const |
-| <a href="http://example.org/classes/classrivet_1_1particles/">Particles</a> | **[rawParticles](http://example.org/classes/classrivet_1_1alice_1_1primaryparticles/#function-rawparticles)**() const |
-| <a href="http://example.org/classes/classrivet_1_1particles/">Particles</a> | **[particlesByPt](http://example.org/classes/classrivet_1_1alice_1_1primaryparticles/#function-particlesbypt)**(const Cut & c =<a href="http://example.org/namespaces/namespacerivet_1_1cuts/#function-open">Cuts::open</a>()) const |
-| <a href="http://example.org/classes/classrivet_1_1particles/">Particles</a> | **[particlesByPt](http://example.org/classes/classrivet_1_1alice_1_1primaryparticles/#function-particlesbypt)**(const ParticleSelector & selector) const |
-| <a href="http://example.org/classes/classrivet_1_1particles/">Particles</a> | **[particlesByPt](http://example.org/classes/classrivet_1_1alice_1_1primaryparticles/#function-particlesbypt)**(double ptmin) const |
-| const <a href="http://example.org/classes/classrivet_1_1particles/">collection_type</a> & | **[entities](http://example.org/classes/classrivet_1_1alice_1_1primaryparticles/#function-entities)**() const<br>Template-usable interface common to JetAlg.  |
-| virtual std::string | **[name](http://example.org/classes/classrivet_1_1alice_1_1primaryparticles/#function-name)**() const<br>Get the name of the projection.  |
-| bool | **[valid](http://example.org/classes/classrivet_1_1alice_1_1primaryparticles/#function-valid)**() const<br>Get the state of the projetion.  |
-| bool | **[failed](http://example.org/classes/classrivet_1_1alice_1_1primaryparticles/#function-failed)**() const<br>Get the state of the projetion.  |
-| bool | **[before](http://example.org/classes/classrivet_1_1alice_1_1primaryparticles/#function-before)**(const <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> & p) const |
-| virtual const std::set< PdgIdPair > | **[beamPairs](http://example.org/classes/classrivet_1_1alice_1_1primaryparticles/#function-beampairs)**() const |
-| <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> & | **[addPdgIdPair](http://example.org/classes/classrivet_1_1alice_1_1primaryparticles/#function-addpdgidpair)**(PdgId beam1, PdgId beam2) |
-| std::set< ConstProjectionPtr > | **[getProjections](http://example.org/classes/classrivet_1_1alice_1_1primaryparticles/#function-getprojections)**() const<br>Get the contained projections, including recursion.  |
-| bool | **[hasProjection](http://example.org/classes/classrivet_1_1alice_1_1primaryparticles/#function-hasprojection)**(const std::string & name) const<br>Does this applier have a projection registered under the name _name_?  |
-| template <typename PROJ \> <br>const PROJ & | **[getProjection](http://example.org/classes/classrivet_1_1alice_1_1primaryparticles/#function-getprojection)**(const std::string & name) const |
-| const <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> & | **[getProjection](http://example.org/classes/classrivet_1_1alice_1_1primaryparticles/#function-getprojection)**(const std::string & name) const |
-| template <typename PROJ \> <br>const PROJ & | **[get](http://example.org/classes/classrivet_1_1alice_1_1primaryparticles/#function-get)**(const std::string & name) const |
-| template <typename PROJ  =Projection\> <br>std::enable_if_t< std::is_base_of< <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a>, PROJ >::value, const PROJ & > | **[applyProjection](http://example.org/classes/classrivet_1_1alice_1_1primaryparticles/#function-applyprojection)**(const <a href="http://example.org/classes/classrivet_1_1event/">Event</a> & evt, const <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> & proj) const |
-| template <typename PROJ  =Projection\> <br>std::enable_if_t< std::is_base_of< <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a>, PROJ >::value, const PROJ & > | **[applyProjection](http://example.org/classes/classrivet_1_1alice_1_1primaryparticles/#function-applyprojection)**(const <a href="http://example.org/classes/classrivet_1_1event/">Event</a> & evt, const PROJ & proj) const |
-| template <typename PROJ  =Projection\> <br>std::enable_if_t< std::is_base_of< <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a>, PROJ >::value, const PROJ & > | **[applyProjection](http://example.org/classes/classrivet_1_1alice_1_1primaryparticles/#function-applyprojection)**(const <a href="http://example.org/classes/classrivet_1_1event/">Event</a> & evt, const std::string & name) const |
-| template <typename PROJ  =Projection\> <br>std::enable_if_t< std::is_base_of< <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a>, PROJ >::value, const PROJ & > | **[apply](http://example.org/classes/classrivet_1_1alice_1_1primaryparticles/#function-apply)**(const <a href="http://example.org/classes/classrivet_1_1event/">Event</a> & evt, const <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> & proj) const<br>Apply the supplied projection on event _evt_ (user-facing alias).  |
-| template <typename PROJ  =Projection\> <br>std::enable_if_t< std::is_base_of< <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a>, PROJ >::value, const PROJ & > | **[apply](http://example.org/classes/classrivet_1_1alice_1_1primaryparticles/#function-apply)**(const <a href="http://example.org/classes/classrivet_1_1event/">Event</a> & evt, const PROJ & proj) const<br>Apply the supplied projection on event _evt_ (user-facing alias).  |
-| template <typename PROJ  =Projection\> <br>std::enable_if_t< std::is_base_of< <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a>, PROJ >::value, const PROJ & > | **[apply](http://example.org/classes/classrivet_1_1alice_1_1primaryparticles/#function-apply)**(const <a href="http://example.org/classes/classrivet_1_1event/">Event</a> & evt, const std::string & name) const<br>Apply the supplied projection on event _evt_ (user-facing alias).  |
-| template <typename PROJ  =Projection\> <br>std::enable_if_t< std::is_base_of< <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a>, PROJ >::value, const PROJ & > | **[apply](http://example.org/classes/classrivet_1_1alice_1_1primaryparticles/#function-apply)**(const std::string & name, const <a href="http://example.org/classes/classrivet_1_1event/">Event</a> & evt) const<br>Apply the supplied projection on event _evt_ (convenience arg-reordering alias).  |
-| void | **[markAsOwned](http://example.org/classes/classrivet_1_1alice_1_1primaryparticles/#function-markasowned)**() const<br>Mark this object as owned by a proj-handler.  |
-| | **[PrimaryParticles](http://example.org/classes/classrivet_1_1alice_1_1primaryparticles/#function-primaryparticles)**(const Cut & c =<a href="http://example.org/namespaces/namespacerivet_1_1cuts/#function-open">Cuts::open</a>()) |
-| virtual CmpState | **[compare](http://example.org/classes/classrivet_1_1alice_1_1primaryparticles/#function-compare)**(const <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> & p) const |
-| virtual std::unique_ptr< <a href="http://example.org/classes/classrivet_1_1projection/">Rivet::Projection</a> > | **[clone](http://example.org/classes/classrivet_1_1alice_1_1primaryparticles/#function-clone)**() const<br>Clone this projection.  |
-| | **[DEFAULT_RIVET_PROJ_CLONE](http://example.org/classes/classrivet_1_1alice_1_1primaryparticles/#function-default-rivet-proj-clone)**(<a href="http://example.org/classes/classrivet_1_1alice_1_1primaryparticles/">PrimaryParticles</a> ) |
+| size_t | **[size](/documentation/code/classes/classrivet_1_1alice_1_1primaryparticles/#function-size)**() const<br>Count the final-state particles.  |
+| size_t | **[size](/documentation/code/classes/classrivet_1_1alice_1_1primaryparticles/#function-size)**(const Cut & c) const<br>Count the final-state particles after a Cut is applied.  |
+| size_t | **[size](/documentation/code/classes/classrivet_1_1alice_1_1primaryparticles/#function-size)**(const ParticleSelector & s) const<br>Count the final-state particles after a selection functor is applied.  |
+| bool | **[empty](/documentation/code/classes/classrivet_1_1alice_1_1primaryparticles/#function-empty)**() const<br>Is this final state empty?  |
+| bool | **[empty](/documentation/code/classes/classrivet_1_1alice_1_1primaryparticles/#function-empty)**(const Cut & c) const<br>Is this final state empty after a Cut is applied?  |
+| bool | **[empty](/documentation/code/classes/classrivet_1_1alice_1_1primaryparticles/#function-empty)**(const ParticleSelector & s) const<br>Is this final state empty after a selection functor is applied?  |
+| virtual const <a href="/documentation/code/classes/classrivet_1_1particles/">Particles</a> & | **[particles](/documentation/code/classes/classrivet_1_1alice_1_1primaryparticles/#function-particles)**() const<br>Get the particles in no particular order, with no cuts.  |
+| <a href="/documentation/code/classes/classrivet_1_1particles/">Particles</a> | **[particles](/documentation/code/classes/classrivet_1_1alice_1_1primaryparticles/#function-particles)**(const Cut & c) const<br>Get the particles with selection cuts.  |
+| <a href="/documentation/code/classes/classrivet_1_1particles/">Particles</a> | **[particles](/documentation/code/classes/classrivet_1_1alice_1_1primaryparticles/#function-particles)**(const ParticleSelector & selector) const<br>Get the particles with selection cuts via a functor.  |
+| <a href="/documentation/code/classes/classrivet_1_1particles/">Particles</a> | **[particles](/documentation/code/classes/classrivet_1_1alice_1_1primaryparticles/#function-particles)**(const ParticleSorter & sorter, const Cut & c =<a href="/documentation/code/namespaces/namespacerivet_1_1cuts/#function-open">Cuts::open</a>()) const |
+| <a href="/documentation/code/classes/classrivet_1_1particles/">Particles</a> | **[particles](/documentation/code/classes/classrivet_1_1alice_1_1primaryparticles/#function-particles)**(const Cut & c, const ParticleSorter & sorter) const |
+| <a href="/documentation/code/classes/classrivet_1_1particles/">Particles</a> | **[particles](/documentation/code/classes/classrivet_1_1alice_1_1primaryparticles/#function-particles)**(const ParticleSelector & selector, const ParticleSorter & sorter) const |
+| <a href="/documentation/code/classes/classrivet_1_1particles/">Particles</a> | **[particles](/documentation/code/classes/classrivet_1_1alice_1_1primaryparticles/#function-particles)**(const ParticleSorter & sorter, const ParticleSelector & selector) const |
+| <a href="/documentation/code/classes/classrivet_1_1particles/">Particles</a> | **[rawParticles](/documentation/code/classes/classrivet_1_1alice_1_1primaryparticles/#function-rawparticles)**() const |
+| <a href="/documentation/code/classes/classrivet_1_1particles/">Particles</a> | **[particlesByPt](/documentation/code/classes/classrivet_1_1alice_1_1primaryparticles/#function-particlesbypt)**(const Cut & c =<a href="/documentation/code/namespaces/namespacerivet_1_1cuts/#function-open">Cuts::open</a>()) const |
+| <a href="/documentation/code/classes/classrivet_1_1particles/">Particles</a> | **[particlesByPt](/documentation/code/classes/classrivet_1_1alice_1_1primaryparticles/#function-particlesbypt)**(const ParticleSelector & selector) const |
+| <a href="/documentation/code/classes/classrivet_1_1particles/">Particles</a> | **[particlesByPt](/documentation/code/classes/classrivet_1_1alice_1_1primaryparticles/#function-particlesbypt)**(double ptmin) const |
+| const <a href="/documentation/code/classes/classrivet_1_1particles/">collection_type</a> & | **[entities](/documentation/code/classes/classrivet_1_1alice_1_1primaryparticles/#function-entities)**() const<br>Template-usable interface common to JetAlg.  |
+| virtual std::string | **[name](/documentation/code/classes/classrivet_1_1alice_1_1primaryparticles/#function-name)**() const<br>Get the name of the projection.  |
+| bool | **[valid](/documentation/code/classes/classrivet_1_1alice_1_1primaryparticles/#function-valid)**() const<br>Get the state of the projetion.  |
+| bool | **[failed](/documentation/code/classes/classrivet_1_1alice_1_1primaryparticles/#function-failed)**() const<br>Get the state of the projetion.  |
+| bool | **[before](/documentation/code/classes/classrivet_1_1alice_1_1primaryparticles/#function-before)**(const <a href="/documentation/code/classes/classrivet_1_1projection/">Projection</a> & p) const |
+| virtual const std::set< PdgIdPair > | **[beamPairs](/documentation/code/classes/classrivet_1_1alice_1_1primaryparticles/#function-beampairs)**() const |
+| <a href="/documentation/code/classes/classrivet_1_1projection/">Projection</a> & | **[addPdgIdPair](/documentation/code/classes/classrivet_1_1alice_1_1primaryparticles/#function-addpdgidpair)**(PdgId beam1, PdgId beam2) |
+| std::set< ConstProjectionPtr > | **[getProjections](/documentation/code/classes/classrivet_1_1alice_1_1primaryparticles/#function-getprojections)**() const<br>Get the contained projections, including recursion.  |
+| bool | **[hasProjection](/documentation/code/classes/classrivet_1_1alice_1_1primaryparticles/#function-hasprojection)**(const std::string & name) const<br>Does this applier have a projection registered under the name _name_?  |
+| template <typename PROJ \> <br>const PROJ & | **[getProjection](/documentation/code/classes/classrivet_1_1alice_1_1primaryparticles/#function-getprojection)**(const std::string & name) const |
+| const <a href="/documentation/code/classes/classrivet_1_1projection/">Projection</a> & | **[getProjection](/documentation/code/classes/classrivet_1_1alice_1_1primaryparticles/#function-getprojection)**(const std::string & name) const |
+| template <typename PROJ \> <br>const PROJ & | **[get](/documentation/code/classes/classrivet_1_1alice_1_1primaryparticles/#function-get)**(const std::string & name) const |
+| template <typename PROJ  =Projection\> <br>std::enable_if_t< std::is_base_of< <a href="/documentation/code/classes/classrivet_1_1projection/">Projection</a>, PROJ >::value, const PROJ & > | **[applyProjection](/documentation/code/classes/classrivet_1_1alice_1_1primaryparticles/#function-applyprojection)**(const <a href="/documentation/code/classes/classrivet_1_1event/">Event</a> & evt, const <a href="/documentation/code/classes/classrivet_1_1projection/">Projection</a> & proj) const |
+| template <typename PROJ  =Projection\> <br>std::enable_if_t< std::is_base_of< <a href="/documentation/code/classes/classrivet_1_1projection/">Projection</a>, PROJ >::value, const PROJ & > | **[applyProjection](/documentation/code/classes/classrivet_1_1alice_1_1primaryparticles/#function-applyprojection)**(const <a href="/documentation/code/classes/classrivet_1_1event/">Event</a> & evt, const PROJ & proj) const |
+| template <typename PROJ  =Projection\> <br>std::enable_if_t< std::is_base_of< <a href="/documentation/code/classes/classrivet_1_1projection/">Projection</a>, PROJ >::value, const PROJ & > | **[applyProjection](/documentation/code/classes/classrivet_1_1alice_1_1primaryparticles/#function-applyprojection)**(const <a href="/documentation/code/classes/classrivet_1_1event/">Event</a> & evt, const std::string & name) const |
+| template <typename PROJ  =Projection\> <br>std::enable_if_t< std::is_base_of< <a href="/documentation/code/classes/classrivet_1_1projection/">Projection</a>, PROJ >::value, const PROJ & > | **[apply](/documentation/code/classes/classrivet_1_1alice_1_1primaryparticles/#function-apply)**(const <a href="/documentation/code/classes/classrivet_1_1event/">Event</a> & evt, const <a href="/documentation/code/classes/classrivet_1_1projection/">Projection</a> & proj) const<br>Apply the supplied projection on event _evt_ (user-facing alias).  |
+| template <typename PROJ  =Projection\> <br>std::enable_if_t< std::is_base_of< <a href="/documentation/code/classes/classrivet_1_1projection/">Projection</a>, PROJ >::value, const PROJ & > | **[apply](/documentation/code/classes/classrivet_1_1alice_1_1primaryparticles/#function-apply)**(const <a href="/documentation/code/classes/classrivet_1_1event/">Event</a> & evt, const PROJ & proj) const<br>Apply the supplied projection on event _evt_ (user-facing alias).  |
+| template <typename PROJ  =Projection\> <br>std::enable_if_t< std::is_base_of< <a href="/documentation/code/classes/classrivet_1_1projection/">Projection</a>, PROJ >::value, const PROJ & > | **[apply](/documentation/code/classes/classrivet_1_1alice_1_1primaryparticles/#function-apply)**(const <a href="/documentation/code/classes/classrivet_1_1event/">Event</a> & evt, const std::string & name) const<br>Apply the supplied projection on event _evt_ (user-facing alias).  |
+| template <typename PROJ  =Projection\> <br>std::enable_if_t< std::is_base_of< <a href="/documentation/code/classes/classrivet_1_1projection/">Projection</a>, PROJ >::value, const PROJ & > | **[apply](/documentation/code/classes/classrivet_1_1alice_1_1primaryparticles/#function-apply)**(const std::string & name, const <a href="/documentation/code/classes/classrivet_1_1event/">Event</a> & evt) const<br>Apply the supplied projection on event _evt_ (convenience arg-reordering alias).  |
+| void | **[markAsOwned](/documentation/code/classes/classrivet_1_1alice_1_1primaryparticles/#function-markasowned)**() const<br>Mark this object as owned by a proj-handler.  |
+| | **[PrimaryParticles](/documentation/code/classes/classrivet_1_1alice_1_1primaryparticles/#function-primaryparticles)**(const Cut & c =<a href="/documentation/code/namespaces/namespacerivet_1_1cuts/#function-open">Cuts::open</a>()) |
+| virtual CmpState | **[compare](/documentation/code/classes/classrivet_1_1alice_1_1primaryparticles/#function-compare)**(const <a href="/documentation/code/classes/classrivet_1_1projection/">Projection</a> & p) const |
+| virtual std::unique_ptr< <a href="/documentation/code/classes/classrivet_1_1projection/">Rivet::Projection</a> > | **[clone](/documentation/code/classes/classrivet_1_1alice_1_1primaryparticles/#function-clone)**() const<br>Clone this projection.  |
+| | **[DEFAULT_RIVET_PROJ_CLONE](/documentation/code/classes/classrivet_1_1alice_1_1primaryparticles/#function-default-rivet-proj-clone)**(<a href="/documentation/code/classes/classrivet_1_1alice_1_1primaryparticles/">PrimaryParticles</a> ) |
 
 ## Protected Functions
 
 |                | Name           |
 | -------------- | -------------- |
-| <a href="http://example.org/classes/classrivet_1_1log/">Log</a> & | **[getLog](http://example.org/classes/classrivet_1_1alice_1_1primaryparticles/#function-getlog)**() const<br>Get a <a href="http://example.org/classes/classrivet_1_1log/">Log</a> object based on the getName() property of the calling projection object.  |
-| void | **[setName](http://example.org/classes/classrivet_1_1alice_1_1primaryparticles/#function-setname)**(const std::string & name)<br>Used by derived classes to set their name.  |
-| void | **[fail](http://example.org/classes/classrivet_1_1alice_1_1primaryparticles/#function-fail)**()<br>Set the projection in an unvalid state.  |
-| Cmp< <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> > | **[mkNamedPCmp](http://example.org/classes/classrivet_1_1alice_1_1primaryparticles/#function-mknamedpcmp)**(const <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> & otherparent, const std::string & pname) const |
-| Cmp< <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> > | **[mkPCmp](http://example.org/classes/classrivet_1_1alice_1_1primaryparticles/#function-mkpcmp)**(const <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> & otherparent, const std::string & pname) const |
-| <a href="http://example.org/classes/classrivet_1_1projectionhandler/">ProjectionHandler</a> & | **[getProjHandler](http://example.org/classes/classrivet_1_1alice_1_1primaryparticles/#function-getprojhandler)**() const<br>Get a reference to the <a href="http://example.org/classes/classrivet_1_1projectionhandler/">ProjectionHandler</a> for this thread.  |
-| virtual bool | **[isPrimary](http://example.org/classes/classrivet_1_1alice_1_1primaryparticles/#function-isprimary)**(ConstGenParticlePtr p) const |
-| virtual bool | **[isIgnored](http://example.org/classes/classrivet_1_1alice_1_1primaryparticles/#function-isignored)**(ConstGenParticlePtr p) const<br>Check if the particle should be ignored, via its status code.  |
-| virtual bool | **[hasDecayed](http://example.org/classes/classrivet_1_1alice_1_1primaryparticles/#function-hasdecayed)**(ConstGenParticlePtr p) const |
-| virtual bool | **[isBeam](http://example.org/classes/classrivet_1_1alice_1_1primaryparticles/#function-isbeam)**(ConstGenParticlePtr p) const |
-| ConstGenParticlePtr | **[ancestor](http://example.org/classes/classrivet_1_1alice_1_1primaryparticles/#function-ancestor)**(ConstGenParticlePtr p) const |
-| ConstGenParticlePtr | **[ancestor](http://example.org/classes/classrivet_1_1alice_1_1primaryparticles/#function-ancestor)**(ConstGenParticlePtr p, bool ) const |
-| template <typename PROJ \> <br>const PROJ & | **[declareProjection](http://example.org/classes/classrivet_1_1alice_1_1primaryparticles/#function-declareprojection)**(const PROJ & proj, const std::string & name)<br>Register a contained projection.  |
-| template <typename PROJ \> <br>const PROJ & | **[declare](http://example.org/classes/classrivet_1_1alice_1_1primaryparticles/#function-declare)**(const PROJ & proj, const std::string & name)<br>Register a contained projection (user-facing version)  |
-| template <typename PROJ \> <br>const PROJ & | **[declare](http://example.org/classes/classrivet_1_1alice_1_1primaryparticles/#function-declare)**(const std::string & name, const PROJ & proj)<br>Register a contained projection (user-facing, arg-reordered version)  |
-| virtual bool | **[isPrimaryPID](http://example.org/classes/classrivet_1_1alice_1_1primaryparticles/#function-isprimarypid)**(ConstGenParticlePtr p) const |
-| virtual void | **[project](http://example.org/classes/classrivet_1_1alice_1_1primaryparticles/#function-project)**(const <a href="http://example.org/classes/classrivet_1_1event/">Event</a> & e) |
+| <a href="/documentation/code/classes/classrivet_1_1log/">Log</a> & | **[getLog](/documentation/code/classes/classrivet_1_1alice_1_1primaryparticles/#function-getlog)**() const<br>Get a <a href="/documentation/code/classes/classrivet_1_1log/">Log</a> object based on the getName() property of the calling projection object.  |
+| void | **[setName](/documentation/code/classes/classrivet_1_1alice_1_1primaryparticles/#function-setname)**(const std::string & name)<br>Used by derived classes to set their name.  |
+| void | **[fail](/documentation/code/classes/classrivet_1_1alice_1_1primaryparticles/#function-fail)**()<br>Set the projection in an unvalid state.  |
+| Cmp< <a href="/documentation/code/classes/classrivet_1_1projection/">Projection</a> > | **[mkNamedPCmp](/documentation/code/classes/classrivet_1_1alice_1_1primaryparticles/#function-mknamedpcmp)**(const <a href="/documentation/code/classes/classrivet_1_1projection/">Projection</a> & otherparent, const std::string & pname) const |
+| Cmp< <a href="/documentation/code/classes/classrivet_1_1projection/">Projection</a> > | **[mkPCmp](/documentation/code/classes/classrivet_1_1alice_1_1primaryparticles/#function-mkpcmp)**(const <a href="/documentation/code/classes/classrivet_1_1projection/">Projection</a> & otherparent, const std::string & pname) const |
+| <a href="/documentation/code/classes/classrivet_1_1projectionhandler/">ProjectionHandler</a> & | **[getProjHandler](/documentation/code/classes/classrivet_1_1alice_1_1primaryparticles/#function-getprojhandler)**() const<br>Get a reference to the <a href="/documentation/code/classes/classrivet_1_1projectionhandler/">ProjectionHandler</a> for this thread.  |
+| virtual bool | **[isPrimary](/documentation/code/classes/classrivet_1_1alice_1_1primaryparticles/#function-isprimary)**(ConstGenParticlePtr p) const |
+| virtual bool | **[isIgnored](/documentation/code/classes/classrivet_1_1alice_1_1primaryparticles/#function-isignored)**(ConstGenParticlePtr p) const<br>Check if the particle should be ignored, via its status code.  |
+| virtual bool | **[hasDecayed](/documentation/code/classes/classrivet_1_1alice_1_1primaryparticles/#function-hasdecayed)**(ConstGenParticlePtr p) const |
+| virtual bool | **[isBeam](/documentation/code/classes/classrivet_1_1alice_1_1primaryparticles/#function-isbeam)**(ConstGenParticlePtr p) const |
+| ConstGenParticlePtr | **[ancestor](/documentation/code/classes/classrivet_1_1alice_1_1primaryparticles/#function-ancestor)**(ConstGenParticlePtr p) const |
+| ConstGenParticlePtr | **[ancestor](/documentation/code/classes/classrivet_1_1alice_1_1primaryparticles/#function-ancestor)**(ConstGenParticlePtr p, bool ) const |
+| template <typename PROJ \> <br>const PROJ & | **[declareProjection](/documentation/code/classes/classrivet_1_1alice_1_1primaryparticles/#function-declareprojection)**(const PROJ & proj, const std::string & name)<br>Register a contained projection.  |
+| template <typename PROJ \> <br>const PROJ & | **[declare](/documentation/code/classes/classrivet_1_1alice_1_1primaryparticles/#function-declare)**(const PROJ & proj, const std::string & name)<br>Register a contained projection (user-facing version)  |
+| template <typename PROJ \> <br>const PROJ & | **[declare](/documentation/code/classes/classrivet_1_1alice_1_1primaryparticles/#function-declare)**(const std::string & name, const PROJ & proj)<br>Register a contained projection (user-facing, arg-reordered version)  |
+| virtual bool | **[isPrimaryPID](/documentation/code/classes/classrivet_1_1alice_1_1primaryparticles/#function-isprimarypid)**(ConstGenParticlePtr p) const |
+| virtual void | **[project](/documentation/code/classes/classrivet_1_1alice_1_1primaryparticles/#function-project)**(const <a href="/documentation/code/classes/classrivet_1_1event/">Event</a> & e) |
 
 ## Additional inherited members
 
-**Public Functions inherited from [Rivet::ParticleFinder](http://example.org/classes/classrivet_1_1particlefinder/)**
+**Public Functions inherited from [Rivet::ParticleFinder](/documentation/code/classes/classrivet_1_1particlefinder/)**
 
 |                | Name           |
 | -------------- | -------------- |
-| | **[ParticleFinder](http://example.org/classes/classrivet_1_1particlefinder/#function-particlefinder)**(const Cut & c =Cuts::OPEN)<br>Construction using Cuts object.  |
-| virtual | **[~ParticleFinder](http://example.org/classes/classrivet_1_1particlefinder/#function-~particlefinder)**()<br>Virtual destructor for inheritance.  |
+| | **[ParticleFinder](/documentation/code/classes/classrivet_1_1particlefinder/#function-particlefinder)**(const Cut & c =Cuts::OPEN)<br>Construction using Cuts object.  |
+| virtual | **[~ParticleFinder](/documentation/code/classes/classrivet_1_1particlefinder/#function-~particlefinder)**()<br>Virtual destructor for inheritance.  |
 
-**Public Functions inherited from [Rivet::Projection](http://example.org/classes/classrivet_1_1projection/)**
-
-|                | Name           |
-| -------------- | -------------- |
-| | **[Projection](http://example.org/classes/classrivet_1_1projection/#function-projection)**()<br>The default constructor.  |
-| virtual | **[~Projection](http://example.org/classes/classrivet_1_1projection/#function-~projection)**()<br>The destructor.  |
-
-**Protected Functions inherited from [Rivet::Projection](http://example.org/classes/classrivet_1_1projection/)**
+**Public Functions inherited from [Rivet::Projection](/documentation/code/classes/classrivet_1_1projection/)**
 
 |                | Name           |
 | -------------- | -------------- |
-| virtual <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> & | **[operator=](http://example.org/classes/classrivet_1_1projection/#function-operator=)**(const <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> & )<br>Block <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> copying.  |
+| | **[Projection](/documentation/code/classes/classrivet_1_1projection/#function-projection)**()<br>The default constructor.  |
+| virtual | **[~Projection](/documentation/code/classes/classrivet_1_1projection/#function-~projection)**()<br>The destructor.  |
 
-**Friends inherited from [Rivet::Projection](http://example.org/classes/classrivet_1_1projection/)**
-
-|                | Name           |
-| -------------- | -------------- |
-| class | **[Event](http://example.org/classes/classrivet_1_1projection/#friend-event)** <br><a href="http://example.org/classes/classrivet_1_1event/">Event</a> is a friend.  |
-| class | **[Cmp< Projection >](http://example.org/classes/classrivet_1_1projection/#friend-cmp<-projection->)** <br>The Cmp specialization for <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> is a friend.  |
-
-**Public Functions inherited from [Rivet::ProjectionApplier](http://example.org/classes/classrivet_1_1projectionapplier/)**
+**Protected Functions inherited from [Rivet::Projection](/documentation/code/classes/classrivet_1_1projection/)**
 
 |                | Name           |
 | -------------- | -------------- |
-| | **[ProjectionApplier](http://example.org/classes/classrivet_1_1projectionapplier/#function-projectionapplier)**()<br>Constructor.  |
-| virtual | **[~ProjectionApplier](http://example.org/classes/classrivet_1_1projectionapplier/#function-~projectionapplier)**() |
+| virtual <a href="/documentation/code/classes/classrivet_1_1projection/">Projection</a> & | **[operator=](/documentation/code/classes/classrivet_1_1projection/#function-operator=)**(const <a href="/documentation/code/classes/classrivet_1_1projection/">Projection</a> & )<br>Block <a href="/documentation/code/classes/classrivet_1_1projection/">Projection</a> copying.  |
+
+**Friends inherited from [Rivet::Projection](/documentation/code/classes/classrivet_1_1projection/)**
+
+|                | Name           |
+| -------------- | -------------- |
+| class | **[Event](/documentation/code/classes/classrivet_1_1projection/#friend-event)** <br><a href="/documentation/code/classes/classrivet_1_1event/">Event</a> is a friend.  |
+| class | **[Cmp< Projection >](/documentation/code/classes/classrivet_1_1projection/#friend-cmp<-projection->)** <br>The Cmp specialization for <a href="/documentation/code/classes/classrivet_1_1projection/">Projection</a> is a friend.  |
+
+**Public Functions inherited from [Rivet::ProjectionApplier](/documentation/code/classes/classrivet_1_1projectionapplier/)**
+
+|                | Name           |
+| -------------- | -------------- |
+| | **[ProjectionApplier](/documentation/code/classes/classrivet_1_1projectionapplier/#function-projectionapplier)**()<br>Constructor.  |
+| virtual | **[~ProjectionApplier](/documentation/code/classes/classrivet_1_1projectionapplier/#function-~projectionapplier)**() |
 
 
 ## Detailed Description
@@ -134,7 +134,7 @@ Inherits from [Rivet::PrimaryParticles](http://example.org/classes/classrivet_1_
 class Rivet::ALICE::PrimaryParticles;
 ```
 
-Standard <a href="http://example.org/namespaces/namespacerivet_1_1alice/">ALICE</a> primary particle definition. 
+Standard <a href="/documentation/code/namespaces/namespacerivet_1_1alice/">ALICE</a> primary particle definition. 
 
 Primary particle definition according to public note <a href="https://cds.cern.ch/record/2270008">ALICE-PUBLIC-2017-005</a>
 
@@ -311,7 +311,7 @@ inline Particles rawParticles() const
 ```
 
 
-**Note**: Raw particles are the final-state constituents, as opposed to potentially composite particles returned as the finder's <a href="http://example.org/classes/classrivet_1_1chargedfinalstate/#function-particles">particles()</a>
+**Note**: Raw particles are the final-state constituents, as opposed to potentially composite particles returned as the finder's <a href="/documentation/code/classes/classrivet_1_1chargedfinalstate/#function-particles">particles()</a>
 
 Get the raw particles in no particular order, with no cuts
 
@@ -374,7 +374,7 @@ inline virtual std::string name() const
 
 Get the name of the projection. 
 
-**Reimplements**: [Rivet::ProjectionApplier::name](http://example.org/classes/classrivet_1_1projectionapplier/#function-name)
+**Reimplements**: [Rivet::ProjectionApplier::name](/documentation/code/classes/classrivet_1_1projectionapplier/#function-name)
 
 
 ### function valid
@@ -402,7 +402,7 @@ bool before(
 ```
 
 
-Determine whether this object should be ordered before the object _p_ given as argument. If _p_ is of a different class than this, the <a href="http://example.org/classes/classrivet_1_1axesdefinition/#function-before">before()</a> function of the corresponding type_info objects is used. Otherwise, if the objects are of the same class, the virtual compare(const Projection &) will be returned. 
+Determine whether this object should be ordered before the object _p_ given as argument. If _p_ is of a different class than this, the <a href="/documentation/code/classes/classrivet_1_1axesdefinition/#function-before">before()</a> function of the corresponding type_info objects is used. Otherwise, if the objects are of the same class, the virtual compare(const Projection &) will be returned. 
 
 
 ### function beamPairs
@@ -460,7 +460,7 @@ inline const PROJ & getProjection(
 ```
 
 
-**Todo**: Add SFINAE to require that PROJ inherit from <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a>
+**Todo**: Add SFINAE to require that PROJ inherit from <a href="/documentation/code/classes/classrivet_1_1projection/">Projection</a>
 
 Get the named projection, specifying return type via a template argument. 
 
@@ -474,7 +474,7 @@ inline const Projection & getProjection(
 ```
 
 
-Get the named projection (non-templated, so returns as a reference to a <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> base class). 
+Get the named projection (non-templated, so returns as a reference to a <a href="/documentation/code/classes/classrivet_1_1projection/">Projection</a> base class). 
 
 
 ### function get
@@ -487,7 +487,7 @@ inline const PROJ & get(
 ```
 
 
-**Todo**: Add SFINAE to require that PROJ inherit from <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a>
+**Todo**: Add SFINAE to require that PROJ inherit from <a href="/documentation/code/classes/classrivet_1_1projection/">Projection</a>
 
 Get the named projection, specifying return type via a template argument (user-facing alias). 
 
@@ -622,12 +622,12 @@ inline virtual CmpState compare(
 
 **Parameters**: 
 
-  * **p** <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> to compare to.
+  * **p** <a href="/documentation/code/classes/classrivet_1_1projection/">Projection</a> to compare to.
 
 
 **Return**: true (EQUIVALENT) if the projection _p_ is of the same type as this, if the cuts are equal, and that the list of PDG IDs are the same. 
 
-**Reimplements**: [Rivet::PrimaryParticles::compare](http://example.org/classes/classrivet_1_1primaryparticles/#function-compare)
+**Reimplements**: [Rivet::PrimaryParticles::compare](/documentation/code/classes/classrivet_1_1primaryparticles/#function-compare)
 
 
 Compare to projections.
@@ -641,7 +641,7 @@ inline virtual std::unique_ptr< Rivet::Projection > clone() const
 
 Clone this projection. 
 
-**Reimplements**: [Rivet::ChargedFinalState::clone](http://example.org/classes/classrivet_1_1chargedfinalstate/#function-clone)
+**Reimplements**: [Rivet::ChargedFinalState::clone](/documentation/code/classes/classrivet_1_1chargedfinalstate/#function-clone)
 
 
 ### function DEFAULT_RIVET_PROJ_CLONE
@@ -661,7 +661,7 @@ DEFAULT_RIVET_PROJ_CLONE(
 inline Log & getLog() const
 ```
 
-Get a <a href="http://example.org/classes/classrivet_1_1log/">Log</a> object based on the getName() property of the calling projection object. 
+Get a <a href="/documentation/code/classes/classrivet_1_1log/">Log</a> object based on the getName() property of the calling projection object. 
 
 ### function setName
 
@@ -715,7 +715,7 @@ Shortcut to make a named Cmp<Projection> comparison with the <code>&#42;this</co
 inline ProjectionHandler & getProjHandler() const
 ```
 
-Get a reference to the <a href="http://example.org/classes/classrivet_1_1projectionhandler/">ProjectionHandler</a> for this thread. 
+Get a reference to the <a href="/documentation/code/classes/classrivet_1_1projectionhandler/">ProjectionHandler</a> for this thread. 
 
 ### function isPrimary
 
@@ -766,7 +766,7 @@ virtual bool isBeam(
 
 **Parameters**: 
 
-  * **p** <a href="http://example.org/classes/classrivet_1_1particle/">Particle</a> to check
+  * **p** <a href="/documentation/code/classes/classrivet_1_1particle/">Particle</a> to check
 
 
 **Return**: true if the particle _p_ is a (remnant) beam particle 
@@ -785,7 +785,7 @@ ConstGenParticlePtr ancestor(
 
 **Parameters**: 
 
-  * **p** <a href="http://example.org/classes/classrivet_1_1particle/">Particle</a> for which to get the immediate ancestor
+  * **p** <a href="/documentation/code/classes/classrivet_1_1particle/">Particle</a> for which to get the immediate ancestor
 
 
 **Return**: Pointer to immediate ancestor or null if there's no ancestor. 
@@ -805,7 +805,7 @@ ConstGenParticlePtr ancestor(
 
 **Parameters**: 
 
-  * **p** <a href="http://example.org/classes/classrivet_1_1particle/">Particle</a> for which to get the immediate ancestor
+  * **p** <a href="/documentation/code/classes/classrivet_1_1particle/">Particle</a> for which to get the immediate ancestor
 
 
 **Return**: Pointer to immediate ancestor or null if there's no ancestor. 
@@ -825,9 +825,9 @@ inline const PROJ & declareProjection(
 
 Register a contained projection. 
 
-**Todo**: Add SFINAE to require that PROJ inherit from <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a>
+**Todo**: Add SFINAE to require that PROJ inherit from <a href="/documentation/code/classes/classrivet_1_1projection/">Projection</a>
 
-The type of the argument is used to instantiate a new projection internally: this new object is applied to events rather than the argument object. Hence you are advised to only use locally-scoped <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> objects in your <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> and <a href="http://example.org/classes/classrivet_1_1analysis/">Analysis</a> constructors, and to avoid polymorphism (e.g. handling <code>ConcreteProjection</code> via a pointer or reference to type <code><a href="http://example.org/classes/classrivet_1_1projection/">Projection</a></code>) since this will screw up the internal type management.
+The type of the argument is used to instantiate a new projection internally: this new object is applied to events rather than the argument object. Hence you are advised to only use locally-scoped <a href="/documentation/code/classes/classrivet_1_1projection/">Projection</a> objects in your <a href="/documentation/code/classes/classrivet_1_1projection/">Projection</a> and <a href="/documentation/code/classes/classrivet_1_1analysis/">Analysis</a> constructors, and to avoid polymorphism (e.g. handling <code>ConcreteProjection</code> via a pointer or reference to type <code><a href="/documentation/code/classes/classrivet_1_1projection/">Projection</a></code>) since this will screw up the internal type management.
 
 
 ### function declare
@@ -842,7 +842,7 @@ inline const PROJ & declare(
 
 Register a contained projection (user-facing version) 
 
-**Todo**: Add SFINAE to require that PROJ inherit from <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a>
+**Todo**: Add SFINAE to require that PROJ inherit from <a href="/documentation/code/classes/classrivet_1_1projection/">Projection</a>
 
 ### function declare
 
@@ -856,7 +856,7 @@ inline const PROJ & declare(
 
 Register a contained projection (user-facing, arg-reordered version) 
 
-**Todo**: Add SFINAE to require that PROJ inherit from <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a>
+**Todo**: Add SFINAE to require that PROJ inherit from <a href="/documentation/code/classes/classrivet_1_1projection/">Projection</a>
 
 ### function isPrimaryPID
 
@@ -869,14 +869,14 @@ inline virtual bool isPrimaryPID(
 
 **Parameters**: 
 
-  * **p** <a href="http://example.org/classes/classrivet_1_1particle/">Particle</a> to investigate.
+  * **p** <a href="/documentation/code/classes/classrivet_1_1particle/">Particle</a> to investigate.
 
 
 **Return**: true if the particle PDG ID is in the list of known primary PDG IDs.
 
 **Note**: We explicitly override this to allow for nuclei, and we explicitly check for a specific set of particles (and anti-particles). This means we do not use the base class list of particles. Therefore, we also need to override the compare method. 
 
-**Reimplements**: [Rivet::PrimaryParticles::isPrimaryPID](http://example.org/classes/classrivet_1_1primaryparticles/#function-isprimarypid)
+**Reimplements**: [Rivet::PrimaryParticles::isPrimaryPID](/documentation/code/classes/classrivet_1_1primaryparticles/#function-isprimarypid)
 
 
 Check PDG ID of particle _p_ is in the list of accepted primaries.
@@ -893,10 +893,10 @@ virtual void project(
 
 **Parameters**: 
 
-  * **e** <a href="http://example.org/classes/classrivet_1_1event/">Event</a> to project from 
+  * **e** <a href="/documentation/code/classes/classrivet_1_1event/">Event</a> to project from 
 
 
-**Reimplements**: [Rivet::ParticleFinder::project](http://example.org/classes/classrivet_1_1particlefinder/#function-project)
+**Reimplements**: [Rivet::ParticleFinder::project](/documentation/code/classes/classrivet_1_1particlefinder/#function-project)
 
 
 Do the projection.
@@ -904,4 +904,4 @@ Do the projection.
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

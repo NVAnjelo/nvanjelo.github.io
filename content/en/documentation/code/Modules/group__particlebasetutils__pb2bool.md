@@ -8,7 +8,7 @@ description: "[Documentation update required.]"
 
 # ParticleBase classifier -> bool functors
 
-**Module:** **[Functions for Particles and Jets](http://example.org/modules/group__particlebaseutils/)**
+**Module:** **[Functions for Particles and Jets](/documentation/code/modules/group__particlebaseutils/)**
 
  [More...](#detailed-description)
 
@@ -16,86 +16,86 @@ description: "[Documentation update required.]"
 
 |                | Name           |
 | -------------- | -------------- |
-| struct | **[Rivet::BoolParticleBaseFunctor](http://example.org/classes/structrivet_1_1boolparticlebasefunctor/)** <br>Base type for Particle -> bool functors.  |
-| struct | **[Rivet::PtGtr](http://example.org/classes/structrivet_1_1ptgtr/)** <br>Transverse momentum greater-than functor.  |
-| struct | **[Rivet::PtLess](http://example.org/classes/structrivet_1_1ptless/)** <br>Transverse momentum less-than functor.  |
-| struct | **[Rivet::PtInRange](http://example.org/classes/structrivet_1_1ptinrange/)** <br>Transverse momentum in-range functor.  |
-| struct | **[Rivet::EtaGtr](http://example.org/classes/structrivet_1_1etagtr/)** <br>Pseudorapidity greater-than functor.  |
-| struct | **[Rivet::EtaLess](http://example.org/classes/structrivet_1_1etaless/)** <br>Pseudorapidity less-than functor.  |
-| struct | **[Rivet::EtaInRange](http://example.org/classes/structrivet_1_1etainrange/)** <br>Pseudorapidity in-range functor.  |
-| struct | **[Rivet::AbsEtaGtr](http://example.org/classes/structrivet_1_1absetagtr/)** <br>Abs pseudorapidity greater-than functor.  |
-| struct | **[Rivet::AbsEtaLess](http://example.org/classes/structrivet_1_1absetaless/)** <br>Abs pseudorapidity momentum less-than functor.  |
-| struct | **[Rivet::AbsEtaInRange](http://example.org/classes/structrivet_1_1absetainrange/)** <br>Abs pseudorapidity in-range functor.  |
-| struct | **[Rivet::RapGtr](http://example.org/classes/structrivet_1_1rapgtr/)** <br>Rapidity greater-than functor.  |
-| struct | **[Rivet::RapLess](http://example.org/classes/structrivet_1_1rapless/)** <br>Rapidity momentum less-than functor.  |
-| struct | **[Rivet::RapInRange](http://example.org/classes/structrivet_1_1rapinrange/)** <br>Rapidity in-range functor.  |
-| struct | **[Rivet::AbsRapGtr](http://example.org/classes/structrivet_1_1absrapgtr/)** <br>Abs rapidity greater-than functor.  |
-| struct | **[Rivet::AbsRapLess](http://example.org/classes/structrivet_1_1absrapless/)** <br>Abs rapidity momentum less-than functor.  |
-| struct | **[Rivet::AbsRapInRange](http://example.org/classes/structrivet_1_1absrapinrange/)** <br>Abs rapidity in-range functor.  |
-| struct | **[Rivet::DeltaRGtr](http://example.org/classes/structrivet_1_1deltargtr/)** <br>\( \Delta R \) (with respect to another 4-momentum, _vec_) greater-than functor  |
-| struct | **[Rivet::DeltaRLess](http://example.org/classes/structrivet_1_1deltarless/)** <br>\( \Delta R \) (with respect to another 4-momentum, _vec_) less-than functor  |
-| struct | **[Rivet::DeltaRInRange](http://example.org/classes/structrivet_1_1deltarinrange/)** <br>\( \Delta R \) (with respect to another 4-momentum, _vec_) in-range functor  |
-| struct | **[Rivet::DeltaPhiGtr](http://example.org/classes/structrivet_1_1deltaphigtr/)** <br>\( |\Delta \phi| \) (with respect to another momentum, _vec_) greater-than functor  |
-| struct | **[Rivet::DeltaPhiLess](http://example.org/classes/structrivet_1_1deltaphiless/)** <br>\( |\Delta \phi| \) (with respect to another momentum, _vec_) less-than functor  |
-| struct | **[Rivet::DeltaPhiInRange](http://example.org/classes/structrivet_1_1deltaphiinrange/)** <br>\( \Delta \phi \) (with respect to another 4-momentum, _vec_) in-range functor  |
-| struct | **[Rivet::DeltaEtaGtr](http://example.org/classes/structrivet_1_1deltaetagtr/)** <br>\( |\Delta \eta| \) (with respect to another momentum, _vec_) greater-than functor  |
-| struct | **[Rivet::DeltaEtaLess](http://example.org/classes/structrivet_1_1deltaetaless/)** <br>\( |\Delta \eta| \) (with respect to another momentum, _vec_) less-than functor  |
-| struct | **[Rivet::DeltaEtaInRange](http://example.org/classes/structrivet_1_1deltaetainrange/)** <br>\( \Delta \eta \) (with respect to another 4-momentum, _vec_) in-range functor  |
-| struct | **[Rivet::DeltaRapGtr](http://example.org/classes/structrivet_1_1deltarapgtr/)** <br>\( |\Delta y| \) (with respect to another momentum, _vec_) greater-than functor  |
-| struct | **[Rivet::DeltaRapLess](http://example.org/classes/structrivet_1_1deltarapless/)** <br>\( |\Delta y| \) (with respect to another momentum, _vec_) less-than functor  |
-| struct | **[Rivet::DeltaRapInRange](http://example.org/classes/structrivet_1_1deltarapinrange/)** <br>\( \Delta y \) (with respect to another 4-momentum, _vec_) in-range functor  |
+| struct | **[Rivet::BoolParticleBaseFunctor](/documentation/code/classes/structrivet_1_1boolparticlebasefunctor/)** <br>Base type for Particle -> bool functors.  |
+| struct | **[Rivet::PtGtr](/documentation/code/classes/structrivet_1_1ptgtr/)** <br>Transverse momentum greater-than functor.  |
+| struct | **[Rivet::PtLess](/documentation/code/classes/structrivet_1_1ptless/)** <br>Transverse momentum less-than functor.  |
+| struct | **[Rivet::PtInRange](/documentation/code/classes/structrivet_1_1ptinrange/)** <br>Transverse momentum in-range functor.  |
+| struct | **[Rivet::EtaGtr](/documentation/code/classes/structrivet_1_1etagtr/)** <br>Pseudorapidity greater-than functor.  |
+| struct | **[Rivet::EtaLess](/documentation/code/classes/structrivet_1_1etaless/)** <br>Pseudorapidity less-than functor.  |
+| struct | **[Rivet::EtaInRange](/documentation/code/classes/structrivet_1_1etainrange/)** <br>Pseudorapidity in-range functor.  |
+| struct | **[Rivet::AbsEtaGtr](/documentation/code/classes/structrivet_1_1absetagtr/)** <br>Abs pseudorapidity greater-than functor.  |
+| struct | **[Rivet::AbsEtaLess](/documentation/code/classes/structrivet_1_1absetaless/)** <br>Abs pseudorapidity momentum less-than functor.  |
+| struct | **[Rivet::AbsEtaInRange](/documentation/code/classes/structrivet_1_1absetainrange/)** <br>Abs pseudorapidity in-range functor.  |
+| struct | **[Rivet::RapGtr](/documentation/code/classes/structrivet_1_1rapgtr/)** <br>Rapidity greater-than functor.  |
+| struct | **[Rivet::RapLess](/documentation/code/classes/structrivet_1_1rapless/)** <br>Rapidity momentum less-than functor.  |
+| struct | **[Rivet::RapInRange](/documentation/code/classes/structrivet_1_1rapinrange/)** <br>Rapidity in-range functor.  |
+| struct | **[Rivet::AbsRapGtr](/documentation/code/classes/structrivet_1_1absrapgtr/)** <br>Abs rapidity greater-than functor.  |
+| struct | **[Rivet::AbsRapLess](/documentation/code/classes/structrivet_1_1absrapless/)** <br>Abs rapidity momentum less-than functor.  |
+| struct | **[Rivet::AbsRapInRange](/documentation/code/classes/structrivet_1_1absrapinrange/)** <br>Abs rapidity in-range functor.  |
+| struct | **[Rivet::DeltaRGtr](/documentation/code/classes/structrivet_1_1deltargtr/)** <br>\( \Delta R \) (with respect to another 4-momentum, _vec_) greater-than functor  |
+| struct | **[Rivet::DeltaRLess](/documentation/code/classes/structrivet_1_1deltarless/)** <br>\( \Delta R \) (with respect to another 4-momentum, _vec_) less-than functor  |
+| struct | **[Rivet::DeltaRInRange](/documentation/code/classes/structrivet_1_1deltarinrange/)** <br>\( \Delta R \) (with respect to another 4-momentum, _vec_) in-range functor  |
+| struct | **[Rivet::DeltaPhiGtr](/documentation/code/classes/structrivet_1_1deltaphigtr/)** <br>\( |\Delta \phi| \) (with respect to another momentum, _vec_) greater-than functor  |
+| struct | **[Rivet::DeltaPhiLess](/documentation/code/classes/structrivet_1_1deltaphiless/)** <br>\( |\Delta \phi| \) (with respect to another momentum, _vec_) less-than functor  |
+| struct | **[Rivet::DeltaPhiInRange](/documentation/code/classes/structrivet_1_1deltaphiinrange/)** <br>\( \Delta \phi \) (with respect to another 4-momentum, _vec_) in-range functor  |
+| struct | **[Rivet::DeltaEtaGtr](/documentation/code/classes/structrivet_1_1deltaetagtr/)** <br>\( |\Delta \eta| \) (with respect to another momentum, _vec_) greater-than functor  |
+| struct | **[Rivet::DeltaEtaLess](/documentation/code/classes/structrivet_1_1deltaetaless/)** <br>\( |\Delta \eta| \) (with respect to another momentum, _vec_) less-than functor  |
+| struct | **[Rivet::DeltaEtaInRange](/documentation/code/classes/structrivet_1_1deltaetainrange/)** <br>\( \Delta \eta \) (with respect to another 4-momentum, _vec_) in-range functor  |
+| struct | **[Rivet::DeltaRapGtr](/documentation/code/classes/structrivet_1_1deltarapgtr/)** <br>\( |\Delta y| \) (with respect to another momentum, _vec_) greater-than functor  |
+| struct | **[Rivet::DeltaRapLess](/documentation/code/classes/structrivet_1_1deltarapless/)** <br>\( |\Delta y| \) (with respect to another momentum, _vec_) less-than functor  |
+| struct | **[Rivet::DeltaRapInRange](/documentation/code/classes/structrivet_1_1deltarapinrange/)** <br>\( \Delta y \) (with respect to another 4-momentum, _vec_) in-range functor  |
 
 ## Types
 
 |                | Name           |
 | -------------- | -------------- |
-| using function< bool(const ParticleBase &)> | **[ParticleBaseSelector](http://example.org/modules/group__particlebasetutils__pb2bool/#using-particlebaseselector)** <br>std::function instantiation for functors taking a <a href="http://example.org/classes/classrivet_1_1particlebase/">ParticleBase</a> and returning a bool  |
-| using function< bool(const ParticleBase &, const ParticleBase &)> | **[ParticleBaseSorter](http://example.org/modules/group__particlebasetutils__pb2bool/#using-particlebasesorter)** <br>std::function instantiation for functors taking two <a href="http://example.org/classes/classrivet_1_1particlebase/">ParticleBase</a> and returning a bool  |
-| using PtGtr | **[pTGtr](http://example.org/modules/group__particlebasetutils__pb2bool/#using-ptgtr)**  |
-| using PtGtr | **[ptGtr](http://example.org/modules/group__particlebasetutils__pb2bool/#using-ptgtr)**  |
-| using PtLess | **[pTLess](http://example.org/modules/group__particlebasetutils__pb2bool/#using-ptless)**  |
-| using PtLess | **[ptLess](http://example.org/modules/group__particlebasetutils__pb2bool/#using-ptless)**  |
-| using PtInRange | **[pTInRange](http://example.org/modules/group__particlebasetutils__pb2bool/#using-ptinrange)**  |
-| using PtInRange | **[ptInRange](http://example.org/modules/group__particlebasetutils__pb2bool/#using-ptinrange)**  |
-| using EtaGtr | **[etaGtr](http://example.org/modules/group__particlebasetutils__pb2bool/#using-etagtr)**  |
-| using EtaLess | **[etaLess](http://example.org/modules/group__particlebasetutils__pb2bool/#using-etaless)**  |
-| using EtaInRange | **[etaInRange](http://example.org/modules/group__particlebasetutils__pb2bool/#using-etainrange)**  |
-| using AbsEtaGtr | **[absEtaGtr](http://example.org/modules/group__particlebasetutils__pb2bool/#using-absetagtr)**  |
-| using AbsEtaGtr | **[absetaGtr](http://example.org/modules/group__particlebasetutils__pb2bool/#using-absetagtr)**  |
-| using AbsEtaLess | **[absEtaLess](http://example.org/modules/group__particlebasetutils__pb2bool/#using-absetaless)**  |
-| using AbsEtaLess | **[absetaLess](http://example.org/modules/group__particlebasetutils__pb2bool/#using-absetaless)**  |
-| using AbsEtaInRange | **[absEtaInRange](http://example.org/modules/group__particlebasetutils__pb2bool/#using-absetainrange)**  |
-| using AbsEtaInRange | **[absetaInRange](http://example.org/modules/group__particlebasetutils__pb2bool/#using-absetainrange)**  |
-| using RapGtr | **[rapGtr](http://example.org/modules/group__particlebasetutils__pb2bool/#using-rapgtr)**  |
-| using RapLess | **[rapLess](http://example.org/modules/group__particlebasetutils__pb2bool/#using-rapless)**  |
-| using RapInRange | **[rapInRange](http://example.org/modules/group__particlebasetutils__pb2bool/#using-rapinrange)**  |
-| using AbsRapGtr | **[absRapGtr](http://example.org/modules/group__particlebasetutils__pb2bool/#using-absrapgtr)**  |
-| using AbsRapGtr | **[absrapGtr](http://example.org/modules/group__particlebasetutils__pb2bool/#using-absrapgtr)**  |
-| using AbsRapLess | **[absRapLess](http://example.org/modules/group__particlebasetutils__pb2bool/#using-absrapless)**  |
-| using AbsRapLess | **[absrapLess](http://example.org/modules/group__particlebasetutils__pb2bool/#using-absrapless)**  |
-| using AbsRapInRange | **[absRapInRange](http://example.org/modules/group__particlebasetutils__pb2bool/#using-absrapinrange)**  |
-| using AbsRapInRange | **[absrapInRange](http://example.org/modules/group__particlebasetutils__pb2bool/#using-absrapinrange)**  |
-| using DeltaRGtr | **[deltaRGtr](http://example.org/modules/group__particlebasetutils__pb2bool/#using-deltargtr)**  |
-| using DeltaRLess | **[deltaRLess](http://example.org/modules/group__particlebasetutils__pb2bool/#using-deltarless)**  |
-| using DeltaRInRange | **[deltaRInRange](http://example.org/modules/group__particlebasetutils__pb2bool/#using-deltarinrange)**  |
-| using DeltaPhiGtr | **[deltaPhiGtr](http://example.org/modules/group__particlebasetutils__pb2bool/#using-deltaphigtr)**  |
-| using DeltaPhiLess | **[deltaPhiLess](http://example.org/modules/group__particlebasetutils__pb2bool/#using-deltaphiless)**  |
-| using DeltaPhiInRange | **[deltaPhiInRange](http://example.org/modules/group__particlebasetutils__pb2bool/#using-deltaphiinrange)**  |
-| using DeltaEtaGtr | **[deltaEtaGtr](http://example.org/modules/group__particlebasetutils__pb2bool/#using-deltaetagtr)**  |
-| using DeltaEtaLess | **[deltaEtaLess](http://example.org/modules/group__particlebasetutils__pb2bool/#using-deltaetaless)**  |
-| using DeltaEtaInRange | **[deltaEtaInRange](http://example.org/modules/group__particlebasetutils__pb2bool/#using-deltaetainrange)**  |
-| using DeltaRapGtr | **[deltaRapGtr](http://example.org/modules/group__particlebasetutils__pb2bool/#using-deltarapgtr)**  |
-| using DeltaRapLess | **[deltaRapLess](http://example.org/modules/group__particlebasetutils__pb2bool/#using-deltarapless)**  |
-| using DeltaRapInRange | **[deltaRapInRange](http://example.org/modules/group__particlebasetutils__pb2bool/#using-deltarapinrange)**  |
+| using function< bool(const ParticleBase &)> | **[ParticleBaseSelector](/documentation/code/modules/group__particlebasetutils__pb2bool/#using-particlebaseselector)** <br>std::function instantiation for functors taking a <a href="/documentation/code/classes/classrivet_1_1particlebase/">ParticleBase</a> and returning a bool  |
+| using function< bool(const ParticleBase &, const ParticleBase &)> | **[ParticleBaseSorter](/documentation/code/modules/group__particlebasetutils__pb2bool/#using-particlebasesorter)** <br>std::function instantiation for functors taking two <a href="/documentation/code/classes/classrivet_1_1particlebase/">ParticleBase</a> and returning a bool  |
+| using PtGtr | **[pTGtr](/documentation/code/modules/group__particlebasetutils__pb2bool/#using-ptgtr)**  |
+| using PtGtr | **[ptGtr](/documentation/code/modules/group__particlebasetutils__pb2bool/#using-ptgtr)**  |
+| using PtLess | **[pTLess](/documentation/code/modules/group__particlebasetutils__pb2bool/#using-ptless)**  |
+| using PtLess | **[ptLess](/documentation/code/modules/group__particlebasetutils__pb2bool/#using-ptless)**  |
+| using PtInRange | **[pTInRange](/documentation/code/modules/group__particlebasetutils__pb2bool/#using-ptinrange)**  |
+| using PtInRange | **[ptInRange](/documentation/code/modules/group__particlebasetutils__pb2bool/#using-ptinrange)**  |
+| using EtaGtr | **[etaGtr](/documentation/code/modules/group__particlebasetutils__pb2bool/#using-etagtr)**  |
+| using EtaLess | **[etaLess](/documentation/code/modules/group__particlebasetutils__pb2bool/#using-etaless)**  |
+| using EtaInRange | **[etaInRange](/documentation/code/modules/group__particlebasetutils__pb2bool/#using-etainrange)**  |
+| using AbsEtaGtr | **[absEtaGtr](/documentation/code/modules/group__particlebasetutils__pb2bool/#using-absetagtr)**  |
+| using AbsEtaGtr | **[absetaGtr](/documentation/code/modules/group__particlebasetutils__pb2bool/#using-absetagtr)**  |
+| using AbsEtaLess | **[absEtaLess](/documentation/code/modules/group__particlebasetutils__pb2bool/#using-absetaless)**  |
+| using AbsEtaLess | **[absetaLess](/documentation/code/modules/group__particlebasetutils__pb2bool/#using-absetaless)**  |
+| using AbsEtaInRange | **[absEtaInRange](/documentation/code/modules/group__particlebasetutils__pb2bool/#using-absetainrange)**  |
+| using AbsEtaInRange | **[absetaInRange](/documentation/code/modules/group__particlebasetutils__pb2bool/#using-absetainrange)**  |
+| using RapGtr | **[rapGtr](/documentation/code/modules/group__particlebasetutils__pb2bool/#using-rapgtr)**  |
+| using RapLess | **[rapLess](/documentation/code/modules/group__particlebasetutils__pb2bool/#using-rapless)**  |
+| using RapInRange | **[rapInRange](/documentation/code/modules/group__particlebasetutils__pb2bool/#using-rapinrange)**  |
+| using AbsRapGtr | **[absRapGtr](/documentation/code/modules/group__particlebasetutils__pb2bool/#using-absrapgtr)**  |
+| using AbsRapGtr | **[absrapGtr](/documentation/code/modules/group__particlebasetutils__pb2bool/#using-absrapgtr)**  |
+| using AbsRapLess | **[absRapLess](/documentation/code/modules/group__particlebasetutils__pb2bool/#using-absrapless)**  |
+| using AbsRapLess | **[absrapLess](/documentation/code/modules/group__particlebasetutils__pb2bool/#using-absrapless)**  |
+| using AbsRapInRange | **[absRapInRange](/documentation/code/modules/group__particlebasetutils__pb2bool/#using-absrapinrange)**  |
+| using AbsRapInRange | **[absrapInRange](/documentation/code/modules/group__particlebasetutils__pb2bool/#using-absrapinrange)**  |
+| using DeltaRGtr | **[deltaRGtr](/documentation/code/modules/group__particlebasetutils__pb2bool/#using-deltargtr)**  |
+| using DeltaRLess | **[deltaRLess](/documentation/code/modules/group__particlebasetutils__pb2bool/#using-deltarless)**  |
+| using DeltaRInRange | **[deltaRInRange](/documentation/code/modules/group__particlebasetutils__pb2bool/#using-deltarinrange)**  |
+| using DeltaPhiGtr | **[deltaPhiGtr](/documentation/code/modules/group__particlebasetutils__pb2bool/#using-deltaphigtr)**  |
+| using DeltaPhiLess | **[deltaPhiLess](/documentation/code/modules/group__particlebasetutils__pb2bool/#using-deltaphiless)**  |
+| using DeltaPhiInRange | **[deltaPhiInRange](/documentation/code/modules/group__particlebasetutils__pb2bool/#using-deltaphiinrange)**  |
+| using DeltaEtaGtr | **[deltaEtaGtr](/documentation/code/modules/group__particlebasetutils__pb2bool/#using-deltaetagtr)**  |
+| using DeltaEtaLess | **[deltaEtaLess](/documentation/code/modules/group__particlebasetutils__pb2bool/#using-deltaetaless)**  |
+| using DeltaEtaInRange | **[deltaEtaInRange](/documentation/code/modules/group__particlebasetutils__pb2bool/#using-deltaetainrange)**  |
+| using DeltaRapGtr | **[deltaRapGtr](/documentation/code/modules/group__particlebasetutils__pb2bool/#using-deltarapgtr)**  |
+| using DeltaRapLess | **[deltaRapLess](/documentation/code/modules/group__particlebasetutils__pb2bool/#using-deltarapless)**  |
+| using DeltaRapInRange | **[deltaRapInRange](/documentation/code/modules/group__particlebasetutils__pb2bool/#using-deltarapinrange)**  |
 
 ## Detailed Description
 
 
-**Todo**: Move to <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a> functions
+**Todo**: Move to <a href="/documentation/code/classes/classrivet_1_1fourmomentum/">FourMomentum</a> functions
 
 
 
-To be passed to <a href="http://example.org/modules/group__contutils/#function-any">any()</a> or <a href="http://example.org/modules/group__contutils/#function-all">all()</a> e.g. any(jets, <a href="http://example.org/classes/structrivet_1_1deltarless/">DeltaRLess</a>(electron, 0.4)) 
+To be passed to <a href="/documentation/code/modules/group__contutils/#function-any">any()</a> or <a href="/documentation/code/modules/group__contutils/#function-all">all()</a> e.g. any(jets, <a href="/documentation/code/classes/structrivet_1_1deltarless/">DeltaRLess</a>(electron, 0.4)) 
 
 ## Types Documentation
 
@@ -105,7 +105,7 @@ To be passed to <a href="http://example.org/modules/group__contutils/#function-a
 using Rivet::ParticleBaseSelector = typedef function<bool(const ParticleBase&)>;
 ```
 
-std::function instantiation for functors taking a <a href="http://example.org/classes/classrivet_1_1particlebase/">ParticleBase</a> and returning a bool 
+std::function instantiation for functors taking a <a href="/documentation/code/classes/classrivet_1_1particlebase/">ParticleBase</a> and returning a bool 
 
 ### using ParticleBaseSorter
 
@@ -113,7 +113,7 @@ std::function instantiation for functors taking a <a href="http://example.org/cl
 using Rivet::ParticleBaseSorter = typedef function<bool(const ParticleBase&, const ParticleBase&)>;
 ```
 
-std::function instantiation for functors taking two <a href="http://example.org/classes/classrivet_1_1particlebase/">ParticleBase</a> and returning a bool 
+std::function instantiation for functors taking two <a href="/documentation/code/classes/classrivet_1_1particlebase/">ParticleBase</a> and returning a bool 
 
 ### using pTGtr
 
@@ -374,4 +374,4 @@ using Rivet::deltaRapInRange = typedef DeltaRapInRange;
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

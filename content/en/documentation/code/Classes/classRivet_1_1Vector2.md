@@ -9,72 +9,72 @@ description: "Two-dimensional specialisation of Vector. "
 
 
 
-Two-dimensional specialisation of <a href="http://example.org/classes/classrivet_1_1vector/">Vector</a>. 
+Two-dimensional specialisation of <a href="/documentation/code/classes/classrivet_1_1vector/">Vector</a>. 
 
 
 `#include <Vector2.hh>`
 
-Inherits from [Rivet::Vector< 2 >](http://example.org/classes/classrivet_1_1vector/)
+Inherits from [Rivet::Vector< 2 >](/documentation/code/classes/classrivet_1_1vector/)
 
 ## Public Types
 
 |                | Name           |
 | -------------- | -------------- |
-| using Eigen::Matrix< double, N, 1 > | **[EVector](http://example.org/classes/classrivet_1_1vector2/#using-evector)** <br>Vector.  |
+| using Eigen::Matrix< double, N, 1 > | **[EVector](/documentation/code/classes/classrivet_1_1vector2/#using-evector)** <br>Vector.  |
 
 ## Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
-| | **[Vector2](http://example.org/classes/classrivet_1_1vector2/#function-vector2)**() |
-| template <typename V2TYPE \> <br>| **[Vector2](http://example.org/classes/classrivet_1_1vector2/#function-vector2)**(const V2TYPE & other) |
-| | **[Vector2](http://example.org/classes/classrivet_1_1vector2/#function-vector2)**(const <a href="http://example.org/classes/classrivet_1_1vector/">Vector</a>< 2 > & other) |
-| | **[Vector2](http://example.org/classes/classrivet_1_1vector2/#function-vector2)**(double x, double y) |
-| | **[~Vector2](http://example.org/classes/classrivet_1_1vector2/#function-~vector2)**() |
-| double | **[x](http://example.org/classes/classrivet_1_1vector2/#function-x)**() const |
-| double | **[y](http://example.org/classes/classrivet_1_1vector2/#function-y)**() const |
-| <a href="http://example.org/classes/classrivet_1_1vector2/">Vector2</a> & | **[setX](http://example.org/classes/classrivet_1_1vector2/#function-setx)**(double x) |
-| <a href="http://example.org/classes/classrivet_1_1vector2/">Vector2</a> & | **[setY](http://example.org/classes/classrivet_1_1vector2/#function-sety)**(double y) |
-| double | **[dot](http://example.org/classes/classrivet_1_1vector2/#function-dot)**(const <a href="http://example.org/classes/classrivet_1_1vector2/">Vector2</a> & v) const<br>Dot-product with another vector.  |
-| double | **[angle](http://example.org/classes/classrivet_1_1vector2/#function-angle)**(const <a href="http://example.org/classes/classrivet_1_1vector2/">Vector2</a> & v) const<br>Angle in radians to another vector.  |
-| <a href="http://example.org/classes/classrivet_1_1vector2/">Vector2</a> | **[unitVec](http://example.org/classes/classrivet_1_1vector2/#function-unitvec)**() const<br>Unit-normalized version of this vector.  |
-| <a href="http://example.org/classes/classrivet_1_1vector2/">Vector2</a> | **[unit](http://example.org/classes/classrivet_1_1vector2/#function-unit)**() const<br>Synonym for unitVec.  |
-| <a href="http://example.org/classes/classrivet_1_1vector2/">Vector2</a> & | **[operator*=](http://example.org/classes/classrivet_1_1vector2/#function-operator*=)**(const double a) |
-| <a href="http://example.org/classes/classrivet_1_1vector2/">Vector2</a> & | **[operator/=](http://example.org/classes/classrivet_1_1vector2/#function-operator/=)**(const double a) |
-| <a href="http://example.org/classes/classrivet_1_1vector2/">Vector2</a> & | **[operator+=](http://example.org/classes/classrivet_1_1vector2/#function-operator+=)**(const <a href="http://example.org/classes/classrivet_1_1vector2/">Vector2</a> & v) |
-| <a href="http://example.org/classes/classrivet_1_1vector2/">Vector2</a> & | **[operator-=](http://example.org/classes/classrivet_1_1vector2/#function-operator-=)**(const <a href="http://example.org/classes/classrivet_1_1vector2/">Vector2</a> & v) |
-| <a href="http://example.org/classes/classrivet_1_1vector2/">Vector2</a> | **[operator-](http://example.org/classes/classrivet_1_1vector2/#function-operator-)**() const |
-| const double & | **[get](http://example.org/classes/classrivet_1_1vector2/#function-get)**(const size_t index) const |
-| double & | **[get](http://example.org/classes/classrivet_1_1vector2/#function-get)**(const size_t index) |
-| const double & | **[operator[]](http://example.org/classes/classrivet_1_1vector2/#function-operator[])**(const size_t index) const<br>Direct access to vector elements by index.  |
-| double & | **[operator[]](http://example.org/classes/classrivet_1_1vector2/#function-operator[])**(const size_t index)<br>Direct access to vector elements by index.  |
-| <a href="http://example.org/classes/classrivet_1_1vector/">Vector</a>< N > & | **[set](http://example.org/classes/classrivet_1_1vector2/#function-set)**(const size_t index, const double value)<br>Set indexed value.  |
-| constexpr size_t | **[size](http://example.org/classes/classrivet_1_1vector2/#function-size)**() const<br>Vector dimensionality.  |
-| bool | **[isZero](http://example.org/classes/classrivet_1_1vector2/#function-iszero)**(double tolerance =1E-5) const<br>Check for nullness, allowing for numerical precision.  |
-| double | **[mod2](http://example.org/classes/classrivet_1_1vector2/#function-mod2)**() const<br>Calculate the modulus-squared of a vector. \( \sum_{i=1}^N x_i^2 \).  |
-| double | **[mod](http://example.org/classes/classrivet_1_1vector2/#function-mod)**() const<br>Calculate the modulus of a vector. \( \sqrt{\sum_{i=1}^N x_i^2} \).  |
-| bool | **[operator==](http://example.org/classes/classrivet_1_1vector2/#function-operator==)**(const <a href="http://example.org/classes/classrivet_1_1vector/">Vector</a>< N > & a) const |
-| bool | **[operator!=](http://example.org/classes/classrivet_1_1vector2/#function-operator!=)**(const <a href="http://example.org/classes/classrivet_1_1vector/">Vector</a>< N > & a) const |
-| <a href="http://example.org/classes/classrivet_1_1vector2/">Vector2</a> | **[mkX](http://example.org/classes/classrivet_1_1vector2/#function-mkx)**() |
-| <a href="http://example.org/classes/classrivet_1_1vector2/">Vector2</a> | **[mkY](http://example.org/classes/classrivet_1_1vector2/#function-mky)**() |
+| | **[Vector2](/documentation/code/classes/classrivet_1_1vector2/#function-vector2)**() |
+| template <typename V2TYPE \> <br>| **[Vector2](/documentation/code/classes/classrivet_1_1vector2/#function-vector2)**(const V2TYPE & other) |
+| | **[Vector2](/documentation/code/classes/classrivet_1_1vector2/#function-vector2)**(const <a href="/documentation/code/classes/classrivet_1_1vector/">Vector</a>< 2 > & other) |
+| | **[Vector2](/documentation/code/classes/classrivet_1_1vector2/#function-vector2)**(double x, double y) |
+| | **[~Vector2](/documentation/code/classes/classrivet_1_1vector2/#function-~vector2)**() |
+| double | **[x](/documentation/code/classes/classrivet_1_1vector2/#function-x)**() const |
+| double | **[y](/documentation/code/classes/classrivet_1_1vector2/#function-y)**() const |
+| <a href="/documentation/code/classes/classrivet_1_1vector2/">Vector2</a> & | **[setX](/documentation/code/classes/classrivet_1_1vector2/#function-setx)**(double x) |
+| <a href="/documentation/code/classes/classrivet_1_1vector2/">Vector2</a> & | **[setY](/documentation/code/classes/classrivet_1_1vector2/#function-sety)**(double y) |
+| double | **[dot](/documentation/code/classes/classrivet_1_1vector2/#function-dot)**(const <a href="/documentation/code/classes/classrivet_1_1vector2/">Vector2</a> & v) const<br>Dot-product with another vector.  |
+| double | **[angle](/documentation/code/classes/classrivet_1_1vector2/#function-angle)**(const <a href="/documentation/code/classes/classrivet_1_1vector2/">Vector2</a> & v) const<br>Angle in radians to another vector.  |
+| <a href="/documentation/code/classes/classrivet_1_1vector2/">Vector2</a> | **[unitVec](/documentation/code/classes/classrivet_1_1vector2/#function-unitvec)**() const<br>Unit-normalized version of this vector.  |
+| <a href="/documentation/code/classes/classrivet_1_1vector2/">Vector2</a> | **[unit](/documentation/code/classes/classrivet_1_1vector2/#function-unit)**() const<br>Synonym for unitVec.  |
+| <a href="/documentation/code/classes/classrivet_1_1vector2/">Vector2</a> & | **[operator*=](/documentation/code/classes/classrivet_1_1vector2/#function-operator*=)**(const double a) |
+| <a href="/documentation/code/classes/classrivet_1_1vector2/">Vector2</a> & | **[operator/=](/documentation/code/classes/classrivet_1_1vector2/#function-operator/=)**(const double a) |
+| <a href="/documentation/code/classes/classrivet_1_1vector2/">Vector2</a> & | **[operator+=](/documentation/code/classes/classrivet_1_1vector2/#function-operator+=)**(const <a href="/documentation/code/classes/classrivet_1_1vector2/">Vector2</a> & v) |
+| <a href="/documentation/code/classes/classrivet_1_1vector2/">Vector2</a> & | **[operator-=](/documentation/code/classes/classrivet_1_1vector2/#function-operator-=)**(const <a href="/documentation/code/classes/classrivet_1_1vector2/">Vector2</a> & v) |
+| <a href="/documentation/code/classes/classrivet_1_1vector2/">Vector2</a> | **[operator-](/documentation/code/classes/classrivet_1_1vector2/#function-operator-)**() const |
+| const double & | **[get](/documentation/code/classes/classrivet_1_1vector2/#function-get)**(const size_t index) const |
+| double & | **[get](/documentation/code/classes/classrivet_1_1vector2/#function-get)**(const size_t index) |
+| const double & | **[operator[]](/documentation/code/classes/classrivet_1_1vector2/#function-operator[])**(const size_t index) const<br>Direct access to vector elements by index.  |
+| double & | **[operator[]](/documentation/code/classes/classrivet_1_1vector2/#function-operator[])**(const size_t index)<br>Direct access to vector elements by index.  |
+| <a href="/documentation/code/classes/classrivet_1_1vector/">Vector</a>< N > & | **[set](/documentation/code/classes/classrivet_1_1vector2/#function-set)**(const size_t index, const double value)<br>Set indexed value.  |
+| constexpr size_t | **[size](/documentation/code/classes/classrivet_1_1vector2/#function-size)**() const<br>Vector dimensionality.  |
+| bool | **[isZero](/documentation/code/classes/classrivet_1_1vector2/#function-iszero)**(double tolerance =1E-5) const<br>Check for nullness, allowing for numerical precision.  |
+| double | **[mod2](/documentation/code/classes/classrivet_1_1vector2/#function-mod2)**() const<br>Calculate the modulus-squared of a vector. \( \sum_{i=1}^N x_i^2 \).  |
+| double | **[mod](/documentation/code/classes/classrivet_1_1vector2/#function-mod)**() const<br>Calculate the modulus of a vector. \( \sqrt{\sum_{i=1}^N x_i^2} \).  |
+| bool | **[operator==](/documentation/code/classes/classrivet_1_1vector2/#function-operator==)**(const <a href="/documentation/code/classes/classrivet_1_1vector/">Vector</a>< N > & a) const |
+| bool | **[operator!=](/documentation/code/classes/classrivet_1_1vector2/#function-operator!=)**(const <a href="/documentation/code/classes/classrivet_1_1vector/">Vector</a>< N > & a) const |
+| <a href="/documentation/code/classes/classrivet_1_1vector2/">Vector2</a> | **[mkX](/documentation/code/classes/classrivet_1_1vector2/#function-mkx)**() |
+| <a href="/documentation/code/classes/classrivet_1_1vector2/">Vector2</a> | **[mkY](/documentation/code/classes/classrivet_1_1vector2/#function-mky)**() |
 
 ## Friends
 
 |                | Name           |
 | -------------- | -------------- |
-| <a href="http://example.org/classes/classrivet_1_1vector2/">Vector2</a> | **[multiply](http://example.org/classes/classrivet_1_1vector2/#friend-multiply)**(const double a, const <a href="http://example.org/classes/classrivet_1_1vector2/">Vector2</a> & v)  |
-| <a href="http://example.org/classes/classrivet_1_1vector2/">Vector2</a> | **[multiply](http://example.org/classes/classrivet_1_1vector2/#friend-multiply)**(const <a href="http://example.org/classes/classrivet_1_1vector2/">Vector2</a> & v, const double a)  |
-| <a href="http://example.org/classes/classrivet_1_1vector2/">Vector2</a> | **[add](http://example.org/classes/classrivet_1_1vector2/#friend-add)**(const <a href="http://example.org/classes/classrivet_1_1vector2/">Vector2</a> & a, const <a href="http://example.org/classes/classrivet_1_1vector2/">Vector2</a> & b)  |
-| <a href="http://example.org/classes/classrivet_1_1vector2/">Vector2</a> | **[subtract](http://example.org/classes/classrivet_1_1vector2/#friend-subtract)**(const <a href="http://example.org/classes/classrivet_1_1vector2/">Vector2</a> & a, const <a href="http://example.org/classes/classrivet_1_1vector2/">Vector2</a> & b)  |
+| <a href="/documentation/code/classes/classrivet_1_1vector2/">Vector2</a> | **[multiply](/documentation/code/classes/classrivet_1_1vector2/#friend-multiply)**(const double a, const <a href="/documentation/code/classes/classrivet_1_1vector2/">Vector2</a> & v)  |
+| <a href="/documentation/code/classes/classrivet_1_1vector2/">Vector2</a> | **[multiply](/documentation/code/classes/classrivet_1_1vector2/#friend-multiply)**(const <a href="/documentation/code/classes/classrivet_1_1vector2/">Vector2</a> & v, const double a)  |
+| <a href="/documentation/code/classes/classrivet_1_1vector2/">Vector2</a> | **[add](/documentation/code/classes/classrivet_1_1vector2/#friend-add)**(const <a href="/documentation/code/classes/classrivet_1_1vector2/">Vector2</a> & a, const <a href="/documentation/code/classes/classrivet_1_1vector2/">Vector2</a> & b)  |
+| <a href="/documentation/code/classes/classrivet_1_1vector2/">Vector2</a> | **[subtract](/documentation/code/classes/classrivet_1_1vector2/#friend-subtract)**(const <a href="/documentation/code/classes/classrivet_1_1vector2/">Vector2</a> & a, const <a href="/documentation/code/classes/classrivet_1_1vector2/">Vector2</a> & b)  |
 
 ## Additional inherited members
 
-**Public Functions inherited from [Rivet::Vector< 2 >](http://example.org/classes/classrivet_1_1vector/)**
+**Public Functions inherited from [Rivet::Vector< 2 >](/documentation/code/classes/classrivet_1_1vector/)**
 
 |                | Name           |
 | -------------- | -------------- |
-| | **[Vector](http://example.org/classes/classrivet_1_1vector/#function-vector)**() |
-| | **[Vector](http://example.org/classes/classrivet_1_1vector/#function-vector)**(const <a href="http://example.org/classes/classrivet_1_1vector/">Vector</a>< N > & other) |
+| | **[Vector](/documentation/code/classes/classrivet_1_1vector/#function-vector)**() |
+| | **[Vector](/documentation/code/classes/classrivet_1_1vector/#function-vector)**(const <a href="/documentation/code/classes/classrivet_1_1vector/">Vector</a>< N > & other) |
 
 
 ## Public Types Documentation
@@ -406,4 +406,4 @@ friend Vector2 subtract(
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:46 +0100

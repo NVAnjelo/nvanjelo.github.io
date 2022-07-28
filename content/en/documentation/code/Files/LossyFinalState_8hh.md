@@ -14,13 +14,13 @@ description: "[Documentation update required.]"
 
 | Name           |
 | -------------- |
-| **[Rivet](http://example.org/namespaces/namespacerivet/)**  |
+| **[Rivet](/documentation/code/namespaces/namespacerivet/)**  |
 
 ## Classes
 
 |                | Name           |
 | -------------- | -------------- |
-| class | **[Rivet::LossyFinalState](http://example.org/classes/classrivet_1_1lossyfinalstate/)** <br>Templated FS projection which can lose some of the supplied particles.  |
+| class | **[Rivet::LossyFinalState](/documentation/code/classes/classrivet_1_1lossyfinalstate/)** <br>Templated FS projection which can lose some of the supplied particles.  |
 
 
 
@@ -101,4 +101,4 @@ namespace Rivet {
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

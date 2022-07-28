@@ -8,7 +8,7 @@ description: "[Documentation update required.]"
 
 # Unbound functions for kinematic properties
 
-**Module:** **[Functions for Particles and Jets](http://example.org/modules/group__particlebaseutils/)** **/** **[Next-level filtering](http://example.org/modules/group__particlebaseutils__uberfilt/)**
+**Module:** **[Functions for Particles and Jets](/documentation/code/modules/group__particlebaseutils/)** **/** **[Next-level filtering](/documentation/code/modules/group__particlebaseutils__uberfilt/)**
 
  [More...](#detailed-description)
 
@@ -16,7 +16,7 @@ description: "[Documentation update required.]"
 
 | Name           |
 | -------------- |
-| **[Rivet::Kin](http://example.org/namespaces/namespacerivet_1_1kin/)**  |
+| **[Rivet::Kin](/documentation/code/namespaces/namespacerivet_1_1kin/)**  |
 
 ## Detailed Description
 
@@ -26,7 +26,7 @@ description: "[Documentation update required.]"
 **Todo**: 
 
   * Add 'all' variants 
-  * Mostly move to functions on <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a>
+  * Mostly move to functions on <a href="/documentation/code/classes/classrivet_1_1fourmomentum/">FourMomentum</a>
 
 
 
@@ -35,4 +35,4 @@ description: "[Documentation update required.]"
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

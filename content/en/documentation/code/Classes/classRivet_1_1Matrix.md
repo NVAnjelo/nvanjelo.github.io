@@ -18,50 +18,50 @@ General \( N \)-dimensional mathematical matrix object.  [More...](#detailed-des
 
 |                | Name           |
 | -------------- | -------------- |
-| using Eigen::Matrix< double, N, N > | **[EMatrix](http://example.org/classes/classrivet_1_1matrix/#using-ematrix)**  |
+| using Eigen::Matrix< double, N, N > | **[EMatrix](/documentation/code/classes/classrivet_1_1matrix/#using-ematrix)**  |
 
 ## Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
-| <a href="http://example.org/classes/classrivet_1_1matrix/">Matrix</a>< N > | **[mkZero](http://example.org/classes/classrivet_1_1matrix/#function-mkzero)**() |
-| <a href="http://example.org/classes/classrivet_1_1matrix/">Matrix</a>< N > | **[mkDiag](http://example.org/classes/classrivet_1_1matrix/#function-mkdiag)**(<a href="http://example.org/classes/classrivet_1_1vector/">Vector</a>< N > diag) |
-| <a href="http://example.org/classes/classrivet_1_1matrix/">Matrix</a>< N > | **[mkIdentity](http://example.org/classes/classrivet_1_1matrix/#function-mkidentity)**() |
-| | **[Matrix](http://example.org/classes/classrivet_1_1matrix/#function-matrix)**() |
-| | **[Matrix](http://example.org/classes/classrivet_1_1matrix/#function-matrix)**(const <a href="http://example.org/classes/classrivet_1_1matrix/">Matrix</a>< N > & other) |
-| <a href="http://example.org/classes/classrivet_1_1matrix/">Matrix</a> & | **[set](http://example.org/classes/classrivet_1_1matrix/#function-set)**(const size_t i, const size_t j, const double value) |
-| double | **[get](http://example.org/classes/classrivet_1_1matrix/#function-get)**(const size_t i, const size_t j) const |
-| <a href="http://example.org/classes/classrivet_1_1vector/">Vector</a>< N > | **[getRow](http://example.org/classes/classrivet_1_1matrix/#function-getrow)**(const size_t row) const |
-| <a href="http://example.org/classes/classrivet_1_1matrix/">Matrix</a>< N > & | **[setRow](http://example.org/classes/classrivet_1_1matrix/#function-setrow)**(const size_t row, const <a href="http://example.org/classes/classrivet_1_1vector/">Vector</a>< N > & r) |
-| <a href="http://example.org/classes/classrivet_1_1vector/">Vector</a>< N > | **[getColumn](http://example.org/classes/classrivet_1_1matrix/#function-getcolumn)**(const size_t col) const |
-| <a href="http://example.org/classes/classrivet_1_1matrix/">Matrix</a>< N > & | **[setColumn](http://example.org/classes/classrivet_1_1matrix/#function-setcolumn)**(const size_t col, const <a href="http://example.org/classes/classrivet_1_1vector/">Vector</a>< N > & c) |
-| <a href="http://example.org/classes/classrivet_1_1matrix/">Matrix</a>< N > | **[transpose](http://example.org/classes/classrivet_1_1matrix/#function-transpose)**() const |
-| <a href="http://example.org/classes/classrivet_1_1matrix/">Matrix</a>< N > | **[inverse](http://example.org/classes/classrivet_1_1matrix/#function-inverse)**() const<br>Calculate inverse.  |
-| double | **[det](http://example.org/classes/classrivet_1_1matrix/#function-det)**() const<br>Calculate determinant.  |
-| double | **[trace](http://example.org/classes/classrivet_1_1matrix/#function-trace)**() const<br>Calculate trace.  |
-| <a href="http://example.org/classes/classrivet_1_1matrix/">Matrix</a>< N > | **[operator-](http://example.org/classes/classrivet_1_1matrix/#function-operator-)**() const<br>Negate.  |
-| constexpr size_t | **[size](http://example.org/classes/classrivet_1_1matrix/#function-size)**() const<br>Get dimensionality.  |
-| bool | **[isZero](http://example.org/classes/classrivet_1_1matrix/#function-iszero)**(double tolerance =1E-5) const<br>Index-wise check for nullness, allowing for numerical precision.  |
-| bool | **[isEqual](http://example.org/classes/classrivet_1_1matrix/#function-isequal)**(<a href="http://example.org/classes/classrivet_1_1matrix/">Matrix</a>< N > other) const<br>Check for index-wise equality, allowing for numerical precision.  |
-| bool | **[isSymm](http://example.org/classes/classrivet_1_1matrix/#function-issymm)**() const<br>Check for symmetry under transposition.  |
-| bool | **[isDiag](http://example.org/classes/classrivet_1_1matrix/#function-isdiag)**() const<br>Check that all off-diagonal elements are zero, allowing for numerical precision.  |
-| bool | **[operator==](http://example.org/classes/classrivet_1_1matrix/#function-operator==)**(const <a href="http://example.org/classes/classrivet_1_1matrix/">Matrix</a>< N > & a) const |
-| bool | **[operator!=](http://example.org/classes/classrivet_1_1matrix/#function-operator!=)**(const <a href="http://example.org/classes/classrivet_1_1matrix/">Matrix</a>< N > & a) const |
-| <a href="http://example.org/classes/classrivet_1_1matrix/">Matrix</a>< N > & | **[operator*=](http://example.org/classes/classrivet_1_1matrix/#function-operator*=)**(const <a href="http://example.org/classes/classrivet_1_1matrix/">Matrix</a>< N > & m) |
-| <a href="http://example.org/classes/classrivet_1_1matrix/">Matrix</a>< N > & | **[operator*=](http://example.org/classes/classrivet_1_1matrix/#function-operator*=)**(const double a) |
-| <a href="http://example.org/classes/classrivet_1_1matrix/">Matrix</a>< N > & | **[operator/=](http://example.org/classes/classrivet_1_1matrix/#function-operator/=)**(const double a) |
-| <a href="http://example.org/classes/classrivet_1_1matrix/">Matrix</a>< N > & | **[operator+=](http://example.org/classes/classrivet_1_1matrix/#function-operator+=)**(const <a href="http://example.org/classes/classrivet_1_1matrix/">Matrix</a>< N > & m) |
-| <a href="http://example.org/classes/classrivet_1_1matrix/">Matrix</a>< N > & | **[operator-=](http://example.org/classes/classrivet_1_1matrix/#function-operator-=)**(const <a href="http://example.org/classes/classrivet_1_1matrix/">Matrix</a>< N > & m) |
+| <a href="/documentation/code/classes/classrivet_1_1matrix/">Matrix</a>< N > | **[mkZero](/documentation/code/classes/classrivet_1_1matrix/#function-mkzero)**() |
+| <a href="/documentation/code/classes/classrivet_1_1matrix/">Matrix</a>< N > | **[mkDiag](/documentation/code/classes/classrivet_1_1matrix/#function-mkdiag)**(<a href="/documentation/code/classes/classrivet_1_1vector/">Vector</a>< N > diag) |
+| <a href="/documentation/code/classes/classrivet_1_1matrix/">Matrix</a>< N > | **[mkIdentity](/documentation/code/classes/classrivet_1_1matrix/#function-mkidentity)**() |
+| | **[Matrix](/documentation/code/classes/classrivet_1_1matrix/#function-matrix)**() |
+| | **[Matrix](/documentation/code/classes/classrivet_1_1matrix/#function-matrix)**(const <a href="/documentation/code/classes/classrivet_1_1matrix/">Matrix</a>< N > & other) |
+| <a href="/documentation/code/classes/classrivet_1_1matrix/">Matrix</a> & | **[set](/documentation/code/classes/classrivet_1_1matrix/#function-set)**(const size_t i, const size_t j, const double value) |
+| double | **[get](/documentation/code/classes/classrivet_1_1matrix/#function-get)**(const size_t i, const size_t j) const |
+| <a href="/documentation/code/classes/classrivet_1_1vector/">Vector</a>< N > | **[getRow](/documentation/code/classes/classrivet_1_1matrix/#function-getrow)**(const size_t row) const |
+| <a href="/documentation/code/classes/classrivet_1_1matrix/">Matrix</a>< N > & | **[setRow](/documentation/code/classes/classrivet_1_1matrix/#function-setrow)**(const size_t row, const <a href="/documentation/code/classes/classrivet_1_1vector/">Vector</a>< N > & r) |
+| <a href="/documentation/code/classes/classrivet_1_1vector/">Vector</a>< N > | **[getColumn](/documentation/code/classes/classrivet_1_1matrix/#function-getcolumn)**(const size_t col) const |
+| <a href="/documentation/code/classes/classrivet_1_1matrix/">Matrix</a>< N > & | **[setColumn](/documentation/code/classes/classrivet_1_1matrix/#function-setcolumn)**(const size_t col, const <a href="/documentation/code/classes/classrivet_1_1vector/">Vector</a>< N > & c) |
+| <a href="/documentation/code/classes/classrivet_1_1matrix/">Matrix</a>< N > | **[transpose](/documentation/code/classes/classrivet_1_1matrix/#function-transpose)**() const |
+| <a href="/documentation/code/classes/classrivet_1_1matrix/">Matrix</a>< N > | **[inverse](/documentation/code/classes/classrivet_1_1matrix/#function-inverse)**() const<br>Calculate inverse.  |
+| double | **[det](/documentation/code/classes/classrivet_1_1matrix/#function-det)**() const<br>Calculate determinant.  |
+| double | **[trace](/documentation/code/classes/classrivet_1_1matrix/#function-trace)**() const<br>Calculate trace.  |
+| <a href="/documentation/code/classes/classrivet_1_1matrix/">Matrix</a>< N > | **[operator-](/documentation/code/classes/classrivet_1_1matrix/#function-operator-)**() const<br>Negate.  |
+| constexpr size_t | **[size](/documentation/code/classes/classrivet_1_1matrix/#function-size)**() const<br>Get dimensionality.  |
+| bool | **[isZero](/documentation/code/classes/classrivet_1_1matrix/#function-iszero)**(double tolerance =1E-5) const<br>Index-wise check for nullness, allowing for numerical precision.  |
+| bool | **[isEqual](/documentation/code/classes/classrivet_1_1matrix/#function-isequal)**(<a href="/documentation/code/classes/classrivet_1_1matrix/">Matrix</a>< N > other) const<br>Check for index-wise equality, allowing for numerical precision.  |
+| bool | **[isSymm](/documentation/code/classes/classrivet_1_1matrix/#function-issymm)**() const<br>Check for symmetry under transposition.  |
+| bool | **[isDiag](/documentation/code/classes/classrivet_1_1matrix/#function-isdiag)**() const<br>Check that all off-diagonal elements are zero, allowing for numerical precision.  |
+| bool | **[operator==](/documentation/code/classes/classrivet_1_1matrix/#function-operator==)**(const <a href="/documentation/code/classes/classrivet_1_1matrix/">Matrix</a>< N > & a) const |
+| bool | **[operator!=](/documentation/code/classes/classrivet_1_1matrix/#function-operator!=)**(const <a href="/documentation/code/classes/classrivet_1_1matrix/">Matrix</a>< N > & a) const |
+| <a href="/documentation/code/classes/classrivet_1_1matrix/">Matrix</a>< N > & | **[operator*=](/documentation/code/classes/classrivet_1_1matrix/#function-operator*=)**(const <a href="/documentation/code/classes/classrivet_1_1matrix/">Matrix</a>< N > & m) |
+| <a href="/documentation/code/classes/classrivet_1_1matrix/">Matrix</a>< N > & | **[operator*=](/documentation/code/classes/classrivet_1_1matrix/#function-operator*=)**(const double a) |
+| <a href="/documentation/code/classes/classrivet_1_1matrix/">Matrix</a>< N > & | **[operator/=](/documentation/code/classes/classrivet_1_1matrix/#function-operator/=)**(const double a) |
+| <a href="/documentation/code/classes/classrivet_1_1matrix/">Matrix</a>< N > & | **[operator+=](/documentation/code/classes/classrivet_1_1matrix/#function-operator+=)**(const <a href="/documentation/code/classes/classrivet_1_1matrix/">Matrix</a>< N > & m) |
+| <a href="/documentation/code/classes/classrivet_1_1matrix/">Matrix</a>< N > & | **[operator-=](/documentation/code/classes/classrivet_1_1matrix/#function-operator-=)**(const <a href="/documentation/code/classes/classrivet_1_1matrix/">Matrix</a>< N > & m) |
 
 ## Friends
 
 |                | Name           |
 | -------------- | -------------- |
-| <a href="http://example.org/classes/classrivet_1_1matrix/">Matrix</a>< M > | **[add](http://example.org/classes/classrivet_1_1matrix/#friend-add)**(const <a href="http://example.org/classes/classrivet_1_1matrix/">Matrix</a>< M > & , const <a href="http://example.org/classes/classrivet_1_1matrix/">Matrix</a>< M > & )  |
-| <a href="http://example.org/classes/classrivet_1_1matrix/">Matrix</a>< M > | **[multiply](http://example.org/classes/classrivet_1_1matrix/#friend-multiply)**(const double , const <a href="http://example.org/classes/classrivet_1_1matrix/">Matrix</a>< M > & )  |
-| <a href="http://example.org/classes/classrivet_1_1matrix/">Matrix</a>< M > | **[multiply](http://example.org/classes/classrivet_1_1matrix/#friend-multiply)**(const <a href="http://example.org/classes/classrivet_1_1matrix/">Matrix</a>< M > & , const <a href="http://example.org/classes/classrivet_1_1matrix/">Matrix</a>< M > & )  |
-| <a href="http://example.org/classes/classrivet_1_1vector/">Vector</a>< M > | **[multiply](http://example.org/classes/classrivet_1_1matrix/#friend-multiply)**(const <a href="http://example.org/classes/classrivet_1_1matrix/">Matrix</a>< M > & , const <a href="http://example.org/classes/classrivet_1_1vector/">Vector</a>< M > & )  |
-| <a href="http://example.org/classes/classrivet_1_1matrix/">Matrix</a>< M > | **[divide](http://example.org/classes/classrivet_1_1matrix/#friend-divide)**(const <a href="http://example.org/classes/classrivet_1_1matrix/">Matrix</a>< M > & , const double )  |
+| <a href="/documentation/code/classes/classrivet_1_1matrix/">Matrix</a>< M > | **[add](/documentation/code/classes/classrivet_1_1matrix/#friend-add)**(const <a href="/documentation/code/classes/classrivet_1_1matrix/">Matrix</a>< M > & , const <a href="/documentation/code/classes/classrivet_1_1matrix/">Matrix</a>< M > & )  |
+| <a href="/documentation/code/classes/classrivet_1_1matrix/">Matrix</a>< M > | **[multiply](/documentation/code/classes/classrivet_1_1matrix/#friend-multiply)**(const double , const <a href="/documentation/code/classes/classrivet_1_1matrix/">Matrix</a>< M > & )  |
+| <a href="/documentation/code/classes/classrivet_1_1matrix/">Matrix</a>< M > | **[multiply](/documentation/code/classes/classrivet_1_1matrix/#friend-multiply)**(const <a href="/documentation/code/classes/classrivet_1_1matrix/">Matrix</a>< M > & , const <a href="/documentation/code/classes/classrivet_1_1matrix/">Matrix</a>< M > & )  |
+| <a href="/documentation/code/classes/classrivet_1_1vector/">Vector</a>< M > | **[multiply](/documentation/code/classes/classrivet_1_1matrix/#friend-multiply)**(const <a href="/documentation/code/classes/classrivet_1_1matrix/">Matrix</a>< M > & , const <a href="/documentation/code/classes/classrivet_1_1vector/">Vector</a>< M > & )  |
+| <a href="/documentation/code/classes/classrivet_1_1matrix/">Matrix</a>< M > | **[divide](/documentation/code/classes/classrivet_1_1matrix/#friend-divide)**(const <a href="/documentation/code/classes/classrivet_1_1matrix/">Matrix</a>< M > & , const double )  |
 
 ## Detailed Description
 
@@ -385,4 +385,4 @@ friend Matrix< M > divide(
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:08 +0100
+Updated on 2022-07-28 at 18:36:46 +0100

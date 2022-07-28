@@ -14,11 +14,11 @@ description: "[Documentation update required.]"
 
 |                | Name           |
 | -------------- | -------------- |
-| bool | **[oppSign](http://example.org/modules/group__particleutils__charge/#function-oppsign)**(const Particle & a, const Particle & b)<br>Return true if <a href="http://example.org/classes/classrivet_1_1particles/">Particles</a>_a_ and _b_ have the opposite charge sign.  |
-| bool | **[sameSign](http://example.org/modules/group__particleutils__charge/#function-samesign)**(const Particle & a, const Particle & b) |
-| bool | **[oppCharge](http://example.org/modules/group__particleutils__charge/#function-oppcharge)**(const Particle & a, const Particle & b) |
-| bool | **[sameCharge](http://example.org/modules/group__particleutils__charge/#function-samecharge)**(const Particle & a, const Particle & b) |
-| bool | **[diffCharge](http://example.org/modules/group__particleutils__charge/#function-diffcharge)**(const Particle & a, const Particle & b)<br>Return true if <a href="http://example.org/classes/classrivet_1_1particles/">Particles</a>_a_ and _b_ have a different (not necessarily opposite) charge.  |
+| bool | **[oppSign](/documentation/code/modules/group__particleutils__charge/#function-oppsign)**(const Particle & a, const Particle & b)<br>Return true if <a href="/documentation/code/classes/classrivet_1_1particles/">Particles</a>_a_ and _b_ have the opposite charge sign.  |
+| bool | **[sameSign](/documentation/code/modules/group__particleutils__charge/#function-samesign)**(const Particle & a, const Particle & b) |
+| bool | **[oppCharge](/documentation/code/modules/group__particleutils__charge/#function-oppcharge)**(const Particle & a, const Particle & b) |
+| bool | **[sameCharge](/documentation/code/modules/group__particleutils__charge/#function-samecharge)**(const Particle & a, const Particle & b) |
+| bool | **[diffCharge](/documentation/code/modules/group__particleutils__charge/#function-diffcharge)**(const Particle & a, const Particle & b)<br>Return true if <a href="/documentation/code/classes/classrivet_1_1particles/">Particles</a>_a_ and _b_ have a different (not necessarily opposite) charge.  |
 
 
 ## Functions Documentation
@@ -32,7 +32,7 @@ inline bool oppSign(
 )
 ```
 
-Return true if <a href="http://example.org/classes/classrivet_1_1particles/">Particles</a>_a_ and _b_ have the opposite charge sign. 
+Return true if <a href="/documentation/code/classes/classrivet_1_1particles/">Particles</a>_a_ and _b_ have the opposite charge sign. 
 
 **Note**: Two neutrals returns false 
 
@@ -48,7 +48,7 @@ inline bool sameSign(
 
 **Note**: Two neutrals returns true 
 
-Return true if <a href="http://example.org/classes/classrivet_1_1particles/">Particles</a>_a_ and _b_ have the same charge sign 
+Return true if <a href="/documentation/code/classes/classrivet_1_1particles/">Particles</a>_a_ and _b_ have the same charge sign 
 
 
 ### function oppCharge
@@ -63,7 +63,7 @@ inline bool oppCharge(
 
 **Note**: Two neutrals returns false 
 
-Return true if <a href="http://example.org/classes/classrivet_1_1particles/">Particles</a>_a_ and _b_ have the exactly opposite charge 
+Return true if <a href="/documentation/code/classes/classrivet_1_1particles/">Particles</a>_a_ and _b_ have the exactly opposite charge 
 
 
 ### function sameCharge
@@ -78,7 +78,7 @@ inline bool sameCharge(
 
 **Note**: Two neutrals returns true 
 
-Return true if <a href="http://example.org/classes/classrivet_1_1particles/">Particles</a>_a_ and _b_ have the same charge (including neutral) 
+Return true if <a href="/documentation/code/classes/classrivet_1_1particles/">Particles</a>_a_ and _b_ have the same charge (including neutral) 
 
 
 ### function diffCharge
@@ -90,7 +90,7 @@ inline bool diffCharge(
 )
 ```
 
-Return true if <a href="http://example.org/classes/classrivet_1_1particles/">Particles</a>_a_ and _b_ have a different (not necessarily opposite) charge. 
+Return true if <a href="/documentation/code/classes/classrivet_1_1particles/">Particles</a>_a_ and _b_ have a different (not necessarily opposite) charge. 
 
 
 
@@ -98,4 +98,4 @@ Return true if <a href="http://example.org/classes/classrivet_1_1particles/">Par
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

@@ -9,7 +9,7 @@ description: "The key class for coordination of Analysis objects and the event l
 
 
 
-The key class for coordination of <a href="http://example.org/classes/classrivet_1_1analysis/">Analysis</a> objects and the event loop.  [More...](#detailed-description)
+The key class for coordination of <a href="/documentation/code/classes/classrivet_1_1analysis/">Analysis</a> objects and the event loop.  [More...](#detailed-description)
 
 
 `#include <AnalysisHandler.hh>`
@@ -18,69 +18,69 @@ The key class for coordination of <a href="http://example.org/classes/classrivet
 
 |                | Name           |
 | -------------- | -------------- |
-| enum class| **[Stage](http://example.org/classes/classrivet_1_1analysishandler/#enum-stage)** { OTHER, INIT, FINALIZE} |
+| enum class| **[Stage](/documentation/code/classes/classrivet_1_1analysishandler/#enum-stage)** { OTHER, INIT, FINALIZE} |
 
 ## Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
-| <a href="http://example.org/classes/classrivet_1_1analysishandler/#enum-stage">Stage</a> | **[stage](http://example.org/classes/classrivet_1_1analysishandler/#function-stage)**() const<br>Return the current processing stage.  |
-| string | **[runName](http://example.org/classes/classrivet_1_1analysishandler/#function-runname)**() const<br>Get the name of this run.  |
-| size_t | **[numEvents](http://example.org/classes/classrivet_1_1analysishandler/#function-numevents)**() const |
-| double | **[sumW](http://example.org/classes/classrivet_1_1analysishandler/#function-sumw)**() const<br>Access the sum of the event weights seen.  |
-| double | **[sumW2](http://example.org/classes/classrivet_1_1analysishandler/#function-sumw2)**() const<br>Access to the sum of squared-weights.  |
-| const vector< string > & | **[weightNames](http://example.org/classes/classrivet_1_1analysishandler/#function-weightnames)**() const<br>Names of event weight categories.  |
-| size_t | **[numWeights](http://example.org/classes/classrivet_1_1analysishandler/#function-numweights)**() const<br>Indices of the weights in the original weight matrix.  |
-| bool | **[haveNamedWeights](http://example.org/classes/classrivet_1_1analysishandler/#function-havenamedweights)**() const<br>Are any of the weights non-numeric?  |
-| void | **[setWeightNames](http://example.org/classes/classrivet_1_1analysishandler/#function-setweightnames)**(const GenEvent & ge)<br>Set the weight names from a GenEvent.  |
-| size_t | **[defaultWeightIndex](http://example.org/classes/classrivet_1_1analysishandler/#function-defaultweightindex)**() const<br>Get the index of the nominal weight-stream.  |
-| void | **[setWeightCap](http://example.org/classes/classrivet_1_1analysishandler/#function-setweightcap)**(const double maxWeight)<br>Set the weight cap.  |
-| void | **[setNLOSmearing](http://example.org/classes/classrivet_1_1analysishandler/#function-setnlosmearing)**(double frac)<br>Set the relative width of the NLO smearing window.  |
-| void | **[skipMultiWeights](http://example.org/classes/classrivet_1_1analysishandler/#function-skipmultiweights)**(bool ignore =false)<br>Setter for _skipWeights.  |
-| void | **[selectMultiWeights](http://example.org/classes/classrivet_1_1analysishandler/#function-selectmultiweights)**(std::string patterns ="")<br>Setter for _matchWeightNames.  |
-| void | **[deselectMultiWeights](http://example.org/classes/classrivet_1_1analysishandler/#function-deselectmultiweights)**(std::string patterns ="")<br>Setter for _unmatchWeightNames.  |
-| void | **[setNominalWeightName](http://example.org/classes/classrivet_1_1analysishandler/#function-setnominalweightname)**(std::string name ="")<br>Setter for _nominalWeightName.  |
-| Scatter1DPtr | **[crossSection](http://example.org/classes/classrivet_1_1analysishandler/#function-crosssection)**() const<br>Get the cross-section known to the handler.  |
-| void | **[setCrossSection](http://example.org/classes/classrivet_1_1analysishandler/#function-setcrosssection)**(const vector< pair< double, double > > & xsecs, bool isUserSupplied =false)<br>Set all cross-sections for the process being generated specifically (preferred)  |
-| void | **[setCrossSection](http://example.org/classes/classrivet_1_1analysishandler/#function-setcrosssection)**(const pair< double, double > & xsec, bool isUserSupplied =false)<br>Set all cross-sections for the process being generated, based on nominal weight.  |
-| void | **[setCrossSection](http://example.org/classes/classrivet_1_1analysishandler/#function-setcrosssection)**(double xsec, double xsecerr, bool isUserSupplied =false)<br>Set the cross-section for the process being generated (alternative signature)  |
-| double | **[nominalCrossSection](http://example.org/classes/classrivet_1_1analysishandler/#function-nominalcrosssection)**() const<br>Get the nominal cross-section.  |
-| <a href="http://example.org/classes/classrivet_1_1analysishandler/">AnalysisHandler</a> & | **[setRunBeams](http://example.org/classes/classrivet_1_1analysishandler/#function-setrunbeams)**(const <a href="http://example.org/namespaces/namespacerivet/#typedef-particlepair">ParticlePair</a> & beams)<br>Set the beam particles for this run.  |
-| const <a href="http://example.org/namespaces/namespacerivet/#typedef-particlepair">ParticlePair</a> & | **[beams](http://example.org/classes/classrivet_1_1analysishandler/#function-beams)**() const<br>Get the beam particles for this run, usually determined from the first event.  |
-| PdgIdPair | **[beamIds](http://example.org/classes/classrivet_1_1analysishandler/#function-beamids)**() const |
-| double | **[sqrtS](http://example.org/classes/classrivet_1_1analysishandler/#function-sqrts)**() const |
-| void | **[checkBeams](http://example.org/classes/classrivet_1_1analysishandler/#function-checkbeams)**(bool check =true)<br>Option to disable AH beam-consistency checks.  |
-| void | **[setIgnoreBeams](http://example.org/classes/classrivet_1_1analysishandler/#function-setignorebeams)**(bool ignore =true) |
-| std::vector< std::string > | **[analysisNames](http://example.org/classes/classrivet_1_1analysishandler/#function-analysisnames)**() const<br>Get a list of the currently registered analyses' names.  |
-| std::vector< std::string > | **[stdAnalysisNames](http://example.org/classes/classrivet_1_1analysishandler/#function-stdanalysisnames)**() const<br>Get a list of the official analysis names for this release.  |
-| const std::map< std::string, AnaHandle > & | **[analysesMap](http://example.org/classes/classrivet_1_1analysishandler/#function-analysesmap)**() const<br>Get the collection of currently registered analyses.  |
-| std::vector< AnaHandle > | **[analyses](http://example.org/classes/classrivet_1_1analysishandler/#function-analyses)**() const<br>Get the collection of currently registered analyses.  |
-| AnaHandle | **[analysis](http://example.org/classes/classrivet_1_1analysishandler/#function-analysis)**(const std::string & analysisname)<br>Get a registered analysis by name.  |
-| <a href="http://example.org/classes/classrivet_1_1analysishandler/">AnalysisHandler</a> & | **[addAnalysis](http://example.org/classes/classrivet_1_1analysishandler/#function-addanalysis)**(<a href="http://example.org/classes/classrivet_1_1analysis/">Analysis</a> * analysis)<br>Add an analysis to the run list by object.  |
-| <a href="http://example.org/classes/classrivet_1_1analysishandler/">AnalysisHandler</a> & | **[addAnalysis](http://example.org/classes/classrivet_1_1analysishandler/#function-addanalysis)**(const std::string & analysisname)<br>Add an analysis to the run list using its name.  |
-| <a href="http://example.org/classes/classrivet_1_1analysishandler/">AnalysisHandler</a> & | **[addAnalysis](http://example.org/classes/classrivet_1_1analysishandler/#function-addanalysis)**(const std::string & analysisname, std::map< string, string > pars)<br>Add an analysis with a map of analysis options.  |
-| <a href="http://example.org/classes/classrivet_1_1analysishandler/">AnalysisHandler</a> & | **[addAnalyses](http://example.org/classes/classrivet_1_1analysishandler/#function-addanalyses)**(const std::vector< std::string > & analysisnames)<br>Add analyses to the run list using their names.  |
-| <a href="http://example.org/classes/classrivet_1_1analysishandler/">AnalysisHandler</a> & | **[removeAnalysis](http://example.org/classes/classrivet_1_1analysishandler/#function-removeanalysis)**(const std::string & analysisname)<br>Remove an analysis from the run list using its name.  |
-| <a href="http://example.org/classes/classrivet_1_1analysishandler/">AnalysisHandler</a> & | **[removeAnalyses](http://example.org/classes/classrivet_1_1analysishandler/#function-removeanalyses)**(const std::vector< std::string > & analysisnames)<br>Remove analyses from the run list using their names.  |
-| void | **[init](http://example.org/classes/classrivet_1_1analysishandler/#function-init)**(const GenEvent & event)<br>Initialize a run, with the run beams taken from the example event.  |
-| void | **[analyze](http://example.org/classes/classrivet_1_1analysishandler/#function-analyze)**(const GenEvent & event)<br>Analyze the given _event_ by reference.  |
-| void | **[analyze](http://example.org/classes/classrivet_1_1analysishandler/#function-analyze)**(const GenEvent * event)<br>Analyze the given _event_ by pointer.  |
-| void | **[finalize](http://example.org/classes/classrivet_1_1analysishandler/#function-finalize)**() |
-| void | **[readData](http://example.org/classes/classrivet_1_1analysishandler/#function-readdata)**(std::istream & istr, const string & fmt, bool preload =true)<br>Read analysis plots into the histo collection from the given stream.  |
-| void | **[readData](http://example.org/classes/classrivet_1_1analysishandler/#function-readdata)**(const std::string & filename, bool preload =true)<br>Read analysis plots into the histo collection (via addData) from the named file.  |
-| vector< YODA::AnalysisObjectPtr > | **[getYodaAOs](http://example.org/classes/classrivet_1_1analysishandler/#function-getyodaaos)**(bool includeraw =false) const<br>Get all YODA analysis objects (across all weights, optionally including RAW)  |
-| const YODA::AnalysisObjectPtr | **[getPreload](http://example.org/classes/classrivet_1_1analysishandler/#function-getpreload)**(string path) const |
-| void | **[writeData](http://example.org/classes/classrivet_1_1analysishandler/#function-writedata)**(std::ostream & ostr, const string & fmt) const<br>Write all analyses' plots (via getData) to the given stream.  |
-| void | **[writeData](http://example.org/classes/classrivet_1_1analysishandler/#function-writedata)**(const string & filename) const<br>Write all analyses' plots (via getData) to the named file.  |
-| void | **[setAODump](http://example.org/classes/classrivet_1_1analysishandler/#function-setaodump)**(const string & dumpfile, int period)<br>Configure the AnalysisObject dump rate and destination.  |
-| void | **[setNoAODump](http://example.org/classes/classrivet_1_1analysishandler/#function-setnoaodump)**()<br>Configure the AnalysisObject dump rate and destination.  |
-| void | **[dump](http://example.org/classes/classrivet_1_1analysishandler/#function-dump)**(const string & dumpfile, int period) |
-| void | **[mergeYodas](http://example.org/classes/classrivet_1_1analysishandler/#function-mergeyodas)**(const vector< string > & aofiles, const vector< string > & delopts =vector< string >(), const vector< string > & addopts =vector< string >(), const vector< string > & matches =vector< string >(), const vector< string > & unmatches =vector< string >(), bool equiv =false)<br>Merge the vector of YODA files, using the cross-section and weight information provided in each.  |
-| void | **[merge](http://example.org/classes/classrivet_1_1analysishandler/#function-merge)**(<a href="http://example.org/classes/classrivet_1_1analysishandler/">AnalysisHandler</a> & other)<br>A method to merge another <a href="http://example.org/classes/classrivet_1_1analysishandler/">AnalysisHandler</a> into the current one.  |
-| | **[AnalysisHandler](http://example.org/classes/classrivet_1_1analysishandler/#function-analysishandler)**(const string & runname ="")<br>Preferred constructor, with optional run name.  |
-| | **[AnalysisHandler](http://example.org/classes/classrivet_1_1analysishandler/#function-analysishandler)**(const <a href="http://example.org/classes/classrivet_1_1analysishandler/">AnalysisHandler</a> & ) =delete<br>The copy constructor is deleted, so it can never be called.  |
-| <a href="http://example.org/classes/classrivet_1_1analysishandler/">AnalysisHandler</a> & | **[operator=](http://example.org/classes/classrivet_1_1analysishandler/#function-operator=)**(const <a href="http://example.org/classes/classrivet_1_1analysishandler/">AnalysisHandler</a> & ) =delete<br>The assignment operator is deleted, so it can never be called.  |
-| | **[~AnalysisHandler](http://example.org/classes/classrivet_1_1analysishandler/#function-~analysishandler)**()<br>The destructor is not virtual, as this class should not be inherited from.  |
+| <a href="/documentation/code/classes/classrivet_1_1analysishandler/#enum-stage">Stage</a> | **[stage](/documentation/code/classes/classrivet_1_1analysishandler/#function-stage)**() const<br>Return the current processing stage.  |
+| string | **[runName](/documentation/code/classes/classrivet_1_1analysishandler/#function-runname)**() const<br>Get the name of this run.  |
+| size_t | **[numEvents](/documentation/code/classes/classrivet_1_1analysishandler/#function-numevents)**() const |
+| double | **[sumW](/documentation/code/classes/classrivet_1_1analysishandler/#function-sumw)**() const<br>Access the sum of the event weights seen.  |
+| double | **[sumW2](/documentation/code/classes/classrivet_1_1analysishandler/#function-sumw2)**() const<br>Access to the sum of squared-weights.  |
+| const vector< string > & | **[weightNames](/documentation/code/classes/classrivet_1_1analysishandler/#function-weightnames)**() const<br>Names of event weight categories.  |
+| size_t | **[numWeights](/documentation/code/classes/classrivet_1_1analysishandler/#function-numweights)**() const<br>Indices of the weights in the original weight matrix.  |
+| bool | **[haveNamedWeights](/documentation/code/classes/classrivet_1_1analysishandler/#function-havenamedweights)**() const<br>Are any of the weights non-numeric?  |
+| void | **[setWeightNames](/documentation/code/classes/classrivet_1_1analysishandler/#function-setweightnames)**(const GenEvent & ge)<br>Set the weight names from a GenEvent.  |
+| size_t | **[defaultWeightIndex](/documentation/code/classes/classrivet_1_1analysishandler/#function-defaultweightindex)**() const<br>Get the index of the nominal weight-stream.  |
+| void | **[setWeightCap](/documentation/code/classes/classrivet_1_1analysishandler/#function-setweightcap)**(const double maxWeight)<br>Set the weight cap.  |
+| void | **[setNLOSmearing](/documentation/code/classes/classrivet_1_1analysishandler/#function-setnlosmearing)**(double frac)<br>Set the relative width of the NLO smearing window.  |
+| void | **[skipMultiWeights](/documentation/code/classes/classrivet_1_1analysishandler/#function-skipmultiweights)**(bool ignore =false)<br>Setter for _skipWeights.  |
+| void | **[selectMultiWeights](/documentation/code/classes/classrivet_1_1analysishandler/#function-selectmultiweights)**(std::string patterns ="")<br>Setter for _matchWeightNames.  |
+| void | **[deselectMultiWeights](/documentation/code/classes/classrivet_1_1analysishandler/#function-deselectmultiweights)**(std::string patterns ="")<br>Setter for _unmatchWeightNames.  |
+| void | **[setNominalWeightName](/documentation/code/classes/classrivet_1_1analysishandler/#function-setnominalweightname)**(std::string name ="")<br>Setter for _nominalWeightName.  |
+| Scatter1DPtr | **[crossSection](/documentation/code/classes/classrivet_1_1analysishandler/#function-crosssection)**() const<br>Get the cross-section known to the handler.  |
+| void | **[setCrossSection](/documentation/code/classes/classrivet_1_1analysishandler/#function-setcrosssection)**(const vector< pair< double, double > > & xsecs, bool isUserSupplied =false)<br>Set all cross-sections for the process being generated specifically (preferred)  |
+| void | **[setCrossSection](/documentation/code/classes/classrivet_1_1analysishandler/#function-setcrosssection)**(const pair< double, double > & xsec, bool isUserSupplied =false)<br>Set all cross-sections for the process being generated, based on nominal weight.  |
+| void | **[setCrossSection](/documentation/code/classes/classrivet_1_1analysishandler/#function-setcrosssection)**(double xsec, double xsecerr, bool isUserSupplied =false)<br>Set the cross-section for the process being generated (alternative signature)  |
+| double | **[nominalCrossSection](/documentation/code/classes/classrivet_1_1analysishandler/#function-nominalcrosssection)**() const<br>Get the nominal cross-section.  |
+| <a href="/documentation/code/classes/classrivet_1_1analysishandler/">AnalysisHandler</a> & | **[setRunBeams](/documentation/code/classes/classrivet_1_1analysishandler/#function-setrunbeams)**(const <a href="/documentation/code/namespaces/namespacerivet/#typedef-particlepair">ParticlePair</a> & beams)<br>Set the beam particles for this run.  |
+| const <a href="/documentation/code/namespaces/namespacerivet/#typedef-particlepair">ParticlePair</a> & | **[beams](/documentation/code/classes/classrivet_1_1analysishandler/#function-beams)**() const<br>Get the beam particles for this run, usually determined from the first event.  |
+| PdgIdPair | **[beamIds](/documentation/code/classes/classrivet_1_1analysishandler/#function-beamids)**() const |
+| double | **[sqrtS](/documentation/code/classes/classrivet_1_1analysishandler/#function-sqrts)**() const |
+| void | **[checkBeams](/documentation/code/classes/classrivet_1_1analysishandler/#function-checkbeams)**(bool check =true)<br>Option to disable AH beam-consistency checks.  |
+| void | **[setIgnoreBeams](/documentation/code/classes/classrivet_1_1analysishandler/#function-setignorebeams)**(bool ignore =true) |
+| std::vector< std::string > | **[analysisNames](/documentation/code/classes/classrivet_1_1analysishandler/#function-analysisnames)**() const<br>Get a list of the currently registered analyses' names.  |
+| std::vector< std::string > | **[stdAnalysisNames](/documentation/code/classes/classrivet_1_1analysishandler/#function-stdanalysisnames)**() const<br>Get a list of the official analysis names for this release.  |
+| const std::map< std::string, AnaHandle > & | **[analysesMap](/documentation/code/classes/classrivet_1_1analysishandler/#function-analysesmap)**() const<br>Get the collection of currently registered analyses.  |
+| std::vector< AnaHandle > | **[analyses](/documentation/code/classes/classrivet_1_1analysishandler/#function-analyses)**() const<br>Get the collection of currently registered analyses.  |
+| AnaHandle | **[analysis](/documentation/code/classes/classrivet_1_1analysishandler/#function-analysis)**(const std::string & analysisname)<br>Get a registered analysis by name.  |
+| <a href="/documentation/code/classes/classrivet_1_1analysishandler/">AnalysisHandler</a> & | **[addAnalysis](/documentation/code/classes/classrivet_1_1analysishandler/#function-addanalysis)**(<a href="/documentation/code/classes/classrivet_1_1analysis/">Analysis</a> * analysis)<br>Add an analysis to the run list by object.  |
+| <a href="/documentation/code/classes/classrivet_1_1analysishandler/">AnalysisHandler</a> & | **[addAnalysis](/documentation/code/classes/classrivet_1_1analysishandler/#function-addanalysis)**(const std::string & analysisname)<br>Add an analysis to the run list using its name.  |
+| <a href="/documentation/code/classes/classrivet_1_1analysishandler/">AnalysisHandler</a> & | **[addAnalysis](/documentation/code/classes/classrivet_1_1analysishandler/#function-addanalysis)**(const std::string & analysisname, std::map< string, string > pars)<br>Add an analysis with a map of analysis options.  |
+| <a href="/documentation/code/classes/classrivet_1_1analysishandler/">AnalysisHandler</a> & | **[addAnalyses](/documentation/code/classes/classrivet_1_1analysishandler/#function-addanalyses)**(const std::vector< std::string > & analysisnames)<br>Add analyses to the run list using their names.  |
+| <a href="/documentation/code/classes/classrivet_1_1analysishandler/">AnalysisHandler</a> & | **[removeAnalysis](/documentation/code/classes/classrivet_1_1analysishandler/#function-removeanalysis)**(const std::string & analysisname)<br>Remove an analysis from the run list using its name.  |
+| <a href="/documentation/code/classes/classrivet_1_1analysishandler/">AnalysisHandler</a> & | **[removeAnalyses](/documentation/code/classes/classrivet_1_1analysishandler/#function-removeanalyses)**(const std::vector< std::string > & analysisnames)<br>Remove analyses from the run list using their names.  |
+| void | **[init](/documentation/code/classes/classrivet_1_1analysishandler/#function-init)**(const GenEvent & event)<br>Initialize a run, with the run beams taken from the example event.  |
+| void | **[analyze](/documentation/code/classes/classrivet_1_1analysishandler/#function-analyze)**(const GenEvent & event)<br>Analyze the given _event_ by reference.  |
+| void | **[analyze](/documentation/code/classes/classrivet_1_1analysishandler/#function-analyze)**(const GenEvent * event)<br>Analyze the given _event_ by pointer.  |
+| void | **[finalize](/documentation/code/classes/classrivet_1_1analysishandler/#function-finalize)**() |
+| void | **[readData](/documentation/code/classes/classrivet_1_1analysishandler/#function-readdata)**(std::istream & istr, const string & fmt, bool preload =true)<br>Read analysis plots into the histo collection from the given stream.  |
+| void | **[readData](/documentation/code/classes/classrivet_1_1analysishandler/#function-readdata)**(const std::string & filename, bool preload =true)<br>Read analysis plots into the histo collection (via addData) from the named file.  |
+| vector< YODA::AnalysisObjectPtr > | **[getYodaAOs](/documentation/code/classes/classrivet_1_1analysishandler/#function-getyodaaos)**(bool includeraw =false) const<br>Get all YODA analysis objects (across all weights, optionally including RAW)  |
+| const YODA::AnalysisObjectPtr | **[getPreload](/documentation/code/classes/classrivet_1_1analysishandler/#function-getpreload)**(string path) const |
+| void | **[writeData](/documentation/code/classes/classrivet_1_1analysishandler/#function-writedata)**(std::ostream & ostr, const string & fmt) const<br>Write all analyses' plots (via getData) to the given stream.  |
+| void | **[writeData](/documentation/code/classes/classrivet_1_1analysishandler/#function-writedata)**(const string & filename) const<br>Write all analyses' plots (via getData) to the named file.  |
+| void | **[setAODump](/documentation/code/classes/classrivet_1_1analysishandler/#function-setaodump)**(const string & dumpfile, int period)<br>Configure the AnalysisObject dump rate and destination.  |
+| void | **[setNoAODump](/documentation/code/classes/classrivet_1_1analysishandler/#function-setnoaodump)**()<br>Configure the AnalysisObject dump rate and destination.  |
+| void | **[dump](/documentation/code/classes/classrivet_1_1analysishandler/#function-dump)**(const string & dumpfile, int period) |
+| void | **[mergeYodas](/documentation/code/classes/classrivet_1_1analysishandler/#function-mergeyodas)**(const vector< string > & aofiles, const vector< string > & delopts =vector< string >(), const vector< string > & addopts =vector< string >(), const vector< string > & matches =vector< string >(), const vector< string > & unmatches =vector< string >(), bool equiv =false)<br>Merge the vector of YODA files, using the cross-section and weight information provided in each.  |
+| void | **[merge](/documentation/code/classes/classrivet_1_1analysishandler/#function-merge)**(<a href="/documentation/code/classes/classrivet_1_1analysishandler/">AnalysisHandler</a> & other)<br>A method to merge another <a href="/documentation/code/classes/classrivet_1_1analysishandler/">AnalysisHandler</a> into the current one.  |
+| | **[AnalysisHandler](/documentation/code/classes/classrivet_1_1analysishandler/#function-analysishandler)**(const string & runname ="")<br>Preferred constructor, with optional run name.  |
+| | **[AnalysisHandler](/documentation/code/classes/classrivet_1_1analysishandler/#function-analysishandler)**(const <a href="/documentation/code/classes/classrivet_1_1analysishandler/">AnalysisHandler</a> & ) =delete<br>The copy constructor is deleted, so it can never be called.  |
+| <a href="/documentation/code/classes/classrivet_1_1analysishandler/">AnalysisHandler</a> & | **[operator=](/documentation/code/classes/classrivet_1_1analysishandler/#function-operator=)**(const <a href="/documentation/code/classes/classrivet_1_1analysishandler/">AnalysisHandler</a> & ) =delete<br>The assignment operator is deleted, so it can never be called.  |
+| | **[~AnalysisHandler](/documentation/code/classes/classrivet_1_1analysishandler/#function-~analysishandler)**()<br>The destructor is not virtual, as this class should not be inherited from.  |
 
 ## Detailed Description
 
@@ -88,9 +88,9 @@ The key class for coordination of <a href="http://example.org/classes/classrivet
 class Rivet::AnalysisHandler;
 ```
 
-The key class for coordination of <a href="http://example.org/classes/classrivet_1_1analysis/">Analysis</a> objects and the event loop. 
+The key class for coordination of <a href="/documentation/code/classes/classrivet_1_1analysis/">Analysis</a> objects and the event loop. 
 
-A class which handles a number of analysis objects to be applied to generated events. An <code><a href="http://example.org/classes/classrivet_1_1analysis/">Analysis</a></code>' <a href="http://example.org/classes/classrivet_1_1analysishandler/">AnalysisHandler</a> is also responsible for handling the final writing-out of histograms. 
+A class which handles a number of analysis objects to be applied to generated events. An <code><a href="/documentation/code/classes/classrivet_1_1analysis/">Analysis</a></code>' <a href="/documentation/code/classes/classrivet_1_1analysishandler/">AnalysisHandler</a> is also responsible for handling the final writing-out of histograms. 
 
 ## Public Types Documentation
 
@@ -105,7 +105,7 @@ A class which handles a number of analysis objects to be applied to generated ev
 
 
 
-Indicate which <a href="http://example.org/namespaces/namespacerivet/">Rivet</a> stage we're in. At the moment, only INIT is used to enable booking. 
+Indicate which <a href="/documentation/code/namespaces/namespacerivet/">Rivet</a> stage we're in. At the moment, only INIT is used to enable booking. 
 
 
 ## Public Functions Documentation
@@ -379,9 +379,9 @@ void setIgnoreBeams(
 
 **Deprecated**: 
 
-Use <a href="http://example.org/classes/classrivet_1_1analysishandler/#function-checkbeams">checkBeams()</a>
+Use <a href="/documentation/code/classes/classrivet_1_1analysishandler/#function-checkbeams">checkBeams()</a>
 
-Opposite of <a href="http://example.org/classes/classrivet_1_1analysishandler/#function-checkbeams">checkBeams()</a>
+Opposite of <a href="/documentation/code/classes/classrivet_1_1analysishandler/#function-checkbeams">checkBeams()</a>
 
 
 ### function analysisNames
@@ -446,7 +446,7 @@ AnalysisHandler & addAnalysis(
 
 Add an analysis to the run list using its name. 
 
-The actual <a href="http://example.org/classes/classrivet_1_1analysis/">Analysis</a> to be used will be obtained via AnalysisLoader::getAnalysis(string). If no matching analysis is found, no analysis is added (i.e. the null pointer is checked and discarded. 
+The actual <a href="/documentation/code/classes/classrivet_1_1analysis/">Analysis</a> to be used will be obtained via AnalysisLoader::getAnalysis(string). If no matching analysis is found, no analysis is added (i.e. the null pointer is checked and discarded. 
 
 
 ### function addAnalysis
@@ -470,7 +470,7 @@ AnalysisHandler & addAnalyses(
 
 Add analyses to the run list using their names. 
 
-The actual <code><a href="http://example.org/classes/classrivet_1_1analysis/">Analysis</a></code>' to be used will be obtained via AnalysisHandler::addAnalysis(string), which in turn uses AnalysisLoader::getAnalysis(string). If no matching analysis is found for a given name, no analysis is added, but also no error is thrown. 
+The actual <code><a href="/documentation/code/classes/classrivet_1_1analysis/">Analysis</a></code>' to be used will be obtained via AnalysisHandler::addAnalysis(string), which in turn uses AnalysisLoader::getAnalysis(string). If no matching analysis is found for a given name, no analysis is added, but also no error is thrown. 
 
 
 ### function removeAnalysis
@@ -622,7 +622,7 @@ inline void setAODump(
 
 Configure the AnalysisObject dump rate and destination. 
 
-Tell <a href="http://example.org/namespaces/namespacerivet/">Rivet</a> to dump intermediate result to a file named _dumpfile_ every _period'th_ event. If _period_ is not positive, no dumping will be done. 
+Tell <a href="/documentation/code/namespaces/namespacerivet/">Rivet</a> to dump intermediate result to a file named _dumpfile_ every _period'th_ event. If _period_ is not positive, no dumping will be done. 
 
 
 ### function setNoAODump
@@ -645,9 +645,9 @@ inline void dump(
 
 **Deprecated**: 
 
-Prefer <a href="http://example.org/classes/classrivet_1_1analysishandler/#function-setaodump">setAODump()</a>
+Prefer <a href="/documentation/code/classes/classrivet_1_1analysishandler/#function-setaodump">setAODump()</a>
 
-Alias for <a href="http://example.org/classes/classrivet_1_1analysishandler/#function-setaodump">setAODump()</a>
+Alias for <a href="/documentation/code/classes/classrivet_1_1analysishandler/#function-setaodump">setAODump()</a>
 
 
 ### function mergeYodas
@@ -665,7 +665,7 @@ void mergeYodas(
 
 Merge the vector of YODA files, using the cross-section and weight information provided in each. 
 
-Each file in _aofiles_ is assumed to have been produced by <a href="http://example.org/namespaces/namespacerivet/">Rivet</a>. By default the files are assumed to contain different processes (or the same processs but mutually exclusive cuts), but if _equiv_ if true, the files are assumed to contain output of completely equivalent (but statistically independent) <a href="http://example.org/namespaces/namespacerivet/">Rivet</a> runs. The corresponding analyses will be loaded and their analysis objects will be filled with the merged result. <a href="http://example.org/classes/classrivet_1_1analysishandler/#function-finalize">finalize()</a> will be run on each relevant analysis. The resulting YODA file can then be written out by <a href="http://example.org/classes/classrivet_1_1analysishandler/#function-writedata">writeData()</a>.
+Each file in _aofiles_ is assumed to have been produced by <a href="/documentation/code/namespaces/namespacerivet/">Rivet</a>. By default the files are assumed to contain different processes (or the same processs but mutually exclusive cuts), but if _equiv_ if true, the files are assumed to contain output of completely equivalent (but statistically independent) <a href="/documentation/code/namespaces/namespacerivet/">Rivet</a> runs. The corresponding analyses will be loaded and their analysis objects will be filled with the merged result. <a href="/documentation/code/classes/classrivet_1_1analysishandler/#function-finalize">finalize()</a> will be run on each relevant analysis. The resulting YODA file can then be written out by <a href="/documentation/code/classes/classrivet_1_1analysishandler/#function-writedata">writeData()</a>.
 
 If _delopts_ is non-empty, it is assumed to contain names of different options to be merged into the same analysis objects. 
 
@@ -678,7 +678,7 @@ void merge(
 )
 ```
 
-A method to merge another <a href="http://example.org/classes/classrivet_1_1analysishandler/">AnalysisHandler</a> into the current one. 
+A method to merge another <a href="/documentation/code/classes/classrivet_1_1analysishandler/">AnalysisHandler</a> into the current one. 
 
 ### function AnalysisHandler
 
@@ -720,4 +720,4 @@ The destructor is not virtual, as this class should not be inherited from.
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:08 +0100
+Updated on 2022-07-28 at 18:36:45 +0100

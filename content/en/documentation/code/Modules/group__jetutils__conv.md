@@ -8,7 +8,7 @@ description: "[Documentation update required.]"
 
 # Converting between Jets, Particles and PseudoJets
 
-**Module:** **[Functions for Jets](http://example.org/modules/group__jetutils/)**
+**Module:** **[Functions for Jets](/documentation/code/modules/group__jetutils/)**
 
 
 
@@ -16,9 +16,9 @@ description: "[Documentation update required.]"
 
 |                | Name           |
 | -------------- | -------------- |
-| PseudoJets | **[mkPseudoJets](http://example.org/modules/group__jetutils__conv/#function-mkpseudojets)**(const Particles & ps) |
-| PseudoJets | **[mkPseudoJets](http://example.org/modules/group__jetutils__conv/#function-mkpseudojets)**(const Jets & js) |
-| Jets | **[mkJets](http://example.org/modules/group__jetutils__conv/#function-mkjets)**(const PseudoJets & pjs) |
+| PseudoJets | **[mkPseudoJets](/documentation/code/modules/group__jetutils__conv/#function-mkpseudojets)**(const Particles & ps) |
+| PseudoJets | **[mkPseudoJets](/documentation/code/modules/group__jetutils__conv/#function-mkpseudojets)**(const Jets & js) |
+| Jets | **[mkJets](/documentation/code/modules/group__jetutils__conv/#function-mkjets)**(const PseudoJets & pjs) |
 
 
 ## Functions Documentation
@@ -56,4 +56,4 @@ inline Jets mkJets(
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

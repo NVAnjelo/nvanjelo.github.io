@@ -7,7 +7,7 @@ description: "b-tagging efficiency functor, for more readable b-tag effs and mis
 
 # Rivet::JET_BTAG_EFFS
 
-**Module:** **[Detector smearing & efficiency functions](http://example.org/modules/group__smearing/)** **/** **[Generic jet filtering, efficiency and smearing utils](http://example.org/modules/group__smearing__particle/)**
+**Module:** **[Detector smearing & efficiency functions](/documentation/code/modules/group__smearing/)** **/** **[Generic jet filtering, efficiency and smearing utils](/documentation/code/modules/group__smearing__particle/)**
 
 
 
@@ -20,10 +20,10 @@ b-tagging efficiency functor, for more readable b-tag effs and mistag rates  [Mo
 
 |                | Name           |
 | -------------- | -------------- |
-| | **[JET_BTAG_EFFS](http://example.org/classes/structrivet_1_1jet__btag__effs/#function-jet-btag-effs)**(double eff_b, double eff_light =0) |
-| | **[JET_BTAG_EFFS](http://example.org/classes/structrivet_1_1jet__btag__effs/#function-jet-btag-effs)**(double eff_b, double eff_c, double eff_light) |
-| | **[JET_BTAG_EFFS](http://example.org/classes/structrivet_1_1jet__btag__effs/#function-jet-btag-effs)**(double eff_b, double eff_c, double eff_tau, double eff_light) |
-| double | **[operator()](http://example.org/classes/structrivet_1_1jet__btag__effs/#function-operator())**(const <a href="http://example.org/classes/classrivet_1_1jet/">Jet</a> & j) |
+| | **[JET_BTAG_EFFS](/documentation/code/classes/structrivet_1_1jet__btag__effs/#function-jet-btag-effs)**(double eff_b, double eff_light =0) |
+| | **[JET_BTAG_EFFS](/documentation/code/classes/structrivet_1_1jet__btag__effs/#function-jet-btag-effs)**(double eff_b, double eff_c, double eff_light) |
+| | **[JET_BTAG_EFFS](/documentation/code/classes/structrivet_1_1jet__btag__effs/#function-jet-btag-effs)**(double eff_b, double eff_c, double eff_tau, double eff_light) |
+| double | **[operator()](/documentation/code/classes/structrivet_1_1jet__btag__effs/#function-operator())**(const <a href="/documentation/code/classes/classrivet_1_1jet/">Jet</a> & j) |
 
 ## Detailed Description
 
@@ -80,4 +80,4 @@ inline double operator()(
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

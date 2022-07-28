@@ -7,7 +7,7 @@ description: "Functor for simultaneous efficiency-filtering and smearing of Jets
 
 # Rivet::JetEffSmearFn
 
-**Module:** **[Detector smearing & efficiency functions](http://example.org/modules/group__smearing/)** **/** **[Generic jet filtering, efficiency and smearing utils](http://example.org/modules/group__smearing__particle/)**
+**Module:** **[Detector smearing & efficiency functions](/documentation/code/modules/group__smearing/)** **/** **[Generic jet filtering, efficiency and smearing utils](/documentation/code/modules/group__smearing__particle/)**
 
 
 
@@ -20,21 +20,21 @@ Functor for simultaneous efficiency-filtering and smearing of Jets.  [More...](#
 
 |                | Name           |
 | -------------- | -------------- |
-| | **[JetEffSmearFn](http://example.org/classes/structrivet_1_1jeteffsmearfn/#function-jeteffsmearfn)**(const <a href="http://example.org/modules/group__smearing__particle/#typedef-jetsmearfn">JetSmearFn</a> & s, const <a href="http://example.org/modules/group__smearing__particle/#typedef-jetefffn">JetEffFn</a> & e) |
-| | **[JetEffSmearFn](http://example.org/classes/structrivet_1_1jeteffsmearfn/#function-jeteffsmearfn)**(const <a href="http://example.org/modules/group__smearing__particle/#typedef-jetefffn">JetEffFn</a> & e, const <a href="http://example.org/modules/group__smearing__particle/#typedef-jetsmearfn">JetSmearFn</a> & s) |
-| | **[JetEffSmearFn](http://example.org/classes/structrivet_1_1jeteffsmearfn/#function-jeteffsmearfn)**(const <a href="http://example.org/modules/group__smearing__particle/#typedef-jetsmearfn">JetSmearFn</a> & s) |
-| | **[JetEffSmearFn](http://example.org/classes/structrivet_1_1jeteffsmearfn/#function-jeteffsmearfn)**(const <a href="http://example.org/modules/group__smearing__particle/#typedef-jetefffn">JetEffFn</a> & e) |
-| | **[JetEffSmearFn](http://example.org/classes/structrivet_1_1jeteffsmearfn/#function-jeteffsmearfn)**(double eff) |
-| pair< <a href="http://example.org/classes/classrivet_1_1jet/">Jet</a>, double > | **[operator()](http://example.org/classes/structrivet_1_1jeteffsmearfn/#function-operator())**(const <a href="http://example.org/classes/classrivet_1_1jet/">Jet</a> & j) const<br>Smear and calculate an efficiency for the given jet.  |
-| CmpState | **[cmp](http://example.org/classes/structrivet_1_1jeteffsmearfn/#function-cmp)**(const <a href="http://example.org/classes/structrivet_1_1jeteffsmearfn/">JetEffSmearFn</a> & other) const<br>Compare to another, for use in the projection system.  |
-| | **[operator JetSmearFn](http://example.org/classes/structrivet_1_1jeteffsmearfn/#function-operator-jetsmearfn)**()<br>Automatic conversion to a smearing function.  |
+| | **[JetEffSmearFn](/documentation/code/classes/structrivet_1_1jeteffsmearfn/#function-jeteffsmearfn)**(const <a href="/documentation/code/modules/group__smearing__particle/#typedef-jetsmearfn">JetSmearFn</a> & s, const <a href="/documentation/code/modules/group__smearing__particle/#typedef-jetefffn">JetEffFn</a> & e) |
+| | **[JetEffSmearFn](/documentation/code/classes/structrivet_1_1jeteffsmearfn/#function-jeteffsmearfn)**(const <a href="/documentation/code/modules/group__smearing__particle/#typedef-jetefffn">JetEffFn</a> & e, const <a href="/documentation/code/modules/group__smearing__particle/#typedef-jetsmearfn">JetSmearFn</a> & s) |
+| | **[JetEffSmearFn](/documentation/code/classes/structrivet_1_1jeteffsmearfn/#function-jeteffsmearfn)**(const <a href="/documentation/code/modules/group__smearing__particle/#typedef-jetsmearfn">JetSmearFn</a> & s) |
+| | **[JetEffSmearFn](/documentation/code/classes/structrivet_1_1jeteffsmearfn/#function-jeteffsmearfn)**(const <a href="/documentation/code/modules/group__smearing__particle/#typedef-jetefffn">JetEffFn</a> & e) |
+| | **[JetEffSmearFn](/documentation/code/classes/structrivet_1_1jeteffsmearfn/#function-jeteffsmearfn)**(double eff) |
+| pair< <a href="/documentation/code/classes/classrivet_1_1jet/">Jet</a>, double > | **[operator()](/documentation/code/classes/structrivet_1_1jeteffsmearfn/#function-operator())**(const <a href="/documentation/code/classes/classrivet_1_1jet/">Jet</a> & j) const<br>Smear and calculate an efficiency for the given jet.  |
+| CmpState | **[cmp](/documentation/code/classes/structrivet_1_1jeteffsmearfn/#function-cmp)**(const <a href="/documentation/code/classes/structrivet_1_1jeteffsmearfn/">JetEffSmearFn</a> & other) const<br>Compare to another, for use in the projection system.  |
+| | **[operator JetSmearFn](/documentation/code/classes/structrivet_1_1jeteffsmearfn/#function-operator-jetsmearfn)**()<br>Automatic conversion to a smearing function.  |
 
 ## Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
-| <a href="http://example.org/modules/group__smearing__particle/#typedef-jetsmearfn">JetSmearFn</a> | **[sfn](http://example.org/classes/structrivet_1_1jeteffsmearfn/#variable-sfn)**  |
-| <a href="http://example.org/modules/group__smearing__particle/#typedef-jetefffn">JetEffFn</a> | **[efn](http://example.org/classes/structrivet_1_1jeteffsmearfn/#variable-efn)**  |
+| <a href="/documentation/code/modules/group__smearing__particle/#typedef-jetsmearfn">JetSmearFn</a> | **[sfn](/documentation/code/classes/structrivet_1_1jeteffsmearfn/#variable-sfn)**  |
+| <a href="/documentation/code/modules/group__smearing__particle/#typedef-jetefffn">JetEffFn</a> | **[efn](/documentation/code/classes/structrivet_1_1jeteffsmearfn/#variable-efn)**  |
 
 ## Detailed Description
 
@@ -46,7 +46,7 @@ Functor for simultaneous efficiency-filtering and smearing of Jets.
 
 **Todo**: Include tagging efficiency functions? 
 
-A central element of the <a href="http://example.org/classes/classrivet_1_1smearedjets/">SmearedJets</a> system
+A central element of the <a href="/documentation/code/classes/classrivet_1_1smearedjets/">SmearedJets</a> system
 
 ## Public Functions Documentation
 
@@ -148,4 +148,4 @@ JetEffFn efn;
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

@@ -8,7 +8,7 @@ description: "[Documentation update required.]"
 
 # Rivet::Kin
 
-**Module:** **[Functions for Jets](http://example.org/modules/group__jetutils/)** **/** **[Operations on collections of Jet](http://example.org/modules/group__jetutils__coll/)**
+**Module:** **[Functions for Jets](/documentation/code/modules/group__jetutils/)** **/** **[Operations on collections of Jet](/documentation/code/modules/group__jetutils__coll/)**
 
 
 
@@ -16,26 +16,26 @@ description: "[Documentation update required.]"
 
 |                | Name           |
 | -------------- | -------------- |
-| double | **[sumPt](http://example.org/namespaces/namespacerivet_1_1kin/#function-sumpt)**(const <a href="http://example.org/classes/classrivet_1_1jets/">Jets</a> & js) |
-| <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a> | **[sumP4](http://example.org/namespaces/namespacerivet_1_1kin/#function-sump4)**(const <a href="http://example.org/classes/classrivet_1_1jets/">Jets</a> & js) |
-| <a href="http://example.org/classes/classrivet_1_1vector3/">Vector3</a> | **[sumP3](http://example.org/namespaces/namespacerivet_1_1kin/#function-sump3)**(const <a href="http://example.org/classes/classrivet_1_1jets/">Jets</a> & js) |
-| <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a> | **[mom](http://example.org/modules/group__particlebaseutils/#function-mom)**(const <a href="http://example.org/classes/classrivet_1_1particlebase/">ParticleBase</a> & p)<br>Unbound function access to momentum.  |
-| <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a> | **[p4](http://example.org/modules/group__particlebaseutils/#function-p4)**(const <a href="http://example.org/classes/classrivet_1_1particlebase/">ParticleBase</a> & p)<br>Unbound function access to momentum.  |
-| <a href="http://example.org/classes/classrivet_1_1vector3/">Vector3</a> | **[p3](http://example.org/modules/group__particlebaseutils/#function-p3)**(const <a href="http://example.org/classes/classrivet_1_1particlebase/">ParticleBase</a> & p)<br>Unbound function access to p3.  |
-| <a href="http://example.org/classes/classrivet_1_1vector3/">Vector3</a> | **[pTvec](http://example.org/modules/group__particlebaseutils/#function-ptvec)**(const <a href="http://example.org/classes/classrivet_1_1particlebase/">ParticleBase</a> & p)<br>Unbound function access to pTvec.  |
-| double | **[p](http://example.org/modules/group__particlebaseutils/#function-p)**(const <a href="http://example.org/classes/classrivet_1_1particlebase/">ParticleBase</a> & p)<br>Unbound function access to p.  |
-| double | **[pT](http://example.org/modules/group__particlebaseutils/#function-pt)**(const <a href="http://example.org/classes/classrivet_1_1particlebase/">ParticleBase</a> & p)<br>Unbound function access to pT.  |
-| double | **[Et](http://example.org/modules/group__particlebaseutils/#function-et)**(const <a href="http://example.org/classes/classrivet_1_1particlebase/">ParticleBase</a> & p)<br>Unbound function access to ET.  |
-| double | **[eta](http://example.org/modules/group__particlebaseutils/#function-eta)**(const <a href="http://example.org/classes/classrivet_1_1particlebase/">ParticleBase</a> & p)<br>Unbound function access to eta.  |
-| double | **[abseta](http://example.org/modules/group__particlebaseutils/#function-abseta)**(const <a href="http://example.org/classes/classrivet_1_1particlebase/">ParticleBase</a> & p)<br>Unbound function access to abseta.  |
-| double | **[rap](http://example.org/modules/group__particlebaseutils/#function-rap)**(const <a href="http://example.org/classes/classrivet_1_1particlebase/">ParticleBase</a> & p)<br>Unbound function access to rapidity.  |
-| double | **[absrap](http://example.org/modules/group__particlebaseutils/#function-absrap)**(const <a href="http://example.org/classes/classrivet_1_1particlebase/">ParticleBase</a> & p)<br>Unbound function access to abs rapidity.  |
-| double | **[mass](http://example.org/modules/group__particlebaseutils/#function-mass)**(const <a href="http://example.org/classes/classrivet_1_1particlebase/">ParticleBase</a> & p)<br>Unbound function access to mass.  |
-| double | **[pairPt](http://example.org/modules/group__particlebaseutils/#function-pairpt)**(const <a href="http://example.org/classes/classrivet_1_1particlebase/">ParticleBase</a> & p1, const <a href="http://example.org/classes/classrivet_1_1particlebase/">ParticleBase</a> & p2)<br>Unbound function access to pair pT.  |
-| double | **[pairMass](http://example.org/modules/group__particlebaseutils/#function-pairmass)**(const <a href="http://example.org/classes/classrivet_1_1particlebase/">ParticleBase</a> & p1, const <a href="http://example.org/classes/classrivet_1_1particlebase/">ParticleBase</a> & p2)<br>Unbound function access to pair mass.  |
-| double | **[sumPt](http://example.org/namespaces/namespacerivet_1_1kin/#function-sumpt)**(const <a href="http://example.org/classes/classrivet_1_1particles/">Particles</a> & ps) |
-| <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a> | **[sumP4](http://example.org/namespaces/namespacerivet_1_1kin/#function-sump4)**(const <a href="http://example.org/classes/classrivet_1_1particles/">Particles</a> & ps) |
-| <a href="http://example.org/classes/classrivet_1_1vector3/">Vector3</a> | **[sumP3](http://example.org/namespaces/namespacerivet_1_1kin/#function-sump3)**(const <a href="http://example.org/classes/classrivet_1_1particles/">Particles</a> & ps) |
+| double | **[sumPt](/documentation/code/namespaces/namespacerivet_1_1kin/#function-sumpt)**(const <a href="/documentation/code/classes/classrivet_1_1jets/">Jets</a> & js) |
+| <a href="/documentation/code/classes/classrivet_1_1fourmomentum/">FourMomentum</a> | **[sumP4](/documentation/code/namespaces/namespacerivet_1_1kin/#function-sump4)**(const <a href="/documentation/code/classes/classrivet_1_1jets/">Jets</a> & js) |
+| <a href="/documentation/code/classes/classrivet_1_1vector3/">Vector3</a> | **[sumP3](/documentation/code/namespaces/namespacerivet_1_1kin/#function-sump3)**(const <a href="/documentation/code/classes/classrivet_1_1jets/">Jets</a> & js) |
+| <a href="/documentation/code/classes/classrivet_1_1fourmomentum/">FourMomentum</a> | **[mom](/documentation/code/modules/group__particlebaseutils/#function-mom)**(const <a href="/documentation/code/classes/classrivet_1_1particlebase/">ParticleBase</a> & p)<br>Unbound function access to momentum.  |
+| <a href="/documentation/code/classes/classrivet_1_1fourmomentum/">FourMomentum</a> | **[p4](/documentation/code/modules/group__particlebaseutils/#function-p4)**(const <a href="/documentation/code/classes/classrivet_1_1particlebase/">ParticleBase</a> & p)<br>Unbound function access to momentum.  |
+| <a href="/documentation/code/classes/classrivet_1_1vector3/">Vector3</a> | **[p3](/documentation/code/modules/group__particlebaseutils/#function-p3)**(const <a href="/documentation/code/classes/classrivet_1_1particlebase/">ParticleBase</a> & p)<br>Unbound function access to p3.  |
+| <a href="/documentation/code/classes/classrivet_1_1vector3/">Vector3</a> | **[pTvec](/documentation/code/modules/group__particlebaseutils/#function-ptvec)**(const <a href="/documentation/code/classes/classrivet_1_1particlebase/">ParticleBase</a> & p)<br>Unbound function access to pTvec.  |
+| double | **[p](/documentation/code/modules/group__particlebaseutils/#function-p)**(const <a href="/documentation/code/classes/classrivet_1_1particlebase/">ParticleBase</a> & p)<br>Unbound function access to p.  |
+| double | **[pT](/documentation/code/modules/group__particlebaseutils/#function-pt)**(const <a href="/documentation/code/classes/classrivet_1_1particlebase/">ParticleBase</a> & p)<br>Unbound function access to pT.  |
+| double | **[Et](/documentation/code/modules/group__particlebaseutils/#function-et)**(const <a href="/documentation/code/classes/classrivet_1_1particlebase/">ParticleBase</a> & p)<br>Unbound function access to ET.  |
+| double | **[eta](/documentation/code/modules/group__particlebaseutils/#function-eta)**(const <a href="/documentation/code/classes/classrivet_1_1particlebase/">ParticleBase</a> & p)<br>Unbound function access to eta.  |
+| double | **[abseta](/documentation/code/modules/group__particlebaseutils/#function-abseta)**(const <a href="/documentation/code/classes/classrivet_1_1particlebase/">ParticleBase</a> & p)<br>Unbound function access to abseta.  |
+| double | **[rap](/documentation/code/modules/group__particlebaseutils/#function-rap)**(const <a href="/documentation/code/classes/classrivet_1_1particlebase/">ParticleBase</a> & p)<br>Unbound function access to rapidity.  |
+| double | **[absrap](/documentation/code/modules/group__particlebaseutils/#function-absrap)**(const <a href="/documentation/code/classes/classrivet_1_1particlebase/">ParticleBase</a> & p)<br>Unbound function access to abs rapidity.  |
+| double | **[mass](/documentation/code/modules/group__particlebaseutils/#function-mass)**(const <a href="/documentation/code/classes/classrivet_1_1particlebase/">ParticleBase</a> & p)<br>Unbound function access to mass.  |
+| double | **[pairPt](/documentation/code/modules/group__particlebaseutils/#function-pairpt)**(const <a href="/documentation/code/classes/classrivet_1_1particlebase/">ParticleBase</a> & p1, const <a href="/documentation/code/classes/classrivet_1_1particlebase/">ParticleBase</a> & p2)<br>Unbound function access to pair pT.  |
+| double | **[pairMass](/documentation/code/modules/group__particlebaseutils/#function-pairmass)**(const <a href="/documentation/code/classes/classrivet_1_1particlebase/">ParticleBase</a> & p1, const <a href="/documentation/code/classes/classrivet_1_1particlebase/">ParticleBase</a> & p2)<br>Unbound function access to pair mass.  |
+| double | **[sumPt](/documentation/code/namespaces/namespacerivet_1_1kin/#function-sumpt)**(const <a href="/documentation/code/classes/classrivet_1_1particles/">Particles</a> & ps) |
+| <a href="/documentation/code/classes/classrivet_1_1fourmomentum/">FourMomentum</a> | **[sumP4](/documentation/code/namespaces/namespacerivet_1_1kin/#function-sump4)**(const <a href="/documentation/code/classes/classrivet_1_1particles/">Particles</a> & ps) |
+| <a href="/documentation/code/classes/classrivet_1_1vector3/">Vector3</a> | **[sumP3](/documentation/code/namespaces/namespacerivet_1_1kin/#function-sump3)**(const <a href="/documentation/code/classes/classrivet_1_1particles/">Particles</a> & ps) |
 
 
 ## Functions Documentation
@@ -242,4 +242,4 @@ inline Vector3 sumP3(
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

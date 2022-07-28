@@ -14,14 +14,14 @@ description: "[Documentation update required.]"
 
 | Name           |
 | -------------- |
-| **[Rivet](http://example.org/namespaces/namespacerivet/)**  |
+| **[Rivet](/documentation/code/namespaces/namespacerivet/)**  |
 
 ## Classes
 
 |                | Name           |
 | -------------- | -------------- |
-| struct | **[Rivet::Cutflow](http://example.org/classes/structrivet_1_1cutflow/)** <br>A tracker of numbers & fractions of events passing sequential cuts.  |
-| struct | **[Rivet::Cutflows](http://example.org/classes/structrivet_1_1cutflows/)** <br>A container for several <a href="http://example.org/classes/structrivet_1_1cutflow/">Cutflow</a> objects, with some convenient batch access.  |
+| struct | **[Rivet::Cutflow](/documentation/code/classes/structrivet_1_1cutflow/)** <br>A tracker of numbers & fractions of events passing sequential cuts.  |
+| struct | **[Rivet::Cutflows](/documentation/code/classes/structrivet_1_1cutflows/)** <br>A container for several <a href="/documentation/code/classes/structrivet_1_1cutflow/">Cutflow</a> objects, with some convenient batch access.  |
 
 
 
@@ -285,4 +285,4 @@ namespace Rivet {
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

@@ -7,7 +7,7 @@ description: "Functor for or-combination of selector logic. "
 
 # Rivet::BoolJetOR
 
-**Module:** **[Functions for Jets](http://example.org/modules/group__jetutils/)** **/** **[Jet classifier -> bool functors](http://example.org/modules/group__jetutils__j2bool/)**
+**Module:** **[Functions for Jets](/documentation/code/modules/group__jetutils/)** **/** **[Jet classifier -> bool functors](/documentation/code/modules/group__jetutils__j2bool/)**
 
 
 
@@ -16,30 +16,30 @@ Functor for or-combination of selector logic.
 
 `#include <JetUtils.hh>`
 
-Inherits from [Rivet::BoolJetFunctor](http://example.org/classes/structrivet_1_1booljetfunctor/)
+Inherits from [Rivet::BoolJetFunctor](/documentation/code/classes/structrivet_1_1booljetfunctor/)
 
 ## Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
-| | **[BoolJetOR](http://example.org/classes/structrivet_1_1booljetor/#function-booljetor)**(const std::vector< <a href="http://example.org/modules/group__jetutils__j2bool/#using-jetselector">JetSelector</a> > & sels) |
-| | **[BoolJetOR](http://example.org/classes/structrivet_1_1booljetor/#function-booljetor)**(const <a href="http://example.org/modules/group__jetutils__j2bool/#using-jetselector">JetSelector</a> & a, const <a href="http://example.org/modules/group__jetutils__j2bool/#using-jetselector">JetSelector</a> & b) |
-| | **[BoolJetOR](http://example.org/classes/structrivet_1_1booljetor/#function-booljetor)**(const <a href="http://example.org/modules/group__jetutils__j2bool/#using-jetselector">JetSelector</a> & a, const <a href="http://example.org/modules/group__jetutils__j2bool/#using-jetselector">JetSelector</a> & b, const <a href="http://example.org/modules/group__jetutils__j2bool/#using-jetselector">JetSelector</a> & c) |
-| virtual bool | **[operator()](http://example.org/classes/structrivet_1_1booljetor/#function-operator())**(const <a href="http://example.org/classes/classrivet_1_1jet/">Jet</a> & j) const |
+| | **[BoolJetOR](/documentation/code/classes/structrivet_1_1booljetor/#function-booljetor)**(const std::vector< <a href="/documentation/code/modules/group__jetutils__j2bool/#using-jetselector">JetSelector</a> > & sels) |
+| | **[BoolJetOR](/documentation/code/classes/structrivet_1_1booljetor/#function-booljetor)**(const <a href="/documentation/code/modules/group__jetutils__j2bool/#using-jetselector">JetSelector</a> & a, const <a href="/documentation/code/modules/group__jetutils__j2bool/#using-jetselector">JetSelector</a> & b) |
+| | **[BoolJetOR](/documentation/code/classes/structrivet_1_1booljetor/#function-booljetor)**(const <a href="/documentation/code/modules/group__jetutils__j2bool/#using-jetselector">JetSelector</a> & a, const <a href="/documentation/code/modules/group__jetutils__j2bool/#using-jetselector">JetSelector</a> & b, const <a href="/documentation/code/modules/group__jetutils__j2bool/#using-jetselector">JetSelector</a> & c) |
+| virtual bool | **[operator()](/documentation/code/classes/structrivet_1_1booljetor/#function-operator())**(const <a href="/documentation/code/classes/classrivet_1_1jet/">Jet</a> & j) const |
 
 ## Public Attributes
 
 |                | Name           |
 | -------------- | -------------- |
-| std::vector< <a href="http://example.org/modules/group__jetutils__j2bool/#using-jetselector">JetSelector</a> > | **[selectors](http://example.org/classes/structrivet_1_1booljetor/#variable-selectors)**  |
+| std::vector< <a href="/documentation/code/modules/group__jetutils__j2bool/#using-jetselector">JetSelector</a> > | **[selectors](/documentation/code/classes/structrivet_1_1booljetor/#variable-selectors)**  |
 
 ## Additional inherited members
 
-**Public Functions inherited from [Rivet::BoolJetFunctor](http://example.org/classes/structrivet_1_1booljetfunctor/)**
+**Public Functions inherited from [Rivet::BoolJetFunctor](/documentation/code/classes/structrivet_1_1booljetfunctor/)**
 
 |                | Name           |
 | -------------- | -------------- |
-| virtual | **[~BoolJetFunctor](http://example.org/classes/structrivet_1_1booljetfunctor/#function-~booljetfunctor)**() |
+| virtual | **[~BoolJetFunctor](/documentation/code/classes/structrivet_1_1booljetfunctor/#function-~booljetfunctor)**() |
 
 
 ## Public Functions Documentation
@@ -83,7 +83,7 @@ inline virtual bool operator()(
 ```
 
 
-**Reimplements**: [Rivet::BoolJetFunctor::operator()](http://example.org/classes/structrivet_1_1booljetfunctor/#function-operator())
+**Reimplements**: [Rivet::BoolJetFunctor::operator()](/documentation/code/classes/structrivet_1_1booljetfunctor/#function-operator())
 
 
 ## Public Attributes Documentation
@@ -97,4 +97,4 @@ std::vector< JetSelector > selectors;
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

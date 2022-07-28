@@ -14,13 +14,13 @@ description: "[Documentation update required.]"
 
 | Name           |
 | -------------- |
-| **[Rivet](http://example.org/namespaces/namespacerivet/)**  |
+| **[Rivet](/documentation/code/namespaces/namespacerivet/)**  |
 
 ## Classes
 
 |                | Name           |
 | -------------- | -------------- |
-| class | **[Rivet::AnalysisHandler](http://example.org/classes/classrivet_1_1analysishandler/)** <br>The key class for coordination of <a href="http://example.org/classes/classrivet_1_1analysis/">Analysis</a> objects and the event loop.  |
+| class | **[Rivet::AnalysisHandler](/documentation/code/classes/classrivet_1_1analysishandler/)** <br>The key class for coordination of <a href="/documentation/code/classes/classrivet_1_1analysis/">Analysis</a> objects and the event loop.  |
 
 
 
@@ -331,4 +331,4 @@ namespace Rivet {
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

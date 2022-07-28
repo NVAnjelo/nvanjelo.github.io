@@ -15,10 +15,10 @@ To be used in finalize context only.
 
 |                | Name           |
 | -------------- | -------------- |
-| | **[CounterAdapter](http://example.org/classes/classrivet_1_1analysis_1_1counteradapter/#function-counteradapter)**(double x) |
-| | **[CounterAdapter](http://example.org/classes/classrivet_1_1analysis_1_1counteradapter/#function-counteradapter)**(const YODA::Counter & c) |
-| | **[CounterAdapter](http://example.org/classes/classrivet_1_1analysis_1_1counteradapter/#function-counteradapter)**(const YODA::Scatter1D & s) |
-| | **[operator double](http://example.org/classes/classrivet_1_1analysis_1_1counteradapter/#function-operator-double)**() const |
+| | **[CounterAdapter](/documentation/code/classes/classrivet_1_1analysis_1_1counteradapter/#function-counteradapter)**(double x) |
+| | **[CounterAdapter](/documentation/code/classes/classrivet_1_1analysis_1_1counteradapter/#function-counteradapter)**(const YODA::Counter & c) |
+| | **[CounterAdapter](/documentation/code/classes/classrivet_1_1analysis_1_1counteradapter/#function-counteradapter)**(const YODA::Scatter1D & s) |
+| | **[operator double](/documentation/code/classes/classrivet_1_1analysis_1_1counteradapter/#function-operator-double)**() const |
 
 ## Public Functions Documentation
 
@@ -58,4 +58,4 @@ inline operator double() const
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:08 +0100
+Updated on 2022-07-28 at 18:36:45 +0100

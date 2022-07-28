@@ -14,9 +14,9 @@ description: "[Documentation update required.]"
 
 |                | Name           |
 | -------------- | -------------- |
-| int | **[jSpin](http://example.org/modules/group__mcutils__angmom/#function-jspin)**(int pid)<br>jSpin returns 2J+1, where J is the total spin  |
-| int | **[sSpin](http://example.org/modules/group__mcutils__angmom/#function-sspin)**(int pid)<br>sSpin returns 2S+1, where S is the spin  |
-| int | **[lSpin](http://example.org/modules/group__mcutils__angmom/#function-lspin)**(int pid)<br>lSpin returns 2L+1, where L is the orbital angular momentum  |
+| int | **[jSpin](/documentation/code/modules/group__mcutils__angmom/#function-jspin)**(int pid)<br>jSpin returns 2J+1, where J is the total spin  |
+| int | **[sSpin](/documentation/code/modules/group__mcutils__angmom/#function-sspin)**(int pid)<br>sSpin returns 2S+1, where S is the spin  |
+| int | **[lSpin](/documentation/code/modules/group__mcutils__angmom/#function-lspin)**(int pid)<br>lSpin returns 2L+1, where L is the orbital angular momentum  |
 
 
 ## Functions Documentation
@@ -57,4 +57,4 @@ lSpin returns 2L+1, where L is the orbital angular momentum
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

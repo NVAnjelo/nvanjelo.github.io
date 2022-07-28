@@ -14,10 +14,10 @@ description: "[Documentation update required.]"
 
 | Name           |
 | -------------- |
-| **[Converting between Jets, Particles and PseudoJets](http://example.org/modules/group__jetutils__conv/)**  |
-| **[Jet classifier -> bool functors](http://example.org/modules/group__jetutils__j2bool/)**  |
-| **[Unbound functions for filtering jets](http://example.org/modules/group__jetutils__filt/)**  |
-| **[Operations on collections of Jet](http://example.org/modules/group__jetutils__coll/)**  |
+| **[Converting between Jets, Particles and PseudoJets](/documentation/code/modules/group__jetutils__conv/)**  |
+| **[Jet classifier -> bool functors](/documentation/code/modules/group__jetutils__j2bool/)**  |
+| **[Unbound functions for filtering jets](/documentation/code/modules/group__jetutils__filt/)**  |
+| **[Operations on collections of Jet](/documentation/code/modules/group__jetutils__coll/)**  |
 
 
 
@@ -26,4 +26,4 @@ description: "[Documentation update required.]"
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

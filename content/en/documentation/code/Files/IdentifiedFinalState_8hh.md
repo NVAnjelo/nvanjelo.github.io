@@ -14,13 +14,13 @@ description: "[Documentation update required.]"
 
 | Name           |
 | -------------- |
-| **[Rivet](http://example.org/namespaces/namespacerivet/)**  |
+| **[Rivet](/documentation/code/namespaces/namespacerivet/)**  |
 
 ## Classes
 
 |                | Name           |
 | -------------- | -------------- |
-| class | **[Rivet::IdentifiedFinalState](http://example.org/classes/classrivet_1_1identifiedfinalstate/)** <br>Produce a final state which only contains specified particle IDs.  |
+| class | **[Rivet::IdentifiedFinalState](/documentation/code/classes/classrivet_1_1identifiedfinalstate/)** <br>Produce a final state which only contains specified particle IDs.  |
 
 
 
@@ -135,4 +135,4 @@ namespace Rivet {
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

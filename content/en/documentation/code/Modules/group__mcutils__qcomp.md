@@ -14,13 +14,13 @@ description: "[Documentation update required.]"
 
 |                | Name           |
 | -------------- | -------------- |
-| bool | **[isReggeon](http://example.org/modules/group__mcutils__qcomp/#function-isreggeon)**(int pid)<br>Is this a pomeron, odderon, or generic reggeon?  |
-| bool | **[isMeson](http://example.org/modules/group__mcutils__qcomp/#function-ismeson)**(int pid)<br>Check to see if this is a valid meson.  |
-| bool | **[isBaryon](http://example.org/modules/group__mcutils__qcomp/#function-isbaryon)**(int pid)<br>Check to see if this is a valid baryon.  |
-| bool | **[isDiquark](http://example.org/modules/group__mcutils__qcomp/#function-isdiquark)**(int pid) |
-| bool | **[isDiQuark](http://example.org/modules/group__mcutils__qcomp/#function-isdiquark)**(int pid) |
-| bool | **[isPentaquark](http://example.org/modules/group__mcutils__qcomp/#function-ispentaquark)**(int pid)<br>Check to see if this is a valid pentaquark.  |
-| bool | **[isHadron](http://example.org/modules/group__mcutils__qcomp/#function-ishadron)**(int pid) |
+| bool | **[isReggeon](/documentation/code/modules/group__mcutils__qcomp/#function-isreggeon)**(int pid)<br>Is this a pomeron, odderon, or generic reggeon?  |
+| bool | **[isMeson](/documentation/code/modules/group__mcutils__qcomp/#function-ismeson)**(int pid)<br>Check to see if this is a valid meson.  |
+| bool | **[isBaryon](/documentation/code/modules/group__mcutils__qcomp/#function-isbaryon)**(int pid)<br>Check to see if this is a valid baryon.  |
+| bool | **[isDiquark](/documentation/code/modules/group__mcutils__qcomp/#function-isdiquark)**(int pid) |
+| bool | **[isDiQuark](/documentation/code/modules/group__mcutils__qcomp/#function-isdiquark)**(int pid) |
+| bool | **[isPentaquark](/documentation/code/modules/group__mcutils__qcomp/#function-ispentaquark)**(int pid)<br>Check to see if this is a valid pentaquark.  |
+| bool | **[isHadron](/documentation/code/modules/group__mcutils__qcomp/#function-ishadron)**(int pid) |
 
 
 ## Functions Documentation
@@ -115,4 +115,4 @@ Is this a valid hadron ID?
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

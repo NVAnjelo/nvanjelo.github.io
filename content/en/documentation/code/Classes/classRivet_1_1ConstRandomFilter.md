@@ -18,9 +18,9 @@ Functor used to implement constant random lossiness.
 
 |                | Name           |
 | -------------- | -------------- |
-| | **[ConstRandomFilter](http://example.org/classes/classrivet_1_1constrandomfilter/#function-constrandomfilter)**(double lossFraction) |
-| bool | **[operator()](http://example.org/classes/classrivet_1_1constrandomfilter/#function-operator())**(const <a href="http://example.org/classes/classrivet_1_1particle/">Particle</a> & ) |
-| CmpState | **[compare](http://example.org/classes/classrivet_1_1constrandomfilter/#function-compare)**(const <a href="http://example.org/classes/classrivet_1_1constrandomfilter/">ConstRandomFilter</a> & other) const |
+| | **[ConstRandomFilter](/documentation/code/classes/classrivet_1_1constrandomfilter/#function-constrandomfilter)**(double lossFraction) |
+| bool | **[operator()](/documentation/code/classes/classrivet_1_1constrandomfilter/#function-operator())**(const <a href="/documentation/code/classes/classrivet_1_1particle/">Particle</a> & ) |
+| CmpState | **[compare](/documentation/code/classes/classrivet_1_1constrandomfilter/#function-compare)**(const <a href="/documentation/code/classes/classrivet_1_1constrandomfilter/">ConstRandomFilter</a> & other) const |
 
 ## Public Functions Documentation
 
@@ -53,4 +53,4 @@ inline CmpState compare(
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:08 +0100
+Updated on 2022-07-28 at 18:36:45 +0100

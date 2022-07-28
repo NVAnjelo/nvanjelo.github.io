@@ -14,97 +14,97 @@ Get the transverse spherocity scalars for hadron-colliders.  [More...](#detailed
 
 `#include <Spherocity.hh>`
 
-Inherits from [Rivet::AxesDefinition](http://example.org/classes/classrivet_1_1axesdefinition/), [Rivet::Projection](http://example.org/classes/classrivet_1_1projection/), [Rivet::ProjectionApplier](http://example.org/classes/classrivet_1_1projectionapplier/)
+Inherits from [Rivet::AxesDefinition](/documentation/code/classes/classrivet_1_1axesdefinition/), [Rivet::Projection](/documentation/code/classes/classrivet_1_1projection/), [Rivet::ProjectionApplier](/documentation/code/classes/classrivet_1_1projectionapplier/)
 
 ## Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
-| double | **[spherocity](http://example.org/classes/classrivet_1_1spherocity/#function-spherocity)**() const<br>The spherocity scalar, \( S \), (minimum spherocity).  |
-| const <a href="http://example.org/classes/classrivet_1_1vector3/">Vector3</a> & | **[spherocityAxis](http://example.org/classes/classrivet_1_1spherocity/#function-spherocityaxis)**() const<br>The spherocity axis.  |
-| const <a href="http://example.org/classes/classrivet_1_1vector3/">Vector3</a> & | **[spherocityMajorAxis](http://example.org/classes/classrivet_1_1spherocity/#function-spherocitymajoraxis)**() const<br>The spherocity major axis (axis of max spherocity perpendicular to spherocity axis).  |
-| const <a href="http://example.org/classes/classrivet_1_1vector3/">Vector3</a> & | **[spherocityMinorAxis](http://example.org/classes/classrivet_1_1spherocity/#function-spherocityminoraxis)**() const<br>The spherocity minor axis (axis perpendicular to spherocity and spherocity major).  |
-| virtual const <a href="http://example.org/classes/classrivet_1_1vector3/">Vector3</a> & | **[axis1](http://example.org/classes/classrivet_1_1spherocity/#function-axis1)**() const |
-| virtual const <a href="http://example.org/classes/classrivet_1_1vector3/">Vector3</a> & | **[axis2](http://example.org/classes/classrivet_1_1spherocity/#function-axis2)**() const<br>The 2nd most significant ("major") axis.  |
-| virtual const <a href="http://example.org/classes/classrivet_1_1vector3/">Vector3</a> & | **[axis3](http://example.org/classes/classrivet_1_1spherocity/#function-axis3)**() const<br>The least significant ("minor") axis.  |
-| void | **[calc](http://example.org/classes/classrivet_1_1spherocity/#function-calc)**(const <a href="http://example.org/classes/classrivet_1_1finalstate/">FinalState</a> & fs)<br>Manually calculate the spherocity, without engaging the caching system.  |
-| void | **[calc](http://example.org/classes/classrivet_1_1spherocity/#function-calc)**(const vector< <a href="http://example.org/classes/classrivet_1_1particle/">Particle</a> > & fsparticles)<br>Manually calculate the spherocity, without engaging the caching system.  |
-| void | **[calc](http://example.org/classes/classrivet_1_1spherocity/#function-calc)**(const vector< <a href="http://example.org/classes/classrivet_1_1fourmomentum/">FourMomentum</a> > & fsmomenta)<br>Manually calculate the spherocity, without engaging the caching system.  |
-| void | **[calc](http://example.org/classes/classrivet_1_1spherocity/#function-calc)**(const vector< <a href="http://example.org/classes/classrivet_1_1vector3/">Vector3</a> > & threeMomenta)<br>Manually calculate the spherocity, without engaging the caching system.  |
-| virtual std::string | **[name](http://example.org/classes/classrivet_1_1spherocity/#function-name)**() const<br>Get the name of the projection.  |
-| bool | **[valid](http://example.org/classes/classrivet_1_1spherocity/#function-valid)**() const<br>Get the state of the projetion.  |
-| bool | **[failed](http://example.org/classes/classrivet_1_1spherocity/#function-failed)**() const<br>Get the state of the projetion.  |
-| bool | **[before](http://example.org/classes/classrivet_1_1spherocity/#function-before)**(const <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> & p) const |
-| virtual const std::set< PdgIdPair > | **[beamPairs](http://example.org/classes/classrivet_1_1spherocity/#function-beampairs)**() const |
-| <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> & | **[addPdgIdPair](http://example.org/classes/classrivet_1_1spherocity/#function-addpdgidpair)**(PdgId beam1, PdgId beam2) |
-| std::set< ConstProjectionPtr > | **[getProjections](http://example.org/classes/classrivet_1_1spherocity/#function-getprojections)**() const<br>Get the contained projections, including recursion.  |
-| bool | **[hasProjection](http://example.org/classes/classrivet_1_1spherocity/#function-hasprojection)**(const std::string & name) const<br>Does this applier have a projection registered under the name _name_?  |
-| template <typename PROJ \> <br>const PROJ & | **[getProjection](http://example.org/classes/classrivet_1_1spherocity/#function-getprojection)**(const std::string & name) const |
-| const <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> & | **[getProjection](http://example.org/classes/classrivet_1_1spherocity/#function-getprojection)**(const std::string & name) const |
-| template <typename PROJ \> <br>const PROJ & | **[get](http://example.org/classes/classrivet_1_1spherocity/#function-get)**(const std::string & name) const |
-| template <typename PROJ  =Projection\> <br>std::enable_if_t< std::is_base_of< <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a>, PROJ >::value, const PROJ & > | **[applyProjection](http://example.org/classes/classrivet_1_1spherocity/#function-applyprojection)**(const <a href="http://example.org/classes/classrivet_1_1event/">Event</a> & evt, const <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> & proj) const |
-| template <typename PROJ  =Projection\> <br>std::enable_if_t< std::is_base_of< <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a>, PROJ >::value, const PROJ & > | **[applyProjection](http://example.org/classes/classrivet_1_1spherocity/#function-applyprojection)**(const <a href="http://example.org/classes/classrivet_1_1event/">Event</a> & evt, const PROJ & proj) const |
-| template <typename PROJ  =Projection\> <br>std::enable_if_t< std::is_base_of< <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a>, PROJ >::value, const PROJ & > | **[applyProjection](http://example.org/classes/classrivet_1_1spherocity/#function-applyprojection)**(const <a href="http://example.org/classes/classrivet_1_1event/">Event</a> & evt, const std::string & name) const |
-| template <typename PROJ  =Projection\> <br>std::enable_if_t< std::is_base_of< <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a>, PROJ >::value, const PROJ & > | **[apply](http://example.org/classes/classrivet_1_1spherocity/#function-apply)**(const <a href="http://example.org/classes/classrivet_1_1event/">Event</a> & evt, const <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> & proj) const<br>Apply the supplied projection on event _evt_ (user-facing alias).  |
-| template <typename PROJ  =Projection\> <br>std::enable_if_t< std::is_base_of< <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a>, PROJ >::value, const PROJ & > | **[apply](http://example.org/classes/classrivet_1_1spherocity/#function-apply)**(const <a href="http://example.org/classes/classrivet_1_1event/">Event</a> & evt, const PROJ & proj) const<br>Apply the supplied projection on event _evt_ (user-facing alias).  |
-| template <typename PROJ  =Projection\> <br>std::enable_if_t< std::is_base_of< <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a>, PROJ >::value, const PROJ & > | **[apply](http://example.org/classes/classrivet_1_1spherocity/#function-apply)**(const <a href="http://example.org/classes/classrivet_1_1event/">Event</a> & evt, const std::string & name) const<br>Apply the supplied projection on event _evt_ (user-facing alias).  |
-| template <typename PROJ  =Projection\> <br>std::enable_if_t< std::is_base_of< <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a>, PROJ >::value, const PROJ & > | **[apply](http://example.org/classes/classrivet_1_1spherocity/#function-apply)**(const std::string & name, const <a href="http://example.org/classes/classrivet_1_1event/">Event</a> & evt) const<br>Apply the supplied projection on event _evt_ (convenience arg-reordering alias).  |
-| void | **[markAsOwned](http://example.org/classes/classrivet_1_1spherocity/#function-markasowned)**() const<br>Mark this object as owned by a proj-handler.  |
-| | **[Spherocity](http://example.org/classes/classrivet_1_1spherocity/#function-spherocity)**() |
-| | **[Spherocity](http://example.org/classes/classrivet_1_1spherocity/#function-spherocity)**(const <a href="http://example.org/classes/classrivet_1_1finalstate/">FinalState</a> & fsp)<br>Constructor.  |
-| | **[DEFAULT_RIVET_PROJ_CLONE](http://example.org/classes/classrivet_1_1spherocity/#function-default-rivet-proj-clone)**(<a href="http://example.org/classes/classrivet_1_1spherocity/">Spherocity</a> )<br>Clone on the heap.  |
-| virtual unique_ptr< <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> > | **[clone](http://example.org/classes/classrivet_1_1spherocity/#function-clone)**() const =0<br>Clone on the heap.  |
+| double | **[spherocity](/documentation/code/classes/classrivet_1_1spherocity/#function-spherocity)**() const<br>The spherocity scalar, \( S \), (minimum spherocity).  |
+| const <a href="/documentation/code/classes/classrivet_1_1vector3/">Vector3</a> & | **[spherocityAxis](/documentation/code/classes/classrivet_1_1spherocity/#function-spherocityaxis)**() const<br>The spherocity axis.  |
+| const <a href="/documentation/code/classes/classrivet_1_1vector3/">Vector3</a> & | **[spherocityMajorAxis](/documentation/code/classes/classrivet_1_1spherocity/#function-spherocitymajoraxis)**() const<br>The spherocity major axis (axis of max spherocity perpendicular to spherocity axis).  |
+| const <a href="/documentation/code/classes/classrivet_1_1vector3/">Vector3</a> & | **[spherocityMinorAxis](/documentation/code/classes/classrivet_1_1spherocity/#function-spherocityminoraxis)**() const<br>The spherocity minor axis (axis perpendicular to spherocity and spherocity major).  |
+| virtual const <a href="/documentation/code/classes/classrivet_1_1vector3/">Vector3</a> & | **[axis1](/documentation/code/classes/classrivet_1_1spherocity/#function-axis1)**() const |
+| virtual const <a href="/documentation/code/classes/classrivet_1_1vector3/">Vector3</a> & | **[axis2](/documentation/code/classes/classrivet_1_1spherocity/#function-axis2)**() const<br>The 2nd most significant ("major") axis.  |
+| virtual const <a href="/documentation/code/classes/classrivet_1_1vector3/">Vector3</a> & | **[axis3](/documentation/code/classes/classrivet_1_1spherocity/#function-axis3)**() const<br>The least significant ("minor") axis.  |
+| void | **[calc](/documentation/code/classes/classrivet_1_1spherocity/#function-calc)**(const <a href="/documentation/code/classes/classrivet_1_1finalstate/">FinalState</a> & fs)<br>Manually calculate the spherocity, without engaging the caching system.  |
+| void | **[calc](/documentation/code/classes/classrivet_1_1spherocity/#function-calc)**(const vector< <a href="/documentation/code/classes/classrivet_1_1particle/">Particle</a> > & fsparticles)<br>Manually calculate the spherocity, without engaging the caching system.  |
+| void | **[calc](/documentation/code/classes/classrivet_1_1spherocity/#function-calc)**(const vector< <a href="/documentation/code/classes/classrivet_1_1fourmomentum/">FourMomentum</a> > & fsmomenta)<br>Manually calculate the spherocity, without engaging the caching system.  |
+| void | **[calc](/documentation/code/classes/classrivet_1_1spherocity/#function-calc)**(const vector< <a href="/documentation/code/classes/classrivet_1_1vector3/">Vector3</a> > & threeMomenta)<br>Manually calculate the spherocity, without engaging the caching system.  |
+| virtual std::string | **[name](/documentation/code/classes/classrivet_1_1spherocity/#function-name)**() const<br>Get the name of the projection.  |
+| bool | **[valid](/documentation/code/classes/classrivet_1_1spherocity/#function-valid)**() const<br>Get the state of the projetion.  |
+| bool | **[failed](/documentation/code/classes/classrivet_1_1spherocity/#function-failed)**() const<br>Get the state of the projetion.  |
+| bool | **[before](/documentation/code/classes/classrivet_1_1spherocity/#function-before)**(const <a href="/documentation/code/classes/classrivet_1_1projection/">Projection</a> & p) const |
+| virtual const std::set< PdgIdPair > | **[beamPairs](/documentation/code/classes/classrivet_1_1spherocity/#function-beampairs)**() const |
+| <a href="/documentation/code/classes/classrivet_1_1projection/">Projection</a> & | **[addPdgIdPair](/documentation/code/classes/classrivet_1_1spherocity/#function-addpdgidpair)**(PdgId beam1, PdgId beam2) |
+| std::set< ConstProjectionPtr > | **[getProjections](/documentation/code/classes/classrivet_1_1spherocity/#function-getprojections)**() const<br>Get the contained projections, including recursion.  |
+| bool | **[hasProjection](/documentation/code/classes/classrivet_1_1spherocity/#function-hasprojection)**(const std::string & name) const<br>Does this applier have a projection registered under the name _name_?  |
+| template <typename PROJ \> <br>const PROJ & | **[getProjection](/documentation/code/classes/classrivet_1_1spherocity/#function-getprojection)**(const std::string & name) const |
+| const <a href="/documentation/code/classes/classrivet_1_1projection/">Projection</a> & | **[getProjection](/documentation/code/classes/classrivet_1_1spherocity/#function-getprojection)**(const std::string & name) const |
+| template <typename PROJ \> <br>const PROJ & | **[get](/documentation/code/classes/classrivet_1_1spherocity/#function-get)**(const std::string & name) const |
+| template <typename PROJ  =Projection\> <br>std::enable_if_t< std::is_base_of< <a href="/documentation/code/classes/classrivet_1_1projection/">Projection</a>, PROJ >::value, const PROJ & > | **[applyProjection](/documentation/code/classes/classrivet_1_1spherocity/#function-applyprojection)**(const <a href="/documentation/code/classes/classrivet_1_1event/">Event</a> & evt, const <a href="/documentation/code/classes/classrivet_1_1projection/">Projection</a> & proj) const |
+| template <typename PROJ  =Projection\> <br>std::enable_if_t< std::is_base_of< <a href="/documentation/code/classes/classrivet_1_1projection/">Projection</a>, PROJ >::value, const PROJ & > | **[applyProjection](/documentation/code/classes/classrivet_1_1spherocity/#function-applyprojection)**(const <a href="/documentation/code/classes/classrivet_1_1event/">Event</a> & evt, const PROJ & proj) const |
+| template <typename PROJ  =Projection\> <br>std::enable_if_t< std::is_base_of< <a href="/documentation/code/classes/classrivet_1_1projection/">Projection</a>, PROJ >::value, const PROJ & > | **[applyProjection](/documentation/code/classes/classrivet_1_1spherocity/#function-applyprojection)**(const <a href="/documentation/code/classes/classrivet_1_1event/">Event</a> & evt, const std::string & name) const |
+| template <typename PROJ  =Projection\> <br>std::enable_if_t< std::is_base_of< <a href="/documentation/code/classes/classrivet_1_1projection/">Projection</a>, PROJ >::value, const PROJ & > | **[apply](/documentation/code/classes/classrivet_1_1spherocity/#function-apply)**(const <a href="/documentation/code/classes/classrivet_1_1event/">Event</a> & evt, const <a href="/documentation/code/classes/classrivet_1_1projection/">Projection</a> & proj) const<br>Apply the supplied projection on event _evt_ (user-facing alias).  |
+| template <typename PROJ  =Projection\> <br>std::enable_if_t< std::is_base_of< <a href="/documentation/code/classes/classrivet_1_1projection/">Projection</a>, PROJ >::value, const PROJ & > | **[apply](/documentation/code/classes/classrivet_1_1spherocity/#function-apply)**(const <a href="/documentation/code/classes/classrivet_1_1event/">Event</a> & evt, const PROJ & proj) const<br>Apply the supplied projection on event _evt_ (user-facing alias).  |
+| template <typename PROJ  =Projection\> <br>std::enable_if_t< std::is_base_of< <a href="/documentation/code/classes/classrivet_1_1projection/">Projection</a>, PROJ >::value, const PROJ & > | **[apply](/documentation/code/classes/classrivet_1_1spherocity/#function-apply)**(const <a href="/documentation/code/classes/classrivet_1_1event/">Event</a> & evt, const std::string & name) const<br>Apply the supplied projection on event _evt_ (user-facing alias).  |
+| template <typename PROJ  =Projection\> <br>std::enable_if_t< std::is_base_of< <a href="/documentation/code/classes/classrivet_1_1projection/">Projection</a>, PROJ >::value, const PROJ & > | **[apply](/documentation/code/classes/classrivet_1_1spherocity/#function-apply)**(const std::string & name, const <a href="/documentation/code/classes/classrivet_1_1event/">Event</a> & evt) const<br>Apply the supplied projection on event _evt_ (convenience arg-reordering alias).  |
+| void | **[markAsOwned](/documentation/code/classes/classrivet_1_1spherocity/#function-markasowned)**() const<br>Mark this object as owned by a proj-handler.  |
+| | **[Spherocity](/documentation/code/classes/classrivet_1_1spherocity/#function-spherocity)**() |
+| | **[Spherocity](/documentation/code/classes/classrivet_1_1spherocity/#function-spherocity)**(const <a href="/documentation/code/classes/classrivet_1_1finalstate/">FinalState</a> & fsp)<br>Constructor.  |
+| | **[DEFAULT_RIVET_PROJ_CLONE](/documentation/code/classes/classrivet_1_1spherocity/#function-default-rivet-proj-clone)**(<a href="/documentation/code/classes/classrivet_1_1spherocity/">Spherocity</a> )<br>Clone on the heap.  |
+| virtual unique_ptr< <a href="/documentation/code/classes/classrivet_1_1projection/">Projection</a> > | **[clone](/documentation/code/classes/classrivet_1_1spherocity/#function-clone)**() const =0<br>Clone on the heap.  |
 
 ## Protected Functions
 
 |                | Name           |
 | -------------- | -------------- |
-| <a href="http://example.org/classes/classrivet_1_1log/">Log</a> & | **[getLog](http://example.org/classes/classrivet_1_1spherocity/#function-getlog)**() const<br>Get a <a href="http://example.org/classes/classrivet_1_1log/">Log</a> object based on the getName() property of the calling projection object.  |
-| void | **[setName](http://example.org/classes/classrivet_1_1spherocity/#function-setname)**(const std::string & name)<br>Used by derived classes to set their name.  |
-| void | **[fail](http://example.org/classes/classrivet_1_1spherocity/#function-fail)**()<br>Set the projection in an unvalid state.  |
-| Cmp< <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> > | **[mkNamedPCmp](http://example.org/classes/classrivet_1_1spherocity/#function-mknamedpcmp)**(const <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> & otherparent, const std::string & pname) const |
-| Cmp< <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> > | **[mkPCmp](http://example.org/classes/classrivet_1_1spherocity/#function-mkpcmp)**(const <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> & otherparent, const std::string & pname) const |
-| <a href="http://example.org/classes/classrivet_1_1projectionhandler/">ProjectionHandler</a> & | **[getProjHandler](http://example.org/classes/classrivet_1_1spherocity/#function-getprojhandler)**() const<br>Get a reference to the <a href="http://example.org/classes/classrivet_1_1projectionhandler/">ProjectionHandler</a> for this thread.  |
-| template <typename PROJ \> <br>const PROJ & | **[declareProjection](http://example.org/classes/classrivet_1_1spherocity/#function-declareprojection)**(const PROJ & proj, const std::string & name)<br>Register a contained projection.  |
-| template <typename PROJ \> <br>const PROJ & | **[declare](http://example.org/classes/classrivet_1_1spherocity/#function-declare)**(const PROJ & proj, const std::string & name)<br>Register a contained projection (user-facing version)  |
-| template <typename PROJ \> <br>const PROJ & | **[declare](http://example.org/classes/classrivet_1_1spherocity/#function-declare)**(const std::string & name, const PROJ & proj)<br>Register a contained projection (user-facing, arg-reordered version)  |
-| virtual void | **[project](http://example.org/classes/classrivet_1_1spherocity/#function-project)**(const <a href="http://example.org/classes/classrivet_1_1event/">Event</a> & e)<br>Perform the projection on the <a href="http://example.org/classes/classrivet_1_1event/">Event</a>.  |
-| virtual CmpState | **[compare](http://example.org/classes/classrivet_1_1spherocity/#function-compare)**(const <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> & p) const<br>Compare projections.  |
+| <a href="/documentation/code/classes/classrivet_1_1log/">Log</a> & | **[getLog](/documentation/code/classes/classrivet_1_1spherocity/#function-getlog)**() const<br>Get a <a href="/documentation/code/classes/classrivet_1_1log/">Log</a> object based on the getName() property of the calling projection object.  |
+| void | **[setName](/documentation/code/classes/classrivet_1_1spherocity/#function-setname)**(const std::string & name)<br>Used by derived classes to set their name.  |
+| void | **[fail](/documentation/code/classes/classrivet_1_1spherocity/#function-fail)**()<br>Set the projection in an unvalid state.  |
+| Cmp< <a href="/documentation/code/classes/classrivet_1_1projection/">Projection</a> > | **[mkNamedPCmp](/documentation/code/classes/classrivet_1_1spherocity/#function-mknamedpcmp)**(const <a href="/documentation/code/classes/classrivet_1_1projection/">Projection</a> & otherparent, const std::string & pname) const |
+| Cmp< <a href="/documentation/code/classes/classrivet_1_1projection/">Projection</a> > | **[mkPCmp](/documentation/code/classes/classrivet_1_1spherocity/#function-mkpcmp)**(const <a href="/documentation/code/classes/classrivet_1_1projection/">Projection</a> & otherparent, const std::string & pname) const |
+| <a href="/documentation/code/classes/classrivet_1_1projectionhandler/">ProjectionHandler</a> & | **[getProjHandler](/documentation/code/classes/classrivet_1_1spherocity/#function-getprojhandler)**() const<br>Get a reference to the <a href="/documentation/code/classes/classrivet_1_1projectionhandler/">ProjectionHandler</a> for this thread.  |
+| template <typename PROJ \> <br>const PROJ & | **[declareProjection](/documentation/code/classes/classrivet_1_1spherocity/#function-declareprojection)**(const PROJ & proj, const std::string & name)<br>Register a contained projection.  |
+| template <typename PROJ \> <br>const PROJ & | **[declare](/documentation/code/classes/classrivet_1_1spherocity/#function-declare)**(const PROJ & proj, const std::string & name)<br>Register a contained projection (user-facing version)  |
+| template <typename PROJ \> <br>const PROJ & | **[declare](/documentation/code/classes/classrivet_1_1spherocity/#function-declare)**(const std::string & name, const PROJ & proj)<br>Register a contained projection (user-facing, arg-reordered version)  |
+| virtual void | **[project](/documentation/code/classes/classrivet_1_1spherocity/#function-project)**(const <a href="/documentation/code/classes/classrivet_1_1event/">Event</a> & e)<br>Perform the projection on the <a href="/documentation/code/classes/classrivet_1_1event/">Event</a>.  |
+| virtual CmpState | **[compare](/documentation/code/classes/classrivet_1_1spherocity/#function-compare)**(const <a href="/documentation/code/classes/classrivet_1_1projection/">Projection</a> & p) const<br>Compare projections.  |
 
 ## Additional inherited members
 
-**Public Functions inherited from [Rivet::AxesDefinition](http://example.org/classes/classrivet_1_1axesdefinition/)**
+**Public Functions inherited from [Rivet::AxesDefinition](/documentation/code/classes/classrivet_1_1axesdefinition/)**
 
 |                | Name           |
 | -------------- | -------------- |
-| virtual | **[~AxesDefinition](http://example.org/classes/classrivet_1_1axesdefinition/#function-~axesdefinition)**()<br>Virtual destructor.  |
+| virtual | **[~AxesDefinition](/documentation/code/classes/classrivet_1_1axesdefinition/#function-~axesdefinition)**()<br>Virtual destructor.  |
 
-**Public Functions inherited from [Rivet::Projection](http://example.org/classes/classrivet_1_1projection/)**
-
-|                | Name           |
-| -------------- | -------------- |
-| | **[Projection](http://example.org/classes/classrivet_1_1projection/#function-projection)**()<br>The default constructor.  |
-| virtual | **[~Projection](http://example.org/classes/classrivet_1_1projection/#function-~projection)**()<br>The destructor.  |
-
-**Protected Functions inherited from [Rivet::Projection](http://example.org/classes/classrivet_1_1projection/)**
+**Public Functions inherited from [Rivet::Projection](/documentation/code/classes/classrivet_1_1projection/)**
 
 |                | Name           |
 | -------------- | -------------- |
-| virtual <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> & | **[operator=](http://example.org/classes/classrivet_1_1projection/#function-operator=)**(const <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> & )<br>Block <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> copying.  |
+| | **[Projection](/documentation/code/classes/classrivet_1_1projection/#function-projection)**()<br>The default constructor.  |
+| virtual | **[~Projection](/documentation/code/classes/classrivet_1_1projection/#function-~projection)**()<br>The destructor.  |
 
-**Friends inherited from [Rivet::Projection](http://example.org/classes/classrivet_1_1projection/)**
-
-|                | Name           |
-| -------------- | -------------- |
-| class | **[Event](http://example.org/classes/classrivet_1_1projection/#friend-event)** <br><a href="http://example.org/classes/classrivet_1_1event/">Event</a> is a friend.  |
-| class | **[Cmp< Projection >](http://example.org/classes/classrivet_1_1projection/#friend-cmp<-projection->)** <br>The Cmp specialization for <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> is a friend.  |
-
-**Public Functions inherited from [Rivet::ProjectionApplier](http://example.org/classes/classrivet_1_1projectionapplier/)**
+**Protected Functions inherited from [Rivet::Projection](/documentation/code/classes/classrivet_1_1projection/)**
 
 |                | Name           |
 | -------------- | -------------- |
-| | **[ProjectionApplier](http://example.org/classes/classrivet_1_1projectionapplier/#function-projectionapplier)**()<br>Constructor.  |
-| virtual | **[~ProjectionApplier](http://example.org/classes/classrivet_1_1projectionapplier/#function-~projectionapplier)**() |
+| virtual <a href="/documentation/code/classes/classrivet_1_1projection/">Projection</a> & | **[operator=](/documentation/code/classes/classrivet_1_1projection/#function-operator=)**(const <a href="/documentation/code/classes/classrivet_1_1projection/">Projection</a> & )<br>Block <a href="/documentation/code/classes/classrivet_1_1projection/">Projection</a> copying.  |
+
+**Friends inherited from [Rivet::Projection](/documentation/code/classes/classrivet_1_1projection/)**
+
+|                | Name           |
+| -------------- | -------------- |
+| class | **[Event](/documentation/code/classes/classrivet_1_1projection/#friend-event)** <br><a href="/documentation/code/classes/classrivet_1_1event/">Event</a> is a friend.  |
+| class | **[Cmp< Projection >](/documentation/code/classes/classrivet_1_1projection/#friend-cmp<-projection->)** <br>The Cmp specialization for <a href="/documentation/code/classes/classrivet_1_1projection/">Projection</a> is a friend.  |
+
+**Public Functions inherited from [Rivet::ProjectionApplier](/documentation/code/classes/classrivet_1_1projectionapplier/)**
+
+|                | Name           |
+| -------------- | -------------- |
+| | **[ProjectionApplier](/documentation/code/classes/classrivet_1_1projectionapplier/#function-projectionapplier)**()<br>Constructor.  |
+| virtual | **[~ProjectionApplier](/documentation/code/classes/classrivet_1_1projectionapplier/#function-~projectionapplier)**() |
 
 
 ## Detailed Description
@@ -165,7 +165,7 @@ inline virtual const Vector3 & axis1() const
 ```
 
 
-**Reimplements**: [Rivet::AxesDefinition::axis1](http://example.org/classes/classrivet_1_1axesdefinition/#function-axis1)
+**Reimplements**: [Rivet::AxesDefinition::axis1](/documentation/code/classes/classrivet_1_1axesdefinition/#function-axis1)
 
 
 Axis accessors, in decreasing order of significance. The main axis. 
@@ -179,7 +179,7 @@ inline virtual const Vector3 & axis2() const
 
 The 2nd most significant ("major") axis. 
 
-**Reimplements**: [Rivet::AxesDefinition::axis2](http://example.org/classes/classrivet_1_1axesdefinition/#function-axis2)
+**Reimplements**: [Rivet::AxesDefinition::axis2](/documentation/code/classes/classrivet_1_1axesdefinition/#function-axis2)
 
 
 ### function axis3
@@ -190,7 +190,7 @@ inline virtual const Vector3 & axis3() const
 
 The least significant ("minor") axis. 
 
-**Reimplements**: [Rivet::AxesDefinition::axis3](http://example.org/classes/classrivet_1_1axesdefinition/#function-axis3)
+**Reimplements**: [Rivet::AxesDefinition::axis3](/documentation/code/classes/classrivet_1_1axesdefinition/#function-axis3)
 
 
 ### function calc
@@ -241,7 +241,7 @@ inline virtual std::string name() const
 
 Get the name of the projection. 
 
-**Reimplements**: [Rivet::ProjectionApplier::name](http://example.org/classes/classrivet_1_1projectionapplier/#function-name)
+**Reimplements**: [Rivet::ProjectionApplier::name](/documentation/code/classes/classrivet_1_1projectionapplier/#function-name)
 
 
 ### function valid
@@ -269,7 +269,7 @@ bool before(
 ```
 
 
-Determine whether this object should be ordered before the object _p_ given as argument. If _p_ is of a different class than this, the <a href="http://example.org/classes/classrivet_1_1axesdefinition/#function-before">before()</a> function of the corresponding type_info objects is used. Otherwise, if the objects are of the same class, the virtual compare(const Projection &) will be returned. 
+Determine whether this object should be ordered before the object _p_ given as argument. If _p_ is of a different class than this, the <a href="/documentation/code/classes/classrivet_1_1axesdefinition/#function-before">before()</a> function of the corresponding type_info objects is used. Otherwise, if the objects are of the same class, the virtual compare(const Projection &) will be returned. 
 
 
 ### function beamPairs
@@ -327,7 +327,7 @@ inline const PROJ & getProjection(
 ```
 
 
-**Todo**: Add SFINAE to require that PROJ inherit from <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a>
+**Todo**: Add SFINAE to require that PROJ inherit from <a href="/documentation/code/classes/classrivet_1_1projection/">Projection</a>
 
 Get the named projection, specifying return type via a template argument. 
 
@@ -341,7 +341,7 @@ inline const Projection & getProjection(
 ```
 
 
-Get the named projection (non-templated, so returns as a reference to a <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> base class). 
+Get the named projection (non-templated, so returns as a reference to a <a href="/documentation/code/classes/classrivet_1_1projection/">Projection</a> base class). 
 
 
 ### function get
@@ -354,7 +354,7 @@ inline const PROJ & get(
 ```
 
 
-**Todo**: Add SFINAE to require that PROJ inherit from <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a>
+**Todo**: Add SFINAE to require that PROJ inherit from <a href="/documentation/code/classes/classrivet_1_1projection/">Projection</a>
 
 Get the named projection, specifying return type via a template argument (user-facing alias). 
 
@@ -504,7 +504,7 @@ virtual unique_ptr< Projection > clone() const =0
 
 Clone on the heap. 
 
-**Reimplements**: [Rivet::Beam::clone](http://example.org/classes/classrivet_1_1beam/#function-clone)
+**Reimplements**: [Rivet::Beam::clone](/documentation/code/classes/classrivet_1_1beam/#function-clone)
 
 
 ## Protected Functions Documentation
@@ -515,7 +515,7 @@ Clone on the heap.
 inline Log & getLog() const
 ```
 
-Get a <a href="http://example.org/classes/classrivet_1_1log/">Log</a> object based on the getName() property of the calling projection object. 
+Get a <a href="/documentation/code/classes/classrivet_1_1log/">Log</a> object based on the getName() property of the calling projection object. 
 
 ### function setName
 
@@ -569,7 +569,7 @@ Shortcut to make a named Cmp<Projection> comparison with the <code>&#42;this</co
 inline ProjectionHandler & getProjHandler() const
 ```
 
-Get a reference to the <a href="http://example.org/classes/classrivet_1_1projectionhandler/">ProjectionHandler</a> for this thread. 
+Get a reference to the <a href="/documentation/code/classes/classrivet_1_1projectionhandler/">ProjectionHandler</a> for this thread. 
 
 ### function declareProjection
 
@@ -583,9 +583,9 @@ inline const PROJ & declareProjection(
 
 Register a contained projection. 
 
-**Todo**: Add SFINAE to require that PROJ inherit from <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a>
+**Todo**: Add SFINAE to require that PROJ inherit from <a href="/documentation/code/classes/classrivet_1_1projection/">Projection</a>
 
-The type of the argument is used to instantiate a new projection internally: this new object is applied to events rather than the argument object. Hence you are advised to only use locally-scoped <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> objects in your <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a> and <a href="http://example.org/classes/classrivet_1_1analysis/">Analysis</a> constructors, and to avoid polymorphism (e.g. handling <code>ConcreteProjection</code> via a pointer or reference to type <code><a href="http://example.org/classes/classrivet_1_1projection/">Projection</a></code>) since this will screw up the internal type management.
+The type of the argument is used to instantiate a new projection internally: this new object is applied to events rather than the argument object. Hence you are advised to only use locally-scoped <a href="/documentation/code/classes/classrivet_1_1projection/">Projection</a> objects in your <a href="/documentation/code/classes/classrivet_1_1projection/">Projection</a> and <a href="/documentation/code/classes/classrivet_1_1analysis/">Analysis</a> constructors, and to avoid polymorphism (e.g. handling <code>ConcreteProjection</code> via a pointer or reference to type <code><a href="/documentation/code/classes/classrivet_1_1projection/">Projection</a></code>) since this will screw up the internal type management.
 
 
 ### function declare
@@ -600,7 +600,7 @@ inline const PROJ & declare(
 
 Register a contained projection (user-facing version) 
 
-**Todo**: Add SFINAE to require that PROJ inherit from <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a>
+**Todo**: Add SFINAE to require that PROJ inherit from <a href="/documentation/code/classes/classrivet_1_1projection/">Projection</a>
 
 ### function declare
 
@@ -614,7 +614,7 @@ inline const PROJ & declare(
 
 Register a contained projection (user-facing, arg-reordered version) 
 
-**Todo**: Add SFINAE to require that PROJ inherit from <a href="http://example.org/classes/classrivet_1_1projection/">Projection</a>
+**Todo**: Add SFINAE to require that PROJ inherit from <a href="/documentation/code/classes/classrivet_1_1projection/">Projection</a>
 
 ### function project
 
@@ -624,9 +624,9 @@ inline virtual void project(
 )
 ```
 
-Perform the projection on the <a href="http://example.org/classes/classrivet_1_1event/">Event</a>. 
+Perform the projection on the <a href="/documentation/code/classes/classrivet_1_1event/">Event</a>. 
 
-**Reimplements**: [Rivet::AxesDefinition::project](http://example.org/classes/classrivet_1_1axesdefinition/#function-project)
+**Reimplements**: [Rivet::AxesDefinition::project](/documentation/code/classes/classrivet_1_1axesdefinition/#function-project)
 
 
 ### function compare
@@ -639,9 +639,9 @@ inline virtual CmpState compare(
 
 Compare projections. 
 
-**Reimplements**: [Rivet::AxesDefinition::compare](http://example.org/classes/classrivet_1_1axesdefinition/#function-compare)
+**Reimplements**: [Rivet::AxesDefinition::compare](/documentation/code/classes/classrivet_1_1axesdefinition/#function-compare)
 
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:46 +0100

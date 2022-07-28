@@ -14,10 +14,10 @@ description: "[Documentation update required.]"
 
 |                | Name           |
 | -------------- | -------------- |
-| const ParticlePair & | **[beams](http://example.org/modules/group__analysis__run/#function-beams)**() const<br>Incoming beams for this run.  |
-| const PdgIdPair | **[beamIds](http://example.org/modules/group__analysis__run/#function-beamids)**() const<br>Incoming beam IDs for this run.  |
-| double | **[sqrtS](http://example.org/modules/group__analysis__run/#function-sqrts)**() const<br>Centre of mass energy for this run.  |
-| bool | **[merging](http://example.org/modules/group__analysis__run/#function-merging)**() const<br>Check if we are running rivet-merge.  |
+| const ParticlePair & | **[beams](/documentation/code/modules/group__analysis__run/#function-beams)**() const<br>Incoming beams for this run.  |
+| const PdgIdPair | **[beamIds](/documentation/code/modules/group__analysis__run/#function-beamids)**() const<br>Incoming beam IDs for this run.  |
+| double | **[sqrtS](/documentation/code/modules/group__analysis__run/#function-sqrts)**() const<br>Centre of mass energy for this run.  |
+| bool | **[merging](/documentation/code/modules/group__analysis__run/#function-merging)**() const<br>Check if we are running rivet-merge.  |
 
 
 ## Functions Documentation
@@ -60,4 +60,4 @@ Check if we are running rivet-merge.
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

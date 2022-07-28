@@ -14,19 +14,19 @@ description: "[Documentation update required.]"
 
 |                | Name           |
 | -------------- | -------------- |
-| const std::string & | **[status](http://example.org/modules/group__anainfo__status/#function-status)**() const<br>Whether this analysis is trusted (in any way!)  |
-| void | **[setStatus](http://example.org/modules/group__anainfo__status/#function-setstatus)**(const std::string & status)<br>Set the analysis code status.  |
-| bool | **[reentrant](http://example.org/modules/group__anainfo__status/#function-reentrant)**() const<br>Return true if finalize() can be run multiple times for this analysis.  |
-| void | **[setReentrant](http://example.org/modules/group__anainfo__status/#function-setreentrant)**(bool ree =true)<br>Set re-entrant status.  |
-| bool | **[validated](http://example.org/modules/group__anainfo__status/#function-validated)**() const<br>Return true if validated.  |
-| bool | **[preliminary](http://example.org/modules/group__anainfo__status/#function-preliminary)**() const<br>Return true if preliminary.  |
-| bool | **[obsolete](http://example.org/modules/group__anainfo__status/#function-obsolete)**() const<br>Return true if obsolete.  |
-| bool | **[unvalidated](http://example.org/modules/group__anainfo__status/#function-unvalidated)**() const<br>Return true if unvalidated.  |
-| bool | **[random](http://example.org/modules/group__anainfo__status/#function-random)**() const<br>Return true if includes random variations.  |
-| bool | **[unphysical](http://example.org/modules/group__anainfo__status/#function-unphysical)**() const<br>Return true if the analysis uses generator-dependent information.  |
-| bool | **[hepdata](http://example.org/modules/group__anainfo__status/#function-hepdata)**() const<br>Check if refdata comes automatically from Hepdata.  |
-| bool | **[multiweight](http://example.org/modules/group__anainfo__status/#function-multiweight)**() const<br>Check if this analysis can handle multiple weights.  |
-| bool | **[statuscheck](http://example.org/modules/group__anainfo__status/#function-statuscheck)**(const string & word) const<br>Helper function for checking status-string contents.  |
+| const std::string & | **[status](/documentation/code/modules/group__anainfo__status/#function-status)**() const<br>Whether this analysis is trusted (in any way!)  |
+| void | **[setStatus](/documentation/code/modules/group__anainfo__status/#function-setstatus)**(const std::string & status)<br>Set the analysis code status.  |
+| bool | **[reentrant](/documentation/code/modules/group__anainfo__status/#function-reentrant)**() const<br>Return true if finalize() can be run multiple times for this analysis.  |
+| void | **[setReentrant](/documentation/code/modules/group__anainfo__status/#function-setreentrant)**(bool ree =true)<br>Set re-entrant status.  |
+| bool | **[validated](/documentation/code/modules/group__anainfo__status/#function-validated)**() const<br>Return true if validated.  |
+| bool | **[preliminary](/documentation/code/modules/group__anainfo__status/#function-preliminary)**() const<br>Return true if preliminary.  |
+| bool | **[obsolete](/documentation/code/modules/group__anainfo__status/#function-obsolete)**() const<br>Return true if obsolete.  |
+| bool | **[unvalidated](/documentation/code/modules/group__anainfo__status/#function-unvalidated)**() const<br>Return true if unvalidated.  |
+| bool | **[random](/documentation/code/modules/group__anainfo__status/#function-random)**() const<br>Return true if includes random variations.  |
+| bool | **[unphysical](/documentation/code/modules/group__anainfo__status/#function-unphysical)**() const<br>Return true if the analysis uses generator-dependent information.  |
+| bool | **[hepdata](/documentation/code/modules/group__anainfo__status/#function-hepdata)**() const<br>Check if refdata comes automatically from Hepdata.  |
+| bool | **[multiweight](/documentation/code/modules/group__anainfo__status/#function-multiweight)**() const<br>Check if this analysis can handle multiple weights.  |
+| bool | **[statuscheck](/documentation/code/modules/group__anainfo__status/#function-statuscheck)**(const string & word) const<br>Helper function for checking status-string contents.  |
 
 
 ## Functions Documentation
@@ -147,4 +147,4 @@ Helper function for checking status-string contents.
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

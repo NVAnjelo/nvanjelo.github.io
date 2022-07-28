@@ -8,7 +8,7 @@ description: "[Documentation update required.]"
 
 # Next-level filtering
 
-**Module:** **[Functions for Particles and Jets](http://example.org/modules/group__particlebaseutils/)**
+**Module:** **[Functions for Particles and Jets](/documentation/code/modules/group__particlebaseutils/)**
 
 
 
@@ -16,21 +16,21 @@ description: "[Documentation update required.]"
 
 | Name           |
 | -------------- |
-| **[Isolation helpers](http://example.org/modules/group__particlebaseutils__iso/)**  |
-| **[Unbound functions for kinematic properties](http://example.org/modules/group__particlebaseutils__kin/)**  |
+| **[Isolation helpers](/documentation/code/modules/group__particlebaseutils__iso/)**  |
+| **[Unbound functions for kinematic properties](/documentation/code/modules/group__particlebaseutils__kin/)**  |
 
 ## Functions
 
 |                | Name           |
 | -------------- | -------------- |
-| template <typename PBCONTAINER1 ,typename PBCONTAINER2 \> <br>void | **[idiscardIfAny](http://example.org/modules/group__particlebaseutils__uberfilt/#function-idiscardifany)**(PBCONTAINER1 & tofilter, const PBCONTAINER2 & tocompare, typename std::function< bool(const typename PBCONTAINER1::value_type &, const typename PBCONTAINER2::value_type &)> fn) |
-| template <typename PBCONTAINER1 ,typename PBCONTAINER2 \> <br>PBCONTAINER1 | **[discardIfAny](http://example.org/modules/group__particlebaseutils__uberfilt/#function-discardifany)**(const PBCONTAINER1 & tofilter, const PBCONTAINER2 & tocompare, typename std::function< bool(const typename PBCONTAINER1::value_type &, const typename PBCONTAINER2::value_type &)> fn) |
-| template <typename PBCONTAINER1 ,typename PBCONTAINER2 \> <br>PBCONTAINER1 | **[selectIfAny](http://example.org/modules/group__particlebaseutils__uberfilt/#function-selectifany)**(const PBCONTAINER1 & tofilter, const PBCONTAINER2 & tocompare, typename std::function< bool(const typename PBCONTAINER1::value_type &, const typename PBCONTAINER2::value_type &)> fn) |
-| template <typename PBCONTAINER1 ,typename PBCONTAINER2 \> <br>void | **[iselectIfAny](http://example.org/modules/group__particlebaseutils__uberfilt/#function-iselectifany)**(PBCONTAINER1 & tofilter, const PBCONTAINER2 & tocompare, typename std::function< bool(const typename PBCONTAINER1::value_type &, const typename PBCONTAINER2::value_type &)> fn) |
-| template <typename PBCONTAINER1 ,typename PBCONTAINER2 \> <br>PBCONTAINER1 | **[discardIfAll](http://example.org/modules/group__particlebaseutils__uberfilt/#function-discardifall)**(const PBCONTAINER1 & tofilter, const PBCONTAINER2 & tocompare, typename std::function< bool(const typename PBCONTAINER1::value_type &, const typename PBCONTAINER2::value_type &)> fn) |
-| template <typename PBCONTAINER1 ,typename PBCONTAINER2 \> <br>void | **[idiscardIfAll](http://example.org/modules/group__particlebaseutils__uberfilt/#function-idiscardifall)**(PBCONTAINER1 & tofilter, const PBCONTAINER2 & tocompare, typename std::function< bool(const typename PBCONTAINER1::value_type &, const typename PBCONTAINER2::value_type &)> fn) |
-| template <typename PBCONTAINER1 ,typename PBCONTAINER2 \> <br>PBCONTAINER1 | **[selectIfAll](http://example.org/modules/group__particlebaseutils__uberfilt/#function-selectifall)**(const PBCONTAINER1 & tofilter, const PBCONTAINER2 & tocompare, typename std::function< bool(const typename PBCONTAINER1::value_type &, const typename PBCONTAINER2::value_type &)> fn) |
-| template <typename PBCONTAINER1 ,typename PBCONTAINER2 \> <br>void | **[iselectIfAll](http://example.org/modules/group__particlebaseutils__uberfilt/#function-iselectifall)**(PBCONTAINER1 & tofilter, const PBCONTAINER2 & tocompare, typename std::function< bool(const typename PBCONTAINER1::value_type &, const typename PBCONTAINER2::value_type &)> fn) |
+| template <typename PBCONTAINER1 ,typename PBCONTAINER2 \> <br>void | **[idiscardIfAny](/documentation/code/modules/group__particlebaseutils__uberfilt/#function-idiscardifany)**(PBCONTAINER1 & tofilter, const PBCONTAINER2 & tocompare, typename std::function< bool(const typename PBCONTAINER1::value_type &, const typename PBCONTAINER2::value_type &)> fn) |
+| template <typename PBCONTAINER1 ,typename PBCONTAINER2 \> <br>PBCONTAINER1 | **[discardIfAny](/documentation/code/modules/group__particlebaseutils__uberfilt/#function-discardifany)**(const PBCONTAINER1 & tofilter, const PBCONTAINER2 & tocompare, typename std::function< bool(const typename PBCONTAINER1::value_type &, const typename PBCONTAINER2::value_type &)> fn) |
+| template <typename PBCONTAINER1 ,typename PBCONTAINER2 \> <br>PBCONTAINER1 | **[selectIfAny](/documentation/code/modules/group__particlebaseutils__uberfilt/#function-selectifany)**(const PBCONTAINER1 & tofilter, const PBCONTAINER2 & tocompare, typename std::function< bool(const typename PBCONTAINER1::value_type &, const typename PBCONTAINER2::value_type &)> fn) |
+| template <typename PBCONTAINER1 ,typename PBCONTAINER2 \> <br>void | **[iselectIfAny](/documentation/code/modules/group__particlebaseutils__uberfilt/#function-iselectifany)**(PBCONTAINER1 & tofilter, const PBCONTAINER2 & tocompare, typename std::function< bool(const typename PBCONTAINER1::value_type &, const typename PBCONTAINER2::value_type &)> fn) |
+| template <typename PBCONTAINER1 ,typename PBCONTAINER2 \> <br>PBCONTAINER1 | **[discardIfAll](/documentation/code/modules/group__particlebaseutils__uberfilt/#function-discardifall)**(const PBCONTAINER1 & tofilter, const PBCONTAINER2 & tocompare, typename std::function< bool(const typename PBCONTAINER1::value_type &, const typename PBCONTAINER2::value_type &)> fn) |
+| template <typename PBCONTAINER1 ,typename PBCONTAINER2 \> <br>void | **[idiscardIfAll](/documentation/code/modules/group__particlebaseutils__uberfilt/#function-idiscardifall)**(PBCONTAINER1 & tofilter, const PBCONTAINER2 & tocompare, typename std::function< bool(const typename PBCONTAINER1::value_type &, const typename PBCONTAINER2::value_type &)> fn) |
+| template <typename PBCONTAINER1 ,typename PBCONTAINER2 \> <br>PBCONTAINER1 | **[selectIfAll](/documentation/code/modules/group__particlebaseutils__uberfilt/#function-selectifall)**(const PBCONTAINER1 & tofilter, const PBCONTAINER2 & tocompare, typename std::function< bool(const typename PBCONTAINER1::value_type &, const typename PBCONTAINER2::value_type &)> fn) |
+| template <typename PBCONTAINER1 ,typename PBCONTAINER2 \> <br>void | **[iselectIfAll](/documentation/code/modules/group__particlebaseutils__uberfilt/#function-iselectifall)**(PBCONTAINER1 & tofilter, const PBCONTAINER2 & tocompare, typename std::function< bool(const typename PBCONTAINER1::value_type &, const typename PBCONTAINER2::value_type &)> fn) |
 
 
 ## Functions Documentation
@@ -145,4 +145,4 @@ inline void iselectIfAll(
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100

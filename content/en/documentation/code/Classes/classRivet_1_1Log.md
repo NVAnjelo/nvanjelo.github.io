@@ -18,50 +18,50 @@ Logging system for controlled & formatted writing to stdout.
 
 |                | Name           |
 | -------------- | -------------- |
-| enum| **[Level](http://example.org/classes/classrivet_1_1log/#enum-level)** { TRACE = 0, DEBUG = 10, INFO = 20, WARN = 30, WARNING = 30, ERROR = 40, CRITICAL = 50, ALWAYS = 50}<br><a href="http://example.org/classes/classrivet_1_1log/">Log</a> priority levels.  |
-| typedef std::map< std::string, <a href="http://example.org/classes/classrivet_1_1log/">Log</a> > | **[LogMap](http://example.org/classes/classrivet_1_1log/#typedef-logmap)** <br>Typedef for a collection of named logs.  |
-| typedef std::map< std::string, int > | **[LevelMap](http://example.org/classes/classrivet_1_1log/#typedef-levelmap)** <br>Typedef for a collection of named log levels.  |
-| typedef std::map< int, std::string > | **[ColorCodes](http://example.org/classes/classrivet_1_1log/#typedef-colorcodes)** <br>Typedef for a collection of shell color codes, accessed by log level.  |
+| enum| **[Level](/documentation/code/classes/classrivet_1_1log/#enum-level)** { TRACE = 0, DEBUG = 10, INFO = 20, WARN = 30, WARNING = 30, ERROR = 40, CRITICAL = 50, ALWAYS = 50}<br><a href="/documentation/code/classes/classrivet_1_1log/">Log</a> priority levels.  |
+| typedef std::map< std::string, <a href="/documentation/code/classes/classrivet_1_1log/">Log</a> > | **[LogMap](/documentation/code/classes/classrivet_1_1log/#typedef-logmap)** <br>Typedef for a collection of named logs.  |
+| typedef std::map< std::string, int > | **[LevelMap](/documentation/code/classes/classrivet_1_1log/#typedef-levelmap)** <br>Typedef for a collection of named log levels.  |
+| typedef std::map< int, std::string > | **[ColorCodes](/documentation/code/classes/classrivet_1_1log/#typedef-colorcodes)** <br>Typedef for a collection of shell color codes, accessed by log level.  |
 
 ## Public Functions
 
 |                | Name           |
 | -------------- | -------------- |
-| <a href="http://example.org/classes/classrivet_1_1log/">Log</a> & | **[getLog](http://example.org/classes/classrivet_1_1log/#function-getlog)**(const std::string & name) |
-| <a href="http://example.org/classes/classrivet_1_1log/#enum-level">Level</a> | **[getLevelFromName](http://example.org/classes/classrivet_1_1log/#function-getlevelfromname)**(const std::string & level)<br>Get a log level enum from a string.  |
-| std::string | **[getLevelName](http://example.org/classes/classrivet_1_1log/#function-getlevelname)**(int level)<br>Get the std::string representation of a log level.  |
-| int | **[getLevel](http://example.org/classes/classrivet_1_1log/#function-getlevel)**() const<br>Get the priority level of this logger.  |
-| <a href="http://example.org/classes/classrivet_1_1log/">Log</a> & | **[setLevel](http://example.org/classes/classrivet_1_1log/#function-setlevel)**(int level)<br>Set the priority level of this logger.  |
-| std::string | **[getName](http://example.org/classes/classrivet_1_1log/#function-getname)**() const<br>Get the name of this logger.  |
-| <a href="http://example.org/classes/classrivet_1_1log/">Log</a> & | **[setName](http://example.org/classes/classrivet_1_1log/#function-setname)**(const std::string & name)<br>Set the name of this logger.  |
-| bool | **[isActive](http://example.org/classes/classrivet_1_1log/#function-isactive)**(int level) const<br>Will this log level produce output on this logger at the moment?  |
-| void | **[trace](http://example.org/classes/classrivet_1_1log/#function-trace)**(const std::string & message) |
-| void | **[debug](http://example.org/classes/classrivet_1_1log/#function-debug)**(const std::string & message) |
-| void | **[info](http://example.org/classes/classrivet_1_1log/#function-info)**(const std::string & message) |
-| void | **[warn](http://example.org/classes/classrivet_1_1log/#function-warn)**(const std::string & message) |
-| void | **[error](http://example.org/classes/classrivet_1_1log/#function-error)**(const std::string & message) |
-| void | **[setLevel](http://example.org/classes/classrivet_1_1log/#function-setlevel)**(const std::string & name, int level)<br>Set the log levels.  |
-| void | **[setLevels](http://example.org/classes/classrivet_1_1log/#function-setlevels)**(const <a href="http://example.org/classes/classrivet_1_1log/#typedef-levelmap">LevelMap</a> & logLevels) |
-| void | **[setShowTimestamp](http://example.org/classes/classrivet_1_1log/#function-setshowtimestamp)**(bool showTime =true) |
-| void | **[setShowLevel](http://example.org/classes/classrivet_1_1log/#function-setshowlevel)**(bool showLevel =true) |
-| void | **[setShowLoggerName](http://example.org/classes/classrivet_1_1log/#function-setshowloggername)**(bool showName =true) |
-| void | **[setUseColors](http://example.org/classes/classrivet_1_1log/#function-setusecolors)**(bool useColors =true) |
+| <a href="/documentation/code/classes/classrivet_1_1log/">Log</a> & | **[getLog](/documentation/code/classes/classrivet_1_1log/#function-getlog)**(const std::string & name) |
+| <a href="/documentation/code/classes/classrivet_1_1log/#enum-level">Level</a> | **[getLevelFromName](/documentation/code/classes/classrivet_1_1log/#function-getlevelfromname)**(const std::string & level)<br>Get a log level enum from a string.  |
+| std::string | **[getLevelName](/documentation/code/classes/classrivet_1_1log/#function-getlevelname)**(int level)<br>Get the std::string representation of a log level.  |
+| int | **[getLevel](/documentation/code/classes/classrivet_1_1log/#function-getlevel)**() const<br>Get the priority level of this logger.  |
+| <a href="/documentation/code/classes/classrivet_1_1log/">Log</a> & | **[setLevel](/documentation/code/classes/classrivet_1_1log/#function-setlevel)**(int level)<br>Set the priority level of this logger.  |
+| std::string | **[getName](/documentation/code/classes/classrivet_1_1log/#function-getname)**() const<br>Get the name of this logger.  |
+| <a href="/documentation/code/classes/classrivet_1_1log/">Log</a> & | **[setName](/documentation/code/classes/classrivet_1_1log/#function-setname)**(const std::string & name)<br>Set the name of this logger.  |
+| bool | **[isActive](/documentation/code/classes/classrivet_1_1log/#function-isactive)**(int level) const<br>Will this log level produce output on this logger at the moment?  |
+| void | **[trace](/documentation/code/classes/classrivet_1_1log/#function-trace)**(const std::string & message) |
+| void | **[debug](/documentation/code/classes/classrivet_1_1log/#function-debug)**(const std::string & message) |
+| void | **[info](/documentation/code/classes/classrivet_1_1log/#function-info)**(const std::string & message) |
+| void | **[warn](/documentation/code/classes/classrivet_1_1log/#function-warn)**(const std::string & message) |
+| void | **[error](/documentation/code/classes/classrivet_1_1log/#function-error)**(const std::string & message) |
+| void | **[setLevel](/documentation/code/classes/classrivet_1_1log/#function-setlevel)**(const std::string & name, int level)<br>Set the log levels.  |
+| void | **[setLevels](/documentation/code/classes/classrivet_1_1log/#function-setlevels)**(const <a href="/documentation/code/classes/classrivet_1_1log/#typedef-levelmap">LevelMap</a> & logLevels) |
+| void | **[setShowTimestamp](/documentation/code/classes/classrivet_1_1log/#function-setshowtimestamp)**(bool showTime =true) |
+| void | **[setShowLevel](/documentation/code/classes/classrivet_1_1log/#function-setshowlevel)**(bool showLevel =true) |
+| void | **[setShowLoggerName](/documentation/code/classes/classrivet_1_1log/#function-setshowloggername)**(bool showName =true) |
+| void | **[setUseColors](/documentation/code/classes/classrivet_1_1log/#function-setusecolors)**(bool useColors =true) |
 
 ## Protected Functions
 
 |                | Name           |
 | -------------- | -------------- |
-| | **[Log](http://example.org/classes/classrivet_1_1log/#function-log)**(const std::string & name)<br>Constructor 1.  |
-| | **[Log](http://example.org/classes/classrivet_1_1log/#function-log)**(const std::string & name, int level)<br>Constructor 2.  |
-| std::string | **[getColorCode](http://example.org/classes/classrivet_1_1log/#function-getcolorcode)**(int level) |
-| void | **[log](http://example.org/classes/classrivet_1_1log/#function-log)**(int level, const std::string & message)<br>Write a message at a particular level.  |
-| std::string | **[formatMessage](http://example.org/classes/classrivet_1_1log/#function-formatmessage)**(int level, const std::string & message)<br>Turn a message string into the current log format.  |
+| | **[Log](/documentation/code/classes/classrivet_1_1log/#function-log)**(const std::string & name)<br>Constructor 1.  |
+| | **[Log](/documentation/code/classes/classrivet_1_1log/#function-log)**(const std::string & name, int level)<br>Constructor 2.  |
+| std::string | **[getColorCode](/documentation/code/classes/classrivet_1_1log/#function-getcolorcode)**(int level) |
+| void | **[log](/documentation/code/classes/classrivet_1_1log/#function-log)**(int level, const std::string & message)<br>Write a message at a particular level.  |
+| std::string | **[formatMessage](/documentation/code/classes/classrivet_1_1log/#function-formatmessage)**(int level, const std::string & message)<br>Turn a message string into the current log format.  |
 
 ## Friends
 
 |                | Name           |
 | -------------- | -------------- |
-| std::ostream & | **[operator<<](http://example.org/classes/classrivet_1_1log/#friend-operator<<)**(<a href="http://example.org/classes/classrivet_1_1log/">Log</a> & log, int level) <br>The streaming operator can use <a href="http://example.org/classes/classrivet_1_1log/">Log</a>'s internals.  |
+| std::ostream & | **[operator<<](/documentation/code/classes/classrivet_1_1log/#friend-operator<<)**(<a href="/documentation/code/classes/classrivet_1_1log/">Log</a> & log, int level) <br>The streaming operator can use <a href="/documentation/code/classes/classrivet_1_1log/">Log</a>'s internals.  |
 
 ## Public Types Documentation
 
@@ -80,7 +80,7 @@ Logging system for controlled & formatted writing to stdout.
 
 
 
-<a href="http://example.org/classes/classrivet_1_1log/">Log</a> priority levels. 
+<a href="/documentation/code/classes/classrivet_1_1log/">Log</a> priority levels. 
 
 ### typedef LogMap
 
@@ -353,8 +353,8 @@ friend std::ostream & operator<<(
 );
 ```
 
-The streaming operator can use <a href="http://example.org/classes/classrivet_1_1log/">Log</a>'s internals. 
+The streaming operator can use <a href="/documentation/code/classes/classrivet_1_1log/">Log</a>'s internals. 
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:08 +0100
+Updated on 2022-07-28 at 18:36:46 +0100

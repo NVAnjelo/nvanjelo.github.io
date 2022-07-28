@@ -14,21 +14,21 @@ description: "[Documentation update required.]"
 
 | Name           |
 | -------------- |
-| **[Rivet](http://example.org/namespaces/namespacerivet/)**  |
-| **[Rivet::Kin](http://example.org/namespaces/namespacerivet_1_1kin/)**  |
+| **[Rivet](/documentation/code/namespaces/namespacerivet/)**  |
+| **[Rivet::Kin](/documentation/code/namespaces/namespacerivet_1_1kin/)**  |
 
 ## Classes
 
 |                | Name           |
 | -------------- | -------------- |
-| struct | **[Rivet::BoolJetFunctor](http://example.org/classes/structrivet_1_1booljetfunctor/)** <br>Base type for Jet -> bool functors.  |
-| struct | **[Rivet::BoolJetAND](http://example.org/classes/structrivet_1_1booljetand/)** <br>Functor for and-combination of selector logic.  |
-| struct | **[Rivet::BoolJetOR](http://example.org/classes/structrivet_1_1booljetor/)** <br>Functor for or-combination of selector logic.  |
-| struct | **[Rivet::BoolJetNOT](http://example.org/classes/structrivet_1_1booljetnot/)** <br>Functor for inverting selector logic.  |
-| struct | **[Rivet::HasBTag](http://example.org/classes/structrivet_1_1hasbtag/)** <br>B-tagging functor, with a tag selection cut as the stored state.  |
-| struct | **[Rivet::HasCTag](http://example.org/classes/structrivet_1_1hasctag/)** <br>C-tagging functor, with a tag selection cut as the stored state.  |
-| struct | **[Rivet::HasTauTag](http://example.org/classes/structrivet_1_1hastautag/)** <br>Tau-tagging functor, with a tag selection cut as the stored state.  |
-| struct | **[Rivet::HasNoTag](http://example.org/classes/structrivet_1_1hasnotag/)** <br>Anti-B/C-tagging functor, with a tag selection cut as the stored state.  |
+| struct | **[Rivet::BoolJetFunctor](/documentation/code/classes/structrivet_1_1booljetfunctor/)** <br>Base type for Jet -> bool functors.  |
+| struct | **[Rivet::BoolJetAND](/documentation/code/classes/structrivet_1_1booljetand/)** <br>Functor for and-combination of selector logic.  |
+| struct | **[Rivet::BoolJetOR](/documentation/code/classes/structrivet_1_1booljetor/)** <br>Functor for or-combination of selector logic.  |
+| struct | **[Rivet::BoolJetNOT](/documentation/code/classes/structrivet_1_1booljetnot/)** <br>Functor for inverting selector logic.  |
+| struct | **[Rivet::HasBTag](/documentation/code/classes/structrivet_1_1hasbtag/)** <br>B-tagging functor, with a tag selection cut as the stored state.  |
+| struct | **[Rivet::HasCTag](/documentation/code/classes/structrivet_1_1hasctag/)** <br>C-tagging functor, with a tag selection cut as the stored state.  |
+| struct | **[Rivet::HasTauTag](/documentation/code/classes/structrivet_1_1hastautag/)** <br>Tau-tagging functor, with a tag selection cut as the stored state.  |
+| struct | **[Rivet::HasNoTag](/documentation/code/classes/structrivet_1_1hasnotag/)** <br>Anti-B/C-tagging functor, with a tag selection cut as the stored state.  |
 
 
 
@@ -232,4 +232,4 @@ namespace Rivet {
 
 -------------------------------
 
-Updated on 2022-07-28 at 14:01:09 +0100
+Updated on 2022-07-28 at 18:36:47 +0100
