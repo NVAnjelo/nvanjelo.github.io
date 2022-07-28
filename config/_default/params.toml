@@ -9,11 +9,18 @@ description = "The Rivet toolkit (Robust Independent Validation of Experiment an
 ## Documentation
 # docsVersion = "0.3"
 
+# Logo
+siteLogoLight = "/images/rivet.jpg"
+siteLogoDark = "/images/rivet.jpg"
+siteLogoWidth = "50px"
+
+
+
 ## Open Graph
-images = ["doks.png"]
+images = ["rivet.jpg"]
 ogLocale = "en_US"
-domainTLD = "doks.netlify.app"
-titleHome = "Doks Theme"
+#domainTLD = "doks.netlify.app"
+titleHome = "RIVET"
 
 ## Twitter Cards
 #twitterSite = "@getdoks"
@@ -36,7 +43,7 @@ schemaImageWidth = 1280
 schemaImageHeight = 640
 schemaTwitter = "https://twitter.com/getdoks"
 schemaLinkedIn = ""
-schemaGitHub = "https://github.com/h-enk/doks"
+schemaGitHub = "https://github.com/NVAnjelo/NVAnjelo.github.io"
 schemaSection = "blog"
 
 ## Sitelinks Search Box
@@ -83,7 +90,7 @@ repoHost = "GitHub"
 docsRepo = "https://github.com/NVAnjelo/NVAnjelo.github.io"
 docsRepoBranch = "master"
 docsRepoSubPath = ""
-editPage = false
+editPage = true
 lastMod = false
 
 [sections]
